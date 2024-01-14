@@ -6,7 +6,7 @@ Custom Repository for OpenWRT
 1. Edit ` /etc/opkg.conf ` files, add ` # ` on front from ` option check_signature `
    - Before ` option check_signature `
    - After ` #option check_signature `
-2. Edit ` /etc/opkg/customfeeds.conf ` and Add DBAI OPKG Repo. ex:
+2. Edit ` /etc/opkg/customfeeds.conf ` and Add sign OPKG Repo. ex:
    ```bash
      src/gz sign-act https://repo.signdev.my.id/releases/22.03/packages/aarch64_generic/action
      src/gz sign-base https://repo.signdev.my.id/releases/22.03/packages/aarch64_generic/base
