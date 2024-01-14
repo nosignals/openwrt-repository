@@ -1,1 +1,1 @@
-usign luci-app-ipinfo
+usign luci-app-ipinfo luci-theme-alpha
