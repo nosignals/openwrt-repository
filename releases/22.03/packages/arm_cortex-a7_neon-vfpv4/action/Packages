@@ -9,3 +9,14 @@ Size: 2472
 SHA256sum: 68eda29d327b7e5946546e643e622cd5d0d1d5e285f3a6615cd5bef67a1c3d2d
 Description:  Displays IP address information in overview via ifconfig.co
 
+Package: luci-theme-alpha
+Version: 3.9.1-beta-9
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2764148
+Filename: luci-theme-alpha_3.9.1-beta-9_all.ipk
+Size: 2765068
+SHA256sum: 1f5d35ee1d4ad264a2e3d0c5b4da22a20695ccc920825895ce012a845c3cfd6a
+Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
+

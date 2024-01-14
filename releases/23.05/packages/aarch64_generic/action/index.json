@@ -1,1 +1,1 @@
-{"architecture": "aarch64_generic", "packages":{"luci-app-ipinfo": "2.0.1-20240110"}}
+{"architecture": "aarch64_generic", "packages":{"luci-app-ipinfo": "2.0.1-20240110", "luci-theme-alpha": "3.9.1-beta-9"}}

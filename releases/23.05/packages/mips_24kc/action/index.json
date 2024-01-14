@@ -1,1 +1,1 @@
-{"architecture": "mips_24kc", "packages":{"luci-app-ipinfo": "2.0.1-20240110"}}
+{"architecture": "mips_24kc", "packages":{"luci-app-ipinfo": "2.0.1-20240110", "luci-theme-alpha": "3.9.1-beta-9"}}
