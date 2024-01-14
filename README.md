@@ -1,38 +1,43 @@
-# Github Pages Mini Fileserver
-A mini fileserver which runs on top of Github pages
+# fantastic-packages Packages Downloads
+Welcome to the fantastic-packages packages download page. Follow the links below to find the appropriate directory.
 
-## DEMO
-[https://muink.github.io/ghpages-mini-fileserver.html](https://muink.github.io/ghpages-mini-fileserver/)
+## Link
+[Releases](https://fantastic-packages.github.io/packages/releases/)
 
-## Get started
-- Setup your Github page here https://pages.github.com/  
-- Clone ghpages-mini-fileserver
-```bash
-git clone https://github.com/muink/ghpages-mini-fileserver
+## How to use on OpenWRT
+### Edit `/etc/opkg/customfeeds.conf`
+- Append the following to the EOF
+```ini
+src/gz fantastic_packages_luci https://fantastic-packages.github.io/packages/releases/<major.minor version>/packages/<package arch>/luci
+src/gz fantastic_packages_packages https://fantastic-packages.github.io/packages/releases/<major.minor version>/packages/<package arch>/packages
 ```
-- Remove default home folder `resources/`  
-```bash
-rm -rf ghpages-mini-fileserver/resources
-```
-- Set up your home folder like `mydepot/`  
-```bash
-target='mydepot'
-# Create directory "<target>"
-mkdir ghpages-mini-fileserver/${target}
-# Set home folder "<target>" in prenodes.sh
-sed -i "s,^\(SERVER_HOME=\).*,\1${target}/," ghpages-mini-fileserver/prenodes.sh
-```
-- Run `prenodes.sh` every time at file is added to the home folder
-- Start Jekyll
-```bash
-cd ghpages-mini-fileserver
-jekyll serve
-```
-- Open Webbrowser at [http://localhost:4000/](http://localhost:4000/)
 
-## Add content to your server
-- Just put your stuff inside the home folder and commit & push
-- Open your page at [https://username.github.io/<this_repo>](https://username.github.io/<this_repo>)
+**Note: Please refer to this [matrix](https://github.com/fantastic-packages/packages/blob/master/.github/workflows/AutoBuild.yml#L61) for currently supported Version and Architecture.
+If your device is not listed, you can fork this repo and modify the matrix to add support for your device, then compile it with Github Action in your own repo**
 
-## Important
-Github will complain if you host binaries and/or very large files. If you upload Binaries compress (Zip) them first and try to not abuse with file size. 
+- like this
+```ini
+# add your custom package feeds here
+#
+# src/gz example_feed_name http://www.example.com/path/to/files
+src/gz fantastic_packages_luci https://fantastic-packages.github.io/packages/releases/21.02/packages/x86_64/luci
+src/gz fantastic_packages_packages https://fantastic-packages.github.io/packages/releases/21.02/packages/x86_64/packages
+```
+### Add usign pub-keys to opkg
+- Download `https://fantastic-packages.github.io/packages/releases/<major.minor version>/<KEY-ID>.pub`
+- Put to `/etc/opkg/keys/<key-id>`, note filename must be lowercase
+- Fast script
+```bash
+KEYID=<KEY-ID>
+mkdir -p /etc/opkg/keys 2>/dev/null
+curl -sSL -o /etc/opkg/keys/${KEYID,,} "https://fantastic-packages.github.io/packages/releases/<major.minor version>/${KEYID}.pub"
+```
+- OR
+```bash
+opkg update
+opkg install curl bash
+curl -sSL "https://fantastic-packages.github.io/packages/releases/<major.minor version>/${KEYID}.sh" | bash
+```
+- OR
+
+install [fantastic-feeds](https://github.com/openwrt-xiaomi/fantastic-feeds) by @remittor 

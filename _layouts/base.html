@@ -4,15 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="title">{{ page.title }}</title>
     <link href="{{ '/assets/css/openwrt.css' | relative_url }}" rel="stylesheet">
-    <!-- css list start
-    <link href="{{ '/assets/css/openwrt.css' | relative_url }}" rel="stylesheet">
-    css list end-->
     {% seo %}
 </head>
 <body>
 
 {{ content }}
 
+<p>
+  <b>Read the instruction manual <a href="https://github.com/fantastic-packages/packages/tree/gh-pages#readme" target="_blank">HERE</a></b><br>
+  powered by <a href="https://github.com/muink/ghpages-mini-fileserver" target="_blank">ghpages-mini-fileserver</a> © Anya Lin<br>
+  based on <a href="https://github.com/Karlheinzniebuhr/ghpages-fileserver" target="_blank">ghpages-fileserver</a> © Karlheinzniebuhr
+</p>
 </body>
 
 <script>
