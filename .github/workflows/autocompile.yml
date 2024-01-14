@@ -93,7 +93,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v3
         
-      - name: Move artifact
+      - name: Moving artifact
         shell: bash
         run: |
           vers=$(echo ${{ matrix.release }} | sed 's/..$//')
@@ -103,7 +103,7 @@ jobs:
           rm -rf openwrt_* 2>/dev/null
           
       - name: Display structure of downloaded files
-        working-directory: openwrt_${{ matrix.release }}_${{ matrix.arch }}
+        working-directory: releases
         run: ls -R
         
       - name: Commit and push Packages
