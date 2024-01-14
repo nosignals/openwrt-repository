@@ -139,6 +139,11 @@ jobs:
           bundler-cache: true
           cache-version: 0 
           
+      - name: prenodes
+        env:
+          SERVER_HOME: releases
+        run: ./prenodes.sh
+        
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
