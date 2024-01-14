@@ -64,24 +64,10 @@ jobs:
           path: ${{ github.workspace }}/artifacts/bin/packages/${{ matrix.arch }}/*
 
   push_packages:
-    needs: build_ipk
+    needs: preparing_packages
     permissions:
       contents: write  # To push a branch
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        release:
-          - 22.03.5
-          - 23.05.2
-        arch:
-          - x86_64
-          - mips_24kc
-          - mipsel_24kc
-          - arm_cortex-a7_neon-vfpv4
-          - aarch64_cortex-a53
-          - aarch64_cortex-a72
-          - aarch64_generic
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -90,19 +76,26 @@ jobs:
           lfs: false
           submodules: false
       
-      - name: Download artifact
+      - name: Download temporary artifact
         uses: actions/download-artifact@v3
         
-      - name: Moving artifact
+      - name: Moving artifact to releases
         shell: bash
         run: |
-          vers=$(echo ${{ matrix.release }} | sed 's/..$//')
-          mkdir -p releases 2>/dev/null
-          mkdir -p releases/$vers/packages/${{ matrix.arch }}
-          cp -rf openwrt_${{ matrix.release }}_${{ matrix.arch }}/* releases/$vers/packages/${{ matrix.arch }}
+          version=( 22.03.5 23.05.2 )
+          archi=( x86_64 mips_24kc mipsel_24kc arm_cortex-a7_neon-vfpv4 aarch64_cortex-a53 aarch64_cortex-a72 aarch64_generic )
+          for vr in ${version[*]} 
+            do
+              vers=$(echo $vr | sed 's/..$//')
+              for arc in ${archi[*]} 
+                do
+                  cp -rf openwrt_$vr\_$archi/* releases/$vers/packages/$archi
+                done
+            done
+          
           rm -rf openwrt_* 2>/dev/null
           
-      - name: Display structure of downloaded files
+      - name: Display structure files
         working-directory: releases
         run: ls -R
         
