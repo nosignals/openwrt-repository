@@ -72,8 +72,8 @@ jobs:
       fail-fast: false
       matrix:
         release:
-          - 22.03
-          - 23.05
+          - 22.03.5
+          - 23.05.2
         arch:
           - x86_64
           - mips_24kc
