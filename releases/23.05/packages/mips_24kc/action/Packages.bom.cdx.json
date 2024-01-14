@@ -1,1 +1,1 @@
-{"metadata":{"timestamp":"2024-01-14T05:13:20"},"serialNumber":"urn:uuid:4cd54084-694c-4f49-8919-4a70caaa15bf","specVersion":"1.4","bomFormat":"CycloneDX","version":1,"components":[{"version":"2.0.1","name":"luci-app-ipinfo","type":"application"}]}
+{"components":[{"type":"application","name":"luci-app-ipinfo","version":"2.0.1"}],"metadata":{"timestamp":"2024-01-14T05:21:20"},"version":1,"bomFormat":"CycloneDX","serialNumber":"urn:uuid:10e7fd14-e1be-482a-a902-c6677e974c80","specVersion":"1.4"}
