@@ -1,0 +1,116 @@
+#
+# Copyright (C) 2024 nosignals
+#
+name: AutoCompiler OpenWrt Packages
+
+on:
+  push:
+    branches:
+    - main
+
+jobs: 
+  build_ipk:
+    permissions:
+      contents: write
+    name: AutoCompiler OpenWrt Packages
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        release:
+          - 22.03.5
+          - 23.05.2
+        arch:
+          - x86_64
+          - mips_24kc
+          - mipsel_24kc
+          - arm_cortex-a7_neon-vfpv4
+          - aarch64_cortex-a53
+          - aarch64_cortex-a72
+          - aarch64_generic
+          
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Reading Package 
+        id: list_package
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          branch: main
+          path: list_packages.txt
+
+      - name: List Compiled Packages
+        run: echo "Compiled Packages | ${{ steps.list_package.outputs.content }}"
+        
+      - name: Creating Directory
+        run: mkdir artifacts
+         
+      - name: Building Package
+        uses: nosignals/gh-action-sdk@main
+        env:
+          ARCH: ${{ matrix.arch }}-${{ matrix.release }}
+          ARTIFACTS_DIR: ${{ github.workspace }}/artifacts
+          FEED_DIR: ${{ github.workspace }}/feeds
+          PACKAGES: ${{ steps.list_package.outputs.content }}
+          INDEX: 1
+        
+      - name: Delivering Package
+        uses: actions/upload-artifact@v3
+        with:
+          name: openwrt_${{ matrix.release }}_${{ matrix.arch }}
+          path: ${{ github.workspace }}/artifacts/bin/packages/${{ matrix.arch }}/*
+
+  push_packages:
+    needs: build_ipk
+    permissions:
+      contents: write  # To push a branch
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        release:
+          - 22.03.5
+          - 23.05.2
+        arch:
+          - x86_64
+          - mips_24kc
+          - mipsel_24kc
+          - arm_cortex-a7_neon-vfpv4
+          - aarch64_cortex-a53
+          - aarch64_cortex-a72
+          - aarch64_generic
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: 'gh-pages'
+          lfs: false
+          submodules: false
+      
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        
+      - name: Move artifact
+        shell: bash
+        run: |
+          mkdir -p releases 2>/dev/null
+          mkdir -p releases/21.03/packages releases/22.03/packages releases/23.05/packages
+          cp -rf openwrt_${{ matrix.release }}_${{ matrix.arch }}/* releases/${{ matrix.release }}/${{ matrix.arch }}
+          rm -rf openwrt_* 2>/dev/null
+          
+      - name: Display structure of downloaded files
+        working-directory: openwrt_${{ matrix.release }}_${{ matrix.arch }}
+        run: ls -R
+        
+      - name: Commit and push Packages
+        env:
+          Branch: gh-pages
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "actions-user@users.noreply.github.com"
+          git add .
+          git commit -m "Update Packages"
+          git push
