@@ -1,0 +1,15 @@
+Package: luci-app-ipinfo
+Version: 2.0.1-20240110
+Depends: libc, curl
+Source: /feed/luci-app-ipinfo
+SourceName: luci-app-ipinfo
+Section: luci
+SourceDateEpoch: 1682627295
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1624
+Filename: luci-app-ipinfo_2.0.1-20240110_all.ipk
+Size: 2472
+SHA256sum: 68eda29d327b7e5946546e643e622cd5d0d1d5e285f3a6615cd5bef67a1c3d2d
+Description:  Displays IP address information in overview via ifconfig.co
+

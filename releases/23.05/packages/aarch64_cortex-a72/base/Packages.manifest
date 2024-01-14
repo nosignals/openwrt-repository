@@ -1,0 +1,279 @@
+Package: ca-bundle
+Version: 20230311-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-bundle
+Section: base
+SourceDateEpoch: 1685567406
+Architecture: all
+Installed-Size: 123478
+Filename: ca-bundle_20230311-1_all.ipk
+Size: 124264
+SHA256sum: 66ae5f5e25fe63fe791822b8defa6c03e69ebf8f90c29ab225090ea449c50957
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20230311-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-certificates
+Section: base
+SourceDateEpoch: 1685567406
+Architecture: all
+Installed-Size: 133836
+Filename: ca-certificates_20230311-1_all.ipk
+Size: 134559
+SHA256sum: afcf1dae32e6f4403fc82655d97c961a1cde40cf7ebc69052985679e099f1276
+Description:  System CA certificates
+
+Package: jshn
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523, libblobmsg-json20230523
+Source: feeds/base/package/libs/libubox
+SourceName: jshn
+License: ISC
+Section: utils
+SourceDateEpoch: 1686600618
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 7130
+Filename: jshn_2023-05-23-75a3b870-1_aarch64_cortex-a72.ipk
+Size: 7765
+SHA256sum: 4a610806afcf78793ddca0a0010fdeca65ac83948be1d2979743390a887c3e32
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: libblobmsg-json20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523
+Provides: libblobmsg-json
+Source: feeds/base/package/libs/libubox
+SourceName: libblobmsg-json
+License: ISC
+Section: libs
+SourceDateEpoch: 1686600618
+ABIVersion: 20230523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4390
+Filename: libblobmsg-json20230523_2023-05-23-75a3b870-1_aarch64_cortex-a72.ipk
+Size: 5021
+SHA256sum: 80519f7ec0e2eda88d4cffb1758c4fcc49041179a4f9f579334d082515181b90
+Description:  blobmsg <-> json conversion library
+
+Package: libjson-c5
+Version: 0.16-3
+Depends: libc
+Provides: libjson-c
+Source: feeds/base/package/libs/libjson-c
+SourceName: libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1684496598
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 28909
+Filename: libjson-c5_0.16-3_aarch64_cortex-a72.ipk
+Size: 29713
+SHA256sum: d848796c62d3d1f62b13c1482ccf46543f98f95240ec851d8babfae6c4981c6b
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523
+Provides: libjson-script
+Source: feeds/base/package/libs/libubox
+SourceName: libjson-script
+License: ISC
+Section: utils
+SourceDateEpoch: 1686600618
+ABIVersion: 20230523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5681
+Filename: libjson-script20230523_2023-05-23-75a3b870-1_aarch64_cortex-a72.ipk
+Size: 6297
+SHA256sum: e1a2730268667dad59b3bf186f723b05f9ab3f6e8729cdb566d6b7f507515d4c
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-10
+Depends: libc
+Provides: liblua
+Source: feeds/base/package/utils/lua
+SourceName: liblua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1698709443
+ABIVersion: 5.1.5
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 78273
+Filename: liblua5.1.5_5.1.5-10_aarch64_cortex-a72.ipk
+Size: 79108
+SHA256sum: 76cf3215a97bd7ab51152ea06f477850aea5615f3690d193252fb381abeb5831
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls12
+Version: 2.28.5-2
+Depends: libc
+Provides: libmbedtls
+Source: feeds/base/package/libs/mbedtls
+SourceName: libmbedtls
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: libs
+SourceDateEpoch: 1699313840
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a72
+Installed-Size: 252618
+Filename: libmbedtls12_2.28.5-2_aarch64_cortex-a72.ipk
+Size: 253153
+SHA256sum: 74be1857fd8b22eb3ccaa1090ee1840f8307c82f4c086409482718e7801966ae
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libubox-lua
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523, liblua5.1.5
+Source: feeds/base/package/libs/libubox
+SourceName: libubox-lua
+License: ISC
+Section: libs
+SourceDateEpoch: 1686600618
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4555
+Filename: libubox-lua_2023-05-23-75a3b870-1_aarch64_cortex-a72.ipk
+Size: 5157
+SHA256sum: b64f9953489a17a96f9720e5332fc8685f83c8897fe41ffeb59b335817f39e2e
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc
+Provides: libubox
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1686600618
+ABIVersion: 20230523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 24513
+Filename: libubox20230523_2023-05-23-75a3b870-1_aarch64_cortex-a72.ipk
+Size: 25161
+SHA256sum: b932694144fe93b33111c88c113022905e481dbae3d834505539ffe384e02db4
+Description:  Basic utility library
+
+Package: lua-examples
+Version: 5.1.5-10
+Depends: libc, lua
+Source: feeds/base/package/utils/lua
+SourceName: lua-examples
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1698709443
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5290
+Filename: lua-examples_5.1.5-10_aarch64_cortex-a72.ipk
+Size: 6188
+SHA256sum: 4894a5275b0f11b5cf010a9581e508a987a85eb7dce18a1928079b3896e42a84
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: lua
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1698709443
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5177
+Filename: lua_5.1.5-10_aarch64_cortex-a72.ipk
+Size: 5892
+SHA256sum: 44b1db604ec2d75390483b812e6e2878437456af5e20d1a573aef5a5cbe51919
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: luac
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1698709443
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5660
+Filename: luac_5.1.5-10_aarch64_cortex-a72.ipk
+Size: 6485
+SHA256sum: 6170a74d03c6a5611b98f102d0259e2ea3a2d84568188daeffd78dd76acef197
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: mbedtls-util
+Version: 2.28.5-2
+Depends: libc, libmbedtls12
+Source: feeds/base/package/libs/mbedtls
+SourceName: mbedtls-util
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: utils
+SourceDateEpoch: 1699313840
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a72
+Installed-Size: 33389
+Filename: mbedtls-util_2.28.5-2_aarch64_cortex-a72.ipk
+Size: 34082
+SHA256sum: 849f4131baa1e27350d3a059f6adddbac873722d4fad4dfc9052b6f4759d3f2e
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20230523
+Source: feeds/base/package/system/usign
+SourceName: usign
+License: ISC
+Section: base
+SourceDateEpoch: 1679419702
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11804
+Filename: usign_2020-05-23-f1f65026-1_aarch64_cortex-a72.ipk
+Size: 12422
+SHA256sum: 17e5e91a4dc2eb41571f15f4d937566dd74ab3907ca8a18aa9ee08e81f6ce167
+Description:  OpenWrt signature verification utility
+

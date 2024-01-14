@@ -1,0 +1,42 @@
+Package: curl
+Version: 8.4.0-2
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 63769
+Filename: curl_8.4.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 64597
+SHA256sum: 092551a8ad6dd2518d3371b9bf854ff1105d3bbb5c4cd811b586fb29fc18cd74
+Description:  A client-side URL transfer utility
+
+Package: libcurl4
+Version: 8.4.0-2
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 180712
+Filename: libcurl4_8.4.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 181212
+SHA256sum: 5dcfdba27b7fc7f5792d547422b1de406f22f4dff2f94c3fc1be4f66d8c3fcd5
+Description:  A client-side URL transfer library
+
+Package: libnghttp2-14
+Version: 1.57.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61809
+Filename: libnghttp2-14_1.57.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61233
+SHA256sum: 602f708d493a4a35e1634d31d22f72cfc31ef844545a039152a301a93fade1fd
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+

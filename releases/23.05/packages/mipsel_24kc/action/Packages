@@ -1,0 +1,11 @@
+Package: luci-app-ipinfo
+Version: 2.0.1-20240110
+Depends: libc, curl
+Section: luci
+Architecture: all
+Installed-Size: 1627
+Filename: luci-app-ipinfo_2.0.1-20240110_all.ipk
+Size: 2476
+SHA256sum: 2f236ab48b02a225747dba226d71c76dcb2dcb73adb188d61b8b3eeaccff8d4d
+Description:  Displays IP address information in overview via ifconfig.co
+

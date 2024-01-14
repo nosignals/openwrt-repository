@@ -1,0 +1,1 @@
+{"architecture": "arm_cortex-a7_neon-vfpv4", "packages":{"curl": "8.4.0-2", "libcurl4": "8.4.0-2", "libnghttp2-14": "1.57.0-1"}}

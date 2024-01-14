@@ -1,0 +1,1 @@
+{"serialNumber":"urn:uuid:7df6ade1-617b-4835-8ce7-d74dcb495146","metadata":{"timestamp":"2024-01-14T04:24:34"},"version":1,"bomFormat":"CycloneDX","components":[{"name":"luci-app-ipinfo","type":"application","version":"2.0.1"}],"specVersion":"1.4"}

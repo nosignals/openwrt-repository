@@ -1,0 +1,292 @@
+Package: ca-bundle
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-bundle
+Section: base
+SourceDateEpoch: 1682629523
+Architecture: all
+Installed-Size: 113262
+Filename: ca-bundle_20211016-1_all.ipk
+Size: 114091
+SHA256sum: 211dd43820f85ed20c056ad196e8afe20bea49b448058ff6614ce0e31ecc9b05
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-certificates
+Section: base
+SourceDateEpoch: 1682629523
+Architecture: all
+Installed-Size: 122715
+Filename: ca-certificates_20211016-1_all.ipk
+Size: 123437
+SHA256sum: cdf2f284feeed51fa4d67fe8b9e671878c18c7a526dee796db93829b4bb0e178
+Description:  System CA certificates
+
+Package: jshn
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515, libblobmsg-json20220515
+Source: feeds/base/package/libs/libubox
+SourceName: jshn
+License: ISC
+Section: utils
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6340
+Filename: jshn_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7123
+SHA256sum: be5cfc4c222f5cfc03b1bdc12f061c0f009a5dc5ec338790e99f38da28c7875c
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: libblobmsg-json20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515
+Provides: libblobmsg-json
+Source: feeds/base/package/libs/libubox
+SourceName: libblobmsg-json
+License: ISC
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 20220515
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3438
+Filename: libblobmsg-json20220515_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4200
+SHA256sum: 51447381b3ebe9b31d9c08d3161c0dcc40363c0d64739ece9ae807f105cfc16e
+Description:  blobmsg <-> json conversion library
+
+Package: libiconv
+Version: 8
+Depends: libc
+Source: feeds/base/package/libs/libiconv
+SourceName: libiconv
+License: LGPL-2.1
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 161
+Filename: libiconv_8_arm_cortex-a7_neon-vfpv4.ipk
+Size: 931
+SHA256sum: 588a3aa6461e03c88d447ffbf8d1c9a6646fb01c0cd0f96fceb7ecfe74381d94
+Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libjson-c5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+Source: feeds/base/package/libs/libjson-c
+SourceName: libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 23031
+Filename: libjson-c5_0.15-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23762
+SHA256sum: c2e44cd93da433ed1b16da24b264f8b254b8fd060c1b50a53d352555d13a8079
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515
+Provides: libjson-script
+Source: feeds/base/package/libs/libubox
+SourceName: libjson-script
+License: ISC
+Section: utils
+SourceDateEpoch: 1682629523
+ABIVersion: 20220515
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4237
+Filename: libjson-script20220515_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5001
+SHA256sum: 2dc9ad9e5d8daa4de136327bc0b961f392a3be0f250ffbbc625e9ba4f959ee53
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-10
+Depends: libc
+Provides: liblua
+Source: feeds/base/package/utils/lua
+SourceName: liblua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 5.1.5
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60913
+Filename: liblua5.1.5_5.1.5-10_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61683
+SHA256sum: 299f61512e0a53a3c88013c2e032d615194deaac22a3db6b9b91818b9fafb965
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls12
+Version: 2.28.2-1
+Depends: libc
+Provides: libmbedtls
+Source: feeds/base/package/libs/mbedtls
+SourceName: libmbedtls
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 195191
+Filename: libmbedtls12_2.28.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 195787
+SHA256sum: ece83c694bc33fc53ba16cf10ab9e63e2bd0e78222a7df4575efda29f81a3273
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libubox-lua
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515, liblua5.1.5
+Source: feeds/base/package/libs/libubox
+SourceName: libubox-lua
+License: ISC
+Section: libs
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3757
+Filename: libubox-lua_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4525
+SHA256sum: 6caf867de90bc067028a46df5dc5d921064c2b7fb0bef35d9858f4f44cee619d
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc
+Provides: libubox
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 20220515
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18356
+Filename: libubox20220515_2022-05-15-d2223ef9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19136
+SHA256sum: b46cd8241e97c0d374c0365de6cc6c9fd0924e35f031d7cca7d2560cf880dabf
+Description:  Basic utility library
+
+Package: lua-examples
+Version: 5.1.5-10
+Depends: libc, lua
+Source: feeds/base/package/utils/lua
+SourceName: lua-examples
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5289
+Filename: lua-examples_5.1.5-10_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6173
+SHA256sum: 218dcbd555122499a58287e5278e3c73e0635e6ebed6184b87dade942091891d
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: lua
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4610
+Filename: lua_5.1.5-10_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5481
+SHA256sum: c5079cdff3790a7b38286de77327e0135378bab65148d2fc1f6dd1b08d961df4
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: luac
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5409
+Filename: luac_5.1.5-10_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6263
+SHA256sum: e8e77cdbd08425d68839ea9c91ddc6d607c88e065455bbede12c96c0c25de526
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: mbedtls-util
+Version: 2.28.2-1
+Depends: libc, libmbedtls12
+Source: feeds/base/package/libs/mbedtls
+SourceName: mbedtls-util
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29143
+Filename: mbedtls-util_2.28.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30074
+SHA256sum: 235c0587d704d69fa7206c009dfdebe006d4c55e5200b71c71f8132510a789f1
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20220515
+Source: feeds/base/package/system/usign
+SourceName: usign
+License: ISC
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11012
+Filename: usign_2020-05-23-f1f65026-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11774
+SHA256sum: de5de99c78613418c91a4ce36728fb985d888707aa3d16303dc824547e777301
+Description:  OpenWrt signature verification utility
+
