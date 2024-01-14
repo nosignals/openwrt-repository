@@ -1,3 +1,1529 @@
+Package: acl
+Version: 2.3.1-1
+Depends: libc, libacl
+License: LGPL-2.1 GPL-2.0
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 20138
+Filename: acl_2.3.1-1_aarch64_generic.ipk
+Size: 20769
+SHA256sum: 4524b6bfbb6bc53eebe30363fd638d6d2f62a0469afbfdcd138e49519996a3e0
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+License: GPL-2.0-or-later
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 12973
+Filename: attr_2.5.1-1_aarch64_generic.ipk
+Size: 13656
+SHA256sum: aa4e57b9e017a642086f7bb7de93895d5178ca7601a66046e1f4443f95ea454e
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bash
+Version: 5.2.15-1
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Architecture: aarch64_generic
+Installed-Size: 473538
+Filename: bash_5.2.15-1_aarch64_generic.ipk
+Size: 473963
+SHA256sum: d7021e7e1d8e33d8f466a403cecd7f9ac77fc89312985344e1f0d1828f9e8dec
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 9398
+Filename: cgi-io_2022-08-10-901b0f04-21_aarch64_generic.ipk
+Size: 10187
+SHA256sum: 6786f9db117dbd01ea0780b04915236c72c8e2a9afaae330364d7dcc0454374b
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 28765
+Filename: coreutils-b2sum_9.0-2_aarch64_generic.ipk
+Size: 29463
+SHA256sum: 575fed236ad0337b72542ecb68c0556f9b5de7ebc628050d4f7d29ee15d68792
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22853
+Filename: coreutils-base32_9.0-2_aarch64_generic.ipk
+Size: 23606
+SHA256sum: 3b1ba6e28dd2e28aba7e8317b942addbc48385098821fb94daef1a091c6dd066
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22789
+Filename: coreutils-base64_9.0-2_aarch64_generic.ipk
+Size: 23589
+SHA256sum: 96ce395780516d4e6ae0d424be681d2584de290d68e0f48a01e1922fa9c1aae8
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20228
+Filename: coreutils-basename_9.0-2_aarch64_generic.ipk
+Size: 21000
+SHA256sum: f6e9d4d7d580f9b902dc9e9028f190cb06e8b99436193cf4234599f9f9a896a6
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 26329
+Filename: coreutils-basenc_9.0-2_aarch64_generic.ipk
+Size: 27035
+SHA256sum: 073baeaa006f3f817e4ba7034a98273e6c3e9f4e4e07731ef5c6cf2fd132fc0c
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21888
+Filename: coreutils-cat_9.0-2_aarch64_generic.ipk
+Size: 22649
+SHA256sum: be5de6fd44fbe47e40439f115cf74a150f6d3efead25271922497db4cc796e53
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 32146
+Filename: coreutils-chcon_9.0-2_aarch64_generic.ipk
+Size: 32923
+SHA256sum: bcc437714da86d288555f3331dbe5eb05a58f583aeb1979098e5942836eacc6d
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 34504
+Filename: coreutils-chgrp_9.0-2_aarch64_generic.ipk
+Size: 35248
+SHA256sum: 1ab3227048ca067659277a99df25ceff2d86c43261a3a325bcca8f7d1dfd0940
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 31592
+Filename: coreutils-chmod_9.0-2_aarch64_generic.ipk
+Size: 32331
+SHA256sum: b1627d114bce4cb41b97e400654ac44a5dcdaad29a569d5c0a0b93db7726a4d3
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 35419
+Filename: coreutils-chown_9.0-2_aarch64_generic.ipk
+Size: 36202
+SHA256sum: 1b87904007932e19b3232ff26f5112efa7cc035d95c43fa3e64dc50bbdcef514
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 28035
+Filename: coreutils-chroot_9.0-2_aarch64_generic.ipk
+Size: 28839
+SHA256sum: 5f094efaa4a45410a80292f50a255a79980bf405b653c9109580269cf37d4b67
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 68706
+Filename: coreutils-cksum_9.0-2_aarch64_generic.ipk
+Size: 69447
+SHA256sum: c1ecd7663ce32e62803b24e75fe2b5327d41717ef999aae4995e651aa3ded4fd
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22933
+Filename: coreutils-comm_9.0-2_aarch64_generic.ipk
+Size: 23654
+SHA256sum: 85c4391ced3f400c8f4da21401d2a9a5b8a5c87bd7865aa47e24aae4c165a766
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 50598
+Filename: coreutils-cp_9.0-2_aarch64_generic.ipk
+Size: 51324
+SHA256sum: c17bd3554d084fbccb0672c0ae7d4a5f656d597c950ebfb9f71762bbfbfbecc3
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 55778
+Filename: coreutils-csplit_9.0-2_aarch64_generic.ipk
+Size: 56527
+SHA256sum: 84aca73932cf31b57d602af9c8e2b4c0e8540dc000348d2225ae8ce14f359e8c
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23951
+Filename: coreutils-cut_9.0-2_aarch64_generic.ipk
+Size: 24661
+SHA256sum: 718aa51aa7c3ade3e6f1a2f4808179516e4ab0a4d72db56318da080aaa03961c
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 42437
+Filename: coreutils-date_9.0-2_aarch64_generic.ipk
+Size: 43264
+SHA256sum: 79f22e224158416bbf8e6a9612038aaf7d627a398bff95a8ccb6a8172be19dbf
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 33868
+Filename: coreutils-dd_9.0-2_aarch64_generic.ipk
+Size: 34610
+SHA256sum: b82919d8c056ed5cab1895984545500c691b0ff4427684acb31956c7e8cb69a8
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 40752
+Filename: coreutils-df_9.0-2_aarch64_generic.ipk
+Size: 41524
+SHA256sum: d4c397ef03fbd351b742876bbed113bb8f0f8b2a4c2bc3072cdb57765f4162d9
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 64530
+Filename: coreutils-dir_9.0-2_aarch64_generic.ipk
+Size: 65293
+SHA256sum: 844cd0024172a151ec766f158d46a871cdecf40527e4505881836a1a1d23e0d9
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 30161
+Filename: coreutils-dircolors_9.0-2_aarch64_generic.ipk
+Size: 30886
+SHA256sum: b947af04d1fc6759d81ee3313bed7033af0112aec82cd375d518b3d0ea0fa7fb
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19926
+Filename: coreutils-dirname_9.0-2_aarch64_generic.ipk
+Size: 20693
+SHA256sum: 32c5c460a071022d7740f1d2819948d0cfb92509004ea1fc7930fcc7b6196540
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 82575
+Filename: coreutils-du_9.0-2_aarch64_generic.ipk
+Size: 83351
+SHA256sum: 2f14cafaf053c2fef0f41029bd62729cf4eba2f57e897995f79a07fc3bb8f638
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 18357
+Filename: coreutils-echo_9.0-2_aarch64_generic.ipk
+Size: 19176
+SHA256sum: 54e9c7f4ae5d0d9d17b71e4333fb711651054dbe62273a4d8932f25a16cb1304
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 25363
+Filename: coreutils-env_9.0-2_aarch64_generic.ipk
+Size: 26068
+SHA256sum: e675a0681f399951a4a8913e7454053bb3bbfee49a6706878765beed210feae7
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21679
+Filename: coreutils-expand_9.0-2_aarch64_generic.ipk
+Size: 22447
+SHA256sum: 2f174c725a0b5b072bb580f5e288d56eeae7024a1c51982a231aa822407bfdd3
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 9.0-2
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 54588
+Filename: coreutils-expr_9.0-2_aarch64_generic.ipk
+Size: 55380
+SHA256sum: 8d2dfbe5c7e5deac7106a92df0c3e5e8d233a4addff4eaaf7c5857474663cd8a
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 9.0-2
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 41049
+Filename: coreutils-factor_9.0-2_aarch64_generic.ipk
+Size: 41824
+SHA256sum: 06f12a040e5640e9cffafcf0fe21cb17d9b71504866608767d322f253f6e9528
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 17289
+Filename: coreutils-false_9.0-2_aarch64_generic.ipk
+Size: 18108
+SHA256sum: 097a2a13f6731762f82cd5b72efd788510f9b4d1c843f319b085f8f98dd2f073
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23787
+Filename: coreutils-fmt_9.0-2_aarch64_generic.ipk
+Size: 24478
+SHA256sum: 95159c23d6fadb31ff29769bbcacfac0778900c3a7fdd0bce69f9ea33c5fb30e
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21382
+Filename: coreutils-fold_9.0-2_aarch64_generic.ipk
+Size: 22141
+SHA256sum: 0c5e1c3305e790a94c544f9f1da89cd08114ca20f144b2d7607a58910ba26634
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20617
+Filename: coreutils-groups_9.0-2_aarch64_generic.ipk
+Size: 21376
+SHA256sum: 249fd4861caa12509d416004a4a0eede3d2f40524a493f0c78815cb1124e249c
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 24476
+Filename: coreutils-head_9.0-2_aarch64_generic.ipk
+Size: 25225
+SHA256sum: c7f83f8c2d6984c222614803a146dcd3e1a49bf47368ea6ed7396565f0c742d5
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19655
+Filename: coreutils-hostid_9.0-2_aarch64_generic.ipk
+Size: 20407
+SHA256sum: f3eb0637d29742c72a4c08599fc85ee3c54f3454701951528d2175847d73e1b5
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23136
+Filename: coreutils-id_9.0-2_aarch64_generic.ipk
+Size: 23848
+SHA256sum: deecc17f2a06fd24d154874bdff006a46f72904d054ff3df89768c5e0a67bd83
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 52393
+Filename: coreutils-install_9.0-2_aarch64_generic.ipk
+Size: 53170
+SHA256sum: 25c4fa177487a9b171883efbce3edf54437317d6ac405808fd98df113450fa42
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 26464
+Filename: coreutils-join_9.0-2_aarch64_generic.ipk
+Size: 27155
+SHA256sum: 151f5a44f8238f6604a602a4a42f5bc7afb96ba938931a06baaa7210911361a0
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21749
+Filename: coreutils-kill_9.0-2_aarch64_generic.ipk
+Size: 22532
+SHA256sum: 04da08f7d5246b7211a6d2f2471a9aa2166a3fe3e52fe026a41aa8537d3d36fc
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19790
+Filename: coreutils-link_9.0-2_aarch64_generic.ipk
+Size: 20556
+SHA256sum: 464dba782e0af260c5e54b427f5a1cacd70f727955ff3cbad2abcab53a8de0b7
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 33842
+Filename: coreutils-ln_9.0-2_aarch64_generic.ipk
+Size: 34585
+SHA256sum: 812aa459c36d415ae55c868e0621ecebd1a078e071ee0a11ba117a32020383c1
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19644
+Filename: coreutils-logname_9.0-2_aarch64_generic.ipk
+Size: 20410
+SHA256sum: 60120edc8901689970dbd6da79425b688a3e66410c401a30ebfe43a1fdd4303c
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 64535
+Filename: coreutils-ls_9.0-2_aarch64_generic.ipk
+Size: 65305
+SHA256sum: 73a5879ff89ede56e683c6f481a26818b2513608671a7398747b5ac33931fe2b
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 26584
+Filename: coreutils-md5sum_9.0-2_aarch64_generic.ipk
+Size: 27323
+SHA256sum: 3bdca0028a87138a17c7f8d67b043fd0d4a27cd136ff37aa799fc63c435646f3
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23852
+Filename: coreutils-mkdir_9.0-2_aarch64_generic.ipk
+Size: 24576
+SHA256sum: ecc41659f60f3ab5460d4df9ee018fff70d5e174205feb34e239bbb1803879dc
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20823
+Filename: coreutils-mkfifo_9.0-2_aarch64_generic.ipk
+Size: 21591
+SHA256sum: e9424beb462fc3babf4967a0cb2bd12885a03e5f94407b573789bff6748427cc
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22153
+Filename: coreutils-mknod_9.0-2_aarch64_generic.ipk
+Size: 22948
+SHA256sum: 606a62aa528ddb1af4a860fe8a0dd203e674e2c9449c2e25ad1f9db1fc89fa6b
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21860
+Filename: coreutils-mktemp_9.0-2_aarch64_generic.ipk
+Size: 22621
+SHA256sum: 10eee81e95a47236849d71ad06792ade16920a297cc8d22a9acac14f154b94ec
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 54605
+Filename: coreutils-mv_9.0-2_aarch64_generic.ipk
+Size: 55340
+SHA256sum: 547a22583532758518b9ce2999e6f1192e3f71eb746d9feef3e1fd2047078b2b
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20751
+Filename: coreutils-nice_9.0-2_aarch64_generic.ipk
+Size: 21507
+SHA256sum: 22696586af79ac242692d4b3a0ed4333b9b03150ebc71f13e8d08ed7bb66f8d3
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 52736
+Filename: coreutils-nl_9.0-2_aarch64_generic.ipk
+Size: 53539
+SHA256sum: 0e6541810906026ec443e44fe6017a1d835d0a75d3de615bfd7e798d75d970dc
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21311
+Filename: coreutils-nohup_9.0-2_aarch64_generic.ipk
+Size: 22080
+SHA256sum: daa32292b4d171ddb60430bb452a2ea12f682e1ed595d226c33b512e66dd5fab
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21061
+Filename: coreutils-nproc_9.0-2_aarch64_generic.ipk
+Size: 21814
+SHA256sum: e4b2a5bcaa5db48f5d16a506042e06df431a79fb913e3ede30ae4be745b1c303
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 30473
+Filename: coreutils-numfmt_9.0-2_aarch64_generic.ipk
+Size: 31201
+SHA256sum: b006d5fe64d706f170908c2322b18d16ea6b9307fb2556abd533f71e10258091
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 32549
+Filename: coreutils-od_9.0-2_aarch64_generic.ipk
+Size: 33274
+SHA256sum: 96650c16b02c1307a1d14261060239d3273614a8a49be85532d8053236b0be60
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21218
+Filename: coreutils-paste_9.0-2_aarch64_generic.ipk
+Size: 21998
+SHA256sum: 8b03fc0d02d1c2019a067e2193a6925667c1143c15ea98eb14eb319f34bcc1a4
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20470
+Filename: coreutils-pathchk_9.0-2_aarch64_generic.ipk
+Size: 21217
+SHA256sum: 73ff2562697836eb962fc621e57c0fa2c9621c30c5c19424b0fcaac6ec754c10
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22384
+Filename: coreutils-pinky_9.0-2_aarch64_generic.ipk
+Size: 23136
+SHA256sum: 90f325964d27dd84624cc5b67857b7575fd0057e4022077a79f0624fc332ea2c
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 35922
+Filename: coreutils-pr_9.0-2_aarch64_generic.ipk
+Size: 36648
+SHA256sum: 87ae7fa5fe3dd5fded871ee2ac2b4299a714824d385c010e91b4cb1d4c39ee81
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19829
+Filename: coreutils-printenv_9.0-2_aarch64_generic.ipk
+Size: 20600
+SHA256sum: db2e4186310bc99135b16e9416a933263103b3ddd9b76ee3875444440ea565dd
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23461
+Filename: coreutils-printf_9.0-2_aarch64_generic.ipk
+Size: 24174
+SHA256sum: 4e715a1d013c74bce0d9bef8e74a2a6b27826284c3c39aabcf1cce9293e5be0f
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 58753
+Filename: coreutils-ptx_9.0-2_aarch64_generic.ipk
+Size: 59547
+SHA256sum: 712eacecf939a4099bfb4aaf423471fb19e72e1d6965088e906d8974f295a8b8
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23243
+Filename: coreutils-pwd_9.0-2_aarch64_generic.ipk
+Size: 23960
+SHA256sum: a38d4a520a5ff2b343533354d1e39a5b6f86ad2f47a4116b13aa2440db680872
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 25689
+Filename: coreutils-readlink_9.0-2_aarch64_generic.ipk
+Size: 26403
+SHA256sum: 45b7e4f0ec7c36e0b963cba76151da4813a256e726036788755684eb27f7456b
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 26266
+Filename: coreutils-realpath_9.0-2_aarch64_generic.ipk
+Size: 26978
+SHA256sum: 4e2bce14e6b8073de3bb57f18737a5d6c0061ff4bc9fa5436e6a8fb8244ae7bb
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 33334
+Filename: coreutils-rm_9.0-2_aarch64_generic.ipk
+Size: 34091
+SHA256sum: 4377ce8cce8d2f5f89b6ec29f63999722116633a12ddb1aa79db7333d9d6b796
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20640
+Filename: coreutils-rmdir_9.0-2_aarch64_generic.ipk
+Size: 21405
+SHA256sum: 0aad70d0303737f4734ab32963b195a0b6c4937a27cf14ad1bdb9c6d6ada28cd
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19925
+Filename: coreutils-runcon_9.0-2_aarch64_generic.ipk
+Size: 20709
+SHA256sum: 2ac7741b7669335c8f5fc5993d78ce4e620a47e3989c2204085ea0d7e57813b9
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 25265
+Filename: coreutils-seq_9.0-2_aarch64_generic.ipk
+Size: 25960
+SHA256sum: 1f2cb5a8ff33843503178a063196e34bbbae5f9b2e8d30e76cdf5ed403a3b09e
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 27629
+Filename: coreutils-sha1sum_9.0-2_aarch64_generic.ipk
+Size: 28431
+SHA256sum: 0c87e2220cb5972537dcd036a701bd74be1c29318485b2a12e225e59cdc40eb9
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 30192
+Filename: coreutils-sha224sum_9.0-2_aarch64_generic.ipk
+Size: 30892
+SHA256sum: 608669080951b62c12505e106904b08b0696564a41072f335a37f996c7c7cccd
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 30203
+Filename: coreutils-sha256sum_9.0-2_aarch64_generic.ipk
+Size: 30935
+SHA256sum: 5629dc623a2f6ddc65ea9e176393eb4c37955b4973ba78f8c15da054c2a3a868
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 32064
+Filename: coreutils-sha384sum_9.0-2_aarch64_generic.ipk
+Size: 32796
+SHA256sum: 3adc0e750d768fef9ae945c79a6b48acc8764074b991d7372ca7ffe367572d08
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 32062
+Filename: coreutils-sha512sum_9.0-2_aarch64_generic.ipk
+Size: 32815
+SHA256sum: c19217af37c64c63f0f5bc93c19c6516da81b4559dce7680f50f2f9e5ecb420b
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 30532
+Filename: coreutils-shred_9.0-2_aarch64_generic.ipk
+Size: 31230
+SHA256sum: 0e1131f016678ad6d2f168f5aa8b0c21a014a5d9eda6f2183581844d40134704
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 28864
+Filename: coreutils-shuf_9.0-2_aarch64_generic.ipk
+Size: 29667
+SHA256sum: f006fc18b6649d21cbca29ba3643a67c99ead014f36aa067012d116f979687b1
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22374
+Filename: coreutils-sleep_9.0-2_aarch64_generic.ipk
+Size: 23138
+SHA256sum: 707b579a397cd5070e2aff7cfc821dce7effc5943bdac4e1b5f69e6c09c53e97
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 9.0-2
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 53550
+Filename: coreutils-sort_9.0-2_aarch64_generic.ipk
+Size: 54331
+SHA256sum: c326aaa1c9b64f87ea1ed93563ad0b0d3d92c6c298244a8605012b7eff79fbba
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 29458
+Filename: coreutils-split_9.0-2_aarch64_generic.ipk
+Size: 30201
+SHA256sum: 53291368429c82193f0fe1d4f7ea4579c3109196a45d4340463cbb063b66c293
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 44929
+Filename: coreutils-stat_9.0-2_aarch64_generic.ipk
+Size: 45661
+SHA256sum: 7fc9e0ec9c70af1ba8340de802caa2ecb1b157f9190c91c2460f6bc0661fe99c
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 24438
+Filename: coreutils-stdbuf_9.0-2_aarch64_generic.ipk
+Size: 25139
+SHA256sum: b9f4dc587287b2e8ad946ce5b2dde983a7a7a339f5f821f6da6febef1533d878
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 30229
+Filename: coreutils-stty_9.0-2_aarch64_generic.ipk
+Size: 31011
+SHA256sum: 231bf43a444476e68ad57e65c05cc5dec9b92d423d7798b88d2fd66b05cd145e
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 24227
+Filename: coreutils-sum_9.0-2_aarch64_generic.ipk
+Size: 24953
+SHA256sum: 8f4c25daf0387518f6c71bd611548ff5fe19cc0ff6fd3595ce7f3b372f53459b
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20330
+Filename: coreutils-sync_9.0-2_aarch64_generic.ipk
+Size: 21086
+SHA256sum: 970225c746d2b463f74e6eab50596fdd8dc3993bc2d1a75240e244550552d104
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 52181
+Filename: coreutils-tac_9.0-2_aarch64_generic.ipk
+Size: 52989
+SHA256sum: 1d78b65ccb379a8b920ff17b2ee99ec3482406a2fcc08e35d378bbf05302b31b
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 37142
+Filename: coreutils-tail_9.0-2_aarch64_generic.ipk
+Size: 37957
+SHA256sum: 3a3a76650cc6319fa84335f0d10337e5f396bf9b804190e6a81f44e2b618bbea
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21776
+Filename: coreutils-tee_9.0-2_aarch64_generic.ipk
+Size: 22539
+SHA256sum: c48d404f7611df80c61a79dcc5b98a7567a6dc488de3897a88603a0f9c2f4286
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21561
+Filename: coreutils-test_9.0-2_aarch64_generic.ipk
+Size: 22345
+SHA256sum: 91209cee2491f238151ee2933bac87cb9ff7b37f8f34f096e04fe88f1391dc32
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 9.0-2
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 25216
+Filename: coreutils-timeout_9.0-2_aarch64_generic.ipk
+Size: 25935
+SHA256sum: 0efa97b1839cf41fb8a925bd7bcd2207624a699a1fd27bf62d78c33f6beb344b
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 39844
+Filename: coreutils-touch_9.0-2_aarch64_generic.ipk
+Size: 40722
+SHA256sum: d8d8c20d1c0ab5883e0c693713715ab7b22c624d3beded5ff12b0d1a415abc72
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 25891
+Filename: coreutils-tr_9.0-2_aarch64_generic.ipk
+Size: 26595
+SHA256sum: aead83ec6afa49878665f1f3f7f782a0ec3be04a560b0153d878fa5bb8626fa7
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 17286
+Filename: coreutils-true_9.0-2_aarch64_generic.ipk
+Size: 18090
+SHA256sum: 3a868b6c9945e92609029d81d9a30bcd077331c7fa244da251a5bb983f8bb505
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 22022
+Filename: coreutils-truncate_9.0-2_aarch64_generic.ipk
+Size: 22807
+SHA256sum: 5ade159aeac6f975e6578679ed9bd7ae0417010338a44f9092f436ae4c1ef807
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 9.0-2
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21873
+Filename: coreutils-tsort_9.0-2_aarch64_generic.ipk
+Size: 22611
+SHA256sum: 41c410e711b675355daeeceea1ab119a37ad70a083d525829792db91bdda1489
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19538
+Filename: coreutils-tty_9.0-2_aarch64_generic.ipk
+Size: 20306
+SHA256sum: 8059d8313ef901b499b25f8f5cfae4c4094da8da5b37e3dcbab16d0bf24a2a36
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20214
+Filename: coreutils-uname_9.0-2_aarch64_generic.ipk
+Size: 20992
+SHA256sum: 13143f847aec9a3900cfbba8968698d65bdad4200fd37378b6a5996d68f7f33d
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 21947
+Filename: coreutils-unexpand_9.0-2_aarch64_generic.ipk
+Size: 22719
+SHA256sum: 2b3532622bd0488752c2c1dfd6b148698a88b59fdfac4843010897839f496c5b
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 24319
+Filename: coreutils-uniq_9.0-2_aarch64_generic.ipk
+Size: 25036
+SHA256sum: 10f5dcbbe2f204c27b38d327bf3c11b24dba41161f33604ced85d9be874628bc
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19721
+Filename: coreutils-unlink_9.0-2_aarch64_generic.ipk
+Size: 20499
+SHA256sum: 7ff802303f32336e9ed6ef2f581a2e337377315496ebc512ec85768b3d045814
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 26335
+Filename: coreutils-uptime_9.0-2_aarch64_generic.ipk
+Size: 27053
+SHA256sum: bdd0a0246757d4adc9f7c10c56341aae8a67d9fc1431f680384d117b9fafc36e
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20464
+Filename: coreutils-users_9.0-2_aarch64_generic.ipk
+Size: 21216
+SHA256sum: 0580c36c9b47fece310ec2e66f88d11c9182d6802cd735d2b314916b0f6c855d
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 64529
+Filename: coreutils-vdir_9.0-2_aarch64_generic.ipk
+Size: 65247
+SHA256sum: 339fe2b2583a4d7b978dde7cceec66bf893bb4e24121bd83e78b2fca72233c3a
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 25816
+Filename: coreutils-wc_9.0-2_aarch64_generic.ipk
+Size: 26512
+SHA256sum: 2b0650f44a059d8736d75a6aef4a0b111b3c47789dd7dfd1581f1366089f73ef
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 23631
+Filename: coreutils-who_9.0-2_aarch64_generic.ipk
+Size: 24330
+SHA256sum: 6d191581824fefd41714c2d5aa3519004b7668360e1cc26874a3c2254a0d18b1
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 19757
+Filename: coreutils-whoami_9.0-2_aarch64_generic.ipk
+Size: 20519
+SHA256sum: c492dfb55093dc7d38b1af84d4211ad67631f98fae64142c790cd1bae42c54d7
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 20077
+Filename: coreutils-yes_9.0-2_aarch64_generic.ipk
+Size: 20851
+SHA256sum: f3dc52b9004e16b47cf68ca434b489cd3c5ef85071dcdb6f17fbdeed5793e796
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_generic
+Installed-Size: 96
+Filename: coreutils_9.0-2_aarch64_generic.ipk
+Size: 968
+SHA256sum: 31838d33b739e4ed8b7f59d19ce96f4357aa4fb1610568f40324360e9761a6dd
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
 Package: curl
 Version: 8.0.1-1
 Depends: libc, libcurl4
@@ -10,6 +1536,91 @@ Filename: curl_8.0.1-1_aarch64_generic.ipk
 Size: 60620
 SHA256sum: 24d3b86345506d2803c54589126d7c3b1e5d6030d0b9d75ac7171a270f890ab4
 Description:  A client-side URL transfer utility
+
+Package: halog
+Version: 2.4.22-1
+Depends: libc, haproxy
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: aarch64_generic
+Installed-Size: 14364
+Filename: halog_2.4.22-1_aarch64_generic.ipk
+Size: 15140
+SHA256sum: cc5aba34e6bd7aed68b13aabed58659cf38e25fd33201a15fcc5cc58ed42d7cb
+Description:  HAProxy Log Analyzer
+
+Package: haproxy-nossl
+Version: 2.4.22-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libatomic1
+Conflicts: haproxy
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: aarch64_generic
+Installed-Size: 891492
+Filename: haproxy-nossl_2.4.22-1_aarch64_generic.ipk
+Size: 891321
+SHA256sum: 3bcc0b0a0919fab8b39a1e29a167bbc5ec5956488010692107e972efd4d3b49a
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built without SSL support.
+
+Package: haproxy
+Version: 2.4.22-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: aarch64_generic
+Installed-Size: 965923
+Filename: haproxy_2.4.22-1_aarch64_generic.ipk
+Size: 964875
+SHA256sum: 5a239bafe871a051a6d53016f2f42575aaa00e0a5db9353d074816a58569834c
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: libacl
+Version: 2.3.1-1
+Depends: libc, libattr
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 12424
+Filename: libacl_2.3.1-1_aarch64_generic.ipk
+Size: 13160
+SHA256sum: 4ae8a9d603bad4ccf8715ec02779a0e716b1e96f72cee4fef48acd4baf7e2101
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 6936
+Filename: libattr_2.5.1-1_aarch64_generic.ipk
+Size: 7724
+SHA256sum: e1b5d25958d7a06fe3dc78133bebeefffa460fe84c7da020a473ca6e5c1ec677
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.18.1-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Architecture: aarch64_generic
+Installed-Size: 38308
+Filename: libcares_1.18.1-1_aarch64_generic.ipk
+Size: 39215
+SHA256sum: bb0441711762aa3fc5aa4772c70a9880aae43914356106f06cee1a801b711328
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
 
 Package: libcurl4
 Version: 8.0.1-1
@@ -26,6 +1637,80 @@ Size: 181944
 SHA256sum: cbec538e3bc76a4e9d79b865071e1559a8676d976c3ada0ab36a57f2e8d88dff
 Description:  A client-side URL transfer library
 
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+License: Sleepycat
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 551781
+Filename: libdb47_4.7.25.4.NC-7_aarch64_generic.ipk
+Size: 551552
+SHA256sum: ab637dda7cf4829e08b665421d7e9d436430e85c4c9e6ecd01bbb536bf1ff413
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-7
+Depends: libc, libdb47, libstdcpp6
+Provides: libdb47xx-full
+License: Sleepycat
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 586228
+Filename: libdb47xx_4.7.25.4.NC-7_aarch64_generic.ipk
+Size: 585916
+SHA256sum: 38100d124cf8f2b203de0376931f5835dd71ffc99e0576b0f6c5e17d8bc86f80
+Description:  Berkeley DB library (4.7).  C++ wrapper.
+
+Package: libev
+Version: 4.33-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 23780
+Filename: libev_4.33-1_aarch64_generic.ipk
+Size: 24543
+SHA256sum: 18147291d505744f28ffb748df4722cce1086a4af11f9484cc2a4a15d9de046b
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 16444
+Filename: libffi_3.4.2-2_aarch64_generic.ipk
+Size: 17255
+SHA256sum: c3f3a39c30808d3f4b4d0dd735fdca442b5495347b14f8745effebb86b0e3a49
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.21-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 30379
+Filename: libgdbm_1.21-1_aarch64_generic.ipk
+Size: 31190
+SHA256sum: 3f07f3f92b7f5d79516b2ff002d1710b1c787077a696b30481759bc6b9d8dc6f
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
 Package: libnghttp2-14
 Version: 1.44.0-1
 Depends: libc
@@ -39,4 +1724,2246 @@ Filename: libnghttp2-14_1.44.0-1_aarch64_generic.ipk
 Size: 65902
 SHA256sum: bcd51186a798a2e478a7329444af33fd43d8ae922eb43ce5b7a8e74f54c6e668
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libruby3.0
+Version: 3.0.6-1
+Depends: libc, libpthread, librt, libgmp10, zlib
+Provides: libruby
+License: BSD-2-Clause
+Section: libs
+ABIVersion: 3.0
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1154372
+Filename: libruby3.0_3.0.6-1_aarch64_generic.ipk
+Size: 1150052
+SHA256sum: 81396f3d803546ab87bab689137442fe3cd7a073233b6129cf6c0e3b61b3e5a2
+Description:  Ruby scripting language (shared library)
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+License: ISC
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 105259
+Filename: libsodium_1.0.18-4_aarch64_generic.ipk
+Size: 106329
+SHA256sum: 8610d5611a94aa5a3cee01d7dae6a8de0829131edbbad62e54288df6eeeda195
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libxml2-dev
+Version: 2.10.3-1
+Depends: libc, libxml2
+License: MIT
+Section: devel
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_generic
+Installed-Size: 86172
+Filename: libxml2-dev_2.10.3-1_aarch64_generic.ipk
+Size: 87074
+SHA256sum: bb2889a52a0abf925546756819ab00c474538773c5badd137a886e7601505c1c
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.10.3-1
+Depends: libc, libxml2
+License: MIT
+Section: utils
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_generic
+Installed-Size: 22168
+Filename: libxml2-utils_2.10.3-1_aarch64_generic.ipk
+Size: 22970
+SHA256sum: cd54e0260d85d9dc7022e894de33eb9fd7ce28ae65213fd7bb64ed17d2f62b9e
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.10.3-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_generic
+Installed-Size: 509323
+Filename: libxml2_2.10.3-1_aarch64_generic.ipk
+Size: 507900
+SHA256sum: 4ae067fdd3c286c24bccb1e4080ac560903a307113ff28d7dcd221c7e680a33a
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: aarch64_generic
+Installed-Size: 41594
+Filename: libyaml_0.2.5-1_aarch64_generic.ipk
+Size: 42414
+SHA256sum: a4bdbf200832d97c637dfb2eeef47171dc7a518402a7e10151e7a883577e245e
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: ruby-abbrev
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1981
+Filename: ruby-abbrev_3.0.6-1_aarch64_generic.ipk
+Size: 2856
+SHA256sum: 5f45d7f36b77a06af650544c2494d9f7949bd8a154e57a83bc8c3abd8e66145f
+Description:  This package contains the ruby Calculates the set of unambiguous abbreviations for a given set of strings.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/abbrev.rb 
+ - /usr/lib/ruby/gems/3.0/gems/abbrev-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/abbrev-*.gemspec
+ 
+
+Package: ruby-base64
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2032
+Filename: ruby-base64_3.0.6-1_aarch64_generic.ipk
+Size: 2883
+SHA256sum: 1cfb3c5c2f582aea833ee0eaa35256280f143ac044808cc587ddb912da603318
+Description:  This package contains the ruby Encode and decode base64.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/base64.rb 
+ - /usr/lib/ruby/gems/3.0/gems/base64-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/base64-*.gemspec
+ 
+
+Package: ruby-benchmark
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5896
+Filename: ruby-benchmark_3.0.6-1_aarch64_generic.ipk
+Size: 6767
+SHA256sum: 476a303c5332768687d56077849775d136fcc84a376dce9bb9f86a5052183802
+Description:  This package contains the ruby Performance benchmarking library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/benchmark.rb 
+ - /usr/lib/ruby/3.0/benchmark/ 
+ - /usr/lib/ruby/gems/3.0/gems/benchmark-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/benchmark-*.gemspec
+ 
+
+Package: ruby-bigdecimal
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 33919
+Filename: ruby-bigdecimal_3.0.6-1_aarch64_generic.ipk
+Size: 34851
+SHA256sum: 402a8294f507c37feb36acee55874d75c925143eace424fdc0784178fed2f8f1
+Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/bigdecimal.so 
+ - /usr/lib/ruby/3.0/bigdecimal/ 
+ - /usr/lib/ruby/3.0/bigdecimal.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/bigdecimal-*.gemspec
+ 
+
+Package: ruby-bundler
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-erb, ruby-irb, ruby-open-uri, ruby-readline
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 341174
+Filename: ruby-bundler_3.0.6-1_aarch64_generic.ipk
+Size: 342114
+SHA256sum: 14f3513fcce5efc5d017e288e90ae67225b1fbdce8a17f24fa9e1044841ab4c8
+Description:  This package contains the ruby Manage dependencies.
+ 
+
+Package: ruby-cgi
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-pstore, ruby-securerandom, ruby-shellwords, ruby-tempfile
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 33885
+Filename: ruby-cgi_3.0.6-1_aarch64_generic.ipk
+Size: 34865
+SHA256sum: 8229b9bbfad4d09e6b45badd8bad3bb12f44069d948c845259e29b69783b2b80
+Description:  This package contains the ruby CGI support toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/cgi.rb 
+ - /usr/lib/ruby/3.0/cgi/ 
+ - /usr/lib/ruby/gems/3.0/gems/cgi-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/cgi-*.gemspec 
+ - /usr/lib/ruby/3.0/*/cgi/escape.so
+ 
+
+Package: ruby-continuation
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1085
+Filename: ruby-continuation_3.0.6-1_aarch64_generic.ipk
+Size: 1937
+SHA256sum: 128b6de3d1aafd869e01fec62a364c977bfd8dca32f48f0e650d17d93d0e8a4b
+Description:  This package contains the ruby Similar to C setjmp/longjmp with extra states.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/continuation.so
+ 
+
+Package: ruby-coverage
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 4282
+Filename: ruby-coverage_3.0.6-1_aarch64_generic.ipk
+Size: 5108
+SHA256sum: b804b0139111e529081ef4d3e17bef3e944a41ab87c5641e4b7e16e768c17120
+Description:  This package contains the ruby Coverage measurement.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/coverage.rb 
+ - /usr/lib/ruby/3.0/*/coverage.so
+ 
+
+Package: ruby-csv
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date, ruby-english, ruby-forwardable, ruby-stringio, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 38477
+Filename: ruby-csv_3.0.6-1_aarch64_generic.ipk
+Size: 39467
+SHA256sum: a4cb6c96d4e5b667a1f11af29b17821283a0da08827bf54d9b74bea561bcf9c6
+Description:  This package contains the ruby CSV Reading and Writing.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/csv.rb 
+ - /usr/lib/ruby/3.0/csv/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/csv-*.gemspec
+ 
+
+Package: ruby-date
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 62947
+Filename: ruby-date_3.0.6-1_aarch64_generic.ipk
+Size: 63800
+SHA256sum: f0a64372bfc18828cf66a91729e537e9b494425a2258570828290121acb17a26
+Description:  This package contains the ruby Comparable module for handling dates.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/date.rb 
+ - /usr/lib/ruby/3.0/*/date_core.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/date-*.gemspec
+ 
+
+Package: ruby-dbm
+Version: 3.0.6-1
+Depends: libc, ruby, libdb47
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8202
+Filename: ruby-dbm_3.0.6-1_aarch64_generic.ipk
+Size: 9137
+SHA256sum: 19ee59428797146a450796d606728fc2b1bcac8832a30186ed1b2a3b6f869b92
+Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
+ This package provides dbm.so file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/dbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/dbm-*.gemspec
+ 
+
+Package: ruby-debug
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-continuation, ruby-pp, ruby-readline, ruby-tracer
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8222
+Filename: ruby-debug_3.0.6-1_aarch64_generic.ipk
+Size: 9148
+SHA256sum: 196274c1cfb5b9556a268b103fd6aadb6b92e97ca8b3565ecd6017625c924bf9
+Description:  This package contains the ruby generic command line interface for ruby-debug.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/debug.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/debug-*.gemspec
+ 
+
+Package: ruby-delegate
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 4392
+Filename: ruby-delegate_3.0.6-1_aarch64_generic.ipk
+Size: 5243
+SHA256sum: 67ae837dfbc71f75d086dc2c8708f37063bc263e37ee7b5c5ad0530c7e0af38b
+Description:  This package contains the ruby lib to delegate method calls to an object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/delegate.rb 
+ - /usr/lib/ruby/3.0/delegate/ 
+ - /usr/lib/ruby/gems/3.0/gems/delegate-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/delegate-*.gemspec
+ 
+
+Package: ruby-dev
+Version: 3.0.6-1
+Depends: libc, libruby3.0, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 274007
+Filename: ruby-dev_3.0.6-1_aarch64_generic.ipk
+Size: 274096
+SHA256sum: 866a11c0185cfd3b2501d8223b5699d9ef2c9da28655f1a962828b25b0cbf0f8
+Description:  Header files for compiling extension modules for the Ruby 3.0
+
+Package: ruby-did-you-mean
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 7584
+Filename: ruby-did-you-mean_3.0.6-1_aarch64_generic.ipk
+Size: 8491
+SHA256sum: 7a79fcee52abdd14e41a9148d2a4ef6d1d6fc6d8c58522c1244007f4dea24803
+Description:  This package contains the ruby did you mean? experience.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/did_you_mean.rb 
+ - /usr/lib/ruby/3.0/did_you_mean/ 
+ - /usr/lib/ruby/gems/3.0/gems/did_you_mean-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/did_you_mean-*.gemspec
+ 
+
+Package: ruby-digest
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 25670
+Filename: ruby-digest_3.0.6-1_aarch64_generic.ipk
+Size: 26462
+SHA256sum: 16a880fe42985c2cdfb46befd94545e3f97af4a4e6f9bf4a4c1f0356e28956dc
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/digest 
+ - /usr/lib/ruby/3.0/digest.rb 
+ - /usr/lib/ruby/3.0/*/digest.so 
+ - /usr/lib/ruby/3.0/*/digest/* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/digest-*.gemspec
+ 
+
+Package: ruby-drb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-ipaddr, ruby-monitor, ruby-observer, ruby-singleton, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 25871
+Filename: ruby-drb_3.0.6-1_aarch64_generic.ipk
+Size: 26759
+SHA256sum: 2b7dab07892c8ef1da2e9a4d22e84e4d3039fd11232548066dd181fb9ea1c8cc
+Description:  This package contains the ruby distributed object system.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/drb.rb 
+ - /usr/lib/ruby/3.0/drb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/drb-*.gemspec
+ 
+
+Package: ruby-enc-extra
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1390832
+Filename: ruby-enc-extra_3.0.6-1_aarch64_generic.ipk
+Size: 1258566
+SHA256sum: 8cef3a5ec03115fb42c9a76b6dc700ae3dc1b53871151509bebea94c7357a62e
+Description:  This package contains the ruby character re-coding library charset (extra subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-enc
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 10111
+Filename: ruby-enc_3.0.6-1_aarch64_generic.ipk
+Size: 10939
+SHA256sum: a6b8466a77bb5d4f0499b8b675b327cac29c2719198ff2dca2b9b076b1703f64
+Description:  This package contains the ruby character re-coding library charset (small subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-english
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2797
+Filename: ruby-english_3.0.6-1_aarch64_generic.ipk
+Size: 3664
+SHA256sum: 5349366c38f078996dd6c74eb598bfaaf501169741be8de4139a2e81bd70d44a
+Description:  This package contains the ruby Reference some global vars as english variables.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/English.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/english-*.gemspec
+ 
+
+Package: ruby-erb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 11454
+Filename: ruby-erb_3.0.6-1_aarch64_generic.ipk
+Size: 12265
+SHA256sum: 53719ae3784219583838394b1eeb84ad29545c9555dda872e8300149b8c26140
+Description:  This package contains the ruby (embedded interpreter).
+ 
+
+Package: ruby-etc
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8743
+Filename: ruby-etc_3.0.6-1_aarch64_generic.ipk
+Size: 9595
+SHA256sum: 3c77e1ce7a942bfc551fb3f3afcf4f8e4563a34cf0a1aa56d3f24a52904cf300
+Description:  This package contains the ruby Access info typically stored in /etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/etc.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/etc-*.gemspec
+ 
+
+Package: ruby-expect
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1189
+Filename: ruby-expect_3.0.6-1_aarch64_generic.ipk
+Size: 2023
+SHA256sum: 8f0cff24afb8031f83bd7bb55f7f2ae63150d507bd23b65a9229fc8e5138fd80
+Description:  This package contains the ruby Expect-like for IO.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/expect.rb
+ 
+
+Package: ruby-fcntl
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1932
+Filename: ruby-fcntl_3.0.6-1_aarch64_generic.ipk
+Size: 2796
+SHA256sum: 6e8021a21f3ade4c1001ce2310699219400e1c3e9943ec9ec040e5aa095ffe99
+Description:  This package contains the ruby Loads constants defined in the OS fcntl.h C header file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fcntl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fcntl-*.gemspec
+ 
+
+Package: ruby-fiber
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 996
+Filename: ruby-fiber_3.0.6-1_aarch64_generic.ipk
+Size: 1835
+SHA256sum: c7ad463563793c5fbd554db510837c71992e8011622aad633675738083e08584
+Description:  This package contains the ruby Light weight cooperative concurrency.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fiber.so
+ 
+
+Package: ruby-fiddle
+Version: 3.0.6-1
+Depends: libc, ruby, libffi
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 28028
+Filename: ruby-fiddle_3.0.6-1_aarch64_generic.ipk
+Size: 28906
+SHA256sum: f52ff5ad35de67ef2159cc11af22d2ce93e1cbdc22e12e861908b3b6297d3ceb
+Description:  This package contains the ruby Libffi wrapper for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fiddle.rb 
+ - /usr/lib/ruby/3.0/fiddle/ 
+ - /usr/lib/ruby/3.0/*/fiddle.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fiddle-*.gemspec
+ 
+
+Package: ruby-fileutils
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-etc, ruby-rbconfig, ruby-socket
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 12633
+Filename: ruby-fileutils_3.0.6-1_aarch64_generic.ipk
+Size: 13548
+SHA256sum: 7f4e978113cf97fa16b407fc33bee2aa49cc1bea064dc39a361168d3f0c0c72f
+Description:  This package contains the ruby File utility methods for copying moving removing etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fileutils.rb 
+ - /usr/lib/ruby/gems/3.0/gems/fileutils-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fileutils-*.gemspec
+ 
+
+Package: ruby-find
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1715
+Filename: ruby-find_3.0.6-1_aarch64_generic.ipk
+Size: 2602
+SHA256sum: 232d989a8f0f88d1ee69179435e66105290b79a38ead3dbd201812263461aaad
+Description:  This package contains the ruby top-down traversal of a set of file paths.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/find.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/find-*.gemspec
+ 
+
+Package: ruby-forwardable
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3781
+Filename: ruby-forwardable_3.0.6-1_aarch64_generic.ipk
+Size: 4653
+SHA256sum: dceacaf98cfab7878829c82208be8e29c162b21607eed7d8605eb2624086574c
+Description:  This package contains the ruby delegation of methods to a object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/forwardable.rb 
+ - /usr/lib/ruby/3.0/forwardable 
+ - /usr/lib/ruby/gems/3.0/specifications/default/forwardable-*.gemspec
+ 
+
+Package: ruby-gdbm
+Version: 3.0.6-1
+Depends: libc, ruby, libgdbm
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8802
+Filename: ruby-gdbm_3.0.6-1_aarch64_generic.ipk
+Size: 9666
+SHA256sum: a3d105ec475370608a35fa273696c698820ff9aa603f875d815d3e4c849f52af
+Description:  This package contains the ruby Ruby extension for GNU dbm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/gdbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/gdbm-*.gemspec
+ 
+
+Package: ruby-gems
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-base64, ruby-cgi, ruby-json, ruby-net-http, ruby-open3, ruby-pathname, ruby-pp, ruby-rake, ruby-resolv, ruby-yaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 274978
+Filename: ruby-gems_3.0.6-1_aarch64_generic.ipk
+Size: 275947
+SHA256sum: 6e4767350b79b70945a75a634948b4a74932c9bb49b64d260649cae0f91e5a7e
+Description:  This package contains the ruby gems packet management.
+ 
+
+Package: ruby-getoptlong
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5317
+Filename: ruby-getoptlong_3.0.6-1_aarch64_generic.ipk
+Size: 6173
+SHA256sum: dc7bb62aaa78e118f29d074865d2478c2d73ed5422e9acddb5bcb45359af5d2c
+Description:  This package contains the ruby implementation of getoptLong.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/getoptlong.rb 
+ - /usr/lib/ruby/3.0/getoptlong/ 
+ - /usr/lib/ruby/gems/3.0/gems/getoptlong-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/getoptlong-*.gemspec
+ 
+
+Package: ruby-io-console
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 10089
+Filename: ruby-io-console_3.0.6-1_aarch64_generic.ipk
+Size: 10967
+SHA256sum: 838743b5fae03b3226dc1d4c4b8d7290d67f5900f0337e1a9da4e2074d9753ce
+Description:  This package contains the ruby Console interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/console.so 
+ - /usr/lib/ruby/3.0/io/console/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-console-*.gemspec
+ 
+
+Package: ruby-io-nonblock
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2452
+Filename: ruby-io-nonblock_3.0.6-1_aarch64_generic.ipk
+Size: 3313
+SHA256sum: ef37cd8542e39e504fbc2ab4c9ceef2cf01bfaa6612530bd4ddfc07cdfcfae5c
+Description:  This package contains the ruby Non-blocking mode with IO class.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/nonblock.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-nonblock-*.gemspec
+ 
+
+Package: ruby-io-wait
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3408
+Filename: ruby-io-wait_3.0.6-1_aarch64_generic.ipk
+Size: 4298
+SHA256sum: bd547e27ee9ce368f0ddcfc84225225638a38182493f05af7875908c60aee5f7
+Description:  This package contains the ruby Waits until IO is readable or writable without blocking.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/wait.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-wait-*.gemspec
+ 
+
+Package: ruby-ipaddr
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-socket
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5943
+Filename: ruby-ipaddr_3.0.6-1_aarch64_generic.ipk
+Size: 6822
+SHA256sum: ba5d53eb9f24f41044ca51ebe0c08ceaf90f3ea9b0f5c2237f92c7bec3f12e70
+Description:  This package contains the ruby Set of methods to manipulate an IP address.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ipaddr.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ipaddr-*.gemspec
+ 
+
+Package: ruby-irb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-reline, ruby-ripper, ruby-tracer
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 55129
+Filename: ruby-irb_3.0.6-1_aarch64_generic.ipk
+Size: 55983
+SHA256sum: e4817cb846964051f3f13ca22c3a8f13a29b7f3c710fd0eb86b913ec9f1bc73f
+Description:  This package contains the ruby (interactive shell).
+ 
+
+Package: ruby-json
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date, ruby-ostruct
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 33721
+Filename: ruby-json_3.0.6-1_aarch64_generic.ipk
+Size: 34630
+SHA256sum: dc7fcf379cb2d60c7887636f28f8a4540dcdb8ef509d394ac66ad75aff07fbb6
+Description:  This package contains the ruby JSON Implementation for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/json.rb 
+ - /usr/lib/ruby/3.0/json 
+ - /usr/lib/ruby/3.0/*/json 
+ - /usr/lib/ruby/gems/3.0/specifications/default/json-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-logger
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8770
+Filename: ruby-logger_3.0.6-1_aarch64_generic.ipk
+Size: 9671
+SHA256sum: 91140d6b828046580f01f3b051aa5801bdbc9dacd7481cdf524c3abe552d23bf
+Description:  This package contains the ruby logger and syslog library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/logger.rb 
+ - /usr/lib/ruby/3.0/logger/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/logger-*.gemspec
+ 
+
+Package: ruby-matrix
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 22205
+Filename: ruby-matrix_3.0.6-1_aarch64_generic.ipk
+Size: 23103
+SHA256sum: 844d6fd739c423aab6d0499901d67245a3de3ce383386dc54da7fa88d96ae7f2
+Description:  This package contains the ruby implementation of Matrix and Vector classes.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/matrix.rb 
+ - /usr/lib/ruby/3.0/matrix 
+ - /usr/lib/ruby/gems/3.0/specifications/default/matrix-*.gemspec
+ 
+
+Package: ruby-minitest
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-mutex_m
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 30610
+Filename: ruby-minitest_3.0.6-1_aarch64_generic.ipk
+Size: 31500
+SHA256sum: 72e41c36effa3ddc470be87100dfc78912e7e3db4429fc5ea3290c61e3ffde6e
+Description:  This package contains the ruby Gem minitest.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/minitest-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.txt
+ 
+
+Package: ruby-mkmf
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-shellwords, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 25396
+Filename: ruby-mkmf_3.0.6-1_aarch64_generic.ipk
+Size: 26196
+SHA256sum: 264e2a0211687316112071d7185a93abf250eda71b981990722b886fd5fc0a04
+Description:  This package contains the ruby makefile library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mkmf.rb
+ 
+
+Package: ruby-monitor
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5400
+Filename: ruby-monitor_3.0.6-1_aarch64_generic.ipk
+Size: 6231
+SHA256sum: b9fe94fdfd9029aadb02173f574990ec7115058a6ab2f0704819dc64abc38957
+Description:  This package contains the ruby Object or module methods are executed with mutual exclusion.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/monitor.rb 
+ - /usr/lib/ruby/3.0/*/monitor.so
+ 
+
+Package: ruby-mutex_m
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1623
+Filename: ruby-mutex_m_3.0.6-1_aarch64_generic.ipk
+Size: 2476
+SHA256sum: f02b09646370e4c2ad6ebfa692c4e00df250c42ee55e4d48c9b8d1d8d35bac28
+Description:  This package contains the ruby extend objects to be handled like a Mutex.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mutex_m.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/mutex_m-*.gemspec
+ 
+
+Package: ruby-net-ftp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-time
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 12076
+Filename: ruby-net-ftp_3.0.6-1_aarch64_generic.ipk
+Size: 12949
+SHA256sum: a0861470a74c3e82e933bae49cc25db66f03486fd96ca9be38d53109f687d914
+Description:  This package contains the ruby FTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/ftp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-ftp-*.gemspec
+ 
+
+Package: ruby-net-http
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-securerandom, ruby-tempfile, ruby-uri, ruby-zlib
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 29918
+Filename: ruby-net-http_3.0.6-1_aarch64_generic.ipk
+Size: 30838
+SHA256sum: 96c41cf8d9f24926d20350126da5e4341f62a4c439cf8e7cbce51f9231612bdc
+Description:  This package contains the ruby HTTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/http.rb 
+ - /usr/lib/ruby/3.0/net/https.rb 
+ - /usr/lib/ruby/3.0/net/http/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-http-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-http-*.gemspec
+ 
+
+Package: ruby-net-imap
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 26334
+Filename: ruby-net-imap_3.0.6-1_aarch64_generic.ipk
+Size: 27222
+SHA256sum: e9d581f4f76964de2243839b07e1ea4b83fea96021dd6f9419de66f43deb270b
+Description:  This package contains the ruby IMAP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/imap.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-imap-*.gemspec
+ 
+
+Package: ruby-net-pop
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 7772
+Filename: ruby-net-pop_3.0.6-1_aarch64_generic.ipk
+Size: 8678
+SHA256sum: 9ae54c45abd6c48a4c036d2dfe32287c47950612b7f1f8f6b8265e7219de42eb
+Description:  This package contains the ruby POP3 lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/pop.rb 
+ - /usr/lib/ruby/3.0/net/pop/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-pop-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-pop-*.gemspec
+ 
+
+Package: ruby-net-protocol
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-socket, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 4006
+Filename: ruby-net-protocol_3.0.6-1_aarch64_generic.ipk
+Size: 4894
+SHA256sum: 3f21ba75fe6a9f181780d912e2935274fa3c981761a85b79a42dc908337ba075
+Description:  This package contains the ruby Abstract for net-* clients.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/protocol.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-protocol-*.gemspec
+ 
+
+Package: ruby-net-smtp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 9696
+Filename: ruby-net-smtp_3.0.6-1_aarch64_generic.ipk
+Size: 10554
+SHA256sum: ed35f93a69501c90d723f379603dcc06c9502b302abd0289aa5caaa5d02eb050
+Description:  This package contains the ruby SMTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/smtp.rb 
+ - /usr/lib/ruby/3.0/net/smtp/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-smtp-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-smtp-*.gemspec
+ 
+
+Package: ruby-nkf
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 129953
+Filename: ruby-nkf_3.0.6-1_aarch64_generic.ipk
+Size: 128747
+SHA256sum: dd07a00a8ba71f6ac8253110a03558674c1260a4ac4aa56347944b88acc7e59e
+Description:  This package contains the ruby Network Kanji Filter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/kconv.rb 
+ - /usr/lib/ruby/3.0/*/nkf.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/nkf-*.gemspec
+ 
+
+Package: ruby-objspace
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-tempfile
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 16392
+Filename: ruby-objspace_3.0.6-1_aarch64_generic.ipk
+Size: 17239
+SHA256sum: fa196892fe130089136e95adf383565892b585c07b935bbb7876c99bece3ce87
+Description:  This package contains the ruby Routines to interact with the garbage collection facility.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/objspace.rb 
+ - /usr/lib/ruby/3.0/*/objspace.so
+ 
+
+Package: ruby-observer
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3021
+Filename: ruby-observer_3.0.6-1_aarch64_generic.ipk
+Size: 3886
+SHA256sum: 3f0b9b02c5a9e170bf6f9aacd1c2d30029baf2892769098c75b5ed613183ffd4
+Description:  This package contains the ruby Observer design pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/observer.rb 
+ - /usr/lib/ruby/3.0/observer/ 
+ - /usr/lib/ruby/gems/3.0/gems/observer-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/observer-*.gemspec
+ 
+
+Package: ruby-open-uri
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-ftp, ruby-net-http
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8521
+Filename: ruby-open-uri_3.0.6-1_aarch64_generic.ipk
+Size: 9421
+SHA256sum: 39075bb9b01cf41d7b09eb1e596d3be713524d366616af6fb046d473d98ac3c2
+Description:  This package contains the ruby Wrapper for Net::HTTP Net::HTTPS and Net::.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open-uri.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open-uri-*.gemspec
+ 
+
+Package: ruby-open3
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5520
+Filename: ruby-open3_3.0.6-1_aarch64_generic.ipk
+Size: 6352
+SHA256sum: 4bfe4c9608ccd5c96eaecdfaf1291aa547841813e54876d0d1b8a2d128a2e72a
+Description:  This package contains the ruby popen with stderr.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open3.rb 
+ - /usr/lib/ruby/3.0/open3/ 
+ - /usr/lib/ruby/gems/3.0/gems/open3-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open3-*.gemspec
+ 
+
+Package: ruby-openssl
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-digest, ruby-enc, ruby-io-nonblock, ruby-ipaddr, ruby-stringio, libopenssl1.1
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 141178
+Filename: ruby-openssl_3.0.6-1_aarch64_generic.ipk
+Size: 141458
+SHA256sum: 64b27f386d86b3f87f69d138712ce404e5600ac4465bccac1cb352843cab3800
+Description:  This package contains the ruby SSL TLS and general purpose cryptography.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/openssl 
+ - /usr/lib/ruby/3.0/openssl.rb 
+ - /usr/lib/ruby/3.0/*/openssl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/openssl-*.gemspec
+ 
+
+Package: ruby-optparse
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-shellwords, ruby-time
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 19978
+Filename: ruby-optparse_3.0.6-1_aarch64_generic.ipk
+Size: 20858
+SHA256sum: 4a0d687804f41f6921a5a44d5e50f730639d08fdd3d22f2d65074c75a55f67bb
+Description:  This package contains the ruby command-line option analysis.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/optparse.rb 
+ - /usr/lib/ruby/3.0/optionparser.rb 
+ - /usr/lib/ruby/3.0/optparse 
+ - /usr/lib/ruby/gems/3.0/specifications/default/optparse-*.gemspec
+ 
+
+Package: ruby-ostruct
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5007
+Filename: ruby-ostruct_3.0.6-1_aarch64_generic.ipk
+Size: 5834
+SHA256sum: 7bd816c213ffbc28829747eddacdf1a4fe8c711bff6a7ec42ca0b2d8da055f5b
+Description:  This package contains the ruby build custom data structures.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ostruct.rb 
+ - /usr/lib/ruby/3.0/ostruct/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ostruct-*.gemspec
+ 
+
+Package: ruby-pathname
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils, ruby-find
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 13981
+Filename: ruby-pathname_3.0.6-1_aarch64_generic.ipk
+Size: 14837
+SHA256sum: 2f7c393275b7fac6cf0b2bbe24516334eae141ac4aec26b1bea4bfeef8e2efb2
+Description:  This package contains the ruby Pathname lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pathname.rb 
+ - /usr/lib/ruby/3.0/*/pathname.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pathname-*.gemspec
+ 
+
+Package: ruby-powerassert
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-pp, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 10468
+Filename: ruby-powerassert_3.0.6-1_aarch64_generic.ipk
+Size: 11391
+SHA256sum: f89d4b4a6553563bf19cb667fbbf4f6ca404459c66c5e08e3ebeae1d93de1a17
+Description:  This package contains the ruby Gem power_assert.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/power_assert-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/.travis.yml
+ 
+
+Package: ruby-pp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-etc, ruby-prettyprint
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5385
+Filename: ruby-pp_3.0.6-1_aarch64_generic.ipk
+Size: 6226
+SHA256sum: 3916a2e19949492c03b598693c498f964623d2c60af1cc8e8bbef0e7d2ef993a
+Description:  This package contains the ruby Pretty print objects.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pp-*.gemspec
+ 
+
+Package: ruby-prettyprint
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5456
+Filename: ruby-prettyprint_3.0.6-1_aarch64_generic.ipk
+Size: 6284
+SHA256sum: 297b4215dba877e936a5454a25f2a57e687270815376414595875187be8a74ff
+Description:  This package contains the ruby PrettyPrint library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prettyprint.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prettyprint-*.gemspec
+ 
+
+Package: ruby-prime
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-forwardable, ruby-singleton
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5604
+Filename: ruby-prime_3.0.6-1_aarch64_generic.ipk
+Size: 6454
+SHA256sum: bd913c0012c7da2fd9381adbea320eb2bd57cdfdc6d3b7653e9a43ae79cfa8ad
+Description:  This package contains the ruby Prime numbers and factorization library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prime.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prime-*.gemspec
+ 
+
+Package: ruby-pstore
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-digest, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5459
+Filename: ruby-pstore_3.0.6-1_aarch64_generic.ipk
+Size: 6304
+SHA256sum: d89435331ad191355a9b48eb11c3560ef9673bf2886ff5c49737d05abeeb84ae
+Description:  This package contains the ruby file based persistence.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pstore.rb 
+ - /usr/lib/ruby/3.0/pstore/ 
+ - /usr/lib/ruby/gems/3.0/gems/pstore-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pstore-*.gemspec
+ 
+
+Package: ruby-psych
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-bigdecimal, ruby-date, ruby-enc, ruby-forwardable, ruby-stringio, ruby-strscan, libyaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 33506
+Filename: ruby-psych_3.0.6-1_aarch64_generic.ipk
+Size: 34525
+SHA256sum: 087bb7d0d1bd67d5277c11fd2a4786fb56e4ae7d1a91050b8e1aa79ca93d9a2d
+Description:  This package contains the ruby YAML parser and emitter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-pty
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 4407
+Filename: ruby-pty_3.0.6-1_aarch64_generic.ipk
+Size: 5236
+SHA256sum: 464a0219f5f143e8f770706dbe065386fc1963edf0db71ccbb55b7191cad68c4
+Description:  This package contains the ruby Creates and manages pseudo terminals.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/pty.so
+ 
+
+Package: ruby-racc
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-forwardable, ruby-optparse, ruby-rbconfig, ruby-stringio
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 37632
+Filename: ruby-racc_3.0.6-1_aarch64_generic.ipk
+Size: 38437
+SHA256sum: 0badcbd3bf3fa25b75aec9a5c09b2b266be512113ba6bad118defa9128dfa018
+Description:  This package contains the ruby LALR parser generator.
+ 
+
+Package: ruby-rake
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils, ruby-monitor, ruby-optparse, ruby-ostruct, ruby-set, ruby-singleton
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 42758
+Filename: ruby-rake_3.0.6-1_aarch64_generic.ipk
+Size: 43690
+SHA256sum: c831e2180c4782a0b2bfb2f1f060b279eef71ee66d46d1f9996007395028b4c6
+Description:  This package contains the ruby Rake (make replacement).
+ 
+
+Package: ruby-rbconfig
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8449
+Filename: ruby-rbconfig_3.0.6-1_aarch64_generic.ipk
+Size: 9318
+SHA256sum: 450fe67f42df4d34b0a9e250cc4f5f79e82c1a0173950b0b0704400611c3b9a2
+Description:  This package contains the ruby RbConfig.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/rbconfig.rb 
+ - /usr/lib/ruby/3.0/*/rbconfig/*.so
+ 
+
+Package: ruby-rbs
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-logger, ruby-racc, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 520088
+Filename: ruby-rbs_3.0.6-1_aarch64_generic.ipk
+Size: 520840
+SHA256sum: 0ebf60c7b7dec5c93a9b5910622fd84f9b8563ca184e654f5384e94407ef65d2
+Description:  This package contains the ruby RBS provides syntax and semantics definition for the Ruby Signature language.
+ 
+
+Package: ruby-rdoc
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-abbrev, ruby-did-you-mean, ruby-erb, ruby-racc, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 520774
+Filename: ruby-rdoc_3.0.6-1_aarch64_generic.ipk
+Size: 486448
+SHA256sum: b2e5e5ed4425dcc2fb67286c898ea2eada2a21370fa6b28cb9c930ac245f9468
+Description:  This package contains the ruby RDoc produces HTML and command-line documentation for Ruby projects.
+ 
+
+Package: ruby-readline-ext
+Version: 3.0.6-1
+Depends: libc, ruby, libncurses6, libreadline8
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 11545
+Filename: ruby-readline-ext_3.0.6-1_aarch64_generic.ipk
+Size: 12416
+SHA256sum: ceb35585a5f6924080b3bfc18ac34a72637cbcda62248f0ee0366309249be845
+Description:  This package contains the ruby support for native GNU readline.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/readline.so 
+ - /usr/lib/ruby/gems/3.0/gems/readline-ext-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-ext-*.gemspec
+ 
+
+Package: ruby-readline
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-reline
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1090
+Filename: ruby-readline_3.0.6-1_aarch64_generic.ipk
+Size: 1962
+SHA256sum: 2e9a108c5d5e7f6a26a79400216c8d5d4762d0f15779d77593c599755202b663
+Description:  This package contains the ruby loads readline-ext(native) or reline(ruby).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/readline.rb 
+ - /usr/lib/ruby/gems/3.0/gems/readline-0* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-0*.gemspec
+ 
+
+Package: ruby-reline
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fiddle, ruby-forwardable, ruby-io-console, ruby-tempfile, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 41082
+Filename: ruby-reline_3.0.6-1_aarch64_generic.ipk
+Size: 41990
+SHA256sum: b3bf397b31274a0c6212f3d128e545b1ef0585ec2f14c6f3a2b4f5c2fd257efb
+Description:  This package contains the ruby alternative to readline-ext in pure ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/reline.rb 
+ - /usr/lib/ruby/3.0/reline 
+ - /usr/lib/ruby/gems/3.0/gems/reline-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/reline-*.gemspec
+ 
+
+Package: ruby-resolv-replace
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-resolv
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1256
+Filename: ruby-resolv-replace_3.0.6-1_aarch64_generic.ipk
+Size: 2143
+SHA256sum: f644e068f1793f6341092ece0c52b4aa63cf542e620f03b972adaa6229f0e2b4
+Description:  This package contains the ruby Replace Socket DNS with Resolv.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv-replace.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-resolv
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-securerandom, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 17352
+Filename: ruby-resolv_3.0.6-1_aarch64_generic.ipk
+Size: 18252
+SHA256sum: 90e3e80d494525120ebb3dd2ebdc85b8b8ab454be070a4d126d72c315877c009
+Description:  This package contains the ruby DNS resolver library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-rexml
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-forwardable, ruby-pp, ruby-set, ruby-stringio, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 78283
+Filename: ruby-rexml_3.0.6-1_aarch64_generic.ipk
+Size: 79373
+SHA256sum: 6cbe10e0085c6927e0406e4bd620a221c4d3cc58079132cd52f506e80baae201
+Description:  This package contains the ruby XML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rexml 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rexml-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/.travis.yml
+ 
+
+Package: ruby-rinda
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-drb, ruby-forwardable
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 9982
+Filename: ruby-rinda_3.0.6-1_aarch64_generic.ipk
+Size: 10853
+SHA256sum: bc5bcf3379313123a429d79eae6bff45d1978475fd4e0f66f03c1b18cb7639e5
+Description:  This package contains the ruby Linda paradigm implementation.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rinda 
+ - /usr/lib/ruby/gems/3.0/specifications/default/rinda-*.gemspec
+ 
+
+Package: ruby-ripper
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 75309
+Filename: ruby-ripper_3.0.6-1_aarch64_generic.ipk
+Size: 76110
+SHA256sum: b00ff1a006e766349d5d4270ed7fe5d52e68fed8582f0b2cd722cc4c2b0eaf3d
+Description:  This package contains the ruby script parser.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ripper.rb 
+ - /usr/lib/ruby/3.0/ripper 
+ - /usr/lib/ruby/3.0/*/ripper.so
+ 
+
+Package: ruby-rss
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-english, ruby-nkf, ruby-open-uri, ruby-rexml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 48968
+Filename: ruby-rss_3.0.6-1_aarch64_generic.ipk
+Size: 49976
+SHA256sum: 738507438187465b8c1a62e8acb674d78b24d4fb7529fe380557428acb4b93a6
+Description:  This package contains the ruby RSS toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rss 
+ - /usr/lib/ruby/3.0/rss.rb 
+ - /usr/lib/ruby/gems/3.0/gems/rss-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rss-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.txt
+ 
+
+Package: ruby-securerandom
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3491
+Filename: ruby-securerandom_3.0.6-1_aarch64_generic.ipk
+Size: 4359
+SHA256sum: 731c9c4b96526ac5a6df05658a222944b2449df0f8d2c6e0d82e5f9f3b41d4c5
+Description:  This package contains the ruby Secure random number generators.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/securerandom.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/securerandom-*.gemspec
+ 
+
+Package: ruby-set
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-tsort
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 6350
+Filename: ruby-set_3.0.6-1_aarch64_generic.ipk
+Size: 7260
+SHA256sum: fd35afccb80fa38d9d5258ae1733e0f4244c0108eef6f0851cec54dfd0e2201b
+Description:  This package contains the ruby Set collection.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/set.rb 
+ - /usr/lib/ruby/3.0/set/*.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/set-*.gemspec
+ 
+
+Package: ruby-shellwords
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3478
+Filename: ruby-shellwords_3.0.6-1_aarch64_generic.ipk
+Size: 4347
+SHA256sum: 44ea5ea9ffe3ea6769de5281aeebe82651c8eae1950b1f3fdcbeeeb8a1450578
+Description:  This package contains the ruby Manipulate strings as Bourne Shell.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/shellwords.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/shellwords-*.gemspec
+ 
+
+Package: ruby-singleton
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2156
+Filename: ruby-singleton_3.0.6-1_aarch64_generic.ipk
+Size: 3014
+SHA256sum: d4443b1d441c83ee5125d375d3aaab69c322b65a56545871f59190998e054fe4
+Description:  This package contains the ruby Singleton pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/singleton.rb 
+ - /usr/lib/ruby/3.0/singleton/ 
+ - /usr/lib/ruby/gems/3.0/gems/singleton-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/singleton-*.gemspec
+ 
+
+Package: ruby-socket
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-io-wait
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 71868
+Filename: ruby-socket_3.0.6-1_aarch64_generic.ipk
+Size: 72750
+SHA256sum: df0569b0bd1c4d97f733cba54ac717267f955e0967e8e67446e74aff625ef554
+Description:  This package contains the ruby socket support.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/socket.rb 
+ - /usr/lib/ruby/3.0/*/socket.so
+ 
+
+Package: ruby-stdlib
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-abbrev, ruby-base64, ruby-benchmark, ruby-bigdecimal, ruby-bundler, ruby-cgi, ruby-continuation, ruby-coverage, ruby-csv, ruby-date, ruby-dbm, ruby-debug, ruby-delegate, ruby-did-you-mean, ruby-digest, ruby-drb, ruby-enc, ruby-enc-extra, ruby-english, ruby-erb, ruby-etc, ruby-expect, ruby-fcntl, ruby-fiber, ruby-fiddle, ruby-fileutils, ruby-find, ruby-forwardable, ruby-gdbm, ruby-gems, ruby-getoptlong, ruby-io-console, ruby-io-nonblock, ruby-io-wait, ruby-ipaddr, ruby-irb, ruby-json, ruby-logger, ruby-matrix, ruby-minitest, ruby-mkmf, ruby-monitor, ruby-mutex_m, ruby-net-ftp, ruby-net-http, ruby-net-imap, ruby-net-pop, ruby-net-protocol, ruby-net-smtp, ruby-nkf, ruby-objspace, ruby-observer, ruby-open-uri, ruby-open3, ruby-openssl, ruby-optparse, ruby-ostruct, ruby-pathname, ruby-powerassert, ruby-pp, ruby-prettyprint, ruby-prime, ruby-pstore, ruby-psych, ruby-pty, ruby-racc, ruby-rake, ruby-rbconfig, ruby-rbs, ruby-rdoc, ruby-readline-ext, ruby-readline, ruby-reline, ruby-resolv, ruby-resolv-replace, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-securerandom, ruby-set, ruby-shellwords, ruby-singleton, ruby-socket, ruby-stringio, ruby-strscan, ruby-syslog, ruby-tempfile, ruby-testunit, ruby-time, ruby-timeout, ruby-tmpdir, ruby-tracer, ruby-tsort, ruby-typeprof, ruby-unicodenormalize, ruby-un, ruby-uri, ruby-weakref, ruby-yaml, ruby-zlib
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 95
+Filename: ruby-stdlib_3.0.6-1_aarch64_generic.ipk
+Size: 1428
+SHA256sum: 4374b639decc3573f3ee4ba4b5c4f8634dde9df7bc5a63732133a9b6f273d87d
+Description:  This metapackage currently install all ruby-* packages,
+ providing a complete Ruby Standard Library.
+ 
+
+Package: ruby-stringio
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 12649
+Filename: ruby-stringio_3.0.6-1_aarch64_generic.ipk
+Size: 13483
+SHA256sum: 58b4443c1e9003b29787d679e628e608b50a7f14bbbceace2718d8fcd44b4aea
+Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/stringio.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/stringio-*.gemspec
+ 
+
+Package: ruby-strscan
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 9094
+Filename: ruby-strscan_3.0.6-1_aarch64_generic.ipk
+Size: 9952
+SHA256sum: 1a201ac743a3e0f5ea339fc0d0667343cf5f9e6e750685ebb3339dd40a6582f6
+Description:  This package contains the ruby Lexical scanning operations on a String.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/strscan.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/strscan-*.gemspec
+ 
+
+Package: ruby-syslog
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-logger
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 7184
+Filename: ruby-syslog_3.0.6-1_aarch64_generic.ipk
+Size: 8094
+SHA256sum: d02a7cb6dbe2b4baa6bcd8a22039c4a83025ab12d0c6ee5870d43839c7a488be
+Description:  This package contains the ruby Syslog Lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/syslog.so 
+ - /usr/lib/ruby/3.0/syslog/logger.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/syslog-*.gemspec
+ 
+
+Package: ruby-tempfile
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-delegate, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 5061
+Filename: ruby-tempfile_3.0.6-1_aarch64_generic.ipk
+Size: 5945
+SHA256sum: d3e4111a57bb92ec4f1bc1e550a2a1b116e50a7c00a908ddddbb8a11fa7799f4
+Description:  This package contains the ruby Manages temporary files.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tempfile.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tempfile-*.gemspec
+ 
+
+Package: ruby-testunit
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-csv, ruby-erb, ruby-powerassert, ruby-rexml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 70758
+Filename: ruby-testunit_3.0.6-1_aarch64_generic.ipk
+Size: 71752
+SHA256sum: 66b553538d0dd2ab154054fea7b158edc422553b7afb06ce8429285db2248fb6
+Description:  This package contains the ruby Gem test-unit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/test-unit-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/*.md
+ 
+
+Package: ruby-time
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 8118
+Filename: ruby-time_3.0.6-1_aarch64_generic.ipk
+Size: 9021
+SHA256sum: ede8a7602fa5a57c19000e67ec1407130bac882ae93bfd2ac9342e23d20a2090
+Description:  This package contains the ruby Extends Time with additional methods for parsing and converting Times.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/time.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/time-*.gemspec
+ 
+
+Package: ruby-timeout
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2561
+Filename: ruby-timeout_3.0.6-1_aarch64_generic.ipk
+Size: 3432
+SHA256sum: a126765ad32a4cba1ca8395743bfd9f406a99d056a925d96a9bac879ddc8a44b
+Description:  This package contains the ruby Auto-terminate potentially long-running operations.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/timeout.rb 
+ - /usr/lib/ruby/3.0/timeout/ 
+ - /usr/lib/ruby/gems/3.0/gems/timeout-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/timeout-*.gemspec
+ 
+
+Package: ruby-tmpdir
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2476
+Filename: ruby-tmpdir_3.0.6-1_aarch64_generic.ipk
+Size: 3321
+SHA256sum: d5c3d0bc4bb0f3e88be612ecad0efd661a71c9f602aa23ee9dd89af289f710f2
+Description:  This package contains the ruby Get temp dir path.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tmpdir.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tmpdir-*.gemspec
+ 
+
+Package: ruby-tracer
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 2947
+Filename: ruby-tracer_3.0.6-1_aarch64_generic.ipk
+Size: 3821
+SHA256sum: 4bdbd8957de8ae052a2620857ca13bc879c8996804366892ffbb4bb8e65ae9b9
+Description:  This package contains the ruby Outputs a source level execution trace of a Ruby program.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tracer.rb 
+ - /usr/lib/ruby/3.0/tracer/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tracer-*.gemspec
+ 
+
+Package: ruby-tsort
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3665
+Filename: ruby-tsort_3.0.6-1_aarch64_generic.ipk
+Size: 4514
+SHA256sum: 1cf7f94aca4dfe829b495468449289a41a2609055ef3ae85993307092fa998e8
+Description:  This package contains the ruby Topological sorting using Tarjan s algorithm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tsort.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tsort-*.gemspec
+ 
+
+Package: ruby-typeprof
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-coverage, ruby-rbs
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 85658
+Filename: ruby-typeprof_3.0.6-1_aarch64_generic.ipk
+Size: 86347
+SHA256sum: 15d6344bf68c70dbde008c3db31ed68c4580ddd289c7939533354ca4b25adee8
+Description:  This package contains the ruby A type analysis tool for Ruby code based on abstract interpretation.
+ 
+
+Package: ruby-un
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-mkmf, ruby-optparse
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 3944
+Filename: ruby-un_3.0.6-1_aarch64_generic.ipk
+Size: 4840
+SHA256sum: d1606d4c882b0bd48d9b5a5ea2e7b2950d047226c3274a37d0108b0190373210
+Description:  This package contains the ruby Utilities to replace common UNIX commands in Makefiles.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/un.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/un-*.gemspec
+ 
+
+Package: ruby-unicodenormalize
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-enc-extra
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 44924
+Filename: ruby-unicodenormalize_3.0.6-1_aarch64_generic.ipk
+Size: 43258
+SHA256sum: 28e6680aab678b3d8f141112d3ec588061b36222250a78e4c91d1f889ba25a99
+Description:  This package contains the ruby String additions for Unicode normalization.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/unicode_normalize
+ 
+
+Package: ruby-uri
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 28368
+Filename: ruby-uri_3.0.6-1_aarch64_generic.ipk
+Size: 29270
+SHA256sum: c42aff560e1fafa18baa4ae03104fd6d0715ad15cd4beac6f38590f72cc0ac3d
+Description:  This package contains the ruby library to handle URI.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/uri.rb 
+ - /usr/lib/ruby/3.0/uri 
+ - /usr/lib/ruby/gems/3.0/gems/uri-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/uri-*.gemspec
+ 
+
+Package: ruby-weakref
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-delegate
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1414
+Filename: ruby-weakref_3.0.6-1_aarch64_generic.ipk
+Size: 2302
+SHA256sum: 40b1a27538c14312e5349abbcda4c6a024f84e9debd73f598cf5b86635330db4
+Description:  This package contains the ruby Weak reference to be garbage collected.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/weakref.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/weakref-*.gemspec
+ 
+
+Package: ruby-yaml
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-dbm, ruby-pstore, ruby-psych
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 4346
+Filename: ruby-yaml_3.0.6-1_aarch64_generic.ipk
+Size: 5201
+SHA256sum: 15842f3fbbcb8a9a8db1ff237aae1fbbb723c46c5d84db24a68b77d13772e659
+Description:  This package contains the ruby YAML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/yaml 
+ - /usr/lib/ruby/3.0/yaml.rb 
+ - /usr/lib/ruby/gems/3.0/gems/yaml-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/yaml-*.gemspec
+ 
+
+Package: ruby-zlib
+Version: 3.0.6-1
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 23994
+Filename: ruby-zlib_3.0.6-1_aarch64_generic.ipk
+Size: 24833
+SHA256sum: 1ab2224bcb4b5be43a0b2d444514c16dd78c6ed6ee95aefee398d7da14a88cdb
+Description:  This package contains the ruby compression/decompression library interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/zlib.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/zlib-*.gemspec
+ 
+
+Package: ruby
+Version: 3.0.6-1
+Depends: libc, libruby3.0
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_generic
+Installed-Size: 1792
+Filename: ruby_3.0.6-1_aarch64_generic.ipk
+Size: 2694
+SHA256sum: 5052588a0559d8333de69ecbd096f2bae0b0084e34234e4a34f816f9e843e2a3
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-7
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 2876
+Filename: shadowsocks-libev-config_3.3.5-7_aarch64_generic.ipk
+Size: 3672
+SHA256sum: a82adf0c6365ec94c1bf9efe0e461373762496819d327195aa32e6e2f35349d5
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 51097
+Filename: shadowsocks-libev-ss-local_3.3.5-7_aarch64_generic.ipk
+Size: 51882
+SHA256sum: ba1776fdc52617dac815fc6ffe1a036a64818c01123b4c6c99c40714e157e8f3
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 45921
+Filename: shadowsocks-libev-ss-redir_3.3.5-7_aarch64_generic.ipk
+Size: 46658
+SHA256sum: 51b041eb32e8ac6b5086d7af55923284d059f4dcaedb0f6e1cabed88456e365c
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-7
+Depends: libc, firewall4, ip, resolveip, ucode, ucode-mod-fs, shadowsocks-libev-ss-redir, shadowsocks-libev-config, kmod-nft-tproxy
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 1869
+Filename: shadowsocks-libev-ss-rules_3.3.5-7_aarch64_generic.ipk
+Size: 2669
+SHA256sum: 1fe83518b733bb1c52bc5eb44dd6029c1682468bec19a0bb2920f7474d597546
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 55981
+Filename: shadowsocks-libev-ss-server_3.3.5-7_aarch64_generic.ipk
+Size: 56680
+SHA256sum: 32e905923c932585b7f32d6158cd585af3a36e2d0878e40b52ff3702c4303547
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 43746
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-7_aarch64_generic.ipk
+Size: 44464
+SHA256sum: 371ed99a18a0edda9a22f8272fef6436945d4a6510b7a376c4e9610e6c7af955
+Description:  shadowsocks-libev ss-tunnel
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Architecture: aarch64_generic
+Installed-Size: 112941
+Filename: unzip_6.0-8_aarch64_generic.ipk
+Size: 113892
+SHA256sum: 1ccdd11fc7277ec5ebf9a8a116cb1823de3a20ef1e622a327426ff2038d27e30
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: xray-core
+Version: 1.8.1-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 8923125
+Filename: xray-core_1.8.1-1_aarch64_generic.ipk
+Size: 8896221
+SHA256sum: 6602c4e1025973068f8ba2d3d29a40dc2605ff7c79f4965faad1ae312e1c5d9c
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.8.1-1
+Depends: libc, xray-core
+License: MPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 553
+Filename: xray-example_1.8.1-1_all.ipk
+Size: 1406
+SHA256sum: 8e30897302021c35ef92ba8db05f8417eeb6330b6dc75de0d80f43ae6a107e3e
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
 
