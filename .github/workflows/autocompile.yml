@@ -98,7 +98,7 @@ jobs:
         run: |
           vers=$(echo ${{ matrix.release }} | sed 's/..$//')
           mkdir -p releases 2>/dev/null
-          mkdir -p releases/21.03/packages releases/22.03/packages releases/23.05/packages
+          mkdir -p releases/$vers/${{ matrix.arch }}
           cp -rf openwrt_${{ matrix.release }}_${{ matrix.arch }}/* releases/packages/$vers/${{ matrix.arch }}
           rm -rf openwrt_* 2>/dev/null
           
