@@ -98,8 +98,8 @@ jobs:
         run: |
           vers=$(echo ${{ matrix.release }} | sed 's/..$//')
           mkdir -p releases 2>/dev/null
-          mkdir -p releases/$vers/${{ matrix.arch }}
-          cp -rf openwrt_${{ matrix.release }}_${{ matrix.arch }}/* releases/packages/$vers/${{ matrix.arch }}
+          mkdir -p releases/$vers/packages/${{ matrix.arch }}
+          cp -rf openwrt_${{ matrix.release }}_${{ matrix.arch }}/* releases/$vers/packages/${{ matrix.arch }}
           rm -rf openwrt_* 2>/dev/null
           
       - name: Display structure of downloaded files
