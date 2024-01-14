@@ -90,8 +90,8 @@ jobs:
               vers=$(echo $vr | sed 's/..$//')
               for arc in ${archi[*]} 
                 do
-                  mkdir -p releases/$vers/packages/$archi
-                  cp -rf openwrt_$vr\_$archi/* releases/$vers/packages/$archi
+                  mkdir -p releases/$vers/packages/$arc
+                  cp -rf openwrt_$vr\_$arc/* releases/$vers/packages/$arc
                 done
             done
           
