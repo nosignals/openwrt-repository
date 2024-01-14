@@ -1,0 +1,224 @@
+Package: ca-bundle
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 113262
+Filename: ca-bundle_20211016-1_all.ipk
+Size: 114091
+SHA256sum: 211dd43820f85ed20c056ad196e8afe20bea49b448058ff6614ce0e31ecc9b05
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20211016-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 122715
+Filename: ca-certificates_20211016-1_all.ipk
+Size: 123437
+SHA256sum: cdf2f284feeed51fa4d67fe8b9e671878c18c7a526dee796db93829b4bb0e178
+Description:  System CA certificates
+
+Package: jshn
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515, libblobmsg-json20220515
+License: ISC
+Section: utils
+Architecture: x86_64
+Installed-Size: 6336
+Filename: jshn_2022-05-15-d2223ef9-1_x86_64.ipk
+Size: 7143
+SHA256sum: ac4e1bbade5e6f56a5159cc379d3e76f8d388d6842ae0072aa54bcf67c2e248a
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: libblobmsg-json20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libjson-c5, libubox20220515
+Provides: libblobmsg-json
+License: ISC
+Section: libs
+ABIVersion: 20220515
+Architecture: x86_64
+Installed-Size: 3781
+Filename: libblobmsg-json20220515_2022-05-15-d2223ef9-1_x86_64.ipk
+Size: 4551
+SHA256sum: 1d27a09aeede61990b039fb416e0a015425a7024f89306bc6bc80c568b3dfe1c
+Description:  blobmsg <-> json conversion library
+
+Package: libiconv
+Version: 8
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: x86_64
+Installed-Size: 161
+Filename: libiconv_8_x86_64.ipk
+Size: 911
+SHA256sum: b59e5c1860ef88e8f0770f62a147b042cb9bb856e487751b8a21c296c326d27e
+Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libjson-c5
+Version: 0.15-2
+Depends: libc
+Provides: libjson-c
+License: MIT
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Architecture: x86_64
+Installed-Size: 27544
+Filename: libjson-c5_0.15-2_x86_64.ipk
+Size: 28344
+SHA256sum: cd4e55be43cbd1a34f07214f907c85abe09dfbfdac23b7b64907a6c46a02b047
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515
+Provides: libjson-script
+License: ISC
+Section: utils
+ABIVersion: 20220515
+Architecture: x86_64
+Installed-Size: 5268
+Filename: libjson-script20220515_2022-05-15-d2223ef9-1_x86_64.ipk
+Size: 6017
+SHA256sum: 2eab338efbf18b70565fa1ec784546c59b1155eead5880894daafc11fa33a22b
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-10
+Depends: libc
+Provides: liblua
+License: MIT
+Section: libs
+ABIVersion: 5.1.5
+Architecture: x86_64
+Installed-Size: 73778
+Filename: liblua5.1.5_5.1.5-10_x86_64.ipk
+Size: 74672
+SHA256sum: 96dc8f8ff3d0f881bb130673d76ce52e8b41d29ea64c7f74cbca22679d2452e7
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls12
+Version: 2.28.2-1
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: x86_64
+Installed-Size: 231507
+Filename: libmbedtls12_2.28.2-1_x86_64.ipk
+Size: 232397
+SHA256sum: 04d3ba3be67cc02defea1002c3ff303392908c729282dd4bbba0d2bbac7e051f
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libubox-lua
+Version: 2022-05-15-d2223ef9-1
+Depends: libc, libubox20220515, liblua5.1.5
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 4274
+Filename: libubox-lua_2022-05-15-d2223ef9-1_x86_64.ipk
+Size: 5046
+SHA256sum: 8fbd06fedd700410af5ebde31c4ec9c46079291fa5e18e45f918e9844fffd830
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox20220515
+Version: 2022-05-15-d2223ef9-1
+Depends: libc
+Provides: libubox
+License: ISC
+Section: libs
+ABIVersion: 20220515
+Architecture: x86_64
+Installed-Size: 21785
+Filename: libubox20220515_2022-05-15-d2223ef9-1_x86_64.ipk
+Size: 22539
+SHA256sum: 6f857259fbb6b070373eccb048c63ccea8956e91cabc09c07dee6ead0837a0de
+Description:  Basic utility library
+
+Package: lua-examples
+Version: 5.1.5-10
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: x86_64
+Installed-Size: 5289
+Filename: lua-examples_5.1.5-10_x86_64.ipk
+Size: 6155
+SHA256sum: 9a19ed57b530524ec5a6b758d8aebf759ee602ff447ad541a2561eae69d4a281
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: lua
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+License: MIT
+Section: lang
+Architecture: x86_64
+Installed-Size: 4596
+Filename: lua_5.1.5-10_x86_64.ipk
+Size: 5469
+SHA256sum: 2f8027dbe9adb6b32527da4996b025a576beb7af868230e730de3103be18e14d
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+License: MIT
+Section: lang
+Architecture: x86_64
+Installed-Size: 5237
+Filename: luac_5.1.5-10_x86_64.ipk
+Size: 6120
+SHA256sum: fd225cbb14081021cae468a3c60ba2fbf6c30b76b0e3d6e8eb505a096dfeb57d
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: mbedtls-util
+Version: 2.28.2-1
+Depends: libc, libmbedtls12
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: x86_64
+Installed-Size: 30939
+Filename: mbedtls-util_2.28.2-1_x86_64.ipk
+Size: 31819
+SHA256sum: a196308b54fded2094dbebad0b27421d1d852a6c0135d2b7d16d692f865abd87
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20220515
+License: ISC
+Section: base
+Architecture: x86_64
+Installed-Size: 11836
+Filename: usign_2020-05-23-f1f65026-1_x86_64.ipk
+Size: 12565
+SHA256sum: f7b9d006bc3589864d21c27e5920c578200875069b59acdb8aad2294d01f2d2f
+Description:  OpenWrt signature verification utility
+

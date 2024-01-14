@@ -1,0 +1,42 @@
+Package: curl
+Version: 8.0.1-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: x86_64
+Installed-Size: 58336
+Filename: curl_8.0.1-1_x86_64.ipk
+Size: 59210
+SHA256sum: 2308f9eccebcad9ac856f21d8235c20ea8210e094bccd53a2cc59c06c6ec71fd
+Description:  A client-side URL transfer utility
+
+Package: libcurl4
+Version: 8.0.1-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: x86_64
+Installed-Size: 172429
+Filename: libcurl4_8.0.1-1_x86_64.ipk
+Size: 173258
+SHA256sum: bec09b7ba914b891ef1680cd24156bfba6b1754b443d65843b22d36b9ab91180
+Description:  A client-side URL transfer library
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+Architecture: x86_64
+Installed-Size: 64450
+Filename: libnghttp2-14_1.44.0-1_x86_64.ipk
+Size: 63721
+SHA256sum: aa985daf420b060b5c8825f6004e91bca76d7b5fa04b18a3ea0741ea93e4a7bf
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
