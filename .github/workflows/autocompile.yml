@@ -167,3 +167,18 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         
+
+  clear_artifact:
+    needs: push_packages
+    name: Clearing Artifact
+    permissions:
+      actions: write
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 5
+          keep_minimum_runs: 2
+          
