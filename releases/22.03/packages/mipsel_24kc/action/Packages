@@ -1,12 +1,12 @@
 Package: luci-app-homeproxy
-Version: 240114.32071
+Version: 240115.12022
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Section: luci
 Architecture: all
 Installed-Size: 372917
-Filename: luci-app-homeproxy_240114.32071_all.ipk
-Size: 373906
-SHA256sum: 56259e6ff46e9128ee73c135c23a6931af5f77ad0ff7ad8c56a1087533ff8db1
+Filename: luci-app-homeproxy_240115.12022_all.ipk
+Size: 373905
+SHA256sum: b184ea38e0acab7794742a2a6d1b93d3c7a22436706e49beed881a4f0e16bbe3
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-ipinfo
@@ -43,25 +43,25 @@ SHA256sum: 37b43ce228a0381eb94dcd7b201b528c31fd4832831904e8d499fbd079503d60
 Description:  LuCI support for PassWall
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: 240114.32071
+Version: 240115.12022
 Depends: libc, luci-app-homeproxy
 Section: luci
 Architecture: all
 Installed-Size: 11094
-Filename: luci-i18n-homeproxy-zh-cn_240114.32071_all.ipk
-Size: 11932
-SHA256sum: 6d1a8136a79092257535f8a284453437d22b604ac8b65dd8876b3a03f5760bee
+Filename: luci-i18n-homeproxy-zh-cn_240115.12022_all.ipk
+Size: 11931
+SHA256sum: 679f3c2e3a1ce19e0ec0da97b6b4c925648058c45870cffdcc3dc38453d45509
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 240114.32071
+Version: 240115.12023
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
 Installed-Size: 12585
-Filename: luci-i18n-passwall-zh-cn_240114.32071_all.ipk
-Size: 13371
-SHA256sum: e2c2110eb2bbd7b857dd630d67d00a9031fa4be4fbb979b8a104724451e290cc
+Filename: luci-i18n-passwall-zh-cn_240115.12023_all.ipk
+Size: 13367
+SHA256sum: 781584b38309501175efb205484e646eb790d320d5355b6d14a9ed9e3bb50e8f
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-theme-alpha

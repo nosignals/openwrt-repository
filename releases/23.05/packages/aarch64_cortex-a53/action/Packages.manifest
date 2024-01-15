@@ -1,5 +1,5 @@
 Package: luci-app-homeproxy
-Version: 240114.32071
+Version: 240115.12027
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Source: /feed/luci-app-homeproxy
 SourceName: luci-app-homeproxy
@@ -8,9 +8,9 @@ SourceDateEpoch: 1699969091
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 372911
-Filename: luci-app-homeproxy_240114.32071_all.ipk
-Size: 373900
-SHA256sum: b29e6e77d1beff5093e3c063fe5f94109373a04651e27a8da01ec1e5fe49dd3d
+Filename: luci-app-homeproxy_240115.12027_all.ipk
+Size: 373902
+SHA256sum: 476edb3acbf4f256621e8ece7b2d4a429c904eb784b8f53ba4b14affa44b6715
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-ipinfo
@@ -59,7 +59,7 @@ SHA256sum: 01113d7a70e6c5633bd82106b9fd091022d82bfb09c5c5601979e41c0a74a8af
 Description:  LuCI support for PassWall
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: 240114.32071
+Version: 240115.12027
 Depends: libc, luci-app-homeproxy
 Source: /feed/luci-app-homeproxy
 SourceName: luci-i18n-homeproxy-zh-cn
@@ -67,13 +67,13 @@ Section: luci
 SourceDateEpoch: 1699969091
 Architecture: all
 Installed-Size: 11100
-Filename: luci-i18n-homeproxy-zh-cn_240114.32071_all.ipk
-Size: 11928
-SHA256sum: 454ea055586c24045bd9f752eae0be656fd70a0580fecec18a36c7cfd02a131a
+Filename: luci-i18n-homeproxy-zh-cn_240115.12027_all.ipk
+Size: 11926
+SHA256sum: bcc74dcb1d846ae9aa3b638e334d2d1ef326f866388b89efd12dc1fed4837412
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 240114.32071
+Version: 240115.12027
 Depends: libc, luci-app-passwall
 Source: /feed/luci-app-passwall
 SourceName: luci-i18n-passwall-zh-cn
@@ -81,9 +81,9 @@ Section: luci
 SourceDateEpoch: 1699969091
 Architecture: all
 Installed-Size: 12588
-Filename: luci-i18n-passwall-zh-cn_240114.32071_all.ipk
-Size: 13370
-SHA256sum: f53128f7c6c9c4acef10bb3a932861ecaa2453b978b82f190b32f0869616046b
+Filename: luci-i18n-passwall-zh-cn_240115.12027_all.ipk
+Size: 13366
+SHA256sum: 3b35a86aeba3bcb8ebc94f3b94e52593e241fce7b7e447f77e9f4a30c83e1dc1
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-theme-alpha
