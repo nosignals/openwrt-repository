@@ -52,9 +52,6 @@ jobs:
             sed -i "/usign/ s/$/ $2/" '../list_packages.txt'
           fi
         }
-        function mv_clone() {
-          mv -n "$1/$1" ./; rm -rf "$1/$1"
-        }
         # Tutor Singkat Nambahin App Dari Repo Lain
         # 1. Salin URL Repo yang mau di tambahkan
         # 2. Untuk Repo Dengan Makefile Di Dalam Directory
