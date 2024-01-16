@@ -1,0 +1,104 @@
+# Created By : rtaserver
+name: Auto Sync App
+
+on:
+  schedule:
+    - cron: "00 19 * * *" # 02:00 GMT+7
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.github/workflows/**'
+      - 'README.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+    - name: Set variables
+      run: |
+        echo "BUILDTIME=$(TZ=Asia/Jakarta date +'%Y-%m-%d %H:%M')" >> $GITHUB_ENV
+      shell: bash
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set git identity
+      run : |
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        sudo timedatectl set-timezone "Asia/Jakarta"
+
+    - name: Clone Repo
+      working-directory: ./feeds
+      run: |
+        function git_clone() {
+          if [ "$2" != "" ]; then
+            git clone --depth 1 $1 $2-new
+            if [ -d "$2" ]; then
+              echo "Direktori $2 Sudah Ada - SKIP"
+            else
+              mkdir $2
+            fi
+            mv -n $2-new/* ./$2
+            rm -fr $2-new
+          else
+            git clone --depth 1 $1
+          fi
+          if grep -q "$2" "../list_packages.txt"; then
+            echo "Nama Package $2 Sudah Ada - SKIP"
+          else
+            echo "Membuat Nama Package $2"
+            sed -i "/usign/ s/$/ $2/" '../list_packages.txt'
+          fi
+        }
+        function mv_clone(){
+        mv -n $1/$1 ./
+        rm -rf $1/$1
+        }
+        # Tutor Singkat Nambahin App Dari Repo Lain
+        # 1. Salin URL Repo yang mau di tambahkan
+        # 2. Untuk Repo Dengan Makefile Di Dalam Directory
+        #    Gunakan Contoh Seperti Tunnel OpenClash / Passwall di Bawah Ini
+        # 3. Untuk Repo Dengan Makefile di Luar Directory 
+        #    Gunakan Contoh Seperti Theme Argon Di Bawah
+        (
+        # Tunnel
+        git_clone https://github.com/vernesong/OpenClash luci-app-openclash && mv_clone luci-app-openclash # CONTOH 1
+        git_clone https://github.com/rtaserver/openwrt-passwall luci-app-passwall && mv -n luci-app-passwall/luci-app-passwall ./; rm -fr luci-app-passwall/luci-app-passwall # CONTOH 2
+        git_clone https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv_clone luci-app-passwall2
+        git_clone https://github.com/rtaserver/luci-app-homeproxy luci-app-homeproxy
+        ) &
+        (
+        # Theme
+        git_clone https://github.com/derisamedia/luci-theme-alpha luci-theme-alpha
+        git_clone https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
+        git_clone https://github.com/jerrykuku/luci-app-argon-config luci-app-argon-config
+        ) &
+        (
+        # ETC
+        git_clone https://github.com/animegasan/luci-app-quickstart luci-app-quickstart
+        git_clone https://github.com/animegasan/luci-app-ipinfo luci-app-ipinfo
+        
+        git_clone https://github.com/muink/luci-app-tinyfilemanager luci-app-tinyfilemanager
+        git_clone https://github.com/rtaserver/luci-app-cloudflared luci-app-cloudflared
+        )
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_options: '--no-verify --signoff'
+        # add_options: '-u'
+        push_options: '--force'
+        # skip_dirty_check: true
+        commit_message: "🎉 Sync: ${{ env.BUILDTIME }}"
+
+    - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@main
+      continue-on-error: true
+      with:
+        retain_days: 1
