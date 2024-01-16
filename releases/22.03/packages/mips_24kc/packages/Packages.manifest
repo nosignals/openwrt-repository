@@ -7815,6 +7815,80 @@ Description:  The UW IMAP tookit includes the following:
  c-lient library : an API (application programming interface) used to build email clients and servers,
  including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
+Package: v2ray-geoip
+Version: 202303090050-1
+Depends: libc
+Provides: v2ray-geodata, xray-geodata, xray-geoip
+Source: feeds/packages/net/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1679030349
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 2304309
+Filename: v2ray-geoip_202303090050-1_all.ipk
+Size: 2080089
+SHA256sum: 5ca4a220140a873dcfaa4c69016031f84d5029b34cc436abffc8ffa37cf6a4d8
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20230312104722-1
+Depends: libc
+Provides: v2ray-geodata, xray-geodata, xray-geosite
+Source: feeds/packages/net/v2ray-geodata
+SourceName: v2ray-geosite
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1679030349
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 444089
+Filename: v2ray-geosite_20230312104722-1_all.ipk
+Size: 443893
+SHA256sum: a955bcae5b6c0b17a5e24a8073442ce0691e9a8d7f05d8614b803103183439be
+Description:  Geosite List for V2Ray
+
+Package: xray-core
+Version: 1.8.1-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682102910
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mips_24kc
+Installed-Size: 8773274
+Filename: xray-core_1.8.1-1_mips_24kc.ipk
+Size: 8754542
+SHA256sum: 08a70d4f729e906fadf6c091fc011555d057f9fbbccae24197585a72fa530390
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.8.1-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-example
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682102910
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 553
+Filename: xray-example_1.8.1-1_all.ipk
+Size: 1406
+SHA256sum: 8e30897302021c35ef92ba8db05f8417eeb6330b6dc75de0d80f43ae6a107e3e
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
+
 Package: zipcmp
 Version: 1.8.0-4
 Depends: libc, libzip, musl-fts

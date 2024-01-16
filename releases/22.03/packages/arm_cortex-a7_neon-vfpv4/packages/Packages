@@ -5965,6 +5965,32 @@ Description:  The UW IMAP tookit includes the following:
  c-lient library : an API (application programming interface) used to build email clients and servers,
  including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
+Package: v2ray-geoip
+Version: 202303090050-1
+Depends: libc
+Provides: v2ray-geodata, xray-geodata, xray-geoip
+License: CC-BY-SA-4.0
+Section: net
+Architecture: all
+Installed-Size: 2304309
+Filename: v2ray-geoip_202303090050-1_all.ipk
+Size: 2080089
+SHA256sum: 5ca4a220140a873dcfaa4c69016031f84d5029b34cc436abffc8ffa37cf6a4d8
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20230312104722-1
+Depends: libc
+Provides: v2ray-geodata, xray-geodata, xray-geosite
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 444089
+Filename: v2ray-geosite_20230312104722-1_all.ipk
+Size: 443893
+SHA256sum: a955bcae5b6c0b17a5e24a8073442ce0691e9a8d7f05d8614b803103183439be
+Description:  Geosite List for V2Ray
+
 Package: xray-core
 Version: 1.8.1-1
 Depends: libc, ca-bundle

@@ -10,14 +10,14 @@ SHA256sum: be8119247bb8b68ab6e6eb256e947c57c053d105ed31d53b8526c364268a2c8d
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-homeproxy
-Version: 240116.47327
+Version: 240116.63438
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Section: luci
 Architecture: all
 Installed-Size: 372917
-Filename: luci-app-homeproxy_240116.47327_all.ipk
-Size: 373906
-SHA256sum: bfcd6ca98875139a55ef767bc384a2e0fc397fba15808407cc4f8fa267623b7a
+Filename: luci-app-homeproxy_240116.63438_all.ipk
+Size: 373905
+SHA256sum: 09968516d752ba5e85fc561265d9c167400e9a1b4107c8eeb582ae67192858c9
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-ipinfo
@@ -41,6 +41,17 @@ Filename: luci-app-openclash_0.45.157-beta_all.ipk
 Size: 5595320
 SHA256sum: f722900990c145b06f809d8d586c6afd0bf66ed640b8a5bdaf9e42be7a562ef6
 Description:  A LuCI support for clash
+
+Package: luci-app-passwall2
+Version: 1.23-3
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, haproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, sing-box, v2ray-plugin
+Section: luci
+Architecture: all
+Installed-Size: 743068
+Filename: luci-app-passwall2_1.23-3_all.ipk
+Size: 744129
+SHA256sum: e79afef850366236412a8f9e9a9dc663cefbade007823f94ada3a18d5f1f7ab7
+Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
 Version: 4.72-2
@@ -76,80 +87,91 @@ SHA256sum: e7af830b61503cde42283bffe8fab82e6bccf0aeb5568e56f50170b2c78f02b6
 Description:  A Web based File Manager in PHP
 
 Package: luci-i18n-argon-config-es
-Version: 240116.47327
+Version: 240116.63438
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 681
-Filename: luci-i18n-argon-config-es_240116.47327_all.ipk
-Size: 1498
-SHA256sum: 0b842a103ccc6ba37c50c8c3b04aab16d851a34f13a2e207cea8e1e9397e17d3
+Filename: luci-i18n-argon-config-es_240116.63438_all.ipk
+Size: 1499
+SHA256sum: 9e60b720190be00a7d6e22e2cf81b2fa882ac65596be3380e99dc177083346fd
 Description:  Translation for luci-app-argon-config - Español (Spanish)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 240116.47327
+Version: 240116.63438
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 1447
-Filename: luci-i18n-argon-config-zh-cn_240116.47327_all.ipk
-Size: 2301
-SHA256sum: 3c1779d84962251ea28bd47761357ae51298ae78d5631eba7394be295bc7075a
+Filename: luci-i18n-argon-config-zh-cn_240116.63438_all.ipk
+Size: 2300
+SHA256sum: 31eb3e2f12d830ee1422aebc4c38a78853977e8359fca1b75d3271b8ee5be4a5
 Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argon-config-zh-tw
-Version: 240116.47327
+Version: 240116.63438
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 690
-Filename: luci-i18n-argon-config-zh-tw_240116.47327_all.ipk
-Size: 1536
-SHA256sum: e7f4f9096bec57f41501600c8aa1a336c3ee8367858b10b09fa37aee548045f2
+Filename: luci-i18n-argon-config-zh-tw_240116.63438_all.ipk
+Size: 1537
+SHA256sum: a814dbc1f40687d45caba4cb7a97f425acb6169346dbe512a2546bb4e37c46aa
 Description:  Translation for luci-app-argon-config - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: 240116.47327
+Version: 240116.63438
 Depends: libc, luci-app-homeproxy
 Section: luci
 Architecture: all
 Installed-Size: 11094
-Filename: luci-i18n-homeproxy-zh-cn_240116.47327_all.ipk
-Size: 11933
-SHA256sum: 7840b12e6e2e6eeb8376f144e924dbb7bbe73047ae4a297b087ce821d9b7c139
+Filename: luci-i18n-homeproxy-zh-cn_240116.63438_all.ipk
+Size: 11934
+SHA256sum: 53bb2f845c4a2e9b26e7ad8c1f44944c22bc9d83cb0a30d5ddf96b58cd2559fe
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 240116.47328
+Version: 240116.63438
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
 Installed-Size: 12585
-Filename: luci-i18n-passwall-zh-cn_240116.47328_all.ipk
-Size: 13373
-SHA256sum: 4132890138ded108047daf0c1e770a6b1c0b9699e7d43268c11de2088ab27b2b
+Filename: luci-i18n-passwall-zh-cn_240116.63438_all.ipk
+Size: 13370
+SHA256sum: 0fd13178fc6ffe7dc41416e43bf3687fa39635e643bf2d55a56c69a4107635c5
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
+Package: luci-i18n-passwall2-zh-cn
+Version: 240116.63438
+Depends: libc, luci-app-passwall2
+Section: luci
+Architecture: all
+Installed-Size: 11977
+Filename: luci-i18n-passwall2-zh-cn_240116.63438_all.ipk
+Size: 12757
+SHA256sum: dd8fe5f42105375f16c3d81c547cc17495f3b6ff89cdc370489a611d5d90aeef
+Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
+
 Package: luci-i18n-tinyfilemanager-zh-cn
-Version: 240116.47328
+Version: 240116.63438
 Depends: libc, luci-app-tinyfilemanager
 Section: luci
 Architecture: all
 Installed-Size: 1153
-Filename: luci-i18n-tinyfilemanager-zh-cn_240116.47328_all.ipk
+Filename: luci-i18n-tinyfilemanager-zh-cn_240116.63438_all.ipk
 Size: 1973
-SHA256sum: 576e832904046c95938b9cb183ca391a17fea431454ea3afe2c7998d1eaea11d
+SHA256sum: a56b172b68aa4fd276721297c80f3bb91594dc5d1945cfba4d547098284e5768
 Description:  Translation for luci-app-tinyfilemanager - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tinyfilemanager-zh-tw
-Version: 240116.47328
+Version: 240116.63438
 Depends: libc, luci-app-tinyfilemanager
 Section: luci
 Architecture: all
 Installed-Size: 1164
-Filename: luci-i18n-tinyfilemanager-zh-tw_240116.47328_all.ipk
-Size: 1988
-SHA256sum: eb075b7ece777ef4b0097bf966968a86db5253df1e3472bb3e563f31def10eac
+Filename: luci-i18n-tinyfilemanager-zh-tw_240116.63438_all.ipk
+Size: 1989
+SHA256sum: 714ff320035f86b1abbf4e38b95e4e37c752b52b6ea4136a3a1761a8face9448
 Description:  Translation for luci-app-tinyfilemanager - 繁體中文 (Chinese Traditional)
 
 Package: luci-theme-alpha
