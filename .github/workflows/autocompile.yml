@@ -71,7 +71,7 @@ jobs:
           path: list_packages.txt
 
       - name: List Compiled Packages
-        run: echo "Compiled Packages | ${{ steps.list_package.outputs.content }}"
+        run: echo "Compiled Packages | ${{ steps.list_package.outputs.content }} ${{ inputs.compile_pkg }}"
         
       - name: Creating Directory
         run: mkdir artifacts
@@ -84,7 +84,6 @@ jobs:
           FEED_DIR: ${{ github.workspace }}/feeds
           PACKAGES: ${{ steps.list_package.outputs.content}} ${{ inputs.compile_pkg }}
           INDEX: 1
-          V: s
         
       - name: Delivering Package
         uses: actions/upload-artifact@v3
