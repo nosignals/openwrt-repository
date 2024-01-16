@@ -6,8 +6,24 @@ name: AutoCompiler OpenWrt Packages
 on:
   push:
     branches:
-    - main
+      - main
+    paths-ignore:
+      - '.github/workflows/**'
     
+  workflow_call:
+    inputs:
+      compile_pkg:
+        description: 'Compile packages (default : all packages on list_packages.txt)'
+        required: false
+        default: ''
+        type: string
+        
+      without_pages:
+        description: 'Dont deploy pages'
+        required: true
+        default: false
+        type: boolean
+        
 permissions:
   contents: read
   pages: write
@@ -41,6 +57,7 @@ jobs:
           ref: main
 
       - name: Reading Package 
+        if: ${{ input.compile_pkg == '' }}
         id: list_package
         uses: jaywcjlove/github-action-read-file@main
         with:
@@ -120,6 +137,7 @@ jobs:
           
   build_pages:
     needs: push_packages
+    if: inputs.without_pages == 0 && !cancelled()
     name: Building pages
     permissions:
       contents: write
