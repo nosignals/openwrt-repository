@@ -36,6 +36,17 @@ Size: 8909
 SHA256sum: 36dc9f3b5c24b276bee0a020614cac662c419c967c8a3a3991431250e2fb3d20
 Description:  LuCI HTTP utility library
 
+Package: luci-app-nlbwmon
+Version: git-23.013.73652-e29915d
+Depends: libc, luci-compat, nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 20913
+Filename: luci-app-nlbwmon_git-23.013.73652-e29915d_all.ipk
+Size: 21763
+SHA256sum: 1e14006cc1736a20929a87c49c4f16c34d4b5f35a2a9e1d6898715d91ddb9027
+Description:  Netlink based bandwidth accounting
+
 Package: luci-base
 Version: git-23.093.57104-ce20b4a
 Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
@@ -466,6 +477,369 @@ Filename: luci-i18n-base-zh-tw_git-23.093.43731-b672b90_all.ipk
 Size: 48180
 SHA256sum: d29083cb74604d34f98f35190c60dc5e5bd9672dd5e5ec58d152ff1cfbb738e0
 Description:  Translation for luci-base - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-nlbwmon-ar
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 706
+Filename: luci-i18n-nlbwmon-ar_git-23.090.61754-f7f34d4_all.ipk
+Size: 1531
+SHA256sum: 2017c618a8a02397f88813f76d18622de2b0456d4ece331a69396aba1a314e01
+Description:  Translation for luci-app-nlbwmon - العربية (Arabic)
+
+Package: luci-i18n-nlbwmon-bg
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 641
+Filename: luci-i18n-nlbwmon-bg_git-23.090.61754-f7f34d4_all.ipk
+Size: 1469
+SHA256sum: a7ec452de01f252b10cd9f145464d08b363d8ca45ea118f34532e621526a2989
+Description:  Translation for luci-app-nlbwmon - български (Bulgarian)
+
+Package: luci-i18n-nlbwmon-bn
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 557
+Filename: luci-i18n-nlbwmon-bn_git-23.090.61754-f7f34d4_all.ipk
+Size: 1379
+SHA256sum: b140d55a79e346aad33e5956d93e385b6c34ee8ff4ded6981cdb10d9516dacfc
+Description:  Translation for luci-app-nlbwmon - বাংলা (Bengali)
+
+Package: luci-i18n-nlbwmon-ca
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 527
+Filename: luci-i18n-nlbwmon-ca_git-23.090.61754-f7f34d4_all.ipk
+Size: 1331
+SHA256sum: 5bd2ac964b7e85bec4834da750e5f932c82998f015168599cd61fc97f9af1db4
+Description:  Translation for luci-app-nlbwmon - Català (Catalan)
+
+Package: luci-i18n-nlbwmon-cs
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 752
+Filename: luci-i18n-nlbwmon-cs_git-23.090.61754-f7f34d4_all.ipk
+Size: 1564
+SHA256sum: ed2ed435132cd82d38ee3c943a14c5937316de26ca84ae320b54deee52b1398f
+Description:  Translation for luci-app-nlbwmon - Čeština (Czech)
+
+Package: luci-i18n-nlbwmon-da
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 647
+Filename: luci-i18n-nlbwmon-da_git-23.090.61754-f7f34d4_all.ipk
+Size: 1446
+SHA256sum: c4cea147caaf80ac97948afe43c24e19fcd7a152fd450652c7d5fd74bf906ee6
+Description:  Translation for luci-app-nlbwmon - Dansk (Danish)
+
+Package: luci-i18n-nlbwmon-de
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3832
+Filename: luci-i18n-nlbwmon-de_git-23.090.61754-f7f34d4_all.ipk
+Size: 4619
+SHA256sum: f77f9c61cd7c03e26a9b54baa5f661793b7254c7a054d7011592f6d423a3a47d
+Description:  Translation for luci-app-nlbwmon - Deutsch (German)
+
+Package: luci-i18n-nlbwmon-el
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 608
+Filename: luci-i18n-nlbwmon-el_git-23.090.61754-f7f34d4_all.ipk
+Size: 1426
+SHA256sum: f309faa31b89ae26c604ced474ee300ec022c3bbaed0ad7e4bced2525836d2c0
+Description:  Translation for luci-app-nlbwmon - Ελληνικά (Greek)
+
+Package: luci-i18n-nlbwmon-en
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 353
+Filename: luci-i18n-nlbwmon-en_git-23.090.61754-f7f34d4_all.ipk
+Size: 1145
+SHA256sum: 7e6d66432c34239caca203577d15ee13ed1b24931e5cd4b467de1640a6a1d3ab
+Description:  Translation for luci-app-nlbwmon - English
+
+Package: luci-i18n-nlbwmon-es
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3897
+Filename: luci-i18n-nlbwmon-es_git-23.090.61754-f7f34d4_all.ipk
+Size: 4684
+SHA256sum: ed8851829c7231297204e3dfe83818be5e69b7fd409cb3f76cb04ab50bf809c7
+Description:  Translation for luci-app-nlbwmon - Español (Spanish)
+
+Package: luci-i18n-nlbwmon-fi
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 1388
+Filename: luci-i18n-nlbwmon-fi_git-23.090.61754-f7f34d4_all.ipk
+Size: 2197
+SHA256sum: a025699024a3c6969c1b8c92fcbaf96fc830572ee80b1da0dbf7f2434451459e
+Description:  Translation for luci-app-nlbwmon - Suomi (Finnish)
+
+Package: luci-i18n-nlbwmon-fr
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 1825
+Filename: luci-i18n-nlbwmon-fr_git-23.090.61754-f7f34d4_all.ipk
+Size: 2644
+SHA256sum: 00c9f5662d54266ebb53c9a85d3c040bea676101a95991378f3dbe202d23d1cf
+Description:  Translation for luci-app-nlbwmon - Français (French)
+
+Package: luci-i18n-nlbwmon-he
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 553
+Filename: luci-i18n-nlbwmon-he_git-23.090.61754-f7f34d4_all.ipk
+Size: 1382
+SHA256sum: 136775e7db69e8d37138e979d2f7f0e151b1ab43c57b7fe3d85185caeb234394
+Description:  Translation for luci-app-nlbwmon - עִבְרִית (Hebrew)
+
+Package: luci-i18n-nlbwmon-hi
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 382
+Filename: luci-i18n-nlbwmon-hi_git-23.090.61754-f7f34d4_all.ipk
+Size: 1206
+SHA256sum: ebd6be3398f8608783f8ae691730ddd04f410c65f25081314ae5ab0d196d5865
+Description:  Translation for luci-app-nlbwmon - हिंदी (Hindi)
+
+Package: luci-i18n-nlbwmon-hu
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3809
+Filename: luci-i18n-nlbwmon-hu_git-23.090.61754-f7f34d4_all.ipk
+Size: 4602
+SHA256sum: dad9020298ed4f92330b8f119b4917945e5d51ac145b4e65a270a6aac1c975ea
+Description:  Translation for luci-app-nlbwmon - Magyar (Hungarian)
+
+Package: luci-i18n-nlbwmon-it
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 672
+Filename: luci-i18n-nlbwmon-it_git-23.090.61754-f7f34d4_all.ipk
+Size: 1471
+SHA256sum: 1985fc8f5c885311b4f9931478b7969da99458ecd838aa0dac8381e7818c0853
+Description:  Translation for luci-app-nlbwmon - Italiano (Italian)
+
+Package: luci-i18n-nlbwmon-ja
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3932
+Filename: luci-i18n-nlbwmon-ja_git-23.090.61754-f7f34d4_all.ipk
+Size: 4732
+SHA256sum: 3cb9cbeca19e2e22090cf357d6b214c2dd5c854971565051ac5f7247704d081a
+Description:  Translation for luci-app-nlbwmon - 日本語 (Japanese)
+
+Package: luci-i18n-nlbwmon-ko
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 539
+Filename: luci-i18n-nlbwmon-ko_git-23.090.61754-f7f34d4_all.ipk
+Size: 1360
+SHA256sum: c99dbfeb2a883ae755cf02ea5c41f8e345840afa42dcaa1da582214f89ac481d
+Description:  Translation for luci-app-nlbwmon - 한국어 (Korean)
+
+Package: luci-i18n-nlbwmon-mr
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 636
+Filename: luci-i18n-nlbwmon-mr_git-23.090.61754-f7f34d4_all.ipk
+Size: 1450
+SHA256sum: c9ffeb7da3aab8c431c86b941c7392118e7376ab3eb296b4ea7842f36e4553f2
+Description:  Translation for luci-app-nlbwmon - Marāṭhī (Marathi)
+
+Package: luci-i18n-nlbwmon-ms
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 446
+Filename: luci-i18n-nlbwmon-ms_git-23.090.61754-f7f34d4_all.ipk
+Size: 1252
+SHA256sum: 533b1f84035b8ee523a4ea47c4c2927cfce9b4c9c3ccfe6e6a3bd475ad15a026
+Description:  Translation for luci-app-nlbwmon - Bahasa Melayu (Malay)
+
+Package: luci-i18n-nlbwmon-no
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 545
+Filename: luci-i18n-nlbwmon-no_git-23.090.61754-f7f34d4_all.ipk
+Size: 1349
+SHA256sum: 93f98b9acc234b8fd7db2fc578401fbb9bccf0e17112fc14fe368a1e8f475c1a
+Description:  Translation for luci-app-nlbwmon - Norsk (Norwegian)
+
+Package: luci-i18n-nlbwmon-pl
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 4003
+Filename: luci-i18n-nlbwmon-pl_git-23.090.61754-f7f34d4_all.ipk
+Size: 4787
+SHA256sum: 7ed1c450213db562f48258859a3a4c866b322a79db44f76a95d67a8b283bffab
+Description:  Translation for luci-app-nlbwmon - Polski (Polish)
+
+Package: luci-i18n-nlbwmon-pt-br
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3888
+Filename: luci-i18n-nlbwmon-pt-br_git-23.090.61754-f7f34d4_all.ipk
+Size: 4700
+SHA256sum: 83b356885790de969a07980ff7211ecf19155b5b0a1946a670b51c737427ee0d
+Description:  Translation for luci-app-nlbwmon - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-nlbwmon-pt
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3887
+Filename: luci-i18n-nlbwmon-pt_git-23.090.61754-f7f34d4_all.ipk
+Size: 4679
+SHA256sum: 941db1d1fbc2b75cef288491fcdcacdd4265799c5092d7fa98c524497d855298
+Description:  Translation for luci-app-nlbwmon - Português (Portuguese)
+
+Package: luci-i18n-nlbwmon-ro
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 4039
+Filename: luci-i18n-nlbwmon-ro_git-23.090.61754-f7f34d4_all.ipk
+Size: 4820
+SHA256sum: 2464bc7c741d2fc5498ebe7c636b4977516362da19ccc6338b4c47bf19a69c16
+Description:  Translation for luci-app-nlbwmon - Română (Romanian)
+
+Package: luci-i18n-nlbwmon-ru
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 4516
+Filename: luci-i18n-nlbwmon-ru_git-23.090.61754-f7f34d4_all.ipk
+Size: 5332
+SHA256sum: 56453813dc13808d8ed0464721480dbdc1f57df4270c5010a84e39ff1160fe05
+Description:  Translation for luci-app-nlbwmon - Русский (Russian)
+
+Package: luci-i18n-nlbwmon-sk
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 676
+Filename: luci-i18n-nlbwmon-sk_git-23.090.61754-f7f34d4_all.ipk
+Size: 1483
+SHA256sum: 5c933871f4da9bb417fe79dc61da45a6efde51f56fd4db44d63269589d8ecf33
+Description:  Translation for luci-app-nlbwmon - Slovenčina (Slovak)
+
+Package: luci-i18n-nlbwmon-sv
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 1146
+Filename: luci-i18n-nlbwmon-sv_git-23.090.61754-f7f34d4_all.ipk
+Size: 1956
+SHA256sum: fad0233e74ffb0300e470aa2e9137a2ca0428ca8e31642962d2e28a40febe3b0
+Description:  Translation for luci-app-nlbwmon - Svenska (Swedish)
+
+Package: luci-i18n-nlbwmon-tr
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3872
+Filename: luci-i18n-nlbwmon-tr_git-23.090.61754-f7f34d4_all.ipk
+Size: 4663
+SHA256sum: 591d6134a47494151cd5d5a92ae11f23579858f505625cc4c71cfd9a92d7d0ba
+Description:  Translation for luci-app-nlbwmon - Türkçe (Turkish)
+
+Package: luci-i18n-nlbwmon-uk
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 849
+Filename: luci-i18n-nlbwmon-uk_git-23.090.61754-f7f34d4_all.ipk
+Size: 1684
+SHA256sum: 523b2c6d648c993efb5556db0d4c2a6f1fcbca739315f756d90863e02e16b9b7
+Description:  Translation for luci-app-nlbwmon - Українська (Ukrainian)
+
+Package: luci-i18n-nlbwmon-vi
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 554
+Filename: luci-i18n-nlbwmon-vi_git-23.090.61754-f7f34d4_all.ipk
+Size: 1372
+SHA256sum: ee33d21a2c4acd7f1abab4252266f25c3a163fbf89b9f12a49e061f591d79e5a
+Description:  Translation for luci-app-nlbwmon - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-nlbwmon-zh-cn
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3659
+Filename: luci-i18n-nlbwmon-zh-cn_git-23.090.61754-f7f34d4_all.ipk
+Size: 4471
+SHA256sum: ab0dc96e4e065a29eaffac55513ff435ea43725af37e50396fce6021a3a28f34
+Description:  Translation for luci-app-nlbwmon - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-nlbwmon-zh-tw
+Version: git-23.090.61754-f7f34d4
+Depends: libc, luci-app-nlbwmon
+Section: luci
+Architecture: all
+Installed-Size: 3761
+Filename: luci-i18n-nlbwmon-zh-tw_git-23.090.61754-f7f34d4_all.ipk
+Size: 4572
+SHA256sum: adb42b475ca93c62ce550806acca39e9da0a1afea97928b4dad8d808d35639d2
+Description:  Translation for luci-app-nlbwmon - 繁體中文 (Chinese Traditional)
 
 Package: luci-lib-base
 Version: git-20.232.39649-1f6dc29

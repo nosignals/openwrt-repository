@@ -1,3 +1,72 @@
+Package: agetty
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 25162
+Filename: agetty_2.39-2_aarch64_cortex-a53.ipk
+Size: 25839
+SHA256sum: 3d4531e1eb356509d73bc8fb0aebbcb627fc16855097a4d80318d7dfe5803ec8
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
+Package: badblocks
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 9647
+Filename: badblocks_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 10275
+SHA256sum: 90c3194e00147c43e6363005626dc3a6e319a43cee59ea587030313d8a69eda0
+Description:  Ext2 Filesystem badblocks utility
+
+Package: blkdiscard
+Version: 2.39-2
+Depends: libc, libblkid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 11570
+Filename: blkdiscard_2.39-2_aarch64_cortex-a53.ipk
+Size: 12328
+SHA256sum: c559af4dc4cb4bf11bbb6bb9b6788b24b9ea02f5f032c5a27908e65d61ec34fe
+Description:  The blkdiscard is used to discard device sectors. This is useful for
+ solid-state drivers (SSDs) and thinly-provisioned storage. Unlike fstrim,
+ this command is used directly on the block device.
+
+Package: blkid
+Version: 2.39-2
+Depends: libc, libblkid1, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 50318
+Filename: blkid_2.39-2_aarch64_cortex-a53.ipk
+Size: 51086
+SHA256sum: 3fdf7461eb22bddc9e40d1c0583e8a8436473a37b718ac4e6ca3e4762c09439b
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: blockdev
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 33097
+Filename: blockdev_2.39-2_aarch64_cortex-a53.ipk
+Size: 33713
+SHA256sum: 4154b2122b7e2a9631def7ddebbe8f14116a9cfc988299874eaed66472475612
+Description:  The blockdev program is the command-line interface to call block device ioctls.
+
 Package: bzip2
 Version: 1.0.8-1
 Depends: libc, libbz2-1.0
@@ -36,6 +105,72 @@ Size: 134559
 SHA256sum: afcf1dae32e6f4403fc82655d97c961a1cde40cf7ebc69052985679e099f1276
 Description:  System CA certificates
 
+Package: cal
+Version: 2.39-2
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 25740
+Filename: cal_2.39-2_aarch64_cortex-a53.ipk
+Size: 26447
+SHA256sum: f72fed1c353d4e7e7d171c555a8e46788beb61ecb01bb01221443d4c3d0070a6
+Description:  cal displays a simple calendar
+
+Package: cfdisk
+Version: 2.39-2
+Depends: libc, libblkid1, libncurses6, libsmartcols1, libfdisk1, libmount1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 39269
+Filename: cfdisk_2.39-2_aarch64_cortex-a53.ipk
+Size: 39699
+SHA256sum: 2c497dd03e38a19a14adb2fc40849d0e14b2d8a90cc91f6cff9d4089293df0df
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chattr
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 3379
+Filename: chattr_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 3988
+SHA256sum: 3b7780d71c365924a0f6b70f05b5b972ea440bfc5f0ab698e389bf91fd19d9f8
+Description:  Ext2 Filesystem chattr utility
+
+Package: colrm
+Version: 2.39-2
+Depends: libc
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 9401
+Filename: colrm_2.39-2_aarch64_cortex-a53.ipk
+Size: 10135
+SHA256sum: f1fe70266dd34e433943727756ba6790f28833b39ac5146ccc69c8a1ed57ae1d
+Description:  colrm removes selected columns from a file. Input is taken from
+ standard input. Output is sent to standard output.
+
+Package: debugfs
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 72679
+Filename: debugfs_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 73259
+SHA256sum: 409ea2af1d6521914be9822d8a04219f539376b13890371914cce6b2d34b34ff
+Description:  Ext2 Filesystem debugger
+
 Package: devlink
 Version: 6.3.0-1
 Depends: libc, libmnl0
@@ -48,6 +183,19 @@ Filename: devlink_6.3.0-1_aarch64_cortex-a53.ipk
 Size: 49027
 SHA256sum: 1158b82efcef875104dedca37c26c012a04e4548fb3574ddeec8c15ef0aa1524
 Description:  Network devlink utility
+
+Package: dmesg
+Version: 2.39-2
+Depends: libc, libncursesw6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 28021
+Filename: dmesg_2.39-2_aarch64_cortex-a53.ipk
+Size: 28833
+SHA256sum: cff5b30d465f0cb4fac7099539dc469862653e869e9dba952b1dac8e458eb6b6
+Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq-dhcpv6
 Version: 2.89-4
@@ -95,6 +243,113 @@ Size: 146777
 SHA256sum: a498c54559ad4d56d1572c0f0123359661636a3853412445a0106c9e82084f1b
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: dumpe2fs
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 8757
+Filename: dumpe2fs_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 9420
+SHA256sum: a5d19a137579c6c4fd86ca99825e5daf0c2bde62ff04f05bf078c71a97fedee5
+Description:  Ext2 Filesystem information dumping utility
+
+Package: e2freefrag
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 4149
+Filename: e2freefrag_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 4764
+SHA256sum: b29a3fc24f4bcf067f8e3a1fb71ef94cc438a3fe62803800dd50a285945a5b94
+Description:  Ext2 Filesystem free space fragmentation information utility
+
+Package: e2fsprogs
+Version: 1.47.0-2
+Depends: libc, libuuid1, libext2fs2
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 196886
+Filename: e2fsprogs_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 197156
+SHA256sum: 0346264dc3d6a846641b9b0263d8033a42b290bbe544b6932fcfd1ab086391a6
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: e4crypt
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 8002
+Filename: e4crypt_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 8675
+SHA256sum: 44c2ff768c56162b022a71c4496aa3f4ae821e083d01803e4e071c5f09ebd6bf
+Description:  Ext4 Filesystem encryption utility
+
+Package: eject
+Version: 2.39-2
+Depends: libc, libblkid1, libmount1, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 34753
+Filename: eject_2.39-2_aarch64_cortex-a53.ipk
+Size: 35378
+SHA256sum: c28b4e1333334127e5f99811316bf3f3382209851286b01f50e558a3336b0604
+Description:  eject allows removable media (typically a CD-ROM, floppy disk, tape, or JAZ
+ or ZIP disk) to be ejected under software control.
+
+Package: fdisk
+Version: 2.39-2
+Depends: libc, libblkid1, libsmartcols1, libfdisk1, libncursesw6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 59199
+Filename: fdisk_2.39-2_aarch64_cortex-a53.ipk
+Size: 59606
+SHA256sum: 2e2c4600f3f6e6e61b4ca546f59fe8b083efb6aa74e8af1532264e1d74e0497b
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: filefrag
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 6016
+Filename: filefrag_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 6596
+SHA256sum: 4fc3f164e8ab4261ee99e894108b70b472f937ef6070895db612a9f8bc6a87b8
+Description:  Ext2 Filesystem file fragmentation report utility
+
+Package: findfs
+Version: 2.39-2
+Depends: libc, libblkid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 2654
+Filename: findfs_2.39-2_aarch64_cortex-a53.ipk
+Size: 3381
+SHA256sum: 22bd50f372c8e3e21975e1993aecbb8460f314422dead664b0fb8bb692f86b8c
+Description:  findfs will search the disks in the system looking for a filesystem which has
+ a label matching label or a UUID equal to uuid
+
 Package: firewall4
 Version: 2023-09-01-598d9fbb-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
@@ -109,6 +364,35 @@ SHA256sum: 27edd53c9136c46921543b94cbfdbaeacf21d2eff4037b525a80014a5586ed2f
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
+Package: flock
+Version: 2.39-2
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 11904
+Filename: flock_2.39-2_aarch64_cortex-a53.ipk
+Size: 12602
+SHA256sum: f1eb439caa0b0f6149410918a714c1af28ba96148ab47b1a572559c15b343793
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: fstrim
+Version: 2.39-2
+Depends: libc, libblkid1, libuuid1, libsmartcols1, libmount1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 32365
+Filename: fstrim_2.39-2_aarch64_cortex-a53.ipk
+Size: 33048
+SHA256sum: c8e2a30d202c2e2bf9cd2fcd15ab62d3bf2ad244eb90f20d6476128774b5cd1d
+Description:  fstrim is used on a mounted filesystem to discard (or "trim") blocks
+ which are not in use by the filesystem.  This is useful for solid-
+ state drives (SSDs) and thinly-provisioned storage.
+
 Package: genl
 Version: 6.3.0-1
 Depends: libc, libnl-tiny1, libmnl0
@@ -121,6 +405,45 @@ Filename: genl_6.3.0-1_aarch64_cortex-a53.ipk
 Size: 9251
 SHA256sum: 16f6d10be1b7e43f81384a96f96da7b4fe81d1cc80440ca3b6ed705cdecaf467
 Description:  General netlink utility frontend
+
+Package: getopt
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 11466
+Filename: getopt_2.39-2_aarch64_cortex-a53.ipk
+Size: 12181
+SHA256sum: 35e3273e3317d84759e563e60b1c8bf2dca94a0aa0fe1a9cb395f3fcf9ef58d9
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: getrandom
+Version: 2022-08-13-4c7b720b-2
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 1793
+Filename: getrandom_2022-08-13-4c7b720b-2_aarch64_cortex-a53.ipk
+Size: 2449
+SHA256sum: af49b03dd56ed70e2c688b1bae13927b640c7130ad06e8f22b3777b8d8690af8
+Description:  OpenWrt getrandom system helper
+
+Package: hwclock
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 37359
+Filename: hwclock_2.39-2_aarch64_cortex-a53.ipk
+Size: 37919
+SHA256sum: 76e88a8ee7bdb24bde672524358b45d8e37d7415af2b2d604394010275c0ea2a
+Description:  hwclock is a tool for accessing the Hardware Clock
 
 Package: ip-bridge
 Version: 6.3.0-1
@@ -164,6 +487,22 @@ Filename: ip-tiny_6.3.0-1_aarch64_cortex-a53.ipk
 Size: 159329
 SHA256sum: 3d86da7cf2c04bf282aa62668966641cc67d5d3342131d0eeaa0a54e9562847b
 Description:  Routing control utility (minimal)
+
+Package: ipcs
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 26079
+Filename: ipcs_2.39-2_aarch64_cortex-a53.ipk
+Size: 26932
+SHA256sum: a5624409b0eea50a7c569021c0a408ac639776f297cfe2d7acecfc59e0ed1840
+Description:  ipcs shows information on the inter-process communication facilities for
+ which the calling process has read access. By default it shows information
+ about all three resources: shared memory segments, message queues, and
+ semaphore arrays.
 
 Package: ipset
 Version: 7.17-1
@@ -217,6 +556,18 @@ Size: 7755
 SHA256sum: a2cbfac35015a1e7236d3fd7f81fac658d39bfba9a3b9cd1a11bd0e5e9696f26
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20230523, libjson-c5
+License: ISC
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 10452
+Filename: jsonfilter_2018-02-04-c7e938d6-1_aarch64_cortex-a53.ipk
+Size: 11078
+SHA256sum: 55378aaf2e86bee6b63f2956be5991b5181b5c8041e9a79a3356404adbda4be3
+Description:  OpenWrt JSON filter utility
+
 Package: libasm1
 Version: 0.189-1
 Depends: libc, libelf1, libdw1
@@ -231,6 +582,24 @@ Filename: libasm1_0.189-1_aarch64_cortex-a53.ipk
 Size: 12938
 SHA256sum: 31dbf1fe33e6ed6c84fa3b7d3b1fe7964f2015db36fb99104639f46698526f76
 Description:  ELF manipulation libraries (libasm)
+
+Package: libblkid1
+Version: 2.39-2
+Depends: libc, libuuid1
+Provides: libblkid
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 116250
+Filename: libblkid1_2.39-2_aarch64_cortex-a53.ipk
+Size: 116907
+SHA256sum: cf36e3a5113e648a78371b40842a8d6c07cdbb53e1a79f881d8266486fb4e1b5
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
 
 Package: libblobmsg-json20230523
 Version: 2023-05-23-75a3b870-1
@@ -305,6 +674,22 @@ Size: 16643
 SHA256sum: 50336bb911e49b7011ef97ec97fa86a1ddbf8c4c0110a7817d94da8cc4d6b319
 Description:  Linux capabilities library library
 
+Package: libcomerr0
+Version: 1.47.0-2
+Depends: libc, libuuid1
+Provides: libcomerr
+License: GPL-2.0
+Section: libs
+ABIVersion: 0
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 4355
+Filename: libcomerr0_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 5004
+SHA256sum: c226153359694cc1034798221e10cd138a60b95cabb6f6e86fc26659625968e6
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
 Package: libdw1
 Version: 0.189-1
 Depends: libc, libelf1, libbz2-1.0, musl-fts
@@ -335,6 +720,166 @@ Size: 42745
 SHA256sum: b55dee8035c69d57c3f7eecea85354078d5d26d1090f50a3ff7dac15e4bcdedb
 Description:  ELF manipulation libraries (libelf)
 
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+License: BSD-3-Clause
+Section: libs
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 110330
+Filename: libevent2-7_2.1.12-1_aarch64_cortex-a53.ipk
+Size: 111436
+SHA256sum: 561c589d921f05daabebbc587bd5910ea55de3db19b8927ec12deced4da312dc
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 65604
+Filename: libevent2-core7_2.1.12-1_aarch64_cortex-a53.ipk
+Size: 66456
+SHA256sum: e27b8e262b35198451ff1010f200d499a3076fdc3123636c818d14ddf9e18904
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 50370
+Filename: libevent2-extra7_2.1.12-1_aarch64_cortex-a53.ipk
+Size: 51350
+SHA256sum: 5712bc11254070d7bdcda1671d3bfc4be3bc0fde3cbfb27033468188a1c0dc77
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl3, libevent2-core7
+Provides: libevent2-openssl
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 8457
+Filename: libevent2-openssl7_2.1.12-1_aarch64_cortex-a53.ipk
+Size: 9492
+SHA256sum: 29357ea465826772196c413a19a49a7f2b311c62983763cefb3e87f6d0b7468e
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_cortex-a53
+Installed-Size: 2175
+Filename: libevent2-pthreads7_2.1.12-1_aarch64_cortex-a53.ipk
+Size: 3144
+SHA256sum: 60cd60f3c9d4cee4ff6132b4d77c60fb2200d3720349093caf3b91069a50394a
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libext2fs2
+Version: 1.47.0-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+License: GPL-2.0
+Section: libs
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 188092
+Filename: libext2fs2_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 188527
+SHA256sum: b0707a4c0dededec14571fd4b4abfd80a689c217730840d2472e8c682af3b917
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libfdisk1
+Version: 2.39-2
+Depends: libc, libuuid1, libblkid1
+Provides: libfdisk
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 147991
+Filename: libfdisk1_2.39-2_aarch64_cortex-a53.ipk
+Size: 148617
+SHA256sum: 90d62deae7b9cc936d60ce8e2c4c795396056ecf10148fd5ff31076bdd717047
+Description:  The libfdisk library is used for manipulating with partition tables.
+
 Package: libgmp10
 Version: 6.2.1-1
 Depends: libc
@@ -350,6 +895,21 @@ Size: 221083
 SHA256sum: 3865b885b1ba316bb9b0e647f9110f1e1e9be10e59a5f850deb9a702b1be2806
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
+
+Package: libintl-full8
+Version: 0.21.1-2
+Depends: libc
+Provides: libintl-full
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:gettext
+Architecture: aarch64_cortex-a53
+Installed-Size: 17841
+Filename: libintl-full8_0.21.1-2_aarch64_cortex-a53.ipk
+Size: 18497
+SHA256sum: d6ee34bd0ce473b1218ab611af3f2d1452f1dead90092130c83ff90abb4f4d93
+Description:  GNU Internationalization library
 
 Package: libipset13
 Version: 7.17-1
@@ -537,6 +1097,22 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  * Decoupling: the interdependency of the main bricks that compose the library
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
+
+Package: libmount1
+Version: 2.39-2
+Depends: libc, libblkid1
+Provides: libmount
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 144527
+Filename: libmount1_2.39-2_aarch64_cortex-a53.ipk
+Size: 145357
+SHA256sum: 58c10caa3b0c29db96b441c392747310308fec66afe291175731c46739595521
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
 Package: libncurses-dev
 Version: 6.4-2
@@ -793,6 +1369,37 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
+Package: libsmartcols1
+Version: 2.39-2
+Depends: libc, librt
+Provides: libsmartcols
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 45662
+Filename: libsmartcols1_2.39-2_aarch64_cortex-a53.ipk
+Size: 46407
+SHA256sum: 748be7531d63c2851de00afec683f7aadd12335a86d85eff7f8a6be18819dc8e
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.47.0-2
+Depends: libc, libcomerr0
+Provides: libss
+License: GPL-2.0
+Section: libs
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 9339
+Filename: libss2_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 10037
+SHA256sum: b55c8055be4e2183f59098b51c9146cfe598a287234bf3adf37f237cfccd1a35
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
 Package: libubox-lua
 Version: 2023-05-23-75a3b870-1
 Depends: libc, libubox20230523, liblua5.1.5
@@ -884,6 +1491,199 @@ Filename: libucode20230711_2023-11-07-a6e75e02-1_aarch64_cortex-a53.ipk
 Size: 78702
 SHA256sum: 72f952dac435b75e07f95df8c5ceeaf6d575485da1acfd41fc43a5362aaedf8b
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libunistring
+Version: 1.1-1
+Depends: libc
+License: GPL-3.0
+Section: libs
+CPE-ID: cpe:/a:gnu:libunistring
+Architecture: aarch64_cortex-a53
+Installed-Size: 672732
+Filename: libunistring_1.1-1_aarch64_cortex-a53.ipk
+Size: 661680
+SHA256sum: 7bd1864bdf110ec642b8748d1e0e060f6a6f22f527d024abaf0e0f05752c7c00
+Description:  This library provides functions for manipulating Unicode strings
+ and for manipulating C strings according to the Unicode standard.
+
+Package: libuuid1
+Version: 2.39-2
+Depends: libc, librt
+Provides: libuuid
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 13102
+Filename: libuuid1_2.39-2_aarch64_cortex-a53.ipk
+Size: 13916
+SHA256sum: 1b8b192ab8c226d1a33724a74e7d306d959bdaf08ef92fb28f349f06fae96b2f
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libxml2-dev
+Version: 2.11.4-1
+Depends: libc, libxml2
+License: MIT
+Section: devel
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_cortex-a53
+Installed-Size: 85979
+Filename: libxml2-dev_2.11.4-1_aarch64_cortex-a53.ipk
+Size: 86880
+SHA256sum: 9f2db5dc33ea96625b4033845db1419f199c2bc10f789ea78414ea7047be3828
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.11.4-1
+Depends: libc, libxml2
+License: MIT
+Section: utils
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_cortex-a53
+Installed-Size: 22132
+Filename: libxml2-utils_2.11.4-1_aarch64_cortex-a53.ipk
+Size: 22536
+SHA256sum: 09bd86aca35aa22afeae4e70fe0c1ec955fa7f651a10a3ebe5a8685b2ad5d2a6
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.11.4-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_cortex-a53
+Installed-Size: 506104
+Filename: libxml2_2.11.4-1_aarch64_cortex-a53.ipk
+Size: 504599
+SHA256sum: 3586d102a8dbc46c58eb8562e16ed7dd923de4748a0a07f09801a8e9e774eecb
+Description:  A library for manipulating XML and HTML resources.
+
+Package: logd
+Version: 2022-08-13-4c7b720b-2
+Depends: libc, libubox20230523, libubus20230605, libblobmsg-json20230523
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 12376
+Filename: logd_2022-08-13-4c7b720b-2_aarch64_cortex-a53.ipk
+Size: 12874
+SHA256sum: 2518596100a68deefd5d94a43b70d65bc9560208c8b25ee6a55d220d39dcaf6c
+Description:  OpenWrt system log implementation
+
+Package: logger
+Version: 2.39-2
+Depends: libc, librt
+Alternatives: 200:/usr/bin/logger:/usr/bin/util-linux-logger
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 18140
+Filename: logger_2.39-2_aarch64_cortex-a53.ipk
+Size: 18886
+SHA256sum: 186ec11078916bd75224f80120930fb47ba78501ca03386403b5bc9a3f84fa03
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: look
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 3907
+Filename: look_2.39-2_aarch64_cortex-a53.ipk
+Size: 4561
+SHA256sum: 561e477bc74d80ee8e3fec5813b485880cbe3274af06c6a4930985bbc4f5503e
+Description:  look utility displays any lines in file which contain string
+
+Package: losetup
+Version: 2.39-2
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 46946
+Filename: losetup_2.39-2_aarch64_cortex-a53.ipk
+Size: 47709
+SHA256sum: f1f2d8bd22399c4c15457b90ffcfdb9f5c7fa7001e0da3088cd3410faccef5b2
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lsattr
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 2940
+Filename: lsattr_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 3547
+SHA256sum: ffaede20dc7aaaceb6de528164e1228e6cc5a303ffbf10c1a92286d773c8997d
+Description:  Ext2 Filesystem lsattr utility
+
+Package: lsblk
+Version: 2.39-2
+Depends: libc, libblkid1, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 72591
+Filename: lsblk_2.39-2_aarch64_cortex-a53.ipk
+Size: 73323
+SHA256sum: 676689a7757ec916fc1c559bad176edc9014a041124da075323fbef9845ebebe
+Description:  lsblk lists information about all or the specified block devices
+
+Package: lscpu
+Version: 2.39-2
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 56130
+Filename: lscpu_2.39-2_aarch64_cortex-a53.ipk
+Size: 56900
+SHA256sum: 025e3937d746e07e9c4a2ded5f76198349f8803b1d136df52f958d7bea49fcb3
+Description:  lscpu displays information about the CPU architecture
+
+Package: lslocks
+Version: 2.39-2
+Depends: libc, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 25513
+Filename: lslocks_2.39-2_aarch64_cortex-a53.ipk
+Size: 26273
+SHA256sum: 0efd43089ef0677e03ae5b2e5f747acae07698530b68347e57db85abf4501653
+Description:  lslocks lists information about all the currently held file locks in a Linux system
+
+Package: lsns
+Version: 2.39-2
+Depends: libc, libblkid1, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 30961
+Filename: lsns_2.39-2_aarch64_cortex-a53.ipk
+Size: 31422
+SHA256sum: e82492c9605a9b1cbbc9eecac8e44bc2ef077ccd2c0c2eb2b26c2795cafc6d94
+Description:  lsns lists information about all namespaces and their processes
 
 Package: lua-examples
 Version: 5.1.5-10
@@ -981,6 +1781,46 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
+Package: mcookie
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 13369
+Filename: mcookie_2.39-2_aarch64_cortex-a53.ipk
+Size: 14055
+SHA256sum: 49aef4fe6da18fdf121299193301b22f7b2ccf8d34c2c87bb5412ed6023f5fc0
+Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
+ authority system
+
+Package: more
+Version: 2.39-2
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 20227
+Filename: more_2.39-2_aarch64_cortex-a53.ipk
+Size: 20906
+SHA256sum: 3ad26087f1236c5cd7bb626e0f0840f5799d7935d15cc1b70a16796dd8054ef8
+Description:  more is a filter for paging through text one screenful at a time
+
+Package: mount-utils
+Version: 2.39-2
+Depends: libc, librt, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 62946
+Filename: mount-utils_2.39-2_aarch64_cortex-a53.ipk
+Size: 63041
+SHA256sum: 5eb8dbda6b1359f3763ecc6fdbab8d7c91503a1801fbe0a8c342f3301f70e012
+Description:  contains: mount, umount, findmnt
+
 Package: musl-fts
 Version: 1.2.7-1
 Depends: libc, libpthread
@@ -992,6 +1832,20 @@ Filename: musl-fts_1.2.7-1_aarch64_cortex-a53.ipk
 Size: 5916
 SHA256sum: 27ba88b176cb8547be24854f62325e9e027b2c61f0e74fed2a61b0f560c33487
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: namei
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 11667
+Filename: namei_2.39-2_aarch64_cortex-a53.ipk
+Size: 12346
+SHA256sum: 90354f5600ed8740d887c979526efb4da686f607aab61681580582988deaa641
+Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
+ files, directories, and so forth)
 
 Package: nftables-json
 Version: 1.0.8-1
@@ -1019,6 +1873,19 @@ Filename: nftables-nojson_1.0.8-1_aarch64_cortex-a53.ipk
 Size: 272180
 SHA256sum: 5f8cdfdd045442c375ef7280b4a908f5b88b1eee956f18e788ff0cb3669fef91
 Description:  nftables userspace utility no JSON support
+
+Package: nsenter
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 14136
+Filename: nsenter_2.39-2_aarch64_cortex-a53.ipk
+Size: 14768
+SHA256sum: 9b537069f109db6a247e925a57de621332ba5a30a433f41d52da5c49dcde6355
+Description:  run program with namespaces of other processes
 
 Package: nstat
 Version: 6.3.0-1
@@ -1050,6 +1917,33 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: partx-utils
+Version: 2.39-2
+Depends: libc, libblkid1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 66134
+Filename: partx-utils_2.39-2_aarch64_cortex-a53.ipk
+Size: 66435
+SHA256sum: 5807e4f9fc9dfadb45751f8954e31547015dd27edf7a9ca11495adfb84becd3f
+Description:  contains partx, addpart, delpart
+
+Package: prlimit
+Version: 2.39-2
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 13128
+Filename: prlimit_2.39-2_aarch64_cortex-a53.ipk
+Size: 13824
+SHA256sum: c8835fabbf381c54183ffcb14876189c34be6fa53f100d2369099b9e289b0379
+Description:  Given a process id and one or more resources, prlimit tries to retrieve
+ and/or modify the limits.
+
 Package: rdma
 Version: 6.3.0-1
 Depends: libc, libmnl0
@@ -1062,6 +1956,33 @@ Filename: rdma_6.3.0-1_aarch64_cortex-a53.ipk
 Size: 29677
 SHA256sum: d3ba8ca71a59c262523bb7958a0530ae68911336580009c379e8dd5e5a428c3a
 Description:  Network rdma utility
+
+Package: rename
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 5298
+Filename: rename_2.39-2_aarch64_cortex-a53.ipk
+Size: 5964
+SHA256sum: e57e8c8fa0f3fc2bc081ed1e7cf754c6f791fd91d56c5771d8971611994b37ce
+Description:  rename will rename the specified files by replacing the first occurrence of
+ expression in their name by replacement
+
+Package: resize2fs
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 23451
+Filename: resize2fs_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 24096
+SHA256sum: cf776ab684e150d652a3acff84866e0789141c26304af1df4dd233e602795d78
+Description:  Ext2 Filesystem resize utility
 
 Package: resolveip
 Version: 2
@@ -1078,6 +1999,21 @@ Description:  This package contains the small resolveip utility which
  IP addresses. It supports IPv4 and IPv6 resolving and
  has a configurable timeout to guarantee a certain maximum
  runtime in case of slow or defunct DNS servers.
+
+Package: rev
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 3204
+Filename: rev_2.39-2_aarch64_cortex-a53.ipk
+Size: 3941
+SHA256sum: 44ea507bc47954d232ac2f2272a76153222209b60bc85d76cd00a21655cfb776
+Description:  rev utility copies the specified files to the standard output, reversing the
+ order of characters in every line. If no files are specified, the standard
+ input is read.
 
 Package: rpcd-mod-file
 Version: 2023-07-01-c07ab2f9-1
@@ -1140,6 +2076,47 @@ SHA256sum: 6f3c9a904c60d219cab1df5cb0d1de270d09c4e66aa6283d1577aeae1342cfcd
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
+Package: script-utils
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 41860
+Filename: script-utils_2.39-2_aarch64_cortex-a53.ipk
+Size: 42450
+SHA256sum: a4d54739d535e1dd8f6af60068e53d403fdd506eab9421027dfdcdc0e6ffc73c
+Description:  contains: script, scriptreplay
+
+Package: setterm
+Version: 2.39-2
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 15935
+Filename: setterm_2.39-2_aarch64_cortex-a53.ipk
+Size: 16623
+SHA256sum: 554e9d16f27084a72ec2aa19eae551463a56ed31bd67f633aed24a33e2f47d72
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities
+
+Package: sfdisk
+Version: 2.39-2
+Depends: libc, libblkid1, libfdisk1, libsmartcols1, libncursesw6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 58797
+Filename: sfdisk_2.39-2_aarch64_cortex-a53.ipk
+Size: 59190
+SHA256sum: 3fd4931fa05aa1b937624c7f13529353495d591343f28f0d40a5acce859fd2e7
+Description:  list the size of a partition, list the partitions on a device, check the
+ partitions on a device and repartition a device
+
 Package: ss
 Version: 6.3.0-1
 Depends: libc, libnl-tiny1, libmnl0, kmod-netlink-diag
@@ -1152,6 +2129,33 @@ Filename: ss_6.3.0-1_aarch64_cortex-a53.ipk
 Size: 45089
 SHA256sum: dd22d8a959e78f43c8946234e64784fbc3d08cb149c1e222fad84872184a435b
 Description:  Socket statistics utility
+
+Package: swap-utils
+Version: 2.39-2
+Depends: libc, librt, libblkid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 51096
+Filename: swap-utils_2.39-2_aarch64_cortex-a53.ipk
+Size: 51737
+SHA256sum: 1f712a64e88c9f239b19c61507abb868969cfced01930ba171c2e65af1e10d0e
+Description:  contains: mkswap, swaplabel
+
+Package: taskset
+Version: 2.39-2
+Depends: libc, librt
+Alternatives: 200:/usr/bin/taskset:/usr/bin/util-linux-taskset
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 22675
+Filename: taskset_2.39-2_aarch64_cortex-a53.ipk
+Size: 23451
+SHA256sum: 42efadeb69fc7657999f5a9e362521d4334031eb8684282f44cc9866631ad1be
+Description:  contains: taskset
 
 Package: tc-bpf
 Version: 6.3.0-1
@@ -1223,6 +2227,32 @@ Filename: terminfo_6.4-2_aarch64_cortex-a53.ipk
 Size: 8892
 SHA256sum: 72155fac3e314ddecadc50da8c8e4522343c40454d502953d03426cc432a4b26
 Description:  Terminal Info Database (ncurses)
+
+Package: tune2fs
+Version: 1.47.0-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a53
+Installed-Size: 39974
+Filename: tune2fs_1.47.0-2_aarch64_cortex-a53.ipk
+Size: 40516
+SHA256sum: 9479e903bd52eacdd2ea951b21bc758e998043089d198453a3bca8a80e70d32f
+Description:  Ext2 Filesystem tune utility
+
+Package: ubox
+Version: 2022-08-13-4c7b720b-2
+Depends: libc, libubox20230523, ubusd, ubus, libubus20230605, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+License: GPL-2.0
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 19270
+Filename: ubox_2022-08-13-4c7b720b-2_aarch64_cortex-a53.ipk
+Size: 19665
+SHA256sum: b628cf111bcadbf9c12ea676b23561fc501012eef53a7a7c0c193db8587c02e5
+Description:  OpenWrt system helper toolbox
 
 Package: ubus
 Version: 2023-06-05-f787c97b-1
@@ -1405,6 +2435,19 @@ SHA256sum: e78408c12e86b5c93002309474a6d9bb4052daf24dd627a8bc7bd40bc0132ac8
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: unshare
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 30297
+Filename: unshare_2.39-2_aarch64_cortex-a53.ipk
+Size: 30793
+SHA256sum: 3bf3191c2e3367046de6a7de1c20ad7187c59d2143bfccff453e773e512c79a4
+Description:  run programs with some namespaces unshared from parent
+
 Package: usign
 Version: 2020-05-23-f1f65026-1
 Depends: libc, libubox20230523
@@ -1416,6 +2459,80 @@ Filename: usign_2020-05-23-f1f65026-1_aarch64_cortex-a53.ipk
 Size: 12426
 SHA256sum: a454ef18cc00039f63fe943088a7bcd18f9e630a35ff3b7683f1211ee4c609cb
 Description:  OpenWrt signature verification utility
+
+Package: uuidd
+Version: 2.39-2
+Depends: libc, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 15170
+Filename: uuidd_2.39-2_aarch64_cortex-a53.ipk
+Size: 15942
+SHA256sum: 846b62c6dd004c94057d1a1bab8a99866a23e9ba06ad05fea9adbe3417b8bb92
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.39-2
+Depends: libc, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 3813
+Filename: uuidgen_2.39-2_aarch64_cortex-a53.ipk
+Size: 4581
+SHA256sum: e901cddb58585a16fc78945dba1c8d0f6a825f5d5c1119751cfcdf995c124252
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wall
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 12774
+Filename: wall_2.39-2_aarch64_cortex-a53.ipk
+Size: 13448
+SHA256sum: d7e6ac4c265035b156e357e8f2711eee9168a12740d881c1f8db40b8cb161050
+Description:  wall sends a message to everybody logged in with their mesg permission
+ set to yes
+
+Package: whereis
+Version: 2.39-2
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 9699
+Filename: whereis_2.39-2_aarch64_cortex-a53.ipk
+Size: 10401
+SHA256sum: 795ed8d564eb5620dd9b776def9655fdd41099397331817ec4252955bc71195b
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wipefs
+Version: 2.39-2
+Depends: libc, libblkid1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a53
+Installed-Size: 16892
+Filename: wipefs_2.39-2_aarch64_cortex-a53.ipk
+Size: 17646
+SHA256sum: 897554f5a5de7366383cacae51e895c11c8d6d872728d209c3f3d08bd3d95764
+Description:  wipefs can erase filesystem, raid or partition table signatures (magic
+ strings) from the specified device to make the signature invisible for
+ libblkid.
 
 Package: zlib-dev
 Version: 1.2.13-1

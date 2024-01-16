@@ -14,6 +14,272 @@ Description:  Access control list support
  - getfacl
  - setfacl
 
+Package: apache-ab
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 18475
+Filename: apache-ab_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 19356
+SHA256sum: 04cb2c7d6fcce94949efe32dd4314c960656f82109041d3741ca0a5af983c74c
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache server benchmarking utility.
+ 
+
+Package: apache-error
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 39450
+Filename: apache-error_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 40499
+SHA256sum: 7b811e6e34209ea280764fe5ad0afde8fc4fb3fe42ca7cd301bd501c9780d3cb
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache multi language custom error documents.
+ 
+
+Package: apache-icons
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 140379
+Filename: apache-icons_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 140924
+SHA256sum: c49ac2a8973039fb710388eb6fffe9de499126b29c3e091cd7ea75c8ad6b72e8
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the icons from Apache.
+ 
+
+Package: apache-mod-deflate
+Version: 2.4.52-1
+Depends: libc, apache, zlib
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 11431
+Filename: apache-mod-deflate_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 12226
+SHA256sum: d83c4a71b6a4d01280b359c6be8284e716127ddb54b665ddecf24ee60e1f9236
+Description:  Deflate support for the Apache HTTP server.
+
+Package: apache-mod-http2
+Version: 2.4.52-1
+Depends: libc, apache, libnghttp2-14, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 92416
+Filename: apache-mod-http2_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 93246
+SHA256sum: 3bc211f20f2bd446d47105ba548ef634b9cf55da59c71981b6189f6265033502
+Description:  HTTP/2 transport layer for the Apache HTTP Server.
+
+Package: apache-mod-ldap
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-ldap
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 40642
+Filename: apache-mod-ldap_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 41545
+SHA256sum: 5d633f7fa3e72ced629b76812d945d9daa630e5a409951e38ccf2f310881996a
+Description:  LDAP authentication/authorization module for the Apache HTTP Server.
+
+Package: apache-mod-lua
+Version: 2.4.52-1
+Depends: libc, apache, liblua5.1.5
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 43391
+Filename: apache-mod-lua_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 44202
+SHA256sum: ee1bae0887e65dedb16642f71fdbc64a6727e5ef771f53c6029ed4733eb71a70
+Description:  Lua support for the Apache HTTP server.
+
+Package: apache-mod-md
+Version: 2.4.52-1
+Depends: libc, apache, libcurl4, jansson4, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 128100
+Filename: apache-mod-md_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 128548
+SHA256sum: 918e26188d15a6ac2faaea523ba3cc726d84135e9b87a062cc95585aff586ecb
+Description:  Managed Domain handling.
+
+Package: apache-mod-php8
+Version: 8.1.18-1
+Depends: libc, php8, apache, libstdcpp6, libpcre2, zlib
+License: PHP-3.01
+Section: net
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1622794
+Filename: apache-mod-php8_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 1610177
+SHA256sum: d50dfed07d667f1044beffc0b6bec682e330ceaac395989f455a7a9fc8a99386
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the PHP module for the Apache Web Server.
+
+Package: apache-mod-proxy-html
+Version: 2.4.52-1
+Depends: libc, apache, apache-mod-proxy, libxml2
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 18564
+Filename: apache-mod-proxy-html_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 19372
+SHA256sum: 43bb12b92b7f06775753ca5d08e28018d03ee0f334f4fa25dfb7e3543411fee6
+Description:  HTML and XML content filters for the Apache HTTP Server.
+
+Package: apache-mod-proxy
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 167260
+Filename: apache-mod-proxy_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 167901
+SHA256sum: b926d029510f9fc440f6b9845dfedc7d0610aed35e303b778fa9e8290d945ec9
+Description:  Proxy modules for the Apache HTTP Server.
+
+Package: apache-mod-session-crypto
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-crypto-openssl
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 6700
+Filename: apache-mod-session-crypto_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 7554
+SHA256sum: cc9bfb0b09eac1a04d4b73fa1e94f1187d167fe6a434526c653d45a8839a39c5
+Description:  Session encryption support for the Apache HTTP Server.
+
+Package: apache-mod-ssl
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 87044
+Filename: apache-mod-ssl_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 87771
+SHA256sum: 2c52713e1cbacbde6e8d505816979ef5a102bb144276fe68e0088e856e71d3a9
+Description:  SSL/TLS module for the Apache HTTP Server.
+
+Package: apache-mod-suexec
+Version: 2.4.52-1
+Depends: libc, apache, apache-suexec
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 1973
+Filename: apache-mod-suexec_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 2751
+SHA256sum: e3ad9074a8b49d08b32beb6eda8685cfca532a466f384f8c932f057e79cf972e
+Description:  suEXEC module for the Apache HTTP Server.
+
+Package: apache-mod-webdav
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 66107
+Filename: apache-mod-webdav_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 66960
+SHA256sum: 2b10358c9fcb238ca654753928a2dcc6741fc6535722a42ba2abfdf1696a1c8a
+Description:  WebDAV support for the Apache HTTP Server.
+
+Package: apache-suexec
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 4767
+Filename: apache-suexec_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 5673
+SHA256sum: 4fcc80fa55125c0ad8d84c601a8e75412374dd96ad92dc03d0ca558e6d30e5d1
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the suEXEC utility from Apache.
+ 
+
+Package: apache-utils
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 17600
+Filename: apache-utils_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 18340
+SHA256sum: a1c0ae1e18550b358bbc36235f0e0e035b7c973b0ef55bafdf86757f2ed363c6
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache utility programs for webservers.
+ 
+
+Package: apache
+Version: 2.4.52-1
+Depends: libc, libapr, libaprutil, libpcre
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: aarch64_cortex-a53
+Installed-Size: 777938
+Filename: apache_2.4.52-1_aarch64_cortex-a53.ipk
+Size: 774949
+SHA256sum: a2fc6477b9d5e6e926def752014a9126ed27251fa7f89cf1e821e0c622837605
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the Apache web server and utility programs.
+ 
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -44,6 +310,25 @@ SHA256sum: 89f1047f5783427017d7b60a557b662025b46afeb3f1e4b39245a910f040a306
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: certtool
+Version: 3.7.1-2
+Depends: libc, libgnutls
+License: LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: aarch64_cortex-a53
+Installed-Size: 135605
+Filename: certtool_3.7.1-2_aarch64_cortex-a53.ipk
+Size: 136237
+SHA256sum: 74fb78cd33aec8adda44df297fbe6cf6e145a4a46ba85b8297dc623b497e5591
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
 
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
@@ -1537,6 +1822,26 @@ Size: 60485
 SHA256sum: 63a9b380fc20b1e3877fe9bd957575b19cb8a5e5c6d1aa359e28f83e05229228
 Description:  A client-side URL transfer utility
 
+Package: gnutls-utils
+Version: 3.7.1-2
+Depends: libc, libgnutls, libgnutls-dane
+License: LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: aarch64_cortex-a53
+Installed-Size: 270052
+Filename: gnutls-utils_3.7.1-2_aarch64_cortex-a53.ipk
+Size: 270427
+SHA256sum: b412066440f6c9f6516c9a0bedc91dbb9c578714457dbf0543a198faa96e23d7
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
 Package: halog
 Version: 2.4.22-1
 Depends: libc, haproxy
@@ -1579,6 +1884,119 @@ SHA256sum: 6381eaea02946c39f2fb58921770d615801f6bbac5d0129688f5e774e7cad911
 Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
  This package is built with SSL and LUA support.
 
+Package: icu-data-tools
+Version: 71.1-1
+Depends: libc, icu71
+License: ICU
+Section: libs
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: aarch64_cortex-a53
+Installed-Size: 172002
+Filename: icu-data-tools_71.1-1_aarch64_cortex-a53.ipk
+Size: 171892
+SHA256sum: 10effee7d9bf5772a0598322846a7803549ecab430a7bbf9408ca6d08e921509
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data71
+Version: 71.1-1
+Depends: libc, icu71
+Provides: icu-full-data
+License: ICU
+Section: libs
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: aarch64_cortex-a53
+Installed-Size: 11986652
+Filename: icu-full-data71_71.1-1_aarch64_cortex-a53.ipk
+Size: 11831838
+SHA256sum: 5d2e5da7ad98ba801d8493e329f2f89d37f7c8880bd657d15749856cd4214689
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu71
+Version: 71.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+License: ICU
+Section: libs
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: aarch64_cortex-a53
+Installed-Size: 2060208
+Filename: icu71_71.1-1_aarch64_cortex-a53.ipk
+Size: 2053060
+SHA256sum: 0ae3cfdf1bed86bb0116c69496e545700704f7887381ee9516edba57b7fb5907
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: kmod
+Version: 27-2
+Depends: libc, zlib
+Alternatives: 200:/sbin/depmod:/sbin/kmod, 200:/sbin/insmod:/sbin/kmod, 200:/sbin/lsmod:/sbin/kmod, 200:/sbin/modinfo:/sbin/kmod, 200:/sbin/modprobe:/sbin/kmod, 200:/sbin/rmmod:/sbin/kmod
+License: LGPL-2.1-or-later
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 61130
+Filename: kmod_27-2_aarch64_cortex-a53.ipk
+Size: 62046
+SHA256sum: 4d068a4d078ed0ec7c258b17fcf6eb07f491ba8ca4e43ba549b7cb04d201109c
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: krb5-client
+Version: 1.19.2-2
+Depends: libc, krb5-libs
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: aarch64_cortex-a53
+Installed-Size: 40335
+Filename: krb5-client_1.19.2-2_aarch64_cortex-a53.ipk
+Size: 40464
+SHA256sum: caaeaa5e4806218bd67b9feb034ec8de0d448749d06145784e7f3c16cb450ea9
+Description:  Kerberos 5 Client
+
+Package: krb5-libs
+Version: 1.19.2-2
+Depends: libc, libncurses6, libss2, libcomerr0
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: aarch64_cortex-a53
+Installed-Size: 741565
+Filename: krb5-libs_1.19.2-2_aarch64_cortex-a53.ipk
+Size: 733573
+SHA256sum: cb5a216190bbf42ae13f9eaa62f9870c59e58398036e5ef37bd326e3cb8ce653
+Description:  Kerberos 5 Shared Libraries
+
+Package: krb5-server-extras
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: aarch64_cortex-a53
+Installed-Size: 51140
+Filename: krb5-server-extras_1.19.2-2_aarch64_cortex-a53.ipk
+Size: 51442
+SHA256sum: 22f10f0b80256310a5e50859611b9cbb58f38ebe39b6650c21d78e3ceea0808c
+Description:  Kerberos 5 Admin Server
+
+Package: krb5-server
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: aarch64_cortex-a53
+Installed-Size: 109642
+Filename: krb5-server_1.19.2-2_aarch64_cortex-a53.ipk
+Size: 110005
+SHA256sum: 59e022e635da4b2104b2b43f026d4b510a2376ccc1c2eae24695b7fde7ccab13
+Description:  Kerberos 5 Server
+
 Package: libacl
 Version: 2.3.1-1
 Depends: libc, libattr
@@ -1591,6 +2009,123 @@ Size: 13187
 SHA256sum: 1549d92e9b2fcce5655cdbcb4820c4ff60acec167ab72a3a1c8cca2d6fe3d1f4
 Description:  Access control list support
  This package provides libacl
+
+Package: libapr
+Version: 1.7.0-3
+Depends: libc, libpthread, librt, libuuid1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr
+Architecture: aarch64_cortex-a53
+Installed-Size: 93885
+Filename: libapr_1.7.0-3_aarch64_cortex-a53.ipk
+Size: 94538
+SHA256sum: 7a15798028fcb55fca64be66e60bf234dc91b20d7cf782003f4998ac783704b9
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil-crypto-openssl
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenssl1.1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 4332
+Filename: libaprutil-crypto-openssl_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 5117
+SHA256sum: 4f862e1fad08531340ee5263ee824b17964a7c3027e5adbca5db8a25773b3467
+Description:  libaprutil - OpenSSL driver
+
+Package: libaprutil-dbd-mysql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libmariadb3
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 7401
+Filename: libaprutil-dbd-mysql_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 8210
+SHA256sum: f63fcae9a72ccc9b6e93d21b955787791005b4c8863702f7c2212db1fff3338d
+Description:  libaprutil - MySQL driver
+
+Package: libaprutil-dbd-odbc
+Version: 1.6.1-7
+Depends: libc, libaprutil, unixodbc
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 11150
+Filename: libaprutil-dbd-odbc_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 11923
+SHA256sum: 29c08ca3b13c984537a13c2eb3d238fc6aca01afcb7fefe9694c88ec6ca9894d
+Description:  libaprutil - ODBC driver
+
+Package: libaprutil-dbd-pgsql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libpq
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 7149
+Filename: libaprutil-dbd-pgsql_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 7954
+SHA256sum: 88c462e41d5658be873b9107ce0b472e8899f8ce624b6803f1af1eed4864e197
+Description:  libaprutil - PostgreSQL driver
+
+Package: libaprutil-dbd-sqlite3
+Version: 1.6.1-7
+Depends: libc, libaprutil, libsqlite3-0
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 5367
+Filename: libaprutil-dbd-sqlite3_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 6107
+SHA256sum: 42c3ccae9cb43665802dead37193d348b965951247b9e8fdd2f07cc9a176f0fd
+Description:  libaprutil - SQLite3 driver
+
+Package: libaprutil-dbm-gdbm
+Version: 1.6.1-7
+Depends: libc, libaprutil, libgdbm
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 2195
+Filename: libaprutil-dbm-gdbm_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 2957
+SHA256sum: d83bf84e0587764af3c4c606fb1f965cbe620683e82864d2c02288ae27e2f75c
+Description:  libaprutil - GDBM dbm driver
+
+Package: libaprutil-ldap
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenldap
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 3413
+Filename: libaprutil-ldap_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 4186
+SHA256sum: 3747a673e66d34c225db05c0355d919591e7d09c91484f0b41c97dae5968b6e1
+Description:  libaprutil - LDAP driver
+
+Package: libaprutil
+Version: 1.6.1-7
+Depends: libc, libapr, libexpat, libuuid1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: aarch64_cortex-a53
+Installed-Size: 78908
+Filename: libaprutil_1.6.1-7_aarch64_cortex-a53.ipk
+Size: 79685
+SHA256sum: 07fd31626888c110b02eec5c397ca0d6052286eb1e70903719ffc8815ed63202
+Description:  Apache Portable Runtime Utility Library
 
 Package: libattr
 Version: 2.5.1-1
@@ -1663,6 +2198,18 @@ Size: 585091
 SHA256sum: 834d1b7f5c3b48862ff5e62d7181f789ab073d4ba951006d2add5e01eb4fb8e8
 Description:  Berkeley DB library (4.7).  C++ wrapper.
 
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 76860
+Filename: libedit_20210522-3.1-1_aarch64_cortex-a53.ipk
+Size: 77596
+SHA256sum: a320d3544f065541a7892a3fb077fa73409fd7b9971bfa37bfd86900d1eed5ab
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
 Package: libev
 Version: 4.33-1
 Depends: libc
@@ -1675,6 +2222,19 @@ Size: 24542
 SHA256sum: e0eb488fcb2da7e59be150dac78b995fb6c0c67f30bb77cbbc09869c36f1d1be
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Architecture: aarch64_cortex-a53
+Installed-Size: 45855
+Filename: libexpat_2.4.9-1_aarch64_cortex-a53.ipk
+Size: 46591
+SHA256sum: 23e2e8e29dc672ab41d007f81d2adbd11157aaf7b296cfc1951974edfb55f07e
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
 Version: 3.4.2-2
@@ -1697,6 +2257,54 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: libfreetype
+Version: 2.11.1-1
+Depends: libc, zlib, libpng
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:freetype:freetype2
+Architecture: aarch64_cortex-a53
+Installed-Size: 312562
+Filename: libfreetype_2.11.1-1_aarch64_cortex-a53.ipk
+Size: 313248
+SHA256sum: 3848dc368ddd37eaca01c9f767c911d0b45e1f57d75826d3d12871b8d75c7e1b
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd-full
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp, libtiff5, libfreetype
+Provides: libgd
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: aarch64_cortex-a53
+Installed-Size: 108888
+Filename: libgd-full_2.3.2-4_aarch64_cortex-a53.ipk
+Size: 109064
+SHA256sum: 905632f30edbe091608a365db77d67f5c09f5d201a1fa0ecc1ec8505acba5d7a
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgd
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: aarch64_cortex-a53
+Installed-Size: 93399
+Filename: libgd_2.3.2-4_aarch64_cortex-a53.ipk
+Size: 93666
+SHA256sum: cd00652343d6735c37066dc16ba72b41b431c2a9d4a699baadc55ac9115d283c
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
 Package: libgdbm
 Version: 1.21-1
 Depends: libc
@@ -1710,6 +2318,145 @@ SHA256sum: a528f2873ec676f271a9668da6ea824fb747e3d0352cec946e9f1ac3a669bc5c
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
+
+Package: libgnutls-dane
+Version: 3.7.1-2
+Depends: libc, libgnutls, libunbound
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: aarch64_cortex-a53
+Installed-Size: 16369
+Filename: libgnutls-dane_3.7.1-2_aarch64_cortex-a53.ipk
+Size: 17131
+SHA256sum: 201fece0a41f854f7413730b03ec79a2be0a638b47ad25e585d3ad5fb2f598e8
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: aarch64_cortex-a53
+Installed-Size: 866175
+Filename: libgnutls_3.7.1-2_aarch64_cortex-a53.ipk
+Size: 865155
+SHA256sum: 944ef0a4fd88653fb725bba2dc904b6d039b7a618c2207cac637700f4b2b8d3e
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libjpeg-turbo-utils
+Version: 2.1.2-1
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+License: BSD-3-Clause IJG zlib
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 51966
+Filename: libjpeg-turbo-utils_2.1.2-1_aarch64_cortex-a53.ipk
+Size: 52768
+SHA256sum: 85543c3d2cfd325c9b9fb08a468a4c5a34739c6d20c45048aa91783d391449ad
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 2.1.2-1
+Depends: libc
+Provides: libjpeg
+License: BSD-3-Clause IJG zlib
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 106525
+Filename: libjpeg-turbo_2.1.2-1_aarch64_cortex-a53.ipk
+Size: 106934
+SHA256sum: 2c37d3aaea4dfb0aa9927f7db6acf8ce38f6edf7eb9c27145bde2a38833bdfb4
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 37021
+Filename: libkmod_27-2_aarch64_cortex-a53.ipk
+Size: 37886
+SHA256sum: 3721080030df415deee3e631bf8d5f9c0eee82615c0086ff18c6ec70add9885b
+Description:  Linux kernel module handling (library)
+
+Package: libmariadb-plugin-auth-gssapi-client
+Version: 3.1.12-4
+Depends: libc, libmariadb3, krb5-libs
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: aarch64_cortex-a53
+Installed-Size: 3005
+Filename: libmariadb-plugin-auth-gssapi-client_3.1.12-4_aarch64_cortex-a53.ipk
+Size: 3848
+SHA256sum: 9bec958b200e097064be7e9605d5ac1d01ce854f99577b5c236a953eba66f8bd
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the auth_gssapi_client plugin.
+ 
+
+Package: libmariadb-plugin-remote-io
+Version: 3.1.12-4
+Depends: libc, libmariadb3, libcurl4
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: aarch64_cortex-a53
+Installed-Size: 3194
+Filename: libmariadb-plugin-remote-io_3.1.12-4_aarch64_cortex-a53.ipk
+Size: 4025
+SHA256sum: 12871dd5a2e4899b3dd2fef0dc2aebbd1a3b001acb5e0a33a6dfe5dce1529285
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the remote_io plugin.
+ 
+
+Package: libmariadb3
+Version: 3.1.12-4
+Depends: libc, libopenssl1.1, zlib
+Provides: libmariadbclient, libmysqlclient, libmysqlclient-r, libmariadb, libmariadbclient3, libmysqlclient3, libmysqlclient-r3
+License: LGPL-2.1-or-later
+Section: libs
+ABIVersion: 3
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: aarch64_cortex-a53
+Installed-Size: 164621
+Filename: libmariadb3_3.1.12-4_aarch64_cortex-a53.ipk
+Size: 163934
+SHA256sum: e0d0a6fe54c2d71384cf368a2efeeb699eba8aa3147cf579764772789e0495a5
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package includes the client library.
+ 
+
+Package: libnetsnmp
+Version: 5.9.1-3
+Depends: libc, libnl-tiny1, libpci, libpcre
+License: MIT BSD-3-Clause-Clear
+Section: libs
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 467330
+Filename: libnetsnmp_5.9.1-3_aarch64_cortex-a53.ipk
+Size: 466900
+SHA256sum: 80f2e27697d3b75859c1460632b00b8e66112970f63e50b71abdd04765de66d1
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
 
 Package: libnghttp2-14
 Version: 1.44.0-1
@@ -1725,6 +2472,109 @@ Size: 65730
 SHA256sum: ae720a54b0be7b667dcd1e128cd34d80284cc80a8916d888725cc8564aa2e944
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libopenldap
+Version: 2.6.0-4
+Depends: libc, libopenssl1.1, libsasl2, libpthread, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: aarch64_cortex-a53
+Installed-Size: 145897
+Filename: libopenldap_2.6.0-4_aarch64_cortex-a53.ipk
+Size: 146624
+SHA256sum: 21fe22783fe05298c3d4826bb5ebc7577c4323a2579cac0f9ceba94b785e1b9b
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+License: BSD-3c GPL
+Section: libs
+CPE-ID: cpe:/a:kernel:linux-pam
+Architecture: aarch64_cortex-a53
+Installed-Size: 191740
+Filename: libpam_1.5.1-1_aarch64_cortex-a53.ipk
+Size: 191997
+SHA256sum: c94422c2201df802bd61a028ee45db1baafb366f48e8776b29a69309c116af70
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 22044
+Filename: libpci_3.8.0-2_aarch64_cortex-a53.ipk
+Size: 22760
+SHA256sum: fe6d8bbae0592a3fa0793ca20dd11a387d542ebc3c881d8b4b6582fd2a855cb5
+Description:  Linux PCI Libraries
+
+Package: libpcre2-16
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: aarch64_cortex-a53
+Installed-Size: 99655
+Filename: libpcre2-16_10.37-1_aarch64_cortex-a53.ipk
+Size: 100489
+SHA256sum: 5aa4a011165bdd4368465f4b7e5257e2bfde13dc126c044ef57f463eb63e1b4a
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre2-32
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: aarch64_cortex-a53
+Installed-Size: 95161
+Filename: libpcre2-32_10.37-1_aarch64_cortex-a53.ipk
+Size: 95931
+SHA256sum: cd70451f1d1d7d8db7fee351d950269dc2fe25e67808ae22f61471c363645170
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre2
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: aarch64_cortex-a53
+Installed-Size: 110264
+Filename: libpcre2_10.37-1_aarch64_cortex-a53.ipk
+Size: 111066
+SHA256sum: 6ea3b7a255a219c13e3d45bce611e9afe599e495732424badb6584109520c13e
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:libpng:libpng
+Architecture: aarch64_cortex-a53
+Installed-Size: 99115
+Filename: libpng_1.6.37-11_aarch64_cortex-a53.ipk
+Size: 99823
+SHA256sum: 4c0bdac0c8784d378016b5ad397cedc11280b3a41cb98a872f34d4371a4482d5
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 14.5-1
+Depends: libc, libpthread
+License: PostgreSQL
+Section: libs
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: aarch64_cortex-a53
+Installed-Size: 122681
+Filename: libpq_14.5-1_aarch64_cortex-a53.ipk
+Size: 122548
+SHA256sum: 2ea649b6a46bb7f8737ea5bfaa3ecbed7af870416d42a28c8ac91754487af46b
+Description:  PostgreSQL client library.
+
 Package: libruby3.0
 Version: 3.0.6-1
 Depends: libc, libpthread, librt, libgmp10, zlib
@@ -1739,6 +2589,32 @@ Filename: libruby3.0_3.0.6-1_aarch64_cortex-a53.ipk
 Size: 1145832
 SHA256sum: ee0f028912842d29af29e60241209dbd50ea0195e59e2c11bebc82d4dadb95a9
 Description:  Ruby scripting language (shared library)
+
+Package: libsasl2-sasldb
+Version: 2.1.27-5
+Depends: libc, libsasl2, libdb47
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: aarch64_cortex-a53
+Installed-Size: 9923
+Filename: libsasl2-sasldb_2.1.27-5_aarch64_cortex-a53.ipk
+Size: 10739
+SHA256sum: 2b526325a8bb3bcf01af59b01d98b8ce3ad48764b2e8e8fa3af53aeedea5f713
+Description:  A general purpose authentication library (sasldb libraries)
+
+Package: libsasl2
+Version: 2.1.27-5
+Depends: libc, libopenssl1.1
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: aarch64_cortex-a53
+Installed-Size: 95583
+Filename: libsasl2_2.1.27-5_aarch64_cortex-a53.ipk
+Size: 96287
+SHA256sum: c64b6df4b90e2ef34aad7c2862c0aac2a39747dc0944108cbeb2509e37cb8726
+Description:  A general purpose authentication library (libraries)
 
 Package: libsodium
 Version: 1.0.18-4
@@ -1756,6 +2632,66 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3410100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: aarch64_cortex-a53
+Installed-Size: 539353
+Filename: libsqlite3-0_3410100-1_aarch64_cortex-a53.ipk
+Size: 539824
+SHA256sum: 42f454b30c9b1224ee221885dcae73c45bee7c3d6e6e2ab0a55a1ea90cb5f3e6
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtiff5
+Version: 4.3.0-3
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:libtiff:libtiff
+Architecture: aarch64_cortex-a53
+Installed-Size: 137515
+Filename: libtiff5_4.3.0-3_aarch64_cortex-a53.ipk
+Size: 137822
+SHA256sum: 36473b2e39f6391b0c1bd79d530854734ecd16011f86945d669d4678b98975d9
+Description:  TIFF library
+
+Package: libunbound
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 453126
+Filename: libunbound_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 449358
+SHA256sum: 7b93f7acbbd0ca313c4cf5354d11e28951fbe32f2c74b415b50bc76dac26760e
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: libwebp
+Version: 1.2.1-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 249500
+Filename: libwebp_1.2.1-2_aarch64_cortex-a53.ipk
+Size: 250100
+SHA256sum: 61440e65bf16ff593ece9a92c3915295037f5ee2911ffdfcb02eb003f20c2a03
+Description:  The libwebp package contains a library for the WebP format.
 
 Package: libxml2-dev
 Version: 2.10.3-1
@@ -1811,6 +2747,835 @@ Filename: libyaml_0.2.5-1_aarch64_cortex-a53.ipk
 Size: 42353
 SHA256sum: f2aa1ff301e06cb8907f76bed7287dba327b205916674a479e31b861132b7515
 Description:  Fast YAML 1.1 parser and emitter library
+
+Package: libzip-gnutls
+Version: 1.8.0-4
+Depends: libc, zlib, libgnutls
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 47569
+Filename: libzip-gnutls_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 48341
+SHA256sum: d5ac8f81497baf42bf8ecbcf015733d6466734aa5be5245933f77a512d2f023f
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-mbedtls
+Version: 1.8.0-4
+Depends: libc, zlib, libmbedtls12
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 47739
+Filename: libzip-mbedtls_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 48511
+SHA256sum: d1fd2d5c145d4b921bb36eb394b9d6d4018969fdb99494f5a171326ba5c1db58
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-nossl
+Version: 1.8.0-4
+Depends: libc, zlib
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 44916
+Filename: libzip-nossl_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 45667
+SHA256sum: f4da68b0640f8ca1b8f0d3d5058b08d8473bec527b64bf9bf29b7ba38402b5f7
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-openssl
+Version: 1.8.0-4
+Depends: libc, zlib, libopenssl1.1
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 47303
+Filename: libzip-openssl_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 48128
+SHA256sum: 3315792a02c4e619be275efc9e060d2f20f999753e71088ca7a17f26a6998350
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20220515, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 21355
+Filename: nlbwmon_2021-09-01-d82c910c-1_aarch64_cortex-a53.ipk
+Size: 22166
+SHA256sum: a5610ee9fdbb2d2189652012c1c71a50a971cbe7ec5dd76789df2eb72c63dd1e
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: oniguruma5
+Version: 6.9.7.1-1
+Depends: libc
+Provides: oniguruma
+License: BSD-2-Clause
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Architecture: aarch64_cortex-a53
+Installed-Size: 183109
+Filename: oniguruma5_6.9.7.1-1_aarch64_cortex-a53.ipk
+Size: 181566
+SHA256sum: bcb358ce0cb63f55bc3741daa4a98aadccd6aa0d688bf38980b9e93d72a72eb5
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: openldap-server
+Version: 2.6.0-4
+Depends: libc, libopenldap, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: aarch64_cortex-a53
+Installed-Size: 594723
+Filename: openldap-server_2.6.0-4_aarch64_cortex-a53.ipk
+Size: 588611
+SHA256sum: 117e6a9f46647b8cf7ec40e7e284392ba24ba3e3e4fc63964072ce234ed35589
+Description:  This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.6.0-4
+Depends: libc, libopenldap
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: aarch64_cortex-a53
+Installed-Size: 243305
+Filename: openldap-utils_2.6.0-4_aarch64_cortex-a53.ipk
+Size: 243740
+SHA256sum: 49b82533ba9196b4cbe1af3604591389412d8c9ea882d48fc180af1191dae84d
+Description:  This package contains client programs required to access LDAP servers.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 306361
+Filename: pciids_0.359-1_aarch64_cortex-a53.ipk
+Size: 306618
+SHA256sum: 6c5a41f02848273af289daf8610362a28a4027fc5c02cc5ef263581544501163
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 43354
+Filename: pciutils_3.8.0-2_aarch64_cortex-a53.ipk
+Size: 44238
+SHA256sum: 4b8adbd723d3077cd90d1ae603345c14427fbf12f38916a5737520ed5b0e09d9
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: pgsql-cli-extra
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: aarch64_cortex-a53
+Installed-Size: 298144
+Filename: pgsql-cli-extra_14.5-1_aarch64_cortex-a53.ipk
+Size: 295085
+SHA256sum: 4862f77852300abb450fd2781eb092eea21ca571fb9e44668cf821c28d3b82ee
+Description:  Command Line extras for PostgreSQL databases.
+
+Package: pgsql-cli
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: aarch64_cortex-a53
+Installed-Size: 193885
+Filename: pgsql-cli_14.5-1_aarch64_cortex-a53.ipk
+Size: 194331
+SHA256sum: 596ed4d826562c6fb42018bbd93166e9add93696a201f431e89d30656b11f5bc
+Description:  Command Line Interface (CLI) to PostgreSQL databases.
+
+Package: pgsql-server
+Version: 14.5-1
+Depends: libc, pgsql-cli, blockd
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: aarch64_cortex-a53
+Installed-Size: 5856496
+Filename: pgsql-server_14.5-1_aarch64_cortex-a53.ipk
+Size: 5763801
+SHA256sum: f9af505a1cfe8a6db08a721f0a7c3b8ca8eee2d3a6069573401a3216ea60e1c9
+Description:  PostgreSQL databases Server.
+
+Package: pgsqlodbc
+Version: 2.3.9-2
+Depends: libc, unixodbc, libpq
+License: prog GPL libs LGPL
+Section: libs
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: aarch64_cortex-a53
+Installed-Size: 96024
+Filename: pgsqlodbc_2.3.9-2_aarch64_cortex-a53.ipk
+Size: 96835
+SHA256sum: 385294ce393e473055dd75f3d3f6f923a142466148e3eabee5477928a7ea50e1
+Description:  Postgresql driver for ODBC.
+
+Package: php8-cgi
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1520961
+Filename: php8-cgi_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 1519307
+SHA256sum: ba81b3c7711f429103d44de458427962ec616460491c3d6223316c49a87c8432
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP8 interpreter.
+
+Package: php8-cli
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1542483
+Filename: php8-cli_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 1540816
+SHA256sum: 4009e3e72bc84e1099516229b465f4db70a9bb356d9e82cb47b45126e7e6cd18
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP8 interpreter.
+
+Package: php8-fastcgi
+Version: 8.1.18-1
+Depends: libc, php8, php8-cgi
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 521
+Filename: php8-fastcgi_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 1377
+SHA256sum: ed5271c864994a5f46804dd559fc09eeb0114e26aae5a0dd57994a55bea6d850
+Description:  As FastCGI support is now a core feature the php8-fastcgi package now depends
+ on the php8-cgi package, containing just the startup script.
+
+Package: php8-fpm
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1577684
+Filename: php8-fpm_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 1576149
+SHA256sum: d1ff7ad50905de6b9263aae93977d90d6b62c8c6ec1aeccd5005b0e5f515ad35
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP8 interpreter.
+
+Package: php8-mod-bcmath
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 12335
+Filename: php8-mod-bcmath_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 13116
+SHA256sum: 527e66dc608b0b6fc9262d58b704ad0a88dce55a55ca5e081ed3030ae85f8f33
+Description:  Bcmath shared module
+
+Package: php8-mod-calendar
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 10541
+Filename: php8-mod-calendar_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 11298
+SHA256sum: bddf49305553a7511d72beb746757f5a303302d4f5ce147c719cb3648ffb9c89
+Description:  Calendar shared module
+
+Package: php8-mod-ctype
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 2393
+Filename: php8-mod-ctype_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 3147
+SHA256sum: 546209a90cd98be6dbdfef4957d877ebe1e148151e64a11a3fd52fdc66ae7ede
+Description:  Ctype shared module
+
+Package: php8-mod-curl
+Version: 8.1.18-1
+Depends: libc, php8, libcurl4
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 33067
+Filename: php8-mod-curl_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 33900
+SHA256sum: 99ee792910233ca93f489b5140030141b075877a8127598ef9db1969f13366b5
+Description:  cURL shared module
+
+Package: php8-mod-dom
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 55504
+Filename: php8-mod-dom_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 56211
+SHA256sum: dbdc9f5b448d4188b6603600e24ca9d935b0b3c6008e03939853f2a5d8c1b143
+Description:  DOM shared module
+
+Package: php8-mod-exif
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 29176
+Filename: php8-mod-exif_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 29706
+SHA256sum: fbca1a1a94e092e4e0f2dd8c96fcf791dd2887d02075aeac3d96b5080d0f63c5
+Description:  EXIF shared module
+
+Package: php8-mod-fileinfo
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 417127
+Filename: php8-mod-fileinfo_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 408940
+SHA256sum: 369f55793f825f02e340fd2031aece7c80459b454f1c9210c9193e0537909c89
+Description:  Fileinfo shared module
+
+Package: php8-mod-filter
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 16839
+Filename: php8-mod-filter_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 17624
+SHA256sum: 68a3e8723e8a4187299d5aff8fc5ca7baac168661e22b86803cd06d71effd21f
+Description:  Filter shared module
+
+Package: php8-mod-ftp
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 19728
+Filename: php8-mod-ftp_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 20462
+SHA256sum: 154c9c149de19f06002fa2dd8fc5a55ab8ecf897d2d08285c9518bb65a9bf858
+Description:  FTP shared module
+
+Package: php8-mod-gd
+Version: 8.1.18-1
+Depends: libc, php8, libgd-full
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 28331
+Filename: php8-mod-gd_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 28939
+SHA256sum: 6ef2ef9be63a9239fe4fbb70f2e4d968b3108ca164a077b4db8cddcfa1d4bf18
+Description:  GD graphics shared module
+
+Package: php8-mod-gettext
+Version: 8.1.18-1
+Depends: libc, php8, libintl-full8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 3703
+Filename: php8-mod-gettext_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 4490
+SHA256sum: bf69bce369c7b242965d7e6cde122814632f353fc446e4334c6dc7cdcd89c290
+Description:  Gettext shared module
+
+Package: php8-mod-gmp
+Version: 8.1.18-1
+Depends: libc, php8, libgmp10
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 16359
+Filename: php8-mod-gmp_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 17063
+SHA256sum: 5e50d6c880a82e05c6b07dbfe77db8065afa71f47de3842943445c4864702143
+Description:  GMP shared module
+
+Package: php8-mod-iconv
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 17622
+Filename: php8-mod-iconv_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 18402
+SHA256sum: d1534e3192e4dec1250948afe8b68285ad359a4fbe7a8f1b174bc6bee66445fd
+Description:  iConv shared module
+
+Package: php8-mod-imap
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1, libpam, uw-imap
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 30432
+Filename: php8-mod-imap_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 31174
+SHA256sum: bdfe52bdd4f755ced1e6e74e75ae86272b8a04f62bbbbf3ac7b564fa1d333612
+Description:  IMAP shared module
+
+Package: php8-mod-intl
+Version: 8.1.18-1
+Depends: libc, php8, icu71
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 138745
+Filename: php8-mod-intl_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 138831
+SHA256sum: 05ca3f8cf0c38d866f157f299d2707df542e07403856cbad740eb968a68bb920
+Description:  Note that this package depends in ICU library which is built without data
+ by default. This is to satisfy programs build and run dependencies but to
+ keep the installed footprint small on the target system(s).
+ However, the data is required to make the ICU library useful - and thus
+ directly affects PHPs ICU extension, too - so consider to also
+ select/install package 'icu-full-data'.
+
+Package: php8-mod-ldap
+Version: 8.1.18-1
+Depends: libc, php8, libopenldap, libsasl2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 29155
+Filename: php8-mod-ldap_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 29892
+SHA256sum: e8ef8440f05416959c8b8379f0822d2e6fbe7480ee5668ac2c56739ef7bdb2d3
+Description:  LDAP shared module
+
+Package: php8-mod-mbstring
+Version: 8.1.18-1
+Depends: libc, php8, oniguruma5
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 584701
+Filename: php8-mod-mbstring_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 584559
+SHA256sum: 9061e44eed38ee7434b95e174358a3cf7c2bb13684ebe448ea477f3ce5d3d64d
+Description:  MBString shared module
+
+Package: php8-mod-mysqli
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 39808
+Filename: php8-mod-mysqli_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 40546
+SHA256sum: 6c0dd9e2e48f829871aae35e1320a7511d94410fc25deca2d2cfee872f012f67
+Description:  MySQL Improved Extension shared module
+
+Package: php8-mod-mysqlnd
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-openssl
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 77341
+Filename: php8-mod-mysqlnd_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 77699
+SHA256sum: 084c41ee6d1d79ec19cafd77b15baeb6e7b12f7110b27916446eae847224b4ef
+Description:  MySQL Native Driver shared module
+
+Package: php8-mod-opcache
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 471584
+Filename: php8-mod-opcache_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 471274
+SHA256sum: 01b1f1ada7117b35575de7a397a9079d4423fc586d3ef968b965c2bee8de4d22
+Description:  OPcache shared module
+
+Package: php8-mod-openssl
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 63778
+Filename: php8-mod-openssl_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 64231
+SHA256sum: 3b8ac0d12776d39c8aeb6d5383553e8dc88bf2fd30539e5445d7b58cc33dd275
+Description:  OpenSSL shared module
+
+Package: php8-mod-pcntl
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 11440
+Filename: php8-mod-pcntl_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 12209
+SHA256sum: cfac2b8612ecbe1c8bb94fe48ab840612406c3030fca1770aedc6ca0a83d24ae
+Description:  PCNTL shared module
+
+Package: php8-mod-pdo-mysql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 10196
+Filename: php8-mod-pdo-mysql_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 11024
+SHA256sum: f05ec82f59cc88cf0b3a8e5606c3eb11cd5e5d866e70e69748f75ebf39972843
+Description:  PDO driver for MySQL shared module
+
+Package: php8-mod-pdo-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libpq
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 16753
+Filename: php8-mod-pdo-pgsql_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 17553
+SHA256sum: 3c813feb09b98bf0c09a8d4c712b8a583918a9155224553863c3a337fa6fc8c9
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php8-mod-pdo-sqlite
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libsqlite3-0, librt
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 10675
+Filename: php8-mod-pdo-sqlite_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 11457
+SHA256sum: f5cc7c4e9824b8d03e4df2ce010b28853567f6f65f1c2de5eb39c5151880f54d
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php8-mod-pdo
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 38638
+Filename: php8-mod-pdo_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 39407
+SHA256sum: 99ebe87b7d5b8a8bc5da5e919747b6f318fc1c6c160ed54e6ecbb3d82f0fc112
+Description:  PHP Data Objects shared module
+
+Package: php8-mod-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, libpq
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 41881
+Filename: php8-mod-pgsql_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 42606
+SHA256sum: 2bbb354fcd437174ef98a5047f2777f42551c01d83ac38c48ee9228c7f781988
+Description:  PostgreSQL shared module
+
+Package: php8-mod-phar
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 99671
+Filename: php8-mod-phar_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 100291
+SHA256sum: 03d9a81cc9ce6ee2f50a47bbb4b7b34e8508a00ff19447059759d6fe2a2fb82c
+Description:  Phar Archives shared module
+
+Package: php8-mod-session
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 33040
+Filename: php8-mod-session_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 33848
+SHA256sum: 6e9eda44a329174ced8a2c5a5913d4921a6cd60291eda8e75cbbc36bdd01f3ab
+Description:  Session shared module
+
+Package: php8-mod-shmop
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 3980
+Filename: php8-mod-shmop_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 4757
+SHA256sum: 5c68015d1647cdbfe413e94c7178e6886dcbc1e7ccd97454f1558ece22cb6e73
+Description:  Shared Memory shared module
+
+Package: php8-mod-simplexml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 17641
+Filename: php8-mod-simplexml_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 18428
+SHA256sum: b837bb6fab99430fc7c175acc19d88f96553d559b1d0d6d8a4048783ebba5234
+Description:  SimpleXML shared module
+
+Package: php8-mod-snmp
+Version: 8.1.18-1
+Depends: libc, php8, libnetsnmp, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 18436
+Filename: php8-mod-snmp_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 19170
+SHA256sum: 58f961ecf5cbf7653bd0d14194fdebc9b65c6116ef0cd47909abeaa9d6c787eb
+Description:  SNMP shared module
+
+Package: php8-mod-soap
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 117325
+Filename: php8-mod-soap_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 118077
+SHA256sum: 9fb7824449ca547f1eb6f13f1ae3c39de2937dbc5791c7ce62405588f0556e01
+Description:  SOAP shared module
+
+Package: php8-mod-sockets
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 33079
+Filename: php8-mod-sockets_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 33871
+SHA256sum: 518df8a8747b751dde10a26033fa131cdf8ef42a4880b638fc693f6fcc59e29e
+Description:  Sockets shared module
+
+Package: php8-mod-sqlite3
+Version: 8.1.18-1
+Depends: libc, php8, libsqlite3-0
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 19074
+Filename: php8-mod-sqlite3_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 19844
+SHA256sum: 3c40ef14a44585695f6c46bb055b0721883179b969cd8582878f0c027364374b
+Description:  SQLite3 shared module
+
+Package: php8-mod-sysvmsg
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 5585
+Filename: php8-mod-sysvmsg_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 6371
+SHA256sum: b8f106185c6783ef97a454d797b2c5ead662c45240ebc6daa9391d761976327b
+Description:  System V messages shared module
+
+Package: php8-mod-sysvsem
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 3716
+Filename: php8-mod-sysvsem_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 4486
+SHA256sum: 2c97371f972dcabb4f222c58ac6ceb274debeea224e348547764e3ccf89d0333
+Description:  System V shared memory shared module
+
+Package: php8-mod-sysvshm
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 4479
+Filename: php8-mod-sysvshm_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 5259
+SHA256sum: d94f97e2472ac251c2bda7d4613c03cc4d6262a53491590ec580451f5125c2e3
+Description:  System V semaphore shared module
+
+Package: php8-mod-tokenizer
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 9795
+Filename: php8-mod-tokenizer_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 10569
+SHA256sum: 2b6e77fa141d45b6450da64aa6dd0db78d2825f85bd9ae26148156c9afd2f157
+Description:  Tokenizer shared module
+
+Package: php8-mod-xml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 16709
+Filename: php8-mod-xml_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 17511
+SHA256sum: ed85bd85f61fee6a4be3a62a679a0d8f7e9ce859d59458171ad6789e1f03b094
+Description:  XML shared module
+
+Package: php8-mod-xmlreader
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-dom, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 10663
+Filename: php8-mod-xmlreader_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 11431
+SHA256sum: 2579b7e6854bef9fb91e3e0de2472ae00a05f341ae0ad0835cded945d256be32
+Description:  XMLReader shared module
+
+Package: php8-mod-xmlwriter
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 9877
+Filename: php8-mod-xmlwriter_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 10555
+SHA256sum: 40a953f3096dfa3ba15400b4ca1b2e1b252023e907894a41628fae4f19346cc2
+Description:  XMLWriter shared module
+
+Package: php8-mod-zip
+Version: 8.1.18-1
+Depends: libc, php8, libzip
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 22949
+Filename: php8-mod-zip_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 23634
+SHA256sum: ec11fdb5469be7f953cd0133248807f36694f2fe784ed15907ea5b097581ed43
+Description:  ZIP shared module
+
+Package: php8
+Version: 8.1.18-1
+Depends: libc, libpcre2, zlib, libxml2, zoneinfo-core
+Conflicts: php7
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: aarch64_cortex-a53
+Installed-Size: 1454
+Filename: php8_8.1.18-1_aarch64_cortex-a53.ipk
+Size: 2509
+SHA256sum: deb0148283d1fa36c9cdbce9b197a5c409ca203bbcd1af0b28dc28ab45161031
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php8 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
 
 Package: ruby-abbrev
 Version: 3.0.6-1
@@ -3923,6 +5688,241 @@ Size: 44393
 SHA256sum: 1d5d3b7f6530bd82a4171f394626de561536617a21b91ffc8e5881b6cfe24383
 Description:  shadowsocks-libev ss-tunnel
 
+Package: snmp-mibs
+Version: 5.9.1-3
+Depends: libc
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 340265
+Filename: snmp-mibs_5.9.1-3_aarch64_cortex-a53.ipk
+Size: 341219
+SHA256sum: bd0e4cfcd70ab9d67ef05a4048f8b3d94bbcec3cea7c1c4f07f8375ce3055e7a
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP MIB-Files.
+
+Package: snmp-utils
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 16410
+Filename: snmp-utils_5.9.1-3_aarch64_cortex-a53.ipk
+Size: 17336
+SHA256sum: 016094a7469235106aa30735b22f7d77baf996dd569feb9d54366f680c2cc7da
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities:
+ - snmpget
+ - snmpset
+ - snmpstatus
+ - snmptest
+ - snmptrap
+ - snmpwalk
+
+Package: snmpd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 10339
+Filename: snmpd_5.9.1-3_aarch64_cortex-a53.ipk
+Size: 11371
+SHA256sum: 6937b7815968b79dd557c01559ba16e3e48f285402e442591dd9174c3eaf79c7
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: snmptrapd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 21797
+Filename: snmptrapd_5.9.1-3_aarch64_cortex-a53.ipk
+Size: 22734
+SHA256sum: d9b8fbd4ef388dca35c77d2d9ce477502c886694b5e95746ce816ceaa362ad9e
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: sqlite3-cli
+Version: 3410100-1
+Depends: libc, libsqlite3-0, libedit
+License: PUBLICDOMAIN
+Section: utils
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: aarch64_cortex-a53
+Installed-Size: 120960
+Filename: sqlite3-cli_3410100-1_aarch64_cortex-a53.ipk
+Size: 121747
+SHA256sum: 72bd1e26e333ba6f4e400a63e9e21ba169adae6c40dff68de6db18509c4269de
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:tar
+Architecture: aarch64_cortex-a53
+Installed-Size: 198477
+Filename: tar_1.34-1_aarch64_cortex-a53.ipk
+Size: 199143
+SHA256sum: f5207af2fdb0d69c184e854e283be921348553a43d827a60fab4e56c71f40515
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tiff-utils
+Version: 4.3.0-3
+Depends: libc, libtiff5
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:libtiff:libtiff
+Architecture: aarch64_cortex-a53
+Installed-Size: 145791
+Filename: tiff-utils_4.3.0-3_aarch64_cortex-a53.ipk
+Size: 145757
+SHA256sum: 91a96eecc4ad9ccaab701b51b51a14e7c8a7a778501c55ac4486309c719d9658
+Description:  TIFF utilities
+
+Package: unbound-anchor
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 22576
+Filename: unbound-anchor_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 23422
+SHA256sum: 04248ae173661d8597d1b9886f89fc79d51d8ed2f82e8c56e4bc4c9b3d24cd9a
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 54888
+Filename: unbound-checkconf_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 55269
+SHA256sum: 28a2645f37a596f7da38b30d70070407ebd348e750fedbbe3ed3c397820b7f53
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 2591
+Filename: unbound-control-setup_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 3445
+SHA256sum: b4f62510bd2a7a3693eddfc7c90a3771f41bef10dd2015bc570832549fdd8d39
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 55839
+Filename: unbound-control_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 56256
+SHA256sum: e5cf53f4514969ec18544207c89267bbdde3d81abe92bb8054a47cc99d440570
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 140825
+Filename: unbound-daemon_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 141342
+SHA256sum: 308b1aecb60af433f2550e55957535a93f2849890d83cd8a5baf757b2f210480
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: aarch64_cortex-a53
+Installed-Size: 48241
+Filename: unbound-host_1.17.0-1_aarch64_cortex-a53.ipk
+Size: 48819
+SHA256sum: 283eccbc05ffd6e9b90886bf551f02797eca461aa4de221354fa3cddc2d3a835
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: unixodbc-tools
+Version: 2.3.9-2
+Depends: libc, unixodbc, libncurses6, libreadline8
+License: prog GPL libs LGPL
+Section: utils
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: aarch64_cortex-a53
+Installed-Size: 25938
+Filename: unixodbc-tools_2.3.9-2_aarch64_cortex-a53.ipk
+Size: 26464
+SHA256sum: 53a99c398538eb16afcafa1a71f47b611d00d197b2eccbcade247196fa64c800
+Description:  Command Line Tools to help install a driver and work with SQL.
+
+Package: unixodbc
+Version: 2.3.9-2
+Depends: libc, libltdl7, libpthread
+License: prog GPL libs LGPL
+Section: libs
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: aarch64_cortex-a53
+Installed-Size: 222525
+Filename: unixodbc_2.3.9-2_aarch64_cortex-a53.ipk
+Size: 223071
+SHA256sum: 2faa6ff901862b87cdacab2bdc5b189dec46ad920959db4cb66c9f2aa1c80574
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
 Package: unzip
 Version: 6.0-8
 Depends: libc
@@ -3938,6 +5938,32 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 251054
+Filename: usbids_0.359-1_aarch64_cortex-a53.ipk
+Size: 251508
+SHA256sum: 2a6f44d851802185b207313417888a893fc6bb8fd978e349e26247f81537d898
+Description:  USB ID list
+
+Package: uw-imap
+Version: 2007f-5
+Depends: libc, libpthread, libopenssl1.1
+License: Apache-2.0
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 506765
+Filename: uw-imap_2007f-5_aarch64_cortex-a53.ipk
+Size: 506798
+SHA256sum: d18b6147b5d31f78c1c8c56ba1db76444393bf040d4f759290d6f283335cf10b
+Description:  The UW IMAP tookit includes the following:
+ c-lient library : an API (application programming interface) used to build email clients and servers,
+ including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
 Package: xray-core
 Version: 1.8.1-1
@@ -3966,4 +5992,196 @@ Description:  Xray, Penetrates Everything. It helps you to build your own comput
  It secures your network connections and thus protects your privacy.
  
  This includes example configuration files for xray-core.
+
+Package: zipcmp
+Version: 1.8.0-4
+Depends: libc, libzip, musl-fts
+License: BSD-3-Clause
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 9449
+Filename: zipcmp_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 10201
+SHA256sum: 980252b04c65100280f8bcae7f8eecfacabdfda4a85b2bfda0664e3f04d0596a
+Description:  This package contains the command line tool zipcmp from libzip.
+
+Package: zipmerge
+Version: 1.8.0-4
+Depends: libc, libzip
+License: BSD-3-Clause
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 3890
+Filename: zipmerge_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 4635
+SHA256sum: a299270eb2a34b18e957383940c21f000fbb5871b90ec419d88ddb5e635db8f7
+Description:  This package contains the command line tool zipmerge from libzip.
+
+Package: ziptool
+Version: 1.8.0-4
+Depends: libc, libzip
+License: BSD-3-Clause
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 9833
+Filename: ziptool_1.8.0-4_aarch64_cortex-a53.ipk
+Size: 10562
+SHA256sum: a46ed300cf71e1cf1b01d194ac0efb4d68821a711233df24dd0070189c9c2c5d
+Description:  This package contains the command line tool ziptool from libzip.
+
+Package: zoneinfo-africa
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 7271
+Filename: zoneinfo-africa_2023c-1_aarch64_cortex-a53.ipk
+Size: 8016
+SHA256sum: a0a96e51cbcf861fdcaf889886b5492aa07e971067144c77935c19c8176bfa14
+Description:  Zone Information (Africa)
+
+Package: zoneinfo-all
+Version: 2023c-1
+Depends: libc, zoneinfo-core, zoneinfo-africa, zoneinfo-northamerica, zoneinfo-southamerica, zoneinfo-poles, zoneinfo-asia, zoneinfo-atlantic, zoneinfo-australia-nz, zoneinfo-pacific, zoneinfo-europe, zoneinfo-india
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 95
+Filename: zoneinfo-all_2023c-1_aarch64_cortex-a53.ipk
+Size: 896
+SHA256sum: b9047a95fe9b29065f7bd99ebd444cd7182eb778320dd22d073ea02ed0683b3a
+Description:  Zone Information (all zones)
+
+Package: zoneinfo-asia
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 30558
+Filename: zoneinfo-asia_2023c-1_aarch64_cortex-a53.ipk
+Size: 30976
+SHA256sum: 5921c61b25f712b197e8b3f5da35ac0e055ba4cd09b87406d01798fbb4a4b3b2
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-atlantic
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 5793
+Filename: zoneinfo-atlantic_2023c-1_aarch64_cortex-a53.ipk
+Size: 6512
+SHA256sum: 3353c8bf3c318d5e764eedb1fe98933d90fe50b691b181f5adfea857209efb0b
+Description:  Zone Information (Atlantic)
+
+Package: zoneinfo-australia-nz
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 6688
+Filename: zoneinfo-australia-nz_2023c-1_aarch64_cortex-a53.ipk
+Size: 7321
+SHA256sum: d0ff4fbdb94ee5c73d3dadcf045926988862d867a10f27d22d313389de8fa4b2
+Description:  Zone Information (Australia-NZ)
+
+Package: zoneinfo-core
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 20440
+Filename: zoneinfo-core_2023c-1_aarch64_cortex-a53.ipk
+Size: 20799
+SHA256sum: e0492f3a2350e8807f7132f567cb19923f008175ac2a68daa3882dcd91fe7b54
+Description:  Zone Information (core)
+
+Package: zoneinfo-europe
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 20936
+Filename: zoneinfo-europe_2023c-1_aarch64_cortex-a53.ipk
+Size: 21561
+SHA256sum: d4cb4818880b1495f27ff0efcebbb27d2c842ec467bc9a0bdb4099d970b13b61
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-india
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 941
+Filename: zoneinfo-india_2023c-1_aarch64_cortex-a53.ipk
+Size: 1689
+SHA256sum: e085c5bbad277a76e5f51f8ef23dc7faff0a65096de0505b323d78218475f8e3
+Description:  Zone Information (India)
+
+Package: zoneinfo-northamerica
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 78798
+Filename: zoneinfo-northamerica_2023c-1_aarch64_cortex-a53.ipk
+Size: 78598
+SHA256sum: 1fc6e9bb54c61d30d2f1dc29b8b9d6a3eb2cee08144cded997f32bb0358a392c
+Description:  Zone Information (NorthAmerica)
+
+Package: zoneinfo-pacific
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 6662
+Filename: zoneinfo-pacific_2023c-1_aarch64_cortex-a53.ipk
+Size: 7428
+SHA256sum: 8e1c9ea70a8d1c0cf289d7817f591feb248f9ece66ab507946d42cd4241db76f
+Description:  Zone Information (Pacific)
+
+Package: zoneinfo-poles
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 5046
+Filename: zoneinfo-poles_2023c-1_aarch64_cortex-a53.ipk
+Size: 5800
+SHA256sum: 878a0ab05d1187e31fb9e7554a34bc6402762130288fd764023caf2bef5cb3d5
+Description:  Zone Information (Arctic, Antarctic)
+
+Package: zoneinfo-simple
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 16823
+Filename: zoneinfo-simple_2023c-1_aarch64_cortex-a53.ipk
+Size: 17506
+SHA256sum: 45725db3aac449e81fbca2f0b2da3bb753cd5b722694b8c5613c4bdf56a6a1df
+Description:  Zone Information (simple)
+
+Package: zoneinfo-southamerica
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 4830
+Filename: zoneinfo-southamerica_2023c-1_aarch64_cortex-a53.ipk
+Size: 5538
+SHA256sum: ce844f8e22643e8fff7e1a6321362287904d312a3f2df8ffe41cbe245d4c0fb5
+Description:  Zone Information (SouthAmerica)
 

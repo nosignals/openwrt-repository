@@ -1,3 +1,21 @@
+Package: agetty
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: agetty
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21120
+Filename: agetty_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21890
+SHA256sum: 504d2bb7cbf46498d230f31f38868b6fa37700578aee68dcd4cd9661dbb92b27
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
 Package: ar
 Version: 2.37-2
 Depends: libc, zlib, libbfd
@@ -14,6 +32,23 @@ Filename: ar_2.37-2_arm_cortex-a7_neon-vfpv4.ipk
 Size: 25321
 SHA256sum: 5ed123668114b01f175ec00498032fad9f616bbbe41602d263927fd63f457797
 Description:  ar
+
+Package: badblocks
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: badblocks
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9758
+Filename: badblocks_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10516
+SHA256sum: 19171031fa9545467392da828e66fc5b66a3473b55a93df99eae2ffbc730d592
+Description:  Ext2 Filesystem badblocks utility
 
 Package: binutils
 Version: 2.37-2
@@ -32,6 +67,60 @@ Filename: binutils_2.37-2_arm_cortex-a7_neon-vfpv4.ipk
 Size: 1088554
 SHA256sum: 4dbbe3397f4a29d30b6e5909f7c652b8ab8694ef2d73f15aacc11b054adfca62
 Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+
+Package: blkdiscard
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: blkdiscard
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9663
+Filename: blkdiscard_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10548
+SHA256sum: f4aa52603f6fe8a9f66973aa7368d695a791f9bd0f1439ccb11b36f5e3de6c29
+Description:  The blkdiscard is used to discard device sectors. This is useful for
+ solid-state drivers (SSDs) and thinly-provisioned storage. Unlike fstrim,
+ this command is used directly on the block device.
+
+Package: blkid
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: blkid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41652
+Filename: blkid_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42287
+SHA256sum: 599f3aed27ecb8479c0478e4911b5eea8423f9d5afc041cb23da9f080b900eac
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: blockdev
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: blockdev
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 23596
+Filename: blockdev_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24340
+SHA256sum: 567c14b9aaca79409a37d5024ea130be8f22d4197d60de70615b094bae707221
+Description:  The blockdev program is the command-line interface to call block device ioctls.
 
 Package: bpftool-full
 Version: 2022-03-08-04c465fd-1
@@ -120,6 +209,74 @@ Size: 123437
 SHA256sum: cdf2f284feeed51fa4d67fe8b9e671878c18c7a526dee796db93829b4bb0e178
 Description:  System CA certificates
 
+Package: cal
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: cal
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22677
+Filename: cal_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23483
+SHA256sum: 138a7c76534aff310d4c81186b894660e904ec24e68ab46445324e0a8e9d3428
+Description:  cal displays a simple calendar
+
+Package: cfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libncurses6, libsmartcols1, libfdisk1, libmount1
+Source: feeds/base/package/utils/util-linux
+SourceName: cfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36808
+Filename: cfdisk_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 37315
+SHA256sum: 660376d716bfd50216a3b323e9d201c3249adcebcca4dcf498f0927f953f23d6
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: chattr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3149
+Filename: chattr_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3874
+SHA256sum: aca0c798c5e5f167f2ef599285ad5189cd476c2944ed69912f94d2d50286c8ae
+Description:  Ext2 Filesystem chattr utility
+
+Package: debugfs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: debugfs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 70807
+Filename: debugfs_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 71194
+SHA256sum: ff70a8c41df8b0e532948c39f07e45744867bba5d2a4401004129634cfc873d4
+Description:  Ext2 Filesystem debugger
+
 Package: devlink
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -136,6 +293,23 @@ Filename: devlink_5.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 39494
 SHA256sum: 92e77731365e7cb2ffe17f23a6ffa0a9d5318026525bd10ac83d0729c5e5de70
 Description:  Network devlink utility
+
+Package: dmesg
+Version: 2.37.4-1
+Depends: libc, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: dmesg
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24354
+Filename: dmesg_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25147
+SHA256sum: a35f83a2505ad75fd2da295a4c3b92da161bcb288c66fecbff434712182fcc9e
+Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq-dhcpv6
 Version: 2.86-1
@@ -198,6 +372,145 @@ Size: 133603
 SHA256sum: 4472ab8b786985153a994a37352796391100e355dc63ac28696d909f44d96d68
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: dumpe2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: dumpe2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9024
+Filename: dumpe2fs_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9737
+SHA256sum: e6c353a457acd0925017aa7951707fd38f6511ad04265c2537b3a531b1daf289
+Description:  Ext2 Filesystem information dumping utility
+
+Package: e2freefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e2freefrag
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4047
+Filename: e2freefrag_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4793
+SHA256sum: 63bd19cd5699ecad0093b89ba233f11ca7e1c3c66887841e6bf6c0b5c4c637fb
+Description:  Ext2 Filesystem free space fragmentation information utility
+
+Package: e2fsprogs
+Version: 1.46.5-2
+Depends: libc, libuuid1, libext2fs2
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e2fsprogs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 192185
+Filename: e2fsprogs_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 192494
+SHA256sum: 237333fecf1a4dd298d9768c19cc65fc8bf36bf5416eca100b557b4b5250c8b6
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: e4crypt
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e4crypt
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7541
+Filename: e4crypt_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8327
+SHA256sum: b355526757fb09dcc7a6bbae23a1d78be34a6f3ea21325b46a8a54c336b65d96
+Description:  Ext4 Filesystem encryption utility
+
+Package: eject
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: eject
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25347
+Filename: eject_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26138
+SHA256sum: 35405494e6f7b9fe10dc382abcc19544ab715e706fb084882762bb26cb099300
+Description:  eject allows removable media (typically a CD-ROM, floppy disk, tape, or JAZ
+ or ZIP disk) to be ejected under software control.
+
+Package: fdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1, libfdisk1, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: fdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 51617
+Filename: fdisk_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 52223
+SHA256sum: 9b7d94e74a33bbc2e51e85d8bf250748d7421f961d340b4612f1cc18d59acd84
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: filefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: filefrag
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6171
+Filename: filefrag_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6952
+SHA256sum: 32afb907cb21c3f07fe52b640ca78f2175ddd793faa2721eee3fc9862e5ad311
+Description:  Ext2 Filesystem file fragmentation report utility
+
+Package: findfs
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: findfs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2264
+Filename: findfs_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3113
+SHA256sum: bc6e8100ef4f8abc9840bbfde8faf79f3c83a4866e76a8e2148f1daa78c1da36
+Description:  findfs will search the disks in the system looking for a filesystem which has
+ a label matching label or a UUID equal to uuid
+
 Package: firewall4
 Version: 2022-10-18-7ae5e14b-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
@@ -216,6 +529,43 @@ SHA256sum: ba7c0ad60ff71a6880c11631b787b78b5df6f6dc56ec606e4ecd05c6fb1b8568
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
+Package: flock
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+Source: feeds/base/package/utils/util-linux
+SourceName: flock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9961
+Filename: flock_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10739
+SHA256sum: 31cdfc122bd71daa31f3cfdb4e3167959e8d5c479d784479c6cee5af9396d703
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: fstrim
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1, libsmartcols1, libmount1
+Source: feeds/base/package/utils/util-linux
+SourceName: fstrim
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 23308
+Filename: fstrim_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24173
+SHA256sum: dde4bc0fa94eda9adfe590c0a7a31cdbc7a3bcb192e81d4919085752ce2b6c7c
+Description:  fstrim is used on a mounted filesystem to discard (or "trim") blocks
+ which are not in use by the filesystem.  This is useful for solid-
+ state drives (SSDs) and thinly-provisioned storage.
+
 Package: genl
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0
@@ -232,6 +582,57 @@ Filename: genl_5.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 8593
 SHA256sum: 2bbe5012b68ae427eee944a4521b793be0a5fac71f7793d29a128abeca7928a4
 Description:  General netlink utility frontend
+
+Package: getopt
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: getopt
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9332
+Filename: getopt_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10199
+SHA256sum: bfd2b9d32526ba55d00069066a13af471ed6a30f2e521ae95743f4f96bfc5a2c
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+Source: feeds/base/package/system/ubox
+SourceName: getrandom
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1427
+Filename: getrandom_2021-08-03-205defb5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2201
+SHA256sum: 855a8199d5e18c2508a41f8ba27430c83853a66e7369b126dc11ffd2c5f227e9
+Description:  OpenWrt getrandom system helper
+
+Package: hwclock
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: hwclock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32676
+Filename: hwclock_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33488
+SHA256sum: 2128fccf3f3326b0e6fd3e6760385d11a8c2547699341080aa564b6469bcd311
+Description:  hwclock is a tool for accessing the Hardware Clock
 
 Package: ip-bridge
 Version: 5.15.0-1
@@ -287,6 +688,26 @@ Filename: ip-tiny_5.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 144472
 SHA256sum: 488cca4fccd5116e80cf46fb2b33c23d37413dbb5873c7ab2c74220bea9db5ed
 Description:  Routing control utility (minimal)
+
+Package: ipcs
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: ipcs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22220
+Filename: ipcs_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23105
+SHA256sum: c04c9f5afd11d40f7cce8d14a65e3706153c3fd18f0225301d7034521743c2ca
+Description:  ipcs shows information on the inter-process communication facilities for
+ which the calling process has read access. By default it shows information
+ about all three resources: shared memory segments, message queues, and
+ semaphore arrays.
 
 Package: ipset
 Version: 7.15-2
@@ -354,6 +775,22 @@ Size: 7123
 SHA256sum: be5cfc4c222f5cfc03b1bdc12f061c0f009a5dc5ec338790e99f38da28c7875c
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+Source: feeds/base/package/utils/jsonfilter
+SourceName: jsonfilter
+License: ISC
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9156
+Filename: jsonfilter_2018-02-04-c7e938d6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9927
+SHA256sum: 7583cb65549e2bbd7e0e86bd978f34463a4a0c533c50a0bc0e296999cac23e12
+Description:  OpenWrt JSON filter utility
+
 Package: libasm1
 Version: 0.186-1
 Depends: libc, libelf1, libdw1
@@ -390,6 +827,28 @@ Filename: libbfd_2.37-2_arm_cortex-a7_neon-vfpv4.ipk
 Size: 348215
 SHA256sum: 48d48fd5fc0985a69de463ac1bab2dbc75db31b9012322ac931bf564989f291e
 Description:  libbfd
+
+Package: libblkid1
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Provides: libblkid
+Source: feeds/base/package/utils/util-linux
+SourceName: libblkid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 123292
+Filename: libblkid1_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 124024
+SHA256sum: 1eb2ec5a37ead579441e4c394baa4ed772f49e70651450bc478de6a494bfbdc2
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
 
 Package: libblobmsg-json20220515
 Version: 2022-05-15-d2223ef9-1
@@ -484,6 +943,26 @@ Size: 14236
 SHA256sum: 524e1c6a11b4335274ea1a3cc83a8553cb7513115a597db4a2f4810bac90869c
 Description:  Linux capabilities library library
 
+Package: libcomerr0
+Version: 1.46.5-2
+Depends: libc, libuuid1
+Provides: libcomerr
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libcomerr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 0
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3778
+Filename: libcomerr0_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4574
+SHA256sum: 9b8250365039cdabc60f126524a1180583de536d36d35c775451644aa174dc80
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
 Package: libctf
 Version: 2.37-2
 Depends: libc, libbfd
@@ -541,6 +1020,199 @@ Size: 38973
 SHA256sum: 2d2161d272c9a1aad90198f66a4e052401e6513152e39731892df102d208a4e2
 Description:  ELF manipulation libraries (libelf)
 
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 92927
+Filename: libevent2-7_2.1.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 94007
+SHA256sum: 30ddbc2eef25ed0090bab3ee6f65f464459c944976d3f6b738e0eb5561861dc7
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-core
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 55437
+Filename: libevent2-core7_2.1.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 56519
+SHA256sum: cc29ba3d32a84ce8392eeb3fddf567cf4ab0fbe2eac493a3ab2b3ea72f9bf652
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-extra
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41367
+Filename: libevent2-extra7_2.1.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42521
+SHA256sum: bcccbb9b0c1c9dcd8f79bcbf14490a80908566fc43a5b4d6093e6ac8841efdcb
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl1.1, libevent2-core7
+Provides: libevent2-openssl
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6817
+Filename: libevent2-openssl7_2.1.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7916
+SHA256sum: 8809e80c46d47bb88260bad111c45f8db24b93c9a05c28185d4203ef88be2296
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-pthreads
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1735
+Filename: libevent2-pthreads7_2.1.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2847
+SHA256sum: 5afc4134243d09ce5cdb3f6f8cb1a7141261dc03c16955cdc37f69e6a49e4b42
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libext2fs2
+Version: 1.46.5-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libext2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 171900
+Filename: libext2fs2_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 172128
+SHA256sum: 2ba9fae137c0ca044d6f86b6bab6ad7f770b5a936e1f0cdd310432caf1c91daa
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libfdisk1
+Version: 2.37.4-1
+Depends: libc, libuuid1, libblkid1
+Provides: libfdisk
+Source: feeds/base/package/utils/util-linux
+SourceName: libfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 165169
+Filename: libfdisk1_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 165647
+SHA256sum: 862f172d53c8048cb5b7c4e06b16a7628df69ff5ec13ce0965b21c722ef7040a
+Description:  The libfdisk library is used for manipulating with partition tables.
+
 Package: libgmp10
 Version: 6.2.1-1
 Depends: libc
@@ -575,6 +1247,25 @@ Filename: libiconv_8_arm_cortex-a7_neon-vfpv4.ipk
 Size: 931
 SHA256sum: 588a3aa6461e03c88d447ffbf8d1c9a6646fb01c0cd0f96fceb7ecfe74381d94
 Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libintl-full8
+Version: 0.21-2
+Depends: libc
+Provides: libintl-full
+Source: feeds/base/package/libs/gettext-full
+SourceName: libintl-full
+License: GPL-3.0-or-later
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:gettext
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15624
+Filename: libintl-full8_0.21-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16371
+SHA256sum: 506001b4485fdb7468acae78d70513bb09b943e1a7c45a4890af119ffa2d2569
+Description:  GNU Internationalization library
 
 Package: libipset13
 Version: 7.15-2
@@ -802,6 +1493,26 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  * Decoupling: the interdependency of the main bricks that compose the library
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
+
+Package: libmount1
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Provides: libmount
+Source: feeds/base/package/utils/util-linux
+SourceName: libmount
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 139204
+Filename: libmount1_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 139449
+SHA256sum: b578390aa39823bf17890560300d180ea6377ae166448eb17d40adc0b0930e6b
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
 Package: libncurses-dev
 Version: 6.3-1
@@ -1143,6 +1854,45 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
+Package: libsmartcols1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libsmartcols
+Source: feeds/base/package/utils/util-linux
+SourceName: libsmartcols
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 79950
+Filename: libsmartcols1_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 80571
+SHA256sum: 3c1275b11e5f7b7395e3ed09bc3c8c1274b5bc1aa3ceafeb603b32f2a613f150
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.46.5-2
+Depends: libc, libcomerr0
+Provides: libss
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libss
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7772
+Filename: libss2_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8615
+SHA256sum: 20468af2859db6a92346ad7403a502f992eca3fad48f8cb3e3e3aa994409a529
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
 Package: libubox-lua
 Version: 2022-05-15-d2223ef9-1
 Depends: libc, libubox20220515, liblua5.1.5
@@ -1262,6 +2012,184 @@ Filename: libucode20220812_2022-12-02-46d93c9c-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 65389
 SHA256sum: 14d3c3d737a48c16ae8cfb1948cb8ff86e670b2c3a9295ce3feee1a5ea76529e
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libuuid1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libuuid
+Source: feeds/base/package/utils/util-linux
+SourceName: libuuid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11460
+Filename: libuuid1_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12436
+SHA256sum: f7744a12ccac9714c7d1c9cf6161918d53188559848415eea50a3e04ba61d6a7
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+Source: feeds/base/package/system/ubox
+SourceName: logd
+License: GPL-2.0
+Section: base
+Require-User: logd=514:logd=514
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10357
+Filename: logd_2021-08-03-205defb5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11146
+SHA256sum: a39073010cf70b0f6b58777519f1faaa0569a03e79d241bec6c4c6a8ac6547a7
+Description:  OpenWrt system log implementation
+
+Package: logger
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/logger:/usr/bin/util-linux-logger
+Source: feeds/base/package/utils/util-linux
+SourceName: logger
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15299
+Filename: logger_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16152
+SHA256sum: 3a9c2640009b87aca06830dfb90d689d025893e48d525084c0a2a0701fd1eb36
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: look
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: look
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3579
+Filename: look_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4388
+SHA256sum: ab1cbae6c87ce23790e3449cdcad4332869ced95b7440c8868d4d6e8ad25e3cb
+Description:  look utility displays any lines in file which contain string
+
+Package: losetup
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: losetup
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 38579
+Filename: losetup_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 39493
+SHA256sum: 3cd967a6c459756f74b0c57ed52279e9ae475ec061799ccfccb65a806fa91a8d
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lsattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: lsattr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2597
+Filename: lsattr_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3319
+SHA256sum: ca39f17b71662c455c1fbf76118ae18f6a3637005b5a283c5efd7cd511e8b656
+Description:  Ext2 Filesystem lsattr utility
+
+Package: lsblk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lsblk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60595
+Filename: lsblk_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61355
+SHA256sum: 5499eef59c1d45051b5e4f5bebc96d2f739483fb4881a055924a7f285b765c8f
+Description:  lsblk lists information about all or the specified block devices
+
+Package: lscpu
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lscpu
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40387
+Filename: lscpu_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41268
+SHA256sum: ede15fedfe793ec28da99dd073aff9a5093f56d174dbbcf4dde1c2ed90d6c9d3
+Description:  lscpu displays information about the CPU architecture
+
+Package: lslocks
+Version: 2.37.4-1
+Depends: libc, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lslocks
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12754
+Filename: lslocks_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13491
+SHA256sum: 49fad2b561b0844a4e64d095ee7b800e3b7d4c3caa9573e652eca3bdc39f23a9
+Description:  lslocks lists information about all the currently held file locks in a Linux system
+
+Package: lsns
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lsns
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16292
+Filename: lsns_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17102
+SHA256sum: 99b2bbee6629b28fb29e58494adfddb84e4086b4780614cb5e4240e8903ed404
+Description:  lsns lists information about all namespaces and their processes
 
 Package: lua-examples
 Version: 5.1.5-10
@@ -1383,6 +2311,58 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
+Package: mcookie
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: mcookie
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10943
+Filename: mcookie_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11799
+SHA256sum: c3bd588274ba965fe1f868d2d31768629957e64c1c8f38dd85c5bf50c0c28286
+Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
+ authority system
+
+Package: more
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: more
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18359
+Filename: more_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19169
+SHA256sum: a527badbd52fc00b3b1f31a3cc71983052fa019d348df8ddfcd5a4c14d263347
+Description:  more is a filter for paging through text one screenful at a time
+
+Package: mount-utils
+Version: 2.37.4-1
+Depends: libc, librt, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: mount-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 50711
+Filename: mount-utils_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 51344
+SHA256sum: 395cbd8a0455481ac0bc9ed114d0833d0733868a25952e60618b4aaf6bcd48b8
+Description:  contains: mount, umount, findmnt
+
 Package: musl-fts
 Version: 1.2.7-1
 Depends: libc, libpthread
@@ -1399,6 +2379,24 @@ Filename: musl-fts_1.2.7-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 5176
 SHA256sum: 1c5666083089ee104f7d8bba9748a1464c3203b266be4caea97478e6f2e02195
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: namei
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: namei
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9794
+Filename: namei_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10646
+SHA256sum: 857f3944122827f51707c4d2f09bce96e98d3dfbad38b7d6f6d2b68d6e70364b
+Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
+ files, directories, and so forth)
 
 Package: nftables-json
 Version: 1.0.2-2.1
@@ -1432,6 +2430,23 @@ Filename: nftables-nojson_1.0.2-2.1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 227697
 SHA256sum: c2b215bb3f009bbb3e4fdefa39d2fd4956c80422372dbfe6d1e563e0445e338c
 Description:  nftables userspace utility no JSON support
+
+Package: nsenter
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: nsenter
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10244
+Filename: nsenter_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11068
+SHA256sum: cd8853d04e86abd4f08590394258b6c5c4dcd9b0f796ff0fb904a6ccf1e34571
+Description:  run program with namespaces of other processes
 
 Package: nstat
 Version: 5.15.0-1
@@ -1489,6 +2504,41 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: partx-utils
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: partx-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 47479
+Filename: partx-utils_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 48202
+SHA256sum: 0c0bad441e2c3ada4d7fa9021325e6a37b04db9ee409ec8c45b9b215c70b3f79
+Description:  contains partx, addpart, delpart
+
+Package: prlimit
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: prlimit
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11049
+Filename: prlimit_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11926
+SHA256sum: 39eda4f2988396f5336165fbdc3c72c6c971771cf924d4ba1e4bc19f4d8856e8
+Description:  Given a process id and one or more resources, prlimit tries to retrieve
+ and/or modify the limits.
+
 Package: rdma
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -1505,6 +2555,41 @@ Filename: rdma_5.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 23198
 SHA256sum: 48d5826c66a108478b956c8b9176625ae74063075427cf96242f647f2897b85d
 Description:  Network rdma utility
+
+Package: rename
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: rename
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4274
+Filename: rename_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5115
+SHA256sum: 8741b4aac54eeedaa43259cfa83afd2c18c369270bd6ada6531c6f663b15baf1
+Description:  rename will rename the specified files by replacing the first occurrence of
+ expression in their name by replacement
+
+Package: resize2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: resize2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24564
+Filename: resize2fs_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25220
+SHA256sum: 9cb869282e1d76694ebaad1bdb4672766c1bd457fc633ecc50a2728bc6a632c3
+Description:  Ext2 Filesystem resize utility
 
 Package: resolveip
 Version: 2
@@ -1607,6 +2692,59 @@ SHA256sum: 314df6230d32025ad7039b62e61cdde04372b58433d2075a0dead7dde0a92607
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
+Package: script-utils
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: script-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 37603
+Filename: script-utils_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38336
+SHA256sum: af41b4569f0a0d033060523461cf1fc7b17b1ad26613b6a365ea0787a810a284
+Description:  contains: script, scriptreplay
+
+Package: setterm
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: setterm
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14293
+Filename: setterm_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15122
+SHA256sum: 8c13a5e6ef8faf0f6fb43f81232b891502600ab3c160abdc57e80c89599a55dd
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities
+
+Package: sfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libfdisk1, libsmartcols1, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: sfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48803
+Filename: sfdisk_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49168
+SHA256sum: 29c7f4b4fc281c326ec650481d73a08ca34d261aa6d59e77a849eadca258c13e
+Description:  list the size of a partition, list the partitions on a device, check the
+ partitions on a device and repartition a device
+
 Package: ss
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0, kmod-netlink-diag
@@ -1623,6 +2761,40 @@ Filename: ss_5.15.0-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 41637
 SHA256sum: 59494ce4bb4c0f8484eaf5643277496f47689592699dc3a7dbf009a43a8bd6a2
 Description:  Socket statistics utility
+
+Package: swap-utils
+Version: 2.37.4-1
+Depends: libc, librt, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: swap-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41545
+Filename: swap-utils_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42302
+SHA256sum: cbf0adac95454709e25890ee60d68909c21bd428f98487c729b5cebcffaf9593
+Description:  contains: mkswap, swaplabel
+
+Package: taskset
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: taskset
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10955
+Filename: taskset_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11726
+SHA256sum: f7ea0fcf60ee1039c08085a7169faa0790c97f34b7219c543e48d9ed09be2d7b
+Description:  contains: taskset
 
 Package: tc-bpf
 Version: 5.15.0-1
@@ -1714,6 +2886,40 @@ Filename: terminfo_6.3-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 8028
 SHA256sum: a548325301d6894df1f7b7ef915c656ba584bbfe35f8203cc835df56f866c777
 Description:  Terminal Info Database (ncurses)
+
+Package: tune2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: tune2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 39480
+Filename: tune2fs_1.46.5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40157
+SHA256sum: 5c07971eb9521448e67c8c5385e9de000dfdbbf2d946f9bbf061cb97660e6594
+Description:  Ext2 Filesystem tune utility
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+Source: feeds/base/package/system/ubox
+SourceName: ubox
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14093
+Filename: ubox_2021-08-03-205defb5-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14945
+SHA256sum: 821c1981c2e4edc5a2e4a52a63be252acf70d8fee739e3b4d5a3f4fde770db4e
+Description:  OpenWrt system helper toolbox
 
 Package: ubus
 Version: 2022-06-01-2bebf93c-1
@@ -1927,6 +3133,23 @@ SHA256sum: 4a5eef1b249f4a29a5462924e8e561b7b3b5b81ac3a359df1502d2c52c83b882
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: unshare
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: unshare
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14862
+Filename: unshare_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15617
+SHA256sum: 95964af58c1c6135c270ebd5004f79e8ed4b03f5ccf72c37ad093820857e39e4
+Description:  run programs with some namespaces unshared from parent
+
 Package: usign
 Version: 2020-05-23-f1f65026-1
 Depends: libc, libubox20220515
@@ -1942,6 +3165,100 @@ Filename: usign_2020-05-23-f1f65026-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 11774
 SHA256sum: de5de99c78613418c91a4ce36728fb985d888707aa3d16303dc824547e777301
 Description:  OpenWrt signature verification utility
+
+Package: uuidd
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: uuidd
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12881
+Filename: uuidd_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13799
+SHA256sum: 2316dc7ec28851aa900dc4ea7b1001d0584f1081c7af545d815647155181255d
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: uuidgen
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3550
+Filename: uuidgen_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4465
+SHA256sum: 1f92f7408af06ed38ec3fc5b04eebaa54380d3db342e84c12349b0c751997923
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wall
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: wall
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10870
+Filename: wall_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11673
+SHA256sum: 5f9c9801279d5ad4b70cfe8fe8fa14cbae84ac73e818502b2901ea6ae21dd80a
+Description:  wall sends a message to everybody logged in with their mesg permission
+ set to yes
+
+Package: whereis
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: whereis
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8936
+Filename: whereis_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9778
+SHA256sum: bb4cf38a17e3a935180ca1c3eb7db2a0aa0c7e6bd8aa5234a5eeadc0d7cde50c
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wipefs
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: wipefs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14657
+Filename: wipefs_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15469
+SHA256sum: 97c9ccf49e74b3cb43005b1bbe73ea0c5a00d83e8736e104c28b4eb3583ca688
+Description:  wipefs can erase filesystem, raid or partition table signatures (magic
+ strings) from the specified device to make the signature invisible for
+ libblkid.
 
 Package: zlib-dev
 Version: 1.2.11-6

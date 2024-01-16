@@ -1,3 +1,21 @@
+Package: agetty
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: agetty
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 20263
+Filename: agetty_2.37.4-1_mipsel_24kc.ipk
+Size: 21040
+SHA256sum: 5571ebbd30e9402436f8d64600b4f53975a005c8f50686af444d3ef0047820ac
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
 Package: ar
 Version: 2.37-2
 Depends: libc, zlib, libbfd
@@ -14,6 +32,23 @@ Filename: ar_2.37-2_mipsel_24kc.ipk
 Size: 27529
 SHA256sum: 5f203d938b7ce81b47911e81cbddc52f77bbecedda5909eab9d632f8ada7fd7e
 Description:  ar
+
+Package: badblocks
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: badblocks
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 8030
+Filename: badblocks_1.46.5-2_mipsel_24kc.ipk
+Size: 8814
+SHA256sum: 1b853205473136a1b3ad220665fe51c4372eabd45890fc27289294938cc98cb5
+Description:  Ext2 Filesystem badblocks utility
 
 Package: binutils
 Version: 2.37-2
@@ -32,6 +67,60 @@ Filename: binutils_2.37-2_mipsel_24kc.ipk
 Size: 1180265
 SHA256sum: 558eebcec0d35bb45db72b2b8634dc981b6a7c29a1c7306d2ec75b266ffae61b
 Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+
+Package: blkdiscard
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: blkdiscard
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 9703
+Filename: blkdiscard_2.37.4-1_mipsel_24kc.ipk
+Size: 10597
+SHA256sum: 5124b71b6e7888b2465ca4a294fa6aefdf2d1089317a958adc4f68824c09ba9c
+Description:  The blkdiscard is used to discard device sectors. This is useful for
+ solid-state drivers (SSDs) and thinly-provisioned storage. Unlike fstrim,
+ this command is used directly on the block device.
+
+Package: blkid
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: blkid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 38101
+Filename: blkid_2.37.4-1_mipsel_24kc.ipk
+Size: 38998
+SHA256sum: 05d8632525fcf11d898ccbd5808af0283c14c58687dfeb8eb0edcb3c26a9dea4
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: blockdev
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: blockdev
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 23041
+Filename: blockdev_2.37.4-1_mipsel_24kc.ipk
+Size: 23873
+SHA256sum: d782c801129ebd6a588f32f6d8a55168a4e49f7dfd2acbb56287f69524271869
+Description:  The blockdev program is the command-line interface to call block device ioctls.
 
 Package: bpftool-full
 Version: 2022-03-08-04c465fd-1
@@ -120,6 +209,74 @@ Size: 123437
 SHA256sum: cdf2f284feeed51fa4d67fe8b9e671878c18c7a526dee796db93829b4bb0e178
 Description:  System CA certificates
 
+Package: cal
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: cal
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 21771
+Filename: cal_2.37.4-1_mipsel_24kc.ipk
+Size: 22516
+SHA256sum: f4c89793a0f43535f94fd9b08f2cc2d487c303cfbc648a44a87725feeda8556f
+Description:  cal displays a simple calendar
+
+Package: cfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libncurses6, libsmartcols1, libfdisk1, libmount1
+Source: feeds/base/package/utils/util-linux
+SourceName: cfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 33811
+Filename: cfdisk_2.37.4-1_mipsel_24kc.ipk
+Size: 34478
+SHA256sum: 5db892753493b14fb4bcb4cd80822a79ed00eb171c7b1cd4c5d95fc1134fcbe1
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: chattr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 2950
+Filename: chattr_1.46.5-2_mipsel_24kc.ipk
+Size: 3672
+SHA256sum: 80eceb36afc986c6c8640cc4fdf7ae1168d91658a6544da2914f138a6511f6f0
+Description:  Ext2 Filesystem chattr utility
+
+Package: debugfs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: debugfs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 59342
+Filename: debugfs_1.46.5-2_mipsel_24kc.ipk
+Size: 60071
+SHA256sum: d3872a0da75d40723cf494e75686a5446b1001712bbc26fd354bbb4a81a36398
+Description:  Ext2 Filesystem debugger
+
 Package: devlink
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -136,6 +293,23 @@ Filename: devlink_5.15.0-1_mipsel_24kc.ipk
 Size: 33417
 SHA256sum: 12670cedc31ac0b25c7ea3075dd651912dfa74f28b4b920b28f6f9a0ced6a0cd
 Description:  Network devlink utility
+
+Package: dmesg
+Version: 2.37.4-1
+Depends: libc, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: dmesg
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 23410
+Filename: dmesg_2.37.4-1_mipsel_24kc.ipk
+Size: 24178
+SHA256sum: 0b5f3256a639c44145381924d434ad6d64592ab6caab6fac1dfbf833d4c7dc9e
+Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq-dhcpv6
 Version: 2.86-1
@@ -198,6 +372,145 @@ Size: 128220
 SHA256sum: d80ce8ca4dcfbc30d41baaa92f5a6d39ed448472d4d35e7cae68783bfb9df0db
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: dumpe2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: dumpe2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 7775
+Filename: dumpe2fs_1.46.5-2_mipsel_24kc.ipk
+Size: 8572
+SHA256sum: de6b6de3ee1cb54489b43c3dce63367810d5770f4c63b5635d56cbc65656e01b
+Description:  Ext2 Filesystem information dumping utility
+
+Package: e2freefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e2freefrag
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 4062
+Filename: e2freefrag_1.46.5-2_mipsel_24kc.ipk
+Size: 4797
+SHA256sum: 310207dc871982e33f2b04d622d444a96df54ca8085ec538f90b402a0bba3ae0
+Description:  Ext2 Filesystem free space fragmentation information utility
+
+Package: e2fsprogs
+Version: 1.46.5-2
+Depends: libc, libuuid1, libext2fs2
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e2fsprogs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 167247
+Filename: e2fsprogs_1.46.5-2_mipsel_24kc.ipk
+Size: 167455
+SHA256sum: de58c6498910d8bc93fa33cbbb412c15171bdfa7d43bc9c4e8d4be50ce87ff3c
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: e4crypt
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e4crypt
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 6343
+Filename: e4crypt_1.46.5-2_mipsel_24kc.ipk
+Size: 7122
+SHA256sum: ca8acd1c715eb57ab1d3a4039aaabb868db456a502a427932d48c381d1cccdc4
+Description:  Ext4 Filesystem encryption utility
+
+Package: eject
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: eject
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 24908
+Filename: eject_2.37.4-1_mipsel_24kc.ipk
+Size: 25676
+SHA256sum: 57e61dece8a555e39a4e74a7fefa399fffa609493403c45142ad2d9047e20399
+Description:  eject allows removable media (typically a CD-ROM, floppy disk, tape, or JAZ
+ or ZIP disk) to be ejected under software control.
+
+Package: fdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1, libfdisk1, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: fdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 49159
+Filename: fdisk_2.37.4-1_mipsel_24kc.ipk
+Size: 49791
+SHA256sum: a2cf580e3e694d3d31d6aa90fb215486d5457fe941633449f157eb269ec28db6
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: filefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: filefrag
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 5507
+Filename: filefrag_1.46.5-2_mipsel_24kc.ipk
+Size: 6245
+SHA256sum: d63cc02c8608398517aa3b0ef0394bbb67318f971fa092c379fc635498138779
+Description:  Ext2 Filesystem file fragmentation report utility
+
+Package: findfs
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: findfs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 2471
+Filename: findfs_2.37.4-1_mipsel_24kc.ipk
+Size: 3308
+SHA256sum: fa8baa6d3ee2b0ab5cf34ec3ca6150ab346a30b798e5d7e60b43965260ba9d0e
+Description:  findfs will search the disks in the system looking for a filesystem which has
+ a label matching label or a UUID equal to uuid
+
 Package: firewall4
 Version: 2022-10-18-7ae5e14b-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
@@ -216,6 +529,43 @@ SHA256sum: 63ed5114193cc452b17cc815a045447bb98390bd991324e24b4cf9efdfbfe2c7
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
+Package: flock
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+Source: feeds/base/package/utils/util-linux
+SourceName: flock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 10050
+Filename: flock_2.37.4-1_mipsel_24kc.ipk
+Size: 10911
+SHA256sum: c123e38490bcab0cdc18fa5cfcdf7ba7c6a0950ef59c52351afb2ebd9a0d9ff4
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: fstrim
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1, libsmartcols1, libmount1
+Source: feeds/base/package/utils/util-linux
+SourceName: fstrim
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 22619
+Filename: fstrim_2.37.4-1_mipsel_24kc.ipk
+Size: 23531
+SHA256sum: 5453acd7e6424beb9e59227f518d8e7ddf11f888cbc4e630ddeb98d4d6c740cb
+Description:  fstrim is used on a mounted filesystem to discard (or "trim") blocks
+ which are not in use by the filesystem.  This is useful for solid-
+ state drives (SSDs) and thinly-provisioned storage.
+
 Package: genl
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0
@@ -232,6 +582,57 @@ Filename: genl_5.15.0-1_mipsel_24kc.ipk
 Size: 7769
 SHA256sum: 0569eb6ba624a07cd00156b8a1ce8c5b271efb48a44d0c3a8c47d40b5e7f6164
 Description:  General netlink utility frontend
+
+Package: getopt
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: getopt
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 9223
+Filename: getopt_2.37.4-1_mipsel_24kc.ipk
+Size: 10119
+SHA256sum: b10eea9e2e132df672a2fae8c1de3478d2d0f96955ce7509f2c6b37415d190bb
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+Source: feeds/base/package/system/ubox
+SourceName: getrandom
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mipsel_24kc
+Installed-Size: 1652
+Filename: getrandom_2021-08-03-205defb5-2_mipsel_24kc.ipk
+Size: 2419
+SHA256sum: a1b5344e1133ea46d502c715af7afdc0331156b63451ceebc10bfc2706a6385c
+Description:  OpenWrt getrandom system helper
+
+Package: hwclock
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: hwclock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 32842
+Filename: hwclock_2.37.4-1_mipsel_24kc.ipk
+Size: 33645
+SHA256sum: b2f69f5e7406d6363aff006ea1cdd577a80aa561cb1fc27181f0c6b28eabbb4b
+Description:  hwclock is a tool for accessing the Hardware Clock
 
 Package: ip-bridge
 Version: 5.15.0-1
@@ -287,6 +688,26 @@ Filename: ip-tiny_5.15.0-1_mipsel_24kc.ipk
 Size: 122667
 SHA256sum: d30648c8ce15a60e2e4249ad3e63839e02190ec690da7d34e6b78da54124329c
 Description:  Routing control utility (minimal)
+
+Package: ipcs
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: ipcs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 21147
+Filename: ipcs_2.37.4-1_mipsel_24kc.ipk
+Size: 22098
+SHA256sum: 8e4c418493358087e4a3a0674eb8352fe5fa69d042890e46362a8c944e218d32
+Description:  ipcs shows information on the inter-process communication facilities for
+ which the calling process has read access. By default it shows information
+ about all three resources: shared memory segments, message queues, and
+ semaphore arrays.
 
 Package: ipset
 Version: 7.15-2
@@ -354,6 +775,22 @@ Size: 6693
 SHA256sum: ef0d0af5b2e9f965e4a41522249644e50dad04b98685a9652fb8f51000668444
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+Source: feeds/base/package/utils/jsonfilter
+SourceName: jsonfilter
+License: ISC
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 8255
+Filename: jsonfilter_2018-02-04-c7e938d6-1_mipsel_24kc.ipk
+Size: 9055
+SHA256sum: 635aa74c005cb8da9e0ed0b99126d76bf81ca5a504964196fb8ff0081265add9
+Description:  OpenWrt JSON filter utility
+
 Package: libasm1
 Version: 0.186-1
 Depends: libc, libelf1, libdw1
@@ -390,6 +827,28 @@ Filename: libbfd_2.37-2_mipsel_24kc.ipk
 Size: 485083
 SHA256sum: 20199d55a6101a9c7d0b7a845097fc8fcc7c5427ec7d2d7fae51d0718d8c7cda
 Description:  libbfd
+
+Package: libblkid1
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Provides: libblkid
+Source: feeds/base/package/utils/util-linux
+SourceName: libblkid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 116847
+Filename: libblkid1_2.37.4-1_mipsel_24kc.ipk
+Size: 117762
+SHA256sum: 8f6246fbf6812d18d11da293f7816b3671a76d521651150366ce393040a93c2d
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
 
 Package: libblobmsg-json20220515
 Version: 2022-05-15-d2223ef9-1
@@ -484,6 +943,26 @@ Size: 14184
 SHA256sum: def18b54e7b5bbba4fb702a83731644c9812948f9f4db368626fa3e11525ee9a
 Description:  Linux capabilities library library
 
+Package: libcomerr0
+Version: 1.46.5-2
+Depends: libc, libuuid1
+Provides: libcomerr
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libcomerr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 0
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 3555
+Filename: libcomerr0_1.46.5-2_mipsel_24kc.ipk
+Size: 4333
+SHA256sum: ecd8dd93842944d448c5577070851f707b0d4f31895215f7d323163e9db9115a
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
 Package: libctf
 Version: 2.37-2
 Depends: libc, libbfd
@@ -541,6 +1020,199 @@ Size: 37993
 SHA256sum: 6857b0894f3703b04fcb5378301b0a964e9fe85c853a9b85fad32e21676e13b8
 Description:  ELF manipulation libraries (libelf)
 
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 91239
+Filename: libevent2-7_2.1.12-1_mipsel_24kc.ipk
+Size: 92342
+SHA256sum: 99e96d325326e5583f18b65de678acde8c10c2a82028b2770c31b236819747cc
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-core
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 53364
+Filename: libevent2-core7_2.1.12-1_mipsel_24kc.ipk
+Size: 54553
+SHA256sum: 65e4393802358827ed26b353f70966b78c843e99cfa10abf34b41fdc097b4008
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-extra
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 42063
+Filename: libevent2-extra7_2.1.12-1_mipsel_24kc.ipk
+Size: 43205
+SHA256sum: 46d884915aaf5d81e427b7b6adc55fe60dbae093b655b09a952a244723ffae62
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl1.1, libevent2-core7
+Provides: libevent2-openssl
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 7447
+Filename: libevent2-openssl7_2.1.12-1_mipsel_24kc.ipk
+Size: 8592
+SHA256sum: feeda08ba98988f2e018e43c662108e64687452a3924e0f9f2128e424c4b0f7b
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-pthreads
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 1968
+Filename: libevent2-pthreads7_2.1.12-1_mipsel_24kc.ipk
+Size: 3073
+SHA256sum: 4c1f4e8a5b17800efdfeb9e7fc373d59e6b8727aee606bdcd8b591ba376aba11
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libext2fs2
+Version: 1.46.5-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libext2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 170658
+Filename: libext2fs2_1.46.5-2_mipsel_24kc.ipk
+Size: 171359
+SHA256sum: 0860352fe32d7c7269be9b74beabf9fdfdc258223228f66568985992a4662272
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libfdisk1
+Version: 2.37.4-1
+Depends: libc, libuuid1, libblkid1
+Provides: libfdisk
+Source: feeds/base/package/utils/util-linux
+SourceName: libfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 150315
+Filename: libfdisk1_2.37.4-1_mipsel_24kc.ipk
+Size: 151236
+SHA256sum: 8abc161ffe924d0fbdd4acaadc6dfcf0a00f7e01cd38ee68b07baab729363fe5
+Description:  The libfdisk library is used for manipulating with partition tables.
+
 Package: libgmp10
 Version: 6.2.1-1
 Depends: libc
@@ -575,6 +1247,25 @@ Filename: libiconv_8_mipsel_24kc.ipk
 Size: 919
 SHA256sum: d014906f1ba2eff0c6b14e65a8968b71b7424e2d5b0973ce825c78ae7539cdd8
 Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libintl-full8
+Version: 0.21-2
+Depends: libc
+Provides: libintl-full
+Source: feeds/base/package/libs/gettext-full
+SourceName: libintl-full
+License: GPL-3.0-or-later
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:gettext
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 14715
+Filename: libintl-full8_0.21-2_mipsel_24kc.ipk
+Size: 15454
+SHA256sum: 83215a4c639c6b1e9b4f40dc328e2b30bcb8c0e31b901bc704f90d412c9a03b0
+Description:  GNU Internationalization library
 
 Package: libipset13
 Version: 7.15-2
@@ -684,6 +1375,25 @@ Size: 5532
 SHA256sum: cdec2d752293117dff7cc4b7817aa6fa3c55bd82e7e62902fa6ef1c5407c6e0a
 Description:  Minimalistic JSON based scripting engine
 
+Package: libltdl7
+Version: 2.4.6-2
+Depends: libc
+Provides: libltdl
+Source: feeds/base/package/libs/libtool
+SourceName: libltdl
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:gnu:libtool
+Architecture: mipsel_24kc
+Installed-Size: 12143
+Filename: libltdl7_2.4.6-2_mipsel_24kc.ipk
+Size: 12926
+SHA256sum: 5c2cfde5a12301c5df6c7709fabd24d855877d81cc6fcfebf069eeee89b5d331
+Description:  A generic dynamic object loading library
+
 Package: liblua5.1.5
 Version: 5.1.5-10
 Depends: libc
@@ -764,6 +1474,26 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  * Decoupling: the interdependency of the main bricks that compose the library
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
+
+Package: libmount1
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Provides: libmount
+Source: feeds/base/package/utils/util-linux
+SourceName: libmount
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 118699
+Filename: libmount1_2.37.4-1_mipsel_24kc.ipk
+Size: 119649
+SHA256sum: 48b636039ee80fa8f68dcbccbf0ae7779538eb722aaf558b473454d37a86c3a3
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
 Package: libncurses-dev
 Version: 6.3-1
@@ -1105,6 +1835,45 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
+Package: libsmartcols1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libsmartcols
+Source: feeds/base/package/utils/util-linux
+SourceName: libsmartcols
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 72364
+Filename: libsmartcols1_2.37.4-1_mipsel_24kc.ipk
+Size: 73291
+SHA256sum: 646fbf6920103a29f081c58558ffd6fee51086c37470c8a8ae82ed3c64afb3e6
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.46.5-2
+Depends: libc, libcomerr0
+Provides: libss
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libss
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 7729
+Filename: libss2_1.46.5-2_mipsel_24kc.ipk
+Size: 8574
+SHA256sum: f084680efdb1f8bf59a9d9aed6acf96a7eb5ae378279ccc3d4d3c484046c17b5
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
 Package: libubox-lua
 Version: 2022-05-15-d2223ef9-1
 Depends: libc, libubox20220515, liblua5.1.5
@@ -1225,6 +1994,184 @@ Size: 66766
 SHA256sum: 3d62801538dc63c32ad504ef41baafdf24adf3bc8ae66018441686c5b66a0b4f
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
+Package: libuuid1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libuuid
+Source: feeds/base/package/utils/util-linux
+SourceName: libuuid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 12818
+Filename: libuuid1_2.37.4-1_mipsel_24kc.ipk
+Size: 13780
+SHA256sum: f2f4ca7c8ad3cf31095f0737e8a3e78328424dc9b7be61cb1c7cb0d66c77d17c
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+Source: feeds/base/package/system/ubox
+SourceName: logd
+License: GPL-2.0
+Section: base
+Require-User: logd=514:logd=514
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mipsel_24kc
+Installed-Size: 9693
+Filename: logd_2021-08-03-205defb5-2_mipsel_24kc.ipk
+Size: 10470
+SHA256sum: 73f850d6b79800898f0cdc05c12c2e2d34e46a41384a8f591545ab50f8b96023
+Description:  OpenWrt system log implementation
+
+Package: logger
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/logger:/usr/bin/util-linux-logger
+Source: feeds/base/package/utils/util-linux
+SourceName: logger
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 15342
+Filename: logger_2.37.4-1_mipsel_24kc.ipk
+Size: 16186
+SHA256sum: d68c1a1382d42c3d9d8a1490054e3aa7bffc322cd846322d57e61bf5f8f8c697
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: look
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: look
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 3589
+Filename: look_2.37.4-1_mipsel_24kc.ipk
+Size: 4385
+SHA256sum: ae81ed5ec3fe7973a9130c6b9074e1a7f682dc0ba21595540bb1a5f86da3a363
+Description:  look utility displays any lines in file which contain string
+
+Package: losetup
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: losetup
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 35704
+Filename: losetup_2.37.4-1_mipsel_24kc.ipk
+Size: 36598
+SHA256sum: c5a3cb7e612c6c0abd1706ce400f0cfb33f7f53b11a8d0620476dddceab1f3d0
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lsattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: lsattr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 2495
+Filename: lsattr_1.46.5-2_mipsel_24kc.ipk
+Size: 3212
+SHA256sum: a3e08942c5559deb61096a691f0b973e61a0ae54cebf91d52ffbebba9eee7ebf
+Description:  Ext2 Filesystem lsattr utility
+
+Package: lsblk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lsblk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 55577
+Filename: lsblk_2.37.4-1_mipsel_24kc.ipk
+Size: 56472
+SHA256sum: d4b293507bbef959bda4d2550e001afd15dcf57d57e5e06ad44c7469b499d632
+Description:  lsblk lists information about all or the specified block devices
+
+Package: lscpu
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lscpu
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 37867
+Filename: lscpu_2.37.4-1_mipsel_24kc.ipk
+Size: 38744
+SHA256sum: a1b5f8e32a52f9529adbfe206ba3f8ed0a1a876d9a0364f545d18428d1a79689
+Description:  lscpu displays information about the CPU architecture
+
+Package: lslocks
+Version: 2.37.4-1
+Depends: libc, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lslocks
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 12505
+Filename: lslocks_2.37.4-1_mipsel_24kc.ipk
+Size: 13356
+SHA256sum: f1dd614079fb4988ba28b83d190fa1e45d3733005c9c1156ff2fa3b4fae12e64
+Description:  lslocks lists information about all the currently held file locks in a Linux system
+
+Package: lsns
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lsns
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 15792
+Filename: lsns_2.37.4-1_mipsel_24kc.ipk
+Size: 16620
+SHA256sum: 2768127780d876679c127308d703d4cf3b117831725ab4cebc2622a3523683a6
+Description:  lsns lists information about all namespaces and their processes
+
 Package: lua-examples
 Version: 5.1.5-10
 Depends: libc, lua
@@ -1305,6 +2252,58 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
+Package: mcookie
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: mcookie
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 11478
+Filename: mcookie_2.37.4-1_mipsel_24kc.ipk
+Size: 12320
+SHA256sum: e5121d8ae04f9882a78fd93f5eca979dcc46c479f4c09377989cb844e6230343
+Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
+ authority system
+
+Package: more
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: more
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 18030
+Filename: more_2.37.4-1_mipsel_24kc.ipk
+Size: 18872
+SHA256sum: 48073f503607d4f942e29e5b6d43328a0bc0297c824d0d64b84cc170b34c76f6
+Description:  more is a filter for paging through text one screenful at a time
+
+Package: mount-utils
+Version: 2.37.4-1
+Depends: libc, librt, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: mount-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 48132
+Filename: mount-utils_2.37.4-1_mipsel_24kc.ipk
+Size: 48981
+SHA256sum: 207143533b6787ad82fc84fb759872f622fb2ce6890059d26a3ac0bbe5c455c2
+Description:  contains: mount, umount, findmnt
+
 Package: musl-fts
 Version: 1.2.7-1
 Depends: libc, libpthread
@@ -1321,6 +2320,24 @@ Filename: musl-fts_1.2.7-1_mipsel_24kc.ipk
 Size: 5297
 SHA256sum: 2ab9dc639b47565daf0ee2ea3adfe8a0e1b2163aab2d563ca3f3a1679773309a
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: namei
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: namei
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 9945
+Filename: namei_2.37.4-1_mipsel_24kc.ipk
+Size: 10788
+SHA256sum: a995e857c26e1e08ac7beae07804041493682c17694f16e3bf425b6b563d9ee0
+Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
+ files, directories, and so forth)
 
 Package: nftables-json
 Version: 1.0.2-2.1
@@ -1354,6 +2371,23 @@ Filename: nftables-nojson_1.0.2-2.1_mipsel_24kc.ipk
 Size: 233378
 SHA256sum: 313f097f9438e118fa9845bb16e7331215ef213627bdc5482b1603ac046c1635
 Description:  nftables userspace utility no JSON support
+
+Package: nsenter
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: nsenter
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 10035
+Filename: nsenter_2.37.4-1_mipsel_24kc.ipk
+Size: 10861
+SHA256sum: 40e5e3295271090fec64d0cae4e2f4f6c88bcd515c9256a34e526f4891a16260
+Description:  run program with namespaces of other processes
 
 Package: nstat
 Version: 5.15.0-1
@@ -1411,6 +2445,41 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: partx-utils
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: partx-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 41168
+Filename: partx-utils_2.37.4-1_mipsel_24kc.ipk
+Size: 41940
+SHA256sum: e88eab1203bde4b55991de387a64e37be1ed3e8c46373aadb06e785c2548a1ce
+Description:  contains partx, addpart, delpart
+
+Package: prlimit
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: prlimit
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 10888
+Filename: prlimit_2.37.4-1_mipsel_24kc.ipk
+Size: 11743
+SHA256sum: 508e71d434264a0ab378ca4247f79dacc9c8c38dcadce6e4563e7913740d15b8
+Description:  Given a process id and one or more resources, prlimit tries to retrieve
+ and/or modify the limits.
+
 Package: rdma
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -1427,6 +2496,41 @@ Filename: rdma_5.15.0-1_mipsel_24kc.ipk
 Size: 19492
 SHA256sum: 3190338a38c96d2c42849411b9f593792c40855d66415a03d7210474c990a981
 Description:  Network rdma utility
+
+Package: rename
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: rename
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 4284
+Filename: rename_2.37.4-1_mipsel_24kc.ipk
+Size: 5103
+SHA256sum: 304cf407d42ea7550ce407dadee38630c689e6904d8745f7943908d07a3e0d6b
+Description:  rename will rename the specified files by replacing the first occurrence of
+ expression in their name by replacement
+
+Package: resize2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: resize2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 22362
+Filename: resize2fs_1.46.5-2_mipsel_24kc.ipk
+Size: 23012
+SHA256sum: 3d883ccceed12ccae3761ca2f9c3ea63a8a70f5335fe5f904678d0928b7f0697
+Description:  Ext2 Filesystem resize utility
 
 Package: resolveip
 Version: 2
@@ -1529,6 +2633,59 @@ SHA256sum: 97e1c6a1b73200852377ee8f92ae01df76191c00869419f1b31f2084d86623c6
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
+Package: script-utils
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: script-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 34926
+Filename: script-utils_2.37.4-1_mipsel_24kc.ipk
+Size: 35257
+SHA256sum: 1edcbad9bfc210cfea56c1944202ca9062ba6ffa52f4f05d5cc0f92bc38ed090
+Description:  contains: script, scriptreplay
+
+Package: setterm
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: setterm
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 13798
+Filename: setterm_2.37.4-1_mipsel_24kc.ipk
+Size: 14628
+SHA256sum: cb230b7db384c804ea0d23645d331bf03dd54e36774270da64621205810ea8cc
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities
+
+Package: sfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libfdisk1, libsmartcols1, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: sfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 46663
+Filename: sfdisk_2.37.4-1_mipsel_24kc.ipk
+Size: 47352
+SHA256sum: 6eac050364c36a5c38d636d5c0b7c368e5a23a77501ab80cca428701660d7a7e
+Description:  list the size of a partition, list the partitions on a device, check the
+ partitions on a device and repartition a device
+
 Package: ss
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0, kmod-netlink-diag
@@ -1545,6 +2702,40 @@ Filename: ss_5.15.0-1_mipsel_24kc.ipk
 Size: 37194
 SHA256sum: 31aef51a117a4e1a435034354b92ad6556444a847cda057cf4265e32d3c7b46a
 Description:  Socket statistics utility
+
+Package: swap-utils
+Version: 2.37.4-1
+Depends: libc, librt, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: swap-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 38440
+Filename: swap-utils_2.37.4-1_mipsel_24kc.ipk
+Size: 39282
+SHA256sum: 39e682fea0de0d9664d5f8a984a94d54ef39c754836a2d4cd428bdc25225f491
+Description:  contains: mkswap, swaplabel
+
+Package: taskset
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: taskset
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 11138
+Filename: taskset_2.37.4-1_mipsel_24kc.ipk
+Size: 11919
+SHA256sum: d1b3d6fa7c5c8dd347930da822c425b0690862352a9e99ecf02c6815f4330dcf
+Description:  contains: taskset
 
 Package: tc-bpf
 Version: 5.15.0-1
@@ -1636,6 +2827,40 @@ Filename: terminfo_6.3-1_mipsel_24kc.ipk
 Size: 8016
 SHA256sum: f702c801b78c921985e56ea656c6831c468e65af887cec4180119f7a474631fe
 Description:  Terminal Info Database (ncurses)
+
+Package: tune2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: tune2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: mipsel_24kc
+Installed-Size: 34021
+Filename: tune2fs_1.46.5-2_mipsel_24kc.ipk
+Size: 34746
+SHA256sum: 73e9809b5bf0aafd6c545d1f482fc75f77527ac2d0a2eb4f3c3a3d54b6635e23
+Description:  Ext2 Filesystem tune utility
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+Source: feeds/base/package/system/ubox
+SourceName: ubox
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mipsel_24kc
+Installed-Size: 13337
+Filename: ubox_2021-08-03-205defb5-2_mipsel_24kc.ipk
+Size: 14167
+SHA256sum: d144aa7a2c9412652faa615495e4d0041c96e3492f93b54afe44b132dc4ec7c6
+Description:  OpenWrt system helper toolbox
 
 Package: ubus
 Version: 2022-06-01-2bebf93c-1
@@ -1849,6 +3074,23 @@ SHA256sum: 8c04b9f5120f6c18ceda393e18eacb200066ac0d2b105632e55214055e0e27cd
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: unshare
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: unshare
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 14466
+Filename: unshare_2.37.4-1_mipsel_24kc.ipk
+Size: 15248
+SHA256sum: 3a47783a52948bd5ff1bbcedda5b5ece4c5424e4ca31b31491c1719d2baa5b8e
+Description:  run programs with some namespaces unshared from parent
+
 Package: usign
 Version: 2020-05-23-f1f65026-1
 Depends: libc, libubox20220515
@@ -1864,6 +3106,100 @@ Filename: usign_2020-05-23-f1f65026-1_mipsel_24kc.ipk
 Size: 12066
 SHA256sum: e2f739c778b667c1fbf4e9f8e75bc711daa4532e763cac74b0664a8d3d8a4247
 Description:  OpenWrt signature verification utility
+
+Package: uuidd
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: uuidd
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 12545
+Filename: uuidd_2.37.4-1_mipsel_24kc.ipk
+Size: 13508
+SHA256sum: 94750396a93c309766f138898c18c35124b6a68d508abf9f0d84a5d1d4246e9f
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: uuidgen
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 3458
+Filename: uuidgen_2.37.4-1_mipsel_24kc.ipk
+Size: 4374
+SHA256sum: 5a1660ecb3290dd5e8b893df275568aa3299b6aecfb2a5ce106d8f0402330ffb
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wall
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: wall
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 10716
+Filename: wall_2.37.4-1_mipsel_24kc.ipk
+Size: 11550
+SHA256sum: ffbe720e894df5dd24d17e93011c6de6ef1f26d263670c260f77679dbf247dc4
+Description:  wall sends a message to everybody logged in with their mesg permission
+ set to yes
+
+Package: whereis
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: whereis
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 8318
+Filename: whereis_2.37.4-1_mipsel_24kc.ipk
+Size: 9187
+SHA256sum: 2d3b85dc5e9ebd5e67a082133b25713e0e330554d783b3033302590b961aea70
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wipefs
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: wipefs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: mipsel_24kc
+Installed-Size: 14476
+Filename: wipefs_2.37.4-1_mipsel_24kc.ipk
+Size: 15331
+SHA256sum: a824ad985049b449d2ebe278936118b76585ae305a40c92ac398d452ea939c22
+Description:  wipefs can erase filesystem, raid or partition table signatures (magic
+ strings) from the specified device to make the signature invisible for
+ libblkid.
 
 Package: zlib-dev
 Version: 1.2.11-6

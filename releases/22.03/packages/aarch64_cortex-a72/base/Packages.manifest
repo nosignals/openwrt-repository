@@ -1,3 +1,21 @@
+Package: agetty
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: agetty
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 22433
+Filename: agetty_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 23246
+SHA256sum: bba1069bb56de2aa4e0f964613736ccc2c9a2d2f8d41d356c927924a0d24e889
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
 Package: ar
 Version: 2.37-2
 Depends: libc, zlib, libbfd
@@ -14,6 +32,23 @@ Filename: ar_2.37-2_aarch64_cortex-a72.ipk
 Size: 27108
 SHA256sum: 45cb020d933d57c1cb3f9b806c0220a7cd8a4978267d87652ab44274b1337e69
 Description:  ar
+
+Package: badblocks
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: badblocks
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 9507
+Filename: badblocks_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 10244
+SHA256sum: 964cd03cb740fbbb0acbfe8e6eaf56130c566fbf6851abf664904ab57bafda0a
+Description:  Ext2 Filesystem badblocks utility
 
 Package: binutils
 Version: 2.37-2
@@ -32,6 +67,60 @@ Filename: binutils_2.37-2_aarch64_cortex-a72.ipk
 Size: 1082775
 SHA256sum: beea722b36fe2b3b30c2abfc88eedc2c1ec053249353c6dd122f0f80be2035d6
 Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+
+Package: blkdiscard
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: blkdiscard
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 10229
+Filename: blkdiscard_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 11147
+SHA256sum: f9de043e3d23ec511b2b10838132d417cb87ebdcbdcba4049b30934ed00e36cb
+Description:  The blkdiscard is used to discard device sectors. This is useful for
+ solid-state drivers (SSDs) and thinly-provisioned storage. Unlike fstrim,
+ this command is used directly on the block device.
+
+Package: blkid
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: blkid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 44575
+Filename: blkid_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 45430
+SHA256sum: c435c0cab1303e82acdc528d7df7e62bef40ffb49935e14901fe08f3802e20e7
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: blockdev
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: blockdev
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 27257
+Filename: blockdev_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 28111
+SHA256sum: 79a4d761d9e349b59d1a3e0ccdb61df1899c37af30145f028ea1fc5db7ed885c
+Description:  The blockdev program is the command-line interface to call block device ioctls.
 
 Package: bpftool-full
 Version: 2022-03-08-04c465fd-1
@@ -120,6 +209,74 @@ Size: 123437
 SHA256sum: cdf2f284feeed51fa4d67fe8b9e671878c18c7a526dee796db93829b4bb0e178
 Description:  System CA certificates
 
+Package: cal
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: cal
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 24126
+Filename: cal_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 24908
+SHA256sum: 45962fc896eec2eb9c828bc3bbf650640dead899ec16e8546d64a89b94b6be1b
+Description:  cal displays a simple calendar
+
+Package: cfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libncurses6, libsmartcols1, libfdisk1, libmount1
+Source: feeds/base/package/utils/util-linux
+SourceName: cfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 37922
+Filename: cfdisk_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 38793
+SHA256sum: d93c7bf87870defbdae2b3d046dfecfcaefe039ddf572842848b27a89e4387f8
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: chattr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 3231
+Filename: chattr_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 3953
+SHA256sum: f764380c251a7e5d50e9330e9f032b7a7574e6a650cc5062d3e17950f13ccdc0
+Description:  Ext2 Filesystem chattr utility
+
+Package: debugfs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: debugfs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 72607
+Filename: debugfs_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 73384
+SHA256sum: 39e2e8ae3842f7fc370c7db8042f3263cd1cf62a7eb6fe61922b30701d49731b
+Description:  Ext2 Filesystem debugger
+
 Package: devlink
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -136,6 +293,23 @@ Filename: devlink_5.15.0-1_aarch64_cortex-a72.ipk
 Size: 44367
 SHA256sum: fe49e2a877f737ad4038fb6a6d3883a215fb7e06b81aeceec556735e96bec708
 Description:  Network devlink utility
+
+Package: dmesg
+Version: 2.37.4-1
+Depends: libc, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: dmesg
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 25406
+Filename: dmesg_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 26178
+SHA256sum: 1f4ad6ebc298f9d5b5d8844e16e306a9b0018bd579c57a471fa58c13aacc277c
+Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq-dhcpv6
 Version: 2.86-1
@@ -198,6 +372,145 @@ Size: 139630
 SHA256sum: e49c8f1d053aa6758944ecccb399f1df7215add8441ef5812c4053214afb0041
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: dumpe2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: dumpe2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 8692
+Filename: dumpe2fs_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 9447
+SHA256sum: c83ef53871fdb0338c862dc784721cf09f91f2ff268124029a5ffce5718e793c
+Description:  Ext2 Filesystem information dumping utility
+
+Package: e2freefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e2freefrag
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 3991
+Filename: e2freefrag_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 4731
+SHA256sum: 43175b194a87d6afcc9fd35183b6079056264f27ff1605c2d38e075a9fe49742
+Description:  Ext2 Filesystem free space fragmentation information utility
+
+Package: e2fsprogs
+Version: 1.46.5-2
+Depends: libc, libuuid1, libext2fs2
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e2fsprogs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 194188
+Filename: e2fsprogs_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 194976
+SHA256sum: a6c57fa267530766e85646af55519c1322f8ae1ef8c7a3229c8c97681c7b9ba5
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: e4crypt
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: e4crypt
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 7986
+Filename: e4crypt_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 8743
+SHA256sum: be398aa12ce393f138e0e645093b1430c165a47c8e88030484c19083b7137b77
+Description:  Ext4 Filesystem encryption utility
+
+Package: eject
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: eject
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 29122
+Filename: eject_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 29983
+SHA256sum: db09775284db59727bc72b883213ad559e05e7c033ee5fcab54db3a674ea90e6
+Description:  eject allows removable media (typically a CD-ROM, floppy disk, tape, or JAZ
+ or ZIP disk) to be ejected under software control.
+
+Package: fdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1, libfdisk1, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: fdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 55798
+Filename: fdisk_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 56672
+SHA256sum: 6c2eea4c82b5b307a107b282dd0a93dc388baf048071f8c3950dfe517bf33d31
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: filefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: filefrag
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 5733
+Filename: filefrag_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 6470
+SHA256sum: 6ef6a972e650163c1687c93848db0ca5f03940d0ee57668d666663de0b256faf
+Description:  Ext2 Filesystem file fragmentation report utility
+
+Package: findfs
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: findfs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 2367
+Filename: findfs_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 3206
+SHA256sum: 4b9cf8a471163d7b6b4575a54a59440b2dec22af84bd3b057fa813baff199a9d
+Description:  findfs will search the disks in the system looking for a filesystem which has
+ a label matching label or a UUID equal to uuid
+
 Package: firewall4
 Version: 2022-10-18-7ae5e14b-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
@@ -216,6 +529,43 @@ SHA256sum: 857d0d49ccf0fd4e9a3979c68b2f0633aeb184ac4bdc37ae688ea6ca442e5bf5
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
+Package: flock
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+Source: feeds/base/package/utils/util-linux
+SourceName: flock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 10845
+Filename: flock_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 11721
+SHA256sum: 752acabb23813d9e9ebd1c19ef762b5a4d98c0a5989e1582fd44c0c6345a2138
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: fstrim
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1, libsmartcols1, libmount1
+Source: feeds/base/package/utils/util-linux
+SourceName: fstrim
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 26715
+Filename: fstrim_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 27646
+SHA256sum: 157ce9cf2595c663db33fcaaa8cbfc4a87dd5582bc4ed8f80ba8245d6ab223a6
+Description:  fstrim is used on a mounted filesystem to discard (or "trim") blocks
+ which are not in use by the filesystem.  This is useful for solid-
+ state drives (SSDs) and thinly-provisioned storage.
+
 Package: genl
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0
@@ -232,6 +582,57 @@ Filename: genl_5.15.0-1_aarch64_cortex-a72.ipk
 Size: 9181
 SHA256sum: 4327985bbab7cb03be267ec22bf832efe8048f97f18aee6be3fe57d01f818be9
 Description:  General netlink utility frontend
+
+Package: getopt
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: getopt
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 10337
+Filename: getopt_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 11214
+SHA256sum: 8bbf9a572f327fc163416b927fa38d96b6a5784ad803496ffd4cc57e5017e73a
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+Source: feeds/base/package/system/ubox
+SourceName: getrandom
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1622
+Filename: getrandom_2021-08-03-205defb5-2_aarch64_cortex-a72.ipk
+Size: 2393
+SHA256sum: 1f1620c6c1419d19454b38b0fda10c1e08b4b197e315434e64ee6a544d52fc01
+Description:  OpenWrt getrandom system helper
+
+Package: hwclock
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: hwclock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 34300
+Filename: hwclock_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 35162
+SHA256sum: 00770ea133cc2a956405a75aa793f194effcdd80b60fb35db54682b14ce52ce0
+Description:  hwclock is a tool for accessing the Hardware Clock
 
 Package: ip-bridge
 Version: 5.15.0-1
@@ -287,6 +688,26 @@ Filename: ip-tiny_5.15.0-1_aarch64_cortex-a72.ipk
 Size: 156851
 SHA256sum: 6ebc8d757c2770eeb749ac6db92d357ea91e42b1db60b4fe26f283f878ef5ca6
 Description:  Routing control utility (minimal)
+
+Package: ipcs
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: ipcs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 24282
+Filename: ipcs_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 25164
+SHA256sum: 694e0264ab8a6da58177b064ca860a6b02036b66b253d9ffc8b1afa9d9d90b24
+Description:  ipcs shows information on the inter-process communication facilities for
+ which the calling process has read access. By default it shows information
+ about all three resources: shared memory segments, message queues, and
+ semaphore arrays.
 
 Package: ipset
 Version: 7.15-2
@@ -354,6 +775,22 @@ Size: 7487
 SHA256sum: 00623ff6ae85573514610842badeee6808e52d3bb15bddc5bf1cf1e7f0da4026
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+Source: feeds/base/package/utils/jsonfilter
+SourceName: jsonfilter
+License: ISC
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10316
+Filename: jsonfilter_2018-02-04-c7e938d6-1_aarch64_cortex-a72.ipk
+Size: 11062
+SHA256sum: f7bbf4496b520ba679448de280a6df7e70807d56a16c3b1d55bfe62707bddd64
+Description:  OpenWrt JSON filter utility
+
 Package: libasm1
 Version: 0.186-1
 Depends: libc, libelf1, libdw1
@@ -390,6 +827,28 @@ Filename: libbfd_2.37-2_aarch64_cortex-a72.ipk
 Size: 454400
 SHA256sum: 8d9f0469b51d5d3e6a880dd6ca4421039b51ee599bd37be0d9e534ef2e3d26ab
 Description:  libbfd
+
+Package: libblkid1
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Provides: libblkid
+Source: feeds/base/package/utils/util-linux
+SourceName: libblkid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 135029
+Filename: libblkid1_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 135956
+SHA256sum: 12ba0b40f912d055043893ccd7cef217bc452b1e87308ff6c7c552de834c8380
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
 
 Package: libblobmsg-json20220515
 Version: 2022-05-15-d2223ef9-1
@@ -484,6 +943,26 @@ Size: 16781
 SHA256sum: 1d1200cac88a785312aaf6202732f9a25ca3351d3f6abfca8a4effd9767916d4
 Description:  Linux capabilities library library
 
+Package: libcomerr0
+Version: 1.46.5-2
+Depends: libc, libuuid1
+Provides: libcomerr
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libcomerr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 0
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 4207
+Filename: libcomerr0_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 4999
+SHA256sum: 1396517f2ebee7fa17fc8ac5eff291bb11f8661bee81e3ce2d4245ce5e9a5242
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
 Package: libctf
 Version: 2.37-2
 Depends: libc, libbfd
@@ -541,6 +1020,199 @@ Size: 41633
 SHA256sum: d29871ced65904e9522c1668c5bc13a425cc3997ef15775a50dabb0966dbd256
 Description:  ELF manipulation libraries (libelf)
 
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 110547
+Filename: libevent2-7_2.1.12-1_aarch64_cortex-a72.ipk
+Size: 111625
+SHA256sum: 9f31531d4c56b986dd5f220cc4cb428043a75c88d1280b08b0e5dd5979cefd3f
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-core
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 64892
+Filename: libevent2-core7_2.1.12-1_aarch64_cortex-a72.ipk
+Size: 65936
+SHA256sum: 9348f16d51152108238dbc08c8669a9f2adf2f6a4b7d735d4d6cedc5bce27c0e
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-extra
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 50428
+Filename: libevent2-extra7_2.1.12-1_aarch64_cortex-a72.ipk
+Size: 51578
+SHA256sum: 19e2775bb7389e10e4a3510d27775117c7d19c6e24a78074c0638776916ea478
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl1.1, libevent2-core7
+Provides: libevent2-openssl
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8349
+Filename: libevent2-openssl7_2.1.12-1_aarch64_cortex-a72.ipk
+Size: 9482
+SHA256sum: 2945493565ba7bd64a7e4cb9406cd644fe6cb987762c01cd9cdd6b9526191400
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-pthreads
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2040
+Filename: libevent2-pthreads7_2.1.12-1_aarch64_cortex-a72.ipk
+Size: 3115
+SHA256sum: a41c12928e81320274a8dff7c8cca23b5f522be0a4c3914e4ac38c0fb1dcdc26
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libext2fs2
+Version: 1.46.5-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libext2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 185723
+Filename: libext2fs2_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 186218
+SHA256sum: 2f63ad109133c13b7ceb4b57045ac5480dd6461e5f6f6e6c95f8579c780a8e98
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libfdisk1
+Version: 2.37.4-1
+Depends: libc, libuuid1, libblkid1
+Provides: libfdisk
+Source: feeds/base/package/utils/util-linux
+SourceName: libfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 165594
+Filename: libfdisk1_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 166295
+SHA256sum: 91ceed67ed4f12c408b36ff08e4138589b4d0ce058226580b4e4dd9699070519
+Description:  The libfdisk library is used for manipulating with partition tables.
+
 Package: libgmp10
 Version: 6.2.1-1
 Depends: libc
@@ -575,6 +1247,25 @@ Filename: libiconv_8_aarch64_cortex-a72.ipk
 Size: 924
 SHA256sum: 8c25013db8b313df97a2c993e108227cdedfbc19cb3da82dfd9cabfa94345d34
 Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libintl-full8
+Version: 0.21-2
+Depends: libc
+Provides: libintl-full
+Source: feeds/base/package/libs/gettext-full
+SourceName: libintl-full
+License: GPL-3.0-or-later
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:gettext
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 17426
+Filename: libintl-full8_0.21-2_aarch64_cortex-a72.ipk
+Size: 18245
+SHA256sum: 4bae9c240e62637f9464a63ff22f1b3f2afced957492c089644690dd433cd4b9
+Description:  GNU Internationalization library
 
 Package: libipset13
 Version: 7.15-2
@@ -802,6 +1493,26 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  * Decoupling: the interdependency of the main bricks that compose the library
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
+
+Package: libmount1
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Provides: libmount
+Source: feeds/base/package/utils/util-linux
+SourceName: libmount
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 147212
+Filename: libmount1_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 148053
+SHA256sum: 71e9307f377512ddacc7acac9837d8865acc7821f398a88dba9817c58fadeb2b
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
 Package: libncurses-dev
 Version: 6.3-1
@@ -1143,6 +1854,45 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
+Package: libsmartcols1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libsmartcols
+Source: feeds/base/package/utils/util-linux
+SourceName: libsmartcols
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 90450
+Filename: libsmartcols1_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 91364
+SHA256sum: b4c76c8135f936e0077a2b0ba4164833935a3ffa9b6e0aea392f1d02d409a723
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.46.5-2
+Depends: libc, libcomerr0
+Provides: libss
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: libss
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 9239
+Filename: libss2_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 10065
+SHA256sum: ee761698ca729bbd40cdd77d418aa16f0a3561368dc8f11c722ccf224b7a51cf
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
 Package: libubox-lua
 Version: 2022-05-15-d2223ef9-1
 Depends: libc, libubox20220515, liblua5.1.5
@@ -1262,6 +2012,184 @@ Filename: libucode20220812_2022-12-02-46d93c9c-1_aarch64_cortex-a72.ipk
 Size: 76071
 SHA256sum: 5f985e48bf7a6789849c1ec28b1ca0e92c4471db21cd2030ee479ecf6e158779
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libuuid1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libuuid
+Source: feeds/base/package/utils/util-linux
+SourceName: libuuid
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 12638
+Filename: libuuid1_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 13630
+SHA256sum: 2ac1e8b55db21098ed78c72d1c80e74baf84cb8b18f49b8fc242564755769786
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+Source: feeds/base/package/system/ubox
+SourceName: logd
+License: GPL-2.0
+Section: base
+Require-User: logd=514:logd=514
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11086
+Filename: logd_2021-08-03-205defb5-2_aarch64_cortex-a72.ipk
+Size: 11581
+SHA256sum: fdc359ff8570d87115aa489102b1b43d666e379752f4183746cef0b18681e0a0
+Description:  OpenWrt system log implementation
+
+Package: logger
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/logger:/usr/bin/util-linux-logger
+Source: feeds/base/package/utils/util-linux
+SourceName: logger
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 17467
+Filename: logger_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 18363
+SHA256sum: 5d5fc63626f1915ead18e79d3eb397c4c6e42ff9f6909858054ed7fa2ad8bc22
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: look
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: look
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 3695
+Filename: look_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 4500
+SHA256sum: 704e0c21ed52e39f9b2c6c44ce080e30930eca12158c697a8fded7d8634f237e
+Description:  look utility displays any lines in file which contain string
+
+Package: losetup
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: losetup
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 41265
+Filename: losetup_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 42182
+SHA256sum: e6b9d53032729f5986910e4aecbeb8f5f814a892d5037b4f0de73f762f5151cd
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lsattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: lsattr
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 2732
+Filename: lsattr_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 3455
+SHA256sum: 36b2156ef672737dd0cecbd0f7f246ae820ac7758e1f47eb10324ae85b63beb8
+Description:  Ext2 Filesystem lsattr utility
+
+Package: lsblk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lsblk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 63126
+Filename: lsblk_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 64000
+SHA256sum: 61d5454d11095a4705fe5a4711997f42ca78670a02acd1303dd6bbe964b279e6
+Description:  lsblk lists information about all or the specified block devices
+
+Package: lscpu
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lscpu
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 44041
+Filename: lscpu_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 44863
+SHA256sum: 682b9cec52b25c58acbc089eb331e89c51a169a7feaebc9b72ff13aceb0f5b97
+Description:  lscpu displays information about the CPU architecture
+
+Package: lslocks
+Version: 2.37.4-1
+Depends: libc, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lslocks
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 14024
+Filename: lslocks_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 14843
+SHA256sum: 911141b76d43659849fc78887c0ffb9c797e134582604dd14a65f47d1aebafb4
+Description:  lslocks lists information about all the currently held file locks in a Linux system
+
+Package: lsns
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: lsns
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 17673
+Filename: lsns_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 18506
+SHA256sum: f8e1ce4227bb7d63f8ccbf33d21b7cb3059fa9b2004ccfbc0cd1bbef92692ab8
+Description:  lsns lists information about all namespaces and their processes
 
 Package: lua-examples
 Version: 5.1.5-10
@@ -1383,6 +2311,58 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
+Package: mcookie
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: mcookie
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 12371
+Filename: mcookie_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 13179
+SHA256sum: 9854109d8b95c3bb9f22c9b3a8bc61ddc7053162832802352910d2092d5dc3ae
+Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
+ authority system
+
+Package: more
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: more
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 19284
+Filename: more_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 20126
+SHA256sum: 18a1b9e0df1c219b461548c3c8f7603444e3f8e47eac2e0df81c32fbad097716
+Description:  more is a filter for paging through text one screenful at a time
+
+Package: mount-utils
+Version: 2.37.4-1
+Depends: libc, librt, libmount1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: mount-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 52590
+Filename: mount-utils_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 53427
+SHA256sum: df44510066112b023556a4850b4f46987a6cd2b0be80614f2fcf48a453f4bf5f
+Description:  contains: mount, umount, findmnt
+
 Package: musl-fts
 Version: 1.2.7-1
 Depends: libc, libpthread
@@ -1399,6 +2379,24 @@ Filename: musl-fts_1.2.7-1_aarch64_cortex-a72.ipk
 Size: 5803
 SHA256sum: 92e82fc6af78b35013950aa5a0ae7b567d4a4e1a5ff79881a7d1f5a203f59269
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: namei
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: namei
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 11065
+Filename: namei_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 11936
+SHA256sum: 5f8c3f546e351911a3bf16a671867bbd678523161ec835bc19a7253f91158d2c
+Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
+ files, directories, and so forth)
 
 Package: nftables-json
 Version: 1.0.2-2.1
@@ -1432,6 +2430,23 @@ Filename: nftables-nojson_1.0.2-2.1_aarch64_cortex-a72.ipk
 Size: 249496
 SHA256sum: 89d5b12c9aeef9a63f2b21dec7b1befcb69a36017ea97945ef8b4e7c7baff9c1
 Description:  nftables userspace utility no JSON support
+
+Package: nsenter
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: nsenter
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 11009
+Filename: nsenter_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 11848
+SHA256sum: 1ae67bceab700183133a051cec7771e2b21f2a9e1148f40c16bf7fd3c62b40ac
+Description:  run program with namespaces of other processes
 
 Package: nstat
 Version: 5.15.0-1
@@ -1489,6 +2504,41 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: partx-utils
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: partx-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 50742
+Filename: partx-utils_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 51554
+SHA256sum: 2c2227ba66bdcd0b40a2e13cd46d645a3de016c9a1fd9fb2969edeb7e08f080b
+Description:  contains partx, addpart, delpart
+
+Package: prlimit
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: prlimit
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 11973
+Filename: prlimit_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 12790
+SHA256sum: 87da0dd8c38f015222aa5e96b34790a0792944bb0684627ae2c4036cd49414f4
+Description:  Given a process id and one or more resources, prlimit tries to retrieve
+ and/or modify the limits.
+
 Package: rdma
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -1505,6 +2555,41 @@ Filename: rdma_5.15.0-1_aarch64_cortex-a72.ipk
 Size: 28217
 SHA256sum: ead563960ad9f5a3fcec988d38b7acf06566478beae7caaebd0ae958ca3eca26
 Description:  Network rdma utility
+
+Package: rename
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: rename
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 4554
+Filename: rename_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 5393
+SHA256sum: 3b41e6d512515b67ecf269c9b5c16f3aa7bcb66cc54455f1b3b76256e9df096e
+Description:  rename will rename the specified files by replacing the first occurrence of
+ expression in their name by replacement
+
+Package: resize2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: resize2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 23343
+Filename: resize2fs_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 24049
+SHA256sum: effb49f5aa545c18ffb18bfde13fece7baef3047808b07743ef49d0d7d49f0d4
+Description:  Ext2 Filesystem resize utility
 
 Package: resolveip
 Version: 2
@@ -1607,6 +2692,59 @@ SHA256sum: 077df5d3e951f17b2dcdbb51635005b400b5e5652a53cfff4617e2e4a618facb
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
+Package: script-utils
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: script-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 38868
+Filename: script-utils_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 39726
+SHA256sum: 97d95568d6b20d54f61d32882465e0ef15da95f52be309fd529ac745eaa9640c
+Description:  contains: script, scriptreplay
+
+Package: setterm
+Version: 2.37.4-1
+Depends: libc, libncurses6
+Source: feeds/base/package/utils/util-linux
+SourceName: setterm
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 14667
+Filename: setterm_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 15522
+SHA256sum: fea238485ff64d572e679a828474d59bdd9126c7576efafb1134c59c5a87ff00
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities
+
+Package: sfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libfdisk1, libsmartcols1, libncursesw6
+Source: feeds/base/package/utils/util-linux
+SourceName: sfdisk
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 52339
+Filename: sfdisk_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 53189
+SHA256sum: 4d05cbd3be3e77686e3725d9da4e2bbf26e5e58dca55bad5bcf1894be8763562
+Description:  list the size of a partition, list the partitions on a device, check the
+ partitions on a device and repartition a device
+
 Package: ss
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0, kmod-netlink-diag
@@ -1623,6 +2761,40 @@ Filename: ss_5.15.0-1_aarch64_cortex-a72.ipk
 Size: 44917
 SHA256sum: 1c1e882b7af55dd70648fe2b9198d6c2021bb44d7ce86aec5f938d37a0a845bc
 Description:  Socket statistics utility
+
+Package: swap-utils
+Version: 2.37.4-1
+Depends: libc, librt, libblkid1
+Source: feeds/base/package/utils/util-linux
+SourceName: swap-utils
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 44374
+Filename: swap-utils_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 45221
+SHA256sum: 19172747dc321f57644d2f08beea94f0bb35eaadc0386bcbfbd26b44d7cdf34a
+Description:  contains: mkswap, swaplabel
+
+Package: taskset
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: taskset
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 12705
+Filename: taskset_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 13462
+SHA256sum: f7fa8cf249fbba6fe597cedc6b3ae3dcd30a45b0bbb6863e9555c335af266f9a
+Description:  contains: taskset
 
 Package: tc-bpf
 Version: 5.15.0-1
@@ -1714,6 +2886,40 @@ Filename: terminfo_6.3-1_aarch64_cortex-a72.ipk
 Size: 8018
 SHA256sum: 6135348752fd81e3a474c610c76a782845ea06c70b9b1acf0e83a02f0ff26aa5
 Description:  Terminal Info Database (ncurses)
+
+Package: tune2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+Source: feeds/base/package/utils/e2fsprogs
+SourceName: tune2fs
+License: GPL-2.0
+LicenseFiles: NOTICE
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_cortex-a72
+Installed-Size: 38412
+Filename: tune2fs_1.46.5-2_aarch64_cortex-a72.ipk
+Size: 39234
+SHA256sum: 3aaa02018e8da25d7f6b196f4614be529761e22bcf69832b03af487c5da3d5b6
+Description:  Ext2 Filesystem tune utility
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+Source: feeds/base/package/system/ubox
+SourceName: ubox
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 16917
+Filename: ubox_2021-08-03-205defb5-2_aarch64_cortex-a72.ipk
+Size: 17700
+SHA256sum: 6ec697561bdf3ff9ae1392cf635d1392d00cbb751bf0d7ff499d5df422dde9a7
+Description:  OpenWrt system helper toolbox
 
 Package: ubus
 Version: 2022-06-01-2bebf93c-1
@@ -1927,6 +3133,23 @@ SHA256sum: 07be13db4a11077f99a2c77a24fc478838a510b0216c611d935ac2a26bd9338d
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: unshare
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: unshare
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 16309
+Filename: unshare_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 17115
+SHA256sum: a272077f1d825711a4e3e4d697bf4c8941660b5c34cfb41a2d417b41400ada0b
+Description:  run programs with some namespaces unshared from parent
+
 Package: usign
 Version: 2020-05-23-f1f65026-1
 Depends: libc, libubox20220515
@@ -1942,6 +3165,100 @@ Filename: usign_2020-05-23-f1f65026-1_aarch64_cortex-a72.ipk
 Size: 12598
 SHA256sum: 6b23c0f72e45ef7db5daee4a39ae4ba14242fc18e54f893557c851fb8f0cd610
 Description:  OpenWrt signature verification utility
+
+Package: uuidd
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: uuidd
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 13743
+Filename: uuidd_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 14682
+SHA256sum: 5ae2f37bae75323bc2e1eb8938cc01a908cf27bfc879c2d34347f6f8f4d0f6b5
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Source: feeds/base/package/utils/util-linux
+SourceName: uuidgen
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 3459
+Filename: uuidgen_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 4371
+SHA256sum: e45b0f997812b0809e6c77bea5412c051acd57a28399e1326d764a9f468b845a
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wall
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: wall
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 12009
+Filename: wall_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 12824
+SHA256sum: 6cd180397e66397d14fb5a10c5aa3f5d02373b64e1ef6f45071f40f664446d89
+Description:  wall sends a message to everybody logged in with their mesg permission
+ set to yes
+
+Package: whereis
+Version: 2.37.4-1
+Depends: libc, librt
+Source: feeds/base/package/utils/util-linux
+SourceName: whereis
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 9343
+Filename: whereis_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 10176
+SHA256sum: 19258eb9859fd1a1ed7b4fd6d6f5626b825abf10bb6b5aefa0d7f1b0befaad6b
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wipefs
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+Source: feeds/base/package/utils/util-linux
+SourceName: wipefs
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_cortex-a72
+Installed-Size: 15782
+Filename: wipefs_2.37.4-1_aarch64_cortex-a72.ipk
+Size: 16671
+SHA256sum: d736c5c63d78de03270f144274a7279176c42c8482e26acd67bea3e5d631f963
+Description:  wipefs can erase filesystem, raid or partition table signatures (magic
+ strings) from the specified device to make the signature invisible for
+ libblkid.
 
 Package: zlib-dev
 Version: 1.2.11-6

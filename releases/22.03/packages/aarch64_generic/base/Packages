@@ -1,3 +1,17 @@
+Package: agetty
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 22433
+Filename: agetty_2.37.4-1_aarch64_generic.ipk
+Size: 23242
+SHA256sum: 785e7f31f6e2961f4f9a6a62426f425bedbd2be4a54cddd69d286f827c00ea4b
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
 Package: ar
 Version: 2.37-2
 Depends: libc, zlib, libbfd
@@ -10,6 +24,19 @@ Filename: ar_2.37-2_aarch64_generic.ipk
 Size: 27105
 SHA256sum: b6c9d0190b9e290a7a9cbcd7f2bff676371a7ca372c3b2bfd877b33ea0763294
 Description:  ar
+
+Package: badblocks
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 9507
+Filename: badblocks_1.46.5-2_aarch64_generic.ipk
+Size: 10244
+SHA256sum: fbcb2f0f13948e22ba3212f0fb124ea160e5723df9e5948c573b5aab3f33f104
+Description:  Ext2 Filesystem badblocks utility
 
 Package: binutils
 Version: 2.37-2
@@ -24,6 +51,48 @@ Filename: binutils_2.37-2_aarch64_generic.ipk
 Size: 1082776
 SHA256sum: 7bba41bf12f0c0f63cc12dbfa16425be0d1c4805909a7bdb16fd36343926cbdd
 Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+
+Package: blkdiscard
+Version: 2.37.4-1
+Depends: libc, libblkid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 10229
+Filename: blkdiscard_2.37.4-1_aarch64_generic.ipk
+Size: 11141
+SHA256sum: 80bfaf285c98c74383c1d57f218f7926067ec243ad1916d36a123ea99a6d1196
+Description:  The blkdiscard is used to discard device sectors. This is useful for
+ solid-state drivers (SSDs) and thinly-provisioned storage. Unlike fstrim,
+ this command is used directly on the block device.
+
+Package: blkid
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 44575
+Filename: blkid_2.37.4-1_aarch64_generic.ipk
+Size: 45426
+SHA256sum: 6fa5de7248c3dd19e7729138ed0cfe210fb5fcb3f72279b8b92b230e55312124
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: blockdev
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 27257
+Filename: blockdev_2.37.4-1_aarch64_generic.ipk
+Size: 28105
+SHA256sum: aa293d2cc503df5819c19a461f2f95a8f9338e121cb6f6a7cff2a0b355457195
+Description:  The blockdev program is the command-line interface to call block device ioctls.
 
 Package: bpftool-full
 Version: 2022-03-08-04c465fd-1
@@ -93,6 +162,58 @@ Size: 123437
 SHA256sum: cdf2f284feeed51fa4d67fe8b9e671878c18c7a526dee796db93829b4bb0e178
 Description:  System CA certificates
 
+Package: cal
+Version: 2.37.4-1
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 24126
+Filename: cal_2.37.4-1_aarch64_generic.ipk
+Size: 24907
+SHA256sum: 58e435e4c883b0b7fcf3e90db862d82ad400660cf17ef81aa23e0e901c9504f0
+Description:  cal displays a simple calendar
+
+Package: cfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libncurses6, libsmartcols1, libfdisk1, libmount1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 37922
+Filename: cfdisk_2.37.4-1_aarch64_generic.ipk
+Size: 38789
+SHA256sum: 7ca37f24b937bdf476932ab2564e419379520b1d4eecdecf3fa86afff9f8843d
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 3231
+Filename: chattr_1.46.5-2_aarch64_generic.ipk
+Size: 3956
+SHA256sum: 3fb436d81fe86c8976086d42f9f284b78543eec2a8695442836d14f68433d687
+Description:  Ext2 Filesystem chattr utility
+
+Package: debugfs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 72607
+Filename: debugfs_1.46.5-2_aarch64_generic.ipk
+Size: 73390
+SHA256sum: a561d762efd7725bc8e4d1438f3202c1edb234acaabc20fbf3645ac58e9e8a00
+Description:  Ext2 Filesystem debugger
+
 Package: devlink
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -105,6 +226,19 @@ Filename: devlink_5.15.0-1_aarch64_generic.ipk
 Size: 44364
 SHA256sum: f5d9f49563d95ad65f2b2b566a6c8fcc96af9b948070598a0b5384252b89234b
 Description:  Network devlink utility
+
+Package: dmesg
+Version: 2.37.4-1
+Depends: libc, libncursesw6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 25406
+Filename: dmesg_2.37.4-1_aarch64_generic.ipk
+Size: 26175
+SHA256sum: 3bc867a83f48ffe782da61665c847c563adac576ab8cb05c53ded83141fabc50
+Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq-dhcpv6
 Version: 2.86-1
@@ -152,6 +286,113 @@ Size: 139624
 SHA256sum: 24a4e278f31de60747a715b4c988f22c5909f754f6620432dffd7f822cf898b4
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: dumpe2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 8692
+Filename: dumpe2fs_1.46.5-2_aarch64_generic.ipk
+Size: 9446
+SHA256sum: 8beb0163cf9043a820fa521a400b05ab553e41104ac33bd652dba8f8e8d5cdc7
+Description:  Ext2 Filesystem information dumping utility
+
+Package: e2freefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 3991
+Filename: e2freefrag_1.46.5-2_aarch64_generic.ipk
+Size: 4733
+SHA256sum: c01fd97ac5ca095f57d8a2a8909ced98f109faadf50c63b2a6bdf1e7440f16f7
+Description:  Ext2 Filesystem free space fragmentation information utility
+
+Package: e2fsprogs
+Version: 1.46.5-2
+Depends: libc, libuuid1, libext2fs2
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 194188
+Filename: e2fsprogs_1.46.5-2_aarch64_generic.ipk
+Size: 194976
+SHA256sum: d485acb7f613084250d6fd74f67399bdc674e061cd208efe60a8c716a6400bb7
+Description:  This package contains essential ext2 filesystem utilities which consists of
+ e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
+
+Package: e4crypt
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 7986
+Filename: e4crypt_1.46.5-2_aarch64_generic.ipk
+Size: 8742
+SHA256sum: af7a9df16a06fd4b6b57f9c46a7c7eaaa15a675e05e001825b51cc625b57b6a6
+Description:  Ext4 Filesystem encryption utility
+
+Package: eject
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 29122
+Filename: eject_2.37.4-1_aarch64_generic.ipk
+Size: 29981
+SHA256sum: e1642457ee36d93e303f5809aa0c3e06caaf750afc895ed454f3e44c82e6b265
+Description:  eject allows removable media (typically a CD-ROM, floppy disk, tape, or JAZ
+ or ZIP disk) to be ejected under software control.
+
+Package: fdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1, libfdisk1, libncursesw6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 55798
+Filename: fdisk_2.37.4-1_aarch64_generic.ipk
+Size: 56672
+SHA256sum: cb24e54870f1029a9e5f3a1b47b1269529a88624f44b16f4069e9ea1eb2bb179
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: filefrag
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 5733
+Filename: filefrag_1.46.5-2_aarch64_generic.ipk
+Size: 6464
+SHA256sum: 0bd4ee28f2d7c16bf094bc3d46e0353a73f3229c4d689d6a15dc15fe605340bc
+Description:  Ext2 Filesystem file fragmentation report utility
+
+Package: findfs
+Version: 2.37.4-1
+Depends: libc, libblkid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 2367
+Filename: findfs_2.37.4-1_aarch64_generic.ipk
+Size: 3205
+SHA256sum: e10be69ff35a4fdc00c54d63b4511da47825b46e9c8a8d7ac1606817de1ca9e3
+Description:  findfs will search the disks in the system looking for a filesystem which has
+ a label matching label or a UUID equal to uuid
+
 Package: firewall4
 Version: 2022-10-18-7ae5e14b-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
@@ -166,6 +407,35 @@ SHA256sum: 78476b0be85788f0a6b1274cc8d544f1e68987d0422f2816f3e8c1d3009770a1
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
+Package: flock
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 10845
+Filename: flock_2.37.4-1_aarch64_generic.ipk
+Size: 11719
+SHA256sum: 0d4517053e5d94d9b0af7a72e285583cc1197c71de2f10b7cf0faa0f7563a05e
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: fstrim
+Version: 2.37.4-1
+Depends: libc, libblkid1, libuuid1, libsmartcols1, libmount1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 26715
+Filename: fstrim_2.37.4-1_aarch64_generic.ipk
+Size: 27643
+SHA256sum: 056cc236892b32a3b2b813147456ee7dfe4b5839c2b918204e2256895b7f38ed
+Description:  fstrim is used on a mounted filesystem to discard (or "trim") blocks
+ which are not in use by the filesystem.  This is useful for solid-
+ state drives (SSDs) and thinly-provisioned storage.
+
 Package: genl
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0
@@ -178,6 +448,45 @@ Filename: genl_5.15.0-1_aarch64_generic.ipk
 Size: 9177
 SHA256sum: 25dc7aeaaba25ada19b860597054241077a1ae8dd702c3389696699f9b7669bf
 Description:  General netlink utility frontend
+
+Package: getopt
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 10337
+Filename: getopt_2.37.4-1_aarch64_generic.ipk
+Size: 11213
+SHA256sum: 67222d5752de132241855908de0928813d10e0e56de5cb37e3a33897d35e146b
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: getrandom
+Version: 2021-08-03-205defb5-2
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 1622
+Filename: getrandom_2021-08-03-205defb5-2_aarch64_generic.ipk
+Size: 2391
+SHA256sum: 9d72058da0a8229a4c71ab28ef65ec25769f700e6f5c772ae7ccf0ffeb303de6
+Description:  OpenWrt getrandom system helper
+
+Package: hwclock
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 34300
+Filename: hwclock_2.37.4-1_aarch64_generic.ipk
+Size: 35158
+SHA256sum: a967f2d114c022ba20cb0b5171af5fc3e64ed17442ac300ebeec4e3f7d84d10d
+Description:  hwclock is a tool for accessing the Hardware Clock
 
 Package: ip-bridge
 Version: 5.15.0-1
@@ -221,6 +530,22 @@ Filename: ip-tiny_5.15.0-1_aarch64_generic.ipk
 Size: 156849
 SHA256sum: 797c49b1e9ac1894ecf2dc8596ec370132e35846f5ea0c3f8fda1b574f377bef
 Description:  Routing control utility (minimal)
+
+Package: ipcs
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 24282
+Filename: ipcs_2.37.4-1_aarch64_generic.ipk
+Size: 25163
+SHA256sum: 5dbee7ae494bf1616db404014d0d7991cbc1a18c9327405634bb1b84ad591301
+Description:  ipcs shows information on the inter-process communication facilities for
+ which the calling process has read access. By default it shows information
+ about all three resources: shared memory segments, message queues, and
+ semaphore arrays.
 
 Package: ipset
 Version: 7.15-2
@@ -272,6 +597,18 @@ Size: 7486
 SHA256sum: f1342ef6f96b1352274b3b808c2e903cb3f34d3536a5ce6ec0f0419dd78ed17d
 Description:  Library for parsing and generating JSON from shell scripts
 
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20220515, libjson-c5
+License: ISC
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 10316
+Filename: jsonfilter_2018-02-04-c7e938d6-1_aarch64_generic.ipk
+Size: 11054
+SHA256sum: 5608ec2993b7431ed0bb52245797d19855198b862d04abd64a0ed13bd9e1575a
+Description:  OpenWrt JSON filter utility
+
 Package: libasm1
 Version: 0.186-1
 Depends: libc, libelf1, libdw1
@@ -299,6 +636,24 @@ Filename: libbfd_2.37-2_aarch64_generic.ipk
 Size: 454396
 SHA256sum: c2ce4e4fac10dd51084ba91ca527c6f3dd23d8ded2e758775312b955410e8426
 Description:  libbfd
+
+Package: libblkid1
+Version: 2.37.4-1
+Depends: libc, libuuid1
+Provides: libblkid
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 135029
+Filename: libblkid1_2.37.4-1_aarch64_generic.ipk
+Size: 135952
+SHA256sum: 7f3d70ed7d8abf8d4242c75018ae6de56f833c662888eb32b4a49359e54bc59e
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
 
 Package: libblobmsg-json20220515
 Version: 2022-05-15-d2223ef9-1
@@ -370,6 +725,22 @@ Size: 16775
 SHA256sum: 04a15350e774c72ee6b8c7495df0eb9aec2c85b5c2f897ffb7231a181750198c
 Description:  Linux capabilities library library
 
+Package: libcomerr0
+Version: 1.46.5-2
+Depends: libc, libuuid1
+Provides: libcomerr
+License: GPL-2.0
+Section: libs
+ABIVersion: 0
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 4207
+Filename: libcomerr0_1.46.5-2_aarch64_generic.ipk
+Size: 4995
+SHA256sum: 272eb2bd97c5ec7b8c34bb692f50c930fdcd4ac91b1bd7f7d1aa447a8ebd291e
+Description:  This package contains libcom_err, the common error description library
+ bundled with e2fsprogs.
+
 Package: libctf
 Version: 2.37-2
 Depends: libc, libbfd
@@ -413,6 +784,166 @@ Size: 41650
 SHA256sum: 8541abb04b8be28c09cc8a9420cc1ee30ad907a4eca82c1ffa3d98f51dad7c78
 Description:  ELF manipulation libraries (libelf)
 
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+License: BSD-3-Clause
+Section: libs
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_generic
+Installed-Size: 110547
+Filename: libevent2-7_2.1.12-1_aarch64_generic.ipk
+Size: 111627
+SHA256sum: ea4db768833a9444c2a9fbfc11570d98a15e4811d399e944371574e8ecd57204
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_generic
+Installed-Size: 64892
+Filename: libevent2-core7_2.1.12-1_aarch64_generic.ipk
+Size: 65931
+SHA256sum: 81403b318a3b67bd0a2c04155b143cdf12e67c11ee3fbefe416ee73380bbf7e5
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_generic
+Installed-Size: 50428
+Filename: libevent2-extra7_2.1.12-1_aarch64_generic.ipk
+Size: 51574
+SHA256sum: d34c8c390443179f6f522eb456577479f6813347548ff64f3b7f30d76bb8b43a
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl1.1, libevent2-core7
+Provides: libevent2-openssl
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_generic
+Installed-Size: 8349
+Filename: libevent2-openssl7_2.1.12-1_aarch64_generic.ipk
+Size: 9473
+SHA256sum: 75858f76ad58e5640a9138d8aeae3f82c0331a3ee8072e1ffd9642474862b633
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Architecture: aarch64_generic
+Installed-Size: 2040
+Filename: libevent2-pthreads7_2.1.12-1_aarch64_generic.ipk
+Size: 3112
+SHA256sum: c5162071813a6e37acf500deb2f33bd8c910c09836ce629fc3ccff4823fe9776
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libext2fs2
+Version: 1.46.5-2
+Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
+Provides: libext2fs
+License: GPL-2.0
+Section: libs
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 185723
+Filename: libext2fs2_1.46.5-2_aarch64_generic.ipk
+Size: 186217
+SHA256sum: 7f1ede896a2c42ce25d9458169799468edf41ae44aa3d1aa97f2914513bac765
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libfdisk1
+Version: 2.37.4-1
+Depends: libc, libuuid1, libblkid1
+Provides: libfdisk
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 165594
+Filename: libfdisk1_2.37.4-1_aarch64_generic.ipk
+Size: 166296
+SHA256sum: 1b61adb96bffab9f939a32745185eca78da9cd1e239c226c0525bf5c5ba8e792
+Description:  The libfdisk library is used for manipulating with partition tables.
+
 Package: libgmp10
 Version: 6.2.1-1
 Depends: libc
@@ -439,6 +970,21 @@ Filename: libiconv_8_aarch64_generic.ipk
 Size: 920
 SHA256sum: f2df0ceb4879e3b056dfdbc8af909b347b2532b31c813085c94f09d251c32c9b
 Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libintl-full8
+Version: 0.21-2
+Depends: libc
+Provides: libintl-full
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:gettext
+Architecture: aarch64_generic
+Installed-Size: 17426
+Filename: libintl-full8_0.21-2_aarch64_generic.ipk
+Size: 18242
+SHA256sum: 8989809276d07e63f5257245ac7e3a1e4788c3adf3e1d7af718c1e557bfbf1f8
+Description:  GNU Internationalization library
 
 Package: libipset13
 Version: 7.15-2
@@ -620,6 +1166,22 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  * Decoupling: the interdependency of the main bricks that compose the library
  is reduced, i.e. the library provides many helpers, but the programmer is not
  forced to use them.
+
+Package: libmount1
+Version: 2.37.4-1
+Depends: libc, libblkid1
+Provides: libmount
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 147212
+Filename: libmount1_2.37.4-1_aarch64_generic.ipk
+Size: 148050
+SHA256sum: 535c859be432730315d029946bb24efc44e3389464e4adc4ebd9bc83058a743d
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
 Package: libncurses-dev
 Version: 6.3-1
@@ -883,6 +1445,37 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
+Package: libsmartcols1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libsmartcols
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 90450
+Filename: libsmartcols1_2.37.4-1_aarch64_generic.ipk
+Size: 91360
+SHA256sum: 2ca85262b18b11ae64c64bc5748f0bc082821b212ae243296dabdb7b3b76acc7
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libss2
+Version: 1.46.5-2
+Depends: libc, libcomerr0
+Provides: libss
+License: GPL-2.0
+Section: libs
+ABIVersion: 2
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 9239
+Filename: libss2_1.46.5-2_aarch64_generic.ipk
+Size: 10057
+SHA256sum: 0aa60d6769a7cc57eea9f9b4d5b3694bb993378f2566d4a2d70b151e88199efe
+Description:  This pacakge contains libss, a command-line interface parsing library
+ bundled with e2fsprogs.
+
 Package: libubox-lua
 Version: 2022-05-15-d2223ef9-1
 Depends: libc, libubox20220515, liblua5.1.5
@@ -975,6 +1568,143 @@ Size: 76070
 SHA256sum: ed22c2c36578cba1b203832c5ec3d9f1271466b8849c89488b6d77453b9447a6
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
+Package: libuuid1
+Version: 2.37.4-1
+Depends: libc, librt
+Provides: libuuid
+License: GPL-2.0-only
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 12638
+Filename: libuuid1_2.37.4-1_aarch64_generic.ipk
+Size: 13625
+SHA256sum: 5a3121c84929b2a3724448f197921e5a743ce49a740e49539e0d0e2cb90a8719
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logd
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, libubus20220601, libblobmsg-json20220515
+License: GPL-2.0
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 11086
+Filename: logd_2021-08-03-205defb5-2_aarch64_generic.ipk
+Size: 11580
+SHA256sum: 33859226644b224bc173e22cecbab030d5df194744e05ca60a67a45ceed2e58c
+Description:  OpenWrt system log implementation
+
+Package: logger
+Version: 2.37.4-1
+Depends: libc, librt
+Alternatives: 200:/usr/bin/logger:/usr/bin/util-linux-logger
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 17467
+Filename: logger_2.37.4-1_aarch64_generic.ipk
+Size: 18354
+SHA256sum: ab774f6c1561402530071a3ccc6b97df9c3e24dc7980bdcbc2eec0e545181888
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: look
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 3695
+Filename: look_2.37.4-1_aarch64_generic.ipk
+Size: 4494
+SHA256sum: a037402f4539deac1b2208386a188c1642d04e5c2a887966f814d345d18e84bc
+Description:  look utility displays any lines in file which contain string
+
+Package: losetup
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 41265
+Filename: losetup_2.37.4-1_aarch64_generic.ipk
+Size: 42175
+SHA256sum: 32c9c05265c5460630958083a64b42b32cb2eb0d9a637183617ee279edcd481a
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lsattr
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 2732
+Filename: lsattr_1.46.5-2_aarch64_generic.ipk
+Size: 3456
+SHA256sum: 063fd2a601b165305e48fb9122e5f4fc48c5aea7fdc033aaadac7697f90d8cb4
+Description:  Ext2 Filesystem lsattr utility
+
+Package: lsblk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 63126
+Filename: lsblk_2.37.4-1_aarch64_generic.ipk
+Size: 63999
+SHA256sum: a3c6d9e3dd643f49d7398d9b7508203cc328042fab8d2b7aafa83cdfaf468d70
+Description:  lsblk lists information about all or the specified block devices
+
+Package: lscpu
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 44041
+Filename: lscpu_2.37.4-1_aarch64_generic.ipk
+Size: 44858
+SHA256sum: 730c60fa08a7c57fb84fb28acbedae849401070d4b4dc54b82ab4a134439f648
+Description:  lscpu displays information about the CPU architecture
+
+Package: lslocks
+Version: 2.37.4-1
+Depends: libc, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 14024
+Filename: lslocks_2.37.4-1_aarch64_generic.ipk
+Size: 14844
+SHA256sum: 34ff92e6ce6496a9aaa312bbce4b0213065fccc04c9d57f785085b75de509616
+Description:  lslocks lists information about all the currently held file locks in a Linux system
+
+Package: lsns
+Version: 2.37.4-1
+Depends: libc, libblkid1, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 17673
+Filename: lsns_2.37.4-1_aarch64_generic.ipk
+Size: 18506
+SHA256sum: 7eab360c6698088a34fff91927f59d3932046e654dd96c81ecd6316313d9fffa
+Description:  lsns lists information about all namespaces and their processes
+
 Package: lua-examples
 Version: 5.1.5-10
 Depends: libc, lua
@@ -1066,6 +1796,46 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
+Package: mcookie
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 12371
+Filename: mcookie_2.37.4-1_aarch64_generic.ipk
+Size: 13171
+SHA256sum: d81bd8feb4a914467ecf0e8243be915f4c81586df0197bf6ad21368ac0db58e4
+Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
+ authority system
+
+Package: more
+Version: 2.37.4-1
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 19284
+Filename: more_2.37.4-1_aarch64_generic.ipk
+Size: 20126
+SHA256sum: 0cab05f831716549105e29f9c61d1acf5aa4a82414b54f08bf3ba3f0df902ad5
+Description:  more is a filter for paging through text one screenful at a time
+
+Package: mount-utils
+Version: 2.37.4-1
+Depends: libc, librt, libmount1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 52590
+Filename: mount-utils_2.37.4-1_aarch64_generic.ipk
+Size: 53423
+SHA256sum: 2dad3f58dc87d492572075a3bd91a009d13eda04fb58d9d312801a19f5b47bd0
+Description:  contains: mount, umount, findmnt
+
 Package: musl-fts
 Version: 1.2.7-1
 Depends: libc, libpthread
@@ -1077,6 +1847,20 @@ Filename: musl-fts_1.2.7-1_aarch64_generic.ipk
 Size: 5794
 SHA256sum: bacb2fe036f089a3cd8afae49c4b90af6ef8cd9f9611b8472d4c9b1216646b77
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: namei
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 11065
+Filename: namei_2.37.4-1_aarch64_generic.ipk
+Size: 11934
+SHA256sum: 5ecec8a5215c902a534f177a402a85c7eb2caa9344dc6054882a75fb3e0d55f2
+Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
+ files, directories, and so forth)
 
 Package: nftables-json
 Version: 1.0.2-2.1
@@ -1104,6 +1888,19 @@ Filename: nftables-nojson_1.0.2-2.1_aarch64_generic.ipk
 Size: 249492
 SHA256sum: 85fb7ee76c9e67e65ec87215e5107f56ecb25a4a8bd820ea23570c79b51c02dc
 Description:  nftables userspace utility no JSON support
+
+Package: nsenter
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 11009
+Filename: nsenter_2.37.4-1_aarch64_generic.ipk
+Size: 11848
+SHA256sum: e71cc59c85002da0cd257c571d0fcff796201b4e55f247d997e55695b575b8ec
+Description:  run program with namespaces of other processes
 
 Package: nstat
 Version: 5.15.0-1
@@ -1148,6 +1945,33 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: partx-utils
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 50742
+Filename: partx-utils_2.37.4-1_aarch64_generic.ipk
+Size: 51558
+SHA256sum: b6f3a5c856b1fb244e69a9fba36f757d250dcf3992956414a9ac79cfc3a72abd
+Description:  contains partx, addpart, delpart
+
+Package: prlimit
+Version: 2.37.4-1
+Depends: libc, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 11973
+Filename: prlimit_2.37.4-1_aarch64_generic.ipk
+Size: 12789
+SHA256sum: b4a2ef9f24a81a72dad70f459a3865d4a2412204ad700f9829035719f421acdc
+Description:  Given a process id and one or more resources, prlimit tries to retrieve
+ and/or modify the limits.
+
 Package: rdma
 Version: 5.15.0-1
 Depends: libc, libmnl0
@@ -1160,6 +1984,33 @@ Filename: rdma_5.15.0-1_aarch64_generic.ipk
 Size: 28213
 SHA256sum: 6e19183def3e79731ea0c57f6ab7b600114c71038c556ace58b27edd6ca23528
 Description:  Network rdma utility
+
+Package: rename
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 4554
+Filename: rename_2.37.4-1_aarch64_generic.ipk
+Size: 5393
+SHA256sum: 4a92f7106a43dd70a36b7c8f7529acb1ddb87525e8a96acbc90d6aee53777621
+Description:  rename will rename the specified files by replacing the first occurrence of
+ expression in their name by replacement
+
+Package: resize2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 23343
+Filename: resize2fs_1.46.5-2_aarch64_generic.ipk
+Size: 24044
+SHA256sum: 2e495e7e418319db28babd8400c0a1e917cabae9b3cf152ff544254670cd367f
+Description:  Ext2 Filesystem resize utility
 
 Package: resolveip
 Version: 2
@@ -1238,6 +2089,47 @@ SHA256sum: 64417bbcc4d8bb2850cf857bd0116eaddbaf94220a26db743413107d1875e471
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
+Package: script-utils
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 38868
+Filename: script-utils_2.37.4-1_aarch64_generic.ipk
+Size: 39725
+SHA256sum: b3adb2fcf1c1fb17bff75ae498b61d732bd5beab3f3c2e3f28de26a4aaa6d2c5
+Description:  contains: script, scriptreplay
+
+Package: setterm
+Version: 2.37.4-1
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 14667
+Filename: setterm_2.37.4-1_aarch64_generic.ipk
+Size: 15521
+SHA256sum: bbacf63a81ee72eb19d7030770ef8473339f17b8e9ec10657bbc1f161a30fad6
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities
+
+Package: sfdisk
+Version: 2.37.4-1
+Depends: libc, libblkid1, libfdisk1, libsmartcols1, libncursesw6
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 52339
+Filename: sfdisk_2.37.4-1_aarch64_generic.ipk
+Size: 53184
+SHA256sum: 17432c711854d6d48916797a9956fe6f305b507d4c36844e6d65c5885ed31cea
+Description:  list the size of a partition, list the partitions on a device, check the
+ partitions on a device and repartition a device
+
 Package: ss
 Version: 5.15.0-1
 Depends: libc, libnl-tiny1, libmnl0, kmod-netlink-diag
@@ -1250,6 +2142,32 @@ Filename: ss_5.15.0-1_aarch64_generic.ipk
 Size: 44912
 SHA256sum: 4b9023fd7012c001db841986dec3fd843a0c8d3c84a1f304a94f6a6b2b3b9ec1
 Description:  Socket statistics utility
+
+Package: swap-utils
+Version: 2.37.4-1
+Depends: libc, librt, libblkid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 44374
+Filename: swap-utils_2.37.4-1_aarch64_generic.ipk
+Size: 45218
+SHA256sum: 8903e7374dcfc39c9e00f1bfe1199d7ac849a5e78fed65e03cf2710f341d692e
+Description:  contains: mkswap, swaplabel
+
+Package: taskset
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 12705
+Filename: taskset_2.37.4-1_aarch64_generic.ipk
+Size: 13454
+SHA256sum: cb11f5ed94581f14c5d3c1904863501356dacb7ae6466f1aa3047c0cabed3f2d
+Description:  contains: taskset
 
 Package: tc-bpf
 Version: 5.15.0-1
@@ -1321,6 +2239,32 @@ Filename: terminfo_6.3-1_aarch64_generic.ipk
 Size: 8019
 SHA256sum: 484bd8e938d80272c388eec0c295cc1c8366e83f4a3e115628b2691c14fb086d
 Description:  Terminal Info Database (ncurses)
+
+Package: tune2fs
+Version: 1.46.5-2
+Depends: libc, e2fsprogs
+License: GPL-2.0
+Section: utils
+CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
+Architecture: aarch64_generic
+Installed-Size: 38412
+Filename: tune2fs_1.46.5-2_aarch64_generic.ipk
+Size: 39230
+SHA256sum: 949225018f7dbc7a1f6eeeb5a11e090e3a18f1a16c18f9f66fe9d48bbd86f191
+Description:  Ext2 Filesystem tune utility
+
+Package: ubox
+Version: 2021-08-03-205defb5-2
+Depends: libc, libubox20220515, ubusd, ubus, libubus20220601, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+License: GPL-2.0
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 16917
+Filename: ubox_2021-08-03-205defb5-2_aarch64_generic.ipk
+Size: 17695
+SHA256sum: d0f2762a56cf0914087e119dc79c2c93f2dc3e981c02e0638f502cf1a3484de3
+Description:  OpenWrt system helper toolbox
 
 Package: ubus
 Version: 2022-06-01-2bebf93c-1
@@ -1481,6 +2425,19 @@ SHA256sum: 4b315329612f15de8b50271f60d8ed89ef3dd62a8476b07440b3721252be9f9a
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: unshare
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 16309
+Filename: unshare_2.37.4-1_aarch64_generic.ipk
+Size: 17111
+SHA256sum: 7af166dbd7dd22136ae7ecaf86e868a3756c6f37fa968d111782e621e69f5062
+Description:  run programs with some namespaces unshared from parent
+
 Package: usign
 Version: 2020-05-23-f1f65026-1
 Depends: libc, libubox20220515
@@ -1492,6 +2449,80 @@ Filename: usign_2020-05-23-f1f65026-1_aarch64_generic.ipk
 Size: 12592
 SHA256sum: eb266ccbb846f6b1e1cffdb16057708feb3851acc018c45bed29670068ceb31e
 Description:  OpenWrt signature verification utility
+
+Package: uuidd
+Version: 2.37.4-1
+Depends: libc, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 13743
+Filename: uuidd_2.37.4-1_aarch64_generic.ipk
+Size: 14672
+SHA256sum: 18ef5d50ee6c5b8ea79af54cc0d9ce287aa1b235f6df73ffae59ea46f64ca2a7
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.37.4-1
+Depends: libc, libuuid1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 3459
+Filename: uuidgen_2.37.4-1_aarch64_generic.ipk
+Size: 4367
+SHA256sum: 42aee976aded50b8ba769e6b1abd22623d943829b372bfea48c0da35fbac8e6c
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wall
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 12009
+Filename: wall_2.37.4-1_aarch64_generic.ipk
+Size: 12819
+SHA256sum: 6a720db5acd65142f16cf45243ad57a1471c2374228f55099cfd347cd257bf27
+Description:  wall sends a message to everybody logged in with their mesg permission
+ set to yes
+
+Package: whereis
+Version: 2.37.4-1
+Depends: libc, librt
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 9343
+Filename: whereis_2.37.4-1_aarch64_generic.ipk
+Size: 10173
+SHA256sum: 9501054ccfac132da2b37b5c834a9a279331c33834704887aae395244ab071a6
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wipefs
+Version: 2.37.4-1
+Depends: libc, libblkid1, libsmartcols1
+License: GPL-2.0-only
+Section: utils
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: aarch64_generic
+Installed-Size: 15782
+Filename: wipefs_2.37.4-1_aarch64_generic.ipk
+Size: 16667
+SHA256sum: 38c7121d5cd1a158515217a157c0664f7e48266eb31288049586911d5a20346c
+Description:  wipefs can erase filesystem, raid or partition table signatures (magic
+ strings) from the specified device to make the signature invisible for
+ libblkid.
 
 Package: zlib-dev
 Version: 1.2.11-6

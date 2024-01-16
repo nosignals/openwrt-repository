@@ -19,6 +19,363 @@ Description:  Access control list support
  - getfacl
  - setfacl
 
+Package: apache-ab
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-ab
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 18513
+Filename: apache-ab_2.4.52-1_aarch64_generic.ipk
+Size: 19419
+SHA256sum: 53a7c75a7bd262536e9e1c58adbd17384308ef2711cbf7acf7465cfa7a29e6d7
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache server benchmarking utility.
+ 
+
+Package: apache-error
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-error
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 39450
+Filename: apache-error_2.4.52-1_aarch64_generic.ipk
+Size: 40495
+SHA256sum: 46832feef379af6a6f9fa0c69a3eed06b92eccd1e2f5629997c799ca4689fb5e
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache multi language custom error documents.
+ 
+
+Package: apache-icons
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-icons
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 140379
+Filename: apache-icons_2.4.52-1_aarch64_generic.ipk
+Size: 140915
+SHA256sum: d833179c490bc698f00f3b2ed6daaedbec2265559266b8e89c5088b5d4869686
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the icons from Apache.
+ 
+
+Package: apache-mod-deflate
+Version: 2.4.52-1
+Depends: libc, apache, zlib
+Source: feeds/packages/net/apache
+SourceName: apache-mod-deflate
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 11488
+Filename: apache-mod-deflate_2.4.52-1_aarch64_generic.ipk
+Size: 12266
+SHA256sum: c410fd29844b0100a26a17d893051096a2537903a9f886c023dd20c2e3ff0eaf
+Description:  Deflate support for the Apache HTTP server.
+
+Package: apache-mod-http2
+Version: 2.4.52-1
+Depends: libc, apache, libnghttp2-14, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-mod-http2
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 92653
+Filename: apache-mod-http2_2.4.52-1_aarch64_generic.ipk
+Size: 93473
+SHA256sum: 4c7dbee11fc43c9660a3233331998f6887b6d0476b4c01f78c1690fda1d3f0c1
+Description:  HTTP/2 transport layer for the Apache HTTP Server.
+
+Package: apache-mod-ldap
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-ldap
+Source: feeds/packages/net/apache
+SourceName: apache-mod-ldap
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 40733
+Filename: apache-mod-ldap_2.4.52-1_aarch64_generic.ipk
+Size: 41644
+SHA256sum: 0ca6dcd29cc8e29600c8a366012a4a27282408e079e31466a8ff25c88704d8ef
+Description:  LDAP authentication/authorization module for the Apache HTTP Server.
+
+Package: apache-mod-lua
+Version: 2.4.52-1
+Depends: libc, apache, liblua5.1.5
+Source: feeds/packages/net/apache
+SourceName: apache-mod-lua
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 43560
+Filename: apache-mod-lua_2.4.52-1_aarch64_generic.ipk
+Size: 44373
+SHA256sum: 4ead952d3f51671c844ede8dfba830b217494e22bfeaca5c334131c328eea70c
+Description:  Lua support for the Apache HTTP server.
+
+Package: apache-mod-md
+Version: 2.4.52-1
+Depends: libc, apache, libcurl4, jansson4, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-mod-md
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 128569
+Filename: apache-mod-md_2.4.52-1_aarch64_generic.ipk
+Size: 129041
+SHA256sum: e02f808fc61aa6e5789e209547d557b75583410873d4ef52b6fc2fc269dc2a7d
+Description:  Managed Domain handling.
+
+Package: apache-mod-php8
+Version: 8.1.18-1
+Depends: libc, php8, apache, libstdcpp6, libpcre2, zlib
+Source: feeds/packages/lang/php8
+SourceName: apache-mod-php8
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 1624818
+Filename: apache-mod-php8_8.1.18-1_aarch64_generic.ipk
+Size: 1611817
+SHA256sum: c072f4cdfc99d8899e937e49d30ebae90b0e8dd4abdacf9720815c6e05540d16
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the PHP module for the Apache Web Server.
+
+Package: apache-mod-proxy-html
+Version: 2.4.52-1
+Depends: libc, apache, apache-mod-proxy, libxml2
+Source: feeds/packages/net/apache
+SourceName: apache-mod-proxy-html
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 18637
+Filename: apache-mod-proxy-html_2.4.52-1_aarch64_generic.ipk
+Size: 19435
+SHA256sum: c38d0ba9e69ef0aea6860d588a025e50758f37105392be0f873c6f94e97c72e9
+Description:  HTML and XML content filters for the Apache HTTP Server.
+
+Package: apache-mod-proxy
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-mod-proxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 167927
+Filename: apache-mod-proxy_2.4.52-1_aarch64_generic.ipk
+Size: 168555
+SHA256sum: 5694b0ab8198b192ae880904d9a9b589fd9cd16666e5ccf3adfc905adecf7bd9
+Description:  Proxy modules for the Apache HTTP Server.
+
+Package: apache-mod-session-crypto
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-crypto-openssl
+Source: feeds/packages/net/apache
+SourceName: apache-mod-session-crypto
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 6730
+Filename: apache-mod-session-crypto_2.4.52-1_aarch64_generic.ipk
+Size: 7585
+SHA256sum: a1c7b90f1729b91b49c74a9ed4bae83b7763be0559cd53d9bb6d46d8c3ad8283
+Description:  Session encryption support for the Apache HTTP Server.
+
+Package: apache-mod-ssl
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-mod-ssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 87320
+Filename: apache-mod-ssl_2.4.52-1_aarch64_generic.ipk
+Size: 88013
+SHA256sum: 17317871ecf4b5681420178b153585470601de333d33bee654623552e76b16ce
+Description:  SSL/TLS module for the Apache HTTP Server.
+
+Package: apache-mod-suexec
+Version: 2.4.52-1
+Depends: libc, apache, apache-suexec
+Source: feeds/packages/net/apache
+SourceName: apache-mod-suexec
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 1975
+Filename: apache-mod-suexec_2.4.52-1_aarch64_generic.ipk
+Size: 2746
+SHA256sum: 0f5b7b7f3bf0dee87bb4b7327fde0ea7b1b3c50aea766e2478d3546aa3096390
+Description:  suEXEC module for the Apache HTTP Server.
+
+Package: apache-mod-webdav
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-mod-webdav
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 66443
+Filename: apache-mod-webdav_2.4.52-1_aarch64_generic.ipk
+Size: 67316
+SHA256sum: ec710b23218dbe8ca376fac15a5182879c025d0794bff6bdf5f9e2b66f1c67c6
+Description:  WebDAV support for the Apache HTTP Server.
+
+Package: apache-suexec
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-suexec
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 4774
+Filename: apache-suexec_2.4.52-1_aarch64_generic.ipk
+Size: 5682
+SHA256sum: 829e019d211b01410614ce3c79b88ef78152d913352e9dbd6e52ddd22a2284e0
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the suEXEC utility from Apache.
+ 
+
+Package: apache-utils
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-utils
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 17663
+Filename: apache-utils_2.4.52-1_aarch64_generic.ipk
+Size: 18397
+SHA256sum: 967c884daffeed571b22b64ff8f1361a9064ee6e01977a805ef02ebb0315b6d7
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache utility programs for webservers.
+ 
+
+Package: apache
+Version: 2.4.52-1
+Depends: libc, libapr, libaprutil, libpcre
+Source: feeds/packages/net/apache
+SourceName: apache
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: apache=377:apache=377
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 781149
+Filename: apache_2.4.52-1_aarch64_generic.ipk
+Size: 777894
+SHA256sum: 2aae578c40bdcfbd9abb24bf211c5f091d6a0243466d4e9f318bfa6cd33cc911
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the Apache web server and utility programs.
+ 
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -59,6 +416,29 @@ SHA256sum: d7021e7e1d8e33d8f466a403cecd7f9ac77fc89312985344e1f0d1828f9e8dec
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: certtool
+Version: 3.7.1-2
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+SourceName: certtool
+License: LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 135701
+Filename: certtool_3.7.1-2_aarch64_generic.ipk
+Size: 136382
+SHA256sum: 33dd367ab959775e9c3bda4386e5a51898b8f5591466991d956a38ac0e08771b
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
 
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
@@ -2091,6 +2471,30 @@ Size: 60620
 SHA256sum: 24d3b86345506d2803c54589126d7c3b1e5d6030d0b9d75ac7171a270f890ab4
 Description:  A client-side URL transfer utility
 
+Package: gnutls-utils
+Version: 3.7.1-2
+Depends: libc, libgnutls, libgnutls-dane
+Source: feeds/packages/libs/gnutls
+SourceName: gnutls-utils
+License: LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 270271
+Filename: gnutls-utils_3.7.1-2_aarch64_generic.ipk
+Size: 270700
+SHA256sum: 88d158565dd3571626f280ba40cbb9d5b2a35ca30c59d09e288aa4e3ee110a54
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
 Package: halog
 Version: 2.4.22-1
 Depends: libc, haproxy
@@ -2148,6 +2552,159 @@ SHA256sum: 5a239bafe871a051a6d53016f2f42575aaa00e0a5db9353d074816a58569834c
 Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
  This package is built with SSL and LUA support.
 
+Package: icu-data-tools
+Version: 71.1-1
+Depends: libc, icu71
+Source: feeds/packages/libs/icu
+SourceName: icu-data-tools
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1653073818
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 172365
+Filename: icu-data-tools_71.1-1_aarch64_generic.ipk
+Size: 172388
+SHA256sum: 6e252049c2f8af12beac59bbdb4a1b76ccb7370cf1e54ec865124bede8d0d82c
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data71
+Version: 71.1-1
+Depends: libc, icu71
+Provides: icu-full-data
+Source: feeds/packages/libs/icu
+SourceName: icu-full-data
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1653073818
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 11986652
+Filename: icu-full-data71_71.1-1_aarch64_generic.ipk
+Size: 11831839
+SHA256sum: 0f33304d09d9ff9b4c3c860bc83c766b20c188194fc935090f2907cd05c7c2ad
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu71
+Version: 71.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+Source: feeds/packages/libs/icu
+SourceName: icu
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1653073818
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 2060829
+Filename: icu71_71.1-1_aarch64_generic.ipk
+Size: 2053444
+SHA256sum: 26e9fb736592c5ea5b2ab06d6a58799ec84977df21c33943ac8ea4de8e85de41
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: kmod
+Version: 27-2
+Depends: libc, zlib
+Alternatives: 200:/sbin/depmod:/sbin/kmod, 200:/sbin/insmod:/sbin/kmod, 200:/sbin/lsmod:/sbin/kmod, 200:/sbin/modinfo:/sbin/kmod, 200:/sbin/modprobe:/sbin/kmod, 200:/sbin/rmmod:/sbin/kmod
+Source: feeds/packages/utils/kmod
+SourceName: kmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1607593828
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: aarch64_generic
+Installed-Size: 61389
+Filename: kmod_27-2_aarch64_generic.ipk
+Size: 62331
+SHA256sum: da5c447e59624c1fe7ffa59126207f6334ade0ab00567b15af0d394ddb513c2d
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: krb5-client
+Version: 1.19.2-2
+Depends: libc, krb5-libs
+Source: feeds/packages/net/krb5
+SourceName: krb5-client
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 40480
+Filename: krb5-client_1.19.2-2_aarch64_generic.ipk
+Size: 40638
+SHA256sum: 27411c1412142836f76295899e4751034624364de27ddbb0712ab41e942cb646
+Description:  Kerberos 5 Client
+
+Package: krb5-libs
+Version: 1.19.2-2
+Depends: libc, libncurses6, libss2, libcomerr0
+Source: feeds/packages/net/krb5
+SourceName: krb5-libs
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 743404
+Filename: krb5-libs_1.19.2-2_aarch64_generic.ipk
+Size: 735113
+SHA256sum: be1f3c2976f364adaf0fb24dd44dfbab57dc099cccb5aa5c49c23035e0db1372
+Description:  Kerberos 5 Shared Libraries
+
+Package: krb5-server-extras
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+Source: feeds/packages/net/krb5
+SourceName: krb5-server-extras
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 51400
+Filename: krb5-server-extras_1.19.2-2_aarch64_generic.ipk
+Size: 51674
+SHA256sum: 168d730433d6a2d96f205c9aedf7c9eb16828ed451efec4a15cec1474efbda2d
+Description:  Kerberos 5 Admin Server
+
+Package: krb5-server
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+Source: feeds/packages/net/krb5
+SourceName: krb5-server
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 110477
+Filename: krb5-server_1.19.2-2_aarch64_generic.ipk
+Size: 110708
+SHA256sum: b9bc319b59db04a07c43c5b9a0802cceaffa10d56f8e7ec4a2dd5fafce2a0ad2
+Description:  Kerberos 5 Server
+
 Package: libacl
 Version: 2.3.1-1
 Depends: libc, libattr
@@ -2165,6 +2722,168 @@ Size: 13160
 SHA256sum: 4ae8a9d603bad4ccf8715ec02779a0e716b1e96f72cee4fef48acd4baf7e2101
 Description:  Access control list support
  This package provides libacl
+
+Package: libapr
+Version: 1.7.0-3
+Depends: libc, libpthread, librt, libuuid1
+Source: feeds/packages/libs/apr
+SourceName: libapr
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1629725903
+CPE-ID: cpe:/a:apache:apr
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 93879
+Filename: libapr_1.7.0-3_aarch64_generic.ipk
+Size: 94567
+SHA256sum: d856802779731a56069732e7846d4648b0d9114c670279aba0b6b1cb596b4cd0
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil-crypto-openssl
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenssl1.1
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-crypto-openssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 4330
+Filename: libaprutil-crypto-openssl_1.6.1-7_aarch64_generic.ipk
+Size: 5107
+SHA256sum: edd080119bb7c9e645159e2cf75adb2cea891f9d24bc0473445290d7a73c5987
+Description:  libaprutil - OpenSSL driver
+
+Package: libaprutil-dbd-mysql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libmariadb3
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-mysql
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 7413
+Filename: libaprutil-dbd-mysql_1.6.1-7_aarch64_generic.ipk
+Size: 8211
+SHA256sum: 358b81ddbe7aa42e81ddd0f7f3f9b39113b0d6a36c922189f23b98ad89111046
+Description:  libaprutil - MySQL driver
+
+Package: libaprutil-dbd-odbc
+Version: 1.6.1-7
+Depends: libc, libaprutil, unixodbc
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-odbc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 11191
+Filename: libaprutil-dbd-odbc_1.6.1-7_aarch64_generic.ipk
+Size: 11959
+SHA256sum: a5ee7bd70632295692e8effa4a64e18792d5910100fac754461832764c3abb21
+Description:  libaprutil - ODBC driver
+
+Package: libaprutil-dbd-pgsql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libpq
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-pgsql
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 7152
+Filename: libaprutil-dbd-pgsql_1.6.1-7_aarch64_generic.ipk
+Size: 7955
+SHA256sum: 5c9d2a454a7a7a7949d1f35c068b7fb1b56912575c6fc4367ad66a0713ab7c9c
+Description:  libaprutil - PostgreSQL driver
+
+Package: libaprutil-dbd-sqlite3
+Version: 1.6.1-7
+Depends: libc, libaprutil, libsqlite3-0
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-sqlite3
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 5368
+Filename: libaprutil-dbd-sqlite3_1.6.1-7_aarch64_generic.ipk
+Size: 6111
+SHA256sum: 2e3504d048d7d28236ba95959340f834700391d72a5427e7ae91ba05a9372486
+Description:  libaprutil - SQLite3 driver
+
+Package: libaprutil-dbm-gdbm
+Version: 1.6.1-7
+Depends: libc, libaprutil, libgdbm
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbm-gdbm
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 2197
+Filename: libaprutil-dbm-gdbm_1.6.1-7_aarch64_generic.ipk
+Size: 2958
+SHA256sum: 0ce470820752a8836c17a82111d3c0178252a7cc805eec0efe0f269e83d5ba48
+Description:  libaprutil - GDBM dbm driver
+
+Package: libaprutil-ldap
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenldap
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-ldap
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 3415
+Filename: libaprutil-ldap_1.6.1-7_aarch64_generic.ipk
+Size: 4178
+SHA256sum: 54a74d75608b9e1656ef1b546e2522a94a55e6747a54666a772880ebdb279150
+Description:  libaprutil - LDAP driver
+
+Package: libaprutil
+Version: 1.6.1-7
+Depends: libc, libapr, libexpat, libuuid1
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 78978
+Filename: libaprutil_1.6.1-7_aarch64_generic.ipk
+Size: 79750
+SHA256sum: 2cd6de79d7167b6d12e0d6d05d6b21c56ca38756ab6e04c78b505cfb4ac5f569
+Description:  Apache Portable Runtime Utility Library
 
 Package: libattr
 Version: 2.5.1-1
@@ -2262,6 +2981,22 @@ Size: 585916
 SHA256sum: 38100d124cf8f2b203de0376931f5835dd71ffc99e0576b0f6c5e17d8bc86f80
 Description:  Berkeley DB library (4.7).  C++ wrapper.
 
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/libs/libedit
+SourceName: libedit
+License: BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1624277720
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: aarch64_generic
+Installed-Size: 76890
+Filename: libedit_20210522-3.1-1_aarch64_generic.ipk
+Size: 77634
+SHA256sum: 32ca7973730d71f60ebfdfc4a8fff46a0a8d75bce58a5174cbdac2dde482a86e
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
 Package: libev
 Version: 4.33-1
 Depends: libc
@@ -2278,6 +3013,24 @@ Size: 24543
 SHA256sum: 18147291d505744f28ffb748df4722cce1086a4af11f9484cc2a4a15d9de046b
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665005406
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_generic
+Installed-Size: 45856
+Filename: libexpat_2.4.9-1_aarch64_generic.ipk
+Size: 46587
+SHA256sum: 91438d82f434eca754a3a16256ba4a1fe136398b275a5157132d4764d5d25dab
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
 Version: 3.4.2-2
@@ -2305,6 +3058,69 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: libfreetype
+Version: 2.11.1-1
+Depends: libc, zlib, libpng
+Source: feeds/packages/libs/freetype
+SourceName: libfreetype
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h builds/unix/config.sub builds/unix/config.guess builds/unix/libtool 
+Section: libs
+SourceDateEpoch: 1639992425
+CPE-ID: cpe:/a:freetype:freetype2
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 312601
+Filename: libfreetype_2.11.1-1_aarch64_generic.ipk
+Size: 313236
+SHA256sum: bf400a58498fe2cffa3a6091201a9631afbf11cd17fed0bde1aa245d994eded1
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd-full
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp, libtiff5, libfreetype
+Provides: libgd
+Source: feeds/packages/libs/libgd
+SourceName: libgd-full
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665049542
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 108883
+Filename: libgd-full_2.3.2-4_aarch64_generic.ipk
+Size: 109113
+SHA256sum: 4407b2f9658599ad53ac24de7ccd72356ae619c6bf2b00199a010f8f700dc293
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgd
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+Source: feeds/packages/libs/libgd
+SourceName: libgd
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665049542
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 93378
+Filename: libgd_2.3.2-4_aarch64_generic.ipk
+Size: 93620
+SHA256sum: 87ef00af9239cf83d30dd70601da02cdd30bc6904f23349e5a5ecd32e78502b5
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
 Package: libgdbm
 Version: 1.21-1
 Depends: libc
@@ -2323,6 +3139,187 @@ SHA256sum: 3f07f3f92b7f5d79516b2ff002d1710b1c787077a696b30481759bc6b9d8dc6f
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
+
+Package: libgnutls-dane
+Version: 3.7.1-2
+Depends: libc, libgnutls, libunbound
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls-dane
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 16392
+Filename: libgnutls-dane_3.7.1-2_aarch64_generic.ipk
+Size: 17203
+SHA256sum: 56344c42fb1bc5291b1f9b0f458378a9c3d121bb0364f9bf0a53ba0bd7b5737a
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 868289
+Filename: libgnutls_3.7.1-2_aarch64_generic.ipk
+Size: 867392
+SHA256sum: 63f933b74501871b8b2378676a9e02b3c97f4f201a5f4f32e8aa5db2ff461de6
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libjpeg-turbo-utils
+Version: 2.1.2-1
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo-utils
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1639715161
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 52125
+Filename: libjpeg-turbo-utils_2.1.2-1_aarch64_generic.ipk
+Size: 52972
+SHA256sum: 28d573b0ef9bcd46a9949197966a66877b33cd74b123461841916558f1d715cf
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 2.1.2-1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1639715161
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 106460
+Filename: libjpeg-turbo_2.1.2-1_aarch64_generic.ipk
+Size: 106879
+SHA256sum: 93a2da6156f217ea398c01b455c45f0e599011de270ed7aaef084cd7adfa2040
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+SourceName: libkmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1607593828
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: aarch64_generic
+Installed-Size: 37135
+Filename: libkmod_27-2_aarch64_generic.ipk
+Size: 37994
+SHA256sum: 568c824296ab16b205cfae540fd4e42a804db496313cf40593337f29a4fdc5ee
+Description:  Linux kernel module handling (library)
+
+Package: libmariadb-plugin-auth-gssapi-client
+Version: 3.1.12-4
+Depends: libc, libmariadb3, krb5-libs
+Source: feeds/packages/libs/libmariadb
+SourceName: libmariadb-plugin-auth-gssapi-client
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1638179265
+CPE-ID: cpe:/a:mariadb:mariadb
+Maintainer: Michal Hrusecky <Michal@Hrusecky.net>
+Architecture: aarch64_generic
+Installed-Size: 3010
+Filename: libmariadb-plugin-auth-gssapi-client_3.1.12-4_aarch64_generic.ipk
+Size: 3851
+SHA256sum: bc1f39a0014de5547721a29a9c321eef6dac18234163dfc6f4be8396f2af7c25
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the auth_gssapi_client plugin.
+ 
+
+Package: libmariadb-plugin-remote-io
+Version: 3.1.12-4
+Depends: libc, libmariadb3, libcurl4
+Source: feeds/packages/libs/libmariadb
+SourceName: libmariadb-plugin-remote-io
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1638179265
+CPE-ID: cpe:/a:mariadb:mariadb
+Maintainer: Michal Hrusecky <Michal@Hrusecky.net>
+Architecture: aarch64_generic
+Installed-Size: 3197
+Filename: libmariadb-plugin-remote-io_3.1.12-4_aarch64_generic.ipk
+Size: 4020
+SHA256sum: b8c51a6e16f991cf29e582d46f392ae93123aa62c727e1d5f7ab3a4a94f1229d
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the remote_io plugin.
+ 
+
+Package: libmariadb3
+Version: 3.1.12-4
+Depends: libc, libopenssl1.1, zlib
+Provides: libmariadbclient, libmysqlclient, libmysqlclient-r, libmariadb, libmariadbclient3, libmysqlclient3, libmysqlclient-r3
+Source: feeds/packages/libs/libmariadb
+SourceName: libmariadb
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1638179265
+ABIVersion: 3
+CPE-ID: cpe:/a:mariadb:mariadb
+Maintainer: Michal Hrusecky <Michal@Hrusecky.net>
+Architecture: aarch64_generic
+Installed-Size: 164648
+Filename: libmariadb3_3.1.12-4_aarch64_generic.ipk
+Size: 163967
+SHA256sum: 46bd5d743d55af8dfc2393e709f1d4fc5def3a4083a8e9482ee554bde272f3ee
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package includes the client library.
+ 
+
+Package: libnetsnmp
+Version: 5.9.1-3
+Depends: libc, libnl-tiny1, libpci, libpcre
+Source: feeds/packages/net/net-snmp
+SourceName: libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: libs
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_generic
+Installed-Size: 468150
+Filename: libnetsnmp_5.9.1-3_aarch64_generic.ipk
+Size: 467755
+SHA256sum: cec1c55f725cf3d57e1a0a7a15f2bc2198aad459ffc05ebe306fed3ea24acb08
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
 
 Package: libnghttp2-14
 Version: 1.44.0-1
@@ -2343,6 +3340,147 @@ Size: 65902
 SHA256sum: bcd51186a798a2e478a7329444af33fd43d8ae922eb43ce5b7a8e74f54c6e668
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libopenldap
+Version: 2.6.0-4
+Depends: libc, libopenssl1.1, libsasl2, libpthread, libuuid1
+Source: feeds/packages/libs/openldap
+SourceName: libopenldap
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653080857
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 146047
+Filename: libopenldap_2.6.0-4_aarch64_generic.ipk
+Size: 146759
+SHA256sum: b3604ea16ba26d0683cbd042b4eb52c9b8632f81ee4a1f2e445fd798297dc124
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+Source: feeds/packages/libs/libpam
+SourceName: libpam
+License: BSD-3c GPL
+LicenseFiles: COPYING Copyright
+Section: libs
+SourceDateEpoch: 1606698005
+CPE-ID: cpe:/a:kernel:linux-pam
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 192396
+Filename: libpam_1.5.1-1_aarch64_generic.ipk
+Size: 192591
+SHA256sum: 0beaa02860c9c73a8caa164d40d28ddf881e11c56a83fa57391186b678068240
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+Source: feeds/packages/utils/pciutils
+SourceName: libpci
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1661282066
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 22102
+Filename: libpci_3.8.0-2_aarch64_generic.ipk
+Size: 22812
+SHA256sum: eeb9f96ab202272f1ab33457d2c53b155f9a2e8dcb16cd61bb4d891f797c6dd0
+Description:  Linux PCI Libraries
+
+Package: libpcre2-16
+Version: 10.37-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2-16
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1626851939
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 99650
+Filename: libpcre2-16_10.37-1_aarch64_generic.ipk
+Size: 100462
+SHA256sum: ff5e71d30e58d1afad88a8b57aa05ffc78dcf96805d2d2231cbcd8745adf716d
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre2-32
+Version: 10.37-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2-32
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1626851939
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 95145
+Filename: libpcre2-32_10.37-1_aarch64_generic.ipk
+Size: 95906
+SHA256sum: ccfdeed507461ce64fe2c27cc0c7022acfd1bbb409516159f40a431632ebc6f7
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre2
+Version: 10.37-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1626851939
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 110277
+Filename: libpcre2_10.37-1_aarch64_generic.ipk
+Size: 111069
+SHA256sum: 06a90a798d8253c6d0845147296dbd178fa33de6f2ea971d4d9cd670f1d3286f
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1623557101
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 99248
+Filename: libpng_1.6.37-11_aarch64_generic.ipk
+Size: 99957
+SHA256sum: c5d7158d8c666cee89142add12e8e3646ef4b7e5229b593bee330328edcf187d
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 14.5-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/postgresql
+SourceName: libpq
+License: PostgreSQL
+Section: libs
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_generic
+Installed-Size: 122846
+Filename: libpq_14.5-1_aarch64_generic.ipk
+Size: 122796
+SHA256sum: 30e9d541ed4580df6e0bc30bbbf95426b9fdfcaf331c37d468a5bda48d0fc11c
+Description:  PostgreSQL client library.
+
 Package: libruby3.0
 Version: 3.0.6-1
 Depends: libc, libpthread, librt, libgmp10, zlib
@@ -2362,6 +3500,42 @@ Filename: libruby3.0_3.0.6-1_aarch64_generic.ipk
 Size: 1150052
 SHA256sum: 81396f3d803546ab87bab689137442fe3cd7a073233b6129cf6c0e3b61b3e5a2
 Description:  Ruby scripting language (shared library)
+
+Package: libsasl2-sasldb
+Version: 2.1.27-5
+Depends: libc, libsasl2, libdb47
+Source: feeds/packages/libs/cyrus-sasl
+SourceName: libsasl2-sasldb
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+SourceDateEpoch: 1636786835
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 9946
+Filename: libsasl2-sasldb_2.1.27-5_aarch64_generic.ipk
+Size: 10770
+SHA256sum: 3aa1e4ba575367ed457edda3af8188f43da73d644aff5b45281d40aef1c3666b
+Description:  A general purpose authentication library (sasldb libraries)
+
+Package: libsasl2
+Version: 2.1.27-5
+Depends: libc, libopenssl1.1
+Source: feeds/packages/libs/cyrus-sasl
+SourceName: libsasl2
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+SourceDateEpoch: 1636786835
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 95782
+Filename: libsasl2_2.1.27-5_aarch64_generic.ipk
+Size: 96544
+SHA256sum: 3ecdf4d9353f46dee2de7309d2cf8ea0b204f3f647b0def754a49fae51658663
+Description:  A general purpose authentication library (libraries)
 
 Package: libsodium
 Version: 1.0.18-4
@@ -2384,6 +3558,85 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3410100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1679759998
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: aarch64_generic
+Installed-Size: 539713
+Filename: libsqlite3-0_3410100-1_aarch64_generic.ipk
+Size: 540239
+SHA256sum: 4f29d112464bd79b325b447249fc8686757a4e76b546a97bb6aadea63cc866d2
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtiff5
+Version: 4.3.0-3
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+Source: feeds/packages/libs/tiff
+SourceName: libtiff
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1624133262
+ABIVersion: 5
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_generic
+Installed-Size: 137786
+Filename: libtiff5_4.3.0-3_aarch64_generic.ipk
+Size: 138180
+SHA256sum: 6a0d7161b42ceb71c0f1aa6dd492ac42278bff382016185add9a383c07940e37
+Description:  TIFF library
+
+Package: libunbound
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+Source: feeds/packages/net/unbound
+SourceName: libunbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 454101
+Filename: libunbound_1.17.0-1_aarch64_generic.ipk
+Size: 451504
+SHA256sum: c15aaaa42a28f5e8a4d52c8dba79620ff0507399cadb4ffa23568bb7c682800f
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: libwebp
+Version: 1.2.1-2
+Depends: libc
+Source: feeds/packages/libs/libwebp
+SourceName: libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1633200907
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 249518
+Filename: libwebp_1.2.1-2_aarch64_generic.ipk
+Size: 250107
+SHA256sum: 676303c740dae14c12a2d43a73644e1a94cd7860a62dd845b4bb225435f01903
+Description:  The libwebp package contains a library for the WebP format.
 
 Package: libxml2-dev
 Version: 2.10.3-1
@@ -2458,6 +3711,1141 @@ Filename: libyaml_0.2.5-1_aarch64_generic.ipk
 Size: 42414
 SHA256sum: a4bdbf200832d97c637dfb2eeef47171dc7a518402a7e10151e7a883577e245e
 Description:  Fast YAML 1.1 parser and emitter library
+
+Package: libzip-gnutls
+Version: 1.8.0-4
+Depends: libc, zlib, libgnutls
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-gnutls
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 47584
+Filename: libzip-gnutls_1.8.0-4_aarch64_generic.ipk
+Size: 48348
+SHA256sum: 7ffabe698cc22cfe7ba595452c27067c556119f0692b0552e4186766ffa623f3
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-mbedtls
+Version: 1.8.0-4
+Depends: libc, zlib, libmbedtls12
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-mbedtls
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 47762
+Filename: libzip-mbedtls_1.8.0-4_aarch64_generic.ipk
+Size: 48532
+SHA256sum: 34486fcb655ee475d9ca7629fb0177ca3627386a61e1fa1f823675fc979bb4f8
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-nossl
+Version: 1.8.0-4
+Depends: libc, zlib
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-nossl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 44931
+Filename: libzip-nossl_1.8.0-4_aarch64_generic.ipk
+Size: 45666
+SHA256sum: 29707f7cd9358a295c794c6510610c4ebe2c578e78317f22972192cc0c84621c
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-openssl
+Version: 1.8.0-4
+Depends: libc, zlib, libopenssl1.1
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 47319
+Filename: libzip-openssl_1.8.0-4_aarch64_generic.ipk
+Size: 48153
+SHA256sum: 59e368619e1e7508a162bb0cbc7f713afe96d7b5b7ee04f60c580f4ad25fa714
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20220515, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1630526057
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 21376
+Filename: nlbwmon_2021-09-01-d82c910c-1_aarch64_generic.ipk
+Size: 22186
+SHA256sum: 035d4f2976de957a1adc3aa0adf100e3d1cb7b0cec788ba05903e788d70c7a76
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: oniguruma5
+Version: 6.9.7.1-1
+Depends: libc
+Provides: oniguruma
+Source: feeds/packages/libs/oniguruma
+SourceName: oniguruma
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1634007365
+ABIVersion: 5
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 183073
+Filename: oniguruma5_6.9.7.1-1_aarch64_generic.ipk
+Size: 181436
+SHA256sum: 0faae71b535d9c5e3f3d40bf1195e6d3d262150935df66b558b414cb60a7f88c
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: openldap-server
+Version: 2.6.0-4
+Depends: libc, libopenldap, libuuid1
+Source: feeds/packages/libs/openldap
+SourceName: openldap-server
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653080857
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 595117
+Filename: openldap-server_2.6.0-4_aarch64_generic.ipk
+Size: 588893
+SHA256sum: cac11192d6dc268d6ea35cc87e5e2add4fc24007496dd11c4f2417c466239b52
+Description:  This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.6.0-4
+Depends: libc, libopenldap
+Source: feeds/packages/libs/openldap
+SourceName: openldap-utils
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653080857
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: aarch64_generic
+Installed-Size: 244063
+Filename: openldap-utils_2.6.0-4_aarch64_generic.ipk
+Size: 244860
+SHA256sum: 1e845ac1606a3bc9c40847984b2e7c4487bffc9ec66ad3e1a9c0133c0a32c54b
+Description:  This package contains client programs required to access LDAP servers.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: pciids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1651680714
+Architecture: aarch64_generic
+Installed-Size: 306361
+Filename: pciids_0.359-1_aarch64_generic.ipk
+Size: 306615
+SHA256sum: aaf2fc08c9634f8e5ef409bc681d2d5f72b97e3b48e9163f117cc31e77418be9
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+Source: feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1661282066
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 43423
+Filename: pciutils_3.8.0-2_aarch64_generic.ipk
+Size: 44320
+SHA256sum: 763bf253bc26a0556052879e349c237cc5ca8515cf1e5ae5366c75c2d5644f82
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: pgsql-cli-extra
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+Source: feeds/packages/libs/postgresql
+SourceName: pgsql-cli-extra
+License: PostgreSQL
+Section: utils
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_generic
+Installed-Size: 298982
+Filename: pgsql-cli-extra_14.5-1_aarch64_generic.ipk
+Size: 295733
+SHA256sum: 39e5ba87be1dcf4b011a61be431d602d597215ce788cc7167f63ed4d95335fc4
+Description:  Command Line extras for PostgreSQL databases.
+
+Package: pgsql-cli
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+Source: feeds/packages/libs/postgresql
+SourceName: pgsql-cli
+License: PostgreSQL
+Section: utils
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_generic
+Installed-Size: 195508
+Filename: pgsql-cli_14.5-1_aarch64_generic.ipk
+Size: 195986
+SHA256sum: cec60fae8917549d8c337b7add02f5861ae298c99caa2df8268636bf0987d84e
+Description:  Command Line Interface (CLI) to PostgreSQL databases.
+
+Package: pgsql-server
+Version: 14.5-1
+Depends: libc, pgsql-cli, blockd
+Source: feeds/packages/libs/postgresql
+SourceName: pgsql-server
+License: PostgreSQL
+Section: utils
+Require-User: postgres=5432:postgres=5432
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_generic
+Installed-Size: 5932950
+Filename: pgsql-server_14.5-1_aarch64_generic.ipk
+Size: 5841505
+SHA256sum: 439a22406bd37b99d6020db93583c1d5bffd61996b57960b83e805107d174508
+Description:  PostgreSQL databases Server.
+
+Package: pgsqlodbc
+Version: 2.3.9-2
+Depends: libc, unixodbc, libpq
+Source: feeds/packages/libs/unixodbc
+SourceName: pgsqlodbc
+License: prog GPL libs LGPL
+Section: libs
+SourceDateEpoch: 1628711960
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 96623
+Filename: pgsqlodbc_2.3.9-2_aarch64_generic.ipk
+Size: 97456
+SHA256sum: b1b0021235f5db6b153dee7f6dfcabc1aef6f4027c9d19e01ca856474265c16d
+Description:  Postgresql driver for ODBC.
+
+Package: php8-cgi
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+Source: feeds/packages/lang/php8
+SourceName: php8-cgi
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 1522803
+Filename: php8-cgi_8.1.18-1_aarch64_generic.ipk
+Size: 1521003
+SHA256sum: a120c17ba2d7f08f0f680c5f2a02ef2337d6b5288a29aade7657e6e2b30eff77
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP8 interpreter.
+
+Package: php8-cli
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+Source: feeds/packages/lang/php8
+SourceName: php8-cli
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 1542210
+Filename: php8-cli_8.1.18-1_aarch64_generic.ipk
+Size: 1540475
+SHA256sum: 1364d860da3c7b1b8c8dc61ed2b8eb1d269625472eceb207d794c476a6730690
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP8 interpreter.
+
+Package: php8-fastcgi
+Version: 8.1.18-1
+Depends: libc, php8, php8-cgi
+Source: feeds/packages/lang/php8
+SourceName: php8-fastcgi
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 521
+Filename: php8-fastcgi_8.1.18-1_aarch64_generic.ipk
+Size: 1380
+SHA256sum: 47ead62f33b2137f142b212f5dfa816d6348e1b1c86f5b2462cb5177bf936bd4
+Description:  As FastCGI support is now a core feature the php8-fastcgi package now depends
+ on the php8-cgi package, containing just the startup script.
+
+Package: php8-fpm
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+Source: feeds/packages/lang/php8
+SourceName: php8-fpm
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 1578246
+Filename: php8-fpm_8.1.18-1_aarch64_generic.ipk
+Size: 1576465
+SHA256sum: 4957637d12a8b96dcd647cff52d00a3f51a075c2d4299588e1fa8eb8b25bc75f
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP8 interpreter.
+
+Package: php8-mod-bcmath
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-bcmath
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 12337
+Filename: php8-mod-bcmath_8.1.18-1_aarch64_generic.ipk
+Size: 13103
+SHA256sum: b3f41e219087c3200c5466fb22da0f5daf597f3d1ae51901e0ff652fe5f85c36
+Description:  Bcmath shared module
+
+Package: php8-mod-calendar
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-calendar
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 10553
+Filename: php8-mod-calendar_8.1.18-1_aarch64_generic.ipk
+Size: 11309
+SHA256sum: 11ad2761f2f3198241d0bf4ab84b721445d2dc4fefa263d4e4f2951807c4052a
+Description:  Calendar shared module
+
+Package: php8-mod-ctype
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-ctype
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 2395
+Filename: php8-mod-ctype_8.1.18-1_aarch64_generic.ipk
+Size: 3157
+SHA256sum: f1b495aeb06c86682c26fdde157f710ec4add9f2c841036c758a017fad04df84
+Description:  Ctype shared module
+
+Package: php8-mod-curl
+Version: 8.1.18-1
+Depends: libc, php8, libcurl4
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-curl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 33137
+Filename: php8-mod-curl_8.1.18-1_aarch64_generic.ipk
+Size: 33948
+SHA256sum: 1851097e49ba18e7016fc696e5714674fc72d9cb5d06ab54f7d2e517b5743c6e
+Description:  cURL shared module
+
+Package: php8-mod-dom
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-dom
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 55569
+Filename: php8-mod-dom_8.1.18-1_aarch64_generic.ipk
+Size: 56265
+SHA256sum: d559f943ea1aec13944e56c30ec7c5b8212a2ec09dfd089c100fac3def578bdc
+Description:  DOM shared module
+
+Package: php8-mod-exif
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-exif
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 29218
+Filename: php8-mod-exif_8.1.18-1_aarch64_generic.ipk
+Size: 29750
+SHA256sum: f5eaffd570c7f870bae96624aa5a9eae6a9fe76075d57d899447be10c9e2992a
+Description:  EXIF shared module
+
+Package: php8-mod-fileinfo
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-fileinfo
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 417295
+Filename: php8-mod-fileinfo_8.1.18-1_aarch64_generic.ipk
+Size: 409039
+SHA256sum: 2cd9eaa5ba21a755bf0d6dd43c87f348dc9d51ccae1531b5ddb6dc56f9882853
+Description:  Fileinfo shared module
+
+Package: php8-mod-filter
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-filter
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 16841
+Filename: php8-mod-filter_8.1.18-1_aarch64_generic.ipk
+Size: 17627
+SHA256sum: 44680c97511ef974193e32e5dff209d89a60685e4f5f22a008e12d1adabc3305
+Description:  Filter shared module
+
+Package: php8-mod-ftp
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-ftp
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 19834
+Filename: php8-mod-ftp_8.1.18-1_aarch64_generic.ipk
+Size: 20558
+SHA256sum: a571c52a274a4d8a897cf13e47665348368429ec6a2bdb3295aa7f6ea7280512
+Description:  FTP shared module
+
+Package: php8-mod-gd
+Version: 8.1.18-1
+Depends: libc, php8, libgd-full
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-gd
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 28431
+Filename: php8-mod-gd_8.1.18-1_aarch64_generic.ipk
+Size: 29068
+SHA256sum: f3b143234af2463c288b9082ee6892bfb7d10c530cbee2252d268231805a7c22
+Description:  GD graphics shared module
+
+Package: php8-mod-gettext
+Version: 8.1.18-1
+Depends: libc, php8, libintl-full8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-gettext
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 3714
+Filename: php8-mod-gettext_8.1.18-1_aarch64_generic.ipk
+Size: 4501
+SHA256sum: 98924118b9559dc11b61651ee71512ff79d7ab3977dbab43b9270ff6aba55b0b
+Description:  Gettext shared module
+
+Package: php8-mod-gmp
+Version: 8.1.18-1
+Depends: libc, php8, libgmp10
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-gmp
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 16363
+Filename: php8-mod-gmp_8.1.18-1_aarch64_generic.ipk
+Size: 17064
+SHA256sum: 6a341c89ebbafb9f5758d2aa77a30834ab1a9e6460b1292a58038902900c9f0a
+Description:  GMP shared module
+
+Package: php8-mod-iconv
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-iconv
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 17674
+Filename: php8-mod-iconv_8.1.18-1_aarch64_generic.ipk
+Size: 18439
+SHA256sum: 815beef3af345ee79cae7e50befa235fd2b521a5129fd4c83ca9b113275198a0
+Description:  iConv shared module
+
+Package: php8-mod-imap
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1, libpam, uw-imap
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-imap
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 30534
+Filename: php8-mod-imap_8.1.18-1_aarch64_generic.ipk
+Size: 31281
+SHA256sum: 7dddd90332e7e7ec095da6e2185a0792d516673a2da5d2a35b618793de44aa25
+Description:  IMAP shared module
+
+Package: php8-mod-intl
+Version: 8.1.18-1
+Depends: libc, php8, icu71
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-intl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 139106
+Filename: php8-mod-intl_8.1.18-1_aarch64_generic.ipk
+Size: 139155
+SHA256sum: f051ed90d333ada7260aa5095d79021bb8ab4fecf444feb51dca27a5e540fe9a
+Description:  Note that this package depends in ICU library which is built without data
+ by default. This is to satisfy programs build and run dependencies but to
+ keep the installed footprint small on the target system(s).
+ However, the data is required to make the ICU library useful - and thus
+ directly affects PHPs ICU extension, too - so consider to also
+ select/install package 'icu-full-data'.
+
+Package: php8-mod-ldap
+Version: 8.1.18-1
+Depends: libc, php8, libopenldap, libsasl2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-ldap
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 29207
+Filename: php8-mod-ldap_8.1.18-1_aarch64_generic.ipk
+Size: 29957
+SHA256sum: 8f22382934aec31952d85d4ef06c42232ef84c39af154bc160093ea7a3e570cc
+Description:  LDAP shared module
+
+Package: php8-mod-mbstring
+Version: 8.1.18-1
+Depends: libc, php8, oniguruma5
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-mbstring
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 584654
+Filename: php8-mod-mbstring_8.1.18-1_aarch64_generic.ipk
+Size: 584623
+SHA256sum: c5137f3ed8157cb2d6e1037fbc5b1b8cf3e551bdc7d61af4393367c62504ef54
+Description:  MBString shared module
+
+Package: php8-mod-mysqli
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-mysqlnd
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-mysqli
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 39872
+Filename: php8-mod-mysqli_8.1.18-1_aarch64_generic.ipk
+Size: 40615
+SHA256sum: e65da39e8d92d20809b0c7aaf1be5065fb5c9162f1c79ccb326fa37ec34034a8
+Description:  MySQL Improved Extension shared module
+
+Package: php8-mod-mysqlnd
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-openssl
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-mysqlnd
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 77370
+Filename: php8-mod-mysqlnd_8.1.18-1_aarch64_generic.ipk
+Size: 77709
+SHA256sum: 320b0bff83525a31906a8de721434b9f376429e6391386f5e21bc9e71c76ad54
+Description:  MySQL Native Driver shared module
+
+Package: php8-mod-opcache
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-opcache
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 471477
+Filename: php8-mod-opcache_8.1.18-1_aarch64_generic.ipk
+Size: 471054
+SHA256sum: 5708f485940d0ab4bc7d04e806e3806410740c0d3d06a135291a0bcd85597c47
+Description:  OPcache shared module
+
+Package: php8-mod-openssl
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-openssl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 63943
+Filename: php8-mod-openssl_8.1.18-1_aarch64_generic.ipk
+Size: 64378
+SHA256sum: dc6633e64924119020b132681e9d61f4d69302340593c49dd9affa139658a4fc
+Description:  OpenSSL shared module
+
+Package: php8-mod-pcntl
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pcntl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 11477
+Filename: php8-mod-pcntl_8.1.18-1_aarch64_generic.ipk
+Size: 12238
+SHA256sum: fbbde6fd5cd8cd657d94fc6f79efd7b39b327de004629add6ae2a28d10545d55
+Description:  PCNTL shared module
+
+Package: php8-mod-pdo-mysql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, php8-mod-mysqlnd
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo-mysql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 10200
+Filename: php8-mod-pdo-mysql_8.1.18-1_aarch64_generic.ipk
+Size: 11013
+SHA256sum: 2aed0a3aa2909019360dea8a57c4d29c94b9a797bee8ec20579662d245c56214
+Description:  PDO driver for MySQL shared module
+
+Package: php8-mod-pdo-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libpq
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo-pgsql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 16783
+Filename: php8-mod-pdo-pgsql_8.1.18-1_aarch64_generic.ipk
+Size: 17599
+SHA256sum: e2c96ddfcf2df7137b17f19ddefd03bc86cfaf1ff3ea42c0d8eadfe70eaee50d
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php8-mod-pdo-sqlite
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libsqlite3-0, librt
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo-sqlite
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 10687
+Filename: php8-mod-pdo-sqlite_8.1.18-1_aarch64_generic.ipk
+Size: 11472
+SHA256sum: eaaa227c6561ae07710759b947e6fade5948a43e69bd56d6e05cb8de5a5e6542
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php8-mod-pdo
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 38695
+Filename: php8-mod-pdo_8.1.18-1_aarch64_generic.ipk
+Size: 39467
+SHA256sum: 443a221eff291d1f5c1f4c91763bed036e58270d7e9ff2e2820899b5c5266015
+Description:  PHP Data Objects shared module
+
+Package: php8-mod-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, libpq
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pgsql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 42008
+Filename: php8-mod-pgsql_8.1.18-1_aarch64_generic.ipk
+Size: 42747
+SHA256sum: ec67fe0ccb338e581da8fd1efba248f8124c94587d8f8b29a59891123e8897c8
+Description:  PostgreSQL shared module
+
+Package: php8-mod-phar
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-phar
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 99712
+Filename: php8-mod-phar_8.1.18-1_aarch64_generic.ipk
+Size: 100329
+SHA256sum: 0e29c4da86db61a327be75aaf54a2aaa8075ebc1c8c8a428d9897df20df604c6
+Description:  Phar Archives shared module
+
+Package: php8-mod-session
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-session
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 33131
+Filename: php8-mod-session_8.1.18-1_aarch64_generic.ipk
+Size: 33921
+SHA256sum: ad161cc5ab3d56cafedbe1cfae42c6eedb0d76830d7dc1b353d5094f769e450c
+Description:  Session shared module
+
+Package: php8-mod-shmop
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-shmop
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 4007
+Filename: php8-mod-shmop_8.1.18-1_aarch64_generic.ipk
+Size: 4770
+SHA256sum: 86c161803585a5ace9078f65a05f71a3d2a390789b7ffdce505cb178f2a254b2
+Description:  Shared Memory shared module
+
+Package: php8-mod-simplexml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-simplexml
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 17669
+Filename: php8-mod-simplexml_8.1.18-1_aarch64_generic.ipk
+Size: 18461
+SHA256sum: cbf0164031653393d3ab289a23220bbd9bdcc705bd29c86bfff01370b9249933
+Description:  SimpleXML shared module
+
+Package: php8-mod-snmp
+Version: 8.1.18-1
+Depends: libc, php8, libnetsnmp, libopenssl1.1
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-snmp
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 18460
+Filename: php8-mod-snmp_8.1.18-1_aarch64_generic.ipk
+Size: 19202
+SHA256sum: 6c6946648be877c2f543702c84db24fd66a6081d2a07565f48bfd771759c8e58
+Description:  SNMP shared module
+
+Package: php8-mod-soap
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-soap
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 117741
+Filename: php8-mod-soap_8.1.18-1_aarch64_generic.ipk
+Size: 118485
+SHA256sum: 4f7fb803642b60f4a34196e66ea8a2b3b33110c9fe3b6767541c278df63f44d0
+Description:  SOAP shared module
+
+Package: php8-mod-sockets
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sockets
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 33203
+Filename: php8-mod-sockets_8.1.18-1_aarch64_generic.ipk
+Size: 34020
+SHA256sum: ee92fb1ba358ec86ee1b521c980838646ece73ea5b41fe61d0c7aa0b387e9b0c
+Description:  Sockets shared module
+
+Package: php8-mod-sqlite3
+Version: 8.1.18-1
+Depends: libc, php8, libsqlite3-0
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sqlite3
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 19098
+Filename: php8-mod-sqlite3_8.1.18-1_aarch64_generic.ipk
+Size: 19879
+SHA256sum: e0e29f6ff39b6b63b7f8555239e1a771078c7bfa6e1698ff3a9448e6941e7095
+Description:  SQLite3 shared module
+
+Package: php8-mod-sysvmsg
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sysvmsg
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 5601
+Filename: php8-mod-sysvmsg_8.1.18-1_aarch64_generic.ipk
+Size: 6375
+SHA256sum: 8fdd97d4721ce9a0fc948de68422540627d0bc66bc94701a88c6032c57385b30
+Description:  System V messages shared module
+
+Package: php8-mod-sysvsem
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sysvsem
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 3725
+Filename: php8-mod-sysvsem_8.1.18-1_aarch64_generic.ipk
+Size: 4499
+SHA256sum: 380ca03c1c6831388fbab97cadc909f1b461ac252706e094af4171c4bcbdf39f
+Description:  System V shared memory shared module
+
+Package: php8-mod-sysvshm
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sysvshm
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 4497
+Filename: php8-mod-sysvshm_8.1.18-1_aarch64_generic.ipk
+Size: 5273
+SHA256sum: bea87650b34bb7622373d2f96136c427b94790166bbad97bcc2d72f2dd8f6168
+Description:  System V semaphore shared module
+
+Package: php8-mod-tokenizer
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-tokenizer
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 9790
+Filename: php8-mod-tokenizer_8.1.18-1_aarch64_generic.ipk
+Size: 10555
+SHA256sum: 20ca4bc6f1277e20a1a0c807abd6b9c3b773d91745f299646d467b473b369ef5
+Description:  Tokenizer shared module
+
+Package: php8-mod-xml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-xml
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 16745
+Filename: php8-mod-xml_8.1.18-1_aarch64_generic.ipk
+Size: 17545
+SHA256sum: 21d8af5c9a4b36dbafe472ce389314915d20a0ff59571e2c83e9e24bb51144b1
+Description:  XML shared module
+
+Package: php8-mod-xmlreader
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-dom, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-xmlreader
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 10674
+Filename: php8-mod-xmlreader_8.1.18-1_aarch64_generic.ipk
+Size: 11447
+SHA256sum: cb5ba752c6eaa73005c20e9d93e275c69eab76a3d615d71dcf8e38bde66399c0
+Description:  XMLReader shared module
+
+Package: php8-mod-xmlwriter
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-xmlwriter
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 9910
+Filename: php8-mod-xmlwriter_8.1.18-1_aarch64_generic.ipk
+Size: 10595
+SHA256sum: b52c48716a4f51570f7b5e7a4c858ab4290b6b1339bc7c279fa77e8bce377ec0
+Description:  XMLWriter shared module
+
+Package: php8-mod-zip
+Version: 8.1.18-1
+Depends: libc, php8, libzip
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-zip
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 23011
+Filename: php8-mod-zip_8.1.18-1_aarch64_generic.ipk
+Size: 23691
+SHA256sum: 5b9ff4617a178a7ca3cd7e1777ebb8f9df9d5657c9cf1ecc994ea4ef98a233c6
+Description:  ZIP shared module
+
+Package: php8
+Version: 8.1.18-1
+Depends: libc, libpcre2, zlib, libxml2, zoneinfo-core
+Conflicts: php7
+Source: feeds/packages/lang/php8
+SourceName: php8
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 1454
+Filename: php8_8.1.18-1_aarch64_generic.ipk
+Size: 2508
+SHA256sum: 993ecc30fa161e48af9721d1297dc8bc877f10794a8cce39b88e5770d791c5ef
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php8 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
 
 Package: ruby-abbrev
 Version: 3.0.6-1
@@ -5120,6 +7508,314 @@ Size: 44464
 SHA256sum: 371ed99a18a0edda9a22f8272fef6436945d4a6510b7a376c4e9610e6c7af955
 Description:  shadowsocks-libev ss-tunnel
 
+Package: snmp-mibs
+Version: 5.9.1-3
+Depends: libc
+Source: feeds/packages/net/net-snmp
+SourceName: snmp-mibs
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_generic
+Installed-Size: 340265
+Filename: snmp-mibs_5.9.1-3_aarch64_generic.ipk
+Size: 341218
+SHA256sum: 5b73a6c1bea41e3dee9341f2a0313b00e5444c4667fb7a8d889985cc5d7507e0
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP MIB-Files.
+
+Package: snmp-utils
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmp-utils
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_generic
+Installed-Size: 16423
+Filename: snmp-utils_5.9.1-3_aarch64_generic.ipk
+Size: 17360
+SHA256sum: 4008883eed5127a36ede44b67bd8ed780c675a663f86eb5313448bb6f25da2b8
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities:
+ - snmpget
+ - snmpset
+ - snmpstatus
+ - snmptest
+ - snmptrap
+ - snmpwalk
+
+Package: snmpd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmpd
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_generic
+Installed-Size: 10347
+Filename: snmpd_5.9.1-3_aarch64_generic.ipk
+Size: 11374
+SHA256sum: fa6d595c69e50b3dc5549d03f043a802f088851cb6e007e57f5f0ba4d168bd4a
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: snmptrapd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmptrapd
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: aarch64_generic
+Installed-Size: 21860
+Filename: snmptrapd_5.9.1-3_aarch64_generic.ipk
+Size: 22796
+SHA256sum: cef630d3b91f88407d761da0f181462cc722e9b0f0e989af15bd89355f7afdf5
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: sqlite3-cli
+Version: 3410100-1
+Depends: libc, libsqlite3-0, libedit
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite3-cli
+License: PUBLICDOMAIN
+Section: utils
+SourceDateEpoch: 1679759998
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: aarch64_generic
+Installed-Size: 121402
+Filename: sqlite3-cli_3410100-1_aarch64_generic.ipk
+Size: 122181
+SHA256sum: bf4e8067e5f01850dfd0852cb691ec89bfcc79a91507fdda9e6fe13270da6234
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+Source: feeds/packages/utils/tar
+SourceName: tar
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614566048
+CPE-ID: cpe:/a:gnu:tar
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 198987
+Filename: tar_1.34-1_aarch64_generic.ipk
+Size: 199671
+SHA256sum: 037bf5d2ab6457ebbaa8dd5165d56413cca2663f4561ef0e95288f88c2821ea9
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tiff-utils
+Version: 4.3.0-3
+Depends: libc, libtiff5
+Source: feeds/packages/libs/tiff
+SourceName: tiff-utils
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: utils
+SourceDateEpoch: 1624133262
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: aarch64_generic
+Installed-Size: 146228
+Filename: tiff-utils_4.3.0-3_aarch64_generic.ipk
+Size: 146149
+SHA256sum: a1c6b1badc44a9376438cba8727906ac12e2b41a4e3266f8484b139bc8a27662
+Description:  TIFF utilities
+
+Package: unbound-anchor
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+Source: feeds/packages/net/unbound
+SourceName: unbound-anchor
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 22598
+Filename: unbound-anchor_1.17.0-1_aarch64_generic.ipk
+Size: 23453
+SHA256sum: a73f2c209dc12069bba3a11c6f46505ab7d6984cec65d5cfa91fe8bb34b1aa5e
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-checkconf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 54936
+Filename: unbound-checkconf_1.17.0-1_aarch64_generic.ipk
+Size: 55419
+SHA256sum: defc87b0d73756a7b419d12540d8bb9be476f93247552137471edd730fefc23d
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+Source: feeds/packages/net/unbound
+SourceName: unbound-control-setup
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 2591
+Filename: unbound-control-setup_1.17.0-1_aarch64_generic.ipk
+Size: 3435
+SHA256sum: 957b8de91ad9743fce8772d40c11cf2330d485148e9452ba6993998746bff5a7
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-control
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 55906
+Filename: unbound-control_1.17.0-1_aarch64_generic.ipk
+Size: 56313
+SHA256sum: 1e59c64193903fd512afe9d6b3b1769a6e5063a76e0ea91a6759448918c2978a
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-daemon
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 141082
+Filename: unbound-daemon_1.17.0-1_aarch64_generic.ipk
+Size: 141648
+SHA256sum: 7c07c80a34f143e4489915b518b52ff0994c0cd84ba72d109c27410efd86f792
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-host
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 48263
+Filename: unbound-host_1.17.0-1_aarch64_generic.ipk
+Size: 48854
+SHA256sum: af13d4ac7173e648279ee18ed3fc6cad7a92e465f9c9cc87f84e9fecbb699812
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: unixodbc-tools
+Version: 2.3.9-2
+Depends: libc, unixodbc, libncurses6, libreadline8
+Source: feeds/packages/libs/unixodbc
+SourceName: unixodbc-tools
+License: prog GPL libs LGPL
+Section: utils
+SourceDateEpoch: 1628711960
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 26001
+Filename: unixodbc-tools_2.3.9-2_aarch64_generic.ipk
+Size: 26522
+SHA256sum: bc1548c17e204652617d5b66bc2c3a4f352d2f63ee5696fcc99d38c729f61809
+Description:  Command Line Tools to help install a driver and work with SQL.
+
+Package: unixodbc
+Version: 2.3.9-2
+Depends: libc, libltdl7, libpthread
+Source: feeds/packages/libs/unixodbc
+SourceName: unixodbc
+License: prog GPL libs LGPL
+Section: libs
+SourceDateEpoch: 1628711960
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_generic
+Installed-Size: 223438
+Filename: unixodbc_2.3.9-2_aarch64_generic.ipk
+Size: 224000
+SHA256sum: 10fa54794a299acfdd6234f8511e0a473237a874dcddf75b5b1335d091324f85
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
 Package: unzip
 Version: 6.0-8
 Depends: libc
@@ -5140,6 +7836,41 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: usbids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1651680714
+Architecture: aarch64_generic
+Installed-Size: 251054
+Filename: usbids_0.359-1_aarch64_generic.ipk
+Size: 251510
+SHA256sum: 682adf7079bf722d4ca4b04460a5ad53d5fbd04377a68cf35224d5a72090bf40
+Description:  USB ID list
+
+Package: uw-imap
+Version: 2007f-5
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/packages/libs/uw-imap
+SourceName: uw-imap
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1616310721
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 507406
+Filename: uw-imap_2007f-5_aarch64_generic.ipk
+Size: 507423
+SHA256sum: cc035b89d35e440a5370651cdad492dcab158b991b4636308e6386191b640561
+Description:  The UW IMAP tookit includes the following:
+ c-lient library : an API (application programming interface) used to build email clients and servers,
+ including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
 Package: xray-core
 Version: 1.8.1-1
@@ -5178,4 +7909,263 @@ Description:  Xray, Penetrates Everything. It helps you to build your own comput
  It secures your network connections and thus protects your privacy.
  
  This includes example configuration files for xray-core.
+
+Package: zipcmp
+Version: 1.8.0-4
+Depends: libc, libzip, musl-fts
+Source: feeds/packages/libs/libzip
+SourceName: zipcmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 9456
+Filename: zipcmp_1.8.0-4_aarch64_generic.ipk
+Size: 10203
+SHA256sum: 82eaabd0ba50133e19487ac1c7465f6947f51cdb3f36d9913a7ebfa712ede054
+Description:  This package contains the command line tool zipcmp from libzip.
+
+Package: zipmerge
+Version: 1.8.0-4
+Depends: libc, libzip
+Source: feeds/packages/libs/libzip
+SourceName: zipmerge
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 3899
+Filename: zipmerge_1.8.0-4_aarch64_generic.ipk
+Size: 4637
+SHA256sum: a71b5747f06258b144b6b86637a2de615c96a5595535a1c52d1eafcff05db2b2
+Description:  This package contains the command line tool zipmerge from libzip.
+
+Package: ziptool
+Version: 1.8.0-4
+Depends: libc, libzip
+Source: feeds/packages/libs/libzip
+SourceName: ziptool
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: aarch64_generic
+Installed-Size: 9861
+Filename: ziptool_1.8.0-4_aarch64_generic.ipk
+Size: 10593
+SHA256sum: c86e6fbaa43e915b3cce669b22da1c0afb1eb3e1152cd2ada4e391a23f0336b8
+Description:  This package contains the command line tool ziptool from libzip.
+
+Package: zoneinfo-africa
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-africa
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 7271
+Filename: zoneinfo-africa_2023c-1_aarch64_generic.ipk
+Size: 8007
+SHA256sum: 6d5d9cb0a5b89e46144fab2af51408656d1e4d3618c39b980c8e8d7514f1a179
+Description:  Zone Information (Africa)
+
+Package: zoneinfo-all
+Version: 2023c-1
+Depends: libc, zoneinfo-core, zoneinfo-africa, zoneinfo-northamerica, zoneinfo-southamerica, zoneinfo-poles, zoneinfo-asia, zoneinfo-atlantic, zoneinfo-australia-nz, zoneinfo-pacific, zoneinfo-europe, zoneinfo-india
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-all
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 95
+Filename: zoneinfo-all_2023c-1_aarch64_generic.ipk
+Size: 893
+SHA256sum: b259224d3b0b22b84963ffc84b4c5e052ef5a83ccf969a95fef9eac8806cc332
+Description:  Zone Information (all zones)
+
+Package: zoneinfo-asia
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-asia
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 30558
+Filename: zoneinfo-asia_2023c-1_aarch64_generic.ipk
+Size: 30973
+SHA256sum: 9951f0b3dd58439f9cde8c0b0f49be518fd9156d8f6a25573c0e4c212314e0d2
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-atlantic
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-atlantic
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 5793
+Filename: zoneinfo-atlantic_2023c-1_aarch64_generic.ipk
+Size: 6500
+SHA256sum: 77addcfc12b73d603a7f0c0f5d3742652c28070f0a3e432604707ddce8d004de
+Description:  Zone Information (Atlantic)
+
+Package: zoneinfo-australia-nz
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-australia-nz
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 6688
+Filename: zoneinfo-australia-nz_2023c-1_aarch64_generic.ipk
+Size: 7317
+SHA256sum: f78dcab7ec04a5a11700c2bca9166407bda40921554c004bacb9642c7eac81f8
+Description:  Zone Information (Australia-NZ)
+
+Package: zoneinfo-core
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-core
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 20440
+Filename: zoneinfo-core_2023c-1_aarch64_generic.ipk
+Size: 20796
+SHA256sum: 76f69b52e05e3ae281d6b3d2595205e2c736251055d206b0c66eb40cf104edbb
+Description:  Zone Information (core)
+
+Package: zoneinfo-europe
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-europe
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 20936
+Filename: zoneinfo-europe_2023c-1_aarch64_generic.ipk
+Size: 21554
+SHA256sum: a841d845ff6f4fffd29247ad44e56f1eba59524e183b0d30d351f8550f3fc64c
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-india
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-india
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 941
+Filename: zoneinfo-india_2023c-1_aarch64_generic.ipk
+Size: 1684
+SHA256sum: e4fe1b9da496884b95a0ceca07a695fb53a8f3c9352d8d343ca9f7fc01cd9344
+Description:  Zone Information (India)
+
+Package: zoneinfo-northamerica
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-northamerica
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 78798
+Filename: zoneinfo-northamerica_2023c-1_aarch64_generic.ipk
+Size: 78600
+SHA256sum: c0c16c3d6056127141f1363887b74e386f9ee2aa79098c2ed38378bb5bd26330
+Description:  Zone Information (NorthAmerica)
+
+Package: zoneinfo-pacific
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-pacific
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 6662
+Filename: zoneinfo-pacific_2023c-1_aarch64_generic.ipk
+Size: 7427
+SHA256sum: 940dd8b24c092edd71c6d75e9a546eec0d4e77bc3e30a9fb9958424e096ceb26
+Description:  Zone Information (Pacific)
+
+Package: zoneinfo-poles
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-poles
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 5046
+Filename: zoneinfo-poles_2023c-1_aarch64_generic.ipk
+Size: 5794
+SHA256sum: 8aee02349065933b542304df3754b20839252fd3bc41de24fbabceb6a8255dd7
+Description:  Zone Information (Arctic, Antarctic)
+
+Package: zoneinfo-simple
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-simple
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 16823
+Filename: zoneinfo-simple_2023c-1_aarch64_generic.ipk
+Size: 17505
+SHA256sum: 05928dae1c380a481d272e1a9c0e4ec000e9ddd6f58a5250ea49b73fa865f759
+Description:  Zone Information (simple)
+
+Package: zoneinfo-southamerica
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-southamerica
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: aarch64_generic
+Installed-Size: 4830
+Filename: zoneinfo-southamerica_2023c-1_aarch64_generic.ipk
+Size: 5538
+SHA256sum: 57e8fb2e31782eb94086ce6c9f4cced67ff9194b3cff633ebb8668fc016309e4
+Description:  Zone Information (SouthAmerica)
 

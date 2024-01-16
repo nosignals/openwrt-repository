@@ -14,6 +14,272 @@ Description:  Access control list support
  - getfacl
  - setfacl
 
+Package: apache-ab
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 19203
+Filename: apache-ab_2.4.52-1_mips_24kc.ipk
+Size: 19902
+SHA256sum: 59bab539190c651b86e4a9576058267a6eac6cde415b460dbcaca6c2f14ec369
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache server benchmarking utility.
+ 
+
+Package: apache-error
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 39450
+Filename: apache-error_2.4.52-1_mips_24kc.ipk
+Size: 40490
+SHA256sum: 169fd92479cfe7003409e6ac091a0a084812644a11f5f1781790ac39b29d78d2
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache multi language custom error documents.
+ 
+
+Package: apache-icons
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 140379
+Filename: apache-icons_2.4.52-1_mips_24kc.ipk
+Size: 140913
+SHA256sum: 557b0519f5d47ff8066edb43aa7dc604ee52bcf45ef79b69688779bbb2eb68a6
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the icons from Apache.
+ 
+
+Package: apache-mod-deflate
+Version: 2.4.52-1
+Depends: libc, apache, zlib
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 10521
+Filename: apache-mod-deflate_2.4.52-1_mips_24kc.ipk
+Size: 11325
+SHA256sum: fcab1d718e5c36b102fca50de41930d28540835eaf67edd43c4230f0aba44dc7
+Description:  Deflate support for the Apache HTTP server.
+
+Package: apache-mod-http2
+Version: 2.4.52-1
+Depends: libc, apache, libnghttp2-14, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 81287
+Filename: apache-mod-http2_2.4.52-1_mips_24kc.ipk
+Size: 81581
+SHA256sum: c7da5b3141b2d2a1a84da1f84ee716297c258e7da1a4dee62be15b0e8aefb4a3
+Description:  HTTP/2 transport layer for the Apache HTTP Server.
+
+Package: apache-mod-ldap
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-ldap
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 36687
+Filename: apache-mod-ldap_2.4.52-1_mips_24kc.ipk
+Size: 37490
+SHA256sum: c8aedf9829952b5f44f9d64e10d8d31cc9065d257ba6816e469c2f784baf3c22
+Description:  LDAP authentication/authorization module for the Apache HTTP Server.
+
+Package: apache-mod-lua
+Version: 2.4.52-1
+Depends: libc, apache, liblua5.1.5
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 37872
+Filename: apache-mod-lua_2.4.52-1_mips_24kc.ipk
+Size: 38479
+SHA256sum: 70c9840b36c2d0bd245c97c0068308f0e26a1edd436f114e2278e34b5102868e
+Description:  Lua support for the Apache HTTP server.
+
+Package: apache-mod-md
+Version: 2.4.52-1
+Depends: libc, apache, libcurl4, jansson4, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 104576
+Filename: apache-mod-md_2.4.52-1_mips_24kc.ipk
+Size: 104004
+SHA256sum: 6660371dcae5e1e80127af5fd91670e92c559ce8d277c5d5dc1922335dd6ecf2
+Description:  Managed Domain handling.
+
+Package: apache-mod-php8
+Version: 8.1.18-1
+Depends: libc, php8, apache, libstdcpp6, libpcre2, zlib
+License: PHP-3.01
+Section: net
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 1523417
+Filename: apache-mod-php8_8.1.18-1_mips_24kc.ipk
+Size: 1494206
+SHA256sum: 263c63a7c82a0a23f2f44b6dae0f2eafc2c9e57e81306a07b01f83f140d5b615
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the PHP module for the Apache Web Server.
+
+Package: apache-mod-proxy-html
+Version: 2.4.52-1
+Depends: libc, apache, apache-mod-proxy, libxml2
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 16922
+Filename: apache-mod-proxy-html_2.4.52-1_mips_24kc.ipk
+Size: 17766
+SHA256sum: 2c8dc3cda6f21f4087f63260725872db128f3e2c8d1a8a6ff871ec04d0ca9d10
+Description:  HTML and XML content filters for the Apache HTTP Server.
+
+Package: apache-mod-proxy
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 149287
+Filename: apache-mod-proxy_2.4.52-1_mips_24kc.ipk
+Size: 149891
+SHA256sum: d1509aebb86844c9a2af4b9dfd28907af1f150d27356d72b1386290be7c6a023
+Description:  Proxy modules for the Apache HTTP Server.
+
+Package: apache-mod-session-crypto
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-crypto-openssl
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 6044
+Filename: apache-mod-session-crypto_2.4.52-1_mips_24kc.ipk
+Size: 6863
+SHA256sum: 2e5c5a0c77463bfe98194b3138c82ff967e0ac334fc168544da8df766a852bb5
+Description:  Session encryption support for the Apache HTTP Server.
+
+Package: apache-mod-ssl
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 76804
+Filename: apache-mod-ssl_2.4.52-1_mips_24kc.ipk
+Size: 76624
+SHA256sum: 1853fa51d477877bcd99f511a351c55a4fbdf4600b996b3c75bfaadddf7e8283
+Description:  SSL/TLS module for the Apache HTTP Server.
+
+Package: apache-mod-suexec
+Version: 2.4.52-1
+Depends: libc, apache, apache-suexec
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 1815
+Filename: apache-mod-suexec_2.4.52-1_mips_24kc.ipk
+Size: 2612
+SHA256sum: 8d10b4e69ca36cbd8efaab906240b0ac74490443c5233c3c89ec4505d81504a6
+Description:  suEXEC module for the Apache HTTP Server.
+
+Package: apache-mod-webdav
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 55000
+Filename: apache-mod-webdav_2.4.52-1_mips_24kc.ipk
+Size: 55823
+SHA256sum: a54076f884ace349d4322cee62e4601e0dbdbe892db95eea81d3b865ea5feccf
+Description:  WebDAV support for the Apache HTTP Server.
+
+Package: apache-suexec
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 4332
+Filename: apache-suexec_2.4.52-1_mips_24kc.ipk
+Size: 5250
+SHA256sum: 72e05f27a95560e3a90a485aa4a71ed6e9b00c47d416d8c8680b4baff4cd0e7a
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the suEXEC utility from Apache.
+ 
+
+Package: apache-utils
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 17130
+Filename: apache-utils_2.4.52-1_mips_24kc.ipk
+Size: 17970
+SHA256sum: cfadfd1cd1afffc0e65b6959f3891bde6fb0705d29a621f218eae0ebb2f77c79
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache utility programs for webservers.
+ 
+
+Package: apache
+Version: 2.4.52-1
+Depends: libc, libapr, libaprutil, libpcre
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: mips_24kc
+Installed-Size: 651443
+Filename: apache_2.4.52-1_mips_24kc.ipk
+Size: 650864
+SHA256sum: b5fba42c71bffac55c9c3f2887fc13697d4a9602eb3a6c9f7f33e5740a22af99
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the Apache web server and utility programs.
+ 
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -44,6 +310,25 @@ SHA256sum: b9c86b9caaac1ce0639a0bdb3dd8ee8bf8ceecc65a7b8471958b837440b9f825
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: certtool
+Version: 3.7.1-2
+Depends: libc, libgnutls
+License: LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: mips_24kc
+Installed-Size: 137975
+Filename: certtool_3.7.1-2_mips_24kc.ipk
+Size: 137610
+SHA256sum: 9481699dfc74e06af7983d64770e1690e4fd9636b84ffaec88fd5460c73cb662
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
 
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
@@ -1537,6 +1822,139 @@ Size: 59453
 SHA256sum: 6da0cec0e060eea40cb948ad1e4f6badb91fdad0e7c758ad95b1a7167cf1e54f
 Description:  A client-side URL transfer utility
 
+Package: gnutls-utils
+Version: 3.7.1-2
+Depends: libc, libgnutls, libgnutls-dane
+License: LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: mips_24kc
+Installed-Size: 264393
+Filename: gnutls-utils_3.7.1-2_mips_24kc.ipk
+Size: 262278
+SHA256sum: 4ba2eabeb12d215fbdce6a3278b44929012447d25db86e479e4070cf3f849369
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
+Package: icu-data-tools
+Version: 71.1-1
+Depends: libc, icu71
+License: ICU
+Section: libs
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: mips_24kc
+Installed-Size: 148417
+Filename: icu-data-tools_71.1-1_mips_24kc.ipk
+Size: 148194
+SHA256sum: 597b26dc7729a72ba9674edc431238159009c1455918c4fb0434fd2613c339ba
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data71
+Version: 71.1-1
+Depends: libc, icu71
+Provides: icu-full-data
+License: ICU
+Section: libs
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: mips_24kc
+Installed-Size: 11986647
+Filename: icu-full-data71_71.1-1_mips_24kc.ipk
+Size: 11832940
+SHA256sum: 182ee9c77add12518ff2dafa66157fe9a473685c5a3dddd9386274f0e948767e
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu71
+Version: 71.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+License: ICU
+Section: libs
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: mips_24kc
+Installed-Size: 1873692
+Filename: icu71_71.1-1_mips_24kc.ipk
+Size: 1856061
+SHA256sum: b151a0820180e9fe7b82e302253cf7f90f260edd602934adc9918a8bb9af3dca
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: kmod
+Version: 27-2
+Depends: libc, zlib
+Alternatives: 200:/sbin/depmod:/sbin/kmod, 200:/sbin/insmod:/sbin/kmod, 200:/sbin/lsmod:/sbin/kmod, 200:/sbin/modinfo:/sbin/kmod, 200:/sbin/modprobe:/sbin/kmod, 200:/sbin/rmmod:/sbin/kmod
+License: LGPL-2.1-or-later
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 51198
+Filename: kmod_27-2_mips_24kc.ipk
+Size: 52197
+SHA256sum: 2a502b8159a8ae6d9622bd80487c203c370203bc35b11fe23c3c72ec1fbe522b
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: krb5-client
+Version: 1.19.2-2
+Depends: libc, krb5-libs
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: mips_24kc
+Installed-Size: 38516
+Filename: krb5-client_1.19.2-2_mips_24kc.ipk
+Size: 38262
+SHA256sum: c21a55ef61cffd1a6ce2acea6441531fe56bd2a9071638bdb3f07829f1c7a098
+Description:  Kerberos 5 Client
+
+Package: krb5-libs
+Version: 1.19.2-2
+Depends: libc, libncurses6, libss2, libcomerr0
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: mips_24kc
+Installed-Size: 701553
+Filename: krb5-libs_1.19.2-2_mips_24kc.ipk
+Size: 682058
+SHA256sum: 51f1a60125fecc9c2f9815ab454af665a3da7a757ca109fc6714604e1d298ff8
+Description:  Kerberos 5 Shared Libraries
+
+Package: krb5-server-extras
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: mips_24kc
+Installed-Size: 47970
+Filename: krb5-server-extras_1.19.2-2_mips_24kc.ipk
+Size: 47014
+SHA256sum: cf632718a70e3ba9d1c3342634b1c5857400eadfb433c9d9bcb6a90c600dc808
+Description:  Kerberos 5 Admin Server
+
+Package: krb5-server
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: mips_24kc
+Installed-Size: 107175
+Filename: krb5-server_1.19.2-2_mips_24kc.ipk
+Size: 105479
+SHA256sum: 5a5477b69e70e02c9d3f99e2850f2e3eeeed5d88395258f11523c0a1db925905
+Description:  Kerberos 5 Server
+
 Package: libacl
 Version: 2.3.1-1
 Depends: libc, libattr
@@ -1549,6 +1967,123 @@ Size: 11036
 SHA256sum: e40b0c64540bd25dc47ceeeb5be783963310328e0fb1826c32734b59566a970b
 Description:  Access control list support
  This package provides libacl
+
+Package: libapr
+Version: 1.7.0-3
+Depends: libc, libpthread, librt, libuuid1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr
+Architecture: mips_24kc
+Installed-Size: 75021
+Filename: libapr_1.7.0-3_mips_24kc.ipk
+Size: 75861
+SHA256sum: de51a9453fd06065b068fcf0ac5c44e68a71be19110b925f01f3645369eda88b
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil-crypto-openssl
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenssl1.1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 3789
+Filename: libaprutil-crypto-openssl_1.6.1-7_mips_24kc.ipk
+Size: 4555
+SHA256sum: a9df68301a2d7df9afe2542b74eb49345663474482fd8663a4c5feb6f3ec03fe
+Description:  libaprutil - OpenSSL driver
+
+Package: libaprutil-dbd-mysql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libmariadb3
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 6053
+Filename: libaprutil-dbd-mysql_1.6.1-7_mips_24kc.ipk
+Size: 6827
+SHA256sum: 824ead70ccaf0e6699ca6312d60af1b6fddfbab4f35c2d1585a3ca100674d2f6
+Description:  libaprutil - MySQL driver
+
+Package: libaprutil-dbd-odbc
+Version: 1.6.1-7
+Depends: libc, libaprutil, unixodbc
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 9781
+Filename: libaprutil-dbd-odbc_1.6.1-7_mips_24kc.ipk
+Size: 10554
+SHA256sum: b819eba051a32971c3cc860b94a3257c4e212a8e99bdb84e17c633c9b5cc2dda
+Description:  libaprutil - ODBC driver
+
+Package: libaprutil-dbd-pgsql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libpq
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 6012
+Filename: libaprutil-dbd-pgsql_1.6.1-7_mips_24kc.ipk
+Size: 6791
+SHA256sum: e27804e10d090a0a228f99b679aa83d891297c5348bb8bd75807ad0bd1a794b0
+Description:  libaprutil - PostgreSQL driver
+
+Package: libaprutil-dbd-sqlite3
+Version: 1.6.1-7
+Depends: libc, libaprutil, libsqlite3-0
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 4345
+Filename: libaprutil-dbd-sqlite3_1.6.1-7_mips_24kc.ipk
+Size: 5118
+SHA256sum: 381e57bfcef96ddefc55d75afe8f597309727e6b25c7c8e036128fe0325d0b37
+Description:  libaprutil - SQLite3 driver
+
+Package: libaprutil-dbm-gdbm
+Version: 1.6.1-7
+Depends: libc, libaprutil, libgdbm
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 2070
+Filename: libaprutil-dbm-gdbm_1.6.1-7_mips_24kc.ipk
+Size: 2860
+SHA256sum: f8e44fd964e1fed94fd5ff7e2bee12752563dab3a4c918cfa59b1852ee65beba
+Description:  libaprutil - GDBM dbm driver
+
+Package: libaprutil-ldap
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenldap
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 3023
+Filename: libaprutil-ldap_1.6.1-7_mips_24kc.ipk
+Size: 3796
+SHA256sum: b72ffa864baf942cbd1f0cc349b5664d74118012101e8403a8b3b4c2cf862f00
+Description:  libaprutil - LDAP driver
+
+Package: libaprutil
+Version: 1.6.1-7
+Depends: libc, libapr, libexpat, libuuid1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: mips_24kc
+Installed-Size: 69738
+Filename: libaprutil_1.6.1-7_mips_24kc.ipk
+Size: 70620
+SHA256sum: e56e92be71ae83ca365477cdf542c7899f110e65f1e3f1f3c6b08e64979e1228
+Description:  Apache Portable Runtime Utility Library
 
 Package: libattr
 Version: 2.5.1-1
@@ -1621,6 +2156,18 @@ Size: 498009
 SHA256sum: 5d87baf9263e5dd8d891deb32ec6448ae7267dfac421114eb17c27e0680d4f43
 Description:  Berkeley DB library (4.7).  C++ wrapper.
 
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 62680
+Filename: libedit_20210522-3.1-1_mips_24kc.ipk
+Size: 63087
+SHA256sum: a360dc6d5287071b405664e4b8ce0c2eb5f69627f333f854dccb6623f32f0c2d
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
 Package: libev
 Version: 4.33-1
 Depends: libc
@@ -1633,6 +2180,19 @@ Size: 24266
 SHA256sum: 4326dd2e54fea765138c581d244365271eb18c55c88f391e0d4d4158dc64c5ff
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Architecture: mips_24kc
+Installed-Size: 37987
+Filename: libexpat_2.4.9-1_mips_24kc.ipk
+Size: 38797
+SHA256sum: e60e34367f15b44f4bf8756649f773ab51dfe61b8842e984d99222770fb3d5c2
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
 Version: 3.4.2-2
@@ -1655,6 +2215,54 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: libfreetype
+Version: 2.11.1-1
+Depends: libc, zlib, libpng
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:freetype:freetype2
+Architecture: mips_24kc
+Installed-Size: 271544
+Filename: libfreetype_2.11.1-1_mips_24kc.ipk
+Size: 271539
+SHA256sum: e6c95e51af2a435adb5ff3b046f20c5f0776cd6038f8fba4dc0efe8db1497a8c
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd-full
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp, libtiff5, libfreetype
+Provides: libgd
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: mips_24kc
+Installed-Size: 103135
+Filename: libgd-full_2.3.2-4_mips_24kc.ipk
+Size: 101681
+SHA256sum: 1873849495554671cc3ddd2372cfbf36084312760a685ff636581673c133a87d
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgd
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: mips_24kc
+Installed-Size: 88284
+Filename: libgd_2.3.2-4_mips_24kc.ipk
+Size: 87192
+SHA256sum: 3cbf80a1eb247f6d98934ddd022421824bbe3bce7cdb42b49f81ada543f9957f
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
 Package: libgdbm
 Version: 1.21-1
 Depends: libc
@@ -1668,6 +2276,145 @@ SHA256sum: ff4330eda12876d1223fb5b60b293a3d1594d5ac83fa55255fbc2107699225c3
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
+
+Package: libgnutls-dane
+Version: 3.7.1-2
+Depends: libc, libgnutls, libunbound
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: mips_24kc
+Installed-Size: 15379
+Filename: libgnutls-dane_3.7.1-2_mips_24kc.ipk
+Size: 16125
+SHA256sum: b7bb6874d7eaef8d985f59a9682dcf98222364224194ee92dba25b1870f9a614
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: mips_24kc
+Installed-Size: 798512
+Filename: libgnutls_3.7.1-2_mips_24kc.ipk
+Size: 797284
+SHA256sum: d93743b02192fba73cde858c72226d97204fbd212fb716a6865de9653ebbedec
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libjpeg-turbo-utils
+Version: 2.1.2-1
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+License: BSD-3-Clause IJG zlib
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 51271
+Filename: libjpeg-turbo-utils_2.1.2-1_mips_24kc.ipk
+Size: 52056
+SHA256sum: 8db648aba1d164bd9a941a7d907cf035ef51b9aaaee9ef2262b06ab71ad19304
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 2.1.2-1
+Depends: libc
+Provides: libjpeg
+License: BSD-3-Clause IJG zlib
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 92411
+Filename: libjpeg-turbo_2.1.2-1_mips_24kc.ipk
+Size: 92462
+SHA256sum: 4ed72b99c293d5fca663aa90205c7c36c399dd089102dd3812c6ac8f9c558d9b
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 31227
+Filename: libkmod_27-2_mips_24kc.ipk
+Size: 31915
+SHA256sum: 723f2ff5390d5f64117292596fba8f13269803b84b87e87387259b6859d5db67
+Description:  Linux kernel module handling (library)
+
+Package: libmariadb-plugin-auth-gssapi-client
+Version: 3.1.12-4
+Depends: libc, libmariadb3, krb5-libs
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: mips_24kc
+Installed-Size: 2480
+Filename: libmariadb-plugin-auth-gssapi-client_3.1.12-4_mips_24kc.ipk
+Size: 3345
+SHA256sum: 42bd4ebeebddd3d95396f6209a0b24f7bdf738601487464f0871dda4eb5b7e45
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the auth_gssapi_client plugin.
+ 
+
+Package: libmariadb-plugin-remote-io
+Version: 3.1.12-4
+Depends: libc, libmariadb3, libcurl4
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: mips_24kc
+Installed-Size: 2864
+Filename: libmariadb-plugin-remote-io_3.1.12-4_mips_24kc.ipk
+Size: 3673
+SHA256sum: 9a91f23a2798a54074473be76766e2c84331e2e8efce062e376e4e30e342f085
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the remote_io plugin.
+ 
+
+Package: libmariadb3
+Version: 3.1.12-4
+Depends: libc, libopenssl1.1, zlib
+Provides: libmariadbclient, libmysqlclient, libmysqlclient-r, libmariadb, libmariadbclient3, libmysqlclient3, libmysqlclient-r3
+License: LGPL-2.1-or-later
+Section: libs
+ABIVersion: 3
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: mips_24kc
+Installed-Size: 152165
+Filename: libmariadb3_3.1.12-4_mips_24kc.ipk
+Size: 151808
+SHA256sum: cb964f62c7d995050753fe467a9c1810c5fdd8e0f9c745f82a095e899599e4b5
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package includes the client library.
+ 
+
+Package: libnetsnmp
+Version: 5.9.1-3
+Depends: libc, libnl-tiny1, libpci, libpcre
+License: MIT BSD-3-Clause-Clear
+Section: libs
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: mips_24kc
+Installed-Size: 376708
+Filename: libnetsnmp_5.9.1-3_mips_24kc.ipk
+Size: 377656
+SHA256sum: 3a31f8c36fd2b0b75cd23de5c8f0cc2ab2d21adcb65d0388768338f07339f15c
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
 
 Package: libnghttp2-14
 Version: 1.44.0-1
@@ -1683,6 +2430,109 @@ Size: 51857
 SHA256sum: e1013af7ab1925a647b11a7de54911502464062f176246d6f4bbb4d41c047d9a
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libopenldap
+Version: 2.6.0-4
+Depends: libc, libopenssl1.1, libsasl2, libpthread, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: mips_24kc
+Installed-Size: 117250
+Filename: libopenldap_2.6.0-4_mips_24kc.ipk
+Size: 118094
+SHA256sum: 195e1fafcbc8403fc2ac51c738a70ba387d322a135f97265033a867955139842
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+License: BSD-3c GPL
+Section: libs
+CPE-ID: cpe:/a:kernel:linux-pam
+Architecture: mips_24kc
+Installed-Size: 168124
+Filename: libpam_1.5.1-1_mips_24kc.ipk
+Size: 168710
+SHA256sum: d5fb503b35e9b5d9144e26402a7c3925fa6d4bb6218c681ed7baaccba213223d
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 18306
+Filename: libpci_3.8.0-2_mips_24kc.ipk
+Size: 19087
+SHA256sum: d88f29b07268b9e572b91114aba5dbda59f7fe7eb2ec46b9f9a745012976b056
+Description:  Linux PCI Libraries
+
+Package: libpcre2-16
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: mips_24kc
+Installed-Size: 91924
+Filename: libpcre2-16_10.37-1_mips_24kc.ipk
+Size: 92778
+SHA256sum: 4eb06dc25e70f8fb617759a2869e2e084b3dda3534e9d927ae41307c025dd288
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre2-32
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: mips_24kc
+Installed-Size: 87057
+Filename: libpcre2-32_10.37-1_mips_24kc.ipk
+Size: 87870
+SHA256sum: 148188922b59334237ea7eace4fb9ce3b81b25ad46e59fb2c4655a5c18c58a72
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre2
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: mips_24kc
+Installed-Size: 106341
+Filename: libpcre2_10.37-1_mips_24kc.ipk
+Size: 107126
+SHA256sum: 3ac8b2ea6c7a1116bb7f11b3bec653b045798bf62d48ec5caa90f2cfe405affe
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:libpng:libpng
+Architecture: mips_24kc
+Installed-Size: 82212
+Filename: libpng_1.6.37-11_mips_24kc.ipk
+Size: 83075
+SHA256sum: 52406ae850239693815650fe4a6afeaf686d7f7da854386e92df829dcc249a81
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 14.5-1
+Depends: libc, libpthread
+License: PostgreSQL
+Section: libs
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: mips_24kc
+Installed-Size: 122422
+Filename: libpq_14.5-1_mips_24kc.ipk
+Size: 119918
+SHA256sum: 34e57af0702cee882201b584da378f5416e843b19f74c03c273db52c0429e1ac
+Description:  PostgreSQL client library.
+
 Package: libruby3.0
 Version: 3.0.6-1
 Depends: libc, libpthread, librt, libgmp10, zlib
@@ -1697,6 +2547,32 @@ Filename: libruby3.0_3.0.6-1_mips_24kc.ipk
 Size: 997712
 SHA256sum: 2e436137afc046cb6978c06b797306115d81dbaa9aac47ee9f6deca62c4c553e
 Description:  Ruby scripting language (shared library)
+
+Package: libsasl2-sasldb
+Version: 2.1.27-5
+Depends: libc, libsasl2, libdb47
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: mips_24kc
+Installed-Size: 8118
+Filename: libsasl2-sasldb_2.1.27-5_mips_24kc.ipk
+Size: 8932
+SHA256sum: 61fbad54beea9d481347a8c7b947d3443ae21bdc16b474c1a7e7381b9b7beab7
+Description:  A general purpose authentication library (sasldb libraries)
+
+Package: libsasl2
+Version: 2.1.27-5
+Depends: libc, libopenssl1.1
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: mips_24kc
+Installed-Size: 76109
+Filename: libsasl2_2.1.27-5_mips_24kc.ipk
+Size: 76961
+SHA256sum: 7af21899e289e3255ae16383ed18ab4a94492745f919a9552f9eaa2a1ed47223
+Description:  A general purpose authentication library (libraries)
 
 Package: libsodium
 Version: 1.0.18-4
@@ -1714,6 +2590,66 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3410100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: mips_24kc
+Installed-Size: 504609
+Filename: libsqlite3-0_3410100-1_mips_24kc.ipk
+Size: 504425
+SHA256sum: 03ee68df55a74cd11c21f52611a41dfd414e6d79abf5bccd9f45840fe8e4553b
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtiff5
+Version: 4.3.0-3
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:libtiff:libtiff
+Architecture: mips_24kc
+Installed-Size: 128216
+Filename: libtiff5_4.3.0-3_mips_24kc.ipk
+Size: 128453
+SHA256sum: e143775586578a937950a22cfd5d536b2c5b2c8715a430fb70f7e6ccf5cc4472
+Description:  TIFF library
+
+Package: libunbound
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 399198
+Filename: libunbound_1.17.0-1_mips_24kc.ipk
+Size: 392699
+SHA256sum: 0a7719a2dcb25a1bb4d96824f9652d4693d3c58f00275f8c175ef6cf16b46acf
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: libwebp
+Version: 1.2.1-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 203459
+Filename: libwebp_1.2.1-2_mips_24kc.ipk
+Size: 204393
+SHA256sum: 61f097f34e9a3a3c7d59afa5b505c969c44e80c3731e1b7c4bcdcce9c477b441
+Description:  The libwebp package contains a library for the WebP format.
 
 Package: libxml2-dev
 Version: 2.10.3-1
@@ -1769,6 +2705,835 @@ Filename: libyaml_0.2.5-1_mips_24kc.ipk
 Size: 37032
 SHA256sum: 37b808f07ab6f4d967610cbc2b0f675565578826acc9c6cda343b72ecd4ea3a6
 Description:  Fast YAML 1.1 parser and emitter library
+
+Package: libzip-gnutls
+Version: 1.8.0-4
+Depends: libc, zlib, libgnutls
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 43639
+Filename: libzip-gnutls_1.8.0-4_mips_24kc.ipk
+Size: 44384
+SHA256sum: fa524dfb0bbd5a662e9d2a878bfc58000aaba87282a1db4e2850c4ebcadb3890
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-mbedtls
+Version: 1.8.0-4
+Depends: libc, zlib, libmbedtls12
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 43806
+Filename: libzip-mbedtls_1.8.0-4_mips_24kc.ipk
+Size: 44541
+SHA256sum: c56a2a88678c5edf0b9d83eea6fa7190b01c84963e0082394d1570cd708ce14b
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-nossl
+Version: 1.8.0-4
+Depends: libc, zlib
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 41137
+Filename: libzip-nossl_1.8.0-4_mips_24kc.ipk
+Size: 41960
+SHA256sum: 628474fda4dea4947be1ca92a13087cac438756db8b5bbadfd8e4a8a3a08d370
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-openssl
+Version: 1.8.0-4
+Depends: libc, zlib, libopenssl1.1
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 43347
+Filename: libzip-openssl_1.8.0-4_mips_24kc.ipk
+Size: 44129
+SHA256sum: ccd7ff05849efec39c275a2632f97c51fb756553c4548e33ffcc64c1543ec8a4
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20220515, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: mips_24kc
+Installed-Size: 16803
+Filename: nlbwmon_2021-09-01-d82c910c-1_mips_24kc.ipk
+Size: 17577
+SHA256sum: df87c075592ef3e5428769ab684e709c6b9aeb9a7168259693140f2b0868e1d3
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: oniguruma5
+Version: 6.9.7.1-1
+Depends: libc
+Provides: oniguruma
+License: BSD-2-Clause
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Architecture: mips_24kc
+Installed-Size: 174319
+Filename: oniguruma5_6.9.7.1-1_mips_24kc.ipk
+Size: 170238
+SHA256sum: dce39d658a336f8450032fe0a05bf0b5e4c67c17d6d6000edda9d94ddd0ed837
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: openldap-server
+Version: 2.6.0-4
+Depends: libc, libopenldap, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: mips_24kc
+Installed-Size: 557880
+Filename: openldap-server_2.6.0-4_mips_24kc.ipk
+Size: 542075
+SHA256sum: 0e4dcc777ed97501a4e0a0125077443a583d4d92ef98b325b419d0448f335d8e
+Description:  This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.6.0-4
+Depends: libc, libopenldap
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: mips_24kc
+Installed-Size: 220084
+Filename: openldap-utils_2.6.0-4_mips_24kc.ipk
+Size: 219089
+SHA256sum: 1ae9066f85cfb03b84a2dca7106e2d3eb48e7807b00cdd9f38b7371b92288090
+Description:  This package contains client programs required to access LDAP servers.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 306361
+Filename: pciids_0.359-1_mips_24kc.ipk
+Size: 306614
+SHA256sum: 0654a45621b61844d879e4afeccbab187d66d22302d4328b926270efc46e4662
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+License: GPL-2.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 45107
+Filename: pciutils_3.8.0-2_mips_24kc.ipk
+Size: 45883
+SHA256sum: 7eb1eac1e95830b2f0d18645cdacf49fc82fa819a080f2b86d50bb5a5d68eb34
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: pgsql-cli-extra
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: mips_24kc
+Installed-Size: 273373
+Filename: pgsql-cli-extra_14.5-1_mips_24kc.ipk
+Size: 267195
+SHA256sum: d4ff21dd53c5b33cbdc4725e06a6b10f893b1d0b43d098c6e30548374e725e8f
+Description:  Command Line extras for PostgreSQL databases.
+
+Package: pgsql-cli
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: mips_24kc
+Installed-Size: 174291
+Filename: pgsql-cli_14.5-1_mips_24kc.ipk
+Size: 173892
+SHA256sum: afe8056ed3c3564c1ce16320f2cfe27c6dd5946bd097f88f7eda0b36b958c6c5
+Description:  Command Line Interface (CLI) to PostgreSQL databases.
+
+Package: pgsql-server
+Version: 14.5-1
+Depends: libc, pgsql-cli, blockd
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: mips_24kc
+Installed-Size: 5676485
+Filename: pgsql-server_14.5-1_mips_24kc.ipk
+Size: 5559642
+SHA256sum: bf6fe8bc2aae1169894f370f45be52ca5ab0d85441a9fb2e3ecc4270ef572770
+Description:  PostgreSQL databases Server.
+
+Package: pgsqlodbc
+Version: 2.3.9-2
+Depends: libc, unixodbc, libpq
+License: prog GPL libs LGPL
+Section: libs
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: mips_24kc
+Installed-Size: 81496
+Filename: pgsqlodbc_2.3.9-2_mips_24kc.ipk
+Size: 82325
+SHA256sum: 20ffcb0e8325525ef814357d5a067ec18fab622870aa2db7c772fdc72c8b0e32
+Description:  Postgresql driver for ODBC.
+
+Package: php8-cgi
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 1479914
+Filename: php8-cgi_8.1.18-1_mips_24kc.ipk
+Size: 1477579
+SHA256sum: 8c454509f3c0c49ce58d8fdf2949321cedade6e73ad4b84f39fa6f730159a9eb
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP8 interpreter.
+
+Package: php8-cli
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 1502355
+Filename: php8-cli_8.1.18-1_mips_24kc.ipk
+Size: 1499767
+SHA256sum: a8239abe1bd8cdda4527afd5e624bcd93ba0241afd388de7252d92fc201411e5
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP8 interpreter.
+
+Package: php8-fastcgi
+Version: 8.1.18-1
+Depends: libc, php8, php8-cgi
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 521
+Filename: php8-fastcgi_8.1.18-1_mips_24kc.ipk
+Size: 1379
+SHA256sum: 01d4ee04a5770166d75886bc4a8c1de086ff008b42782c1bf73a197e0630a442
+Description:  As FastCGI support is now a core feature the php8-fastcgi package now depends
+ on the php8-cgi package, containing just the startup script.
+
+Package: php8-fpm
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 1531588
+Filename: php8-fpm_8.1.18-1_mips_24kc.ipk
+Size: 1529190
+SHA256sum: 1470dcdae45cb4a28e9571df16a1ad65e7abfde2f64269ad04afcf81a8f61313
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP8 interpreter.
+
+Package: php8-mod-bcmath
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 12162
+Filename: php8-mod-bcmath_8.1.18-1_mips_24kc.ipk
+Size: 12900
+SHA256sum: 27d3ff8acd57fb68fda341617754272c65bb394d66cd46aea86e35f99cba76a1
+Description:  Bcmath shared module
+
+Package: php8-mod-calendar
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 9416
+Filename: php8-mod-calendar_8.1.18-1_mips_24kc.ipk
+Size: 10087
+SHA256sum: 22d170f931137f3e0ac22bd3a5719bef3e2c31c986175a1d9d453b1c130503d1
+Description:  Calendar shared module
+
+Package: php8-mod-ctype
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 2216
+Filename: php8-mod-ctype_8.1.18-1_mips_24kc.ipk
+Size: 2968
+SHA256sum: 59b79e25c8f789af6055f69b6ce49882cd0576b740b4cf4831e8a2a0319bf6f4
+Description:  Ctype shared module
+
+Package: php8-mod-curl
+Version: 8.1.18-1
+Depends: libc, php8, libcurl4
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 31173
+Filename: php8-mod-curl_8.1.18-1_mips_24kc.ipk
+Size: 31770
+SHA256sum: 6b3934d9a8301fbc19586d8678dad563243853e46facefb29f9a4e790072d7f4
+Description:  cURL shared module
+
+Package: php8-mod-dom
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 48383
+Filename: php8-mod-dom_8.1.18-1_mips_24kc.ipk
+Size: 48835
+SHA256sum: 6301b5162736f1a65b00d752f7185dbbaf7a89ab0be0c6e425e94310699a58c9
+Description:  DOM shared module
+
+Package: php8-mod-exif
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 28093
+Filename: php8-mod-exif_8.1.18-1_mips_24kc.ipk
+Size: 27418
+SHA256sum: 3cfdf1bd55b85a76437e9f3dd48b4298a8e67ba9a605c7376db1f7fccad002dc
+Description:  EXIF shared module
+
+Package: php8-mod-fileinfo
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 418540
+Filename: php8-mod-fileinfo_8.1.18-1_mips_24kc.ipk
+Size: 410192
+SHA256sum: fcb6803dbcb544a66a8a91f1cd4088c8cb3ff6f2e5aa21b9df60a55142f80e13
+Description:  Fileinfo shared module
+
+Package: php8-mod-filter
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 16642
+Filename: php8-mod-filter_8.1.18-1_mips_24kc.ipk
+Size: 17348
+SHA256sum: f8fdd6e8f8b08b8f54043845fd435a5c946cdbc7e10ee51838f0c17cfe145c13
+Description:  Filter shared module
+
+Package: php8-mod-ftp
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 18222
+Filename: php8-mod-ftp_8.1.18-1_mips_24kc.ipk
+Size: 18890
+SHA256sum: 5814bda20b0681bc02c7a4caba88cd54488cbc3243f49b46a6a555d99f54c43a
+Description:  FTP shared module
+
+Package: php8-mod-gd
+Version: 8.1.18-1
+Depends: libc, php8, libgd-full
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 25401
+Filename: php8-mod-gd_8.1.18-1_mips_24kc.ipk
+Size: 25703
+SHA256sum: 1cbfc29748097a60815eaae122a7d0c6ce4d1139b63d15c41c2649ccc98123ad
+Description:  GD graphics shared module
+
+Package: php8-mod-gettext
+Version: 8.1.18-1
+Depends: libc, php8, libintl-full8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 3457
+Filename: php8-mod-gettext_8.1.18-1_mips_24kc.ipk
+Size: 4226
+SHA256sum: 6cdedb911f42eebda2e12697920530270248e2144a85a1b20f9ff37d03ed66df
+Description:  Gettext shared module
+
+Package: php8-mod-gmp
+Version: 8.1.18-1
+Depends: libc, php8, libgmp10
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 14806
+Filename: php8-mod-gmp_8.1.18-1_mips_24kc.ipk
+Size: 15475
+SHA256sum: 9bb224ef08959eec901dfb776a45a35c47605562777f926f3cd1ed0bba9145ac
+Description:  GMP shared module
+
+Package: php8-mod-iconv
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 17121
+Filename: php8-mod-iconv_8.1.18-1_mips_24kc.ipk
+Size: 17894
+SHA256sum: b6bf18b68e6e712d95541d82690447944097f43bb664a1a8897eeb6868ae8ffc
+Description:  iConv shared module
+
+Package: php8-mod-imap
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1, libpam, uw-imap
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 27757
+Filename: php8-mod-imap_8.1.18-1_mips_24kc.ipk
+Size: 28354
+SHA256sum: b8d12027ef8f4a3972ef04c51abccbfc0ff46ed916224e890ba8eb057c4328b3
+Description:  IMAP shared module
+
+Package: php8-mod-intl
+Version: 8.1.18-1
+Depends: libc, php8, icu71
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 134181
+Filename: php8-mod-intl_8.1.18-1_mips_24kc.ipk
+Size: 133659
+SHA256sum: 0ce494f37f262c44b348c0aacaa3344ff89397504aedb6c976eb39a4679c0ca8
+Description:  Note that this package depends in ICU library which is built without data
+ by default. This is to satisfy programs build and run dependencies but to
+ keep the installed footprint small on the target system(s).
+ However, the data is required to make the ICU library useful - and thus
+ directly affects PHPs ICU extension, too - so consider to also
+ select/install package 'icu-full-data'.
+
+Package: php8-mod-ldap
+Version: 8.1.18-1
+Depends: libc, php8, libopenldap, libsasl2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 26904
+Filename: php8-mod-ldap_8.1.18-1_mips_24kc.ipk
+Size: 27505
+SHA256sum: 056143a3b5de8de227c61e940c4b234ef9b1da10f4592cf1f71ece4a1d9477e4
+Description:  LDAP shared module
+
+Package: php8-mod-mbstring
+Version: 8.1.18-1
+Depends: libc, php8, oniguruma5
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 590347
+Filename: php8-mod-mbstring_8.1.18-1_mips_24kc.ipk
+Size: 589999
+SHA256sum: 7018d7deb68d4e0ef21962106bb2f7771c32d7c891e71f591d9a929fbdd93a4e
+Description:  MBString shared module
+
+Package: php8-mod-mysqli
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 33698
+Filename: php8-mod-mysqli_8.1.18-1_mips_24kc.ipk
+Size: 33614
+SHA256sum: 797404671bc6025ceb008126b7aefc14b3d68bd07d27bf56497cfbb1cf473183
+Description:  MySQL Improved Extension shared module
+
+Package: php8-mod-mysqlnd
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-openssl
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 72267
+Filename: php8-mod-mysqlnd_8.1.18-1_mips_24kc.ipk
+Size: 71023
+SHA256sum: a3cbfd262272731376b6854d4c68e576b262d6b52501ac399808b8321584f6bf
+Description:  MySQL Native Driver shared module
+
+Package: php8-mod-opcache
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 60705
+Filename: php8-mod-opcache_8.1.18-1_mips_24kc.ipk
+Size: 61398
+SHA256sum: 23e0ba372af3285f12da5a52037995db103c8bca8a99fee8c950affae47a1f32
+Description:  OPcache shared module
+
+Package: php8-mod-openssl
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 62011
+Filename: php8-mod-openssl_8.1.18-1_mips_24kc.ipk
+Size: 61757
+SHA256sum: 7e259e132d758f58a6b47dd60358ccd3cf333d892bafb50e489ea636d53311e2
+Description:  OpenSSL shared module
+
+Package: php8-mod-pcntl
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 10529
+Filename: php8-mod-pcntl_8.1.18-1_mips_24kc.ipk
+Size: 11259
+SHA256sum: e59c42cd2e21351a56f87a068dde9a11a0d3460fbccc9260b68aff24aa473687
+Description:  PCNTL shared module
+
+Package: php8-mod-pdo-mysql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 9931
+Filename: php8-mod-pdo-mysql_8.1.18-1_mips_24kc.ipk
+Size: 10743
+SHA256sum: 3ad6d34ebef4fe6db7d1d18260d2dcbbb79a99049a27602836a681cedd0d31ab
+Description:  PDO driver for MySQL shared module
+
+Package: php8-mod-pdo-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libpq
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 15494
+Filename: php8-mod-pdo-pgsql_8.1.18-1_mips_24kc.ipk
+Size: 16122
+SHA256sum: 7c788deaf81251e7b3981cbee4f7eb25b3b51ddd2c4b7feb8febaed6674fc7f0
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php8-mod-pdo-sqlite
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libsqlite3-0, librt
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 10224
+Filename: php8-mod-pdo-sqlite_8.1.18-1_mips_24kc.ipk
+Size: 10995
+SHA256sum: b1d39b37e0bf83ecbf30941ff340b9667bc695612e047948859865cdaa0e639d
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php8-mod-pdo
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 36853
+Filename: php8-mod-pdo_8.1.18-1_mips_24kc.ipk
+Size: 37218
+SHA256sum: b852ce0248a4be0080591a38a54a887e6d658469b9549e4c33f7ccb0fbc7b617
+Description:  PHP Data Objects shared module
+
+Package: php8-mod-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, libpq
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 38210
+Filename: php8-mod-pgsql_8.1.18-1_mips_24kc.ipk
+Size: 38574
+SHA256sum: d5ac14bdb5e22c8e46a0bb3e401a179f5a85e8c740aa041b787f6b2ce95d46cd
+Description:  PostgreSQL shared module
+
+Package: php8-mod-phar
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 94693
+Filename: php8-mod-phar_8.1.18-1_mips_24kc.ipk
+Size: 95020
+SHA256sum: 2f67626c83d686bffe15d8b8e95edbc941c2977036f3829b95eb886abca7c287
+Description:  Phar Archives shared module
+
+Package: php8-mod-session
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 30387
+Filename: php8-mod-session_8.1.18-1_mips_24kc.ipk
+Size: 31062
+SHA256sum: f0c30c09ffbbb73e875b424d782803c111e4f66b49a6e8ff4163b1bb282cd95e
+Description:  Session shared module
+
+Package: php8-mod-shmop
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 3684
+Filename: php8-mod-shmop_8.1.18-1_mips_24kc.ipk
+Size: 4440
+SHA256sum: c3a6a31d182d2d1dd75d292a650754db83a536989d00d7b3fb91a14db57f5d05
+Description:  Shared Memory shared module
+
+Package: php8-mod-simplexml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 17279
+Filename: php8-mod-simplexml_8.1.18-1_mips_24kc.ipk
+Size: 18012
+SHA256sum: 829a35293bdb191c52bef36a5a45e2ee0d57ff036b92bdaeb6a301e216e7c170
+Description:  SimpleXML shared module
+
+Package: php8-mod-snmp
+Version: 8.1.18-1
+Depends: libc, php8, libnetsnmp, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 16999
+Filename: php8-mod-snmp_8.1.18-1_mips_24kc.ipk
+Size: 17718
+SHA256sum: 22e4b99a72974b37355a327b8dcd04cc4776306310c9cac5897b7e201b3bf5f8
+Description:  SNMP shared module
+
+Package: php8-mod-soap
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 114359
+Filename: php8-mod-soap_8.1.18-1_mips_24kc.ipk
+Size: 114833
+SHA256sum: e59e50d28208dc164d3dd813697a8b0dfcffb6a2b3a56e7d9f2779a725bedd0c
+Description:  SOAP shared module
+
+Package: php8-mod-sockets
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 30351
+Filename: php8-mod-sockets_8.1.18-1_mips_24kc.ipk
+Size: 30981
+SHA256sum: d282af92d73079507c0b6be8883601e5f56183287893df131f020aa61cfa77d3
+Description:  Sockets shared module
+
+Package: php8-mod-sqlite3
+Version: 8.1.18-1
+Depends: libc, php8, libsqlite3-0
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 17660
+Filename: php8-mod-sqlite3_8.1.18-1_mips_24kc.ipk
+Size: 18309
+SHA256sum: 45c5ee57b335a14f95bafc0d3ef4640480d99cfeb23518a61c0d8a3fe7009b08
+Description:  SQLite3 shared module
+
+Package: php8-mod-sysvmsg
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 5116
+Filename: php8-mod-sysvmsg_8.1.18-1_mips_24kc.ipk
+Size: 5892
+SHA256sum: f00b9419162854bc46feb6be43664fad08c7d5b6b73ed1772867e69dbb39d868
+Description:  System V messages shared module
+
+Package: php8-mod-sysvsem
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 3404
+Filename: php8-mod-sysvsem_8.1.18-1_mips_24kc.ipk
+Size: 4173
+SHA256sum: 7fc3d2ebb6b00629c156d583bc45415154efef37cf6ff606b489718e0eeca8dc
+Description:  System V shared memory shared module
+
+Package: php8-mod-sysvshm
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 4112
+Filename: php8-mod-sysvshm_8.1.18-1_mips_24kc.ipk
+Size: 4885
+SHA256sum: cbc08439f0ab90f9916d4ff54e2b716d37b91aed605f291e4e0ccfd35075c0c1
+Description:  System V semaphore shared module
+
+Package: php8-mod-tokenizer
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 9069
+Filename: php8-mod-tokenizer_8.1.18-1_mips_24kc.ipk
+Size: 9754
+SHA256sum: c485cbb59bbc8220e5eeaef453e9df046a9cdfedbb9f6ead4e4fe922f2ce5fe5
+Description:  Tokenizer shared module
+
+Package: php8-mod-xml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 14956
+Filename: php8-mod-xml_8.1.18-1_mips_24kc.ipk
+Size: 15585
+SHA256sum: 19cbb243076711475e11f89671b725b22717bae6e57593a4127fc26e7898f7ac
+Description:  XML shared module
+
+Package: php8-mod-xmlreader
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-dom, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 9432
+Filename: php8-mod-xmlreader_8.1.18-1_mips_24kc.ipk
+Size: 10193
+SHA256sum: 8d18d05d39211671c102d7edc2411e7d2ed29f03e82b5da567e2128915177ddc
+Description:  XMLReader shared module
+
+Package: php8-mod-xmlwriter
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 8444
+Filename: php8-mod-xmlwriter_8.1.18-1_mips_24kc.ipk
+Size: 9078
+SHA256sum: 4f54642557240c87d7ad686589ef68a0673a1195d8718f25db407ec97f71348d
+Description:  XMLWriter shared module
+
+Package: php8-mod-zip
+Version: 8.1.18-1
+Depends: libc, php8, libzip
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 21498
+Filename: php8-mod-zip_8.1.18-1_mips_24kc.ipk
+Size: 22034
+SHA256sum: 4ef0629873dff933b96d1e526dc1cca4ebea4a6b69a25c6358859e77d94ca160
+Description:  ZIP shared module
+
+Package: php8
+Version: 8.1.18-1
+Depends: libc, libpcre2, zlib, libxml2, zoneinfo-core
+Conflicts: php7
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: mips_24kc
+Installed-Size: 1454
+Filename: php8_8.1.18-1_mips_24kc.ipk
+Size: 2501
+SHA256sum: 053a44e4cc5574189e56d2bd25b2b0c1d4d426acc65d673ad5c5b4d84460398c
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php8 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
 
 Package: ruby-abbrev
 Version: 3.0.6-1
@@ -3881,6 +5646,241 @@ Size: 40127
 SHA256sum: 07d544c5783d5fe53d6f5d00b5d727dadea3922d281dedfe0d3c9d0cf2f6cb9a
 Description:  shadowsocks-libev ss-tunnel
 
+Package: snmp-mibs
+Version: 5.9.1-3
+Depends: libc
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: mips_24kc
+Installed-Size: 340265
+Filename: snmp-mibs_5.9.1-3_mips_24kc.ipk
+Size: 341215
+SHA256sum: 96f2a3bebe5bba8248c6bbf3578f5f5b9e5cb5aec1c69234ff4b80431a52bccf
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP MIB-Files.
+
+Package: snmp-utils
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: mips_24kc
+Installed-Size: 15172
+Filename: snmp-utils_5.9.1-3_mips_24kc.ipk
+Size: 16079
+SHA256sum: ea4d93a51ae6629b47929d84bd1d847052cecff13a3e1921b755c38c9165101b
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities:
+ - snmpget
+ - snmpset
+ - snmpstatus
+ - snmptest
+ - snmptrap
+ - snmpwalk
+
+Package: snmpd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: mips_24kc
+Installed-Size: 10387
+Filename: snmpd_5.9.1-3_mips_24kc.ipk
+Size: 11388
+SHA256sum: 6c9889d3deed6c1fa29feadb97de1df17121ebdee1a5db93674971f4ff01a9d1
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: snmptrapd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: mips_24kc
+Installed-Size: 18784
+Filename: snmptrapd_5.9.1-3_mips_24kc.ipk
+Size: 19751
+SHA256sum: 9b8135b75aaf613fcb48c1385468392b83829ec2c39320fab4e4471b5e58d949
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: sqlite3-cli
+Version: 3410100-1
+Depends: libc, libsqlite3-0, libedit
+License: PUBLICDOMAIN
+Section: utils
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: mips_24kc
+Installed-Size: 101711
+Filename: sqlite3-cli_3410100-1_mips_24kc.ipk
+Size: 102176
+SHA256sum: 87da8232289fa657ca8e4c3d688ae7e8fa3b8b90905b1f7eedd9a396965f449a
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:tar
+Architecture: mips_24kc
+Installed-Size: 164694
+Filename: tar_1.34-1_mips_24kc.ipk
+Size: 165147
+SHA256sum: 92db279514149943193bb9a86aad9e3f6e3b92ae005ded9d925e4c98179a2961
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tiff-utils
+Version: 4.3.0-3
+Depends: libc, libtiff5
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:libtiff:libtiff
+Architecture: mips_24kc
+Installed-Size: 131486
+Filename: tiff-utils_4.3.0-3_mips_24kc.ipk
+Size: 131845
+SHA256sum: 9811fee47f2ad03e6a812ade0230dad4b835475692bfc46e8a5d0c2b1f3d7422
+Description:  TIFF utilities
+
+Package: unbound-anchor
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 20737
+Filename: unbound-anchor_1.17.0-1_mips_24kc.ipk
+Size: 21421
+SHA256sum: d46f110d095163c37af268dedc74abcec2312cc89e7ea60bd7348f5be0f16625
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 48281
+Filename: unbound-checkconf_1.17.0-1_mips_24kc.ipk
+Size: 48478
+SHA256sum: b403a00c34259c83148f613fce77c8baa614d956c22b90daaace53ef476b33d6
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 2591
+Filename: unbound-control-setup_1.17.0-1_mips_24kc.ipk
+Size: 3436
+SHA256sum: f8cfa79330144a094fc12102b0318105ffdf6be2a5927a8b7cd60874cd06e506
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 49701
+Filename: unbound-control_1.17.0-1_mips_24kc.ipk
+Size: 49874
+SHA256sum: dbdb2bf533100712287ab47ed5b7bb00c9c1338200d1b08a3bd93a0b416c12cc
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 132875
+Filename: unbound-daemon_1.17.0-1_mips_24kc.ipk
+Size: 132568
+SHA256sum: 959336433752d538833d46719254f10fb2293862da0e981ef7f316176daf4c97
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: mips_24kc
+Installed-Size: 41722
+Filename: unbound-host_1.17.0-1_mips_24kc.ipk
+Size: 41978
+SHA256sum: f6322e8d7c6bfd007625dc08c6557aa65a52be720d69be858853e8b9d7d17457
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: unixodbc-tools
+Version: 2.3.9-2
+Depends: libc, unixodbc, libncurses6, libreadline8
+License: prog GPL libs LGPL
+Section: utils
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: mips_24kc
+Installed-Size: 22093
+Filename: unixodbc-tools_2.3.9-2_mips_24kc.ipk
+Size: 22782
+SHA256sum: ef0c653879258805bdb758c5611d58b67d9f7329e493f8b9b642f4283f31f87f
+Description:  Command Line Tools to help install a driver and work with SQL.
+
+Package: unixodbc
+Version: 2.3.9-2
+Depends: libc, libltdl7, libpthread
+License: prog GPL libs LGPL
+Section: libs
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: mips_24kc
+Installed-Size: 182126
+Filename: unixodbc_2.3.9-2_mips_24kc.ipk
+Size: 182592
+SHA256sum: 1d4b26a1210383e0e979ea8bfedbd2b11671532f6bffdc174a3f6d2d6d43cb42
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
 Package: unzip
 Version: 6.0-8
 Depends: libc
@@ -3896,4 +5896,222 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 251054
+Filename: usbids_0.359-1_mips_24kc.ipk
+Size: 251504
+SHA256sum: ba8c707a4536bc040528e69f4b4804853f048a7a3ed6863fa6021b4514e3ce1c
+Description:  USB ID list
+
+Package: uw-imap
+Version: 2007f-5
+Depends: libc, libpthread, libopenssl1.1
+License: Apache-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 463307
+Filename: uw-imap_2007f-5_mips_24kc.ipk
+Size: 463761
+SHA256sum: 73f4672d7fc93788c533808585ef4695af2070bf50a3ebe9f27a9aa96aeb094c
+Description:  The UW IMAP tookit includes the following:
+ c-lient library : an API (application programming interface) used to build email clients and servers,
+ including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
+
+Package: zipcmp
+Version: 1.8.0-4
+Depends: libc, libzip, musl-fts
+License: BSD-3-Clause
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 8038
+Filename: zipcmp_1.8.0-4_mips_24kc.ipk
+Size: 8849
+SHA256sum: 2837cbf55b66ab49be43a9943b9ac03066c0abe76a10bece1f589332a486b9b9
+Description:  This package contains the command line tool zipcmp from libzip.
+
+Package: zipmerge
+Version: 1.8.0-4
+Depends: libc, libzip
+License: BSD-3-Clause
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 3631
+Filename: zipmerge_1.8.0-4_mips_24kc.ipk
+Size: 4379
+SHA256sum: 93ad9e781a7c286748b4c7658f450ba1a5691490290517f2bf0daea6e5705333
+Description:  This package contains the command line tool zipmerge from libzip.
+
+Package: ziptool
+Version: 1.8.0-4
+Depends: libc, libzip
+License: BSD-3-Clause
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 8293
+Filename: ziptool_1.8.0-4_mips_24kc.ipk
+Size: 9071
+SHA256sum: 7e4aeac4b790e62195b8883ed0542a6b5f6cb828c84a9110a9ca0c9349906b29
+Description:  This package contains the command line tool ziptool from libzip.
+
+Package: zoneinfo-africa
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 7271
+Filename: zoneinfo-africa_2023c-1_mips_24kc.ipk
+Size: 8014
+SHA256sum: 3f8bca512559778907e73a028226780e39a398039821e253018903853e1009e1
+Description:  Zone Information (Africa)
+
+Package: zoneinfo-all
+Version: 2023c-1
+Depends: libc, zoneinfo-core, zoneinfo-africa, zoneinfo-northamerica, zoneinfo-southamerica, zoneinfo-poles, zoneinfo-asia, zoneinfo-atlantic, zoneinfo-australia-nz, zoneinfo-pacific, zoneinfo-europe, zoneinfo-india
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 95
+Filename: zoneinfo-all_2023c-1_mips_24kc.ipk
+Size: 890
+SHA256sum: c71f3815ba0359225042d023f461b9990f75aa7b366b820e60443ee619195874
+Description:  Zone Information (all zones)
+
+Package: zoneinfo-asia
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 30558
+Filename: zoneinfo-asia_2023c-1_mips_24kc.ipk
+Size: 30974
+SHA256sum: 2d06c80bc01a9179ca9e345e9ab1dbc9ac0ede9eda97f6f98f76dab31babea73
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-atlantic
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 5793
+Filename: zoneinfo-atlantic_2023c-1_mips_24kc.ipk
+Size: 6505
+SHA256sum: fac108e12a76dd657ed613e80ee3676236ac73bbf5b267879b614f3b08f8c1ee
+Description:  Zone Information (Atlantic)
+
+Package: zoneinfo-australia-nz
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 6688
+Filename: zoneinfo-australia-nz_2023c-1_mips_24kc.ipk
+Size: 7316
+SHA256sum: d18194bb41e38be889706bb425201ecafedc062fb0de326a6f75c3bda63c5490
+Description:  Zone Information (Australia-NZ)
+
+Package: zoneinfo-core
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 20440
+Filename: zoneinfo-core_2023c-1_mips_24kc.ipk
+Size: 20795
+SHA256sum: 0164ac3fdffd546f799242bdb1a270f94e58f097963ad34cc898caa3f4560ac1
+Description:  Zone Information (core)
+
+Package: zoneinfo-europe
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 20936
+Filename: zoneinfo-europe_2023c-1_mips_24kc.ipk
+Size: 21558
+SHA256sum: def2104c41d73cec13c1c7d6b1b17a14f95bd7fb1c8a88e3c2794321146b8dbb
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-india
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 941
+Filename: zoneinfo-india_2023c-1_mips_24kc.ipk
+Size: 1682
+SHA256sum: 526943611168f61e5164f9c2bf657d16eb52b47e56e9d526e3f491c73d91aa5c
+Description:  Zone Information (India)
+
+Package: zoneinfo-northamerica
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 78798
+Filename: zoneinfo-northamerica_2023c-1_mips_24kc.ipk
+Size: 78599
+SHA256sum: f45ee00aa36da22e6ae0fda4dc0a410461698e45dbbf5316e15f40b72974c0f1
+Description:  Zone Information (NorthAmerica)
+
+Package: zoneinfo-pacific
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 6662
+Filename: zoneinfo-pacific_2023c-1_mips_24kc.ipk
+Size: 7430
+SHA256sum: 7c2b950f35e2401f4f83e0e468aa58bff0fb1c74c5da45c6059450fe9bcf8ea8
+Description:  Zone Information (Pacific)
+
+Package: zoneinfo-poles
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 5046
+Filename: zoneinfo-poles_2023c-1_mips_24kc.ipk
+Size: 5800
+SHA256sum: b93ddcc29b811142be6335003d59a569b75cbc1556c309c7991273a76951400f
+Description:  Zone Information (Arctic, Antarctic)
+
+Package: zoneinfo-simple
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 16823
+Filename: zoneinfo-simple_2023c-1_mips_24kc.ipk
+Size: 17504
+SHA256sum: b868f63e86d1a7739c287ae9dc2f84876142a23ec014e186acae8917025037fb
+Description:  Zone Information (simple)
+
+Package: zoneinfo-southamerica
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 4830
+Filename: zoneinfo-southamerica_2023c-1_mips_24kc.ipk
+Size: 5535
+SHA256sum: 2d4c3d9c29463e710e8992d8c4d28f4ce248f772841fef5e006e3ddede99ad8a
+Description:  Zone Information (SouthAmerica)
 

@@ -19,6 +19,363 @@ Description:  Access control list support
  - getfacl
  - setfacl
 
+Package: apache-ab
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-ab
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19674
+Filename: apache-ab_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20533
+SHA256sum: bc1f91c475f59bc2f0a3dcbc94ca0c37edbee0f34b57ea41f86148f01641c4f2
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache server benchmarking utility.
+ 
+
+Package: apache-error
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-error
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 39450
+Filename: apache-error_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40500
+SHA256sum: 9b0072e1f49d12111c183075f02c483857b9ca2e6061af52b07329920f67b298
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache multi language custom error documents.
+ 
+
+Package: apache-icons
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-icons
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 140379
+Filename: apache-icons_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 140928
+SHA256sum: a39c4bf50881511122df8605f39f98cffbd63a87380d8cfd2d66b749b1477eb7
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the icons from Apache.
+ 
+
+Package: apache-mod-deflate
+Version: 2.4.52-1
+Depends: libc, apache, zlib
+Source: feeds/packages/net/apache
+SourceName: apache-mod-deflate
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11079
+Filename: apache-mod-deflate_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11819
+SHA256sum: 9cc390f35c9f0aedbb641dac621c26cf41cc5c7ec0a454677871cb842879bfd5
+Description:  Deflate support for the Apache HTTP server.
+
+Package: apache-mod-http2
+Version: 2.4.52-1
+Depends: libc, apache, libnghttp2-14, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-mod-http2
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 80499
+Filename: apache-mod-http2_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 81073
+SHA256sum: 11a7a51a5b2e29dc186932c1ed1d062abc98d68bf170eb7e44437fb8aee46f01
+Description:  HTTP/2 transport layer for the Apache HTTP Server.
+
+Package: apache-mod-ldap
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-ldap
+Source: feeds/packages/net/apache
+SourceName: apache-mod-ldap
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 37406
+Filename: apache-mod-ldap_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38322
+SHA256sum: 22d3099e0eaf35fb96cae72e8cdb807df78f5b95dc79345ce2f34b3204523efe
+Description:  LDAP authentication/authorization module for the Apache HTTP Server.
+
+Package: apache-mod-lua
+Version: 2.4.52-1
+Depends: libc, apache, liblua5.1.5
+Source: feeds/packages/net/apache
+SourceName: apache-mod-lua
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 39032
+Filename: apache-mod-lua_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 39528
+SHA256sum: aa50746adf35414d1c8d5cc5967eed9973da4dd2309ee399a7751ca2a8c95c92
+Description:  Lua support for the Apache HTTP server.
+
+Package: apache-mod-md
+Version: 2.4.52-1
+Depends: libc, apache, libcurl4, jansson4, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-mod-md
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 103517
+Filename: apache-mod-md_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 104051
+SHA256sum: 3c2434195236a92f15524dd2344162aaecacc5272acaf40213db4c688abdcc15
+Description:  Managed Domain handling.
+
+Package: apache-mod-php8
+Version: 8.1.18-1
+Depends: libc, php8, apache, libstdcpp6, libpcre2, zlib
+Source: feeds/packages/lang/php8
+SourceName: apache-mod-php8
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1428862
+Filename: apache-mod-php8_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1405408
+SHA256sum: e0a28764daddc02f0f302411987520a3f09461da578a620a93260dceb1aca6b8
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the PHP module for the Apache Web Server.
+
+Package: apache-mod-proxy-html
+Version: 2.4.52-1
+Depends: libc, apache, apache-mod-proxy, libxml2
+Source: feeds/packages/net/apache
+SourceName: apache-mod-proxy-html
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17237
+Filename: apache-mod-proxy-html_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18081
+SHA256sum: bf386e3f8630e4ac59febaef03e6c0636e8c5634568cfd09168f7ed946e051ff
+Description:  HTML and XML content filters for the Apache HTTP Server.
+
+Package: apache-mod-proxy
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-mod-proxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 156895
+Filename: apache-mod-proxy_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 156905
+SHA256sum: 46980e7711cf0893b9390372f3af9c1fd741c30779c97805ea8be9364340a846
+Description:  Proxy modules for the Apache HTTP Server.
+
+Package: apache-mod-session-crypto
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-crypto-openssl
+Source: feeds/packages/net/apache
+SourceName: apache-mod-session-crypto
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6087
+Filename: apache-mod-session-crypto_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6914
+SHA256sum: fd1116e82bee3352e3a14f6b55510c808a77add6f4832c220c2ee9ee472e4652
+Description:  Session encryption support for the Apache HTTP Server.
+
+Package: apache-mod-ssl
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+Source: feeds/packages/net/apache
+SourceName: apache-mod-ssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 78829
+Filename: apache-mod-ssl_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 78717
+SHA256sum: 3a0c0f96a89f37d57ec721ca3889ae521168d4a99009cd75d0524e8f874ae301
+Description:  SSL/TLS module for the Apache HTTP Server.
+
+Package: apache-mod-suexec
+Version: 2.4.52-1
+Depends: libc, apache, apache-suexec
+Source: feeds/packages/net/apache
+SourceName: apache-mod-suexec
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1708
+Filename: apache-mod-suexec_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2528
+SHA256sum: 7c94172e7e8b0f348265031a7a3e77621eb801043140208a1c1aab890f636970
+Description:  suEXEC module for the Apache HTTP Server.
+
+Package: apache-mod-webdav
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-mod-webdav
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 58189
+Filename: apache-mod-webdav_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58896
+SHA256sum: 8fd7aa4a01572c345e9739e1dfbbb90a9758f467c6f7a27a90ff438c6425b222
+Description:  WebDAV support for the Apache HTTP Server.
+
+Package: apache-suexec
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-suexec
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4477
+Filename: apache-suexec_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5394
+SHA256sum: 6f4fb001be7a7517ba8ebca260abd6a7648a2280bbefed2051f6b8b2a2156094
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the suEXEC utility from Apache.
+ 
+
+Package: apache-utils
+Version: 2.4.52-1
+Depends: libc, apache
+Source: feeds/packages/net/apache
+SourceName: apache-utils
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17598
+Filename: apache-utils_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18544
+SHA256sum: 3045be4ba88eb68722f562d825bdd1824d1776cfa4241f4b0058d45b0f78cc49
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache utility programs for webservers.
+ 
+
+Package: apache
+Version: 2.4.52-1
+Depends: libc, libapr, libaprutil, libpcre
+Source: feeds/packages/net/apache
+SourceName: apache
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: apache=377:apache=377
+SourceDateEpoch: 1643815499
+CPE-ID: cpe:/a:apache:http_server
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 710106
+Filename: apache_2.4.52-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 707236
+SHA256sum: f54a517dd071455deee97d94561469602e3baf68bbdfe364d3cc18dc7603ba80
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the Apache web server and utility programs.
+ 
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -59,6 +416,29 @@ SHA256sum: 84bfccd5890ddfea3a832fd161b182dcc442e4a024722a4969abe7066eb0e057
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: certtool
+Version: 3.7.1-2
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+SourceName: certtool
+License: LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 131166
+Filename: certtool_3.7.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 131633
+SHA256sum: 1d9296248e9f17c241e7d2e84a20df0d780440cc517c20720e6230fb88a52c7f
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
 
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
@@ -2091,6 +2471,30 @@ Size: 58386
 SHA256sum: 5c3f5460bb4925158f3c31f705f10064f1db1050fd14a65ca8a8e5056136d0f2
 Description:  A client-side URL transfer utility
 
+Package: gnutls-utils
+Version: 3.7.1-2
+Depends: libc, libgnutls, libgnutls-dane
+Source: feeds/packages/libs/gnutls
+SourceName: gnutls-utils
+License: LGPL-2.1-or-later
+Section: utils
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 251768
+Filename: gnutls-utils_3.7.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 251767
+SHA256sum: bc5e25f06738f6ca1fea238807758ed2851bc97d6501a4170c3a93001067ec94
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
 Package: halog
 Version: 2.4.22-1
 Depends: libc, haproxy
@@ -2148,6 +2552,159 @@ SHA256sum: a0ab43867f150fe27aab421aa6d07828f9563409286e76c847eadeb87ce3f35d
 Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
  This package is built with SSL and LUA support.
 
+Package: icu-data-tools
+Version: 71.1-1
+Depends: libc, icu71
+Source: feeds/packages/libs/icu
+SourceName: icu-data-tools
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1653073818
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 159630
+Filename: icu-data-tools_71.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 160099
+SHA256sum: 8fdba0ac1c36b965834946a8abbfb5c21fa30a932ac754bf966f7f5ff4571cb3
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data71
+Version: 71.1-1
+Depends: libc, icu71
+Provides: icu-full-data
+Source: feeds/packages/libs/icu
+SourceName: icu-full-data
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1653073818
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11986652
+Filename: icu-full-data71_71.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11831855
+SHA256sum: 252ae8040689fb8b6c7628644537f71884f4f512da8dc5a5babad471b5052a63
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu71
+Version: 71.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+Source: feeds/packages/libs/icu
+SourceName: icu
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1653073818
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1737651
+Filename: icu71_71.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1723913
+SHA256sum: c7db9a0a8733e38b2314196817a84ece7fcbed12c08243bbd00ebb1150f68b82
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: kmod
+Version: 27-2
+Depends: libc, zlib
+Alternatives: 200:/sbin/depmod:/sbin/kmod, 200:/sbin/insmod:/sbin/kmod, 200:/sbin/lsmod:/sbin/kmod, 200:/sbin/modinfo:/sbin/kmod, 200:/sbin/modprobe:/sbin/kmod, 200:/sbin/rmmod:/sbin/kmod
+Source: feeds/packages/utils/kmod
+SourceName: kmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1607593828
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53452
+Filename: kmod_27-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54379
+SHA256sum: e3c67c0354412f5cd94ce56b37c7c05c475ad43fe4d12c6dc0e84fc5fb4a51dd
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: krb5-client
+Version: 1.19.2-2
+Depends: libc, krb5-libs
+Source: feeds/packages/net/krb5
+SourceName: krb5-client
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 38133
+Filename: krb5-client_1.19.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38928
+SHA256sum: d2e10404311e071545c4e1eb5ed8a8aa3c67e1a842b653f974fda7733f256b30
+Description:  Kerberos 5 Client
+
+Package: krb5-libs
+Version: 1.19.2-2
+Depends: libc, libncurses6, libss2, libcomerr0
+Source: feeds/packages/net/krb5
+SourceName: krb5-libs
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 629548
+Filename: krb5-libs_1.19.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 619089
+SHA256sum: 95f5fe59d05cd4a6209835e0f0d61dc03605b655c3b0c8e645cf41999cc30b11
+Description:  Kerberos 5 Shared Libraries
+
+Package: krb5-server-extras
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+Source: feeds/packages/net/krb5
+SourceName: krb5-server-extras
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 47935
+Filename: krb5-server-extras_1.19.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 48423
+SHA256sum: 084c0576a307d4289e0485666c285b33e079639cc04c5090db9b1632267861e3
+Description:  Kerberos 5 Admin Server
+
+Package: krb5-server
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+Source: feeds/packages/net/krb5
+SourceName: krb5-server
+License: MIT
+LicenseFiles: NOTICE
+Section: net
+SourceDateEpoch: 1641764628
+CPE-ID: cpe:/a:mit:kerberos
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 103524
+Filename: krb5-server_1.19.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 103810
+SHA256sum: 66eedd0d9a8c0a13c8bd49a09efd39636d3ad38719efb01e97df1e9946e70586
+Description:  Kerberos 5 Server
+
 Package: libacl
 Version: 2.3.1-1
 Depends: libc, libattr
@@ -2165,6 +2722,168 @@ Size: 11692
 SHA256sum: 8ef3921c42a31743cfeff62745ad10779b940653abff09c11ae5a050c767863b
 Description:  Access control list support
  This package provides libacl
+
+Package: libapr
+Version: 1.7.0-3
+Depends: libc, libpthread, librt, libuuid1
+Source: feeds/packages/libs/apr
+SourceName: libapr
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1629725903
+CPE-ID: cpe:/a:apache:apr
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 79125
+Filename: libapr_1.7.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 79434
+SHA256sum: 4167e0cdb983e7716d8a9e34afbd87a7ca19086c2f69a39f0e73fb0807b4caf2
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil-crypto-openssl
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenssl1.1
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-crypto-openssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3712
+Filename: libaprutil-crypto-openssl_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4490
+SHA256sum: 608f2d9a4b83d1eb0c2ccc3d1b6b53722cf99d650d89004091ec4bc950fe90b7
+Description:  libaprutil - OpenSSL driver
+
+Package: libaprutil-dbd-mysql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libmariadb3
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-mysql
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5852
+Filename: libaprutil-dbd-mysql_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6634
+SHA256sum: f83c8e40185fb687b558ca15c1f6dc9346e6b58bc63984441c67f0e9d24f3d85
+Description:  libaprutil - MySQL driver
+
+Package: libaprutil-dbd-odbc
+Version: 1.6.1-7
+Depends: libc, libaprutil, unixodbc
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-odbc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9879
+Filename: libaprutil-dbd-odbc_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10678
+SHA256sum: ac40a0b3679d9a759001d2757276d6b1f0f815aff64930914df3558064b194af
+Description:  libaprutil - ODBC driver
+
+Package: libaprutil-dbd-pgsql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libpq
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-pgsql
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5894
+Filename: libaprutil-dbd-pgsql_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6689
+SHA256sum: 236710aaef8a9ca630e34414132d3b4b4f16c049509c3d2a542acbd56657d81c
+Description:  libaprutil - PostgreSQL driver
+
+Package: libaprutil-dbd-sqlite3
+Version: 1.6.1-7
+Depends: libc, libaprutil, libsqlite3-0
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbd-sqlite3
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4064
+Filename: libaprutil-dbd-sqlite3_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4851
+SHA256sum: 260bc10c8f1ba56ef7ed8f3ad85a0f91179bd4cd79c188334fe9851db43b4f6a
+Description:  libaprutil - SQLite3 driver
+
+Package: libaprutil-dbm-gdbm
+Version: 1.6.1-7
+Depends: libc, libaprutil, libgdbm
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-dbm-gdbm
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1931
+Filename: libaprutil-dbm-gdbm_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2738
+SHA256sum: 18c98653aa0865da41cfd0ecb1aa8cf1e026ab3a9402b8f62e2cb38e627ad456
+Description:  libaprutil - GDBM dbm driver
+
+Package: libaprutil-ldap
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenldap
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil-ldap
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2961
+Filename: libaprutil-ldap_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3727
+SHA256sum: 97dd7797f5fc5f9af9f79c13fe2dd3b204ff5723564780129fd508150c3adc85
+Description:  libaprutil - LDAP driver
+
+Package: libaprutil
+Version: 1.6.1-7
+Depends: libc, libapr, libexpat, libuuid1
+Source: feeds/packages/libs/apr-util
+SourceName: libaprutil
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1671252508
+CPE-ID: cpe:/a:apache:apr-util
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 70017
+Filename: libaprutil_1.6.1-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 70420
+SHA256sum: 1360d4376627d53494d92908ea3af56cc70f60111876904be28ac1ab57648d10
+Description:  Apache Portable Runtime Utility Library
 
 Package: libattr
 Version: 2.5.1-1
@@ -2262,6 +2981,22 @@ Size: 531653
 SHA256sum: 4c5891617612684ef2208a3943c6071525afe2caade490f021502397d01dddd5
 Description:  Berkeley DB library (4.7).  C++ wrapper.
 
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/libs/libedit
+SourceName: libedit
+License: BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1624277720
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 64250
+Filename: libedit_20210522-3.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 64743
+SHA256sum: d71ab3cf025dea3d9629dcfa011c1f1577d4cc61ed7c6bf7760f3a0237fb0d94
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
 Package: libev
 Version: 4.33-1
 Depends: libc
@@ -2278,6 +3013,24 @@ Size: 20804
 SHA256sum: 55fe264dd56601cf9378c3e936a53c9f40946127fab006fced0aa86a006f7d60
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665005406
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40067
+Filename: libexpat_2.4.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40919
+SHA256sum: aed687e0dd63a60cb3af05a39de734ac4575152b2d30419d6fa05dc07791899f
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
 Version: 3.4.2-2
@@ -2305,6 +3058,69 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: libfreetype
+Version: 2.11.1-1
+Depends: libc, zlib, libpng
+Source: feeds/packages/libs/freetype
+SourceName: libfreetype
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h builds/unix/config.sub builds/unix/config.guess builds/unix/libtool 
+Section: libs
+SourceDateEpoch: 1639992425
+CPE-ID: cpe:/a:freetype:freetype2
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 277140
+Filename: libfreetype_2.11.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 277442
+SHA256sum: 9cce8c3e86f0242a11603069d23c1e48b8701faf54b0d35e9910723e1716a248
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd-full
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp, libtiff5, libfreetype
+Provides: libgd
+Source: feeds/packages/libs/libgd
+SourceName: libgd-full
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665049542
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 94880
+Filename: libgd-full_2.3.2-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 94636
+SHA256sum: 4952b0f882668fe281e60c1044bcccf5160615b03b28c94399004fe250b6ba5a
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgd
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+Source: feeds/packages/libs/libgd
+SourceName: libgd
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665049542
+CPE-ID: cpe:/a:libgd:libgd
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 81362
+Filename: libgd_2.3.2-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 81049
+SHA256sum: 66f99dc30e0787590be4645f3a2e3f7168be42de17b6b5cb1617d7845a1fc350
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
 Package: libgdbm
 Version: 1.21-1
 Depends: libc
@@ -2323,6 +3139,187 @@ SHA256sum: dc4b44ee084b053b71b03a16e9abfe29c1979c6d244612ff83f0f211323b2d07
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
+
+Package: libgnutls-dane
+Version: 3.7.1-2
+Depends: libc, libgnutls, libunbound
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls-dane
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13385
+Filename: libgnutls-dane_3.7.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14120
+SHA256sum: 6a8dfb189f4d34ee02bc1f11077c85c9d6b93fbe736ee278e17340ed801ffe05
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1659613647
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 899269
+Filename: libgnutls_3.7.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 896625
+SHA256sum: 76253c6304c30813ac742383455fc155914c0b92b34d84def41e6b9c8391b46b
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libjpeg-turbo-utils
+Version: 2.1.2-1
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo-utils
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1639715161
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 43433
+Filename: libjpeg-turbo-utils_2.1.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 44189
+SHA256sum: be075b6f3f0ddeb0b7ca28dbfff2a5f2cf9cb87db27cd67e162233a59f116b65
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 2.1.2-1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1639715161
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 98582
+Filename: libjpeg-turbo_2.1.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 99303
+SHA256sum: 814a9088804557f23bb9852c63217c8c93a45d24784997c6fd87c87d0c3033a3
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+SourceName: libkmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1607593828
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 31376
+Filename: libkmod_27-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32151
+SHA256sum: 2329633d19e536ff73ab6b4203d955bc7d0034dae4edb7bd5db47016a0393700
+Description:  Linux kernel module handling (library)
+
+Package: libmariadb-plugin-auth-gssapi-client
+Version: 3.1.12-4
+Depends: libc, libmariadb3, krb5-libs
+Source: feeds/packages/libs/libmariadb
+SourceName: libmariadb-plugin-auth-gssapi-client
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1638179265
+CPE-ID: cpe:/a:mariadb:mariadb
+Maintainer: Michal Hrusecky <Michal@Hrusecky.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2557
+Filename: libmariadb-plugin-auth-gssapi-client_3.1.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3390
+SHA256sum: a549b44d6e4d35cea6deb04039ffe7541092a21797ce7a690569a756051eb5cd
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the auth_gssapi_client plugin.
+ 
+
+Package: libmariadb-plugin-remote-io
+Version: 3.1.12-4
+Depends: libc, libmariadb3, libcurl4
+Source: feeds/packages/libs/libmariadb
+SourceName: libmariadb-plugin-remote-io
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1638179265
+CPE-ID: cpe:/a:mariadb:mariadb
+Maintainer: Michal Hrusecky <Michal@Hrusecky.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2763
+Filename: libmariadb-plugin-remote-io_3.1.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3602
+SHA256sum: 7fe84466890131bee6a8b905b557bf4ca8fcfd3ddc34076bb3fbb54d06eabf0e
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the remote_io plugin.
+ 
+
+Package: libmariadb3
+Version: 3.1.12-4
+Depends: libc, libopenssl1.1, zlib
+Provides: libmariadbclient, libmysqlclient, libmysqlclient-r, libmariadb, libmariadbclient3, libmysqlclient3, libmysqlclient-r3
+Source: feeds/packages/libs/libmariadb
+SourceName: libmariadb
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1638179265
+ABIVersion: 3
+CPE-ID: cpe:/a:mariadb:mariadb
+Maintainer: Michal Hrusecky <Michal@Hrusecky.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 149901
+Filename: libmariadb3_3.1.12-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 149590
+SHA256sum: 939aaf634c91ef97d32d83c559db439ab8ffeb333d8b5d65fe4f1db50e43ae38
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package includes the client library.
+ 
+
+Package: libnetsnmp
+Version: 5.9.1-3
+Depends: libc, libnl-tiny1, libpci, libpcre
+Source: feeds/packages/net/net-snmp
+SourceName: libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: libs
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 415628
+Filename: libnetsnmp_5.9.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 413107
+SHA256sum: 13dafe4481ffeb00f0886ed578b2c27d37a2f8bca6977cf9a9fc9857957b76d9
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
 
 Package: libnghttp2-14
 Version: 1.44.0-1
@@ -2343,6 +3340,147 @@ Size: 55329
 SHA256sum: 407dedb5a039f283a6480a5f549a88f287e40be40aba8cae5d93e7372544b81d
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libopenldap
+Version: 2.6.0-4
+Depends: libc, libopenssl1.1, libsasl2, libpthread, libuuid1
+Source: feeds/packages/libs/openldap
+SourceName: libopenldap
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653080857
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 125496
+Filename: libopenldap_2.6.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 125627
+SHA256sum: f6adb41803be1dc55fb29f2d1441220dfc60429729f0a12063c496abd5ca827d
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+Source: feeds/packages/libs/libpam
+SourceName: libpam
+License: BSD-3c GPL
+LicenseFiles: COPYING Copyright
+Section: libs
+SourceDateEpoch: 1606698005
+CPE-ID: cpe:/a:kernel:linux-pam
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 173573
+Filename: libpam_1.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 173753
+SHA256sum: 646f5b2b93754db2edf3ad490b73580ef25ea4530779d51d4fd460c867b05831
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+Source: feeds/packages/utils/pciutils
+SourceName: libpci
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1661282066
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18221
+Filename: libpci_3.8.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19023
+SHA256sum: 93d56041cfd1ddae8a2b8cd92e1ea45a382221e3c8365cd26a697d2cb84f7122
+Description:  Linux PCI Libraries
+
+Package: libpcre2-16
+Version: 10.37-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2-16
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1626851939
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 157891
+Filename: libpcre2-16_10.37-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 158637
+SHA256sum: e706a8a5d2ff9a45a257274e07903389037f1a9998c89f1fc611ce55aa2fcd1a
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre2-32
+Version: 10.37-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2-32
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1626851939
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 148476
+Filename: libpcre2-32_10.37-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 149162
+SHA256sum: 1bfa9a69e09e1567dc905633c02a45b5219c48c4db4f653295ff11bd3211ce80
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre2
+Version: 10.37-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1626851939
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 173321
+Filename: libpcre2_10.37-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 174024
+SHA256sum: f1d3284e282c8b86c61773cb7391fc78b30784ba12ee4f75ec54e86b96eb0bd3
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+SourceName: libpng
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1623557101
+CPE-ID: cpe:/a:libpng:libpng
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 85315
+Filename: libpng_1.6.37-11_arm_cortex-a7_neon-vfpv4.ipk
+Size: 86101
+SHA256sum: f2a6174a5abc9169af3cc5c995d35dd6a5608fa97fea0207bb32078ce1e81d7f
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 14.5-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/postgresql
+SourceName: libpq
+License: PostgreSQL
+Section: libs
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 107942
+Filename: libpq_14.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 107765
+SHA256sum: 8f1a6138a44a939af66bd2fd205fcaf4130b7cbaf25b6958573dce3882faf63c
+Description:  PostgreSQL client library.
+
 Package: libruby3.0
 Version: 3.0.6-1
 Depends: libc, libpthread, librt, libgmp10, zlib
@@ -2362,6 +3500,42 @@ Filename: libruby3.0_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 1015967
 SHA256sum: 3336cb22977d735783c9cb20b7e5388fcb3e3d1302bf99ff7e58e0b0c1cc3306
 Description:  Ruby scripting language (shared library)
+
+Package: libsasl2-sasldb
+Version: 2.1.27-5
+Depends: libc, libsasl2, libdb47
+Source: feeds/packages/libs/cyrus-sasl
+SourceName: libsasl2-sasldb
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+SourceDateEpoch: 1636786835
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8836
+Filename: libsasl2-sasldb_2.1.27-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9668
+SHA256sum: 38b3bd7dd67c2a3ac73266db5649c253935fad3b987c4d97299d038db8c8ee26
+Description:  A general purpose authentication library (sasldb libraries)
+
+Package: libsasl2
+Version: 2.1.27-5
+Depends: libc, libopenssl1.1
+Source: feeds/packages/libs/cyrus-sasl
+SourceName: libsasl2
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+SourceDateEpoch: 1636786835
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 82533
+Filename: libsasl2_2.1.27-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 83234
+SHA256sum: 1c8e574f9254d0b2bc7dbdb1d66fc3442cd2c7a9ea9bb696103cb61dab0630fe
+Description:  A general purpose authentication library (libraries)
 
 Package: libsodium
 Version: 1.0.18-4
@@ -2384,6 +3558,85 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3410100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1679759998
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 487966
+Filename: libsqlite3-0_3410100-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 488278
+SHA256sum: 5543e61b702c743dacba2894df3adcf0939225ad529275e2b9638b77e63f5ca5
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtiff5
+Version: 4.3.0-3
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+Source: feeds/packages/libs/tiff
+SourceName: libtiff
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1624133262
+ABIVersion: 5
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 129948
+Filename: libtiff5_4.3.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 130234
+SHA256sum: 49999d8bf38be6e4d5778503047aa1089aa4a913c6a12a8be950ea7abde9d286
+Description:  TIFF library
+
+Package: libunbound
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+Source: feeds/packages/net/unbound
+SourceName: libunbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 434357
+Filename: libunbound_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 428642
+SHA256sum: a8ef43aba664c67f61742a0888a944e12280c9e1de8d6461863c75f8bfc76172
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: libwebp
+Version: 1.2.1-2
+Depends: libc
+Source: feeds/packages/libs/libwebp
+SourceName: libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1633200907
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 222248
+Filename: libwebp_1.2.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 223032
+SHA256sum: 5c28c05c0eec447d67332e5869ea275e79f115de24909a013057b95903fbf288
+Description:  The libwebp package contains a library for the WebP format.
 
 Package: libxml2-dev
 Version: 2.10.3-1
@@ -2458,6 +3711,1141 @@ Filename: libyaml_0.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 38614
 SHA256sum: 83c4f425367b84fa424dd039be6725a778fc48b44fabfe074a1ee238b821808e
 Description:  Fast YAML 1.1 parser and emitter library
+
+Package: libzip-gnutls
+Version: 1.8.0-4
+Depends: libc, zlib, libgnutls
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-gnutls
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41806
+Filename: libzip-gnutls_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42680
+SHA256sum: 371616b5a9f392047fedc532c12c106a019cbf9bddde0c70a8326cefc48b9c8a
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-mbedtls
+Version: 1.8.0-4
+Depends: libc, zlib, libmbedtls12
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-mbedtls
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41976
+Filename: libzip-mbedtls_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42813
+SHA256sum: fe5b1c191ea9e63d42b468e970e9df0806726ef084b0ebcc053d38e4d689c0c0
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-nossl
+Version: 1.8.0-4
+Depends: libc, zlib
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-nossl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 39455
+Filename: libzip-nossl_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40284
+SHA256sum: eceb72f86a87885dcafc95ef6d0b1d23a026edf5c60563c3ebdc3c28be8bf1a9
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-openssl
+Version: 1.8.0-4
+Depends: libc, zlib, libopenssl1.1
+Provides: libzip
+Source: feeds/packages/libs/libzip
+SourceName: libzip-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41612
+Filename: libzip-openssl_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42499
+SHA256sum: bebb215d989375daf7d9bb460a6b344732bfff7c827f82e8406fdef818209138
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20220515, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1630526057
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19382
+Filename: nlbwmon_2021-09-01-d82c910c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20186
+SHA256sum: 551d41e79b9eaf43783ae61d5c8e47f69d2f9e6b3d3264115d6c5a23519e1fc8
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: oniguruma5
+Version: 6.9.7.1-1
+Depends: libc
+Provides: oniguruma
+Source: feeds/packages/libs/oniguruma
+SourceName: oniguruma
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1634007365
+ABIVersion: 5
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 169029
+Filename: oniguruma5_6.9.7.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 166702
+SHA256sum: f16fef9eff53810156067b408d4cd64af246715452c7d7d093b5cd5fc72f913a
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: openldap-server
+Version: 2.6.0-4
+Depends: libc, libopenldap, libuuid1
+Source: feeds/packages/libs/openldap
+SourceName: openldap-server
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653080857
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 554570
+Filename: openldap-server_2.6.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 548144
+SHA256sum: 1c93ddc587f0ed08d88bf390725c16d43c1485f5f9dc00d8edb5d756f01857a9
+Description:  This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.6.0-4
+Depends: libc, libopenldap
+Source: feeds/packages/libs/openldap
+SourceName: openldap-utils
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653080857
+CPE-ID: cpe:/a:openldap:openldap
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 234208
+Filename: openldap-utils_2.6.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 231641
+SHA256sum: 23604dd370456b263594591bddafea44ab5ce93a294be3afd6ec5fae976ae753
+Description:  This package contains client programs required to access LDAP servers.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: pciids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1651680714
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 306361
+Filename: pciids_0.359-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 306625
+SHA256sum: 1c50d56db2ee994e99d3d2b0a39053fe721660db61e710f0c5b76289ff8e9e1a
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+Source: feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1661282066
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42571
+Filename: pciutils_3.8.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43422
+SHA256sum: 8ab572a1b16af73b9b304cc3c0f3bb09640335a4fc65c41684658f735cbf0d06
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: pgsql-cli-extra
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+Source: feeds/packages/libs/postgresql
+SourceName: pgsql-cli-extra
+License: PostgreSQL
+Section: utils
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 257733
+Filename: pgsql-cli-extra_14.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 255516
+SHA256sum: 37c926d9d6c602a187cd46042f4a0163371f7c7c5ff4f6de611d1582fd7d21ee
+Description:  Command Line extras for PostgreSQL databases.
+
+Package: pgsql-cli
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+Source: feeds/packages/libs/postgresql
+SourceName: pgsql-cli
+License: PostgreSQL
+Section: utils
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 188559
+Filename: pgsql-cli_14.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 188947
+SHA256sum: fe7d8b9815fcf0620a7702784f3a8954b1b232e417e1b4a72f7c3c3910c95ce7
+Description:  Command Line Interface (CLI) to PostgreSQL databases.
+
+Package: pgsql-server
+Version: 14.5-1
+Depends: libc, pgsql-cli, blockd
+Source: feeds/packages/libs/postgresql
+SourceName: pgsql-server
+License: PostgreSQL
+Section: utils
+Require-User: postgres=5432:postgres=5432
+SourceDateEpoch: 1665687479
+CPE-ID: cpe:/a:postgresql:postgresql
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5520096
+Filename: pgsql-server_14.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5425538
+SHA256sum: 2c57c6a51fca15ced5adb6aaa767125022f77d137cfc52186d8e52dd0e7c5fcc
+Description:  PostgreSQL databases Server.
+
+Package: pgsqlodbc
+Version: 2.3.9-2
+Depends: libc, unixodbc, libpq
+Source: feeds/packages/libs/unixodbc
+SourceName: pgsqlodbc
+License: prog GPL libs LGPL
+Section: libs
+SourceDateEpoch: 1628711960
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 88178
+Filename: pgsqlodbc_2.3.9-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 88926
+SHA256sum: 3221fb21815922342541b7c61f35419bc8434b00c1f5d196bf55976b21e2a9b1
+Description:  Postgresql driver for ODBC.
+
+Package: php8-cgi
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+Source: feeds/packages/lang/php8
+SourceName: php8-cgi
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1404079
+Filename: php8-cgi_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1402879
+SHA256sum: 7263ac2f6c54f7b55b23887aba3b90b10fd423f36330a0bf7ee70df1e86cb37a
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP8 interpreter.
+
+Package: php8-cli
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+Source: feeds/packages/lang/php8
+SourceName: php8-cli
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1427056
+Filename: php8-cli_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1425516
+SHA256sum: d25a28bbc6e589140a39c3bd0f1e25ccb20d545630d299f88f4cdaab39c4c1d2
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP8 interpreter.
+
+Package: php8-fastcgi
+Version: 8.1.18-1
+Depends: libc, php8, php8-cgi
+Source: feeds/packages/lang/php8
+SourceName: php8-fastcgi
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 521
+Filename: php8-fastcgi_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1392
+SHA256sum: adcc2dc9ede4d71f951555a5e1de3b4d2eb6724b57abd3674cf7501dbaf2b93d
+Description:  As FastCGI support is now a core feature the php8-fastcgi package now depends
+ on the php8-cgi package, containing just the startup script.
+
+Package: php8-fpm
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+Source: feeds/packages/lang/php8
+SourceName: php8-fpm
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1454981
+Filename: php8-fpm_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1454013
+SHA256sum: 2852e9692f1bd22fbd59f817db6a3ac42484198e74773421024976c74f035df2
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP8 interpreter.
+
+Package: php8-mod-bcmath
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-bcmath
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10333
+Filename: php8-mod-bcmath_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11129
+SHA256sum: 08c7f9972a2eed804510a517f8b4c4790f52866d294c22b1258365a3fcac39d9
+Description:  Bcmath shared module
+
+Package: php8-mod-calendar
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-calendar
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8917
+Filename: php8-mod-calendar_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9691
+SHA256sum: 3c679f57673ed2176875adbdd1686ed11b8bf8d15bade5cc133f2a09f5fdf390
+Description:  Calendar shared module
+
+Package: php8-mod-ctype
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-ctype
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2084
+Filename: php8-mod-ctype_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2840
+SHA256sum: e91fbed0777f93ff46781b0f538f243f43373ffb84fe161a5fdffe1e156ce755
+Description:  Ctype shared module
+
+Package: php8-mod-curl
+Version: 8.1.18-1
+Depends: libc, php8, libcurl4
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-curl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32766
+Filename: php8-mod-curl_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33436
+SHA256sum: 6c07e1bea0a1ae2f153303d6419183b54b8e45102d7c188aa4ff797d4fd51cbe
+Description:  cURL shared module
+
+Package: php8-mod-dom
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-dom
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52304
+Filename: php8-mod-dom_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 52829
+SHA256sum: 8ace16804f341b4230c7783b39381feb0e56c690fae51e10f3fbef36455339e1
+Description:  DOM shared module
+
+Package: php8-mod-exif
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-exif
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24699
+Filename: php8-mod-exif_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24825
+SHA256sum: ef8ac8371a21f490ad1547810357c090b71ab8506efc958be19eb45a5c8d29e5
+Description:  EXIF shared module
+
+Package: php8-mod-fileinfo
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-fileinfo
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 412414
+Filename: php8-mod-fileinfo_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 403811
+SHA256sum: 7d6fd5a8631db4eba095468ffd43430165c6e23aac2749a06661b52830e1beef
+Description:  Fileinfo shared module
+
+Package: php8-mod-filter
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-filter
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15246
+Filename: php8-mod-filter_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15989
+SHA256sum: 9a7abbd2922cf02c285394aaef727bac64c106756e37c0400e923c2d47f683f8
+Description:  Filter shared module
+
+Package: php8-mod-ftp
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-ftp
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17447
+Filename: php8-mod-ftp_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18140
+SHA256sum: 25aaa1676b98627dba26ae37c12494e9534fd4503feb3ab9db43aa043892c54e
+Description:  FTP shared module
+
+Package: php8-mod-gd
+Version: 8.1.18-1
+Depends: libc, php8, libgd-full
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-gd
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24013
+Filename: php8-mod-gd_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24291
+SHA256sum: f000cfbdbb56eff2bbc72c55c1bfbf4c4410b0350f5bdaed284afb5a7e96716c
+Description:  GD graphics shared module
+
+Package: php8-mod-gettext
+Version: 8.1.18-1
+Depends: libc, php8, libintl-full8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-gettext
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3307
+Filename: php8-mod-gettext_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4073
+SHA256sum: 25f62b69825907125f4878e8c4ba7a124712d1c6d911759eb7e46c033f1c44e4
+Description:  Gettext shared module
+
+Package: php8-mod-gmp
+Version: 8.1.18-1
+Depends: libc, php8, libgmp10
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-gmp
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13868
+Filename: php8-mod-gmp_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14547
+SHA256sum: 1cb3ab0966c4dfa27c65db8279faafff1ebc38135e3556c3fb9eb1a58c0581d2
+Description:  GMP shared module
+
+Package: php8-mod-iconv
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-iconv
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16032
+Filename: php8-mod-iconv_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16781
+SHA256sum: 78fbae2a7441817635bc221016feec28206ec55eda24c9e09de0cf425a3ee97a
+Description:  iConv shared module
+
+Package: php8-mod-imap
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1, libpam, uw-imap
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-imap
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28735
+Filename: php8-mod-imap_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29438
+SHA256sum: 9df0d6c92080a7a5bcebc95cd1ee6e2de8a90050b333da3392bf4834c0a75923
+Description:  IMAP shared module
+
+Package: php8-mod-intl
+Version: 8.1.18-1
+Depends: libc, php8, icu71
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-intl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 126139
+Filename: php8-mod-intl_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 124833
+SHA256sum: 0e023677e7898e324a8dfe0c996b8fa67aa04be9242e5b684d3b816cf384b47c
+Description:  Note that this package depends in ICU library which is built without data
+ by default. This is to satisfy programs build and run dependencies but to
+ keep the installed footprint small on the target system(s).
+ However, the data is required to make the ICU library useful - and thus
+ directly affects PHPs ICU extension, too - so consider to also
+ select/install package 'icu-full-data'.
+
+Package: php8-mod-ldap
+Version: 8.1.18-1
+Depends: libc, php8, libopenldap, libsasl2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-ldap
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27031
+Filename: php8-mod-ldap_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27643
+SHA256sum: f60b0a938999e00d55cc7d1acb012b9730f8f722be5e7a816871f0107abf28cb
+Description:  LDAP shared module
+
+Package: php8-mod-mbstring
+Version: 8.1.18-1
+Depends: libc, php8, oniguruma5
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-mbstring
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 569882
+Filename: php8-mod-mbstring_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 569390
+SHA256sum: 21b8169894bc5baeeecb310f0176b77f57131d916db5b36d9d64089170c0e11e
+Description:  MBString shared module
+
+Package: php8-mod-mysqli
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-mysqlnd
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-mysqli
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36822
+Filename: php8-mod-mysqli_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 37320
+SHA256sum: 0cef95d75ab6b15ff8f8b94c436b7e4dd704b8e013b4fdd429b97dd08f45dc3c
+Description:  MySQL Improved Extension shared module
+
+Package: php8-mod-mysqlnd
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-openssl
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-mysqlnd
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 67566
+Filename: php8-mod-mysqlnd_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 67372
+SHA256sum: c2760b9dd7d1f21509350ce1155425f1c238281338f08f58954fa6da9174f321
+Description:  MySQL Native Driver shared module
+
+Package: php8-mod-opcache
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-opcache
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57525
+Filename: php8-mod-opcache_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58185
+SHA256sum: 84d7ce525d210fefd6ee3e2ce0c46af84e0aee70ac1e1ed64a2cf187df030804
+Description:  OPcache shared module
+
+Package: php8-mod-openssl
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-openssl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59018
+Filename: php8-mod-openssl_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58851
+SHA256sum: 71ab50e0f53102c5c12e82af6f4da6fdea0e21a3e08bf9ff3660b735578cc898
+Description:  OpenSSL shared module
+
+Package: php8-mod-pcntl
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pcntl
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10426
+Filename: php8-mod-pcntl_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11221
+SHA256sum: 2dd9bc59df11536aa0ba1cf9bb8603b42a1cd792e7949917e8e02262e00fd18a
+Description:  PCNTL shared module
+
+Package: php8-mod-pdo-mysql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, php8-mod-mysqlnd
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo-mysql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9441
+Filename: php8-mod-pdo-mysql_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10243
+SHA256sum: 43d4acab488ab0e36f5b26f941065f26e5daf27af7ad1793c12cf2f1183b6336
+Description:  PDO driver for MySQL shared module
+
+Package: php8-mod-pdo-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libpq
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo-pgsql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15018
+Filename: php8-mod-pdo-pgsql_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15728
+SHA256sum: b68c4b00f7f63237229cd44736804534d7a25df766c2327040b0de6a369d22b8
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php8-mod-pdo-sqlite
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libsqlite3-0, librt
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo-sqlite
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9241
+Filename: php8-mod-pdo-sqlite_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9892
+SHA256sum: 6a50ce4d1b8aec69957c768beaf1fafe8b9cec197feb2fb6e5b3bfa786aa0302
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php8-mod-pdo
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pdo
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 34930
+Filename: php8-mod-pdo_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 35461
+SHA256sum: 4e9bf84fa6b5f6e125ee954df7bf3709427dc283259f7eb62e9d6559560f0fea
+Description:  PHP Data Objects shared module
+
+Package: php8-mod-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, libpq
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-pgsql
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 39179
+Filename: php8-mod-pgsql_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 39775
+SHA256sum: 54bfef309d4595b5bb72922556a6b593b9a023dcaffed8681064fc964d485c0e
+Description:  PostgreSQL shared module
+
+Package: php8-mod-phar
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-phar
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 98334
+Filename: php8-mod-phar_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 98800
+SHA256sum: a31449ae4d612f1eada6b40c13bcc8d8a461f2868bcd8546e6555fc3d3fec18e
+Description:  Phar Archives shared module
+
+Package: php8-mod-session
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-session
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30732
+Filename: php8-mod-session_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31386
+SHA256sum: 4d496ecb2b5b2904d0b38d231eee2e86c17f29e6fb4919fa0c225c3fbffd7696
+Description:  Session shared module
+
+Package: php8-mod-shmop
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-shmop
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3459
+Filename: php8-mod-shmop_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4230
+SHA256sum: 09c019dc079d6b7ce09ed6fb49c3f6dfe943c2ce1f6436b78b5c2f1381679dba
+Description:  Shared Memory shared module
+
+Package: php8-mod-simplexml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-simplexml
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15399
+Filename: php8-mod-simplexml_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16104
+SHA256sum: b427cd385d3ef0d54a599e373aa3c26df3b4f606882fa0f29b70ed13838753e3
+Description:  SimpleXML shared module
+
+Package: php8-mod-snmp
+Version: 8.1.18-1
+Depends: libc, php8, libnetsnmp, libopenssl1.1
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-snmp
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16455
+Filename: php8-mod-snmp_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17166
+SHA256sum: 9f955d76cf473abc6cf70abd046ec479d9ce88565df86be67ca586d7fc945e2f
+Description:  SNMP shared module
+
+Package: php8-mod-soap
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-soap
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 116563
+Filename: php8-mod-soap_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 116844
+SHA256sum: 85cbf16b17fde5ddfe12ed70acaf3de89b3c082bb86ab3a51ffc525201c6b8d4
+Description:  SOAP shared module
+
+Package: php8-mod-sockets
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sockets
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30177
+Filename: php8-mod-sockets_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30821
+SHA256sum: e5b199e3a186c258570019fa4fb689ae7e99639437e320759e64d008d2069b38
+Description:  Sockets shared module
+
+Package: php8-mod-sqlite3
+Version: 8.1.18-1
+Depends: libc, php8, libsqlite3-0
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sqlite3
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16494
+Filename: php8-mod-sqlite3_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17211
+SHA256sum: 0f4f49546df6d09a73fe117b72f59706e914ec7cb94b8180ab0241ea2a9237f4
+Description:  SQLite3 shared module
+
+Package: php8-mod-sysvmsg
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sysvmsg
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4869
+Filename: php8-mod-sysvmsg_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5615
+SHA256sum: 1243323e8b3fd8e644c95178ab043945d6a1ffff4c46d027ec478230e6323452
+Description:  System V messages shared module
+
+Package: php8-mod-sysvsem
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sysvsem
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3177
+Filename: php8-mod-sysvsem_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3950
+SHA256sum: bfd63813df17aa152684f5484992c08168ae9c614647c1e43a7114da01e02598
+Description:  System V shared memory shared module
+
+Package: php8-mod-sysvshm
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-sysvshm
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3969
+Filename: php8-mod-sysvshm_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4745
+SHA256sum: 76ea8b9e6852c09e5fad3d7a9fe3e634d35b8cc0f8f3ef9988c16c7e4ad4584a
+Description:  System V semaphore shared module
+
+Package: php8-mod-tokenizer
+Version: 8.1.18-1
+Depends: libc, php8
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-tokenizer
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9192
+Filename: php8-mod-tokenizer_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9924
+SHA256sum: d9963da8121b5db70fdbdab4e003a3f54febedbb22d1d2ea8572d9b5b72778ea
+Description:  Tokenizer shared module
+
+Package: php8-mod-xml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-xml
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14135
+Filename: php8-mod-xml_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14803
+SHA256sum: 6aa16efcde45120f9dbedfab2e81d997601b4933cf6ab91d26b68852b2412bea
+Description:  XML shared module
+
+Package: php8-mod-xmlreader
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-dom, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-xmlreader
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10047
+Filename: php8-mod-xmlreader_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10851
+SHA256sum: 1d0cbfcd9331f9a4280738431d5dda8c246cfd2320055484083b01f8cb4be86b
+Description:  XMLReader shared module
+
+Package: php8-mod-xmlwriter
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-xmlwriter
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8186
+Filename: php8-mod-xmlwriter_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8884
+SHA256sum: bf491509332f599a9634971c0fac84c4942bd5709f3aa6f149f16e1ea70a6d14
+Description:  XMLWriter shared module
+
+Package: php8-mod-zip
+Version: 8.1.18-1
+Depends: libc, php8, libzip
+Source: feeds/packages/lang/php8
+SourceName: php8-mod-zip
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21184
+Filename: php8-mod-zip_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21804
+SHA256sum: cc4bd379bf3ccd3b20729c91fac5f6e07602a094e8c241dc45439272c3072395
+Description:  ZIP shared module
+
+Package: php8
+Version: 8.1.18-1
+Depends: libc, libpcre2, zlib, libxml2, zoneinfo-core
+Conflicts: php7
+Source: feeds/packages/lang/php8
+SourceName: php8
+License: PHP-3.01
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1681567052
+CPE-ID: cpe:/a:php:php
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1454
+Filename: php8_8.1.18-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2511
+SHA256sum: c7ab78e1b7880fc0d6cfa6c4f4623a8d9378f4d18ca21afb188c628625d966f8
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php8 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
 
 Package: ruby-abbrev
 Version: 3.0.6-1
@@ -5120,6 +7508,314 @@ Size: 41990
 SHA256sum: 58e93484b32f383486b194678b505663ea300e5f8f679f2f3b6d80b14ff26cb0
 Description:  shadowsocks-libev ss-tunnel
 
+Package: snmp-mibs
+Version: 5.9.1-3
+Depends: libc
+Source: feeds/packages/net/net-snmp
+SourceName: snmp-mibs
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 340265
+Filename: snmp-mibs_5.9.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 341228
+SHA256sum: b72ab7b2c0e8252d504a4a10fdfbe8aeaac9e61e043b971b0bef3d9f4a9c3bfa
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP MIB-Files.
+
+Package: snmp-utils
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmp-utils
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16142
+Filename: snmp-utils_5.9.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17089
+SHA256sum: d3174d982b2d701fc487aed10e089fbba00c9928c2c6e1f44c0ce0375d22fdb1
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities:
+ - snmpget
+ - snmpset
+ - snmpstatus
+ - snmptest
+ - snmptrap
+ - snmpwalk
+
+Package: snmpd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmpd
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10816
+Filename: snmpd_5.9.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11709
+SHA256sum: 922c139e4166935c57ded2ea2ff1c14bdeb1f5cde721d080b42bb5ef01bbd17b
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: snmptrapd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+Source: feeds/packages/net/net-snmp
+SourceName: snmptrapd
+License: MIT BSD-3-Clause-Clear
+Section: net
+SourceDateEpoch: 1644298596
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20284
+Filename: snmptrapd_5.9.1-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21247
+SHA256sum: 1086a842862caf4173270e49d554abd2a2f4165e3ce4c0d98ee3a6600ba80e19
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: sqlite3-cli
+Version: 3410100-1
+Depends: libc, libsqlite3-0, libedit
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite3-cli
+License: PUBLICDOMAIN
+Section: utils
+SourceDateEpoch: 1679759998
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 115391
+Filename: sqlite3-cli_3410100-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 116047
+SHA256sum: 3b130e98f32d99291327d255d92f03736858fbe52dfe1d327d4d5800fe89775a
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+Source: feeds/packages/utils/tar
+SourceName: tar
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614566048
+CPE-ID: cpe:/a:gnu:tar
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 183685
+Filename: tar_1.34-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 184368
+SHA256sum: 1a48d214acff1856e6b723aa18b00969af0a5ce9ca41631e33876548b801beae
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tiff-utils
+Version: 4.3.0-3
+Depends: libc, libtiff5
+Source: feeds/packages/libs/tiff
+SourceName: tiff-utils
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: utils
+SourceDateEpoch: 1624133262
+CPE-ID: cpe:/a:libtiff:libtiff
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 139844
+Filename: tiff-utils_4.3.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 140641
+SHA256sum: d20fd594d684a576948eec94a4acf0bf1dd4002b4cd2c5f94f63406f0e442a63
+Description:  TIFF utilities
+
+Package: unbound-anchor
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+Source: feeds/packages/net/unbound
+SourceName: unbound-anchor
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22773
+Filename: unbound-anchor_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23548
+SHA256sum: 641f442d567b31c349e72045f1fb8774723f4c6af34cda01162afc30899d6456
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-checkconf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48424
+Filename: unbound-checkconf_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49006
+SHA256sum: d3e88143369a557ac66a3a8b7715496a8420af27b19f886633074eb5e952eb62
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+Source: feeds/packages/net/unbound
+SourceName: unbound-control-setup
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2591
+Filename: unbound-control-setup_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3452
+SHA256sum: 724f6d312c817d3d25a2641d7aeb31cb2e994f7e574ce56a81fb4d976c489dae
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-control
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 50581
+Filename: unbound-control_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 51109
+SHA256sum: daf425359282a55c3d8fec1865265f7c69c5ee347a13daddd8637c261395f166
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-daemon
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 137749
+Filename: unbound-daemon_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 137836
+SHA256sum: afadca342525068839d1d3df657bbcf358f58340719763691b23970ece6721de
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-host
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1669122420
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42048
+Filename: unbound-host_1.17.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42554
+SHA256sum: 0f42ebb6330a0852d288f5bf81051d2562bfaf21ca00e49717f5768b255e175a
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: unixodbc-tools
+Version: 2.3.9-2
+Depends: libc, unixodbc, libncurses6, libreadline8
+Source: feeds/packages/libs/unixodbc
+SourceName: unixodbc-tools
+License: prog GPL libs LGPL
+Section: utils
+SourceDateEpoch: 1628711960
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 23642
+Filename: unixodbc-tools_2.3.9-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24438
+SHA256sum: 06e355e3ab9eac5dff45825dea9044198cbae1aa4395f339b1d99201e34ceb94
+Description:  Command Line Tools to help install a driver and work with SQL.
+
+Package: unixodbc
+Version: 2.3.9-2
+Depends: libc, libltdl7, libpthread
+Source: feeds/packages/libs/unixodbc
+SourceName: unixodbc
+License: prog GPL libs LGPL
+Section: libs
+SourceDateEpoch: 1628711960
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 211811
+Filename: unixodbc_2.3.9-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 211848
+SHA256sum: a32e056cd54d0788beb987e124bb580fdb18e01705302613d58f018a49f7ef46
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
 Package: unzip
 Version: 6.0-8
 Depends: libc
@@ -5140,6 +7836,41 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: usbids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1651680714
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 251054
+Filename: usbids_0.359-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 251515
+SHA256sum: f27011a9f403cba2197e22405a1829692ddf754189f39aab79244ab55414c44d
+Description:  USB ID list
+
+Package: uw-imap
+Version: 2007f-5
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/packages/libs/uw-imap
+SourceName: uw-imap
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1616310721
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 491103
+Filename: uw-imap_2007f-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 489654
+SHA256sum: 04f3094ab50f745bed10b5c7bd96013fb962275b4230bc15a237e9d8031f1522
+Description:  The UW IMAP tookit includes the following:
+ c-lient library : an API (application programming interface) used to build email clients and servers,
+ including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
 Package: xray-core
 Version: 1.8.1-1
@@ -5178,4 +7909,263 @@ Description:  Xray, Penetrates Everything. It helps you to build your own comput
  It secures your network connections and thus protects your privacy.
  
  This includes example configuration files for xray-core.
+
+Package: zipcmp
+Version: 1.8.0-4
+Depends: libc, libzip, musl-fts
+Source: feeds/packages/libs/libzip
+SourceName: zipcmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8697
+Filename: zipcmp_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9519
+SHA256sum: f3b611869578505b71216cddc13319f966c145d4ac19fa4c55d2bf1d45d4359d
+Description:  This package contains the command line tool zipcmp from libzip.
+
+Package: zipmerge
+Version: 1.8.0-4
+Depends: libc, libzip
+Source: feeds/packages/libs/libzip
+SourceName: zipmerge
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3756
+Filename: zipmerge_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4518
+SHA256sum: 634dd5c8b54910c782209b6ce9b20f4b5e25c22030a73c67c24d182eb14311cd
+Description:  This package contains the command line tool zipmerge from libzip.
+
+Package: ziptool
+Version: 1.8.0-4
+Depends: libc, libzip
+Source: feeds/packages/libs/libzip
+SourceName: ziptool
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1630900804
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9166
+Filename: ziptool_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9962
+SHA256sum: d5552db9f202d3a4829d50bdc4e0fae7ed2dcc51729f08effbfae6b850ca4c8a
+Description:  This package contains the command line tool ziptool from libzip.
+
+Package: zoneinfo-africa
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-africa
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7271
+Filename: zoneinfo-africa_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8019
+SHA256sum: 189887a281b5bc582a09f3499cdd1c0bd41bddc40f06dfef341fccce0b8e8b93
+Description:  Zone Information (Africa)
+
+Package: zoneinfo-all
+Version: 2023c-1
+Depends: libc, zoneinfo-core, zoneinfo-africa, zoneinfo-northamerica, zoneinfo-southamerica, zoneinfo-poles, zoneinfo-asia, zoneinfo-atlantic, zoneinfo-australia-nz, zoneinfo-pacific, zoneinfo-europe, zoneinfo-india
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-all
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 95
+Filename: zoneinfo-all_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 900
+SHA256sum: ad8875ba4503bdfddf0aa27140b4bb4d2e1cd1e3ccb59874c09d7da43fcaf853
+Description:  Zone Information (all zones)
+
+Package: zoneinfo-asia
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-asia
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30558
+Filename: zoneinfo-asia_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30984
+SHA256sum: b49f0b65605c11fc74a0004ab471554c39d333da80b66220ef604a9819792ea6
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-atlantic
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-atlantic
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5793
+Filename: zoneinfo-atlantic_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6516
+SHA256sum: 3e28437d6d3a169b91189c9dbdbce5e90df4375c82ba1464b04c94453506139e
+Description:  Zone Information (Atlantic)
+
+Package: zoneinfo-australia-nz
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-australia-nz
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6688
+Filename: zoneinfo-australia-nz_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7333
+SHA256sum: f30a152563006b210913a41f2bf15d6db07a39247bd277fd73c8706da887292f
+Description:  Zone Information (Australia-NZ)
+
+Package: zoneinfo-core
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-core
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20440
+Filename: zoneinfo-core_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20804
+SHA256sum: 90c364a8c84b2c23aec1a1e965e09aa09f461a8a05eb77201e3fb4ba8b3dc253
+Description:  Zone Information (core)
+
+Package: zoneinfo-europe
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-europe
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20936
+Filename: zoneinfo-europe_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21569
+SHA256sum: 8a962bae69f49e380cad4f46c0ecb352c6bb05f94ddb981da8e7c307628a9b2e
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-india
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-india
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 941
+Filename: zoneinfo-india_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1688
+SHA256sum: a9c25cb42ed6b2dab50e49e3502468f7cf512fac1964d8bc5fd420774afd39c7
+Description:  Zone Information (India)
+
+Package: zoneinfo-northamerica
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-northamerica
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 78798
+Filename: zoneinfo-northamerica_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 78604
+SHA256sum: ef9e01846baaad482a98412af454b6fc2adcea6b9f538f3316808e62626085d5
+Description:  Zone Information (NorthAmerica)
+
+Package: zoneinfo-pacific
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-pacific
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6662
+Filename: zoneinfo-pacific_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7437
+SHA256sum: b462e509cdc254c9e7e1c04f5d7132697f1bbec85ad20b39ea1e562eb086534b
+Description:  Zone Information (Pacific)
+
+Package: zoneinfo-poles
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-poles
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5046
+Filename: zoneinfo-poles_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5806
+SHA256sum: b4e357d816fa56f42346db275d788614a904860cb71b00534c1b7af21d456aee
+Description:  Zone Information (Arctic, Antarctic)
+
+Package: zoneinfo-simple
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-simple
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16823
+Filename: zoneinfo-simple_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17514
+SHA256sum: f0d189c6ead0cf20151a5bdf72ccc52ee593f2f856a7c4cd2d5a72e5257aeb31
+Description:  Zone Information (simple)
+
+Package: zoneinfo-southamerica
+Version: 2023c-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+SourceName: zoneinfo-southamerica
+License: Public Domain
+Section: utils
+SourceDateEpoch: 1680715440
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4830
+Filename: zoneinfo-southamerica_2023c-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5551
+SHA256sum: d582124a514e361f6b17819345bdc812a239cadc7ad48f91f82c8e62ed1df632
+Description:  Zone Information (SouthAmerica)
 

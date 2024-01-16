@@ -14,6 +14,272 @@ Description:  Access control list support
  - getfacl
  - setfacl
 
+Package: apache-ab
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 18410
+Filename: apache-ab_2.4.52-1_x86_64.ipk
+Size: 19321
+SHA256sum: d9fc3113413ebe2646a17c46103ffd6d88935198b4881e260684119906e93260
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache server benchmarking utility.
+ 
+
+Package: apache-error
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 39450
+Filename: apache-error_2.4.52-1_x86_64.ipk
+Size: 40492
+SHA256sum: 51bb7235a9789f8246d9005d39ed0ffefe7c4b1e8f0188ef239654f5ff9d40d1
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache multi language custom error documents.
+ 
+
+Package: apache-icons
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 140379
+Filename: apache-icons_2.4.52-1_x86_64.ipk
+Size: 140913
+SHA256sum: fd83466c17cde4582c9786a06a0c9cc3496d6a99263333b7113abc09b95a00bf
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the icons from Apache.
+ 
+
+Package: apache-mod-deflate
+Version: 2.4.52-1
+Depends: libc, apache, zlib
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 11526
+Filename: apache-mod-deflate_2.4.52-1_x86_64.ipk
+Size: 12327
+SHA256sum: 0d7f792fe443ed5cba71e544f731ae055fce4123cdfe0e52e9ee8c987eb15510
+Description:  Deflate support for the Apache HTTP server.
+
+Package: apache-mod-http2
+Version: 2.4.52-1
+Depends: libc, apache, libnghttp2-14, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 86931
+Filename: apache-mod-http2_2.4.52-1_x86_64.ipk
+Size: 87764
+SHA256sum: 43fd97c08605ead595bbff746496daf1af5163a6db58554e2e20cd4fa7fa45a8
+Description:  HTTP/2 transport layer for the Apache HTTP Server.
+
+Package: apache-mod-ldap
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-ldap
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 40222
+Filename: apache-mod-ldap_2.4.52-1_x86_64.ipk
+Size: 41084
+SHA256sum: bfb1a8283407b48454d80f37f7d71f10dcea4835e60ed8c1e4975e58f258aeb0
+Description:  LDAP authentication/authorization module for the Apache HTTP Server.
+
+Package: apache-mod-lua
+Version: 2.4.52-1
+Depends: libc, apache, liblua5.1.5
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 42740
+Filename: apache-mod-lua_2.4.52-1_x86_64.ipk
+Size: 43606
+SHA256sum: b4ed4c34dc7b09578e6608078ee4208878523215bb57b737bc06230d68026afe
+Description:  Lua support for the Apache HTTP server.
+
+Package: apache-mod-md
+Version: 2.4.52-1
+Depends: libc, apache, libcurl4, jansson4, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 120590
+Filename: apache-mod-md_2.4.52-1_x86_64.ipk
+Size: 121305
+SHA256sum: 3ef53b0da51d05a26f23061c9750251610ae22f29db517b07c9118f1c7ce903f
+Description:  Managed Domain handling.
+
+Package: apache-mod-php8
+Version: 8.1.18-1
+Depends: libc, php8, apache, libstdcpp6, libpcre2, zlib
+License: PHP-3.01
+Section: net
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 1574409
+Filename: apache-mod-php8_8.1.18-1_x86_64.ipk
+Size: 1560407
+SHA256sum: fc2e7e479326a4912b457a600755de9a26c51bd35dedf39ba523244930c9ecb7
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the PHP module for the Apache Web Server.
+
+Package: apache-mod-proxy-html
+Version: 2.4.52-1
+Depends: libc, apache, apache-mod-proxy, libxml2
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 18309
+Filename: apache-mod-proxy-html_2.4.52-1_x86_64.ipk
+Size: 19114
+SHA256sum: acce03eba5bed87d5081d6232227f4443dbd38d193377992d7d8cfe047288ed6
+Description:  HTML and XML content filters for the Apache HTTP Server.
+
+Package: apache-mod-proxy
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 165027
+Filename: apache-mod-proxy_2.4.52-1_x86_64.ipk
+Size: 165542
+SHA256sum: 84aecafc68d683c89ce395d4effd3251dd2190999be55093e0d0fbcbe13bdef5
+Description:  Proxy modules for the Apache HTTP Server.
+
+Package: apache-mod-session-crypto
+Version: 2.4.52-1
+Depends: libc, apache, libaprutil-crypto-openssl
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 6553
+Filename: apache-mod-session-crypto_2.4.52-1_x86_64.ipk
+Size: 7381
+SHA256sum: 41410dff92b2e2e5abfbba433c56eec5cb590ac7983d5aa9cc0c457151767292
+Description:  Session encryption support for the Apache HTTP Server.
+
+Package: apache-mod-ssl
+Version: 2.4.52-1
+Depends: libc, apache, libopenssl1.1
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 85238
+Filename: apache-mod-ssl_2.4.52-1_x86_64.ipk
+Size: 85854
+SHA256sum: 2bb691fdf7e8727f2f93b7cce93354a2068352a1eae074f24fb7d369499f45ce
+Description:  SSL/TLS module for the Apache HTTP Server.
+
+Package: apache-mod-suexec
+Version: 2.4.52-1
+Depends: libc, apache, apache-suexec
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 1974
+Filename: apache-mod-suexec_2.4.52-1_x86_64.ipk
+Size: 2752
+SHA256sum: 5d6ab5d8f13184c007950bc75f29956653d62c777fbfec634fa3ab121c786d3c
+Description:  suEXEC module for the Apache HTTP Server.
+
+Package: apache-mod-webdav
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 64798
+Filename: apache-mod-webdav_2.4.52-1_x86_64.ipk
+Size: 65603
+SHA256sum: d4554b8a5a78653776b4837719939e3169ff23728921cacd1183692e462376de
+Description:  WebDAV support for the Apache HTTP Server.
+
+Package: apache-suexec
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 4569
+Filename: apache-suexec_2.4.52-1_x86_64.ipk
+Size: 5493
+SHA256sum: 97bffccdc83aa051c59fa4bae297e8797f4ee396b1cfd997deafba626c67056e
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the suEXEC utility from Apache.
+ 
+
+Package: apache-utils
+Version: 2.4.52-1
+Depends: libc, apache
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 17291
+Filename: apache-utils_2.4.52-1_x86_64.ipk
+Size: 18151
+SHA256sum: ac07411695c35ad855706ed20eec025fb338939942a95f68cd5b1aea7f2f6174
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ Apache utility programs for webservers.
+ 
+
+Package: apache
+Version: 2.4.52-1
+Depends: libc, libapr, libaprutil, libpcre
+License: Apache-2.0
+Section: net
+CPE-ID: cpe:/a:apache:http_server
+Architecture: x86_64
+Installed-Size: 763541
+Filename: apache_2.4.52-1_x86_64.ipk
+Size: 762520
+SHA256sum: b414862dd1217a48c17e3ad4a092b6e3dadebeef6d166fe1e84a2ae991331034
+Description:  The Apache HTTP Server Project is a collaborative software development
+ effort aimed at creating a robust, commercial-grade, featureful, and
+ freely-available source code implementation of an HTTP (Web) server.
+ 
+ This package contains the Apache web server and utility programs.
+ 
+
 Package: attr
 Version: 2.5.1-1
 Depends: libc, libattr
@@ -44,6 +310,25 @@ SHA256sum: f0745681206e4c2904ae797b16caae83f5cbc898af11837ba120696221eb9ad6
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: certtool
+Version: 3.7.1-2
+Depends: libc, libgnutls
+License: LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: x86_64
+Installed-Size: 131383
+Filename: certtool_3.7.1-2_x86_64.ipk
+Size: 132402
+SHA256sum: 239301093cf56f21d52fd43b3c57585eeb3bca163e29493a540b0f467956a172
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
 
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
@@ -1537,6 +1822,26 @@ Size: 59210
 SHA256sum: 2308f9eccebcad9ac856f21d8235c20ea8210e094bccd53a2cc59c06c6ec71fd
 Description:  A client-side URL transfer utility
 
+Package: gnutls-utils
+Version: 3.7.1-2
+Depends: libc, libgnutls, libgnutls-dane
+License: LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: x86_64
+Installed-Size: 256348
+Filename: gnutls-utils_3.7.1-2_x86_64.ipk
+Size: 257372
+SHA256sum: b5143a6ab36740a0169eb9770da90a1f145a13708e80e60e94531b5aed8907bc
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
 Package: halog
 Version: 2.4.22-1
 Depends: libc, haproxy
@@ -1579,6 +1884,119 @@ SHA256sum: 871e37dd2364ac595dea3c99065234aef9084748f418ce28ae8713fe67cdf436
 Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
  This package is built with SSL and LUA support.
 
+Package: icu-data-tools
+Version: 71.1-1
+Depends: libc, icu71
+License: ICU
+Section: libs
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: x86_64
+Installed-Size: 169052
+Filename: icu-data-tools_71.1-1_x86_64.ipk
+Size: 169624
+SHA256sum: 091f861e87ca7d9e58aeda82a154a07b870b8e983729b498c8838cd8eb336795
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data71
+Version: 71.1-1
+Depends: libc, icu71
+Provides: icu-full-data
+License: ICU
+Section: libs
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: x86_64
+Installed-Size: 11986652
+Filename: icu-full-data71_71.1-1_x86_64.ipk
+Size: 11831833
+SHA256sum: 05760f8718843d325e7d0951b49b388d0aea7def6bf5dae206de145e405e03b5
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu71
+Version: 71.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+License: ICU
+Section: libs
+ABIVersion: 71
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Architecture: x86_64
+Installed-Size: 1951677
+Filename: icu71_71.1-1_x86_64.ipk
+Size: 1945441
+SHA256sum: 0eea5058fecbf07157d20fcb502c00e524b74c275d9ef3417d15439d851135de
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: kmod
+Version: 27-2
+Depends: libc, zlib
+Alternatives: 200:/sbin/depmod:/sbin/kmod, 200:/sbin/insmod:/sbin/kmod, 200:/sbin/lsmod:/sbin/kmod, 200:/sbin/modinfo:/sbin/kmod, 200:/sbin/modprobe:/sbin/kmod, 200:/sbin/rmmod:/sbin/kmod
+License: LGPL-2.1-or-later
+Section: utils
+Architecture: x86_64
+Installed-Size: 58668
+Filename: kmod_27-2_x86_64.ipk
+Size: 59679
+SHA256sum: 21f4b5fc43350b98fddf93c4bf00df143443c8107b8cf98935acea9a779c1835
+Description:  Linux kernel module handling
+ kmod is a set of tools to handle common tasks with Linux kernel modules like
+ insert, remove, list, check properties, resolve dependencies and aliases.
+
+Package: krb5-client
+Version: 1.19.2-2
+Depends: libc, krb5-libs
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: x86_64
+Installed-Size: 39514
+Filename: krb5-client_1.19.2-2_x86_64.ipk
+Size: 40218
+SHA256sum: 6c0bf98b8d33123e962f24852ea88430769413646305183e206fe0ec6e850aa9
+Description:  Kerberos 5 Client
+
+Package: krb5-libs
+Version: 1.19.2-2
+Depends: libc, libncurses6, libss2, libcomerr0
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: x86_64
+Installed-Size: 709883
+Filename: krb5-libs_1.19.2-2_x86_64.ipk
+Size: 701596
+SHA256sum: 8489204ea6abc215c59fd742c66a2c92ff2d987c6b893a7275e6b7aaabcaffc6
+Description:  Kerberos 5 Shared Libraries
+
+Package: krb5-server-extras
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: x86_64
+Installed-Size: 49613
+Filename: krb5-server-extras_1.19.2-2_x86_64.ipk
+Size: 50392
+SHA256sum: 0050a2aa5084660cb6bc24f85dd9d475589c1493d5b56967b7b7cc24f377e88a
+Description:  Kerberos 5 Admin Server
+
+Package: krb5-server
+Version: 1.19.2-2
+Depends: libc, krb5-libs, libpthread
+License: MIT
+Section: net
+CPE-ID: cpe:/a:mit:kerberos
+Architecture: x86_64
+Installed-Size: 108482
+Filename: krb5-server_1.19.2-2_x86_64.ipk
+Size: 109284
+SHA256sum: d30134397dd9f568c6b5cc63a0d76cc62d80cd98763bb695c242b710a177f3c4
+Description:  Kerberos 5 Server
+
 Package: libacl
 Version: 2.3.1-1
 Depends: libc, libattr
@@ -1591,6 +2009,123 @@ Size: 12756
 SHA256sum: 7652d29afe378c4dbfd6bc288fce36012f9c5785acfdb149939bdf430e887ec9
 Description:  Access control list support
  This package provides libacl
+
+Package: libapr
+Version: 1.7.0-3
+Depends: libc, libpthread, librt, libuuid1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr
+Architecture: x86_64
+Installed-Size: 89552
+Filename: libapr_1.7.0-3_x86_64.ipk
+Size: 90303
+SHA256sum: a85721c53ac7980415a1ba887223ead7b817e37b91c8c32218aa29067068d657
+Description:  Apache Portable Runtime Library
+
+Package: libaprutil-crypto-openssl
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenssl1.1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 4300
+Filename: libaprutil-crypto-openssl_1.6.1-7_x86_64.ipk
+Size: 5047
+SHA256sum: 1bc8c37f88a12f90c20c5fe0760242e25522ce91f9df9190faef6068f4e3136d
+Description:  libaprutil - OpenSSL driver
+
+Package: libaprutil-dbd-mysql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libmariadb3
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 7080
+Filename: libaprutil-dbd-mysql_1.6.1-7_x86_64.ipk
+Size: 7885
+SHA256sum: 3b4317c7960bf471ede0fb3fee9337b9064e24f3425674ac94b97ff0b0413b3a
+Description:  libaprutil - MySQL driver
+
+Package: libaprutil-dbd-odbc
+Version: 1.6.1-7
+Depends: libc, libaprutil, unixodbc
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 10730
+Filename: libaprutil-dbd-odbc_1.6.1-7_x86_64.ipk
+Size: 11498
+SHA256sum: 27a662700c19f78cfeba42172f48653ff691b6406995698fd54c8a1bf89ca74a
+Description:  libaprutil - ODBC driver
+
+Package: libaprutil-dbd-pgsql
+Version: 1.6.1-7
+Depends: libc, libaprutil, libpq
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 7030
+Filename: libaprutil-dbd-pgsql_1.6.1-7_x86_64.ipk
+Size: 7833
+SHA256sum: 3f6842d4776621bd1e4c2e3b27f1f272844a0b54be0221a72c7c76744dcc6784
+Description:  libaprutil - PostgreSQL driver
+
+Package: libaprutil-dbd-sqlite3
+Version: 1.6.1-7
+Depends: libc, libaprutil, libsqlite3-0
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 5094
+Filename: libaprutil-dbd-sqlite3_1.6.1-7_x86_64.ipk
+Size: 5845
+SHA256sum: d440312c551524927cf70521f9fe0dfcbde2317e04596b29775fd0679a2a6f04
+Description:  libaprutil - SQLite3 driver
+
+Package: libaprutil-dbm-gdbm
+Version: 1.6.1-7
+Depends: libc, libaprutil, libgdbm
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 2192
+Filename: libaprutil-dbm-gdbm_1.6.1-7_x86_64.ipk
+Size: 2957
+SHA256sum: f64f4f4c855ab8ea95444aa909721eb8632215c151898276ca35dd99fad0323d
+Description:  libaprutil - GDBM dbm driver
+
+Package: libaprutil-ldap
+Version: 1.6.1-7
+Depends: libc, libaprutil, libopenldap
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 3329
+Filename: libaprutil-ldap_1.6.1-7_x86_64.ipk
+Size: 4099
+SHA256sum: 892f17522afa275e56a9d88558b529003f21a9761a9501429375ea404701c946
+Description:  libaprutil - LDAP driver
+
+Package: libaprutil
+Version: 1.6.1-7
+Depends: libc, libapr, libexpat, libuuid1
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:apache:apr-util
+Architecture: x86_64
+Installed-Size: 74740
+Filename: libaprutil_1.6.1-7_x86_64.ipk
+Size: 75600
+SHA256sum: df7ed44329b45055ed83dda4a0e9a08485f39d6acccff6f10ced2c2164e84226
+Description:  Apache Portable Runtime Utility Library
 
 Package: libattr
 Version: 2.5.1-1
@@ -1663,6 +2198,18 @@ Size: 561119
 SHA256sum: f13b5e87d5a9881b3ea233b9a284b1ecf3f3ee5040a5ebe637b5c6e9ec0d80a0
 Description:  Berkeley DB library (4.7).  C++ wrapper.
 
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 74175
+Filename: libedit_20210522-3.1-1_x86_64.ipk
+Size: 74962
+SHA256sum: ce86206ec86f952d7f188248e3f983b475a040b7d071f9bbdb7e8b680e767ee6
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
 Package: libev
 Version: 4.33-1
 Depends: libc
@@ -1675,6 +2222,19 @@ Size: 24042
 SHA256sum: c0db51d1c977e899eb8f13ef3f7ac6ea6cde108060092b46a2c6cdc6c4a9d5ac
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.4.9-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Architecture: x86_64
+Installed-Size: 47862
+Filename: libexpat_2.4.9-1_x86_64.ipk
+Size: 48657
+SHA256sum: 399eaabca4d22f2f38e516c8a27a360cff8b3147eb8b82e475b72a8efb4bc2b8
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
 Version: 3.4.2-2
@@ -1697,6 +2257,54 @@ Description:  The libffi library provides a portable, high level programming int
  A layer must exist above libffi that handles type conversions for values passed
  between the two languages.
 
+Package: libfreetype
+Version: 2.11.1-1
+Depends: libc, zlib, libpng
+License: FTL GPL-2.0-only MIT ZLIB GPL-3.0-or-later
+Section: libs
+CPE-ID: cpe:/a:freetype:freetype2
+Architecture: x86_64
+Installed-Size: 309281
+Filename: libfreetype_2.11.1-1_x86_64.ipk
+Size: 310021
+SHA256sum: 333de4db8075a2a2c855297bb91543818c161657c2f47c1555e53187bd1d87a3
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd-full
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp, libtiff5, libfreetype
+Provides: libgd
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: x86_64
+Installed-Size: 107648
+Filename: libgd-full_2.3.2-4_x86_64.ipk
+Size: 107842
+SHA256sum: cfda69acf3a91a3a7910226706e57a2b549fcef2503b153c37a6ec52074c6f2c
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+ .
+ This variant of the libgd package is compiled will all features enabled.
+
+Package: libgd
+Version: 2.3.2-4
+Depends: libc, libjpeg, libpng, libwebp
+Conflicts: libgd-full
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libgd:libgd
+Architecture: x86_64
+Installed-Size: 91401
+Filename: libgd_2.3.2-4_x86_64.ipk
+Size: 91779
+SHA256sum: d3e40410bb5e46dfd24ac8bbe7ef0d6ff84706062d2dc3433eadba9aaa830149
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
 Package: libgdbm
 Version: 1.21-1
 Depends: libc
@@ -1710,6 +2318,145 @@ SHA256sum: 80ea0c86eabc51619b8f50bc9a33e8058a4fdb82010d777cf2d503bccdb309d3
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
+
+Package: libgnutls-dane
+Version: 3.7.1-2
+Depends: libc, libgnutls, libunbound
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: x86_64
+Installed-Size: 15847
+Filename: libgnutls-dane_3.7.1-2_x86_64.ipk
+Size: 16591
+SHA256sum: 65aa01178e408c8df02f06af58ed226b083ac1fa3b34602f802479bc0f0fb017
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, libatomic1
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: x86_64
+Installed-Size: 907034
+Filename: libgnutls_3.7.1-2_x86_64.ipk
+Size: 906591
+SHA256sum: 89288ba2386b8630083bea6c5bde04803c6265b40bf7ecf6e6afa22dac447a85
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libjpeg-turbo-utils
+Version: 2.1.2-1
+Depends: libc, libjpeg-turbo
+Provides: jpeg-tools
+License: BSD-3-Clause IJG zlib
+Section: utils
+Architecture: x86_64
+Installed-Size: 51404
+Filename: libjpeg-turbo-utils_2.1.2-1_x86_64.ipk
+Size: 52249
+SHA256sum: 9c5dce406d25f2c58f48436f6182084d743710b034cdcf9f86ab63e5d8e92387
+Description:  These are the JPEG utilities that come with libjpeg-turbo.
+
+Package: libjpeg-turbo
+Version: 2.1.2-1
+Depends: libc
+Provides: libjpeg
+License: BSD-3-Clause IJG zlib
+Section: libs
+Architecture: x86_64
+Installed-Size: 111820
+Filename: libjpeg-turbo_2.1.2-1_x86_64.ipk
+Size: 111889
+SHA256sum: ad58e4f84041217705ce64caba53895de6789def705c58f1f9544457885364f1
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: x86_64
+Installed-Size: 35363
+Filename: libkmod_27-2_x86_64.ipk
+Size: 36193
+SHA256sum: eefcbb1f7152592db24a2835588b1bddf74f38d3a822cb2c5bd8c5995f9dbb23
+Description:  Linux kernel module handling (library)
+
+Package: libmariadb-plugin-auth-gssapi-client
+Version: 3.1.12-4
+Depends: libc, libmariadb3, krb5-libs
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: x86_64
+Installed-Size: 2769
+Filename: libmariadb-plugin-auth-gssapi-client_3.1.12-4_x86_64.ipk
+Size: 3621
+SHA256sum: c5872171672a370b3f2c75f8ca16bff8c5638721fd2c4d7393ec15da78ef86d4
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the auth_gssapi_client plugin.
+ 
+
+Package: libmariadb-plugin-remote-io
+Version: 3.1.12-4
+Depends: libc, libmariadb3, libcurl4
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: x86_64
+Installed-Size: 3085
+Filename: libmariadb-plugin-remote-io_3.1.12-4_x86_64.ipk
+Size: 3922
+SHA256sum: 4eec0924a5533db5d1e7794daf071c2acbb2756496fd203c3615ad146f705e64
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package provides the remote_io plugin.
+ 
+
+Package: libmariadb3
+Version: 3.1.12-4
+Depends: libc, libopenssl1.1, zlib
+Provides: libmariadbclient, libmysqlclient, libmysqlclient-r, libmariadb, libmariadbclient3, libmysqlclient3, libmysqlclient-r3
+License: LGPL-2.1-or-later
+Section: libs
+ABIVersion: 3
+CPE-ID: cpe:/a:mariadb:mariadb
+Architecture: x86_64
+Installed-Size: 161735
+Filename: libmariadb3_3.1.12-4_x86_64.ipk
+Size: 161237
+SHA256sum: bde958effde2739e5dcdea21db2d73e170906f2c536753c1d31ea65dc86cb876
+Description:  MariaDB is a very fast and robust SQL database server.
+ 
+ This package includes the client library.
+ 
+
+Package: libnetsnmp
+Version: 5.9.1-3
+Depends: libc, libnl-tiny1, libpci, libpcre
+License: MIT BSD-3-Clause-Clear
+Section: libs
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: x86_64
+Installed-Size: 449580
+Filename: libnetsnmp_5.9.1-3_x86_64.ipk
+Size: 449725
+SHA256sum: d82eccfe0ddb2f41ef0d18dae3ed20dd685df46fc8d85bfad7abea78153a1e8e
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
 
 Package: libnghttp2-14
 Version: 1.44.0-1
@@ -1725,6 +2472,109 @@ Size: 63721
 SHA256sum: aa985daf420b060b5c8825f6004e91bca76d7b5fa04b18a3ea0741ea93e4a7bf
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
+Package: libopenldap
+Version: 2.6.0-4
+Depends: libc, libopenssl1.1, libsasl2, libpthread, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: x86_64
+Installed-Size: 139576
+Filename: libopenldap_2.6.0-4_x86_64.ipk
+Size: 140391
+SHA256sum: 7022d2afc0ef8d6c3c10fffd784c84177a9de9b9c1890ad81d9fcb6a19d78726
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+License: BSD-3c GPL
+Section: libs
+CPE-ID: cpe:/a:kernel:linux-pam
+Architecture: x86_64
+Installed-Size: 181908
+Filename: libpam_1.5.1-1_x86_64.ipk
+Size: 181617
+SHA256sum: 7ee662bcbf6aeb1661d5fa9f1c073c7f897601de13010e144c5c8d52779a428e
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 20843
+Filename: libpci_3.8.0-2_x86_64.ipk
+Size: 21548
+SHA256sum: 5f7b9c1fe3390a53a15b61a9b4fbbc2db5e921bb04cb2330d8e9fa57b9ffa03c
+Description:  Linux PCI Libraries
+
+Package: libpcre2-16
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: x86_64
+Installed-Size: 166168
+Filename: libpcre2-16_10.37-1_x86_64.ipk
+Size: 166845
+SHA256sum: 7fffa2369be244e47584426dac4462bb5a63fd703da41e6cae671f3d91dbee8f
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre2-32
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: x86_64
+Installed-Size: 156166
+Filename: libpcre2-32_10.37-1_x86_64.ipk
+Size: 156802
+SHA256sum: ac89adf0b247d0549fb5c76712bb461206088313e815e9f9e2986634c43a5cf7
+Description:  A Perl Compatible Regular Expression library (32bit support)
+
+Package: libpcre2
+Version: 10.37-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: x86_64
+Installed-Size: 181996
+Filename: libpcre2_10.37-1_x86_64.ipk
+Size: 182801
+SHA256sum: 7f9faf8518d07263b5d5c9cec3a4a407c6318c44e800bd385c81e31c621878cf
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.37-11
+Depends: libc, zlib
+License: Libpng GPL-2.0-or-later BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:libpng:libpng
+Architecture: x86_64
+Installed-Size: 93220
+Filename: libpng_1.6.37-11_x86_64.ipk
+Size: 94045
+SHA256sum: 7c16623ce147cc76214054bcdb1528ab9471b6c6058a1d47649e18476e9aaefc
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 14.5-1
+Depends: libc, libpthread
+License: PostgreSQL
+Section: libs
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: x86_64
+Installed-Size: 118024
+Filename: libpq_14.5-1_x86_64.ipk
+Size: 117969
+SHA256sum: e52abb26abf00942a5fa612bc7c78e1ac45b83fbf62c4ca43477ea6b86a74143
+Description:  PostgreSQL client library.
+
 Package: libruby3.0
 Version: 3.0.6-1
 Depends: libc, libpthread, librt, libgmp10, zlib
@@ -1739,6 +2589,32 @@ Filename: libruby3.0_3.0.6-1_x86_64.ipk
 Size: 1115552
 SHA256sum: 084935eebbada8bdf97202e85f553310f3d200ce8e6061911408afdaa192fc04
 Description:  Ruby scripting language (shared library)
+
+Package: libsasl2-sasldb
+Version: 2.1.27-5
+Depends: libc, libsasl2, libdb47
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: x86_64
+Installed-Size: 9395
+Filename: libsasl2-sasldb_2.1.27-5_x86_64.ipk
+Size: 10195
+SHA256sum: d833dddc803742976fefdfb56a2d0c432323c2fae51a6eed83b144ab0f2770dc
+Description:  A general purpose authentication library (sasldb libraries)
+
+Package: libsasl2
+Version: 2.1.27-5
+Depends: libc, libopenssl1.1
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: x86_64
+Installed-Size: 91695
+Filename: libsasl2_2.1.27-5_x86_64.ipk
+Size: 92476
+SHA256sum: 914c2f739911821f35572583c1cee01fdd3a97b9579e5435aa2e46680a468049
+Description:  A general purpose authentication library (libraries)
 
 Package: libsodium
 Version: 1.0.18-4
@@ -1756,6 +2632,66 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3410100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: x86_64
+Installed-Size: 527200
+Filename: libsqlite3-0_3410100-1_x86_64.ipk
+Size: 528039
+SHA256sum: 97c9216c3b7df6286814119994790e5709bc6dffd3c5930074fd702986c7292f
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtiff5
+Version: 4.3.0-3
+Depends: libc, zlib, libjpeg
+Provides: libtiff
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:libtiff:libtiff
+Architecture: x86_64
+Installed-Size: 137203
+Filename: libtiff5_4.3.0-3_x86_64.ipk
+Size: 137705
+SHA256sum: 461c9a23d519ee04b598ddcb1e250dc91910c259c0bed21e29bdc9bd81aeffc5
+Description:  TIFF library
+
+Package: libunbound
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 461149
+Filename: libunbound_1.17.0-1_x86_64.ipk
+Size: 457194
+SHA256sum: 991c86d8133c04783f4863a88d4eb4e348c8a2dcf46dcaf3e4d530bac4397536
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: libwebp
+Version: 1.2.1-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 278008
+Filename: libwebp_1.2.1-2_x86_64.ipk
+Size: 278813
+SHA256sum: f53687fa67b6e05b2f3b0ecf89b0bbb348145bc774891afda42fdda9d5aeda1c
+Description:  The libwebp package contains a library for the WebP format.
 
 Package: libxml2-dev
 Version: 2.10.3-1
@@ -1811,6 +2747,835 @@ Filename: libyaml_0.2.5-1_x86_64.ipk
 Size: 41818
 SHA256sum: bd688c25499b8dadf828f640515c47af32b82022e15433860e5dd280e8734580
 Description:  Fast YAML 1.1 parser and emitter library
+
+Package: libzip-gnutls
+Version: 1.8.0-4
+Depends: libc, zlib, libgnutls
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 44668
+Filename: libzip-gnutls_1.8.0-4_x86_64.ipk
+Size: 45504
+SHA256sum: 221453d8e5b77fd9b0a4d587c7a92c6c6bcfb88a03e6d8aae16ad6b2648d74bc
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-mbedtls
+Version: 1.8.0-4
+Depends: libc, zlib, libmbedtls12
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 44841
+Filename: libzip-mbedtls_1.8.0-4_x86_64.ipk
+Size: 45680
+SHA256sum: 75d6e2dde226f99a80e674b833bc65cb889d809927c56cbad817d052d88e2d6d
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-nossl
+Version: 1.8.0-4
+Depends: libc, zlib
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 42114
+Filename: libzip-nossl_1.8.0-4_x86_64.ipk
+Size: 42968
+SHA256sum: 5859f83cd53fbb70b14dc6e331dc0cce1b65e796447267e3aff1820e9fcbce65
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: libzip-openssl
+Version: 1.8.0-4
+Depends: libc, zlib, libopenssl1.1
+Provides: libzip
+License: BSD-3-Clause
+Section: libs
+Architecture: x86_64
+Installed-Size: 44527
+Filename: libzip-openssl_1.8.0-4_x86_64.ipk
+Size: 45334
+SHA256sum: 2e8baf46b86db2ebc6c40f025f1f6e335309efcd5e213d4d13657b17b62ba48e
+Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20220515, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: x86_64
+Installed-Size: 20315
+Filename: nlbwmon_2021-09-01-d82c910c-1_x86_64.ipk
+Size: 21119
+SHA256sum: 81e58e64cf591b94e9d1ffcafcdc60171a6eb9fac86994317a8cab3721270e4f
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: oniguruma5
+Version: 6.9.7.1-1
+Depends: libc
+Provides: oniguruma
+License: BSD-2-Clause
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:oniguruma_project:oniguruma
+Architecture: x86_64
+Installed-Size: 184697
+Filename: oniguruma5_6.9.7.1-1_x86_64.ipk
+Size: 182254
+SHA256sum: 6b733d2f0ecb7fd03210fa8051e5cae039b232efc5d488a59373e5dc31a0cb63
+Description:  Oniguruma is a modern and flexible regular expressions library.
+ It encompasses features from different regular expression implementations that
+ traditionally exist in different languages.
+ 
+ Character encoding can be specified per regular expression object.
+
+Package: openldap-server
+Version: 2.6.0-4
+Depends: libc, libopenldap, libuuid1
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: x86_64
+Installed-Size: 573094
+Filename: openldap-server_2.6.0-4_x86_64.ipk
+Size: 566628
+SHA256sum: 9c1a4340564600d403a134dfecc0b1e4b93f29b06c855721d26315c06a8a1367
+Description:  This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.6.0-4
+Depends: libc, libopenldap
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: x86_64
+Installed-Size: 226356
+Filename: openldap-utils_2.6.0-4_x86_64.ipk
+Size: 226725
+SHA256sum: 83ac5e3c667c06a9eb32d6bb9c36e9623e619810b5c1273001cd79e452c3bafb
+Description:  This package contains client programs required to access LDAP servers.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: x86_64
+Installed-Size: 306361
+Filename: pciids_0.359-1_x86_64.ipk
+Size: 306611
+SHA256sum: a6fe66f3e4f66a1f629e3fff9a844f899cfdc53c39aab18ba59eb9c81eae97cb
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+License: GPL-2.0
+Section: utils
+Architecture: x86_64
+Installed-Size: 44430
+Filename: pciutils_3.8.0-2_x86_64.ipk
+Size: 45240
+SHA256sum: 96d0529a076d9b8d08425bb4487905512b5479b6eacc8bbc2597241552b79614
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: pgsql-cli-extra
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: x86_64
+Installed-Size: 286304
+Filename: pgsql-cli-extra_14.5-1_x86_64.ipk
+Size: 286677
+SHA256sum: c63e5bda17c54213198779db06dd6545342d1918d2c18daf663abd7149b6a4f6
+Description:  Command Line extras for PostgreSQL databases.
+
+Package: pgsql-cli
+Version: 14.5-1
+Depends: libc, libncursesw6, libpq, libreadline8, librt, zlib
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: x86_64
+Installed-Size: 193470
+Filename: pgsql-cli_14.5-1_x86_64.ipk
+Size: 194005
+SHA256sum: b49b7876173d9c8f5666ede90a4e02f3f55bd61d5c8e7b44e9ff196514d3bec0
+Description:  Command Line Interface (CLI) to PostgreSQL databases.
+
+Package: pgsql-server
+Version: 14.5-1
+Depends: libc, pgsql-cli, blockd
+License: PostgreSQL
+Section: utils
+CPE-ID: cpe:/a:postgresql:postgresql
+Architecture: x86_64
+Installed-Size: 5925131
+Filename: pgsql-server_14.5-1_x86_64.ipk
+Size: 5836243
+SHA256sum: d4627d9507bc0d4b7fc7dce55c5791af7605f1e3c001f93efe476cd7f14c580b
+Description:  PostgreSQL databases Server.
+
+Package: pgsqlodbc
+Version: 2.3.9-2
+Depends: libc, unixodbc, libpq
+License: prog GPL libs LGPL
+Section: libs
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: x86_64
+Installed-Size: 90806
+Filename: pgsqlodbc_2.3.9-2_x86_64.ipk
+Size: 91678
+SHA256sum: c557389435a17adc20573f7775b2df433cf861b0a22cdc2e168d3147264d850a
+Description:  Postgresql driver for ODBC.
+
+Package: php8-cgi
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 1460222
+Filename: php8-cgi_8.1.18-1_x86_64.ipk
+Size: 1458355
+SHA256sum: e0e080153b0ac89659d8121b596d357596f3d48260b32d5ac8eb959e27f067a1
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP8 interpreter.
+
+Package: php8-cli
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 1481654
+Filename: php8-cli_8.1.18-1_x86_64.ipk
+Size: 1479912
+SHA256sum: 402230d80401d0e31ea98676681e9b321bea641effe62b91092766add44f8259
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP8 interpreter.
+
+Package: php8-fastcgi
+Version: 8.1.18-1
+Depends: libc, php8, php8-cgi
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 521
+Filename: php8-fastcgi_8.1.18-1_x86_64.ipk
+Size: 1373
+SHA256sum: 6ea40e6af1679fd232d6800052384077a6e6017e065b1c40a9c463ba378a680b
+Description:  As FastCGI support is now a core feature the php8-fastcgi package now depends
+ on the php8-cgi package, containing just the startup script.
+
+Package: php8-fpm
+Version: 8.1.18-1
+Depends: libc, php8, libstdcpp6
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 1513033
+Filename: php8-fpm_8.1.18-1_x86_64.ipk
+Size: 1511300
+SHA256sum: 3e13cee0884ae5c3cddd7b7d54586d273c91690b1d68a1f616d22174a7e5e319
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP8 interpreter.
+
+Package: php8-mod-bcmath
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 12023
+Filename: php8-mod-bcmath_8.1.18-1_x86_64.ipk
+Size: 12784
+SHA256sum: f5f878cac9a0bd005bafe692ccf1fb028f906d9e5de080392ad00a3f874236c5
+Description:  Bcmath shared module
+
+Package: php8-mod-calendar
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 10034
+Filename: php8-mod-calendar_8.1.18-1_x86_64.ipk
+Size: 10794
+SHA256sum: 34919c76b7d9a09243d511aa1a4d3aecfa6ae658354d4fda3a70092be9509558
+Description:  Calendar shared module
+
+Package: php8-mod-ctype
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 2426
+Filename: php8-mod-ctype_8.1.18-1_x86_64.ipk
+Size: 3181
+SHA256sum: 73d2fc560475e0822e854d8e29033548fec9fa176945a0be26ca20dddd36d417
+Description:  Ctype shared module
+
+Package: php8-mod-curl
+Version: 8.1.18-1
+Depends: libc, php8, libcurl4
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 33394
+Filename: php8-mod-curl_8.1.18-1_x86_64.ipk
+Size: 34222
+SHA256sum: 3fe7876bf4e66fe16a65c3a60f838464025a7a5180f65b589935b43408d69c34
+Description:  cURL shared module
+
+Package: php8-mod-dom
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 55395
+Filename: php8-mod-dom_8.1.18-1_x86_64.ipk
+Size: 56171
+SHA256sum: bb7f2851e3ef7733c82ed409367e4a774b3952ab90877de43a1294da860ade4d
+Description:  DOM shared module
+
+Package: php8-mod-exif
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 28477
+Filename: php8-mod-exif_8.1.18-1_x86_64.ipk
+Size: 29138
+SHA256sum: 0477b672d64be13c6ef661e3138e6357ab93546daa7438a4e2ea581c69b54ee1
+Description:  EXIF shared module
+
+Package: php8-mod-fileinfo
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 414597
+Filename: php8-mod-fileinfo_8.1.18-1_x86_64.ipk
+Size: 406362
+SHA256sum: 6770616884ece8b812f0ff97ef45da51c584d55d49b71c907f57cb8a88712489
+Description:  Fileinfo shared module
+
+Package: php8-mod-filter
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 16295
+Filename: php8-mod-filter_8.1.18-1_x86_64.ipk
+Size: 17031
+SHA256sum: 901fa0d1c1babf72c972332c97a350676966dcd3ee1496baf9f4d64a623bc7cb
+Description:  Filter shared module
+
+Package: php8-mod-ftp
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 19305
+Filename: php8-mod-ftp_8.1.18-1_x86_64.ipk
+Size: 20047
+SHA256sum: 9ab5cdde069e7ada30b927ad3946e9d3e79bfabb87ced85b731510b3bfae76bd
+Description:  FTP shared module
+
+Package: php8-mod-gd
+Version: 8.1.18-1
+Depends: libc, php8, libgd-full
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 28084
+Filename: php8-mod-gd_8.1.18-1_x86_64.ipk
+Size: 28718
+SHA256sum: 99684b5cf2abe4aa32f18742524b7e7f6d137efadc434088654381c1edf2e4e7
+Description:  GD graphics shared module
+
+Package: php8-mod-gettext
+Version: 8.1.18-1
+Depends: libc, php8, libintl-full8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 3638
+Filename: php8-mod-gettext_8.1.18-1_x86_64.ipk
+Size: 4389
+SHA256sum: 7c0eb525d3457caf0cc2a5da02ebd0b3eca340f1e33ae68fb240ae68d843ad8b
+Description:  Gettext shared module
+
+Package: php8-mod-gmp
+Version: 8.1.18-1
+Depends: libc, php8, libgmp10
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 16423
+Filename: php8-mod-gmp_8.1.18-1_x86_64.ipk
+Size: 17163
+SHA256sum: 39b90e28955ea978c202c9f40f2ee919cf753c06a222383326d25c19c7c5772d
+Description:  GMP shared module
+
+Package: php8-mod-iconv
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 17372
+Filename: php8-mod-iconv_8.1.18-1_x86_64.ipk
+Size: 18163
+SHA256sum: 853b1e877edde0ea8ea0ad236b8b05064da51ffe38cff04006274f37d0a1181c
+Description:  iConv shared module
+
+Package: php8-mod-imap
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1, libpam, uw-imap
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 30631
+Filename: php8-mod-imap_8.1.18-1_x86_64.ipk
+Size: 31324
+SHA256sum: 176e87188a02e2117779523426c87b6af4fbfb70401908df5b9040f26783d4d9
+Description:  IMAP shared module
+
+Package: php8-mod-intl
+Version: 8.1.18-1
+Depends: libc, php8, icu71
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 138691
+Filename: php8-mod-intl_8.1.18-1_x86_64.ipk
+Size: 138701
+SHA256sum: 2705646dd01b51159dc281e78e0bf7c7c9805557b613dc1633636513135390fc
+Description:  Note that this package depends in ICU library which is built without data
+ by default. This is to satisfy programs build and run dependencies but to
+ keep the installed footprint small on the target system(s).
+ However, the data is required to make the ICU library useful - and thus
+ directly affects PHPs ICU extension, too - so consider to also
+ select/install package 'icu-full-data'.
+
+Package: php8-mod-ldap
+Version: 8.1.18-1
+Depends: libc, php8, libopenldap, libsasl2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 28471
+Filename: php8-mod-ldap_8.1.18-1_x86_64.ipk
+Size: 29241
+SHA256sum: 281083bcdba29d945afa9a5855244de82e7a5b580d234baf6d9964b90e0f10c1
+Description:  LDAP shared module
+
+Package: php8-mod-mbstring
+Version: 8.1.18-1
+Depends: libc, php8, oniguruma5
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 579672
+Filename: php8-mod-mbstring_8.1.18-1_x86_64.ipk
+Size: 579294
+SHA256sum: 935c95fa73a36c8ee90d955f35a6ee3ca8fec579f9c5d638886401eef77e85de
+Description:  MBString shared module
+
+Package: php8-mod-mysqli
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 40761
+Filename: php8-mod-mysqli_8.1.18-1_x86_64.ipk
+Size: 41448
+SHA256sum: d700c43b38b5e15098a65fecbed5a8d8425c40c7a0990cef4e2a0b1b0c068786
+Description:  MySQL Improved Extension shared module
+
+Package: php8-mod-mysqlnd
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-openssl
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 75080
+Filename: php8-mod-mysqlnd_8.1.18-1_x86_64.ipk
+Size: 75472
+SHA256sum: 07306253671b3b2f01a331c7740273a37bfe65fc2816d83f9288316d4d7c8b9a
+Description:  MySQL Native Driver shared module
+
+Package: php8-mod-opcache
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 310553
+Filename: php8-mod-opcache_8.1.18-1_x86_64.ipk
+Size: 309471
+SHA256sum: fb99675477c2611cd2062ef60eece9d2bec0d78c1fbddee14e5f5a6a6000a0ea
+Description:  OPcache shared module
+
+Package: php8-mod-openssl
+Version: 8.1.18-1
+Depends: libc, php8, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 60679
+Filename: php8-mod-openssl_8.1.18-1_x86_64.ipk
+Size: 61206
+SHA256sum: 977ad1f046fb048f8aae2f6b6f0a8557ae936f725017762bc7212875f8ea6766
+Description:  OpenSSL shared module
+
+Package: php8-mod-pcntl
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 11381
+Filename: php8-mod-pcntl_8.1.18-1_x86_64.ipk
+Size: 12136
+SHA256sum: b27a7ed122e820decf29ff83bdeda361b343b2d127812f627ff0059687129304
+Description:  PCNTL shared module
+
+Package: php8-mod-pdo-mysql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, php8-mod-mysqlnd
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 10276
+Filename: php8-mod-pdo-mysql_8.1.18-1_x86_64.ipk
+Size: 11050
+SHA256sum: d1ab25366580b558a54bc5dd85763b24a0776992ce4ecd2645ef3f9d15ada380
+Description:  PDO driver for MySQL shared module
+
+Package: php8-mod-pdo-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libpq
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 16522
+Filename: php8-mod-pdo-pgsql_8.1.18-1_x86_64.ipk
+Size: 17346
+SHA256sum: 07a857708b41869692caf672d62decfd9c7d206724a7751d4b6c62c4351d11e8
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php8-mod-pdo-sqlite
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-pdo, libsqlite3-0, librt
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 10396
+Filename: php8-mod-pdo-sqlite_8.1.18-1_x86_64.ipk
+Size: 11190
+SHA256sum: 19fa3b09bed2ea930fd58abda3308d9566def9ea00067a62abed4be7f634639f
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php8-mod-pdo
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 38059
+Filename: php8-mod-pdo_8.1.18-1_x86_64.ipk
+Size: 38757
+SHA256sum: 5c03a9640e5fec708dff7a370e568aa82ef390dda5ab2ad688d524a78968bbc8
+Description:  PHP Data Objects shared module
+
+Package: php8-mod-pgsql
+Version: 8.1.18-1
+Depends: libc, php8, libpq
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 41499
+Filename: php8-mod-pgsql_8.1.18-1_x86_64.ipk
+Size: 42271
+SHA256sum: 1e0f98f043ff7d9052b29c6b92ea2fa6de0f74a9d3530d9879c38948665ac2a1
+Description:  PostgreSQL shared module
+
+Package: php8-mod-phar
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 99798
+Filename: php8-mod-phar_8.1.18-1_x86_64.ipk
+Size: 100456
+SHA256sum: efb288c6c32af12a4cf2bfc4a351696d8996fb5c4a590a9e6799f796560ebf81
+Description:  Phar Archives shared module
+
+Package: php8-mod-session
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 32135
+Filename: php8-mod-session_8.1.18-1_x86_64.ipk
+Size: 32866
+SHA256sum: 0da2c2132be964f18bcc0a47f94cebfd7ed19decc0fa59d13ce877febf895ec9
+Description:  Session shared module
+
+Package: php8-mod-shmop
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 3819
+Filename: php8-mod-shmop_8.1.18-1_x86_64.ipk
+Size: 4591
+SHA256sum: 8c7e58153d22956f4af79c1b56f7fbf834314eb87695c821fbcaef57e8b725e2
+Description:  Shared Memory shared module
+
+Package: php8-mod-simplexml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 17390
+Filename: php8-mod-simplexml_8.1.18-1_x86_64.ipk
+Size: 18187
+SHA256sum: 3f17f4662fca56342de971c10eaf8613b85fcf99a2bc8cdaf36b9c5c5454b8b2
+Description:  SimpleXML shared module
+
+Package: php8-mod-snmp
+Version: 8.1.18-1
+Depends: libc, php8, libnetsnmp, libopenssl1.1
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 18394
+Filename: php8-mod-snmp_8.1.18-1_x86_64.ipk
+Size: 19165
+SHA256sum: 10ba2b860b1b8c5df1f973345da6a35202af13acc5a7028914a7dccf4ca91f0e
+Description:  SNMP shared module
+
+Package: php8-mod-soap
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 115333
+Filename: php8-mod-soap_8.1.18-1_x86_64.ipk
+Size: 116142
+SHA256sum: 932c837d65760fe8bc13c130508d95fec3c6a8e35ebe11f0b83cb5e3988f29cf
+Description:  SOAP shared module
+
+Package: php8-mod-sockets
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 32392
+Filename: php8-mod-sockets_8.1.18-1_x86_64.ipk
+Size: 33108
+SHA256sum: 6aa657f2cafbc706c97aa2ea375098ad6e3d345486077310d02ef48ee7aa23bc
+Description:  Sockets shared module
+
+Package: php8-mod-sqlite3
+Version: 8.1.18-1
+Depends: libc, php8, libsqlite3-0
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 18837
+Filename: php8-mod-sqlite3_8.1.18-1_x86_64.ipk
+Size: 19563
+SHA256sum: 6c9947093eddf38409bf6acb4efdb8ee8630ceac65bcab3aacfa5fa7a9f42080
+Description:  SQLite3 shared module
+
+Package: php8-mod-sysvmsg
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 5431
+Filename: php8-mod-sysvmsg_8.1.18-1_x86_64.ipk
+Size: 6176
+SHA256sum: 430fe49611e48befa8dd764c64c79bdb99b5db286e15053cf46eb4ec140cc4fd
+Description:  System V messages shared module
+
+Package: php8-mod-sysvsem
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 3483
+Filename: php8-mod-sysvsem_8.1.18-1_x86_64.ipk
+Size: 4263
+SHA256sum: 4bfce4612617c12b6db1415f6d6973372f4b49565f930fc1de2181df22610164
+Description:  System V shared memory shared module
+
+Package: php8-mod-sysvshm
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 4406
+Filename: php8-mod-sysvshm_8.1.18-1_x86_64.ipk
+Size: 5145
+SHA256sum: f34b72c9550968059d97ec2730066ee77e77b9cd5c0a5b7387cf24f11c8c3c8e
+Description:  System V semaphore shared module
+
+Package: php8-mod-tokenizer
+Version: 8.1.18-1
+Depends: libc, php8
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 9598
+Filename: php8-mod-tokenizer_8.1.18-1_x86_64.ipk
+Size: 10314
+SHA256sum: 4f5859fd0c34ed16c66202d737802bef48ae7ebb07d0dd1df66178c34c265666
+Description:  Tokenizer shared module
+
+Package: php8-mod-xml
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 16289
+Filename: php8-mod-xml_8.1.18-1_x86_64.ipk
+Size: 16986
+SHA256sum: d1e1b29a8e9de06338911a49f4438ffb4ae36fd8c7a640a1bd497f46fba71b5c
+Description:  XML shared module
+
+Package: php8-mod-xmlreader
+Version: 8.1.18-1
+Depends: libc, php8, php8-mod-dom, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 10651
+Filename: php8-mod-xmlreader_8.1.18-1_x86_64.ipk
+Size: 11429
+SHA256sum: 705cc4159d377ec31d3102cbe570eb1f7e715145064bfa8cceb08daeefb1dbf3
+Description:  XMLReader shared module
+
+Package: php8-mod-xmlwriter
+Version: 8.1.18-1
+Depends: libc, php8, libxml2
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 10066
+Filename: php8-mod-xmlwriter_8.1.18-1_x86_64.ipk
+Size: 10744
+SHA256sum: 2823ec8bd3419ceb36fb7fce69fd7b5cffa18bdc0bc1635206cf4542c82a3091
+Description:  XMLWriter shared module
+
+Package: php8-mod-zip
+Version: 8.1.18-1
+Depends: libc, php8, libzip
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 23157
+Filename: php8-mod-zip_8.1.18-1_x86_64.ipk
+Size: 23863
+SHA256sum: 32c72b224fd4298e052bef4e05efb0ae12bff255fe1d3d3e54f2713196e0a262
+Description:  ZIP shared module
+
+Package: php8
+Version: 8.1.18-1
+Depends: libc, libpcre2, zlib, libxml2, zoneinfo-core
+Conflicts: php7
+License: PHP-3.01
+Section: lang
+CPE-ID: cpe:/a:php:php
+Architecture: x86_64
+Installed-Size: 1454
+Filename: php8_8.1.18-1_x86_64.ipk
+Size: 2502
+SHA256sum: 30326d7b48f7ea10aff282bd0625969e80849855dd3e346a53c03b4b7ee7693f
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php8 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
 
 Package: ruby-abbrev
 Version: 3.0.6-1
@@ -3923,6 +5688,241 @@ Size: 44666
 SHA256sum: dbe49418a7bc667dd6fe7386e600f859ecc65d791ee6155fc6706772627142bc
 Description:  shadowsocks-libev ss-tunnel
 
+Package: snmp-mibs
+Version: 5.9.1-3
+Depends: libc
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: x86_64
+Installed-Size: 340265
+Filename: snmp-mibs_5.9.1-3_x86_64.ipk
+Size: 341211
+SHA256sum: 8c83b76d38097907ea4c34e4c33135e0677978d7427d08d6e627db1bd0c8eb39
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP MIB-Files.
+
+Package: snmp-utils
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: x86_64
+Installed-Size: 15354
+Filename: snmp-utils_5.9.1-3_x86_64.ipk
+Size: 16128
+SHA256sum: 9ca3259e19fa4e254ccdacc8b17cdc678c8568c1d37776a399007df3e42cd648
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains SNMP client utilities:
+ - snmpget
+ - snmpset
+ - snmpstatus
+ - snmptest
+ - snmptrap
+ - snmpwalk
+
+Package: snmpd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: x86_64
+Installed-Size: 10150
+Filename: snmpd_5.9.1-3_x86_64.ipk
+Size: 11128
+SHA256sum: c9d13f98a50cbd34722e09af762b92da20ad81d71cc1a30e457f20ce644dc8bf
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP agent, dynamically linked.
+
+Package: snmptrapd
+Version: 5.9.1-3
+Depends: libc, libnetsnmp
+License: MIT BSD-3-Clause-Clear
+Section: net
+CPE-ID: cpe:/a:net-snmp:net-snmp
+Architecture: x86_64
+Installed-Size: 20273
+Filename: snmptrapd_5.9.1-3_x86_64.ipk
+Size: 21211
+SHA256sum: 252074885f5fbdcb6e94151cb88d1438bf4f8f36479ddfd04a1c85295ab313b1
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains the SNMP notification receiver.
+
+Package: sqlite3-cli
+Version: 3410100-1
+Depends: libc, libsqlite3-0, libedit
+License: PUBLICDOMAIN
+Section: utils
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: x86_64
+Installed-Size: 117634
+Filename: sqlite3-cli_3410100-1_x86_64.ipk
+Size: 118565
+SHA256sum: 66f474b4d3fa722c91d17e1388462a1024002a9d5c88a959e2aecd015b559f84
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: tar
+Version: 1.34-1
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:tar
+Architecture: x86_64
+Installed-Size: 200887
+Filename: tar_1.34-1_x86_64.ipk
+Size: 201862
+SHA256sum: bef10c4d6d881c4527858acb76b5a46e043dbefec1ed5f2dce0ea57dd7f14547
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tiff-utils
+Version: 4.3.0-3
+Depends: libc, libtiff5
+License: BSD-3-Clause
+Section: utils
+CPE-ID: cpe:/a:libtiff:libtiff
+Architecture: x86_64
+Installed-Size: 145546
+Filename: tiff-utils_4.3.0-3_x86_64.ipk
+Size: 145823
+SHA256sum: a094733480c83c614d209a27aead65fdcd7fe53713c8b39d3b38fffde9a8c4bd
+Description:  TIFF utilities
+
+Package: unbound-anchor
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 21644
+Filename: unbound-anchor_1.17.0-1_x86_64.ipk
+Size: 22487
+SHA256sum: 4c732eada81358e5ea9203c76d533b2567d9ecaf122f96a0265d4dd9ddf11a9e
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 51571
+Filename: unbound-checkconf_1.17.0-1_x86_64.ipk
+Size: 52309
+SHA256sum: 895c81f42c9490cf8e4d446a5d12077f0e7a94e910c412ca5cadfad7e33e3210
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 2591
+Filename: unbound-control-setup_1.17.0-1_x86_64.ipk
+Size: 3432
+SHA256sum: 4f4e308a34244a62083aca203e22e9d31a2ce8c69a8d6fa23a0bb6e47df91c6f
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 52931
+Filename: unbound-control_1.17.0-1_x86_64.ipk
+Size: 53560
+SHA256sum: 790b548ff1c50e779f79a044e878ae9d9ad82969df33b7dfb741e3e5bfeb8476
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 137353
+Filename: unbound-daemon_1.17.0-1_x86_64.ipk
+Size: 137807
+SHA256sum: 4cf3309a633a5bd7c73c6a7ade4423cc713df42a1f91018af97d83b2197f5614
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.17.0-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Architecture: x86_64
+Installed-Size: 45393
+Filename: unbound-host_1.17.0-1_x86_64.ipk
+Size: 45781
+SHA256sum: 1ab7a151b2a73be579f1ce3874131da0414098b9efa3f6e5af2ed5f49701ffe4
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: unixodbc-tools
+Version: 2.3.9-2
+Depends: libc, unixodbc, libncurses6, libreadline8
+License: prog GPL libs LGPL
+Section: utils
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: x86_64
+Installed-Size: 24923
+Filename: unixodbc-tools_2.3.9-2_x86_64.ipk
+Size: 25631
+SHA256sum: cce972948a49226faecd4b307203f6d51efa9f5adf6be84790112d75c7112f3d
+Description:  Command Line Tools to help install a driver and work with SQL.
+
+Package: unixodbc
+Version: 2.3.9-2
+Depends: libc, libltdl7, libpthread
+License: prog GPL libs LGPL
+Section: libs
+CPE-ID: cpe:/a:unixodbc:unixodbc
+Architecture: x86_64
+Installed-Size: 221345
+Filename: unixodbc_2.3.9-2_x86_64.ipk
+Size: 222104
+SHA256sum: d5a4726fd102cdd65717bbae0494e82e4bfa15c83c925e3cd8b21aa9094af6d5
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
 Package: unzip
 Version: 6.0-8
 Depends: libc
@@ -3938,6 +5938,32 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: x86_64
+Installed-Size: 251054
+Filename: usbids_0.359-1_x86_64.ipk
+Size: 251502
+SHA256sum: 038014ad9a11410174ed782ded54e6a969969a6b5c10257a95a44a1d3abe0bd2
+Description:  USB ID list
+
+Package: uw-imap
+Version: 2007f-5
+Depends: libc, libpthread, libopenssl1.1
+License: Apache-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 490493
+Filename: uw-imap_2007f-5_x86_64.ipk
+Size: 491130
+SHA256sum: 3fdf74ec01070281ee6dd40ee421f57a0eaa49ef76db56f266a8e0cff47df362
+Description:  The UW IMAP tookit includes the following:
+ c-lient library : an API (application programming interface) used to build email clients and servers,
+ including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
 Package: xray-core
 Version: 1.8.1-1
@@ -3966,4 +5992,196 @@ Description:  Xray, Penetrates Everything. It helps you to build your own comput
  It secures your network connections and thus protects your privacy.
  
  This includes example configuration files for xray-core.
+
+Package: zipcmp
+Version: 1.8.0-4
+Depends: libc, libzip, musl-fts
+License: BSD-3-Clause
+Section: utils
+Architecture: x86_64
+Installed-Size: 8831
+Filename: zipcmp_1.8.0-4_x86_64.ipk
+Size: 9633
+SHA256sum: 10604297c1f1832029e6706cf3b2c97af8032f7f431aa549b2bc28adb0ce4d14
+Description:  This package contains the command line tool zipcmp from libzip.
+
+Package: zipmerge
+Version: 1.8.0-4
+Depends: libc, libzip
+License: BSD-3-Clause
+Section: utils
+Architecture: x86_64
+Installed-Size: 3652
+Filename: zipmerge_1.8.0-4_x86_64.ipk
+Size: 4407
+SHA256sum: d0087b0154277d229ffde8fe20f4715f9397776e6d3087c961f702f0011561d9
+Description:  This package contains the command line tool zipmerge from libzip.
+
+Package: ziptool
+Version: 1.8.0-4
+Depends: libc, libzip
+License: BSD-3-Clause
+Section: utils
+Architecture: x86_64
+Installed-Size: 9315
+Filename: ziptool_1.8.0-4_x86_64.ipk
+Size: 10106
+SHA256sum: f11b0c691a1258de98f90efd2f585a698010a72a2e57e1fdac2843f9746e2216
+Description:  This package contains the command line tool ziptool from libzip.
+
+Package: zoneinfo-africa
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 7271
+Filename: zoneinfo-africa_2023c-1_x86_64.ipk
+Size: 8009
+SHA256sum: c34d48f532092ddc723a98aa3390a222e96a235d2c70a6121de20e5a30ddfe7d
+Description:  Zone Information (Africa)
+
+Package: zoneinfo-all
+Version: 2023c-1
+Depends: libc, zoneinfo-core, zoneinfo-africa, zoneinfo-northamerica, zoneinfo-southamerica, zoneinfo-poles, zoneinfo-asia, zoneinfo-atlantic, zoneinfo-australia-nz, zoneinfo-pacific, zoneinfo-europe, zoneinfo-india
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 95
+Filename: zoneinfo-all_2023c-1_x86_64.ipk
+Size: 880
+SHA256sum: 1759e5d2f1856250e1bd32e8ab218ecf1e44052af6b30a27b63030a1d8fdb05d
+Description:  Zone Information (all zones)
+
+Package: zoneinfo-asia
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 30558
+Filename: zoneinfo-asia_2023c-1_x86_64.ipk
+Size: 30971
+SHA256sum: df464c08ed8f3610ce9c4d716a7a5504bc768b8c535672bea47fb67fde0c1d5a
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-atlantic
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 5793
+Filename: zoneinfo-atlantic_2023c-1_x86_64.ipk
+Size: 6507
+SHA256sum: 7dbc64b40950d705688ef32f857ad8ed00103788dd0fb00a46457a6319ce9169
+Description:  Zone Information (Atlantic)
+
+Package: zoneinfo-australia-nz
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 6688
+Filename: zoneinfo-australia-nz_2023c-1_x86_64.ipk
+Size: 7313
+SHA256sum: 8338b77b3a651e315ecdf011d1d91c57ba678ceb4ce1fcff36a344193df36cdf
+Description:  Zone Information (Australia-NZ)
+
+Package: zoneinfo-core
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 20440
+Filename: zoneinfo-core_2023c-1_x86_64.ipk
+Size: 20790
+SHA256sum: 9586b79809c612d1fd62cfb36d550bdc4addf3621402eb3dbc2164b2f5336ce8
+Description:  Zone Information (core)
+
+Package: zoneinfo-europe
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 20936
+Filename: zoneinfo-europe_2023c-1_x86_64.ipk
+Size: 21560
+SHA256sum: 4ae382c3e5a4eda360d6c1edf4cc6da9b8b7b483b8a479da889f9ddf8a666f18
+Description:  Zone Information (Europe)
+
+Package: zoneinfo-india
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 941
+Filename: zoneinfo-india_2023c-1_x86_64.ipk
+Size: 1690
+SHA256sum: 1d1a729cfcd2d50d917ee4d936e836013e0994bba4d639b91542d85dc734711d
+Description:  Zone Information (India)
+
+Package: zoneinfo-northamerica
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 78798
+Filename: zoneinfo-northamerica_2023c-1_x86_64.ipk
+Size: 78596
+SHA256sum: 96f6f4b8c314bce59a5347cf43cbebdf777244492a2514c8c58be9231c522240
+Description:  Zone Information (NorthAmerica)
+
+Package: zoneinfo-pacific
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 6662
+Filename: zoneinfo-pacific_2023c-1_x86_64.ipk
+Size: 7428
+SHA256sum: 382d74152beeb7e70ef60145ad55bdcb471fefd5e6adfaefe2cf7f08076cc8ad
+Description:  Zone Information (Pacific)
+
+Package: zoneinfo-poles
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 5046
+Filename: zoneinfo-poles_2023c-1_x86_64.ipk
+Size: 5793
+SHA256sum: 3bf5f7245687ac3787f0b143084d792396c9e19bc3f7b59b33d5bd0a65a31690
+Description:  Zone Information (Arctic, Antarctic)
+
+Package: zoneinfo-simple
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 16823
+Filename: zoneinfo-simple_2023c-1_x86_64.ipk
+Size: 17502
+SHA256sum: 828b5a86e44cd5cd1b02baefa5ac02179b72858dc1709ac9b9042b13b7008473
+Description:  Zone Information (simple)
+
+Package: zoneinfo-southamerica
+Version: 2023c-1
+Depends: libc
+License: Public Domain
+Section: utils
+Architecture: x86_64
+Installed-Size: 4830
+Filename: zoneinfo-southamerica_2023c-1_x86_64.ipk
+Size: 5532
+SHA256sum: f38d473a5ddf1e721e6b16e121aa299346c314074666a72d3ba2b2cc1cf659c5
+Description:  Zone Information (SouthAmerica)
 
