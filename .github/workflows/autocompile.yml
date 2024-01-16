@@ -106,7 +106,7 @@ jobs:
       - name: Moving artifact to releases
         shell: bash
         run: |
-          rm -rf releases/*
+          # rm -rf releases/*
           mkdir -p releases 2>/dev/null
           version=( 22.03.5 23.05.2 )
           archi=( x86_64 mips_24kc mipsel_24kc arm_cortex-a7_neon-vfpv4 aarch64_cortex-a53 aarch64_cortex-a72 aarch64_generic )
