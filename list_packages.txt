@@ -1,1 +1,1 @@
-usign luci-app-ipinfo luci-theme-alpha luci-app-homeproxy luci-app-openclash luci-app-passwall luci-app-quickstart luci-theme-argon luci-app-tinyfilemanager luci-app-argon-config luci-app-cloudflared luci-app-passwall2
+usign luci-app-ipinfo luci-theme-alpha luci-app-homeproxy luci-app-openclash luci-app-passwall luci-app-quickstart luci-theme-argon luci-app-tinyfilemanager luci-app-argon-config luci-app-cloudflared
