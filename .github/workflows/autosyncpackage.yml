@@ -63,9 +63,9 @@ jobs:
         #    Gunakan Contoh Seperti Theme Argon Di Bawah
         (
         # Tunnel
-        git_clone https://github.com/vernesong/OpenClash luci-app-openclash && mv_clone luci-app-openclash # CONTOH 1
+        git_clone https://github.com/vernesong/OpenClash luci-app-openclash && mv -n luci-app-openclash/luci-app-openclash ./; rm -fr luci-app-openclash/luci-app-openclash
         git_clone https://github.com/rtaserver/openwrt-passwall luci-app-passwall && mv -n luci-app-passwall/luci-app-passwall ./; rm -fr luci-app-passwall/luci-app-passwall # CONTOH 2
-        git_clone https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv_clone luci-app-passwall2
+        git_clone https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n luci-app-passwall2/luci-app-passwall2 ./; rm -fr luci-app-passwall2/luci-app-passwall2
         git_clone https://github.com/rtaserver/luci-app-homeproxy luci-app-homeproxy
         ) &
         (
