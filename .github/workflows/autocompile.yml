@@ -58,7 +58,7 @@ jobs:
           ref: main
 
       - name: Reading Package 
-        if: ${{ input.compile_pkg == '' }}
+        if: input.compile_pkg == ''
         id: list_package
         uses: jaywcjlove/github-action-read-file@main
         with:
