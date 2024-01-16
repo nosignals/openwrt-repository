@@ -42,14 +42,9 @@ jobs:
             fi
             mv -n $2-new/* ./$2
             rm -fr $2-new
+            sed -i "/usign/ {/$2/! s/$/ $2/}" '../list_packages.txt'
           else
             git clone --depth 1 $1
-          fi
-          if grep -q "$2" "../list_packages.txt"; then
-            echo "Nama Package $2 Sudah Ada - SKIP"
-          else
-            echo "Membuat Nama Package $2"
-            sed -i "/usign/ s/$/ $2/" '../list_packages.txt'
           fi
         }
         # Tutor Singkat Nambahin App Dari Repo Lain
@@ -60,9 +55,9 @@ jobs:
         #    Gunakan Contoh Seperti Theme Argon Di Bawah
         (
         # Tunnel
-        git_clone https://github.com/vernesong/OpenClash luci-app-openclash && mv -n luci-app-openclash/luci-app-openclash ./; rm -fr luci-app-openclash/luci-app-openclash
-        git_clone https://github.com/rtaserver/openwrt-passwall luci-app-passwall && mv -n luci-app-passwall/luci-app-passwall ./; rm -fr luci-app-passwall/luci-app-passwall
-        git_clone https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n luci-app-passwall2/luci-app-passwall2 ./; rm -fr luci-app-passwall2/luci-app-passwall2
+        git_clone https://github.com/vernesong/OpenClash && mv -n OpenClash/luci-app-openclash ./; rm -rf OpenClash
+        git_clone https://github.com/rtaserver/openwrt-passwall && mv -n openwrt-passwall/luci-app-passwall ./; rm -fr openwrt-passwall
+        git_clone https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n luci-app-passwall2/luci-app-passwall2 ./; rm -fr luci-app-passwall2
         git_clone https://github.com/rtaserver/luci-app-homeproxy luci-app-homeproxy
         ) &
         (
