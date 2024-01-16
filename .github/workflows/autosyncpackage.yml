@@ -47,6 +47,11 @@ jobs:
             git clone --depth 1 $1
           fi
         }
+        function git_clone2() {
+          git clone --depth 1 $1
+          sed -i "/usign/ {/$2/! s/$/ $2/}" '../list_packages.txt'
+        }
+
         # Tutor Singkat Nambahin App Dari Repo Lain
         # 1. Salin URL Repo yang mau di tambahkan
         # 2. Untuk Repo Dengan Makefile Di Dalam Directory
@@ -54,10 +59,13 @@ jobs:
         # 3. Untuk Repo Dengan Makefile di Luar Directory 
         #    Gunakan Contoh Seperti Theme Argon Di Bawah
         (
+        #
+        # git_clone URL_REPO NAMA_PACKAGE >> Tutor Untuk No 3 Di Atas
+        # git_clone2 URL_REPO NAMA_PACKAGE >> Tutor Untuk No 2 Di Atas
         # Tunnel
-        git_clone https://github.com/vernesong/OpenClash && mv -n OpenClash/luci-app-openclash ./; rm -rf OpenClash; sed -i "/usign/ {/luci-app-openclash/! s/$/ luci-app-openclash/}" '../list_packages.txt'
-        git_clone https://github.com/rtaserver/openwrt-passwall && mv -n openwrt-passwall/luci-app-passwall ./; rm -fr openwrt-passwall; sed -i "/usign/ {/luci-app-passwall/! s/$/ luci-app-passwall/}" '../list_packages.txt'
-        git_clone https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n luci-app-passwall2/luci-app-passwall2 ./; rm -fr luci-app-passwall2/*
+        git_clone2 https://github.com/vernesong/OpenClash luci-app-openclash && mv -n OpenClash/luci-app-openclash ./; rm -rf OpenClash
+        git_clone2 https://github.com/rtaserver/openwrt-passwall luci-app-passwall && mv -n openwrt-passwall/luci-app-passwall ./; rm -fr openwrt-passwall
+        git_clone2 https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n openwrt-passwall2/luci-app-passwall2 ./; rm -fr openwrt-passwall2
         git_clone https://github.com/rtaserver/luci-app-homeproxy luci-app-homeproxy
         ) &
         (
