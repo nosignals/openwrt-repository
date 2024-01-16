@@ -1,1 +1,5181 @@
+Package: acl
+Version: 2.3.1-1
+Depends: libc, libacl
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1616347947
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18335
+Filename: acl_2.3.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19171
+SHA256sum: ea347c4872ac49f38f7bb1459bb434a228ae8c043d161d7b50ccd1f6241d0496
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11558
+Filename: attr_2.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12375
+SHA256sum: 66aa26e431337d972d0052e89ed96a3dcbe4be78d665751d4f97651531382eae
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bash
+Version: 5.2.15-1
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1674462406
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 425516
+Filename: bash_5.2.15-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 426200
+SHA256sum: 84bfccd5890ddfea3a832fd161b182dcc442e4a024722a4969abe7066eb0e057
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168472
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8557
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9302
+SHA256sum: 1c18a2e7556eb07b715235624c6b54861d613dc8c27536b9bfaff53263b0b1eb
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-b2sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27943
+Filename: coreutils-b2sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28705
+SHA256sum: d247761755ce2ea3aa2eaf2d011d0b46850d0967e4014769312404b0241f110d
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base32
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19110
+Filename: coreutils-base32_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19933
+SHA256sum: f4fbe303a6267f05ff53c48cafe534a8241f5178b8b17e8c3e367bf80f411271
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19099
+Filename: coreutils-base64_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19900
+SHA256sum: 2bc43db6626278ff8229dab1282ca839693dbbd557a1b8ecb0161e6a6f00265c
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basename
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16577
+Filename: coreutils-basename_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17405
+SHA256sum: 7ce584ca44eb4e432c9ab98a61f85b15ce8fd1a6c088d5b995ea468773c470f2
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basenc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21999
+Filename: coreutils-basenc_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22779
+SHA256sum: ac27e76316dc3324af3b142477685c86a16ff8e9c505f1e210ab980531f38c0e
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18323
+Filename: coreutils-cat_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19182
+SHA256sum: 8a2b3aabd551d158bb6d31a4dd28d2f40ce7df2ccf47fa3130e2b518460dd8c4
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27330
+Filename: coreutils-chcon_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28164
+SHA256sum: 02370c412b54e6703b65b143d5c9aca8d591250ce67cfee32d2c01f20d6cb1e3
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chgrp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29524
+Filename: coreutils-chgrp_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30358
+SHA256sum: 2a9a12e83b6df39f990d6c41545935c2518a43c0ed89e4445a3fcfb25bfab363
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chmod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26883
+Filename: coreutils-chmod_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27671
+SHA256sum: b03628dc48eb2ca4a1ab15930616d89a700f1162c6f4cbe4e1a77ade469a0697
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chown
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30394
+Filename: coreutils-chown_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31148
+SHA256sum: c75ea9e74d86c63a747c8d26ee4aecedc24c13a40103ebdb205780c84ef82fe8
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chroot
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24395
+Filename: coreutils-chroot_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25133
+SHA256sum: 134727bfeaaaf40f942a69047e6f4d7e36c4fe1f29e2ae44a375f4217e9d8b38
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cksum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71616
+Filename: coreutils-cksum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 72207
+SHA256sum: 443d55da27fa3c438a9019c55b4d12e3cdaf30583da74c427b764f569e459c22
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-comm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19027
+Filename: coreutils-comm_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19886
+SHA256sum: 780c8d1f18ff31ccaf980ccd30982ba79f2b1d301dd55cedaf0cdb4d70d1707c
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 45072
+Filename: coreutils-cp_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45799
+SHA256sum: 1e305e1bfb4c64ae1ccfaeacbbe9f57e01f71afe41d505cbd7254cde19679ac1
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-csplit
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 49638
+Filename: coreutils-csplit_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 50420
+SHA256sum: 514ae306ec2f1aa213573925b1a338613d6b93cee6daaaacdd0147b05e846ff6
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cut
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20396
+Filename: coreutils-cut_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21170
+SHA256sum: c648f46743df59302e1da66c45a839cd455e9434328293ba02c4356ae0a9bef6
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-date
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40870
+Filename: coreutils-date_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41786
+SHA256sum: 7002dd3319151ff2eebcdeb73f4d038447f9c07c2fd1f3b508dd4d4840010025
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30174
+Filename: coreutils-dd_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31022
+SHA256sum: d794bee4a692bcf09aee3ce421a866a44377700666a3c742069fe9ae7ebf5a6a
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-df
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36013
+Filename: coreutils-df_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 36767
+SHA256sum: bfefce38122bcb319175134e3bf1ba93bc7b354cb7fd9f4ecbbaadce69b9f758
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57653
+Filename: coreutils-dir_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58529
+SHA256sum: d2b58bdcb0b6d024196ac669d4b7dfd285cf585e83ad9a363ebc9a647f3ea0d5
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dircolors
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25786
+Filename: coreutils-dircolors_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26541
+SHA256sum: c288778e9f02e60b0a125ecc228e55d19348459615565a4130294f9daa7820ac
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dirname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16349
+Filename: coreutils-dirname_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17138
+SHA256sum: fa18cf105c107f6c3b44bf2c0da995661ee5e72316a445ddc2819d238af68a97
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-du
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 74255
+Filename: coreutils-du_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 75018
+SHA256sum: 5ba1e572633851ed0fd04b41557fef3b91998d9d77fd9bb7c3cf8fb42545cae5
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-echo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15002
+Filename: coreutils-echo_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15781
+SHA256sum: 2ad470c3c83acfab5e9bcff064f8de8314fed947f6f4c09f701f08b89bb47380
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-env
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21260
+Filename: coreutils-env_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22031
+SHA256sum: 5955dbcbad1e0854cd68aa146e32e16e38337b5505d7806a04d25a2c472ad027
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18245
+Filename: coreutils-expand_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19109
+SHA256sum: 5fa39b38ac0879b3dca47407bcc8854a0cbbe1220b1d61c1744a4d9f97ad93a0
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 9.0-2
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 47705
+Filename: coreutils-expr_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 48524
+SHA256sum: 4399b3da87d4139e3dd8c97bfb3acbc0d5d07ff538474eee958116c0b4b5848d
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 9.0-2
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-factor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41529
+Filename: coreutils-factor_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42376
+SHA256sum: bdc294db617936abfacdffcc480ba6f0c2ed08ba10af4ebc1848eab10aab9fc5
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-false
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13980
+Filename: coreutils-false_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14748
+SHA256sum: c05e67da3ded5c784404b3ab715521d271fd5700504b4d7d1e7c3ff3b517460f
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19856
+Filename: coreutils-fmt_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20621
+SHA256sum: 4fcbedf6a45d7e155d5152a61a9e31571f2761395c89c7d8b46261632aca1296
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fold
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17787
+Filename: coreutils-fold_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18548
+SHA256sum: 523e94e1e8a0085c337681eaed02d2cfa38460e204a8581cb2e55429b814c634
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-groups
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17077
+Filename: coreutils-groups_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17915
+SHA256sum: 8a0e2f84f5f6277e572bb6da841f915fd4e141a5020dc1e5299aa845b2f4d5e8
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-head
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21127
+Filename: coreutils-head_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21933
+SHA256sum: b9199aa3e60f73c0970d8b1acc346d3211e627b4e2d1676f5c47014b8946f056
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-hostid
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15997
+Filename: coreutils-hostid_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16761
+SHA256sum: 001aa26a7ddab7495274bbf638987b688b870602587a9a0bf3bec096ffa8e2da
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-id
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19478
+Filename: coreutils-id_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20262
+SHA256sum: ccc16791f5b459c5f251693c286ac59d3fcc086a3c7786cecd7025757a24d771
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-install
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46412
+Filename: coreutils-install_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47121
+SHA256sum: 218f8217ae14c22321ce7f07502e41c0472c323c14ce15d763b05dcac732363d
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-join
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22542
+Filename: coreutils-join_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23312
+SHA256sum: f07147494a0f12a062b154c90f012a328f8fad1a195082fa5dc46adc1012f180
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-kill
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18079
+Filename: coreutils-kill_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18930
+SHA256sum: 269ed8da7959d2578dccec658f0b583631ff9939826e9016f925297049a5f45d
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-link
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16121
+Filename: coreutils-link_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16903
+SHA256sum: d2a9dd689065d619e2b356706a2cbe08fcd590d550d926e703d71753497fd352
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ln
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28614
+Filename: coreutils-ln_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29422
+SHA256sum: 2c0647ac2bae2579a74fc15d09192a32bf72e6797204d38d8423f7a188fdf567
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-logname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16007
+Filename: coreutils-logname_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16801
+SHA256sum: 9eb7825b6f222f54130abc9e7bd438ec80e59bb2c912db569f21e61f292d08dd
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ls
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57661
+Filename: coreutils-ls_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58552
+SHA256sum: fc92d6839757e6abd7da37e325ac01e4b0d24d1b53e05afde7a23f4202966270
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-md5sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22282
+Filename: coreutils-md5sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23046
+SHA256sum: 18949372af4e8ad18927d0085a392bc927d7ad7212e8cb5b39b372b55127e506
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19511
+Filename: coreutils-mkdir_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20366
+SHA256sum: 16d7579dbf0cae2ef1541eed9b1ecdd67bd6318683ca84aeb6ba35daa4829414
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkfifo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17267
+Filename: coreutils-mkfifo_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18118
+SHA256sum: f206c08d3bf318541544dd52ac5f4ae497556ec9afabb9a746c183f3cd11269a
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mknod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18697
+Filename: coreutils-mknod_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19553
+SHA256sum: 9922f8bdc83911239181c87d38bf668e56a9875288d80e7b7b78a42d2b91a732
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mktemp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18313
+Filename: coreutils-mktemp_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19179
+SHA256sum: c7a0de12320015a562e7ea01cc9525682d5c1c755c64a4996f40c3d08f3e19c8
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48427
+Filename: coreutils-mv_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49207
+SHA256sum: eece995698c64441a065615b84326ef8bd8fd602d20e358c352601c4c2521d89
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nice
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17240
+Filename: coreutils-nice_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18024
+SHA256sum: 92254d7e90d8b3d5c1829032bd67f21783e8a3660a991517ae184289b63147c4
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46371
+Filename: coreutils-nl_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47215
+SHA256sum: 4f11e8dcf029e251edc20277f8e81c28c356b19db57561e91f20347ad151c675
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17512
+Filename: coreutils-nohup_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18348
+SHA256sum: 4a209dc63ecaca213c0902c11b4bd23211a99c1bbf817d724096b79ca2651722
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nproc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17380
+Filename: coreutils-nproc_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18208
+SHA256sum: e27b62bb72d463109b9234b96a5669f5e4f830fb33e391a619da89dd1d827835
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-numfmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26729
+Filename: coreutils-numfmt_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27529
+SHA256sum: 133beb77ee61d87aceb0025789010061c8e748cb4af8a940cfa9b7b94da263b0
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-od
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26999
+Filename: coreutils-od_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27816
+SHA256sum: 048819009921ff5b5a324031ef563996e9dda058f991715bda3b259dfd7b2cfc
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-paste
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17531
+Filename: coreutils-paste_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18362
+SHA256sum: 10f2985abaf8e442e60ced8840eb77c5f831368707958c30a84757772215ed98
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pathchk
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16880
+Filename: coreutils-pathchk_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17695
+SHA256sum: 9b0b52682efd3995e15b5ab3b69993bbb94124a2c0a8dacb38c7a9a807cd9666
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pinky
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18743
+Filename: coreutils-pinky_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19576
+SHA256sum: 2818497d63c21865669b432e8f23e47e13638d6746eb525b3c5315254ef4ee03
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 31963
+Filename: coreutils-pr_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32680
+SHA256sum: 1973eb368bd22e7df46a8af650c275dc303ab8f8a1d449d37d009a3b0b85c399
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printenv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16326
+Filename: coreutils-printenv_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17116
+SHA256sum: 6445f252ced7d65b58d99173357a965663f49efb608bf9c2258ca3729a299072
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19418
+Filename: coreutils-printf_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20203
+SHA256sum: 24cf459aacbdf61eb0aeaf69b84f73543882dfdd0c30da355e9b0610cdc250f4
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ptx
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52137
+Filename: coreutils-ptx_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 52940
+SHA256sum: af4837b1aebfb5d6849d56d6581cb1eace5161508dee7fe06065f56f2639de48
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pwd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19502
+Filename: coreutils-pwd_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20363
+SHA256sum: 0eec8a88d3cdbc7cdfdace62736a4e4b4de4574402276f53ec8f670569d92dc5
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-readlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21630
+Filename: coreutils-readlink_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22436
+SHA256sum: 948b94bb2c28fdd2d05b02d180c443e2cf98d5e6941ada0d2cbad6d41025fe68
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-realpath
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22155
+Filename: coreutils-realpath_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22970
+SHA256sum: 5a130e936ed7f1e434e5c4aebf4c16597ebbaa2be53335a73d1b75a8272eafff
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28095
+Filename: coreutils-rm_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28929
+SHA256sum: 73decc6fdac24f44cd75459712ad4831fcfe266febdb536e5ab5946370c9d33b
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rmdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16967
+Filename: coreutils-rmdir_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17768
+SHA256sum: 39aff5b5df9c70938b24b4025d308d342dcbc3fbe40b70c180da5a4155a096db
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-runcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16401
+Filename: coreutils-runcon_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17246
+SHA256sum: 03d8c188e1df5f2ba54e752f628ba4daae0ff568181ec748fc3acf3bfb5caece
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-seq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21211
+Filename: coreutils-seq_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21973
+SHA256sum: 2f04daf73f10402f5bab66de23a5409c7201a224294e6348d04526c0bc1bb513
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha1sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24276
+Filename: coreutils-sha1sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25090
+SHA256sum: c599a304036cf76b9f5d711e8ffb7822b57121f8c512f2a57d75d73be350b9fb
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha224sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25238
+Filename: coreutils-sha224sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25960
+SHA256sum: b47e7b194b25a227cf55d97c1c6d7f6fd35356d5eb3b2c3cbd1f3d10fcf89cf2
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha256sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25256
+Filename: coreutils-sha256sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26024
+SHA256sum: 6f5a20805225cb099ef6b5280934f5da13e479cec0f36bee5c7b0802143f0092
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha384sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 34447
+Filename: coreutils-sha384sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 35105
+SHA256sum: 3949262fb3d8aa12ec2ec5c3d264dcd7951fdc663bd10a1e4d5791418c1b0c39
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha512sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 34455
+Filename: coreutils-sha512sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 35189
+SHA256sum: 63d00b3d4a71946528784066bd44a0ae66536a6a9152264004625145eeaa1203
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shred
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26764
+Filename: coreutils-shred_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27560
+SHA256sum: 5b81380fb5973e61aa6f64d61926b0fcb830c4dc750571763abdb665dc8b15cc
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24523
+Filename: coreutils-shuf_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25195
+SHA256sum: 27a088f69463dcf1041b9d7c7e55326404b5f82e111529ef3505a6ef3e78d230
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sleep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18523
+Filename: coreutils-sleep_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19375
+SHA256sum: 859d1231fb4e57cd649b2804ac1c7ab5fce621b69cb6b4eb0bed0075342b51d3
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 9.0-2
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 46699
+Filename: coreutils-sort_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 47474
+SHA256sum: ff94e3b7e478ece48dac25c3542c14ee05e3f97882ad772defe57b453661ee1b
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-split
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26297
+Filename: coreutils-split_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27045
+SHA256sum: 77255daecd09df37b1d26f944aba622476fc3638c6fd65e8f44439bd8b4cb807
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 39531
+Filename: coreutils-stat_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 40372
+SHA256sum: c81eb9511e6259c99b13a4f95b8cabc913144b861c8069dbbcdfcd75679ce68e
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stdbuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20436
+Filename: coreutils-stdbuf_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21181
+SHA256sum: b01c7b2830a6cad58dabf6cdb860e9b2ef3e2e7a3f61280b04878256e68b1f44
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26182
+Filename: coreutils-stty_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26965
+SHA256sum: bdfa9ba9f2598ee287ae30ca1ae9fb82b68e001a84072b0e107699b309e8b997
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20544
+Filename: coreutils-sum_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21345
+SHA256sum: a893a2f58a711bfde048f0d0dbdda670a8420ceb25e7150b3576d95fc04b8a9a
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16702
+Filename: coreutils-sync_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17540
+SHA256sum: 00f5cfd635d957df546edc2e7bcb04b9ac9355cad0c60acbfd547fee001039dc
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tac
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 45746
+Filename: coreutils-tac_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 46538
+SHA256sum: 91c58e59381be3cd6926f8bba64e1037561b8d4a35f6c47d129bae38d0904d85
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tail
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32962
+Filename: coreutils-tail_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33814
+SHA256sum: 341ca1c73e4fd52f33cfe62f999a9f10fbc0b563c5b375dc4a460b812b1025fe
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tee
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17913
+Filename: coreutils-tee_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18742
+SHA256sum: 4c5fbfa3810ce0268ca8775ebaa7d2c520450c7dc099a0edd87dbc93268afd10
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-test
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17766
+Filename: coreutils-test_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18631
+SHA256sum: 9fa80ba7e88724b63faf8f8d45ab307b92128a7c6c38239126263e212b4a8b8c
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 9.0-2
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-timeout
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21278
+Filename: coreutils-timeout_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22011
+SHA256sum: 6744a0f9e9c281b3922a1aa9615e752f1eab3c4f97c4794c6f89f48e23b9070e
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-touch
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 37146
+Filename: coreutils-touch_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 37941
+SHA256sum: c31078808f900e1da0b0d0a1ae47f3697a9582c3f708867cd0f0cbfd651627b2
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22337
+Filename: coreutils-tr_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23115
+SHA256sum: 716cd18e830bed77ec9c96c7daaaa0ffd0679657bfa2f35c3c955dd2a8146af7
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-true
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13984
+Filename: coreutils-true_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14716
+SHA256sum: 0ce0114d90cf144ac2a4ff2c8d53d72f95a20b75bfbb38172426c1a14b0f622a
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-truncate
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18783
+Filename: coreutils-truncate_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19654
+SHA256sum: 71f9d0679163d1dfd1956cfd7aabd1a997ddfe4a7e093eef818b289d31f87127
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tsort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18025
+Filename: coreutils-tsort_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18838
+SHA256sum: 738fe62f6f7f7285a957d6c2f8a0e1709ed6392dd481e71f1cabfb7ea7435101
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16006
+Filename: coreutils-tty_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16794
+SHA256sum: adde8329179eb24850b9a1e03c53a933c2d1daecd0b0a38276fec4734aed05c2
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16659
+Filename: coreutils-uname_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17515
+SHA256sum: 7351c07f580a7d30cd91cb8c70af28c9373f4a81a7f484f794e2844b5cd8f834
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unexpand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18561
+Filename: coreutils-unexpand_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19340
+SHA256sum: 5e00993c9f8faef2ef04f6595725fe914dcb844123ed9f208a73e0a6a4a9a21b
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uniq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20359
+Filename: coreutils-uniq_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21167
+SHA256sum: 3f4272f407b793b10dcc84d8fcb829a8fa17b39f3887128189c0db226df1fa73
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16055
+Filename: coreutils-unlink_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16836
+SHA256sum: b67c39b82220cc012a1d8c7a1b2719fb36e5645cd4e838c71b08fb460c6ed779
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uptime
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22601
+Filename: coreutils-uptime_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23429
+SHA256sum: 9c109e42f34064681afa83aadecf2aefdea84168e2bed7b4585cca32856cc63a
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-users
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16715
+Filename: coreutils-users_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17570
+SHA256sum: f8886d46a9c0907587811b2b5be4e7975bedcb5fd05f8e36eda52badb45b6ef6
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-vdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57652
+Filename: coreutils-vdir_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58515
+SHA256sum: dbaee7f96c3165c76c237d89e69340a5b7b734f084352020fba535f048d9bfa0
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-wc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22027
+Filename: coreutils-wc_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22822
+SHA256sum: cf20b05769ceac51f9806a7f9e90089d81eaf4778b5f76ce134351a9980bddf4
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-who
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19880
+Filename: coreutils-who_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20685
+SHA256sum: d142718769ff09e176ec673a3a35450752025d58f4ec975732ba7f57129ceae2
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-whoami
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16158
+Filename: coreutils-whoami_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16925
+SHA256sum: bcffc9eceeff2b679578415bff7448abc2af7f10b4d47cfd44fad3691c600d2c
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-yes
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16355
+Filename: coreutils-yes_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17119
+SHA256sum: 3d6e7e366f2ac35ab8241be5137a73bcaf4de2fc61ae7e92509ea67e8961023f
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 96
+Filename: coreutils_9.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 980
+SHA256sum: 885070618cab933e5923521c3201187e16f827be4afb941b1c7ab6ac10531375
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.0.1-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1679958562
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57564
+Filename: curl_8.0.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58386
+SHA256sum: 5c3f5460bb4925158f3c31f705f10064f1db1050fd14a65ca8a8e5056136d0f2
+Description:  A client-side URL transfer utility
+
+Package: halog
+Version: 2.4.22-1
+Depends: libc, haproxy
+Source: feeds/packages/net/haproxy
+SourceName: halog
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1678079964
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13754
+Filename: halog_2.4.22-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14521
+SHA256sum: 1dd34a504c25cd8d7bba1cb59de71e221002b2805aebddf045cac2551d020f33
+Description:  HAProxy Log Analyzer
+
+Package: haproxy-nossl
+Version: 2.4.22-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libatomic1
+Conflicts: haproxy
+Source: feeds/packages/net/haproxy
+SourceName: haproxy-nossl
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1678079964
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 884652
+Filename: haproxy-nossl_2.4.22-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 884420
+SHA256sum: 1e077a30aa832e6f1c5fe3ddee603c17436ed98c23db17ac0825c4fa14d6c509
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built without SSL support.
+
+Package: haproxy
+Version: 2.4.22-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
+Source: feeds/packages/net/haproxy
+SourceName: haproxy
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1678079964
+CPE-ID: cpe:/a:haproxy:haproxy
+Maintainer: Thomas Heil <heil@terminal-consulting.de>, Christian Lachner <gladiac@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 956405
+Filename: haproxy_2.4.22-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 956133
+SHA256sum: a0ab43867f150fe27aab421aa6d07828f9563409286e76c847eadeb87ce3f35d
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: libacl
+Version: 2.3.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: libacl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347947
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10886
+Filename: libacl_2.3.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11692
+SHA256sum: 8ef3921c42a31743cfeff62745ad10779b940653abff09c11ae5a050c767863b
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6168
+Filename: libattr_2.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6980
+SHA256sum: b8afb8357d32ecc8b074cf1ef5ba40b95b33fd16dc8159eb5bc31a941b73653b
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.18.1-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1636449700
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33627
+Filename: libcares_1.18.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34594
+SHA256sum: d029675cafa14394510a5bc3e7dadc4cd1f9577314a2c5b6cdd6d3cddd5598e1
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 8.0.1-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1679958562
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 160600
+Filename: libcurl4_8.0.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 160692
+SHA256sum: c98ccc6f560e933dff83fde5b87efe8e3ccd175b16cc5df18a2fcaaa7d162919
+Description:  A client-side URL transfer library
+
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614985666
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 505790
+Filename: libdb47_4.7.25.4.NC-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 503436
+SHA256sum: 1d1892c6c5878d7baea8ff3c64411a4ad72a1629d307150edb2ac470cd499e75
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-7
+Depends: libc, libdb47, libstdcpp6
+Provides: libdb47xx-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47xx
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614985666
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 533196
+Filename: libdb47xx_4.7.25.4.NC-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 531653
+SHA256sum: 4c5891617612684ef2208a3943c6071525afe2caade490f021502397d01dddd5
+Description:  Berkeley DB library (4.7).  C++ wrapper.
+
+Package: libev
+Version: 4.33-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1636152073
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20022
+Filename: libev_4.33-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20804
+SHA256sum: 55fe264dd56601cf9378c3e936a53c9f40946127fab006fced0aa86a006f7d60
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1634951273
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15042
+Filename: libffi_3.4.2-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15958
+SHA256sum: 4a2e3d3b619e39a1e9f5b8c7279dad4bd440563c2becbc032093667ef616c1e6
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.21-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1632557976
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26488
+Filename: libgdbm_1.21-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27257
+SHA256sum: dc4b44ee084b053b71b03a16e9abfe29c1979c6d244612ff83f0f211323b2d07
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1628451615
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56230
+Filename: libnghttp2-14_1.44.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55329
+SHA256sum: 407dedb5a039f283a6480a5f549a88f287e40be40aba8cae5d93e7372544b81d
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libruby3.0
+Version: 3.0.6-1
+Depends: libc, libpthread, librt, libgmp10, zlib
+Provides: libruby
+Source: feeds/packages/lang/ruby
+SourceName: libruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1681589578
+ABIVersion: 3.0
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1023566
+Filename: libruby3.0_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1015967
+SHA256sum: 3336cb22977d735783c9cb20b7e5388fcb3e3d1302bf99ff7e58e0b0c1cc3306
+Description:  Ruby scripting language (shared library)
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1633787435
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 118929
+Filename: libsodium_1.0.18-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 120136
+SHA256sum: 540d853b6aace306741f6b1d8527652fc805a76a345941f4b10e35888de6e175
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libxml2-dev
+Version: 2.10.3-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-dev
+License: MIT
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1666037159
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 86172
+Filename: libxml2-dev_2.10.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 87082
+SHA256sum: 9e26c2027999732c7762945ec616a6f55711fe0e31f49f40ce6d9ed5bd83593d
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.10.3-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-utils
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1666037159
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24732
+Filename: libxml2-utils_2.10.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25455
+SHA256sum: db46c5b66d9bd1ae69b1486046c98ad206fe1a557e989d7e22ce79dfde8b1a35
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.10.3-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1666037159
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 468834
+Filename: libxml2_2.10.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 466093
+SHA256sum: 4a983e567165f0f5615501f6981f6410db6dec654ec2aabf5d50848e3cd761e9
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+SourceName: libyaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1593132224
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 37777
+Filename: libyaml_0.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 38614
+SHA256sum: 83c4f425367b84fa424dd039be6725a778fc48b44fabfe074a1ee238b821808e
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: ruby-abbrev
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-abbrev
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1981
+Filename: ruby-abbrev_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2862
+SHA256sum: e4b84cad88fed01ee44c7bdf814ea6fff43dfed1bffa7cef851fb5a440f4e7ab
+Description:  This package contains the ruby Calculates the set of unambiguous abbreviations for a given set of strings.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/abbrev.rb 
+ - /usr/lib/ruby/gems/3.0/gems/abbrev-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/abbrev-*.gemspec
+ 
+
+Package: ruby-base64
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-base64
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2032
+Filename: ruby-base64_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2891
+SHA256sum: 8f153679a515c44e6dd596eb480a9edb479cf5faad0eeeabafb8f34dccae6f2b
+Description:  This package contains the ruby Encode and decode base64.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/base64.rb 
+ - /usr/lib/ruby/gems/3.0/gems/base64-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/base64-*.gemspec
+ 
+
+Package: ruby-benchmark
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-benchmark
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5896
+Filename: ruby-benchmark_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6774
+SHA256sum: 27a742003669ca5e84b425c8886f12e0b97a58425dc579c77ab2d3fb9b1e9d95
+Description:  This package contains the ruby Performance benchmarking library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/benchmark.rb 
+ - /usr/lib/ruby/3.0/benchmark/ 
+ - /usr/lib/ruby/gems/3.0/gems/benchmark-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/benchmark-*.gemspec
+ 
+
+Package: ruby-bigdecimal
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-bigdecimal
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 31765
+Filename: ruby-bigdecimal_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32680
+SHA256sum: d19f1b28e5bb09a555f0d8cbd32761cc33f7b82fad619b0b7a4c816c4460a19d
+Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/bigdecimal.so 
+ - /usr/lib/ruby/3.0/bigdecimal/ 
+ - /usr/lib/ruby/3.0/bigdecimal.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/bigdecimal-*.gemspec
+ 
+
+Package: ruby-bundler
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-erb, ruby-irb, ruby-open-uri, ruby-readline
+Source: feeds/packages/lang/ruby
+SourceName: ruby-bundler
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 341174
+Filename: ruby-bundler_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 342121
+SHA256sum: aa3416b0911cd9ba9a79368941aaff6fc204076fd8d0f8ccc110d21dd29aa605
+Description:  This package contains the ruby Manage dependencies.
+ 
+
+Package: ruby-cgi
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-pstore, ruby-securerandom, ruby-shellwords, ruby-tempfile
+Source: feeds/packages/lang/ruby
+SourceName: ruby-cgi
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33371
+Filename: ruby-cgi_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34364
+SHA256sum: 5f28230577513a2ce956ec7e110c6ef914796241ffbc7b01ef7da0bbc971211d
+Description:  This package contains the ruby CGI support toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/cgi.rb 
+ - /usr/lib/ruby/3.0/cgi/ 
+ - /usr/lib/ruby/gems/3.0/gems/cgi-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/cgi-*.gemspec 
+ - /usr/lib/ruby/3.0/*/cgi/escape.so
+ 
+
+Package: ruby-continuation
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-continuation
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1032
+Filename: ruby-continuation_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1887
+SHA256sum: 92bdc1d86eb7666952d3aaad02b210b5d5095bd8c163d20b452e92c837c9a86f
+Description:  This package contains the ruby Similar to C setjmp/longjmp with extra states.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/continuation.so
+ 
+
+Package: ruby-coverage
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-coverage
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3730
+Filename: ruby-coverage_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4565
+SHA256sum: 9c077d8e3c3dbd99a745a1a7336d70d7aa5523237256e9d4d21be1d9d3c49860
+Description:  This package contains the ruby Coverage measurement.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/coverage.rb 
+ - /usr/lib/ruby/3.0/*/coverage.so
+ 
+
+Package: ruby-csv
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date, ruby-english, ruby-forwardable, ruby-stringio, ruby-strscan
+Source: feeds/packages/lang/ruby
+SourceName: ruby-csv
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 38477
+Filename: ruby-csv_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 39476
+SHA256sum: e833f188a06906974eabb99b5dd0ac298be98e87edd2837da4221dce01a0937e
+Description:  This package contains the ruby CSV Reading and Writing.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/csv.rb 
+ - /usr/lib/ruby/3.0/csv/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/csv-*.gemspec
+ 
+
+Package: ruby-date
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-date
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59417
+Filename: ruby-date_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 60326
+SHA256sum: 5a09cc923227dbddc2d6f141e9482689832c87d8f1e57df8581d9b129bb80523
+Description:  This package contains the ruby Comparable module for handling dates.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/date.rb 
+ - /usr/lib/ruby/3.0/*/date_core.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/date-*.gemspec
+ 
+
+Package: ruby-dbm
+Version: 3.0.6-1
+Depends: libc, ruby, libdb47
+Source: feeds/packages/lang/ruby
+SourceName: ruby-dbm
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7136
+Filename: ruby-dbm_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8057
+SHA256sum: f1e585d8fb377c23364031b5df30d841150a17972aec0183ee1bcfd4a2308009
+Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
+ This package provides dbm.so file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/dbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/dbm-*.gemspec
+ 
+
+Package: ruby-debug
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-continuation, ruby-pp, ruby-readline, ruby-tracer
+Source: feeds/packages/lang/ruby
+SourceName: ruby-debug
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8222
+Filename: ruby-debug_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9159
+SHA256sum: 50a9b7506eb907d46ef2bb6eeb386913dfebdf0baf067f849d75fbc30e32f43e
+Description:  This package contains the ruby generic command line interface for ruby-debug.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/debug.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/debug-*.gemspec
+ 
+
+Package: ruby-delegate
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-delegate
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4392
+Filename: ruby-delegate_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5251
+SHA256sum: 4df7c7b16291fc67935f01bec5f134e9301d930e3643d84719f946911948b436
+Description:  This package contains the ruby lib to delegate method calls to an object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/delegate.rb 
+ - /usr/lib/ruby/3.0/delegate/ 
+ - /usr/lib/ruby/gems/3.0/gems/delegate-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/delegate-*.gemspec
+ 
+
+Package: ruby-dev
+Version: 3.0.6-1
+Depends: libc, libruby3.0, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-dev
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 273548
+Filename: ruby-dev_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 273658
+SHA256sum: 2a1d89d60443177cbb7d7eb26b92d9f8844be303bba6b7d6a705883a68c5f663
+Description:  Header files for compiling extension modules for the Ruby 3.0
+
+Package: ruby-did-you-mean
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-did-you-mean
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7584
+Filename: ruby-did-you-mean_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8502
+SHA256sum: 5ac87c4bcab95a594fd6c44e2ca9e17f54be0f08d01c21b7ee711387b7ab2ec7
+Description:  This package contains the ruby did you mean? experience.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/did_you_mean.rb 
+ - /usr/lib/ruby/3.0/did_you_mean/ 
+ - /usr/lib/ruby/gems/3.0/gems/did_you_mean-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/did_you_mean-*.gemspec
+ 
+
+Package: ruby-digest
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-digest
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24227
+Filename: ruby-digest_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25098
+SHA256sum: 51a5f4d6699b8494db7e75d6eb5dc2a8b3105b6c270bef618fc25b28490c663b
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/digest 
+ - /usr/lib/ruby/3.0/digest.rb 
+ - /usr/lib/ruby/3.0/*/digest.so 
+ - /usr/lib/ruby/3.0/*/digest/* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/digest-*.gemspec
+ 
+
+Package: ruby-drb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-ipaddr, ruby-monitor, ruby-observer, ruby-singleton, ruby-tmpdir
+Source: feeds/packages/lang/ruby
+SourceName: ruby-drb
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25871
+Filename: ruby-drb_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26769
+SHA256sum: 6ad7162291697ccffdc7e2b6978ab41989342b59acad30ef5ec34d647176039e
+Description:  This package contains the ruby distributed object system.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/drb.rb 
+ - /usr/lib/ruby/3.0/drb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/drb-*.gemspec
+ 
+
+Package: ruby-enc-extra
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-enc-extra
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1379997
+Filename: ruby-enc-extra_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1247177
+SHA256sum: db5adfc8162e8b7cf2d613e85f60ad658d672ca8c72bee9587bc6e29d057cb50
+Description:  This package contains the ruby character re-coding library charset (extra subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-enc
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-enc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9005
+Filename: ruby-enc_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9868
+SHA256sum: 835e0a654e82fa6ae9a894aa714f96462aa0bc71bbeae042f39d7fe3a6a5494e
+Description:  This package contains the ruby character re-coding library charset (small subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-english
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-english
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2797
+Filename: ruby-english_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3671
+SHA256sum: 7a88186b0163b3c277082f6c3c63c1d0c0b74241756cf0e33b4e24e8750a7d53
+Description:  This package contains the ruby Reference some global vars as english variables.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/English.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/english-*.gemspec
+ 
+
+Package: ruby-erb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems
+Source: feeds/packages/lang/ruby
+SourceName: ruby-erb
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11454
+Filename: ruby-erb_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12276
+SHA256sum: b4ff252cfa980cfa38cf8df5d0bb22575ca80dcabeb1080d8df58cbf43e99f80
+Description:  This package contains the ruby (embedded interpreter).
+ 
+
+Package: ruby-etc
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-etc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8426
+Filename: ruby-etc_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9274
+SHA256sum: 1164f41367558998737827b676edc6a7be4595c85eed2f860806c932f2cb4bf3
+Description:  This package contains the ruby Access info typically stored in /etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/etc.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/etc-*.gemspec
+ 
+
+Package: ruby-expect
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-expect
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1189
+Filename: ruby-expect_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2028
+SHA256sum: 9dcbe5be796c8ec3e8fb16a6995ad5cf61b040e435accb79a67dd7ecc36c2f52
+Description:  This package contains the ruby Expect-like for IO.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/expect.rb
+ 
+
+Package: ruby-fcntl
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fcntl
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1966
+Filename: ruby-fcntl_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2832
+SHA256sum: 192a3590aa523c73c4210f792933a4841fa2f6822a916c3895d7be29978c06d8
+Description:  This package contains the ruby Loads constants defined in the OS fcntl.h C header file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fcntl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fcntl-*.gemspec
+ 
+
+Package: ruby-fiber
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fiber
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 960
+Filename: ruby-fiber_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1811
+SHA256sum: 33e8a83ed6b89a487bb29e7bd68c2387723cab1aba06a7d63ec62ff3d872a4f6
+Description:  This package contains the ruby Light weight cooperative concurrency.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fiber.so
+ 
+
+Package: ruby-fiddle
+Version: 3.0.6-1
+Depends: libc, ruby, libffi
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fiddle
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25982
+Filename: ruby-fiddle_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26736
+SHA256sum: 4f68d70ee4d87a4962e2bb3445665f2f2ef1293b4c73a112be8ed1cc067ffff5
+Description:  This package contains the ruby Libffi wrapper for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fiddle.rb 
+ - /usr/lib/ruby/3.0/fiddle/ 
+ - /usr/lib/ruby/3.0/*/fiddle.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fiddle-*.gemspec
+ 
+
+Package: ruby-fileutils
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-etc, ruby-rbconfig, ruby-socket
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fileutils
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12633
+Filename: ruby-fileutils_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13550
+SHA256sum: 13b1cb0293abb3db0ec9298ccee73e703b888890ffb85258e91a63d6ef077b94
+Description:  This package contains the ruby File utility methods for copying moving removing etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fileutils.rb 
+ - /usr/lib/ruby/gems/3.0/gems/fileutils-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fileutils-*.gemspec
+ 
+
+Package: ruby-find
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-find
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1715
+Filename: ruby-find_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2618
+SHA256sum: 3de64b5fb4022f0e00e984d54c42b135e4dbab267648b26089a2434bace6ea51
+Description:  This package contains the ruby top-down traversal of a set of file paths.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/find.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/find-*.gemspec
+ 
+
+Package: ruby-forwardable
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-forwardable
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3781
+Filename: ruby-forwardable_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4659
+SHA256sum: 04f4365e06de9695a6a6f894ecffa766ea82b5c95fa734fa33bf592bca024a82
+Description:  This package contains the ruby delegation of methods to a object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/forwardable.rb 
+ - /usr/lib/ruby/3.0/forwardable 
+ - /usr/lib/ruby/gems/3.0/specifications/default/forwardable-*.gemspec
+ 
+
+Package: ruby-gdbm
+Version: 3.0.6-1
+Depends: libc, ruby, libgdbm
+Source: feeds/packages/lang/ruby
+SourceName: ruby-gdbm
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7447
+Filename: ruby-gdbm_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8344
+SHA256sum: 1dac47a4dea400bcd09527c10f734f53de8bde2c43db2f43ecb5f16a988a26ab
+Description:  This package contains the ruby Ruby extension for GNU dbm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/gdbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/gdbm-*.gemspec
+ 
+
+Package: ruby-gems
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-base64, ruby-cgi, ruby-json, ruby-net-http, ruby-open3, ruby-pathname, ruby-pp, ruby-rake, ruby-resolv, ruby-yaml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-gems
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 274978
+Filename: ruby-gems_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 275950
+SHA256sum: 6a87c2697cf54dc0f727f1207290bd179169fc0c88b3b17e8e77d8788a6a5765
+Description:  This package contains the ruby gems packet management.
+ 
+
+Package: ruby-getoptlong
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-getoptlong
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5317
+Filename: ruby-getoptlong_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6180
+SHA256sum: d19be0e2ac186132abb3c124bcd57fb259cc152fcc9b6783218c2bbb2808233d
+Description:  This package contains the ruby implementation of getoptLong.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/getoptlong.rb 
+ - /usr/lib/ruby/3.0/getoptlong/ 
+ - /usr/lib/ruby/gems/3.0/gems/getoptlong-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/getoptlong-*.gemspec
+ 
+
+Package: ruby-io-console
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-io-console
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8590
+Filename: ruby-io-console_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9432
+SHA256sum: f17d0ea4c3ff5e4e0bd30543eae332ae6f3f078fd064a4284110a0ff66e72460
+Description:  This package contains the ruby Console interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/console.so 
+ - /usr/lib/ruby/3.0/io/console/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-console-*.gemspec
+ 
+
+Package: ruby-io-nonblock
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-io-nonblock
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2178
+Filename: ruby-io-nonblock_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3046
+SHA256sum: c86669341ebccc32f338e7fa3374f60de9c257979a7c788acd5d6d0d980edc75
+Description:  This package contains the ruby Non-blocking mode with IO class.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/nonblock.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-nonblock-*.gemspec
+ 
+
+Package: ruby-io-wait
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-io-wait
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3023
+Filename: ruby-io-wait_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3917
+SHA256sum: 45dfdee284d239a4a11a5a53424c98677b3da44c207a4630d65b5c7ca953522d
+Description:  This package contains the ruby Waits until IO is readable or writable without blocking.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/wait.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-wait-*.gemspec
+ 
+
+Package: ruby-ipaddr
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-socket
+Source: feeds/packages/lang/ruby
+SourceName: ruby-ipaddr
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5943
+Filename: ruby-ipaddr_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6835
+SHA256sum: ea1451bfe4dfebbbd21dd2a5c0cf159c600bddfd3daa94cd22680a5969d1f1fd
+Description:  This package contains the ruby Set of methods to manipulate an IP address.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ipaddr.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ipaddr-*.gemspec
+ 
+
+Package: ruby-irb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-reline, ruby-ripper, ruby-tracer
+Source: feeds/packages/lang/ruby
+SourceName: ruby-irb
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 55129
+Filename: ruby-irb_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55988
+SHA256sum: 5d9d2ab0aa9228023026427558f1008d208790370692a508685cd708dbb263eb
+Description:  This package contains the ruby (interactive shell).
+ 
+
+Package: ruby-json
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date, ruby-ostruct
+Source: feeds/packages/lang/ruby
+SourceName: ruby-json
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 31990
+Filename: ruby-json_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 32880
+SHA256sum: debf3db082dd9d2f285204888bbd263653ad409bbd6845cfb56f16e1c2130f86
+Description:  This package contains the ruby JSON Implementation for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/json.rb 
+ - /usr/lib/ruby/3.0/json 
+ - /usr/lib/ruby/3.0/*/json 
+ - /usr/lib/ruby/gems/3.0/specifications/default/json-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-logger
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor
+Source: feeds/packages/lang/ruby
+SourceName: ruby-logger
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8770
+Filename: ruby-logger_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9681
+SHA256sum: d717d23d4eb143a8c8c48910c9c6ba23247af3fea1bd128acd68dd776e88c2e0
+Description:  This package contains the ruby logger and syslog library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/logger.rb 
+ - /usr/lib/ruby/3.0/logger/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/logger-*.gemspec
+ 
+
+Package: ruby-matrix
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-matrix
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22205
+Filename: ruby-matrix_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23112
+SHA256sum: 6affe8d000bc63da2ede5b559f245ec0698bc87519b7e6ad7c54f5e5a2ccd372
+Description:  This package contains the ruby implementation of Matrix and Vector classes.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/matrix.rb 
+ - /usr/lib/ruby/3.0/matrix 
+ - /usr/lib/ruby/gems/3.0/specifications/default/matrix-*.gemspec
+ 
+
+Package: ruby-minitest
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-mutex_m
+Source: feeds/packages/lang/ruby
+SourceName: ruby-minitest
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 30610
+Filename: ruby-minitest_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 31508
+SHA256sum: 1704644ed649d12fc63d48f8b607c551dc77492e2aca82771bbdc7840fb5886c
+Description:  This package contains the ruby Gem minitest.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/minitest-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.txt
+ 
+
+Package: ruby-mkmf
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-shellwords, ruby-tmpdir
+Source: feeds/packages/lang/ruby
+SourceName: ruby-mkmf
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25396
+Filename: ruby-mkmf_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26206
+SHA256sum: 72f1f6dd9b620c2728a78d3ac824b35c34d66d8bfa190b788fba256a250c7090
+Description:  This package contains the ruby makefile library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mkmf.rb
+ 
+
+Package: ruby-monitor
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-monitor
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4936
+Filename: ruby-monitor_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5760
+SHA256sum: f42287a9d59635099e7ef07ae33e0937f37a73624bbbfd6bcd9f2a2986c75e86
+Description:  This package contains the ruby Object or module methods are executed with mutual exclusion.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/monitor.rb 
+ - /usr/lib/ruby/3.0/*/monitor.so
+ 
+
+Package: ruby-mutex_m
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-mutex_m
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1623
+Filename: ruby-mutex_m_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2490
+SHA256sum: 4fe8260f464d280fec176d744c0f5a73a149f5f7ca3f8e4575d879edf59f236d
+Description:  This package contains the ruby extend objects to be handled like a Mutex.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mutex_m.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/mutex_m-*.gemspec
+ 
+
+Package: ruby-net-ftp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-time
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-ftp
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12076
+Filename: ruby-net-ftp_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12960
+SHA256sum: 2724b89a178b1f03dfea65af59be8fef1a0f13baa108a0e0b496388d447ece8c
+Description:  This package contains the ruby FTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/ftp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-ftp-*.gemspec
+ 
+
+Package: ruby-net-http
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-securerandom, ruby-tempfile, ruby-uri, ruby-zlib
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-http
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29918
+Filename: ruby-net-http_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30848
+SHA256sum: 12283ed3b6765ffca77e6cb7aa268fc46a126d1d8b581e2db1178d4af0562763
+Description:  This package contains the ruby HTTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/http.rb 
+ - /usr/lib/ruby/3.0/net/https.rb 
+ - /usr/lib/ruby/3.0/net/http/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-http-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-http-*.gemspec
+ 
+
+Package: ruby-net-imap
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-strscan
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-imap
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26334
+Filename: ruby-net-imap_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27232
+SHA256sum: 948dd8d272dcda40b6cb0a8488520490e55da119e622cac3f0e0de5b29f6de6d
+Description:  This package contains the ruby IMAP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/imap.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-imap-*.gemspec
+ 
+
+Package: ruby-net-pop
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-pop
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7772
+Filename: ruby-net-pop_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8686
+SHA256sum: cde3103c29ccea537d093b705d82193f58a4fbae0f5e17a4505e9516bf7bf27a
+Description:  This package contains the ruby POP3 lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/pop.rb 
+ - /usr/lib/ruby/3.0/net/pop/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-pop-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-pop-*.gemspec
+ 
+
+Package: ruby-net-protocol
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-socket, ruby-timeout
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-protocol
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4006
+Filename: ruby-net-protocol_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4908
+SHA256sum: 7ef24e2a3b7fc84436691586de6bb486ca1ae179fcd91a4cbf1c97362b9b40f5
+Description:  This package contains the ruby Abstract for net-* clients.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/protocol.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-protocol-*.gemspec
+ 
+
+Package: ruby-net-smtp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-smtp
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9696
+Filename: ruby-net-smtp_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10564
+SHA256sum: eabe7871feea50e681e897b3f3c604db0007248c6a5fe3fe60885e12aaa7666f
+Description:  This package contains the ruby SMTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/smtp.rb 
+ - /usr/lib/ruby/3.0/net/smtp/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-smtp-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-smtp-*.gemspec
+ 
+
+Package: ruby-nkf
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-nkf
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 126972
+Filename: ruby-nkf_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 126282
+SHA256sum: e9fab340d4c6ef9d2a1372be80c83ce1588a4e6f1ca63ae675be33436c2c8829
+Description:  This package contains the ruby Network Kanji Filter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/kconv.rb 
+ - /usr/lib/ruby/3.0/*/nkf.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/nkf-*.gemspec
+ 
+
+Package: ruby-objspace
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-tempfile
+Source: feeds/packages/lang/ruby
+SourceName: ruby-objspace
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15578
+Filename: ruby-objspace_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16352
+SHA256sum: d1b4fad80fe248c7dfc73c8753b1cd687aab07b9b0eeae9c56805a63a7e6853d
+Description:  This package contains the ruby Routines to interact with the garbage collection facility.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/objspace.rb 
+ - /usr/lib/ruby/3.0/*/objspace.so
+ 
+
+Package: ruby-observer
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-observer
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3021
+Filename: ruby-observer_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3896
+SHA256sum: 04bfde47a009914c719f2f10bec4e424d2c69b9f446d1c96832444b653e8c6c1
+Description:  This package contains the ruby Observer design pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/observer.rb 
+ - /usr/lib/ruby/3.0/observer/ 
+ - /usr/lib/ruby/gems/3.0/gems/observer-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/observer-*.gemspec
+ 
+
+Package: ruby-open-uri
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-ftp, ruby-net-http
+Source: feeds/packages/lang/ruby
+SourceName: ruby-open-uri
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8521
+Filename: ruby-open-uri_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9431
+SHA256sum: 1de02bc682aea416c9eca9cf153021fed1a1a9acfbb671057b0a43405498a797
+Description:  This package contains the ruby Wrapper for Net::HTTP Net::HTTPS and Net::.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open-uri.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open-uri-*.gemspec
+ 
+
+Package: ruby-open3
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-open3
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5520
+Filename: ruby-open3_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6357
+SHA256sum: 28aad5167391b5a643487af6deaf7a342294e8018482430c4f5ffa3cd0fa8632
+Description:  This package contains the ruby popen with stderr.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open3.rb 
+ - /usr/lib/ruby/3.0/open3/ 
+ - /usr/lib/ruby/gems/3.0/gems/open3-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open3-*.gemspec
+ 
+
+Package: ruby-openssl
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-digest, ruby-enc, ruby-io-nonblock, ruby-ipaddr, ruby-stringio, libopenssl1.1
+Source: feeds/packages/lang/ruby
+SourceName: ruby-openssl
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 136628
+Filename: ruby-openssl_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 135331
+SHA256sum: 542476156b8cf8d06a762aeab1cf626ab0b4bca926ea20a2852d5e50486ce2ef
+Description:  This package contains the ruby SSL TLS and general purpose cryptography.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/openssl 
+ - /usr/lib/ruby/3.0/openssl.rb 
+ - /usr/lib/ruby/3.0/*/openssl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/openssl-*.gemspec
+ 
+
+Package: ruby-optparse
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-shellwords, ruby-time
+Source: feeds/packages/lang/ruby
+SourceName: ruby-optparse
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19978
+Filename: ruby-optparse_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20866
+SHA256sum: e38c0186a19c45ab48f451ea14215b03fe1bbcf96fb7ba166d7a6692703a7327
+Description:  This package contains the ruby command-line option analysis.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/optparse.rb 
+ - /usr/lib/ruby/3.0/optionparser.rb 
+ - /usr/lib/ruby/3.0/optparse 
+ - /usr/lib/ruby/gems/3.0/specifications/default/optparse-*.gemspec
+ 
+
+Package: ruby-ostruct
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-ostruct
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5007
+Filename: ruby-ostruct_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5847
+SHA256sum: 9e2dac296932474ec9381385e9d458ff61ca91fe3d4e7da5133a6d3ef562b914
+Description:  This package contains the ruby build custom data structures.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ostruct.rb 
+ - /usr/lib/ruby/3.0/ostruct/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ostruct-*.gemspec
+ 
+
+Package: ruby-pathname
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils, ruby-find
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pathname
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13603
+Filename: ruby-pathname_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14484
+SHA256sum: 6b5fda04f1b9c5a43953b5160640159b6834d80ee729c3fc63032854b6fbad46
+Description:  This package contains the ruby Pathname lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pathname.rb 
+ - /usr/lib/ruby/3.0/*/pathname.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pathname-*.gemspec
+ 
+
+Package: ruby-powerassert
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-pp, ruby-ripper
+Source: feeds/packages/lang/ruby
+SourceName: ruby-powerassert
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10468
+Filename: ruby-powerassert_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11398
+SHA256sum: 0c537f6a65b66e97b5c7b41f55d59c48ad4105acda282fb25b66a86f89224fd7
+Description:  This package contains the ruby Gem power_assert.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/power_assert-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/.travis.yml
+ 
+
+Package: ruby-pp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-etc, ruby-prettyprint
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pp
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5385
+Filename: ruby-pp_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6226
+SHA256sum: cfecf932b675e380fedfc1c91fe5f0828ca0301d73040cf6e3b98c36ea9f181c
+Description:  This package contains the ruby Pretty print objects.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pp-*.gemspec
+ 
+
+Package: ruby-prettyprint
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-prettyprint
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5456
+Filename: ruby-prettyprint_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6293
+SHA256sum: 27d79338362d875e6de68d82cc324408eb32458c6870fc98e5fee4ef62034b59
+Description:  This package contains the ruby PrettyPrint library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prettyprint.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prettyprint-*.gemspec
+ 
+
+Package: ruby-prime
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-forwardable, ruby-singleton
+Source: feeds/packages/lang/ruby
+SourceName: ruby-prime
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5604
+Filename: ruby-prime_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6466
+SHA256sum: c9c357d2845391d57de341f237baafdea49246ff38d906ebb94576507fe34960
+Description:  This package contains the ruby Prime numbers and factorization library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prime.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prime-*.gemspec
+ 
+
+Package: ruby-pstore
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-digest, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pstore
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5459
+Filename: ruby-pstore_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6315
+SHA256sum: ec2131ef8878d637d391068dc5a062ba315c0142a963d2b46a8d39a2002f4529
+Description:  This package contains the ruby file based persistence.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pstore.rb 
+ - /usr/lib/ruby/3.0/pstore/ 
+ - /usr/lib/ruby/gems/3.0/gems/pstore-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pstore-*.gemspec
+ 
+
+Package: ruby-psych
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-bigdecimal, ruby-date, ruby-enc, ruby-forwardable, ruby-stringio, ruby-strscan, libyaml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-psych
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 32419
+Filename: ruby-psych_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 33393
+SHA256sum: 71a251566cf9f32b6a004af0e26ebda0c251e0efe0cc467f3642073d808d4b7e
+Description:  This package contains the ruby YAML parser and emitter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-pty
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pty
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3977
+Filename: ruby-pty_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4803
+SHA256sum: e9946ad78062fdc5918c8921714994560d1647c8fec24a2cca3c98a3c842bad5
+Description:  This package contains the ruby Creates and manages pseudo terminals.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/pty.so
+ 
+
+Package: ruby-racc
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-forwardable, ruby-optparse, ruby-rbconfig, ruby-stringio
+Source: feeds/packages/lang/ruby
+SourceName: ruby-racc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36701
+Filename: ruby-racc_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 37435
+SHA256sum: a3564f84881d3df81ffaca7d2ed1f3f9b248adbb78e94b99d0cf200d90acb727
+Description:  This package contains the ruby LALR parser generator.
+ 
+
+Package: ruby-rake
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils, ruby-monitor, ruby-optparse, ruby-ostruct, ruby-set, ruby-singleton
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rake
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42758
+Filename: ruby-rake_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43695
+SHA256sum: 8b08d1251849efa202852e46a73ab5868b367d76863519f62f838ecafc0dbb54
+Description:  This package contains the ruby Rake (make replacement).
+ 
+
+Package: ruby-rbconfig
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rbconfig
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8953
+Filename: ruby-rbconfig_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9795
+SHA256sum: c65d90d5cd4f4449cb56b1d22c2f57ec5fe0db17e88cb91c7a94d166556543af
+Description:  This package contains the ruby RbConfig.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/rbconfig.rb 
+ - /usr/lib/ruby/3.0/*/rbconfig/*.so
+ 
+
+Package: ruby-rbs
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-logger, ruby-racc, ruby-ripper
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rbs
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 520088
+Filename: ruby-rbs_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 520855
+SHA256sum: 55a8ca21f1e4ed7f9f41d931d016949ecb7f553482bc92610b50e5745b4a7c1e
+Description:  This package contains the ruby RBS provides syntax and semantics definition for the Ruby Signature language.
+ 
+
+Package: ruby-rdoc
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-abbrev, ruby-did-you-mean, ruby-erb, ruby-racc, ruby-ripper
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rdoc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 520774
+Filename: ruby-rdoc_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 486456
+SHA256sum: 1d18d97c060345b9d50867d6e6a0f839b4e5c1c6baace98b80dca5397e63eb67
+Description:  This package contains the ruby RDoc produces HTML and command-line documentation for Ruby projects.
+ 
+
+Package: ruby-readline-ext
+Version: 3.0.6-1
+Depends: libc, ruby, libncurses6, libreadline8
+Source: feeds/packages/lang/ruby
+SourceName: ruby-readline-ext
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10329
+Filename: ruby-readline-ext_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11207
+SHA256sum: 3079611296581f6638c99912a367bb234d0e3fcaa281004df8eb9e7691c83162
+Description:  This package contains the ruby support for native GNU readline.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/readline.so 
+ - /usr/lib/ruby/gems/3.0/gems/readline-ext-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-ext-*.gemspec
+ 
+
+Package: ruby-readline
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-reline
+Source: feeds/packages/lang/ruby
+SourceName: ruby-readline
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1090
+Filename: ruby-readline_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1980
+SHA256sum: ffd8936d554af23a423ea07861670b5bf24b3b3b85ea573f4dd7e631f45f1f46
+Description:  This package contains the ruby loads readline-ext(native) or reline(ruby).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/readline.rb 
+ - /usr/lib/ruby/gems/3.0/gems/readline-0* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-0*.gemspec
+ 
+
+Package: ruby-reline
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fiddle, ruby-forwardable, ruby-io-console, ruby-tempfile, ruby-timeout
+Source: feeds/packages/lang/ruby
+SourceName: ruby-reline
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41082
+Filename: ruby-reline_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42002
+SHA256sum: d4be7fa46c23af88c4ded80ebb342bbc21ea69ba56a332c38daa9b1d65ee089c
+Description:  This package contains the ruby alternative to readline-ext in pure ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/reline.rb 
+ - /usr/lib/ruby/3.0/reline 
+ - /usr/lib/ruby/gems/3.0/gems/reline-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/reline-*.gemspec
+ 
+
+Package: ruby-resolv-replace
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-resolv
+Source: feeds/packages/lang/ruby
+SourceName: ruby-resolv-replace
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1256
+Filename: ruby-resolv-replace_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2151
+SHA256sum: f307027cceeb6dbb9c9cbde5918087322667509b4cb8d34177161e221cb63e0f
+Description:  This package contains the ruby Replace Socket DNS with Resolv.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv-replace.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-resolv
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-securerandom, ruby-timeout
+Source: feeds/packages/lang/ruby
+SourceName: ruby-resolv
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17352
+Filename: ruby-resolv_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18261
+SHA256sum: 660c0e8e6df8df9d69ea0da3eccea93a4eb1603e6e62a706c8949be0a3d3e0b1
+Description:  This package contains the ruby DNS resolver library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-rexml
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-forwardable, ruby-pp, ruby-set, ruby-stringio, ruby-strscan
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rexml
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 78283
+Filename: ruby-rexml_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 79380
+SHA256sum: cc57355392d327247c39df1759f4f486b69b0b10eec61b7ecf54a205e735f555
+Description:  This package contains the ruby XML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rexml 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rexml-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/.travis.yml
+ 
+
+Package: ruby-rinda
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-drb, ruby-forwardable
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rinda
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9982
+Filename: ruby-rinda_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10865
+SHA256sum: c7c7397766ee248eed97d1a53cb9c96c1a3d596ef2d83f3b4049ebcf5bca07b8
+Description:  This package contains the ruby Linda paradigm implementation.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rinda 
+ - /usr/lib/ruby/gems/3.0/specifications/default/rinda-*.gemspec
+ 
+
+Package: ruby-ripper
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-ripper
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 74241
+Filename: ruby-ripper_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 74913
+SHA256sum: f10fc78f49ebefbe4de31c3b58dadc85f6d4de7503afd14d7b1b7cb6fcfab880
+Description:  This package contains the ruby script parser.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ripper.rb 
+ - /usr/lib/ruby/3.0/ripper 
+ - /usr/lib/ruby/3.0/*/ripper.so
+ 
+
+Package: ruby-rss
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-english, ruby-nkf, ruby-open-uri, ruby-rexml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rss
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48968
+Filename: ruby-rss_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49983
+SHA256sum: 8a61763b365fd43b246da5567aafbe22a4ec871a76cf656dbe1ffb30306da558
+Description:  This package contains the ruby RSS toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rss 
+ - /usr/lib/ruby/3.0/rss.rb 
+ - /usr/lib/ruby/gems/3.0/gems/rss-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rss-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.txt
+ 
+
+Package: ruby-securerandom
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-openssl
+Source: feeds/packages/lang/ruby
+SourceName: ruby-securerandom
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3491
+Filename: ruby-securerandom_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4370
+SHA256sum: 0b8f734af26991a2163e3dcaf29cf9acecec8b07d6221e11874f0d174792eac3
+Description:  This package contains the ruby Secure random number generators.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/securerandom.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/securerandom-*.gemspec
+ 
+
+Package: ruby-set
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-tsort
+Source: feeds/packages/lang/ruby
+SourceName: ruby-set
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6350
+Filename: ruby-set_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7274
+SHA256sum: bc69345bccb58c67e56c009669a4056b91c157c25d50ca59185e73c1c6bedbd2
+Description:  This package contains the ruby Set collection.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/set.rb 
+ - /usr/lib/ruby/3.0/set/*.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/set-*.gemspec
+ 
+
+Package: ruby-shellwords
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-shellwords
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3478
+Filename: ruby-shellwords_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4358
+SHA256sum: 115f4c9a1949a13e4741938c48cc8a9f9ccb71cc5baf3ac18eccb22e93b43de1
+Description:  This package contains the ruby Manipulate strings as Bourne Shell.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/shellwords.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/shellwords-*.gemspec
+ 
+
+Package: ruby-singleton
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-singleton
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2156
+Filename: ruby-singleton_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3019
+SHA256sum: a24d4c8ab65aa86215f225472379d811882167685e2e03da24e2ed31c7ed12c9
+Description:  This package contains the ruby Singleton pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/singleton.rb 
+ - /usr/lib/ruby/3.0/singleton/ 
+ - /usr/lib/ruby/gems/3.0/gems/singleton-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/singleton-*.gemspec
+ 
+
+Package: ruby-socket
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-io-wait
+Source: feeds/packages/lang/ruby
+SourceName: ruby-socket
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71165
+Filename: ruby-socket_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 71626
+SHA256sum: 5017f0d8dbe607e3895a1fe8d1a377c8ed45a1ffe64af6d82a547c255c6c3c49
+Description:  This package contains the ruby socket support.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/socket.rb 
+ - /usr/lib/ruby/3.0/*/socket.so
+ 
+
+Package: ruby-stdlib
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-abbrev, ruby-base64, ruby-benchmark, ruby-bigdecimal, ruby-bundler, ruby-cgi, ruby-continuation, ruby-coverage, ruby-csv, ruby-date, ruby-dbm, ruby-debug, ruby-delegate, ruby-did-you-mean, ruby-digest, ruby-drb, ruby-enc, ruby-enc-extra, ruby-english, ruby-erb, ruby-etc, ruby-expect, ruby-fcntl, ruby-fiber, ruby-fiddle, ruby-fileutils, ruby-find, ruby-forwardable, ruby-gdbm, ruby-gems, ruby-getoptlong, ruby-io-console, ruby-io-nonblock, ruby-io-wait, ruby-ipaddr, ruby-irb, ruby-json, ruby-logger, ruby-matrix, ruby-minitest, ruby-mkmf, ruby-monitor, ruby-mutex_m, ruby-net-ftp, ruby-net-http, ruby-net-imap, ruby-net-pop, ruby-net-protocol, ruby-net-smtp, ruby-nkf, ruby-objspace, ruby-observer, ruby-open-uri, ruby-open3, ruby-openssl, ruby-optparse, ruby-ostruct, ruby-pathname, ruby-powerassert, ruby-pp, ruby-prettyprint, ruby-prime, ruby-pstore, ruby-psych, ruby-pty, ruby-racc, ruby-rake, ruby-rbconfig, ruby-rbs, ruby-rdoc, ruby-readline-ext, ruby-readline, ruby-reline, ruby-resolv, ruby-resolv-replace, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-securerandom, ruby-set, ruby-shellwords, ruby-singleton, ruby-socket, ruby-stringio, ruby-strscan, ruby-syslog, ruby-tempfile, ruby-testunit, ruby-time, ruby-timeout, ruby-tmpdir, ruby-tracer, ruby-tsort, ruby-typeprof, ruby-unicodenormalize, ruby-un, ruby-uri, ruby-weakref, ruby-yaml, ruby-zlib
+Source: feeds/packages/lang/ruby
+SourceName: ruby-stdlib
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 95
+Filename: ruby-stdlib_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1449
+SHA256sum: 5eaf416bd53e20467c04eed58a170c8b606110f51ea49a4b3fdc45418b86a4fa
+Description:  This metapackage currently install all ruby-* packages,
+ providing a complete Ruby Standard Library.
+ 
+
+Package: ruby-stringio
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-stringio
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10790
+Filename: ruby-stringio_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11654
+SHA256sum: 161e4c5a3818d23ad3e8898faaa165be60a3cc4425f8cd2a0541eac42ddd92eb
+Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/stringio.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/stringio-*.gemspec
+ 
+
+Package: ruby-strscan
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-strscan
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7803
+Filename: ruby-strscan_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8695
+SHA256sum: a3a08f7f0c0f958d013c5e6b7a1f956829e2afbac4b76a520208c2c658186dbf
+Description:  This package contains the ruby Lexical scanning operations on a String.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/strscan.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/strscan-*.gemspec
+ 
+
+Package: ruby-syslog
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-logger
+Source: feeds/packages/lang/ruby
+SourceName: ruby-syslog
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6944
+Filename: ruby-syslog_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7860
+SHA256sum: 8124462afc4955b1cd2dd88d671a4d9d479521b0126c92216f77073fedf5369a
+Description:  This package contains the ruby Syslog Lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/syslog.so 
+ - /usr/lib/ruby/3.0/syslog/logger.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/syslog-*.gemspec
+ 
+
+Package: ruby-tempfile
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-delegate, ruby-tmpdir
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tempfile
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5061
+Filename: ruby-tempfile_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5956
+SHA256sum: e4da854ca2aca9cf48b9becfc696beb77fb160e3f16a7f8bdca53b5049b0df09
+Description:  This package contains the ruby Manages temporary files.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tempfile.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tempfile-*.gemspec
+ 
+
+Package: ruby-testunit
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-csv, ruby-erb, ruby-powerassert, ruby-rexml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-testunit
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 70758
+Filename: ruby-testunit_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 71761
+SHA256sum: 8b00988bcbf4acd6f681167e425994dda8b2827d76bd2f8be7592c6d68fb965c
+Description:  This package contains the ruby Gem test-unit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/test-unit-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/*.md
+ 
+
+Package: ruby-time
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date
+Source: feeds/packages/lang/ruby
+SourceName: ruby-time
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8118
+Filename: ruby-time_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9029
+SHA256sum: 9a0fbcb9c22f2c9cadbb88327174932d4312ee3d62a80bc7472a24c88a767300
+Description:  This package contains the ruby Extends Time with additional methods for parsing and converting Times.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/time.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/time-*.gemspec
+ 
+
+Package: ruby-timeout
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-timeout
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2561
+Filename: ruby-timeout_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3442
+SHA256sum: 07f8821642d82979c96e755f2e5f0d4824171524fb8c7471723b8385ef6f7162
+Description:  This package contains the ruby Auto-terminate potentially long-running operations.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/timeout.rb 
+ - /usr/lib/ruby/3.0/timeout/ 
+ - /usr/lib/ruby/gems/3.0/gems/timeout-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/timeout-*.gemspec
+ 
+
+Package: ruby-tmpdir
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tmpdir
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2476
+Filename: ruby-tmpdir_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3329
+SHA256sum: 3d0a0fb2d04781dde1c9d289936b7a0569f52ca8ab28be6a331e70dc2c9fe9ca
+Description:  This package contains the ruby Get temp dir path.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tmpdir.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tmpdir-*.gemspec
+ 
+
+Package: ruby-tracer
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tracer
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2947
+Filename: ruby-tracer_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3836
+SHA256sum: 916e6ab80095b592b926b1c599b265e28598aae40d3f5a949b836505294252e6
+Description:  This package contains the ruby Outputs a source level execution trace of a Ruby program.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tracer.rb 
+ - /usr/lib/ruby/3.0/tracer/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tracer-*.gemspec
+ 
+
+Package: ruby-tsort
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tsort
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3665
+Filename: ruby-tsort_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4522
+SHA256sum: 70c3b49208dc01c3bbed829f436707ea76d633e35d676bfc3363c92fbd0bcee0
+Description:  This package contains the ruby Topological sorting using Tarjan s algorithm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tsort.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tsort-*.gemspec
+ 
+
+Package: ruby-typeprof
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-coverage, ruby-rbs
+Source: feeds/packages/lang/ruby
+SourceName: ruby-typeprof
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 85658
+Filename: ruby-typeprof_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 86352
+SHA256sum: bc48a8f58972ba2813ebf7514e9abe3287bfcdfdbcc710944ba80ee6d86592ff
+Description:  This package contains the ruby A type analysis tool for Ruby code based on abstract interpretation.
+ 
+
+Package: ruby-un
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-mkmf, ruby-optparse
+Source: feeds/packages/lang/ruby
+SourceName: ruby-un
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3944
+Filename: ruby-un_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4843
+SHA256sum: b48ae9ca0dee6d26f8cc050d62e812f4315a06d235d83decaf535511e9242765
+Description:  This package contains the ruby Utilities to replace common UNIX commands in Makefiles.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/un.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/un-*.gemspec
+ 
+
+Package: ruby-unicodenormalize
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-enc-extra
+Source: feeds/packages/lang/ruby
+SourceName: ruby-unicodenormalize
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 44924
+Filename: ruby-unicodenormalize_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43265
+SHA256sum: ccbbca97fce66b555ed205bb9ec190718b5bc3cd1d3ec2c9b42efa606e77d356
+Description:  This package contains the ruby String additions for Unicode normalization.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/unicode_normalize
+ 
+
+Package: ruby-uri
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-uri
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 28368
+Filename: ruby-uri_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29280
+SHA256sum: f413ef236a5c3a4762854fc9e1d86713f981e6b6ea1b84d538bc3074512f7354
+Description:  This package contains the ruby library to handle URI.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/uri.rb 
+ - /usr/lib/ruby/3.0/uri 
+ - /usr/lib/ruby/gems/3.0/gems/uri-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/uri-*.gemspec
+ 
+
+Package: ruby-weakref
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-delegate
+Source: feeds/packages/lang/ruby
+SourceName: ruby-weakref
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1414
+Filename: ruby-weakref_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2310
+SHA256sum: 38f6bd2b9469c235749dfae4efc06a32c9507857d25e4c8499943bb500a47737
+Description:  This package contains the ruby Weak reference to be garbage collected.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/weakref.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/weakref-*.gemspec
+ 
+
+Package: ruby-yaml
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-dbm, ruby-pstore, ruby-psych
+Source: feeds/packages/lang/ruby
+SourceName: ruby-yaml
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4346
+Filename: ruby-yaml_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5214
+SHA256sum: 8323d90354e4f9dc7d8c973545a42b5757f51196f8e6cab2d744a25108d61893
+Description:  This package contains the ruby YAML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/yaml 
+ - /usr/lib/ruby/3.0/yaml.rb 
+ - /usr/lib/ruby/gems/3.0/gems/yaml-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/yaml-*.gemspec
+ 
+
+Package: ruby-zlib
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-zlib
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20018
+Filename: ruby-zlib_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20770
+SHA256sum: 9e7b70c8adcb62d03475ab8f64c2491f91d84a5120b400b3e54f72751c9a61c4
+Description:  This package contains the ruby compression/decompression library interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/zlib.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/zlib-*.gemspec
+ 
+
+Package: ruby
+Version: 3.0.6-1
+Depends: libc, libruby3.0
+Source: feeds/packages/lang/ruby
+SourceName: ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1635
+Filename: ruby_3.0.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2547
+SHA256sum: a91536c6ddf1634db461c866c9eae2f3313020b944f3896112396ebca4fb6006
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-7
+Depends: libc
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2876
+Filename: shadowsocks-libev-config_3.3.5-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3675
+SHA256sum: 573aa99d8b6a2b3a669b465ccde599f4c59a1715802da345bf083a31c2d27f30
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48142
+Filename: shadowsocks-libev-ss-local_3.3.5-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 48933
+SHA256sum: dd400cc42b16f768a49c4a05d314c8fbd391c2c5f97f0a48d892cd9b7b7f145d
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 43593
+Filename: shadowsocks-libev-ss-redir_3.3.5-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 44390
+SHA256sum: 2e6e9918e0549180b3fcc14609471bcd68b4b2cbf8b58197b9d4f17bfe9b1e3a
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-7
+Depends: libc, firewall4, ip, resolveip, ucode, ucode-mod-fs, shadowsocks-libev-ss-redir, shadowsocks-libev-config, kmod-nft-tproxy
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1869
+Filename: shadowsocks-libev-ss-rules_3.3.5-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2675
+SHA256sum: 2e005b258f5f6c5bf9fa59f57d88ace1246dd0da360de2ff61bd72f6cbf969cb
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52767
+Filename: shadowsocks-libev-ss-server_3.3.5-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 53591
+SHA256sum: e2f3aac38278cb3d817432bfaf13032e9e377155654f3c899a7b59881c981a28
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41225
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41990
+SHA256sum: 58e93484b32f383486b194678b505663ea300e5f8f679f2f3b6d80b14ff26cb0
+Description:  shadowsocks-libev ss-tunnel
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 107652
+Filename: unzip_6.0-8_arm_cortex-a7_neon-vfpv4.ipk
+Size: 108502
+SHA256sum: b28ce72fdb860cac43c66bb3194521c2d4f4385e8587a4dc1700f1776cb1f4a9
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: xray-core
+Version: 1.8.1-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682102910
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9195999
+Filename: xray-core_1.8.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9181064
+SHA256sum: fae1f97d37407be7d777260edfcd7e6bd7a26225a726f56a403960bc6dcb4343
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.8.1-1
+Depends: libc, xray-core
+Source: feeds/packages/net/xray-core
+SourceName: xray-example
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682102910
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 553
+Filename: xray-example_1.8.1-1_all.ipk
+Size: 1406
+SHA256sum: 8e30897302021c35ef92ba8db05f8417eeb6330b6dc75de0d80f43ae6a107e3e
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
 

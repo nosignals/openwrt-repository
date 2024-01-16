@@ -1,1 +1,5086 @@
+Package: acl
+Version: 2.3.1-1
+Depends: libc, libacl
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1616347947
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 16166
+Filename: acl_2.3.1-1_mipsel_24kc.ipk
+Size: 16905
+SHA256sum: 9d9f1fc0affbff3f4f3f7da97b1c988edab4cc96c4dc3fdbc8b48dd05f2946d5
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 10915
+Filename: attr_2.5.1-1_mipsel_24kc.ipk
+Size: 11699
+SHA256sum: 02f48d67b6195b8640e60eaa50e4d0510d3c3cc2a0efeeeed0a2ab820d884850
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bash
+Version: 5.2.15-1
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1674462406
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mipsel_24kc
+Installed-Size: 361198
+Filename: bash_5.2.15-1_mipsel_24kc.ipk
+Size: 362213
+SHA256sum: 76aebcdf2b222131736146c9a54647172ac4e95c21fb88a4b48182c07bdf4abc
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168472
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 7570
+Filename: cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk
+Size: 8366
+SHA256sum: 9660e1bd3cffef9e2b2a59cc05e91d2540c47ac1f79523b25c0dca2c1d33e722
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-b2sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 27158
+Filename: coreutils-b2sum_9.0-2_mipsel_24kc.ipk
+Size: 27900
+SHA256sum: 405349d405994b125021aa72472896bff1aefeaaa73cc2ca9a0a9ac804e6d3f5
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base32
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17872
+Filename: coreutils-base32_9.0-2_mipsel_24kc.ipk
+Size: 18652
+SHA256sum: d197350c533a19915df4217cb85d4b0bc39e954687bf87090f51c00257c207c2
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17839
+Filename: coreutils-base64_9.0-2_mipsel_24kc.ipk
+Size: 18663
+SHA256sum: 4900b5a960e30eb6ae58c2623518f8dfe3730995d1745209b861c91644d51391
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basename
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15707
+Filename: coreutils-basename_9.0-2_mipsel_24kc.ipk
+Size: 16477
+SHA256sum: e4e74bbb7f59b7ed1afec40741ec71156ce433d1c04a6c649b033f247fe3df8b
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basenc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20679
+Filename: coreutils-basenc_9.0-2_mipsel_24kc.ipk
+Size: 21476
+SHA256sum: dcddf25ca87bdcc730142df4f37be178f28f26f43301fa293c593057ceb52c12
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17153
+Filename: coreutils-cat_9.0-2_mipsel_24kc.ipk
+Size: 17949
+SHA256sum: f81dd76556e4dae9a0e61b7fb6ed739e3206e1202765d5189a466d757b9be082
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25013
+Filename: coreutils-chcon_9.0-2_mipsel_24kc.ipk
+Size: 25812
+SHA256sum: 679a48d0bf603dbab592ec02ac82a234e7bd510a22274722a141ad5ca1ed3599
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chgrp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 26830
+Filename: coreutils-chgrp_9.0-2_mipsel_24kc.ipk
+Size: 27671
+SHA256sum: 1d5c28c3eec401c90a20bf1ffcb67c6c35561b17667a6f28c09912b0f722f32d
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chmod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 24758
+Filename: coreutils-chmod_9.0-2_mipsel_24kc.ipk
+Size: 25492
+SHA256sum: aac3999ea0c1881e8a9957ed79c84efebe26281a87ada65910e863db2af74525
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chown
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 27538
+Filename: coreutils-chown_9.0-2_mipsel_24kc.ipk
+Size: 28328
+SHA256sum: 517f4ab53e8536d4c9b208ed0b6a46d2f15ddf28bb79b91251092e039dd44876
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chroot
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 22251
+Filename: coreutils-chroot_9.0-2_mipsel_24kc.ipk
+Size: 22925
+SHA256sum: 9aa59f42f2d16b982a3c020ba850fae08cd9155361eedec6364ed19ba3e79e10
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cksum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 72505
+Filename: coreutils-cksum_9.0-2_mipsel_24kc.ipk
+Size: 73227
+SHA256sum: d3425eb436494febf98008584c134ca026a2a91e8bdfca59a321e39744cccc17
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-comm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17927
+Filename: coreutils-comm_9.0-2_mipsel_24kc.ipk
+Size: 18742
+SHA256sum: b58dcfac91230523acb8e708f187bc06fe241fd249ce96b494c1f623b68bfe5c
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 41374
+Filename: coreutils-cp_9.0-2_mipsel_24kc.ipk
+Size: 42234
+SHA256sum: f9df40c799b2b540581f2009a38f882d6742ca177f382f7aed9b643d062a3786
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-csplit
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 44320
+Filename: coreutils-csplit_9.0-2_mipsel_24kc.ipk
+Size: 45140
+SHA256sum: 032eb21193dfb4244d8d2ecaec833f3b88a57b02abc1952445084fb70d4a38e5
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cut
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19125
+Filename: coreutils-cut_9.0-2_mipsel_24kc.ipk
+Size: 19942
+SHA256sum: 5e4956b0acbb9ee5e91ccedd57cf04eed7e09c0c7188d614ec25342e3a8993c8
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-date
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 38102
+Filename: coreutils-date_9.0-2_mipsel_24kc.ipk
+Size: 39032
+SHA256sum: e5f835bea11c1c283700deff64697afb6976cd7c9487100a8101983eb5b8fff0
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 28538
+Filename: coreutils-dd_9.0-2_mipsel_24kc.ipk
+Size: 29332
+SHA256sum: 668e661f22dbf0f72c30db347cabf3a7dfa735cf02d8a1a88987526a5148aed3
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-df
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 33152
+Filename: coreutils-df_9.0-2_mipsel_24kc.ipk
+Size: 33991
+SHA256sum: db809e80bc7af97ef58f786571333fc14a69fc72ff6c91f222ed28fe91c164a3
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 53464
+Filename: coreutils-dir_9.0-2_mipsel_24kc.ipk
+Size: 54268
+SHA256sum: 9e318360f42909bf6a1a2d8011fdce6fbd197a75981e49f1e36dded9171cdbb6
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dircolors
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 24190
+Filename: coreutils-dircolors_9.0-2_mipsel_24kc.ipk
+Size: 24966
+SHA256sum: 7c7e1287fdcd7f4b1d462f3ac05f90f10321e3757e1c7160a1fb13eb2a23dfdc
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dirname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15445
+Filename: coreutils-dirname_9.0-2_mipsel_24kc.ipk
+Size: 16212
+SHA256sum: fc4773623f76316b7ae4d3eec00358ebfbebccd41b25735ba4f4b009226cce60
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-du
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 66698
+Filename: coreutils-du_9.0-2_mipsel_24kc.ipk
+Size: 67559
+SHA256sum: d20f0abfeaa8a0d414c5d2d6b8b6660e1e7978942e761b54bff5942dd74bc092
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-echo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 14283
+Filename: coreutils-echo_9.0-2_mipsel_24kc.ipk
+Size: 15108
+SHA256sum: 18c64bc83f7045d27e9fa860553f3d8011b60d77fcf405d70787ed8f8807a733
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-env
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19763
+Filename: coreutils-env_9.0-2_mipsel_24kc.ipk
+Size: 20576
+SHA256sum: b877e8bcb66fc2c7b4468b3dc470522ebccc39b601d8533428983e988eeeaefb
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17142
+Filename: coreutils-expand_9.0-2_mipsel_24kc.ipk
+Size: 17967
+SHA256sum: 147f0c764a699cef185457ae604d1de80d1a7c86dc965b5db8574be6f9e4862b
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 9.0-2
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 42340
+Filename: coreutils-expr_9.0-2_mipsel_24kc.ipk
+Size: 43241
+SHA256sum: 06b2f92e96c0be14cd0068fcc483ef47693d2a94df89498cece54b2b26e25da7
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 9.0-2
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-factor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 40949
+Filename: coreutils-factor_9.0-2_mipsel_24kc.ipk
+Size: 41809
+SHA256sum: 12316ba3faecd50671e31d0dad6affa2b5b00a3fabbdc92ae7e1599cae971f21
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-false
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 13353
+Filename: coreutils-false_9.0-2_mipsel_24kc.ipk
+Size: 14167
+SHA256sum: 3675cf49e867f9040d9543404efc6806dc80b6f95d4757b12939854cde8be52b
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18803
+Filename: coreutils-fmt_9.0-2_mipsel_24kc.ipk
+Size: 19594
+SHA256sum: c10b60090b7e495324e55239de017a2f7a171ec9c708d460aec9db3a09d1f365
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fold
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16764
+Filename: coreutils-fold_9.0-2_mipsel_24kc.ipk
+Size: 17583
+SHA256sum: 2220dd1d0d5396254956acf570abcf27fc9fcd5cbdcad0a907db8a4281c8dd4c
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-groups
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16086
+Filename: coreutils-groups_9.0-2_mipsel_24kc.ipk
+Size: 16851
+SHA256sum: 5cc9f183515b06d290079b6a8b5cadaa0b406c8e100c9cc6c8e4f1a1240bbc62
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-head
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19774
+Filename: coreutils-head_9.0-2_mipsel_24kc.ipk
+Size: 20599
+SHA256sum: 1ec1a36587864913a1daa024b98c1b08913f7092dded49e3142e4171057081f6
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-hostid
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15150
+Filename: coreutils-hostid_9.0-2_mipsel_24kc.ipk
+Size: 15917
+SHA256sum: 9d2f134f29414a5662046b86af0a7ef75ec4bcb5340f2c8bc95e1ba46020ed44
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-id
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18079
+Filename: coreutils-id_9.0-2_mipsel_24kc.ipk
+Size: 18881
+SHA256sum: 49eaa9f44e4eeb7d599c191e6f351d49262dfd9b8f0983024a002f1c8fd0d40c
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-install
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 42381
+Filename: coreutils-install_9.0-2_mipsel_24kc.ipk
+Size: 43185
+SHA256sum: edbb70456b24b3937522519a338397c7fbe73b357097fffa42fe9a0d53f7b737
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-join
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20927
+Filename: coreutils-join_9.0-2_mipsel_24kc.ipk
+Size: 21720
+SHA256sum: f0b492731785b3e63f6220962c268940d5fc4495eeea9552cc53753025cfddc3
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-kill
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16966
+Filename: coreutils-kill_9.0-2_mipsel_24kc.ipk
+Size: 17781
+SHA256sum: 47d6b8ff5120528bf3f5f5d211e7e5553523ea5849bb7871c51c108990466ef5
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-link
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15248
+Filename: coreutils-link_9.0-2_mipsel_24kc.ipk
+Size: 16008
+SHA256sum: 44faf6a350b6ac4e6e5f23a6cd9538afddf0f7fae0e8b08ae3e3d34d17d87bfc
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ln
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 26187
+Filename: coreutils-ln_9.0-2_mipsel_24kc.ipk
+Size: 26966
+SHA256sum: 5c3ecff02d0007aabf05692c6b0e87dbd13475281b51c30f7b6343380b5678a9
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-logname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15150
+Filename: coreutils-logname_9.0-2_mipsel_24kc.ipk
+Size: 15921
+SHA256sum: b7df4a5635b7bed8c5be72d74808c2abe2558cb01e469a0a974394cc36b023be
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ls
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 53472
+Filename: coreutils-ls_9.0-2_mipsel_24kc.ipk
+Size: 54310
+SHA256sum: 6e949bc78873128fe9d87c925990227fda9cfe2c7c36e48adeece51bb8665542
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-md5sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20925
+Filename: coreutils-md5sum_9.0-2_mipsel_24kc.ipk
+Size: 21753
+SHA256sum: b5a7c610e92e176673c62fde5c7e1ce3d34b63dbf506138a2b287a02acae20a0
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18269
+Filename: coreutils-mkdir_9.0-2_mipsel_24kc.ipk
+Size: 19091
+SHA256sum: 59625017b515627df6deda8f724f036adee0c7b298fb7a44485e90b1b941fbed
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkfifo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16236
+Filename: coreutils-mkfifo_9.0-2_mipsel_24kc.ipk
+Size: 16999
+SHA256sum: d135c61ca4a2f48c73f911bb06a50b946962d3cd8d6d3df31351587ffd3fbc05
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mknod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17515
+Filename: coreutils-mknod_9.0-2_mipsel_24kc.ipk
+Size: 18325
+SHA256sum: 4c836d1ce0317b36aa841206dbd0b65ca3d28ffd83bde0d0cb9a88bcc155e76d
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mktemp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17217
+Filename: coreutils-mktemp_9.0-2_mipsel_24kc.ipk
+Size: 18031
+SHA256sum: 5ce4235d909a81d2445a8be0fe28b9b87fb512bc222e50ca02bcffdccdafbe26
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 9.0-2
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 43854
+Filename: coreutils-mv_9.0-2_mipsel_24kc.ipk
+Size: 44667
+SHA256sum: df85888078049b0e215769c84385cce1e1aaaf1d225a385125263b38f286d210
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nice
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16173
+Filename: coreutils-nice_9.0-2_mipsel_24kc.ipk
+Size: 16940
+SHA256sum: 0e67cb3bb7292c0e437458ecd927b5990c5416fadcb2ca498a369a60716fd317
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 41616
+Filename: coreutils-nl_9.0-2_mipsel_24kc.ipk
+Size: 42492
+SHA256sum: 435b792cfacab7eb92f509895e757f8dca66f32ac64a132bd2e49b67e2f9c64d
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16419
+Filename: coreutils-nohup_9.0-2_mipsel_24kc.ipk
+Size: 17243
+SHA256sum: 38ef94f3fddff3d6d6d5a8fbfa960d5058ff3140f94d7cd00549508801b3bb1e
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nproc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16351
+Filename: coreutils-nproc_9.0-2_mipsel_24kc.ipk
+Size: 17111
+SHA256sum: df7004f23f5cdbadf2d6c19a862e0d1a345ffbc3f4e42c248781652918d36d5e
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-numfmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25531
+Filename: coreutils-numfmt_9.0-2_mipsel_24kc.ipk
+Size: 26299
+SHA256sum: 7d5457e65952a2e1216c7b15a8711c36aaf11141e40a1aad5f0ac340ce906011
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-od
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25687
+Filename: coreutils-od_9.0-2_mipsel_24kc.ipk
+Size: 26494
+SHA256sum: 4aaa268d59350ce25b733a1a8a13490df75418ef4b0e2eb5e3a71f8e260bd19c
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-paste
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16440
+Filename: coreutils-paste_9.0-2_mipsel_24kc.ipk
+Size: 17256
+SHA256sum: 6b1f85a22a41f0ad6c635206fe2dc94f5f24008212c52a55733d81a26adcbc86
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pathchk
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15865
+Filename: coreutils-pathchk_9.0-2_mipsel_24kc.ipk
+Size: 16604
+SHA256sum: 3003e105348c23a7d3541e5e43b43f35678e4f5e4c39af7e80237691cd9bef23
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pinky
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17535
+Filename: coreutils-pinky_9.0-2_mipsel_24kc.ipk
+Size: 18337
+SHA256sum: 53c48f4105cc8b4e1a3f7d613adaf242107ad68617e69cb407df5ab29bbf093d
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 30194
+Filename: coreutils-pr_9.0-2_mipsel_24kc.ipk
+Size: 30960
+SHA256sum: 59bdc0cabe9c2395ab65e737ba334f7f3e0ff0b0d7bb1e8f1062db1498902dea
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printenv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15374
+Filename: coreutils-printenv_9.0-2_mipsel_24kc.ipk
+Size: 16136
+SHA256sum: 11088047bc3b28b92cf1be01d421b6a00ac284af3a544f4908b9da2d7924917c
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18358
+Filename: coreutils-printf_9.0-2_mipsel_24kc.ipk
+Size: 19177
+SHA256sum: e72ba1aeb219c70870783c1230bb366f2a42a33cd6546ffb2ffb154f5dac4b72
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ptx
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 46431
+Filename: coreutils-ptx_9.0-2_mipsel_24kc.ipk
+Size: 47275
+SHA256sum: d9b5c7256271e55985c578ec69714af21d00b0ec2a79fc3ba92fd380f015c9e8
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pwd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18112
+Filename: coreutils-pwd_9.0-2_mipsel_24kc.ipk
+Size: 18933
+SHA256sum: 4902a8313f4929508987c2182fa567b6bb755d9c817f9439d7923a17d2f7ae89
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-readlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20021
+Filename: coreutils-readlink_9.0-2_mipsel_24kc.ipk
+Size: 20820
+SHA256sum: 02c7fab7ee240089be31df30f7765146fe6954f1cc10691e2355b7563d5d3882
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-realpath
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20466
+Filename: coreutils-realpath_9.0-2_mipsel_24kc.ipk
+Size: 21290
+SHA256sum: e8cd417cacd288cfb5ae447014678eb9ba82d0bb6dd5d7eed6d5e02e28b887b1
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25746
+Filename: coreutils-rm_9.0-2_mipsel_24kc.ipk
+Size: 26525
+SHA256sum: df83de1d573b45a34dc037e6b1b5ce34f04225bf851dd00a2073b6a138cf60e0
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rmdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15964
+Filename: coreutils-rmdir_9.0-2_mipsel_24kc.ipk
+Size: 16733
+SHA256sum: d081c5595a5f837af31eb359466c073884ed71015cee35ac442797a01fe19659
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-runcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15537
+Filename: coreutils-runcon_9.0-2_mipsel_24kc.ipk
+Size: 16297
+SHA256sum: a090e63636eb75f4c06ccff3039c20471c383e1d35d15db439950757674dcd71
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-seq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19924
+Filename: coreutils-seq_9.0-2_mipsel_24kc.ipk
+Size: 20748
+SHA256sum: 1eac04a452c0bf7b5b6c33fb8ae196678fed75f38833df4a95b46437e4bfae29
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha1sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 22368
+Filename: coreutils-sha1sum_9.0-2_mipsel_24kc.ipk
+Size: 23143
+SHA256sum: 26cce54edcebb2440fabedf29876987f6d65eeae2c814318e1ab9d6eef82a509
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha224sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25092
+Filename: coreutils-sha224sum_9.0-2_mipsel_24kc.ipk
+Size: 25810
+SHA256sum: 01a57ed957c8189a1d6c2a48cb45e9782547a251549ce0f044cd13ea8b914f6c
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha256sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25105
+Filename: coreutils-sha256sum_9.0-2_mipsel_24kc.ipk
+Size: 25848
+SHA256sum: 3f1bcfe788996dcaf4929ebacde2a983124682c38def82ecb44d240ee7da66e7
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha384sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 33874
+Filename: coreutils-sha384sum_9.0-2_mipsel_24kc.ipk
+Size: 34602
+SHA256sum: e6f47ec5beb32646322ea64c0acb827d940e73518250c21cefbfbfc997e9983a
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha512sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 33883
+Filename: coreutils-sha512sum_9.0-2_mipsel_24kc.ipk
+Size: 34646
+SHA256sum: 1a1c92f3146c86d54fe1b09aeefcd520e93406cb68fc4bb0395486072c45af32
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shred
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 25326
+Filename: coreutils-shred_9.0-2_mipsel_24kc.ipk
+Size: 26057
+SHA256sum: 47d3497a8dd32aa82b38bad0c1e0a07b3ff04e6245486c911a86e64dca31a83c
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 23139
+Filename: coreutils-shuf_9.0-2_mipsel_24kc.ipk
+Size: 23922
+SHA256sum: 3c018ea3b93ce6d1c9023f0ebbf80c18b6aa548927de370d37a5161ca4dcd60d
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sleep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17555
+Filename: coreutils-sleep_9.0-2_mipsel_24kc.ipk
+Size: 18362
+SHA256sum: 6c29e0fcb03dab0aeb75534403cc6a704fb29151e45e8e2a356df9b692087680
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 9.0-2
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 43256
+Filename: coreutils-sort_9.0-2_mipsel_24kc.ipk
+Size: 44079
+SHA256sum: 525566f71b18d96eefb7c86dad2ea966a721cb2ff5ac4f3eb55a09cc5b9a5cb3
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-split
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 24599
+Filename: coreutils-split_9.0-2_mipsel_24kc.ipk
+Size: 25380
+SHA256sum: e4a8783159781cd215b120a469ad8264ab144d5afc5da778ed3703246fdb398a
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 36356
+Filename: coreutils-stat_9.0-2_mipsel_24kc.ipk
+Size: 37186
+SHA256sum: 9a4909b023b2e4cea43a8d207c7313db907c6631c44a7da7ff93de8964b876ee
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stdbuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19258
+Filename: coreutils-stdbuf_9.0-2_mipsel_24kc.ipk
+Size: 20021
+SHA256sum: eb1a216b5e6cfcfeb891bd25e81fb56a8599b12583a6733b31cb81716674d1fc
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 24606
+Filename: coreutils-stty_9.0-2_mipsel_24kc.ipk
+Size: 25421
+SHA256sum: e07d2010b377ab38ef65587b2de609b810b802f3e67db8fbc1fd53f2960a002e
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19270
+Filename: coreutils-sum_9.0-2_mipsel_24kc.ipk
+Size: 20098
+SHA256sum: 685067ffe20644eedadef8354841b798c6ac4ac303ffdd774454a2757f76073c
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15747
+Filename: coreutils-sync_9.0-2_mipsel_24kc.ipk
+Size: 16511
+SHA256sum: e3fd6f75a6752dfdedcc5e78c4e2de87da354ebd09a7f281eff5b86e83020919
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tac
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 40741
+Filename: coreutils-tac_9.0-2_mipsel_24kc.ipk
+Size: 41601
+SHA256sum: b4f85ea16474b5dd8b3a5e54d99b42f3ab6ba5ff305cbc40b1730c77b86a2016
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tail
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 30482
+Filename: coreutils-tail_9.0-2_mipsel_24kc.ipk
+Size: 31210
+SHA256sum: e83fa92aed7c19af827557106602b0395c7bca5deb08589a0ef21d00d2fdeb6c
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tee
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16813
+Filename: coreutils-tee_9.0-2_mipsel_24kc.ipk
+Size: 17631
+SHA256sum: 75275718fb4f2137254c66655649990abf42316f15ff423bfc1fdb8e74387228
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-test
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16815
+Filename: coreutils-test_9.0-2_mipsel_24kc.ipk
+Size: 17648
+SHA256sum: 9879b66192b82f21666555448924289374da2e9bc8bc2a56b8633707bf5815c9
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 9.0-2
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-timeout
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 19938
+Filename: coreutils-timeout_9.0-2_mipsel_24kc.ipk
+Size: 20773
+SHA256sum: b112418ff1e892135c458ce2ba319e7908aedc5b219893a807a121421e9c1ffb
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-touch
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 35363
+Filename: coreutils-touch_9.0-2_mipsel_24kc.ipk
+Size: 36181
+SHA256sum: b7ba6d862485e303dd382e199f473af2d22ace08a215ebb117298737ee59a87f
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20866
+Filename: coreutils-tr_9.0-2_mipsel_24kc.ipk
+Size: 21696
+SHA256sum: 2dc79bcd72cae9af7bed52dbb2daa510cae18de84a0d5b790a380656350d888f
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-true
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 13350
+Filename: coreutils-true_9.0-2_mipsel_24kc.ipk
+Size: 14164
+SHA256sum: e7ae1b5e865595ad734c389fd2b212213090aa1fa50688d13170647789a9be7d
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-truncate
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17719
+Filename: coreutils-truncate_9.0-2_mipsel_24kc.ipk
+Size: 18546
+SHA256sum: 4f5854951a2a130b9cc5be6ce48eb90fb6da7fc15f0361704cdae66d81c4e546
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 9.0-2
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tsort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 16818
+Filename: coreutils-tsort_9.0-2_mipsel_24kc.ipk
+Size: 17582
+SHA256sum: 8fa00b1afad3a45debc41d30f1ce954b216569e7697c76b01ce1f29f82fe6eae
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15148
+Filename: coreutils-tty_9.0-2_mipsel_24kc.ipk
+Size: 15911
+SHA256sum: d97d6f68fb5b20e521c0b90cb430366cc92c8467488d972507baaa570fca7f7e
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15769
+Filename: coreutils-uname_9.0-2_mipsel_24kc.ipk
+Size: 16537
+SHA256sum: 8759ccf470c779c45326a10c3b4dc7c643f467c0213e9ab2e15b5d642a362765
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unexpand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 17408
+Filename: coreutils-unexpand_9.0-2_mipsel_24kc.ipk
+Size: 18217
+SHA256sum: 0d1443eb4957b08f70a0e5b61853e8bdf30c32219a952aeba230e34bc48f9a8f
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uniq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18995
+Filename: coreutils-uniq_9.0-2_mipsel_24kc.ipk
+Size: 19817
+SHA256sum: 3c6142d48de0ab09767302551601336b2a420a2620717e834eca5e3449fa1334
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15196
+Filename: coreutils-unlink_9.0-2_mipsel_24kc.ipk
+Size: 15964
+SHA256sum: 36542bcd16127f90cee907f0c6d91654449956f5aa0fa20d6f178526466ea2de
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uptime
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 21114
+Filename: coreutils-uptime_9.0-2_mipsel_24kc.ipk
+Size: 21913
+SHA256sum: 7a413e55b8ac822f00c2a25742d85ae0bfc767b9111852721ac34c3966d0ed54
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-users
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15742
+Filename: coreutils-users_9.0-2_mipsel_24kc.ipk
+Size: 16512
+SHA256sum: 93da21c366e6856fae813251665aaad5aa387b3f83ee30de613d6ec700b33e01
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 9.0-2
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-vdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 53462
+Filename: coreutils-vdir_9.0-2_mipsel_24kc.ipk
+Size: 54273
+SHA256sum: 67827f7920b72c5c3fb00460aeae100d157f412d8ed1eccc1f59b8ae2faf6bb8
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-wc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 20520
+Filename: coreutils-wc_9.0-2_mipsel_24kc.ipk
+Size: 21336
+SHA256sum: b1d242f20a72dc8f726ff2059896487fbe4e290884e3ab938195894de5dc7c7a
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-who
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18623
+Filename: coreutils-who_9.0-2_mipsel_24kc.ipk
+Size: 19463
+SHA256sum: 5c545a4a4a125211014ca877685177b71db578daf5b9ce4b7772c4b366aa8bbc
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-whoami
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15237
+Filename: coreutils-whoami_9.0-2_mipsel_24kc.ipk
+Size: 16003
+SHA256sum: 59dccd1124c53fc7a377c355ab13bc85241a3672951b23e3d09070882639bf0b
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-yes
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 15446
+Filename: coreutils-yes_9.0-2_mipsel_24kc.ipk
+Size: 16206
+SHA256sum: 1cf68032597e59f89183abcdbacf166a814ef33610091dc7efb12a3026d12b9e
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1645913484
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 96
+Filename: coreutils_9.0-2_mipsel_24kc.ipk
+Size: 968
+SHA256sum: 27bbf06b051c6ceb513292069c3bbe6072bb1859f423cc2c3bd925f54491c764
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.0.1-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1679958562
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: mipsel_24kc
+Installed-Size: 58133
+Filename: curl_8.0.1-1_mipsel_24kc.ipk
+Size: 58943
+SHA256sum: 06720d5d25b99578426827e34d4ad910883178cc140e43f63f7356dbe6d73e62
+Description:  A client-side URL transfer utility
+
+Package: libacl
+Version: 2.3.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: libacl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347947
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 10207
+Filename: libacl_2.3.1-1_mipsel_24kc.ipk
+Size: 10995
+SHA256sum: d24e5715b5cdd2649cd930ae8ce050cc7e8c8005e290cec8dfbddc333300b421
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1616347921
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5835
+Filename: libattr_2.5.1-1_mipsel_24kc.ipk
+Size: 6616
+SHA256sum: 3fc32e15b49b459f13493de051d98154d6537082c85292695445b2c3ad3d361d
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.18.1-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1636449700
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: mipsel_24kc
+Installed-Size: 30623
+Filename: libcares_1.18.1-1_mipsel_24kc.ipk
+Size: 31536
+SHA256sum: f46e541e6701f6b2a8c1d6d580a6cb16ff8d22ae2c41a995c429fc6c51301877
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 8.0.1-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1679958562
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: mipsel_24kc
+Installed-Size: 158809
+Filename: libcurl4_8.0.1-1_mipsel_24kc.ipk
+Size: 159254
+SHA256sum: b96e559bf090812cbf9860cf3e951aa49019177affe70b0593d060316b742d92
+Description:  A client-side URL transfer library
+
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614985666
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mipsel_24kc
+Installed-Size: 465619
+Filename: libdb47_4.7.25.4.NC-7_mipsel_24kc.ipk
+Size: 466233
+SHA256sum: 519355b6558f1357b38b5c01d1b3456aaaf059c9d80a1909d736d749dd1a73c7
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-7
+Depends: libc, libdb47, libstdcpp6
+Provides: libdb47xx-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47xx
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614985666
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mipsel_24kc
+Installed-Size: 496320
+Filename: libdb47xx_4.7.25.4.NC-7_mipsel_24kc.ipk
+Size: 496909
+SHA256sum: 6eb794eaa0ceba689aaf12b3d471a921a8aae685effcbaa7d7b5a303573e2448
+Description:  Berkeley DB library (4.7).  C++ wrapper.
+
+Package: libev
+Version: 4.33-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1636152073
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: mipsel_24kc
+Installed-Size: 23372
+Filename: libev_4.33-1_mipsel_24kc.ipk
+Size: 24141
+SHA256sum: 558f49585e307715e518da950e886833bf9545cc82b9b9930f8b19152c623f97
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1634951273
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mipsel_24kc
+Installed-Size: 14040
+Filename: libffi_3.4.2-2_mipsel_24kc.ipk
+Size: 15026
+SHA256sum: bc3795cdb5c727b284611c4ad2f9f0e363295ec2857e29a0e489810aebb68d39
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.21-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1632557976
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mipsel_24kc
+Installed-Size: 26263
+Filename: libgdbm_1.21-1_mipsel_24kc.ipk
+Size: 27048
+SHA256sum: 8a19c8e2b367ef7a03dc65b90b54c9b80efdb104a47572d92fbec262c2ed6b85
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1628451615
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 55763
+Filename: libnghttp2-14_1.44.0-1_mipsel_24kc.ipk
+Size: 55472
+SHA256sum: 5458c0abe12eaa774bdceea039828e5497a6db7a5a3fcf16e7721801c4bc95db
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libruby3.0
+Version: 3.0.6-1
+Depends: libc, libpthread, librt, libgmp10, zlib
+Provides: libruby
+Source: feeds/packages/lang/ruby
+SourceName: libruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1681589578
+ABIVersion: 3.0
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 983073
+Filename: libruby3.0_3.0.6-1_mipsel_24kc.ipk
+Size: 978729
+SHA256sum: bde1c22a3f77e8823fcb60df0d776dd23d1f9d66608720ec7645bdb1e247bd2c
+Description:  Ruby scripting language (shared library)
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1633787435
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: mipsel_24kc
+Installed-Size: 139931
+Filename: libsodium_1.0.18-4_mipsel_24kc.ipk
+Size: 141068
+SHA256sum: 9f6dff1f7daf9a1bb7d8636f6d999dc2741829b73a327ee4e8f92f00dc2ee5ce
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libxml2-dev
+Version: 2.10.3-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-dev
+License: MIT
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1666037159
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mipsel_24kc
+Installed-Size: 86172
+Filename: libxml2-dev_2.10.3-1_mipsel_24kc.ipk
+Size: 87074
+SHA256sum: dd19300b1557c6e4b62469041daabaa843ccf8d9c4e6d099fb17ba4f20ad6744
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.10.3-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-utils
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1666037159
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mipsel_24kc
+Installed-Size: 20612
+Filename: libxml2-utils_2.10.3-1_mipsel_24kc.ipk
+Size: 21336
+SHA256sum: 3ccc238d9b9de4c5faa3ba23a806cbe28602ce55ed433994aabf651a30c17449
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.10.3-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1666037159
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mipsel_24kc
+Installed-Size: 426209
+Filename: libxml2_2.10.3-1_mipsel_24kc.ipk
+Size: 424108
+SHA256sum: 8d1e7a8365ad9523072306cf249886a9940e06ee32d78971530f50355c927cbb
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+Source: feeds/packages/libs/yaml
+SourceName: libyaml
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1593132224
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: mipsel_24kc
+Installed-Size: 36271
+Filename: libyaml_0.2.5-1_mipsel_24kc.ipk
+Size: 37046
+SHA256sum: 640509ab7dc3b22a5478f9aaeeb6a6645db5b800125fd194fc5c48783be7d334
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: ruby-abbrev
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-abbrev
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1981
+Filename: ruby-abbrev_3.0.6-1_mipsel_24kc.ipk
+Size: 2857
+SHA256sum: f9c97edff24c8763043438a23b763a9c2745dcc04ff2395e2414b2b90a62939d
+Description:  This package contains the ruby Calculates the set of unambiguous abbreviations for a given set of strings.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/abbrev.rb 
+ - /usr/lib/ruby/gems/3.0/gems/abbrev-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/abbrev-*.gemspec
+ 
+
+Package: ruby-base64
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-base64
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2032
+Filename: ruby-base64_3.0.6-1_mipsel_24kc.ipk
+Size: 2879
+SHA256sum: 07b7238c771278a24f17937a2e896806d28b43c3351aad53aae2bf93ad9e29ca
+Description:  This package contains the ruby Encode and decode base64.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/base64.rb 
+ - /usr/lib/ruby/gems/3.0/gems/base64-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/base64-*.gemspec
+ 
+
+Package: ruby-benchmark
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-benchmark
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5896
+Filename: ruby-benchmark_3.0.6-1_mipsel_24kc.ipk
+Size: 6763
+SHA256sum: 77d55320b9693a017a8f26be9727ec4a2f7b5b81b782b2f4fff4dc16ff955df2
+Description:  This package contains the ruby Performance benchmarking library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/benchmark.rb 
+ - /usr/lib/ruby/3.0/benchmark/ 
+ - /usr/lib/ruby/gems/3.0/gems/benchmark-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/benchmark-*.gemspec
+ 
+
+Package: ruby-bigdecimal
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-bigdecimal
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 31632
+Filename: ruby-bigdecimal_3.0.6-1_mipsel_24kc.ipk
+Size: 32527
+SHA256sum: e265fc91006813439f44e2a437648d4c9ff162130b37cda7ac109367d92314a8
+Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/bigdecimal.so 
+ - /usr/lib/ruby/3.0/bigdecimal/ 
+ - /usr/lib/ruby/3.0/bigdecimal.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/bigdecimal-*.gemspec
+ 
+
+Package: ruby-bundler
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-erb, ruby-irb, ruby-open-uri, ruby-readline
+Source: feeds/packages/lang/ruby
+SourceName: ruby-bundler
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 341174
+Filename: ruby-bundler_3.0.6-1_mipsel_24kc.ipk
+Size: 342113
+SHA256sum: e22c8401ce6c8eab7c1a381baa090bf984c2b26b4a8b2cd60941f571f2aba87b
+Description:  This package contains the ruby Manage dependencies.
+ 
+
+Package: ruby-cgi
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-pstore, ruby-securerandom, ruby-shellwords, ruby-tempfile
+Source: feeds/packages/lang/ruby
+SourceName: ruby-cgi
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 34074
+Filename: ruby-cgi_3.0.6-1_mipsel_24kc.ipk
+Size: 35055
+SHA256sum: 6cba0d4d3fb9bf5745904a7b2ba1023b1e24c77173a87213f4d1262aadd125ac
+Description:  This package contains the ruby CGI support toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/cgi.rb 
+ - /usr/lib/ruby/3.0/cgi/ 
+ - /usr/lib/ruby/gems/3.0/gems/cgi-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/cgi-*.gemspec 
+ - /usr/lib/ruby/3.0/*/cgi/escape.so
+ 
+
+Package: ruby-continuation
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-continuation
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1179
+Filename: ruby-continuation_3.0.6-1_mipsel_24kc.ipk
+Size: 2030
+SHA256sum: d4d7fc44a7088cf267edd66906690ad586a059e7a8c7350ca758de6fc17d6883
+Description:  This package contains the ruby Similar to C setjmp/longjmp with extra states.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/continuation.so
+ 
+
+Package: ruby-coverage
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-coverage
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3939
+Filename: ruby-coverage_3.0.6-1_mipsel_24kc.ipk
+Size: 4757
+SHA256sum: a441185b2bac46006cfd50644633f857ca7542f28f91bdaf4c5400b032b5314c
+Description:  This package contains the ruby Coverage measurement.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/coverage.rb 
+ - /usr/lib/ruby/3.0/*/coverage.so
+ 
+
+Package: ruby-csv
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date, ruby-english, ruby-forwardable, ruby-stringio, ruby-strscan
+Source: feeds/packages/lang/ruby
+SourceName: ruby-csv
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 38477
+Filename: ruby-csv_3.0.6-1_mipsel_24kc.ipk
+Size: 39466
+SHA256sum: b7ae0bdf78ff3700547818bf8ea5b8dc9e69c46d4ec955c7da0d8078f7a6ad68
+Description:  This package contains the ruby CSV Reading and Writing.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/csv.rb 
+ - /usr/lib/ruby/3.0/csv/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/csv-*.gemspec
+ 
+
+Package: ruby-date
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-date
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 53359
+Filename: ruby-date_3.0.6-1_mipsel_24kc.ipk
+Size: 54315
+SHA256sum: 53887eab21d341f30bdc174756cb23c11dfedb6e2ffa99d00aebf28998ea4486
+Description:  This package contains the ruby Comparable module for handling dates.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/date.rb 
+ - /usr/lib/ruby/3.0/*/date_core.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/date-*.gemspec
+ 
+
+Package: ruby-dbm
+Version: 3.0.6-1
+Depends: libc, ruby, libdb47
+Source: feeds/packages/lang/ruby
+SourceName: ruby-dbm
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 7201
+Filename: ruby-dbm_3.0.6-1_mipsel_24kc.ipk
+Size: 8123
+SHA256sum: 8213ef0ccc3d2969e2f976327bb021a6a71f7b33bdef35b5d2240db6b5984fd1
+Description:  The DBM class provides a wrapper to a Unix-style dbm or Database Manager library.
+ This package provides dbm.so file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/dbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/dbm-*.gemspec
+ 
+
+Package: ruby-debug
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-continuation, ruby-pp, ruby-readline, ruby-tracer
+Source: feeds/packages/lang/ruby
+SourceName: ruby-debug
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8222
+Filename: ruby-debug_3.0.6-1_mipsel_24kc.ipk
+Size: 9149
+SHA256sum: 518a7c74f05afccf24a62641f3c22945e2be2afeff500185a918ea450121d573
+Description:  This package contains the ruby generic command line interface for ruby-debug.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/debug.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/debug-*.gemspec
+ 
+
+Package: ruby-delegate
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-delegate
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 4392
+Filename: ruby-delegate_3.0.6-1_mipsel_24kc.ipk
+Size: 5238
+SHA256sum: 8640e3e182c7a4dfb2aef9cdd603fbe6e9b12ce6bc3a3d73c3ff3330c66791aa
+Description:  This package contains the ruby lib to delegate method calls to an object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/delegate.rb 
+ - /usr/lib/ruby/3.0/delegate/ 
+ - /usr/lib/ruby/gems/3.0/gems/delegate-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/delegate-*.gemspec
+ 
+
+Package: ruby-dev
+Version: 3.0.6-1
+Depends: libc, libruby3.0, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-dev
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 270983
+Filename: ruby-dev_3.0.6-1_mipsel_24kc.ipk
+Size: 271189
+SHA256sum: 13288eae29397d4a2daf5323bb4fd33eaa0925d1f3d29c39e45d496b44e6cffb
+Description:  Header files for compiling extension modules for the Ruby 3.0
+
+Package: ruby-did-you-mean
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-did-you-mean
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 7584
+Filename: ruby-did-you-mean_3.0.6-1_mipsel_24kc.ipk
+Size: 8494
+SHA256sum: 399c86159de69fd37ae338c7b997c8ec00b8f99fcd6652508849c5ce45daa268
+Description:  This package contains the ruby did you mean? experience.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/did_you_mean.rb 
+ - /usr/lib/ruby/3.0/did_you_mean/ 
+ - /usr/lib/ruby/gems/3.0/gems/did_you_mean-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/did_you_mean-*.gemspec
+ 
+
+Package: ruby-digest
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-digest
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 26613
+Filename: ruby-digest_3.0.6-1_mipsel_24kc.ipk
+Size: 27457
+SHA256sum: f28d253cf865ba12090357be5db2582173a52b59f40419349e388d263b7e65be
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/digest 
+ - /usr/lib/ruby/3.0/digest.rb 
+ - /usr/lib/ruby/3.0/*/digest.so 
+ - /usr/lib/ruby/3.0/*/digest/* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/digest-*.gemspec
+ 
+
+Package: ruby-drb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-ipaddr, ruby-monitor, ruby-observer, ruby-singleton, ruby-tmpdir
+Source: feeds/packages/lang/ruby
+SourceName: ruby-drb
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 25871
+Filename: ruby-drb_3.0.6-1_mipsel_24kc.ipk
+Size: 26760
+SHA256sum: a315a75bc2cbe5f33a12c614ca7fd41b79dc0f598ef33684e91abe2cb53aed00
+Description:  This package contains the ruby distributed object system.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/drb.rb 
+ - /usr/lib/ruby/3.0/drb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/drb-*.gemspec
+ 
+
+Package: ruby-enc-extra
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-enc-extra
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1382159
+Filename: ruby-enc-extra_3.0.6-1_mipsel_24kc.ipk
+Size: 1249218
+SHA256sum: bee9ec8c2aff78b3cb9a5aadf90b6d446ec06c8514f2fac9994de5d39a6e64d6
+Description:  This package contains the ruby character re-coding library charset (extra subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-enc
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-enc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8494
+Filename: ruby-enc_3.0.6-1_mipsel_24kc.ipk
+Size: 9387
+SHA256sum: f3a255f731cdd188201531e1fec7e61b454853fbbeae4605a93ccfad65ca7cae
+Description:  This package contains the ruby character re-coding library charset (small subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/enc/encdb.so 
+ - /usr/lib/ruby/3.0/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.0/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.0/*/enc/euc_jp.so
+ 
+
+Package: ruby-english
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-english
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2797
+Filename: ruby-english_3.0.6-1_mipsel_24kc.ipk
+Size: 3660
+SHA256sum: e0f01edf381647edbc9edb57be48d1ba1a589882af77a9b7a31b9e70dcfbcbfb
+Description:  This package contains the ruby Reference some global vars as english variables.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/English.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/english-*.gemspec
+ 
+
+Package: ruby-erb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems
+Source: feeds/packages/lang/ruby
+SourceName: ruby-erb
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 11454
+Filename: ruby-erb_3.0.6-1_mipsel_24kc.ipk
+Size: 12264
+SHA256sum: 9a916519be876ff2c31f4273dcdaae995fa5548eb896b9c2f473033cd95d6b5b
+Description:  This package contains the ruby (embedded interpreter).
+ 
+
+Package: ruby-etc
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-etc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8293
+Filename: ruby-etc_3.0.6-1_mipsel_24kc.ipk
+Size: 9185
+SHA256sum: 93e337ae05562e73b0b6b27d0a563764b502f2fcae1d30d3660149ca78d96107
+Description:  This package contains the ruby Access info typically stored in /etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/etc.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/etc-*.gemspec
+ 
+
+Package: ruby-expect
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-expect
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1189
+Filename: ruby-expect_3.0.6-1_mipsel_24kc.ipk
+Size: 2021
+SHA256sum: 98250a480fd6e440f270522818fee6656492d6a55fd88e8be81e2e2c0e94b706
+Description:  This package contains the ruby Expect-like for IO.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/expect.rb
+ 
+
+Package: ruby-fcntl
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fcntl
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2043
+Filename: ruby-fcntl_3.0.6-1_mipsel_24kc.ipk
+Size: 2904
+SHA256sum: 718f8b2c41ef99d0bf984fd5758b02e4ee6583cc7b63289f15192b880d4c1ff9
+Description:  This package contains the ruby Loads constants defined in the OS fcntl.h C header file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fcntl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fcntl-*.gemspec
+ 
+
+Package: ruby-fiber
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fiber
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1106
+Filename: ruby-fiber_3.0.6-1_mipsel_24kc.ipk
+Size: 1945
+SHA256sum: 80a80e6a74be30f42750233977899e21c447f2b376e6333e7c5db7eb4955213b
+Description:  This package contains the ruby Light weight cooperative concurrency.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/fiber.so
+ 
+
+Package: ruby-fiddle
+Version: 3.0.6-1
+Depends: libc, ruby, libffi
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fiddle
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 26041
+Filename: ruby-fiddle_3.0.6-1_mipsel_24kc.ipk
+Size: 26894
+SHA256sum: b4fd8233d6089e2fd46fe86ef4ff6ad3eae736631a02bf8ce4d272766f9cd3d2
+Description:  This package contains the ruby Libffi wrapper for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fiddle.rb 
+ - /usr/lib/ruby/3.0/fiddle/ 
+ - /usr/lib/ruby/3.0/*/fiddle.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fiddle-*.gemspec
+ 
+
+Package: ruby-fileutils
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-etc, ruby-rbconfig, ruby-socket
+Source: feeds/packages/lang/ruby
+SourceName: ruby-fileutils
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 12633
+Filename: ruby-fileutils_3.0.6-1_mipsel_24kc.ipk
+Size: 13545
+SHA256sum: 76aeb9dd1a032a6cb2f53910e611c6639f07091950e83693e965088771047500
+Description:  This package contains the ruby File utility methods for copying moving removing etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/fileutils.rb 
+ - /usr/lib/ruby/gems/3.0/gems/fileutils-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/fileutils-*.gemspec
+ 
+
+Package: ruby-find
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-find
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1715
+Filename: ruby-find_3.0.6-1_mipsel_24kc.ipk
+Size: 2600
+SHA256sum: edea4c6e0c0fe9ccdc054dda02810674ca9195470ac3ed1fe0004fc5a7b636ea
+Description:  This package contains the ruby top-down traversal of a set of file paths.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/find.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/find-*.gemspec
+ 
+
+Package: ruby-forwardable
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-forwardable
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3781
+Filename: ruby-forwardable_3.0.6-1_mipsel_24kc.ipk
+Size: 4652
+SHA256sum: ee43ae2bdf02fd341d707164c03d1ffded2a81a321c728319ff2cce878be2efe
+Description:  This package contains the ruby delegation of methods to a object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/forwardable.rb 
+ - /usr/lib/ruby/3.0/forwardable 
+ - /usr/lib/ruby/gems/3.0/specifications/default/forwardable-*.gemspec
+ 
+
+Package: ruby-gdbm
+Version: 3.0.6-1
+Depends: libc, ruby, libgdbm
+Source: feeds/packages/lang/ruby
+SourceName: ruby-gdbm
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 7503
+Filename: ruby-gdbm_3.0.6-1_mipsel_24kc.ipk
+Size: 8390
+SHA256sum: a1f2fbd6b03c978e8e4a7b0544820768a411e4ad40da90f58668618f6a9e7310
+Description:  This package contains the ruby Ruby extension for GNU dbm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/gdbm.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/gdbm-*.gemspec
+ 
+
+Package: ruby-gems
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-base64, ruby-cgi, ruby-json, ruby-net-http, ruby-open3, ruby-pathname, ruby-pp, ruby-rake, ruby-resolv, ruby-yaml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-gems
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 274978
+Filename: ruby-gems_3.0.6-1_mipsel_24kc.ipk
+Size: 275947
+SHA256sum: e693cd9e16166a785662c01484e963a7db34d0aa03fc13aa9669a8daba42a914
+Description:  This package contains the ruby gems packet management.
+ 
+
+Package: ruby-getoptlong
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-getoptlong
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5317
+Filename: ruby-getoptlong_3.0.6-1_mipsel_24kc.ipk
+Size: 6171
+SHA256sum: c097882622e3071b5f43f467695b5a76567ad934f1d0d0a1fda50190642507db
+Description:  This package contains the ruby implementation of getoptLong.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/getoptlong.rb 
+ - /usr/lib/ruby/3.0/getoptlong/ 
+ - /usr/lib/ruby/gems/3.0/gems/getoptlong-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/getoptlong-*.gemspec
+ 
+
+Package: ruby-io-console
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-io-console
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8794
+Filename: ruby-io-console_3.0.6-1_mipsel_24kc.ipk
+Size: 9679
+SHA256sum: 87df8d9089cee92fc680da7782d532fcfdc0548d2009c5909770c9b4968e9ff7
+Description:  This package contains the ruby Console interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/console.so 
+ - /usr/lib/ruby/3.0/io/console/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-console-*.gemspec
+ 
+
+Package: ruby-io-nonblock
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-io-nonblock
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2347
+Filename: ruby-io-nonblock_3.0.6-1_mipsel_24kc.ipk
+Size: 3212
+SHA256sum: 566740b149414e9e4d2bc63129dde5a5707131117d03c4a809ae85e23343178e
+Description:  This package contains the ruby Non-blocking mode with IO class.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/nonblock.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-nonblock-*.gemspec
+ 
+
+Package: ruby-io-wait
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-io-wait
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3173
+Filename: ruby-io-wait_3.0.6-1_mipsel_24kc.ipk
+Size: 4047
+SHA256sum: f8244f0bef6c88b88df6c0e6a40a0f97ac804135d9865dd20d7f76762f89b544
+Description:  This package contains the ruby Waits until IO is readable or writable without blocking.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/io/wait.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/io-wait-*.gemspec
+ 
+
+Package: ruby-ipaddr
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-socket
+Source: feeds/packages/lang/ruby
+SourceName: ruby-ipaddr
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5943
+Filename: ruby-ipaddr_3.0.6-1_mipsel_24kc.ipk
+Size: 6824
+SHA256sum: ad257b75ff8c52d05f729c354012e03bd056645e2b7b76a6bdd0c618a0d658e5
+Description:  This package contains the ruby Set of methods to manipulate an IP address.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ipaddr.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ipaddr-*.gemspec
+ 
+
+Package: ruby-irb
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-reline, ruby-ripper, ruby-tracer
+Source: feeds/packages/lang/ruby
+SourceName: ruby-irb
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 55129
+Filename: ruby-irb_3.0.6-1_mipsel_24kc.ipk
+Size: 55981
+SHA256sum: 677cc157e5c34bafd2bdfbfb2fff1a2a41b794a1e10ba35418281c1e083053fa
+Description:  This package contains the ruby (interactive shell).
+ 
+
+Package: ruby-json
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date, ruby-ostruct
+Source: feeds/packages/lang/ruby
+SourceName: ruby-json
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 31876
+Filename: ruby-json_3.0.6-1_mipsel_24kc.ipk
+Size: 32857
+SHA256sum: 8a1acd4925649a0560d7d86ef16af684f29d907e2ca08d29d32ccc3f3ae67330
+Description:  This package contains the ruby JSON Implementation for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/json.rb 
+ - /usr/lib/ruby/3.0/json 
+ - /usr/lib/ruby/3.0/*/json 
+ - /usr/lib/ruby/gems/3.0/specifications/default/json-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-logger
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor
+Source: feeds/packages/lang/ruby
+SourceName: ruby-logger
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8770
+Filename: ruby-logger_3.0.6-1_mipsel_24kc.ipk
+Size: 9670
+SHA256sum: cf0f1fdb6b93883b95d40958f49a9c78fe64e1065e38176ee830e569aca2d77e
+Description:  This package contains the ruby logger and syslog library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/logger.rb 
+ - /usr/lib/ruby/3.0/logger/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/logger-*.gemspec
+ 
+
+Package: ruby-matrix
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-matrix
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 22205
+Filename: ruby-matrix_3.0.6-1_mipsel_24kc.ipk
+Size: 23102
+SHA256sum: 39c486fd0fb58c5b1b0d9133a288ef8b5d191c59cc40029446fdfba36a1611df
+Description:  This package contains the ruby implementation of Matrix and Vector classes.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/matrix.rb 
+ - /usr/lib/ruby/3.0/matrix 
+ - /usr/lib/ruby/gems/3.0/specifications/default/matrix-*.gemspec
+ 
+
+Package: ruby-minitest
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-mutex_m
+Source: feeds/packages/lang/ruby
+SourceName: ruby-minitest
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 30610
+Filename: ruby-minitest_3.0.6-1_mipsel_24kc.ipk
+Size: 31497
+SHA256sum: 50f63a99bf7960ad83806018dac0ea0bc3027ec7771fc2ceab607480fbb11688
+Description:  This package contains the ruby Gem minitest.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/minitest-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/minitest-*/*.txt
+ 
+
+Package: ruby-mkmf
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-shellwords, ruby-tmpdir
+Source: feeds/packages/lang/ruby
+SourceName: ruby-mkmf
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 25396
+Filename: ruby-mkmf_3.0.6-1_mipsel_24kc.ipk
+Size: 26196
+SHA256sum: 2c390ddd8960cbdc412139669fc0e4cb7420ca25a87d124eaf7573605ee69e30
+Description:  This package contains the ruby makefile library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mkmf.rb
+ 
+
+Package: ruby-monitor
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-monitor
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5198
+Filename: ruby-monitor_3.0.6-1_mipsel_24kc.ipk
+Size: 6013
+SHA256sum: f53c702525a3fe9c64e48025b2bfebcf37e911a4e173aed8a7b3603de995e7eb
+Description:  This package contains the ruby Object or module methods are executed with mutual exclusion.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/monitor.rb 
+ - /usr/lib/ruby/3.0/*/monitor.so
+ 
+
+Package: ruby-mutex_m
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-mutex_m
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1623
+Filename: ruby-mutex_m_3.0.6-1_mipsel_24kc.ipk
+Size: 2473
+SHA256sum: acee51dc648e0908f1964dcb6e261ed4d95bc6125c0e84a7b6239f569b8bab9a
+Description:  This package contains the ruby extend objects to be handled like a Mutex.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/mutex_m.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/mutex_m-*.gemspec
+ 
+
+Package: ruby-net-ftp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-time
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-ftp
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 12076
+Filename: ruby-net-ftp_3.0.6-1_mipsel_24kc.ipk
+Size: 12951
+SHA256sum: 9000b21fc4c6316d3f7feaf259480d71ee5c025cf9d4ff522ca3e20a9bbfa8f3
+Description:  This package contains the ruby FTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/ftp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-ftp-*.gemspec
+ 
+
+Package: ruby-net-http
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-securerandom, ruby-tempfile, ruby-uri, ruby-zlib
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-http
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 29918
+Filename: ruby-net-http_3.0.6-1_mipsel_24kc.ipk
+Size: 30836
+SHA256sum: 14ad8a2ec997520d3d4ec61de16fdf06a2c499372cafdb0ca17554f85855ebe8
+Description:  This package contains the ruby HTTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/http.rb 
+ - /usr/lib/ruby/3.0/net/https.rb 
+ - /usr/lib/ruby/3.0/net/http/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-http-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-http-*.gemspec
+ 
+
+Package: ruby-net-imap
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-strscan
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-imap
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 26334
+Filename: ruby-net-imap_3.0.6-1_mipsel_24kc.ipk
+Size: 27221
+SHA256sum: 06a5ca41380214a262bfd3439b20e0884a3ea7b1fe5e8cdc5fcdb9806e1d7600
+Description:  This package contains the ruby IMAP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/imap.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-imap-*.gemspec
+ 
+
+Package: ruby-net-pop
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-pop
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 7772
+Filename: ruby-net-pop_3.0.6-1_mipsel_24kc.ipk
+Size: 8679
+SHA256sum: 1e1c31b494bbc980e7b3559b7771702d56f3a2d6a9e99c2d3cd0f9095e86a2cb
+Description:  This package contains the ruby POP3 lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/pop.rb 
+ - /usr/lib/ruby/3.0/net/pop/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-pop-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-pop-*.gemspec
+ 
+
+Package: ruby-net-protocol
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-socket, ruby-timeout
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-protocol
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 4006
+Filename: ruby-net-protocol_3.0.6-1_mipsel_24kc.ipk
+Size: 4896
+SHA256sum: b8d7219be511fbb68dc25956efe191fd779f2cc08650cd5edc84e21634483edf
+Description:  This package contains the ruby Abstract for net-* clients.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/protocol.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-protocol-*.gemspec
+ 
+
+Package: ruby-net-smtp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+Source: feeds/packages/lang/ruby
+SourceName: ruby-net-smtp
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 9696
+Filename: ruby-net-smtp_3.0.6-1_mipsel_24kc.ipk
+Size: 10550
+SHA256sum: e91998210186f2c06ca7198978febbf9fe7ebc1d16c34998f5987301c61e53ce
+Description:  This package contains the ruby SMTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/net/smtp.rb 
+ - /usr/lib/ruby/3.0/net/smtp/ 
+ - /usr/lib/ruby/gems/3.0/gems/net-smtp-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/net-smtp-*.gemspec
+ 
+
+Package: ruby-nkf
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-nkf
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 121949
+Filename: ruby-nkf_3.0.6-1_mipsel_24kc.ipk
+Size: 121370
+SHA256sum: 85b974ffbd535ce66e7d6e8248f8de29ec8196aeffea2bcf0fd2710854022123
+Description:  This package contains the ruby Network Kanji Filter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/kconv.rb 
+ - /usr/lib/ruby/3.0/*/nkf.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/nkf-*.gemspec
+ 
+
+Package: ruby-objspace
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-tempfile
+Source: feeds/packages/lang/ruby
+SourceName: ruby-objspace
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 14536
+Filename: ruby-objspace_3.0.6-1_mipsel_24kc.ipk
+Size: 15344
+SHA256sum: b12f0a323facb9b43f0c25d754f1f353b0646423ab371216def0f334add405d6
+Description:  This package contains the ruby Routines to interact with the garbage collection facility.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/objspace.rb 
+ - /usr/lib/ruby/3.0/*/objspace.so
+ 
+
+Package: ruby-observer
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-observer
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3021
+Filename: ruby-observer_3.0.6-1_mipsel_24kc.ipk
+Size: 3882
+SHA256sum: 5d83852f75d2228ddf972ca0fd9fe957d0c855fa9c9f7e4d97b8cb1eeca6a23c
+Description:  This package contains the ruby Observer design pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/observer.rb 
+ - /usr/lib/ruby/3.0/observer/ 
+ - /usr/lib/ruby/gems/3.0/gems/observer-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/observer-*.gemspec
+ 
+
+Package: ruby-open-uri
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-net-ftp, ruby-net-http
+Source: feeds/packages/lang/ruby
+SourceName: ruby-open-uri
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8521
+Filename: ruby-open-uri_3.0.6-1_mipsel_24kc.ipk
+Size: 9416
+SHA256sum: 9ff20ea473c1a7bf7048a53bdd6a180b93771b2918bfe97332d92d8caafa241c
+Description:  This package contains the ruby Wrapper for Net::HTTP Net::HTTPS and Net::.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open-uri.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open-uri-*.gemspec
+ 
+
+Package: ruby-open3
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-open3
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5520
+Filename: ruby-open3_3.0.6-1_mipsel_24kc.ipk
+Size: 6350
+SHA256sum: 73412ba8d504ab5d88694d6e9a34b0650e0a838fee617dbf42a4f1a84fef0f60
+Description:  This package contains the ruby popen with stderr.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/open3.rb 
+ - /usr/lib/ruby/3.0/open3/ 
+ - /usr/lib/ruby/gems/3.0/gems/open3-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/open3-*.gemspec
+ 
+
+Package: ruby-openssl
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-digest, ruby-enc, ruby-io-nonblock, ruby-ipaddr, ruby-stringio, libopenssl1.1
+Source: feeds/packages/lang/ruby
+SourceName: ruby-openssl
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 116205
+Filename: ruby-openssl_3.0.6-1_mipsel_24kc.ipk
+Size: 116727
+SHA256sum: ba706cce73fd3aa4f34214f7dcb24ecc3608e2f1fd7cc1fc2c71179c854bb390
+Description:  This package contains the ruby SSL TLS and general purpose cryptography.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/openssl 
+ - /usr/lib/ruby/3.0/openssl.rb 
+ - /usr/lib/ruby/3.0/*/openssl.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/openssl-*.gemspec
+ 
+
+Package: ruby-optparse
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-shellwords, ruby-time
+Source: feeds/packages/lang/ruby
+SourceName: ruby-optparse
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 19978
+Filename: ruby-optparse_3.0.6-1_mipsel_24kc.ipk
+Size: 20855
+SHA256sum: 55d13f7a4ffe0276b65ad62cb76bb3d7c00e03569ebc14bc06514956cb8fe065
+Description:  This package contains the ruby command-line option analysis.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/optparse.rb 
+ - /usr/lib/ruby/3.0/optionparser.rb 
+ - /usr/lib/ruby/3.0/optparse 
+ - /usr/lib/ruby/gems/3.0/specifications/default/optparse-*.gemspec
+ 
+
+Package: ruby-ostruct
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-ostruct
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5007
+Filename: ruby-ostruct_3.0.6-1_mipsel_24kc.ipk
+Size: 5835
+SHA256sum: ed574174d767f3ab6b024230f67ae9ae016e0e3e184437269595ac84e2d10365
+Description:  This package contains the ruby build custom data structures.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ostruct.rb 
+ - /usr/lib/ruby/3.0/ostruct/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/ostruct-*.gemspec
+ 
+
+Package: ruby-pathname
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils, ruby-find
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pathname
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 12565
+Filename: ruby-pathname_3.0.6-1_mipsel_24kc.ipk
+Size: 13428
+SHA256sum: 4dcce04487cef84e09c9459d7df8834064ac6ed627aca3bf2ecc6979f7e9f830
+Description:  This package contains the ruby Pathname lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pathname.rb 
+ - /usr/lib/ruby/3.0/*/pathname.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pathname-*.gemspec
+ 
+
+Package: ruby-powerassert
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-pp, ruby-ripper
+Source: feeds/packages/lang/ruby
+SourceName: ruby-powerassert
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 10468
+Filename: ruby-powerassert_3.0.6-1_mipsel_24kc.ipk
+Size: 11388
+SHA256sum: 4aa3f6979240d87ad926b2c128fd5a6569436fb484b63b01d43c50377f21863d
+Description:  This package contains the ruby Gem power_assert.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/power_assert-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.0/gems/power_assert-*/.travis.yml
+ 
+
+Package: ruby-pp
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-etc, ruby-prettyprint
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pp
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5385
+Filename: ruby-pp_3.0.6-1_mipsel_24kc.ipk
+Size: 6223
+SHA256sum: 3aeca1a91a072363bea71750536e6f3e74f1c6c251308bd7c75fe6a6ba4c9c14
+Description:  This package contains the ruby Pretty print objects.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pp.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pp-*.gemspec
+ 
+
+Package: ruby-prettyprint
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-prettyprint
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5456
+Filename: ruby-prettyprint_3.0.6-1_mipsel_24kc.ipk
+Size: 6280
+SHA256sum: 97b98af4e0eeac84ab604b359b3fb4d57e26a198d7e14afda665c098e5ddc5d6
+Description:  This package contains the ruby PrettyPrint library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prettyprint.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prettyprint-*.gemspec
+ 
+
+Package: ruby-prime
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-forwardable, ruby-singleton
+Source: feeds/packages/lang/ruby
+SourceName: ruby-prime
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5604
+Filename: ruby-prime_3.0.6-1_mipsel_24kc.ipk
+Size: 6455
+SHA256sum: 059a401472b810d333866d96384d0b1cf24b330de2d4ce915ea4fdf6502fde2e
+Description:  This package contains the ruby Prime numbers and factorization library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/prime.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/prime-*.gemspec
+ 
+
+Package: ruby-pstore
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-digest, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pstore
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5459
+Filename: ruby-pstore_3.0.6-1_mipsel_24kc.ipk
+Size: 6303
+SHA256sum: dd5d87b0071b7ab51d185ba340d3b584a9c02100906cbb77e9bbe77cae90470d
+Description:  This package contains the ruby file based persistence.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/pstore.rb 
+ - /usr/lib/ruby/3.0/pstore/ 
+ - /usr/lib/ruby/gems/3.0/gems/pstore-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/pstore-*.gemspec
+ 
+
+Package: ruby-psych
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-bigdecimal, ruby-date, ruby-enc, ruby-forwardable, ruby-stringio, ruby-strscan, libyaml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-psych
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 32344
+Filename: ruby-psych_3.0.6-1_mipsel_24kc.ipk
+Size: 33319
+SHA256sum: 66aaed1dbb8b0278104534f1664dbc680fb29bfbf3db77c72f9dfe61af24c570
+Description:  This package contains the ruby YAML parser and emitter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/psych 
+ - /usr/lib/ruby/3.0/psych.rb 
+ - /usr/lib/ruby/3.0/*/psych.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-pty
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-pty
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 4139
+Filename: ruby-pty_3.0.6-1_mipsel_24kc.ipk
+Size: 4960
+SHA256sum: f22efc68339f3b17baedcc25124d75e03e36f32fc3e1621a2d2df47f20bdc678
+Description:  This package contains the ruby Creates and manages pseudo terminals.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/pty.so
+ 
+
+Package: ruby-racc
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-forwardable, ruby-optparse, ruby-rbconfig, ruby-stringio
+Source: feeds/packages/lang/ruby
+SourceName: ruby-racc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 36795
+Filename: ruby-racc_3.0.6-1_mipsel_24kc.ipk
+Size: 37550
+SHA256sum: 652d737d0d0ff8a5fe72f3f81a3bb909412b9adc470161da1932c4afb8bd9d96
+Description:  This package contains the ruby LALR parser generator.
+ 
+
+Package: ruby-rake
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils, ruby-monitor, ruby-optparse, ruby-ostruct, ruby-set, ruby-singleton
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rake
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 42758
+Filename: ruby-rake_3.0.6-1_mipsel_24kc.ipk
+Size: 43683
+SHA256sum: 5cc0f2e9f7632068f43d718058f2a29eb3d2f5c0da2364dee17e8cf9532cacc3
+Description:  This package contains the ruby Rake (make replacement).
+ 
+
+Package: ruby-rbconfig
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rbconfig
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8486
+Filename: ruby-rbconfig_3.0.6-1_mipsel_24kc.ipk
+Size: 9345
+SHA256sum: ebe99ce8c6c631ac77327fffb0a4a4e388903853f7cb1498120ba637b0ad96be
+Description:  This package contains the ruby RbConfig.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/rbconfig.rb 
+ - /usr/lib/ruby/3.0/*/rbconfig/*.so
+ 
+
+Package: ruby-rbs
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-gems, ruby-logger, ruby-racc, ruby-ripper
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rbs
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 520088
+Filename: ruby-rbs_3.0.6-1_mipsel_24kc.ipk
+Size: 520841
+SHA256sum: aa7dd12752b070fd245b4a77af5a21d39f05a982194ef3aa3057796bd3023e05
+Description:  This package contains the ruby RBS provides syntax and semantics definition for the Ruby Signature language.
+ 
+
+Package: ruby-rdoc
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-abbrev, ruby-did-you-mean, ruby-erb, ruby-racc, ruby-ripper
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rdoc
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 520774
+Filename: ruby-rdoc_3.0.6-1_mipsel_24kc.ipk
+Size: 486448
+SHA256sum: eba41b431baf3d61955cbd4ec19f925c620308634bd95ff11dfc66ec320bf0dc
+Description:  This package contains the ruby RDoc produces HTML and command-line documentation for Ruby projects.
+ 
+
+Package: ruby-readline-ext
+Version: 3.0.6-1
+Depends: libc, ruby, libncurses6, libreadline8
+Source: feeds/packages/lang/ruby
+SourceName: ruby-readline-ext
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 9984
+Filename: ruby-readline-ext_3.0.6-1_mipsel_24kc.ipk
+Size: 10881
+SHA256sum: 4a455bf86f3557aeb963fecd2762081b915168937ca5a0e56aff0f9994a4c097
+Description:  This package contains the ruby support for native GNU readline.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/readline.so 
+ - /usr/lib/ruby/gems/3.0/gems/readline-ext-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-ext-*.gemspec
+ 
+
+Package: ruby-readline
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-reline
+Source: feeds/packages/lang/ruby
+SourceName: ruby-readline
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1090
+Filename: ruby-readline_3.0.6-1_mipsel_24kc.ipk
+Size: 1959
+SHA256sum: cf8b0e9bc08e38ece370863f3675f5289cf2354cc4503c665cdb6e0798439097
+Description:  This package contains the ruby loads readline-ext(native) or reline(ruby).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/readline.rb 
+ - /usr/lib/ruby/gems/3.0/gems/readline-0* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/readline-0*.gemspec
+ 
+
+Package: ruby-reline
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fiddle, ruby-forwardable, ruby-io-console, ruby-tempfile, ruby-timeout
+Source: feeds/packages/lang/ruby
+SourceName: ruby-reline
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 41082
+Filename: ruby-reline_3.0.6-1_mipsel_24kc.ipk
+Size: 41992
+SHA256sum: 884d53e448f6cfd54b4f76d2557c60455531271457161556f9a9cb3b70c6a01d
+Description:  This package contains the ruby alternative to readline-ext in pure ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/reline.rb 
+ - /usr/lib/ruby/3.0/reline 
+ - /usr/lib/ruby/gems/3.0/gems/reline-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/reline-*.gemspec
+ 
+
+Package: ruby-resolv-replace
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-resolv
+Source: feeds/packages/lang/ruby
+SourceName: ruby-resolv-replace
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1256
+Filename: ruby-resolv-replace_3.0.6-1_mipsel_24kc.ipk
+Size: 2136
+SHA256sum: 05343894af1fd88f78b5c5033a67179fc5f6a2c6c7b48b1e1f3e0d1d7426baac
+Description:  This package contains the ruby Replace Socket DNS with Resolv.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv-replace.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-resolv
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-securerandom, ruby-timeout
+Source: feeds/packages/lang/ruby
+SourceName: ruby-resolv
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 17352
+Filename: ruby-resolv_3.0.6-1_mipsel_24kc.ipk
+Size: 18253
+SHA256sum: e623c9da4afd0b9b9b1de6c07975c3016ffcddc1b79ca9456d75caf3a7302e7f
+Description:  This package contains the ruby DNS resolver library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/resolv.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-rexml
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-forwardable, ruby-pp, ruby-set, ruby-stringio, ruby-strscan
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rexml
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 78283
+Filename: ruby-rexml_3.0.6-1_mipsel_24kc.ipk
+Size: 79369
+SHA256sum: 5c814286d570bb715711b12aaa0e089e932f2d6ca051285cbab90401af412f29
+Description:  This package contains the ruby XML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rexml 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rexml-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rexml-*/.travis.yml
+ 
+
+Package: ruby-rinda
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-drb, ruby-forwardable
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rinda
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 9982
+Filename: ruby-rinda_3.0.6-1_mipsel_24kc.ipk
+Size: 10852
+SHA256sum: 9d65905bf6d4828e7bce89b1e9c12fc2fe15dc8c6e25ef01c1d1068559c1f6ed
+Description:  This package contains the ruby Linda paradigm implementation.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rinda 
+ - /usr/lib/ruby/gems/3.0/specifications/default/rinda-*.gemspec
+ 
+
+Package: ruby-ripper
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-ripper
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 68398
+Filename: ruby-ripper_3.0.6-1_mipsel_24kc.ipk
+Size: 69156
+SHA256sum: 53f7452aaa2ac7e56ab39703ad82882f4ef04d9734eb78128cc540ad961221c3
+Description:  This package contains the ruby script parser.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/ripper.rb 
+ - /usr/lib/ruby/3.0/ripper 
+ - /usr/lib/ruby/3.0/*/ripper.so
+ 
+
+Package: ruby-rss
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-english, ruby-nkf, ruby-open-uri, ruby-rexml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-rss
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 48968
+Filename: ruby-rss_3.0.6-1_mipsel_24kc.ipk
+Size: 49976
+SHA256sum: 27112c014a7fd25bae16818756b2d30054643742e79a75e39cf362ea208f0471
+Description:  This package contains the ruby RSS toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/rss 
+ - /usr/lib/ruby/3.0/rss.rb 
+ - /usr/lib/ruby/gems/3.0/gems/rss-* 
+ - /usr/lib/ruby/gems/3.0/specifications/rss-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.md 
+ - /usr/lib/ruby/gems/3.0/gems/rss-*/*.txt
+ 
+
+Package: ruby-securerandom
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-openssl
+Source: feeds/packages/lang/ruby
+SourceName: ruby-securerandom
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3491
+Filename: ruby-securerandom_3.0.6-1_mipsel_24kc.ipk
+Size: 4358
+SHA256sum: 7e5b7b408b4fce73f568324546a62a6e7386fdfdc76c31984faeae0af68a9cf7
+Description:  This package contains the ruby Secure random number generators.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/securerandom.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/securerandom-*.gemspec
+ 
+
+Package: ruby-set
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-tsort
+Source: feeds/packages/lang/ruby
+SourceName: ruby-set
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 6350
+Filename: ruby-set_3.0.6-1_mipsel_24kc.ipk
+Size: 7257
+SHA256sum: 9e4c90cdb57fcf0a3318aa5de683ff5c5235d0a7a246543baf66e66f6ff4358c
+Description:  This package contains the ruby Set collection.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/set.rb 
+ - /usr/lib/ruby/3.0/set/*.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/set-*.gemspec
+ 
+
+Package: ruby-shellwords
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-shellwords
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3478
+Filename: ruby-shellwords_3.0.6-1_mipsel_24kc.ipk
+Size: 4347
+SHA256sum: c90bcde095fb1800b38f1690757d6eb630cf58ff43d0893a9a8d83763e673e57
+Description:  This package contains the ruby Manipulate strings as Bourne Shell.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/shellwords.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/shellwords-*.gemspec
+ 
+
+Package: ruby-singleton
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-singleton
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2156
+Filename: ruby-singleton_3.0.6-1_mipsel_24kc.ipk
+Size: 3015
+SHA256sum: bb3e947022aaf7b54496c5c3a9a5ca08ccfae287a7d247dca05089f344ae09a9
+Description:  This package contains the ruby Singleton pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/singleton.rb 
+ - /usr/lib/ruby/3.0/singleton/ 
+ - /usr/lib/ruby/gems/3.0/gems/singleton-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/singleton-*.gemspec
+ 
+
+Package: ruby-socket
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-io-wait
+Source: feeds/packages/lang/ruby
+SourceName: ruby-socket
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 62110
+Filename: ruby-socket_3.0.6-1_mipsel_24kc.ipk
+Size: 62972
+SHA256sum: a4877d9204d6d46229e26dd9373c74b29d6a2c121ec54b434f12686bd0d7f37a
+Description:  This package contains the ruby socket support.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/socket.rb 
+ - /usr/lib/ruby/3.0/*/socket.so
+ 
+
+Package: ruby-stdlib
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-abbrev, ruby-base64, ruby-benchmark, ruby-bigdecimal, ruby-bundler, ruby-cgi, ruby-continuation, ruby-coverage, ruby-csv, ruby-date, ruby-dbm, ruby-debug, ruby-delegate, ruby-did-you-mean, ruby-digest, ruby-drb, ruby-enc, ruby-enc-extra, ruby-english, ruby-erb, ruby-etc, ruby-expect, ruby-fcntl, ruby-fiber, ruby-fiddle, ruby-fileutils, ruby-find, ruby-forwardable, ruby-gdbm, ruby-gems, ruby-getoptlong, ruby-io-console, ruby-io-nonblock, ruby-io-wait, ruby-ipaddr, ruby-irb, ruby-json, ruby-logger, ruby-matrix, ruby-minitest, ruby-mkmf, ruby-monitor, ruby-mutex_m, ruby-net-ftp, ruby-net-http, ruby-net-imap, ruby-net-pop, ruby-net-protocol, ruby-net-smtp, ruby-nkf, ruby-objspace, ruby-observer, ruby-open-uri, ruby-open3, ruby-openssl, ruby-optparse, ruby-ostruct, ruby-pathname, ruby-powerassert, ruby-pp, ruby-prettyprint, ruby-prime, ruby-pstore, ruby-psych, ruby-pty, ruby-racc, ruby-rake, ruby-rbconfig, ruby-rbs, ruby-rdoc, ruby-readline-ext, ruby-readline, ruby-reline, ruby-resolv, ruby-resolv-replace, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-securerandom, ruby-set, ruby-shellwords, ruby-singleton, ruby-socket, ruby-stringio, ruby-strscan, ruby-syslog, ruby-tempfile, ruby-testunit, ruby-time, ruby-timeout, ruby-tmpdir, ruby-tracer, ruby-tsort, ruby-typeprof, ruby-unicodenormalize, ruby-un, ruby-uri, ruby-weakref, ruby-yaml, ruby-zlib
+Source: feeds/packages/lang/ruby
+SourceName: ruby-stdlib
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 95
+Filename: ruby-stdlib_3.0.6-1_mipsel_24kc.ipk
+Size: 1425
+SHA256sum: 7032861c2a3e05148548543b94a8ac94330bc312b17f0ced0291a9483d883cea
+Description:  This metapackage currently install all ruby-* packages,
+ providing a complete Ruby Standard Library.
+ 
+
+Package: ruby-stringio
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-stringio
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 11156
+Filename: ruby-stringio_3.0.6-1_mipsel_24kc.ipk
+Size: 12027
+SHA256sum: 00a86df4e9a8ffdea6bdcb19efb7ace7c43b353579b9fd5db8887fdf34995775
+Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/stringio.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/stringio-*.gemspec
+ 
+
+Package: ruby-strscan
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-strscan
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 7963
+Filename: ruby-strscan_3.0.6-1_mipsel_24kc.ipk
+Size: 8847
+SHA256sum: 2eeb9c57c376878e5e8308e05b6ce9928566d31dcda1d270a9f337d03152cffd
+Description:  This package contains the ruby Lexical scanning operations on a String.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/strscan.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/strscan-*.gemspec
+ 
+
+Package: ruby-syslog
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-logger
+Source: feeds/packages/lang/ruby
+SourceName: ruby-syslog
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 7021
+Filename: ruby-syslog_3.0.6-1_mipsel_24kc.ipk
+Size: 7925
+SHA256sum: ca368ea1e3acf33d5f0ea42514a3810c2cffaa2f3219c5a4dea05809b55a8b27
+Description:  This package contains the ruby Syslog Lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/syslog.so 
+ - /usr/lib/ruby/3.0/syslog/logger.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/syslog-*.gemspec
+ 
+
+Package: ruby-tempfile
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-delegate, ruby-tmpdir
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tempfile
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 5061
+Filename: ruby-tempfile_3.0.6-1_mipsel_24kc.ipk
+Size: 5939
+SHA256sum: 65a2f6ed98812a0cd7361ea7939aaf8d7c9c22fe251aa2cf84664816c6ec4255
+Description:  This package contains the ruby Manages temporary files.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tempfile.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tempfile-*.gemspec
+ 
+
+Package: ruby-testunit
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-csv, ruby-erb, ruby-powerassert, ruby-rexml
+Source: feeds/packages/lang/ruby
+SourceName: ruby-testunit
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 70758
+Filename: ruby-testunit_3.0.6-1_mipsel_24kc.ipk
+Size: 71750
+SHA256sum: e3a976c7302c0ef7958c79ef84830c67ceb8081ff2136e117b733641fd385910
+Description:  This package contains the ruby Gem test-unit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.0/specifications/test-unit-*.gemspec 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/doc 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/test 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/sample 
+ - /usr/lib/ruby/gems/3.0/gems/test-unit-*/*.md
+ 
+
+Package: ruby-time
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-date
+Source: feeds/packages/lang/ruby
+SourceName: ruby-time
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 8118
+Filename: ruby-time_3.0.6-1_mipsel_24kc.ipk
+Size: 9022
+SHA256sum: ff7050aec9cd87d9d36ffa2ab99b195960e503863cc7cfc9bf0be54f616156bd
+Description:  This package contains the ruby Extends Time with additional methods for parsing and converting Times.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/time.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/time-*.gemspec
+ 
+
+Package: ruby-timeout
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-timeout
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2561
+Filename: ruby-timeout_3.0.6-1_mipsel_24kc.ipk
+Size: 3431
+SHA256sum: 0b7c746dc1465f8b33fb2a656520dcf7495235dacb010ee5ac322a9ade4a1d3e
+Description:  This package contains the ruby Auto-terminate potentially long-running operations.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/timeout.rb 
+ - /usr/lib/ruby/3.0/timeout/ 
+ - /usr/lib/ruby/gems/3.0/gems/timeout-* 
+ - /usr/lib/ruby/gems/3.0/specifications/default/timeout-*.gemspec
+ 
+
+Package: ruby-tmpdir
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-fileutils
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tmpdir
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2476
+Filename: ruby-tmpdir_3.0.6-1_mipsel_24kc.ipk
+Size: 3315
+SHA256sum: 71db72a93a6856b468c8a51b78a52350d6470beadea1b198a9cbbfd2c8328a32
+Description:  This package contains the ruby Get temp dir path.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tmpdir.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tmpdir-*.gemspec
+ 
+
+Package: ruby-tracer
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tracer
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2947
+Filename: ruby-tracer_3.0.6-1_mipsel_24kc.ipk
+Size: 3817
+SHA256sum: 2ae413ea20a506577c2a285cb90e648edf78bcef8f2a747088c59b4dc1f85473
+Description:  This package contains the ruby Outputs a source level execution trace of a Ruby program.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tracer.rb 
+ - /usr/lib/ruby/3.0/tracer/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tracer-*.gemspec
+ 
+
+Package: ruby-tsort
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-tsort
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3665
+Filename: ruby-tsort_3.0.6-1_mipsel_24kc.ipk
+Size: 4514
+SHA256sum: 5a25bd0a373302a4b59b1f66860c20c6b384bf02844d0ef3d7b9276713e5b294
+Description:  This package contains the ruby Topological sorting using Tarjan s algorithm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/tsort.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/tsort-*.gemspec
+ 
+
+Package: ruby-typeprof
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-coverage, ruby-rbs
+Source: feeds/packages/lang/ruby
+SourceName: ruby-typeprof
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 85658
+Filename: ruby-typeprof_3.0.6-1_mipsel_24kc.ipk
+Size: 86346
+SHA256sum: 92c5eab37331ca92d5c465a5e3686c88335c4bc4ea55e5de2779a1ece738f5f5
+Description:  This package contains the ruby A type analysis tool for Ruby code based on abstract interpretation.
+ 
+
+Package: ruby-un
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-mkmf, ruby-optparse
+Source: feeds/packages/lang/ruby
+SourceName: ruby-un
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 3944
+Filename: ruby-un_3.0.6-1_mipsel_24kc.ipk
+Size: 4837
+SHA256sum: 74544e35d0bb2111d5b8a7d94b0f2d608ec3c859307fafdeb4d282ba46ad64f6
+Description:  This package contains the ruby Utilities to replace common UNIX commands in Makefiles.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/un.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/un-*.gemspec
+ 
+
+Package: ruby-unicodenormalize
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc, ruby-enc-extra
+Source: feeds/packages/lang/ruby
+SourceName: ruby-unicodenormalize
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 44924
+Filename: ruby-unicodenormalize_3.0.6-1_mipsel_24kc.ipk
+Size: 43253
+SHA256sum: 0966a4c186fbb3ba8ea00d74c0fe0fcbf9ffebffd45d8c8881a0c5eaa3b40f48
+Description:  This package contains the ruby String additions for Unicode normalization.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/unicode_normalize
+ 
+
+Package: ruby-uri
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-enc
+Source: feeds/packages/lang/ruby
+SourceName: ruby-uri
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 28368
+Filename: ruby-uri_3.0.6-1_mipsel_24kc.ipk
+Size: 29266
+SHA256sum: d388396cba258036459028e8b94fcbdf3ecc6ca44111b3e8294619c0e2498839
+Description:  This package contains the ruby library to handle URI.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/uri.rb 
+ - /usr/lib/ruby/3.0/uri 
+ - /usr/lib/ruby/gems/3.0/gems/uri-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/uri-*.gemspec
+ 
+
+Package: ruby-weakref
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-delegate
+Source: feeds/packages/lang/ruby
+SourceName: ruby-weakref
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1414
+Filename: ruby-weakref_3.0.6-1_mipsel_24kc.ipk
+Size: 2304
+SHA256sum: 739bcd8cb8f9d839745dea0d25880c7bb09797c074afaed730ea537a39242d59
+Description:  This package contains the ruby Weak reference to be garbage collected.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/weakref.rb 
+ - /usr/lib/ruby/gems/3.0/specifications/default/weakref-*.gemspec
+ 
+
+Package: ruby-yaml
+Version: 3.0.6-1
+Depends: libc, ruby, ruby-dbm, ruby-pstore, ruby-psych
+Source: feeds/packages/lang/ruby
+SourceName: ruby-yaml
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 4346
+Filename: ruby-yaml_3.0.6-1_mipsel_24kc.ipk
+Size: 5199
+SHA256sum: 04bc1013aebf0837222fbefcd02367674e5154fd1abaa1eca1157d3bccbb40db
+Description:  This package contains the ruby YAML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/yaml 
+ - /usr/lib/ruby/3.0/yaml.rb 
+ - /usr/lib/ruby/gems/3.0/gems/yaml-*/ 
+ - /usr/lib/ruby/gems/3.0/specifications/default/yaml-*.gemspec
+ 
+
+Package: ruby-zlib
+Version: 3.0.6-1
+Depends: libc, ruby
+Source: feeds/packages/lang/ruby
+SourceName: ruby-zlib
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 20671
+Filename: ruby-zlib_3.0.6-1_mipsel_24kc.ipk
+Size: 21478
+SHA256sum: 3990e014f22c9cb689279633937f135987d8a1f63ad292ad9293797189877759
+Description:  This package contains the ruby compression/decompression library interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.0/*/zlib.so 
+ - /usr/lib/ruby/gems/3.0/specifications/default/zlib-*.gemspec
+ 
+
+Package: ruby
+Version: 3.0.6-1
+Depends: libc, libruby3.0
+Source: feeds/packages/lang/ruby
+SourceName: ruby
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: lang
+SourceDateEpoch: 1681589578
+CPE-ID: cpe:/a:ruby-lang:ruby
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1862
+Filename: ruby_3.0.6-1_mipsel_24kc.ipk
+Size: 2767
+SHA256sum: e4c8714c6980b83c9ff09d8221b9963cb4f55db6adafe2c4c1b606bbf674d1b4
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-7
+Depends: libc
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 2876
+Filename: shadowsocks-libev-config_3.3.5-7_mipsel_24kc.ipk
+Size: 3668
+SHA256sum: 14e75f8fbb28b316cb19bf28e3af522792381c2e8731fa5565692273e8085e43
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 46468
+Filename: shadowsocks-libev-ss-local_3.3.5-7_mipsel_24kc.ipk
+Size: 46714
+SHA256sum: 100860fc9e5b3c85fd9dc28a7c08ac9b4f186fecf7a54076a35a1731f44179d1
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 41659
+Filename: shadowsocks-libev-ss-redir_3.3.5-7_mipsel_24kc.ipk
+Size: 42380
+SHA256sum: 530dfafe292e9babf97a20041d9901d6444693ef9fa73e87f0bc25dc915e1565
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-7
+Depends: libc, firewall4, ip, resolveip, ucode, ucode-mod-fs, shadowsocks-libev-ss-redir, shadowsocks-libev-config, kmod-nft-tproxy
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1869
+Filename: shadowsocks-libev-ss-rules_3.3.5-7_mipsel_24kc.ipk
+Size: 2660
+SHA256sum: 1f752010fa3e5810f7b91fb59d46855a0b3217b8a325c2e77e33f2fff1c5f11d
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 50830
+Filename: shadowsocks-libev-ss-server_3.3.5-7_mipsel_24kc.ipk
+Size: 51693
+SHA256sum: 676c12781b67a0ac867c5078981c93742b500ea2baef300c0eafdbb2d8fcd92d
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-7
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1660185912
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 39972
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-7_mipsel_24kc.ipk
+Size: 40771
+SHA256sum: 2d53bef2afc4840b8f831bd4da946c1dd290bde1ab40f47252915bde5a0549e3
+Description:  shadowsocks-libev ss-tunnel
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1613865735
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 100985
+Filename: unzip_6.0-8_mipsel_24kc.ipk
+Size: 101991
+SHA256sum: 0424f742b376899330d55fd26c07598b552fc4c5a29202bb1eae21e1c8937838
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
 

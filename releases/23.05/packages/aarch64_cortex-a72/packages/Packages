@@ -1,1 +1,3967 @@
+Package: acl
+Version: 2.3.1-2
+Depends: libc, libacl
+License: LGPL-2.1 GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24059
+Filename: acl_2.3.1-2_aarch64_cortex-a72.ipk
+Size: 24258
+SHA256sum: a773a821eaca7834bf598d2558bf5d5d0e43167f51024024c12a36451999e45d
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+License: GPL-2.0-or-later
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 15132
+Filename: attr_2.5.1-1_aarch64_cortex-a72.ipk
+Size: 15404
+SHA256sum: dde3ad93768f197de0573da107bbea6bd44eef8ee7736da0c3d596480f766fb1
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bash
+Version: 5.2.15-1
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Architecture: aarch64_cortex-a72
+Installed-Size: 479114
+Filename: bash_5.2.15-1_aarch64_cortex-a72.ipk
+Size: 479542
+SHA256sum: a7d60648550495b057f8bd9a5cacd7d68ff6d98cf3658040bf2bd42f4fd97acd
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20230523, libubus20230605
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 9684
+Filename: cgi-io_2022-08-10-901b0f04-21_aarch64_cortex-a72.ipk
+Size: 10341
+SHA256sum: c93607b5388fa079f60f9054f482db7125e59ddb7d16f549699c16bdcb36b7d6
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 30838
+Filename: coreutils-b2sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 31558
+SHA256sum: 9b60e5a623f2200dc297fa6f999cacda7c94ad7f4d6fead34df6029eb08530cf
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24836
+Filename: coreutils-base32_9.3-1_aarch64_cortex-a72.ipk
+Size: 25489
+SHA256sum: 484a5c767c9458a973a085f1b59c8ae0f22bd549ba9c8132db6969fc672fee04
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24796
+Filename: coreutils-base64_9.3-1_aarch64_cortex-a72.ipk
+Size: 25460
+SHA256sum: afa6acc21fed387d4dc3718320ed38becc4a0f569c871691779e3030c6ad0b6f
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22251
+Filename: coreutils-basename_9.3-1_aarch64_cortex-a72.ipk
+Size: 22932
+SHA256sum: 94127a6aee7ad9203c585fcdd88816e8e525579f1f0b334f7a2ec06ffd2caf2b
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28330
+Filename: coreutils-basenc_9.3-1_aarch64_cortex-a72.ipk
+Size: 29058
+SHA256sum: 79497d58c2e3af8d3a55480717ea258a1db6ee5cc30400c6c08458f616acdde0
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24272
+Filename: coreutils-cat_9.3-1_aarch64_cortex-a72.ipk
+Size: 24938
+SHA256sum: 02952b6ce59ea21eb8f32882522571491ec409ea0cb9a7387c4f97f4c490dcf7
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 34810
+Filename: coreutils-chcon_9.3-1_aarch64_cortex-a72.ipk
+Size: 35279
+SHA256sum: 30f218e4e59fc1c126c0a15f87fa6208885c0ce7111fd786e66c55de73bb4f36
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 37014
+Filename: coreutils-chgrp_9.3-1_aarch64_cortex-a72.ipk
+Size: 37478
+SHA256sum: c82467ae36482f0d87008da1b64961d5d3bae21831dd3cd5c6373c18633fe5a5
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 34069
+Filename: coreutils-chmod_9.3-1_aarch64_cortex-a72.ipk
+Size: 34553
+SHA256sum: eef8f9d4ead658dead3c8a5cecf9d9bac3210c9e7607d6e7efd3c04bed79593d
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 38093
+Filename: coreutils-chown_9.3-1_aarch64_cortex-a72.ipk
+Size: 38594
+SHA256sum: c160e4adae936cfd725b172b9adfd00100fff09b40899e67906967568d4d5cbc
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 30297
+Filename: coreutils-chroot_9.3-1_aarch64_cortex-a72.ipk
+Size: 31033
+SHA256sum: 84e0e00c88aabe08488871f3354665a5f2a44be6f913fdaaae6a2e57e61b3deb
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 73063
+Filename: coreutils-cksum_9.3-1_aarch64_cortex-a72.ipk
+Size: 73784
+SHA256sum: 8941a0c1c5ffea16fb2efc0809c34460ed42ec28a2975820d75bd4f5dd2bfdbf
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24874
+Filename: coreutils-comm_9.3-1_aarch64_cortex-a72.ipk
+Size: 25554
+SHA256sum: 13a29eda97725a37310e05ad74bf2b94134b3fdcabc93fe1724e22146916b860
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 9.3-1
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 55968
+Filename: coreutils-cp_9.3-1_aarch64_cortex-a72.ipk
+Size: 56630
+SHA256sum: 82d2adb09b3ebe8e36732fae7914d70ad05e460144172e73d5afed6169757be8
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 57719
+Filename: coreutils-csplit_9.3-1_aarch64_cortex-a72.ipk
+Size: 58446
+SHA256sum: 3fe9aee849cb6c6761be14463d093dc6426a2ac1c0c718669beb1f92253f1b57
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25965
+Filename: coreutils-cut_9.3-1_aarch64_cortex-a72.ipk
+Size: 26656
+SHA256sum: c60f9dbafe0995fd406bf48d7a9bea88cc7c63d025580cf833e2b00a3d7d9495
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 46612
+Filename: coreutils-date_9.3-1_aarch64_cortex-a72.ipk
+Size: 47149
+SHA256sum: a062e714edff2ca0584cb5223bcb47c09f62d7995c615505ea53315306c7546c
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 36590
+Filename: coreutils-dd_9.3-1_aarch64_cortex-a72.ipk
+Size: 37009
+SHA256sum: d364fb4cc08fa636aa99b12317340365f1a5c6efbb2b6e68188faa7a3f11ebe3
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 43283
+Filename: coreutils-df_9.3-1_aarch64_cortex-a72.ipk
+Size: 43753
+SHA256sum: fa03aac650c60361adf2b4d26006140330e3067d59b0075aed6cf052319683eb
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 9.3-1
+Depends: libc, coreutils, libacl, libcap
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 68839
+Filename: coreutils-dir_9.3-1_aarch64_cortex-a72.ipk
+Size: 69379
+SHA256sum: a1d5af972adba7e5f9fe629da409e036d26390bf20ceba76a707684aa49bc8c4
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 33674
+Filename: coreutils-dircolors_9.3-1_aarch64_cortex-a72.ipk
+Size: 34119
+SHA256sum: b567de143d8c6af075219b26c6122d5e7d751fb9e9be21a2ca200046eb455121
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21956
+Filename: coreutils-dirname_9.3-1_aarch64_cortex-a72.ipk
+Size: 22629
+SHA256sum: 87e47cf2e2bdba821ef119d2e295d91425b3705d79edd72b9888a682ab359077
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 85701
+Filename: coreutils-du_9.3-1_aarch64_cortex-a72.ipk
+Size: 86293
+SHA256sum: 8e6738878f1bac0d998503a819db207c2504a1f6d3d8c7954e3cce917c71ccf0
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 20561
+Filename: coreutils-echo_9.3-1_aarch64_cortex-a72.ipk
+Size: 21231
+SHA256sum: 92a7e9a5884c19aff58d9b4e2d59a2b96b82faca01f6b74ebc016fe69b9cc4c3
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 27383
+Filename: coreutils-env_9.3-1_aarch64_cortex-a72.ipk
+Size: 28124
+SHA256sum: 3d4d74fecc0cc7a61c616ed0a2d2ff2bb798f94c731f357d085b45cbabd438df
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23640
+Filename: coreutils-expand_9.3-1_aarch64_cortex-a72.ipk
+Size: 24323
+SHA256sum: eb175d0e6713fcc07c7fa8f63350f4881fcbf9eb6045633e2fce42dd03a24695
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 9.3-1
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 56615
+Filename: coreutils-expr_9.3-1_aarch64_cortex-a72.ipk
+Size: 57307
+SHA256sum: 499b2f983dbb88660e2dbb76b2add78440f6af55a58482f15bd6cf789253d7f1
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 9.3-1
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 43540
+Filename: coreutils-factor_9.3-1_aarch64_cortex-a72.ipk
+Size: 44011
+SHA256sum: 34a7f720007bc34e6c421b82138104c3108bb5b6280c7f00ff7ebbc0399994b4
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 19393
+Filename: coreutils-false_9.3-1_aarch64_cortex-a72.ipk
+Size: 20043
+SHA256sum: 9847e29ee67301ff552107ba23eac970eb9526eca27a8e116fe6b65f8779070b
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25987
+Filename: coreutils-fmt_9.3-1_aarch64_cortex-a72.ipk
+Size: 26621
+SHA256sum: 2b96515525556c68ee6af3e2d26f84394719f0230161ee40f344f443e3686357
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23347
+Filename: coreutils-fold_9.3-1_aarch64_cortex-a72.ipk
+Size: 24019
+SHA256sum: fb2dfb6e261d85dd1b72534e41241002b4732d1a26ee9ec00003d670c4e789de
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22690
+Filename: coreutils-groups_9.3-1_aarch64_cortex-a72.ipk
+Size: 23360
+SHA256sum: c950b9d18b468d0e299379ec85400c6d1382872e887aba32bc179f6b10e26706
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 26421
+Filename: coreutils-head_9.3-1_aarch64_cortex-a72.ipk
+Size: 27107
+SHA256sum: aca0a5d2f8bfc357877e629403d365ce6bd2afa9cff35329a215ebbdddce06bf
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21640
+Filename: coreutils-hostid_9.3-1_aarch64_cortex-a72.ipk
+Size: 22312
+SHA256sum: 653e602fc75fedfece95787628691fdbab1402caddbd30615cb7cd107bd78615
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25262
+Filename: coreutils-id_9.3-1_aarch64_cortex-a72.ipk
+Size: 25940
+SHA256sum: e621a0894b012534136e164b9aa35f5b2789b6e4fbbdfe6f05521393e887d6df
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 9.3-1
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 57851
+Filename: coreutils-install_9.3-1_aarch64_cortex-a72.ipk
+Size: 58648
+SHA256sum: 641ac0640a5b3f9fdf7c55119258640aba36c24131e102e43c0b30f9e70954ba
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28395
+Filename: coreutils-join_9.3-1_aarch64_cortex-a72.ipk
+Size: 29094
+SHA256sum: 28f0a4d96e54308327e78f80bfdb51426c6f01a4faa5e57e450574435c681cc2
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23796
+Filename: coreutils-kill_9.3-1_aarch64_cortex-a72.ipk
+Size: 24465
+SHA256sum: 8925f33e32d771a760240009b7fcedcdc3b70a1d1619c12c203a31252e95e723
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21786
+Filename: coreutils-link_9.3-1_aarch64_cortex-a72.ipk
+Size: 22440
+SHA256sum: 07ada53c681e491ecf3c7c645665ed1e679c70caaf89189fadc12f77d6b75ddb
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 36334
+Filename: coreutils-ln_9.3-1_aarch64_cortex-a72.ipk
+Size: 36795
+SHA256sum: ea49a73cc029d08f3c9167dd3a9d9447b6fa6d47e45d2b7082bb94c19593446c
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21643
+Filename: coreutils-logname_9.3-1_aarch64_cortex-a72.ipk
+Size: 22320
+SHA256sum: e44f1baaeeebd2439e53433c0d54a7f915675bb912ff140bcfa63a43f566da1f
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 9.3-1
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 68846
+Filename: coreutils-ls_9.3-1_aarch64_cortex-a72.ipk
+Size: 69492
+SHA256sum: d509b578bcbcafbf639e0c165024ed2fe5020c3fd8f338aac693b3a349abf317
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28763
+Filename: coreutils-md5sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 29534
+SHA256sum: 25374e3c951e9674321c22d3c90937bae267f97d4293a5ce5962182c831406d4
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25735
+Filename: coreutils-mkdir_9.3-1_aarch64_cortex-a72.ipk
+Size: 26411
+SHA256sum: 5681aeec2f02bca5f16e53f05c0bb1dba986156c7c61893e803c3a07394d2223
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22784
+Filename: coreutils-mkfifo_9.3-1_aarch64_cortex-a72.ipk
+Size: 23455
+SHA256sum: e6974055f5b8484280931c5a1bebf6d886e991dd7f4898c85fa5952a73fd9d4e
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24121
+Filename: coreutils-mknod_9.3-1_aarch64_cortex-a72.ipk
+Size: 24786
+SHA256sum: 40c34a9ad2a864f370886d236119ee8df18b844b98ddc8bd315c2546cf4ad68b
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23898
+Filename: coreutils-mktemp_9.3-1_aarch64_cortex-a72.ipk
+Size: 24569
+SHA256sum: b6203d325cd6ea6f577ace8d50a1662488376b0e1f6b470c99dbf6165cbd3f4b
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 9.3-1
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 59725
+Filename: coreutils-mv_9.3-1_aarch64_cortex-a72.ipk
+Size: 60440
+SHA256sum: 1ba6f220e90c77f14c4cdbc0e1bbefd7edebf4f20ae5c8880eb3f29b07277ceb
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22838
+Filename: coreutils-nice_9.3-1_aarch64_cortex-a72.ipk
+Size: 23511
+SHA256sum: 44f2fa83a4577bb626507c26a0538f4c1adff0b1a7bcafa287a4d35a0691e58f
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 54796
+Filename: coreutils-nl_9.3-1_aarch64_cortex-a72.ipk
+Size: 55524
+SHA256sum: 9e54f099190bc0ada8326288269a6e5216fe407a3f6a77dffe6fb71adcde1f43
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23512
+Filename: coreutils-nohup_9.3-1_aarch64_cortex-a72.ipk
+Size: 24180
+SHA256sum: cb21a6b9d4f378783322101027cc5a8eb2cd2836553e5d8cce7c2aed0af006e5
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23021
+Filename: coreutils-nproc_9.3-1_aarch64_cortex-a72.ipk
+Size: 23686
+SHA256sum: 63b9c7892a39db96fc378fb81b78bfc02b4da6e94cda12a9a52340c5b793ba3f
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 32696
+Filename: coreutils-numfmt_9.3-1_aarch64_cortex-a72.ipk
+Size: 33100
+SHA256sum: c72bc83940ef491ce0f33d3874151e189aecf19c19483951430f4a1ddf53a4b6
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 34824
+Filename: coreutils-od_9.3-1_aarch64_cortex-a72.ipk
+Size: 35300
+SHA256sum: 353595609b5f384f6cc31f8a5c71f6126a14867706da84b5a2fed8f87952b2e6
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23228
+Filename: coreutils-paste_9.3-1_aarch64_cortex-a72.ipk
+Size: 23901
+SHA256sum: fd707736484c3c85231327ec47ed4fa846bf79a883ea24397cdc3feb5015315b
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22421
+Filename: coreutils-pathchk_9.3-1_aarch64_cortex-a72.ipk
+Size: 23070
+SHA256sum: 65bfd1b0db3f5790486bb4bef2a0b81750dad5fa7117de5300ef1c08b2b48a44
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24418
+Filename: coreutils-pinky_9.3-1_aarch64_cortex-a72.ipk
+Size: 25042
+SHA256sum: b59f143566e378df70baa88a320327e7a907a36d83e477b5e79683dcbe85ddac
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 38318
+Filename: coreutils-pr_9.3-1_aarch64_cortex-a72.ipk
+Size: 38788
+SHA256sum: 9ab1b04c7a23606335755ec7b441b1cf6d5c170f75c9b6b72f47730c565a8e55
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21848
+Filename: coreutils-printenv_9.3-1_aarch64_cortex-a72.ipk
+Size: 22527
+SHA256sum: b10b1ab2649bf130c4112a64f40bcaa6fbdc88daaabe3cf25add247d54961d3b
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25569
+Filename: coreutils-printf_9.3-1_aarch64_cortex-a72.ipk
+Size: 26251
+SHA256sum: aa8a3c17dc2c075d1043e81e1decd1ac4febcfc159797432d0a3d61812916fed
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 60730
+Filename: coreutils-ptx_9.3-1_aarch64_cortex-a72.ipk
+Size: 61404
+SHA256sum: 0d760b26ffc142b8cc014990a8a6b840fdb8637bd8eae6fe2f01e76e8304c7da
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25437
+Filename: coreutils-pwd_9.3-1_aarch64_cortex-a72.ipk
+Size: 26096
+SHA256sum: 5425515cd245f0572422d17370f888b3604fbe447a6e50e7de2c897d13bd8ac3
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 27813
+Filename: coreutils-readlink_9.3-1_aarch64_cortex-a72.ipk
+Size: 28572
+SHA256sum: 519bbb352548b27da652cada2facb65e89b74d7571aa66ef9d25560f1e88f207
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28323
+Filename: coreutils-realpath_9.3-1_aarch64_cortex-a72.ipk
+Size: 29061
+SHA256sum: 7fdb20f55e762ac69e0dfc35959588cc422ef7a0ca0e28c1889be937dbbf586a
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 35682
+Filename: coreutils-rm_9.3-1_aarch64_cortex-a72.ipk
+Size: 36193
+SHA256sum: f312c6fc802c5c946090ca350e7c0d6b7f7d2047c948151e97c9c7916d8f753f
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22669
+Filename: coreutils-rmdir_9.3-1_aarch64_cortex-a72.ipk
+Size: 23347
+SHA256sum: f74c72319c38f6ad61026bffd006d33510f080ad5dd052bd92a411b6b94bf2c0
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22024
+Filename: coreutils-runcon_9.3-1_aarch64_cortex-a72.ipk
+Size: 22694
+SHA256sum: 4cfc7aaa912441f916502474ade5c45083a98a5783c7b92770d187e3f124a549
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 27195
+Filename: coreutils-seq_9.3-1_aarch64_cortex-a72.ipk
+Size: 27948
+SHA256sum: 23e7fd22561b5a679b1b374548b62181776c95ee64e3ec5ee47d9c7889f34a5e
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 29855
+Filename: coreutils-sha1sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 30623
+SHA256sum: 8fe7e4692bd6fd40c28cd3d77f74e774b8fc0443ef86f88a6699a6721cfc2f8d
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 32337
+Filename: coreutils-sha224sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 33100
+SHA256sum: 3642068a9a71f75220d96165b2b7dae6598eb23fa574f7e32e8eb8ab23e2d045
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 32337
+Filename: coreutils-sha256sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 33133
+SHA256sum: 897fd62713a76dc6c457acdec1a70c8142f545b54a7c78eeb43f0fa3490baabf
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 34606
+Filename: coreutils-sha384sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 35024
+SHA256sum: 6243c2f4c37a2907f2efeaadb1e5b70e708b3cd6b86e8279775ec9ec17f7b660
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 34619
+Filename: coreutils-sha512sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 35081
+SHA256sum: 2cecc5d63f5df9b8666a438d3d9e4cc590af13f8e6787ea983c5ead7cb7a27eb
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 33202
+Filename: coreutils-shred_9.3-1_aarch64_cortex-a72.ipk
+Size: 33641
+SHA256sum: 50b6aa2614c44ef5e1330a0ba520b9342594d482f483dc5d795ab585f8139afd
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 30734
+Filename: coreutils-shuf_9.3-1_aarch64_cortex-a72.ipk
+Size: 31484
+SHA256sum: f05dcfa7598f4ae802e6bff716ac93b09cfeee0c835665f27858068c86026546
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24425
+Filename: coreutils-sleep_9.3-1_aarch64_cortex-a72.ipk
+Size: 25096
+SHA256sum: 4e1fdc374940ce7fc9f07974c079ac842455d2e2cb77cdfbd446bdade9b9696c
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 9.3-1
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 56246
+Filename: coreutils-sort_9.3-1_aarch64_cortex-a72.ipk
+Size: 56881
+SHA256sum: ed1815592d171a8f2e4c4c9cca6b78bf48c9fa1066f8c50db521b4713a3717e0
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 32183
+Filename: coreutils-split_9.3-1_aarch64_cortex-a72.ipk
+Size: 32983
+SHA256sum: 11b7f4d347189012757ef30fe1eb69cd1dca9c3ff66ab0ad4f5692a3297ac546
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 47557
+Filename: coreutils-stat_9.3-1_aarch64_cortex-a72.ipk
+Size: 48129
+SHA256sum: 84bb9a9c8aa3b7b63fbf78105c4ad27acf0a5730b799a6f364a494dbafca1f69
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 26894
+Filename: coreutils-stdbuf_9.3-1_aarch64_cortex-a72.ipk
+Size: 27294
+SHA256sum: fd8186070ebeafac79e4254739dcbe8bbfbf196bf18fa55917a7311a00bc64a7
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 32811
+Filename: coreutils-stty_9.3-1_aarch64_cortex-a72.ipk
+Size: 33266
+SHA256sum: c9b19a3b1a7fea575389673ad806022c38bd23105bf8ca81ec6c2e5a305f55b1
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 26371
+Filename: coreutils-sum_9.3-1_aarch64_cortex-a72.ipk
+Size: 27043
+SHA256sum: cd38881bf33894a431c8af56420f71eef46779a5d43c57116ebea26396c6a5c2
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22353
+Filename: coreutils-sync_9.3-1_aarch64_cortex-a72.ipk
+Size: 23015
+SHA256sum: 22dbfa8bf196bfa9a3fdd350c987f4920cf0f89f3c3d21a8a5012f189310faf7
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 54262
+Filename: coreutils-tac_9.3-1_aarch64_cortex-a72.ipk
+Size: 54977
+SHA256sum: c496b8150acef770304857c3d354d702d830a9d469ec79bad570785fdbd9e53e
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 39942
+Filename: coreutils-tail_9.3-1_aarch64_cortex-a72.ipk
+Size: 40425
+SHA256sum: 84a6272840172d5499d2f2fda5b2ce2588d7b5583f296e2078be95045eed8ff0
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24893
+Filename: coreutils-tee_9.3-1_aarch64_cortex-a72.ipk
+Size: 25545
+SHA256sum: f6e5a9642fe4e672cc56e9a9ac3a5951b503402a7a7f06f3fd6b6978220b9a36
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23622
+Filename: coreutils-test_9.3-1_aarch64_cortex-a72.ipk
+Size: 24292
+SHA256sum: 646def55601bb199d69a2b2bc99301cd0fb2664a8ad6a9fa31b3db0790874257
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 9.3-1
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 27233
+Filename: coreutils-timeout_9.3-1_aarch64_cortex-a72.ipk
+Size: 27968
+SHA256sum: 663ce7b3a43b3f062a541fcc03b627c4fdda43059347b433acc6f5c609de3cd2
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 42731
+Filename: coreutils-touch_9.3-1_aarch64_cortex-a72.ipk
+Size: 43194
+SHA256sum: 4351e0861b0063bfd2f02a6b51002b31f953e353be60abf525b487c4395d381d
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 27866
+Filename: coreutils-tr_9.3-1_aarch64_cortex-a72.ipk
+Size: 28613
+SHA256sum: eee38293c6857cb2dd619272bd5ccb4e196da3bd232abfac31264f0e926e486a
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 19390
+Filename: coreutils-true_9.3-1_aarch64_cortex-a72.ipk
+Size: 20049
+SHA256sum: c93d47651edbe977202dcfdeabfd88fa36aa6e47ef81c9c61b132cd573a4de02
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 24042
+Filename: coreutils-truncate_9.3-1_aarch64_cortex-a72.ipk
+Size: 24702
+SHA256sum: 05cb37fc900b887bda797f734993185014d50866e8f9ce4df75b324b135f6599
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 9.3-1
+Depends: libc, coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23896
+Filename: coreutils-tsort_9.3-1_aarch64_cortex-a72.ipk
+Size: 24539
+SHA256sum: a3b745d4ea1d4e71f7c51075588e09e6cb30ed1847a767ae7332374d8e7fd4b2
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21563
+Filename: coreutils-tty_9.3-1_aarch64_cortex-a72.ipk
+Size: 22224
+SHA256sum: 892f317cb433d1b61ba3860280995f3ba992717a8d5da096ce955609f44d8ffe
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22279
+Filename: coreutils-uname_9.3-1_aarch64_cortex-a72.ipk
+Size: 22975
+SHA256sum: 243888803804d905d1f9f410079822abc09bd251197f26162c37eebee0ef1672
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23891
+Filename: coreutils-unexpand_9.3-1_aarch64_cortex-a72.ipk
+Size: 24577
+SHA256sum: fb2a65765de481d8f3a9b6450737d516b9373d1849a5374abcd328736496bb30
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 26324
+Filename: coreutils-uniq_9.3-1_aarch64_cortex-a72.ipk
+Size: 27007
+SHA256sum: 8afc1c300392b499672871e50bf7ba593588980c8834c4e18ecbda0db0fde71b
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21691
+Filename: coreutils-unlink_9.3-1_aarch64_cortex-a72.ipk
+Size: 22350
+SHA256sum: e7f28e8127d6f082a583f15bc54aefa73bdda5f0cd1da8df50891ab9fc2cf1fa
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28398
+Filename: coreutils-uptime_9.3-1_aarch64_cortex-a72.ipk
+Size: 29125
+SHA256sum: a69831ef83f612c4166f1d57b88bf15a881fac819cf66ec45632a3f606117d86
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22460
+Filename: coreutils-users_9.3-1_aarch64_cortex-a72.ipk
+Size: 23123
+SHA256sum: c819230e4df5ec8ecc1c520d09dda3c1d5ceeacb013e7fc49df04cbf18814569
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 9.3-1
+Depends: libc, coreutils, libacl, libcap
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 68842
+Filename: coreutils-vdir_9.3-1_aarch64_cortex-a72.ipk
+Size: 69383
+SHA256sum: ab6564ea75b276f1c7b45c7bef8677891b66fe74125498da16623cba31800332
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28775
+Filename: coreutils-wc_9.3-1_aarch64_cortex-a72.ipk
+Size: 29513
+SHA256sum: 2ea0c8ea19b693316ad2c24fe6222fb524d47adea2a8427447e83dd4fe27c044
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 25580
+Filename: coreutils-who_9.3-1_aarch64_cortex-a72.ipk
+Size: 26201
+SHA256sum: 55f54c43c997ab7215901894f450d15557b6a6dd1af9912b89a12a96f09659d8
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 21760
+Filename: coreutils-whoami_9.3-1_aarch64_cortex-a72.ipk
+Size: 22433
+SHA256sum: 5a06b0452ca7a2ed06ba93d85138ac910730b449ce229ab20bc93a4dec5ff8c4
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 9.3-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 22060
+Filename: coreutils-yes_9.3-1_aarch64_cortex-a72.ipk
+Size: 22739
+SHA256sum: 869aa09ba5b33ffadf0cc238d7e80f4eb8fc148c6fb0fab3c33f644cc5df2b23
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 9.3-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 96
+Filename: coreutils_9.3-1_aarch64_cortex-a72.ipk
+Size: 974
+SHA256sum: 11416893e1fb59ae91b57c76cfb651592c2d1604d3860c2ca0b8c5e19fe3d36f
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.4.0-2
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 66142
+Filename: curl_8.4.0-2_aarch64_cortex-a72.ipk
+Size: 66786
+SHA256sum: 948a913fc413cc7232fe750a525ef5ddb081e4ab678763d9922d4bd65c6961c5
+Description:  A client-side URL transfer utility
+
+Package: halog
+Version: 2.8.3-2
+Depends: libc, haproxy
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: aarch64_cortex-a72
+Installed-Size: 14742
+Filename: halog_2.8.3-2_aarch64_cortex-a72.ipk
+Size: 15400
+SHA256sum: 8b2cb51b2b5c46f60e95d897be250b98ef126a62696fa7a1d7989d0d4188824e
+Description:  HAProxy Log Analyzer
+
+Package: haproxy-nossl
+Version: 2.8.3-2
+Depends: libc, libpcre2, libltdl7, zlib, libpthread, liblua5.3-5.3, libatomic1
+Conflicts: haproxy
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: aarch64_cortex-a72
+Installed-Size: 1008532
+Filename: haproxy-nossl_2.8.3-2_aarch64_cortex-a72.ipk
+Size: 1008370
+SHA256sum: 9f3ee0dde40e8a16836e578e0030c82cbf043972b583a38450fcdae5e583fcaa
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built without SSL support.
+
+Package: haproxy
+Version: 2.8.3-2
+Depends: libc, libpcre2, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl3, libncurses6, libreadline8, libatomic1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: aarch64_cortex-a72
+Installed-Size: 1111182
+Filename: haproxy_2.8.3-2_aarch64_cortex-a72.ipk
+Size: 1109664
+SHA256sum: e90c0922c922ed887c601f5ec4c642dea7a0e1f5a88517c5e702151b4919974e
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: libacl
+Version: 2.3.1-2
+Depends: libc, libattr
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 12664
+Filename: libacl_2.3.1-2_aarch64_cortex-a72.ipk
+Size: 13294
+SHA256sum: 6983843bc8c9b235410e29d91842590aaf41112ecee3e9f540b2b80ce2ea41d4
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 7022
+Filename: libattr_2.5.1-1_aarch64_cortex-a72.ipk
+Size: 7762
+SHA256sum: 540faef334c323abcb9d2306678daa90869eb1a7b2fe31272c7873f449793b45
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.19.1-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Architecture: aarch64_cortex-a72
+Installed-Size: 38910
+Filename: libcares_1.19.1-1_aarch64_cortex-a72.ipk
+Size: 39536
+SHA256sum: 6c392c8f6d628c1ec44a9f5eed1a5ef088f93e6d61dba6fb7da635a622765bcc
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 8.4.0-2
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 204660
+Filename: libcurl4_8.4.0-2_aarch64_cortex-a72.ipk
+Size: 205252
+SHA256sum: 15e7115a008b75f21a7b3080521bb6ef4648233a724e0304c7bab46c11735e4f
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.33-2
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 23690
+Filename: libev_4.33-2_aarch64_cortex-a72.ipk
+Size: 24395
+SHA256sum: 4224c17cabe48ea2de46ecce18e9e4bfa06486494dd0a1f0591ef25e0b171d27
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libffi
+Version: 3.4.2-2
+Depends: libc
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 20380
+Filename: libffi_3.4.2-2_aarch64_cortex-a72.ipk
+Size: 20986
+SHA256sum: 693b40c1b8a46c97e65b39207821318ae2bf962a3c0c840222ba7d7f571c0b05
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libnghttp2-14
+Version: 1.57.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+Architecture: aarch64_cortex-a72
+Installed-Size: 73416
+Filename: libnghttp2-14_1.57.0-1_aarch64_cortex-a72.ipk
+Size: 72134
+SHA256sum: 7fc97bd9d3f474e9107d34a9b82e8eefca480ff014fa47a50850286944374b33
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libruby3.2
+Version: 3.2.2-2
+Depends: libc, libpthread, librt, libgmp10, zlib
+Provides: libruby
+License: BSD-2-Clause
+Section: libs
+ABIVersion: 3.2
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1242411
+Filename: libruby3.2_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 1237947
+SHA256sum: 31d9894b44d6fa17e41d68a1d5b2b8704b22084a1caa6a8b7d62c4bf221b69dd
+Description:  Ruby scripting language (shared library)
+
+Package: libsodium
+Version: 1.0.18-4
+Depends: libc
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 105613
+Filename: libsodium_1.0.18-4_aarch64_cortex-a72.ipk
+Size: 106743
+SHA256sum: 8b52479b739b4a1e75a8e97fe7175d2851a914100c69e8f767dd69b6b0e697ce
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libyaml
+Version: 0.2.5-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:pyyaml_project:pyyaml
+Architecture: aarch64_cortex-a72
+Installed-Size: 41223
+Filename: libyaml_0.2.5-1_aarch64_cortex-a72.ipk
+Size: 41958
+SHA256sum: 5bc15aa494e805166c96ddfaa4de11ee644da7530f39baf0fc17949c3d6d559d
+Description:  Fast YAML 1.1 parser and emitter library
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 5975
+Filename: microsocks_1.0.3-1_aarch64_cortex-a72.ipk
+Size: 6741
+SHA256sum: 6f9bc5891c650871eccc0c0d30de286f6e913273873884cbd4ca679749f27dc5
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: ruby-abbrev
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1988
+Filename: ruby-abbrev_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2866
+SHA256sum: b02bd125e698fccc9a6a3244af63121499f30392b501cc7241d690c9ff6fa120
+Description:  This package contains the ruby Calculates the set of unambiguous abbreviations for a given set of strings.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/abbrev.rb 
+ - /usr/lib/ruby/gems/3.2/gems/abbrev-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/abbrev-*.gemspec
+ 
+
+Package: ruby-base64
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2051
+Filename: ruby-base64_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2902
+SHA256sum: 79d359ae022b15e5cf9ddde0c651760632e663d210b15fd6a3ee290f1d6f4e3b
+Description:  This package contains the ruby Encode and decode base64.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/base64.rb 
+ - /usr/lib/ruby/gems/3.2/gems/base64-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/base64-*.gemspec
+ 
+
+Package: ruby-benchmark
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 6033
+Filename: ruby-benchmark_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6905
+SHA256sum: 42abef6f5bc02c10380acd4688147c6c023bf5454f75644af897e48f0e151c7e
+Description:  This package contains the ruby Performance benchmarking library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/benchmark.rb 
+ - /usr/lib/ruby/3.2/benchmark/ 
+ - /usr/lib/ruby/gems/3.2/gems/benchmark-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/benchmark-*.gemspec
+ 
+
+Package: ruby-bigdecimal
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 44018
+Filename: ruby-bigdecimal_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 44650
+SHA256sum: cccc570fbef8380b857827770357766b251b9fed9aefcd79015af0bf982925f7
+Description:  This package contains the ruby Arbitrary-precision decimal floating-point library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/bigdecimal.so 
+ - /usr/lib/ruby/3.2/bigdecimal/ 
+ - /usr/lib/ruby/3.2/bigdecimal.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/bigdecimal-*.gemspec
+ 
+
+Package: ruby-bundler
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-erb, ruby-irb, ruby-logger, ruby-open-uri, ruby-readline, ruby-yaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 289305
+Filename: ruby-bundler_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 290279
+SHA256sum: 17f9fa34568a82494caa84d9f5700a8543ba7495fe3325646f3fb69ac35edd8a
+Description:  This package contains the ruby Manage dependencies.
+ 
+
+Package: ruby-cgi
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-pstore, ruby-securerandom, ruby-shellwords, ruby-stringio, ruby-tempfile
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 34438
+Filename: ruby-cgi_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 35241
+SHA256sum: 8e3dab44e99e81a7efc4d6d82e538d03787ac0238762b03ff82e6654145ed9ec
+Description:  This package contains the ruby CGI support toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/cgi.rb 
+ - /usr/lib/ruby/3.2/cgi/ 
+ - /usr/lib/ruby/gems/3.2/gems/cgi-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/cgi-*.gemspec 
+ - /usr/lib/ruby/3.2/*/cgi/escape.so
+ 
+
+Package: ruby-continuation
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1214
+Filename: ruby-continuation_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 1994
+SHA256sum: 133e0202430b2426e830cded3c36c93559770eb4cbdc12a34e15ea3e43fac314
+Description:  This package contains the ruby Similar to C setjmp/longjmp with extra states.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/continuation.so
+ 
+
+Package: ruby-coverage
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5194
+Filename: ruby-coverage_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 5853
+SHA256sum: 623d006ba9c9b067cf06666ca83df81517414ea8e3018b97054c0579e8ebcbc0
+Description:  This package contains the ruby Coverage measurement.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/coverage.rb 
+ - /usr/lib/ruby/3.2/*/coverage.so
+ 
+
+Package: ruby-csv
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-date, ruby-english, ruby-forwardable, ruby-stringio, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 43785
+Filename: ruby-csv_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 44772
+SHA256sum: dd48e28ba9927a230bdde44ae28d7f6c21bc8507e0b7891dcab94bb83ca228d4
+Description:  This package contains the ruby CSV Reading and Writing.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/csv.rb 
+ - /usr/lib/ruby/3.2/csv/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/csv-*.gemspec
+ 
+
+Package: ruby-date
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 63575
+Filename: ruby-date_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 64400
+SHA256sum: 0f43c76eeaa87ae9c24ff1fca874803a2096faa4116dacfcc6af8d0e16a33205
+Description:  This package contains the ruby Comparable module for handling dates.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/date.rb 
+ - /usr/lib/ruby/3.2/*/date_core.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/date-*.gemspec
+ 
+
+Package: ruby-debug
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-base64, ruby-irb, ruby-mkmf, ruby-objspace, ruby-readline
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 79201
+Filename: ruby-debug_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 80087
+SHA256sum: a73f22d7f25b804f1226557170394b455ffa59be5f5da53bfa4d7127ec95536a
+Description:  This package contains the ruby generic command line interface for ruby-debug.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/debug.rb 
+ - /usr/lib/ruby/gems/3.2/gems/debug-*/ 
+ - /usr/lib/ruby/gems/3.2/extensions/*/3.2/debug-* 
+ - /usr/lib/ruby/gems/3.2/specifications/debug-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/debug-*/CONTRIBUTING.md 
+ - /usr/lib/ruby/gems/3.2/gems/debug-*/LICENSE.txt 
+ - /usr/lib/ruby/gems/3.2/gems/debug-*/README.md 
+ - /usr/lib/ruby/gems/3.2/gems/debug-*/TODO.md
+ 
+
+Package: ruby-delegate
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 4391
+Filename: ruby-delegate_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 5235
+SHA256sum: be14ed64c4a4185a27bd581ea056254be2978fef4d97d05c9af3a6df514cd9de
+Description:  This package contains the ruby lib to delegate method calls to an object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/delegate.rb 
+ - /usr/lib/ruby/3.2/delegate/ 
+ - /usr/lib/ruby/gems/3.2/gems/delegate-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/delegate-*.gemspec
+ 
+
+Package: ruby-dev
+Version: 3.2.2-2
+Depends: libc, libruby3.2, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 317141
+Filename: ruby-dev_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 317720
+SHA256sum: db1cee0c9f03198937c2fbc5259f854cc97a014262fec3d51c10c110391250f2
+Description:  Header files for compiling extension modules for the Ruby 3.2
+
+Package: ruby-did-you-mean
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-rbconfig
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 8479
+Filename: ruby-did-you-mean_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 9379
+SHA256sum: a66d36289e0fb33f50644ed9c101be28a223a1d9b2a1e3954e21b8bc3d0ac314
+Description:  This package contains the ruby did you mean? experience.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/did_you_mean.rb 
+ - /usr/lib/ruby/3.2/did_you_mean/ 
+ - /usr/lib/ruby/gems/3.2/gems/did_you_mean-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/did_you_mean-*.gemspec
+ 
+
+Package: ruby-digest
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 30880
+Filename: ruby-digest_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 30723
+SHA256sum: df3a35aed5b2d0724c29fa6b52e18ddcae6676880c196edc1161fc881a3db170
+Description:  Provides digest* files. Can be configured to use OpenSSL or
+ bundled hash functions.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/digest 
+ - /usr/lib/ruby/3.2/digest.rb 
+ - /usr/lib/ruby/3.2/*/digest.so 
+ - /usr/lib/ruby/3.2/*/digest/* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/digest-*.gemspec
+ 
+
+Package: ruby-drb
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-monitor, ruby-observer, ruby-openssl, ruby-singleton, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 25953
+Filename: ruby-drb_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 26852
+SHA256sum: 04a1d4719d60fc0807c393aa7d6462e3e9cbc3ae517404817a514bbe7b90ec96
+Description:  This package contains the ruby distributed object system.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/drb.rb 
+ - /usr/lib/ruby/3.2/drb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/drb-*.gemspec
+ 
+
+Package: ruby-enc-extra
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1446252
+Filename: ruby-enc-extra_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 1301914
+SHA256sum: 929eed71aaec01210a817596aaec319de6689411e377efb375cf0be5abdeb19f
+Description:  This package contains the ruby character re-coding library charset (extra subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/enc
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.2/*/enc/encdb.so 
+ - /usr/lib/ruby/3.2/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.2/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.2/*/enc/euc_jp.so
+ 
+
+Package: ruby-enc
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 16649
+Filename: ruby-enc_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 16557
+SHA256sum: b5bc7d769edfa21de84b4236f77d9f669e49d0891aae0592c6cdb9826b61ec66
+Description:  This package contains the ruby character re-coding library charset (small subset).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/enc/encdb.so 
+ - /usr/lib/ruby/3.2/*/enc/iso_8859_1.so 
+ - /usr/lib/ruby/3.2/*/enc/utf_*.so 
+ - /usr/lib/ruby/3.2/*/enc/euc_jp.so
+ 
+
+Package: ruby-english
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2794
+Filename: ruby-english_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3665
+SHA256sum: c42ed8e737f95d7dcac99badf55301b65b9b000a7413b8e169091c745a26577c
+Description:  This package contains the ruby Reference some global vars as english variables.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/English.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/english-*.gemspec
+ 
+
+Package: ruby-erb
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-gems
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 14210
+Filename: ruby-erb_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 14817
+SHA256sum: 3a82082b55537ed14d953366fa76eea4b9a26bdee91f413ef5df913f171611b3
+Description:  This package contains the ruby (embedded interpreter).
+ 
+
+Package: ruby-error_highlight
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 4573
+Filename: ruby-error_highlight_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 5453
+SHA256sum: 3484ff35eb6165890ab80ec71ada2691fd4d762a32d153e8472079d19c510225
+Description:  This package contains the ruby Fine-grained error location in backtrace.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/error_highlight.rb 
+ - /usr/lib/ruby/3.2/error_highlight/* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/error_highlight-*.gemspec
+ 
+
+Package: ruby-etc
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 8891
+Filename: ruby-etc_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 9632
+SHA256sum: 2fe9111b1fd9b7b9ac7c175f8b831a0be4de0bb7eb1d38869b74dddfe97760d9
+Description:  This package contains the ruby Access info typically stored in /etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/etc.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/etc-*.gemspec
+ 
+
+Package: ruby-expect
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1200
+Filename: ruby-expect_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2033
+SHA256sum: 2cb3a75b57a1f50861530092ff27146d80832b17e3c222997b21c0072b60cffc
+Description:  This package contains the ruby Expect-like for IO.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/expect.rb
+ 
+
+Package: ruby-fcntl
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2127
+Filename: ruby-fcntl_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2889
+SHA256sum: 7bce7466909f6a94bc9d1adad50e670b58212109b669f9b86c9d56bcbce32122
+Description:  This package contains the ruby Loads constants defined in the OS fcntl.h C header file.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/fcntl.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/fcntl-*.gemspec
+ 
+
+Package: ruby-fiddle
+Version: 3.2.2-2
+Depends: libc, ruby, libffi
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 30702
+Filename: ruby-fiddle_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 31485
+SHA256sum: 3308e194d22083d262e136fa493b935fb1bb9cb907bfe60bb1a83885edc5001e
+Description:  This package contains the ruby Libffi wrapper for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/fiddle.rb 
+ - /usr/lib/ruby/3.2/fiddle/ 
+ - /usr/lib/ruby/3.2/*/fiddle.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/fiddle-*.gemspec
+ 
+
+Package: ruby-fileutils
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc, ruby-etc, ruby-rbconfig, ruby-socket
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 16760
+Filename: ruby-fileutils_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 17708
+SHA256sum: bdb9550d791a9b74010be30ef09f4d66b68a9c08bbac1811b4128a706dde901b
+Description:  This package contains the ruby File utility methods for copying moving removing etc.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/fileutils.rb 
+ - /usr/lib/ruby/gems/3.2/gems/fileutils-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/fileutils-*.gemspec
+ 
+
+Package: ruby-find
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1731
+Filename: ruby-find_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2619
+SHA256sum: 3d8b346aa533c0f41687f4055632dfeb34f3e7d95f24e7e8ee38d47e73b2e7f2
+Description:  This package contains the ruby top-down traversal of a set of file paths.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/find.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/find-*.gemspec
+ 
+
+Package: ruby-forwardable
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 3798
+Filename: ruby-forwardable_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 4684
+SHA256sum: 3a988ffc35802b76e7bac27009968a0430120e57837fb35c2ad35e1e5caf2ce6
+Description:  This package contains the ruby delegation of methods to a object.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/forwardable.rb 
+ - /usr/lib/ruby/3.2/forwardable 
+ - /usr/lib/ruby/gems/3.2/specifications/default/forwardable-*.gemspec
+ 
+
+Package: ruby-gems
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-json, ruby-net-http, ruby-open3, ruby-pathname, ruby-psych, ruby-rake
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 273983
+Filename: ruby-gems_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 274925
+SHA256sum: 580c72ec4a9b052094e588e247a47fca3e3c7d3705e6081757eee3d2e43d5536
+Description:  This package contains the ruby gems packet management.
+ 
+
+Package: ruby-getoptlong
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 6127
+Filename: ruby-getoptlong_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 7001
+SHA256sum: ab4e2038cfe328f4f076e2ce75a94b6c81100e52a4211daecff38c15a21ef99d
+Description:  This package contains the ruby implementation of getoptLong.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/getoptlong.rb 
+ - /usr/lib/ruby/3.2/getoptlong/ 
+ - /usr/lib/ruby/gems/3.2/gems/getoptlong-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/getoptlong-*.gemspec
+ 
+
+Package: ruby-io-console
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 10216
+Filename: ruby-io-console_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 10954
+SHA256sum: 8fe83957fe422d75f132c45cac3c6f1a8a4626a50ca1c7eb43aa76a36bd01767
+Description:  This package contains the ruby Console interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/io/console.so 
+ - /usr/lib/ruby/3.2/io/console/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/io-console-*.gemspec
+ 
+
+Package: ruby-io-nonblock
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2623
+Filename: ruby-io-nonblock_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3348
+SHA256sum: 2109d42bd921bb0208531af57edec603a7120343ffa6f6bd8a0823ea8a3bc73d
+Description:  This package contains the ruby Non-blocking mode with IO class.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/io/nonblock.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/io-nonblock-*.gemspec
+ 
+
+Package: ruby-io-wait
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2388
+Filename: ruby-io-wait_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3159
+SHA256sum: f222cc596de734f5bffd34a2ca561edc8dd68e4bbe77eca7d502fce60d591bea
+Description:  This package contains the ruby Waits until IO is readable or writable without blocking.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/io/wait.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/io-wait-*.gemspec
+ 
+
+Package: ruby-ipaddr
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-socket
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 6163
+Filename: ruby-ipaddr_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 7093
+SHA256sum: a7826e5cada945d700ee17bd78ec66b8b51ccf5af7defd09550d4301799e4ae7
+Description:  This package contains the ruby Set of methods to manipulate an IP address.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/ipaddr.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/ipaddr-*.gemspec
+ 
+
+Package: ruby-irb
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-gems, ruby-reline, ruby-ripper
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 63911
+Filename: ruby-irb_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 64792
+SHA256sum: 9ec92607d7f385e150cbd719191579b14fede61fd030189157c2b0c03dd5e884
+Description:  This package contains the ruby (interactive shell).
+ 
+
+Package: ruby-json
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-date, ruby-ostruct
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 34686
+Filename: ruby-json_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 35397
+SHA256sum: 0d1f9c03e3703cbbd385e982875476caec4e9231840d58a2bde4c335ab530605
+Description:  This package contains the ruby JSON Implementation for Ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/json.rb 
+ - /usr/lib/ruby/3.2/json 
+ - /usr/lib/ruby/3.2/*/json 
+ - /usr/lib/ruby/gems/3.2/specifications/default/json-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/3.2/psych 
+ - /usr/lib/ruby/3.2/psych.rb 
+ - /usr/lib/ruby/3.2/*/psych.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-logger
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-monitor, ruby-rbconfig
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 9519
+Filename: ruby-logger_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 10406
+SHA256sum: 137c51b65cdf9905f03a819267a622fe5e58c354ecf61ef196da2726cbae4470
+Description:  This package contains the ruby logger and syslog library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/logger.rb 
+ - /usr/lib/ruby/3.2/logger/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/logger-*.gemspec
+ 
+
+Package: ruby-matrix
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 22444
+Filename: ruby-matrix_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 23296
+SHA256sum: 416eae7b0842b6e67bb4737133bd1014405f9e6aa9d5b96ab676d9050c6af0c0
+Description:  This package contains the ruby implementation of Matrix and Vector classes.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/matrix-* 
+ - /usr/lib/ruby/gems/3.2/specifications/matrix-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/matrix-*/LICENSE.txt
+ 
+
+Package: ruby-minitest
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-gems, ruby-mutex_m
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 33860
+Filename: ruby-minitest_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 34847
+SHA256sum: f60769ce5551b6a19b1ea103d4642837220f3d05a67f1bd222366bb59c60dded
+Description:  This package contains the ruby Gem minitest.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/specifications/minitest-*.gemspec 
+ - /usr/lib/ruby/gems/3.2/gems/minitest-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/minitest-*/test 
+ - /usr/lib/ruby/gems/3.2/gems/minitest-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.2/gems/minitest-*/*.txt
+ 
+
+Package: ruby-mjit
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-fiddle
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 19850
+Filename: ruby-mjit_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 20710
+SHA256sum: 210ba15f89b1e5f8680c5995fbba8ee6f3dfd050e6e82d7fe0e693fc1750c274
+Description:  This package contains the ruby Method Based Just-in-Time Compiler.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/ruby_vm/mjit/
+ 
+
+Package: ruby-mkmf
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-shellwords, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 26022
+Filename: ruby-mkmf_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 26829
+SHA256sum: 65ae4b5a9475b119d1beeab6e910098da180478adaded23181074405f918be7c
+Description:  This package contains the ruby makefile library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/mkmf.rb
+ 
+
+Package: ruby-monitor
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5728
+Filename: ruby-monitor_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6411
+SHA256sum: afbd8588b43c1983597970334df7ea97f1fbb5ddc1a4720418634ea563091973
+Description:  This package contains the ruby Object or module methods are executed with mutual exclusion.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/monitor.rb 
+ - /usr/lib/ruby/3.2/*/monitor.so
+ 
+
+Package: ruby-mutex_m
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1570
+Filename: ruby-mutex_m_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2459
+SHA256sum: 131d4bbd69d5d5dc7334dbb6e56f28813ed4604cb494b00473ed3f42fa3e5c58
+Description:  This package contains the ruby extend objects to be handled like a Mutex.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/mutex_m.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/mutex_m-*.gemspec
+ 
+
+Package: ruby-net-ftp
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-time
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 12342
+Filename: ruby-net-ftp_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 13244
+SHA256sum: b2e8aa46609f8b08c8b3a3a0b5063f23380ac9fd622006593dbef9578e567cb0
+Description:  This package contains the ruby FTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-ftp-* 
+ - /usr/lib/ruby/gems/3.2/specifications/net-ftp-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-ftp-*/LICENSE.txt 
+ - /usr/lib/ruby/gems/3.2/gems/net-ftp-*/README.md
+ 
+
+Package: ruby-net-http
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-cgi, ruby-net-protocol, ruby-resolv, ruby-strscan, ruby-uri, ruby-zlib
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 40915
+Filename: ruby-net-http_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 41892
+SHA256sum: 5cbcef6a594bc1b88709304d73966ccc3c18cecb90fc6dfa19ae00ed44af915e
+Description:  This package contains the ruby HTTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/net/http.rb 
+ - /usr/lib/ruby/3.2/net/https.rb 
+ - /usr/lib/ruby/3.2/net/http/ 
+ - /usr/lib/ruby/gems/3.2/gems/net-http-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/net-http-*.gemspec
+ 
+
+Package: ruby-net-imap
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-json, ruby-monitor, ruby-net-protocol, ruby-openssl, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 71484
+Filename: ruby-net-imap_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 72309
+SHA256sum: 935b2e1575dec3dd457ae2a92108da87ae7ef4eefea91d6ae55801cc6e2e0581
+Description:  This package contains the ruby IMAP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-imap-* 
+ - /usr/lib/ruby/gems/3.2/specifications/net-imap-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-imap-*/LICENSE.txt 
+ - /usr/lib/ruby/gems/3.2/gems/net-imap-*/README.md
+ 
+
+Package: ruby-net-pop
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 8113
+Filename: ruby-net-pop_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 9040
+SHA256sum: 6362f2353598325399f16df20ab56940533efabd4f2017218a31c19c72d1bfc4
+Description:  This package contains the ruby POP3 lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-pop-* 
+ - /usr/lib/ruby/gems/3.2/specifications/net-pop-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-pop-*/LICENSE.txt 
+ - /usr/lib/ruby/gems/3.2/gems/net-pop-*/README.md
+ 
+
+Package: ruby-net-protocol
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-socket, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 4092
+Filename: ruby-net-protocol_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 4986
+SHA256sum: 306eb421c57fa949e750a7cc331ea19a431a26cb7d23c6f7aadcfafa87a17122
+Description:  This package contains the ruby Abstract for net-* clients.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/net/protocol.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/net-protocol-*.gemspec
+ 
+
+Package: ruby-net-smtp
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-net-protocol, ruby-openssl
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 10447
+Filename: ruby-net-smtp_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 11353
+SHA256sum: 32146544cc8f604696fae8ca7516d1f7492c9237cd9324ce50d18f4fc3fea5d3
+Description:  This package contains the ruby SMTP lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-smtp-* 
+ - /usr/lib/ruby/gems/3.2/specifications/net-smtp-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/net-smtp-*/LICENSE.txt 
+ - /usr/lib/ruby/gems/3.2/gems/net-smtp-*/README.md
+ 
+
+Package: ruby-nkf
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 130218
+Filename: ruby-nkf_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 128937
+SHA256sum: 96b715fda13c8edd39903bcb6e546c8e393f18736e0a72c4862c0de85d5d452e
+Description:  This package contains the ruby Network Kanji Filter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/kconv.rb 
+ - /usr/lib/ruby/3.2/*/nkf.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/nkf-*.gemspec
+ 
+
+Package: ruby-objspace
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-tempfile
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 18637
+Filename: ruby-objspace_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 19387
+SHA256sum: 762b8588d1a20f293331f0e64d9d7a3811bb8c8d0c4be0291817b03a189d9faf
+Description:  This package contains the ruby Routines to interact with the garbage collection facility.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/objspace.rb 
+ - /usr/lib/ruby/3.2/objspace/* 
+ - /usr/lib/ruby/3.2/*/objspace.so
+ 
+
+Package: ruby-observer
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 3023
+Filename: ruby-observer_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3889
+SHA256sum: 764d391154cc888b3e434654ab76f7634a9845b1f9912eb94799a72e20f87d71
+Description:  This package contains the ruby Observer design pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/observer.rb 
+ - /usr/lib/ruby/3.2/observer/ 
+ - /usr/lib/ruby/gems/3.2/gems/observer-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/observer-*.gemspec
+ 
+
+Package: ruby-open-uri
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-net-ftp, ruby-net-http
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 8678
+Filename: ruby-open-uri_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 9569
+SHA256sum: f391143a7868b0af51093580adc56a35f7904327814ddfab89f6da474a79e468
+Description:  This package contains the ruby Wrapper for Net::HTTP Net::HTTPS and Net::.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/open-uri.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/open-uri-*.gemspec
+ 
+
+Package: ruby-open3
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5702
+Filename: ruby-open3_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6539
+SHA256sum: bd62998784e6044cf1437ba80ff5c46375e4111b6a42f7373856041eb6b9a76f
+Description:  This package contains the ruby popen with stderr.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/open3.rb 
+ - /usr/lib/ruby/3.2/open3/ 
+ - /usr/lib/ruby/gems/3.2/gems/open3-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/open3-*.gemspec
+ 
+
+Package: ruby-openssl
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-digest, ruby-enc, ruby-io-nonblock, ruby-ipaddr, libopenssl3
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 138884
+Filename: ruby-openssl_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 139213
+SHA256sum: 9e1c188bdfd7444d6864cf9f96d7fe77c768ad24f609afb6df85b6cd45858202
+Description:  This package contains the ruby SSL TLS and general purpose cryptography.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/openssl 
+ - /usr/lib/ruby/3.2/openssl.rb 
+ - /usr/lib/ruby/3.2/*/openssl.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/openssl-*.gemspec
+ 
+
+Package: ruby-optparse
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc-extra, ruby-pp, ruby-shellwords, ruby-time, ruby-uri
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 20095
+Filename: ruby-optparse_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 20993
+SHA256sum: d31d5d09947f3844d0201ab0f9f5fb439282bb98300d33cc5b70bee78d78882d
+Description:  This package contains the ruby command-line option analysis.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/optparse.rb 
+ - /usr/lib/ruby/3.2/optionparser.rb 
+ - /usr/lib/ruby/3.2/optparse 
+ - /usr/lib/ruby/gems/3.2/specifications/default/optparse-*.gemspec
+ 
+
+Package: ruby-ostruct
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5383
+Filename: ruby-ostruct_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6221
+SHA256sum: 0b877be4d55ae8dc3cfcf821db77a6c5119215686476f4984dbbe377d7fc8ef2
+Description:  This package contains the ruby build custom data structures.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/ostruct.rb 
+ - /usr/lib/ruby/3.2/ostruct/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/ostruct-*.gemspec
+ 
+
+Package: ruby-pathname
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-fileutils, ruby-find
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 14305
+Filename: ruby-pathname_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 14984
+SHA256sum: 945ce38d4e913bdb115d2c37b175b869125eb6442189136366b29c21deefec83
+Description:  This package contains the ruby Pathname lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/pathname.rb 
+ - /usr/lib/ruby/3.2/*/pathname.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/pathname-*.gemspec
+ 
+
+Package: ruby-powerassert
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-irb
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 9853
+Filename: ruby-powerassert_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 10774
+SHA256sum: e16d68314f0d1832a65b8b229a24e44ac1374910f6222d92cbe32fe593d7df81
+Description:  This package contains the ruby Gem power_assert.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/specifications/power_assert-*.gemspec 
+ - /usr/lib/ruby/gems/3.2/gems/power_assert-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/power_assert-*/*.rdoc 
+ - /usr/lib/ruby/gems/3.2/gems/power_assert-*/.travis.yml 
+ - /usr/lib/ruby/gems/3.2/gems/power_assert-*/README.md
+ 
+
+Package: ruby-pp
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-etc, ruby-io-console, ruby-prettyprint
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5742
+Filename: ruby-pp_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6597
+SHA256sum: 9ad8ebd5be4432a5f8fcada24645f1218c07e4962cdc96d6a573aaa94a966900
+Description:  This package contains the ruby Pretty print objects.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/pp.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/pp-*.gemspec
+ 
+
+Package: ruby-prettyprint
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5462
+Filename: ruby-prettyprint_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6288
+SHA256sum: 9d25a859f5073fe5f1e10254c24a620735d5b03277936b216985a824263d83ce
+Description:  This package contains the ruby PrettyPrint library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/prettyprint.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/prettyprint-*.gemspec
+ 
+
+Package: ruby-prime
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-forwardable, ruby-singleton
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 6181
+Filename: ruby-prime_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 7144
+SHA256sum: d37aeed6e204c90ca3063ea39005bd21cb79fb156a7cda4a2818554ac037e3d5
+Description:  This package contains the ruby Prime numbers and factorization library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/prime-* 
+ - /usr/lib/ruby/gems/3.2/specifications/prime-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/prime-*/LICENSE.txt 
+ - /usr/lib/ruby/gems/3.2/gems/prime-*/README.md
+ 
+
+Package: ruby-pstore
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-digest, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 6967
+Filename: ruby-pstore_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 7891
+SHA256sum: dce14b1b448540e39d148d8fbe55d19d19109238545450a2225d146b55156205
+Description:  This package contains the ruby file based persistence.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/pstore.rb 
+ - /usr/lib/ruby/3.2/pstore/ 
+ - /usr/lib/ruby/gems/3.2/gems/pstore-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/pstore-*.gemspec
+ 
+
+Package: ruby-psych
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-bigdecimal, ruby-date, ruby-enc, ruby-forwardable, ruby-stringio, libyaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 34332
+Filename: ruby-psych_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 35156
+SHA256sum: 339af6faae0a13e316a5c1bec525b8f624695c74e2cae5d9d792148149dd5b71
+Description:  This package contains the ruby YAML parser and emitter.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/psych 
+ - /usr/lib/ruby/3.2/psych.rb 
+ - /usr/lib/ruby/3.2/*/psych.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/psych-*.gemspec
+ 
+
+Package: ruby-pty
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 4627
+Filename: ruby-pty_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 5286
+SHA256sum: cd968a18a7a74e4d79ead26a58c8c7ad939d04f554ed1cd410307f8075ccfefd
+Description:  This package contains the ruby Creates and manages pseudo terminals.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/pty.so
+ 
+
+Package: ruby-racc
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-forwardable, ruby-optparse, ruby-rbconfig, ruby-stringio
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 37360
+Filename: ruby-racc_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 37962
+SHA256sum: fb3bc7f5fc91c06e72438d8b4c23791dce8bd6414f584bc62390544838dd6627
+Description:  This package contains the ruby LALR parser generator.
+ 
+
+Package: ruby-rake
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-fileutils, ruby-monitor, ruby-optparse, ruby-ostruct, ruby-set, ruby-singleton
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 40932
+Filename: ruby-rake_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 41865
+SHA256sum: 01bfb75473f15cda5518b3d9af9498315c20b2dfe99a43220a41cc6dca6a86bd
+Description:  This package contains the ruby Rake (make replacement).
+ 
+
+Package: ruby-random_formatter
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2726
+Filename: ruby-random_formatter_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3564
+SHA256sum: 3b3b6ca1368a0686466417c87eedbff6286bf8d596f2df06c3cb024c6be424d7
+Description:  This package contains the ruby Formats generated random numbers in many manners.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/random/formatter.rb
+ 
+
+Package: ruby-rbconfig
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 8642
+Filename: ruby-rbconfig_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 9326
+SHA256sum: a5c2ceeea78542740c7eb923e75c1dffc851ac4eae19eb5486fe5af5832563bf
+Description:  This package contains the ruby RbConfig.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/rbconfig.rb 
+ - /usr/lib/ruby/3.2/*/rbconfig/*.so
+ 
+
+Package: ruby-rbs
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-logger, ruby-mkmf, ruby-rdoc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 920861
+Filename: ruby-rbs_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 921590
+SHA256sum: fc3b25bbdfcc565499e27263ae6f15244f84deb023bba2ebed4bdf224150b5ee
+Description:  This package contains the ruby RBS provides syntax and semantics definition for the Ruby Signature language.
+ 
+
+Package: ruby-rdoc
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-did-you-mean, ruby-erb, ruby-racc, ruby-ripper, ruby-yaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 593853
+Filename: ruby-rdoc_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 559104
+SHA256sum: c3c535d432f6f916c8f43cc5913cea8017fbbc7ce1ab523888530685262fc801
+Description:  This package contains the ruby RDoc produces HTML and command-line documentation for Ruby projects.
+ 
+
+Package: ruby-readline-ext
+Version: 3.2.2-2
+Depends: libc, ruby, libncurses6, libreadline8
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 11278
+Filename: ruby-readline-ext_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 12015
+SHA256sum: 8470f9ea61c29cf35886b22946f884029fbbf0544f2b83a14162a91b0a4b7581
+Description:  This package contains the ruby support for native GNU readline.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/readline.so 
+ - /usr/lib/ruby/gems/3.2/gems/readline-ext-* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/readline-ext-*.gemspec
+ 
+
+Package: ruby-readline
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-reline
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 915
+Filename: ruby-readline_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 1808
+SHA256sum: 632b337b7e3163cb203971334787c499d8d680f5c219693895b06bdbe0ecdd02
+Description:  This package contains the ruby loads readline-ext(native) or reline(ruby).
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/readline.rb 
+ - /usr/lib/ruby/gems/3.2/gems/readline-0* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/readline-0*.gemspec
+ 
+
+Package: ruby-reline
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-fiddle, ruby-forwardable, ruby-io-console, ruby-tempfile, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 50968
+Filename: ruby-reline_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 51799
+SHA256sum: f9a69f399732af13148cae6fc6ef17ecf22e28c3b0d6da285b6deb2da5325fa5
+Description:  This package contains the ruby alternative to readline-ext in pure ruby.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/reline.rb 
+ - /usr/lib/ruby/3.2/reline 
+ - /usr/lib/ruby/gems/3.2/gems/reline-* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/reline-*.gemspec
+ 
+
+Package: ruby-resolv-replace
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-resolv
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1222
+Filename: ruby-resolv-replace_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2115
+SHA256sum: 1f755a797dac97a9fc6ae3d5a635bf6b355b3104e7900effc598f21f4f4bb34c
+Description:  This package contains the ruby Replace Socket DNS with Resolv.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/resolv-replace.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-resolv
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-securerandom, ruby-timeout
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 17357
+Filename: ruby-resolv_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 18263
+SHA256sum: 9c2e1178757c1e1365e20721f40a25c891cc399e29ac9ba651300b500f0aa5b3
+Description:  This package contains the ruby DNS resolver library.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/resolv.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/resolv-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/resolv-replace*.gemspec
+ 
+
+Package: ruby-rexml
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc, ruby-forwardable, ruby-pp, ruby-set, ruby-stringio, ruby-strscan
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 77529
+Filename: ruby-rexml_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 78564
+SHA256sum: 8c8944fdfc0c439af879f6feba93bd52b180b83027c8aee86fa504f1d26a7780
+Description:  This package contains the ruby XML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/rexml 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-* 
+ - /usr/lib/ruby/gems/3.2/specifications/rexml-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-*/doc 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-*/test 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-*/sample 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-*/*.md 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-*/.travis.yml 
+ - /usr/lib/ruby/gems/3.2/gems/rexml-*/LICENSE.txt
+ 
+
+Package: ruby-rinda
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-drb, ruby-forwardable
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 9957
+Filename: ruby-rinda_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 10832
+SHA256sum: 7d8e930ea28d764fe7dd89710651fa1ae98c2c02842cfb8750012928a71f7585
+Description:  This package contains the ruby Linda paradigm implementation.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/rinda 
+ - /usr/lib/ruby/gems/3.2/specifications/default/rinda-*.gemspec
+ 
+
+Package: ruby-ripper
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 76192
+Filename: ruby-ripper_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 76754
+SHA256sum: 023ac025178effce66ed273fced5180bfebd9c5af7b5ce84b5c9c24ee50d497e
+Description:  This package contains the ruby script parser.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/ripper.rb 
+ - /usr/lib/ruby/3.2/ripper 
+ - /usr/lib/ruby/3.2/*/ripper.so
+ 
+
+Package: ruby-rss
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-english, ruby-nkf, ruby-open-uri, ruby-rexml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 48934
+Filename: ruby-rss_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 49910
+SHA256sum: 33f5ea37a136109cf3b09663f29bd90e24068fd2f981667abde2801314d81bd1
+Description:  This package contains the ruby RSS toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/rss 
+ - /usr/lib/ruby/3.2/rss.rb 
+ - /usr/lib/ruby/gems/3.2/gems/rss-* 
+ - /usr/lib/ruby/gems/3.2/specifications/rss-*.gemspec
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/rss-*/doc 
+ - /usr/lib/ruby/gems/3.2/gems/rss-*/test 
+ - /usr/lib/ruby/gems/3.2/gems/rss-*/sample 
+ - /usr/lib/ruby/gems/3.2/gems/rss-*/*.md 
+ - /usr/lib/ruby/gems/3.2/gems/rss-*/*.txt
+ 
+
+Package: ruby-ruby2_keywords
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 689
+Filename: ruby-ruby2_keywords_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 1567
+SHA256sum: c233b541ec554ba6cb162813580f94fe8b619bb375f3bbdfcd2944e1cc66bd3f
+Description:  This package contains the ruby Placeholder to satisfy dependencies on ruby2_keywords.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/ruby2_keywords-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/ruby2_keywords-*.gemspec
+ 
+
+Package: ruby-securerandom
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-openssl, ruby-random_formatter
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1551
+Filename: ruby-securerandom_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2450
+SHA256sum: fe8995bca987dc22648f9f4909388031097045ac624472c9233846d19f613157
+Description:  This package contains the ruby Secure random number generators.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/securerandom.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/securerandom-*.gemspec
+ 
+
+Package: ruby-set
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-tsort
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 7773
+Filename: ruby-set_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 8657
+SHA256sum: 43809fcff14e512197c647980fadef393f1b5b407a9f3a1abd22bd23e48cd414
+Description:  This package contains the ruby Set collection.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/set.rb 
+ - /usr/lib/ruby/3.2/set/*.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/set-*.gemspec
+ 
+
+Package: ruby-shellwords
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 3483
+Filename: ruby-shellwords_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 4353
+SHA256sum: c350e7668fa64c8aab98e56d264a9663f4c174bb18a11e954a0b03bd59023672
+Description:  This package contains the ruby Manipulate strings as Bourne Shell.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/shellwords.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/shellwords-*.gemspec
+ 
+
+Package: ruby-singleton
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2159
+Filename: ruby-singleton_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3021
+SHA256sum: 7d2f5a2fbd96d5f95bf4a10ded2441eacc448759eca4f92da3ab68bd4fd97e93
+Description:  This package contains the ruby Singleton pattern.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/singleton.rb 
+ - /usr/lib/ruby/3.2/singleton/ 
+ - /usr/lib/ruby/gems/3.2/gems/singleton-* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/singleton-*.gemspec
+ 
+
+Package: ruby-socket
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-io-wait
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 72773
+Filename: ruby-socket_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 73486
+SHA256sum: 6914d85de59453c103485681d5d25c64b7301eb505d4b50ad2d1c2bb42bdbd25
+Description:  This package contains the ruby socket support.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/socket.rb 
+ - /usr/lib/ruby/3.2/*/socket.so
+ 
+
+Package: ruby-stdlib
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-abbrev, ruby-base64, ruby-benchmark, ruby-bigdecimal, ruby-bundler, ruby-cgi, ruby-continuation, ruby-coverage, ruby-csv, ruby-date, ruby-debug, ruby-delegate, ruby-did-you-mean, ruby-digest, ruby-drb, ruby-enc, ruby-enc-extra, ruby-english, ruby-erb, ruby-error_highlight, ruby-etc, ruby-expect, ruby-fcntl, ruby-fiddle, ruby-fileutils, ruby-find, ruby-forwardable, ruby-gems, ruby-getoptlong, ruby-io-console, ruby-io-nonblock, ruby-io-wait, ruby-ipaddr, ruby-irb, ruby-json, ruby-logger, ruby-matrix, ruby-minitest, ruby-mjit, ruby-mkmf, ruby-monitor, ruby-mutex_m, ruby-net-ftp, ruby-net-http, ruby-net-imap, ruby-net-pop, ruby-net-protocol, ruby-net-smtp, ruby-nkf, ruby-objspace, ruby-observer, ruby-open-uri, ruby-open3, ruby-openssl, ruby-optparse, ruby-ostruct, ruby-pathname, ruby-powerassert, ruby-pp, ruby-prettyprint, ruby-prime, ruby-pstore, ruby-psych, ruby-pty, ruby-racc, ruby-rake, ruby-random_formatter, ruby-rbconfig, ruby-rbs, ruby-rdoc, ruby-readline-ext, ruby-readline, ruby-reline, ruby-resolv, ruby-resolv-replace, ruby-rexml, ruby-rinda, ruby-ripper, ruby-rss, ruby-ruby2_keywords, ruby-securerandom, ruby-set, ruby-shellwords, ruby-singleton, ruby-socket, ruby-stringio, ruby-strscan, ruby-syntax_suggest, ruby-syslog, ruby-tempfile, ruby-testunit, ruby-time, ruby-timeout, ruby-tmpdir, ruby-tsort, ruby-typeprof, ruby-unicodenormalize, ruby-un, ruby-uri, ruby-weakref, ruby-yaml, ruby-zlib
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 95
+Filename: ruby-stdlib_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 1466
+SHA256sum: 932ebffcdbb46816080c79e16422b16a03debe07b1137ad96abbdc18d5e83190
+Description:  This metapackage currently install all ruby-* packages,
+ providing a complete Ruby Standard Library.
+ 
+
+Package: ruby-stringio
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 12772
+Filename: ruby-stringio_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 13478
+SHA256sum: 900189b37024353b6ce7dc8cf5302d0ebd5cec2039bc3ced0748abf52ad624ca
+Description:  This package contains the ruby Pseudo `IO` class from/to `String`.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/stringio.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/stringio-*.gemspec
+ 
+
+Package: ruby-strscan
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 9194
+Filename: ruby-strscan_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 9942
+SHA256sum: 0b6859c0b8092e898fc72ccd1784d7dee7fb578a8b9a1e4395462980123c3735
+Description:  This package contains the ruby Lexical scanning operations on a String.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/strscan.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/strscan-*.gemspec
+ 
+
+Package: ruby-syntax_suggest
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-optparse, ruby-pathname, ruby-ripper, ruby-stringio, ruby-timeout, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 21657
+Filename: ruby-syntax_suggest_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 22592
+SHA256sum: 549bc868b0646b3f4fd5be7af9e9d977e93030b4ddc551d807efc50afa9045ab
+Description:  This package contains the ruby Find missing end syntax errors.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/syntax_suggest.rb 
+ - /usr/lib/ruby/3.2/syntax_suggest/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/syntax_suggest-*.gemspec
+ 
+
+Package: ruby-syslog
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-logger
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 7320
+Filename: ruby-syslog_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 8054
+SHA256sum: 236cfab1b7ac8d259100eaf1007f3fd66a329d644a46c86c83b565c04a07e4c2
+Description:  This package contains the ruby Syslog Lib.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/syslog.so 
+ - /usr/lib/ruby/3.2/syslog/logger.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/syslog-*.gemspec
+ 
+
+Package: ruby-tempfile
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-delegate, ruby-tmpdir
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 5384
+Filename: ruby-tempfile_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 6230
+SHA256sum: 1492ab5c416b37845aee9f63e5ea1843727ec5cce2d2cecd5f920d959bb86994
+Description:  This package contains the ruby Manages temporary files.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/tempfile.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/tempfile-*.gemspec
+ 
+
+Package: ruby-testunit
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-csv, ruby-debug, ruby-erb, ruby-powerassert, ruby-rexml, ruby-yaml
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 74003
+Filename: ruby-testunit_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 75007
+SHA256sum: 5fef8226e718f466bdb1d6971f0f3844cc0116adb4ccfefa3c2e912a8f56fa20
+Description:  This package contains the ruby Gem test-unit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/gems/3.2/specifications/test-unit-*.gemspec 
+ - /usr/lib/ruby/gems/3.2/gems/test-unit-*
+ 
+ Except:
+ 
+ - /usr/lib/ruby/gems/3.2/gems/test-unit-*/doc 
+ - /usr/lib/ruby/gems/3.2/gems/test-unit-*/test 
+ - /usr/lib/ruby/gems/3.2/gems/test-unit-*/sample 
+ - /usr/lib/ruby/gems/3.2/gems/test-unit-*/*.md
+ 
+
+Package: ruby-time
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-date
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 7955
+Filename: ruby-time_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 8860
+SHA256sum: e2351bdb9340fc1428e655dc38ba17f68db75259618511908fa2d38902ea05b5
+Description:  This package contains the ruby Extends Time with additional methods for parsing and converting Times.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/time.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/time-*.gemspec
+ 
+
+Package: ruby-timeout
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 3043
+Filename: ruby-timeout_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3926
+SHA256sum: eb059414225bd2a7db7851d23282ba1c0066598762b4eff530c8884c6e136a8e
+Description:  This package contains the ruby Auto-terminate potentially long-running operations.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/timeout.rb 
+ - /usr/lib/ruby/3.2/timeout/ 
+ - /usr/lib/ruby/gems/3.2/gems/timeout-* 
+ - /usr/lib/ruby/gems/3.2/specifications/default/timeout-*.gemspec
+ 
+
+Package: ruby-tmpdir
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-fileutils
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2581
+Filename: ruby-tmpdir_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 3430
+SHA256sum: 2dcd5ef4225b66961af890ba98c5b30d0b4fb3b32df99ff6d0ae6b3f8108fb4c
+Description:  This package contains the ruby Get temp dir path.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/tmpdir.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/tmpdir-*.gemspec
+ 
+
+Package: ruby-tsort
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 3681
+Filename: ruby-tsort_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 4538
+SHA256sum: d8c0f5002272874b10a42087a38fffedd76a6b3954b0a95794d830dc022801e8
+Description:  This package contains the ruby Topological sorting using Tarjan s algorithm.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/tsort.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/tsort-*.gemspec
+ 
+
+Package: ruby-typeprof
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-coverage, ruby-rbs
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 69657
+Filename: ruby-typeprof_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 70646
+SHA256sum: f4b18693ab55f838a7c3742c498292ef6684c7da199cf691265d1a47e2fe3f0e
+Description:  This package contains the ruby A type analysis tool for Ruby code based on abstract interpretation.
+ 
+
+Package: ruby-un
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-irb, ruby-mkmf
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 4305
+Filename: ruby-un_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 5206
+SHA256sum: 242785b7d9a81d39bd00f1ff7687b13f46c6285fad692feb2be794cbf6a814f8
+Description:  This package contains the ruby Utilities to replace common UNIX commands in Makefiles.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/un.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/un-*.gemspec
+ 
+
+Package: ruby-unicodenormalize
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc, ruby-enc-extra
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 46066
+Filename: ruby-unicodenormalize_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 44362
+SHA256sum: 9e6a7ee90dcc01a3dbfe9d3affdfaf70f855f3638bbce62b3bea907547afae0b
+Description:  This package contains the ruby String additions for Unicode normalization.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/unicode_normalize
+ 
+
+Package: ruby-uri
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-enc
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 29352
+Filename: ruby-uri_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 30212
+SHA256sum: 70455945800faadc0804f0054879fb24b4f88a44d263f94ad8c9d52691524a09
+Description:  This package contains the ruby library to handle URI.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/uri.rb 
+ - /usr/lib/ruby/3.2/uri 
+ - /usr/lib/ruby/gems/3.2/gems/uri-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/uri-*.gemspec
+ 
+
+Package: ruby-weakref
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-delegate
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 1339
+Filename: ruby-weakref_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2235
+SHA256sum: 052b97e0b9c299f9602c54ea9b8696ed2f73d4be553f8e54bab9dd8c102510f1
+Description:  This package contains the ruby Weak reference to be garbage collected.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/weakref.rb 
+ - /usr/lib/ruby/gems/3.2/specifications/default/weakref-*.gemspec
+ 
+
+Package: ruby-yaml
+Version: 3.2.2-2
+Depends: libc, ruby, ruby-pstore, ruby-psych
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 4500
+Filename: ruby-yaml_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 5349
+SHA256sum: a17e3fdf7be11729c98942f0f509e2aaa0e29009c2b6709f3022b9790b118c91
+Description:  This package contains the ruby YAML toolkit.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/yaml 
+ - /usr/lib/ruby/3.2/yaml.rb 
+ - /usr/lib/ruby/gems/3.2/gems/yaml-*/ 
+ - /usr/lib/ruby/gems/3.2/specifications/default/yaml-*.gemspec
+ 
+
+Package: ruby-zlib
+Version: 3.2.2-2
+Depends: libc, ruby
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 23280
+Filename: ruby-zlib_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 24037
+SHA256sum: 60248c99299db1dddb0e2a53d3c74063b534058fbc3325407f94e198d0463e73
+Description:  This package contains the ruby compression/decompression library interface.
+ 
+ Provides:
+ 
+ - /usr/lib/ruby/3.2/*/zlib.so 
+ - /usr/lib/ruby/gems/3.2/specifications/default/zlib-*.gemspec
+ 
+
+Package: ruby
+Version: 3.2.2-2
+Depends: libc, libruby3.2
+License: BSD-2-Clause
+Section: lang
+CPE-ID: cpe:/a:ruby-lang:ruby
+Architecture: aarch64_cortex-a72
+Installed-Size: 2023
+Filename: ruby_3.2.2-2_aarch64_cortex-a72.ipk
+Size: 2822
+SHA256sum: 52b469c326776298fdca4491baeca85b38850501575669d53722e9e1c124c0d1
+Description:  Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text files
+ and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ 
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-10
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 2894
+Filename: shadowsocks-libev-config_3.3.5-10_aarch64_cortex-a72.ipk
+Size: 3693
+SHA256sum: 4c16c71d6c2643e41d38b88a80e10a69c13c667c3ea03074f7f80279526cbcf6
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-10
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre2
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 51379
+Filename: shadowsocks-libev-ss-local_3.3.5-10_aarch64_cortex-a72.ipk
+Size: 52034
+SHA256sum: cae86a743e36d63f68eca005fe24973928fc46a33d59c4985dd5f741284ed059
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-10
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 45935
+Filename: shadowsocks-libev-ss-redir_3.3.5-10_aarch64_cortex-a72.ipk
+Size: 46480
+SHA256sum: f4cb95d97212472725e76d7b0653428ad032b0e85cf7fe5fbf47436c8dada322
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-10
+Depends: libc, firewall4, ip, resolveip, ucode, ucode-mod-fs, shadowsocks-libev-ss-redir, shadowsocks-libev-config, kmod-nft-tproxy
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 1878
+Filename: shadowsocks-libev-ss-rules_3.3.5-10_aarch64_cortex-a72.ipk
+Size: 2677
+SHA256sum: 4eb4a443d115f4493b4f48a535b191e22bdd99648a9e23c34ceb482b2fbeac4f
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-10
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libcares, libpcre2
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 56161
+Filename: shadowsocks-libev-ss-server_3.3.5-10_aarch64_cortex-a72.ipk
+Size: 56878
+SHA256sum: 1e0cd8a56ce56415fd568a16c11cf7171ac78cd8596a2ed1e489995c7afb941a
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-10
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 44051
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-10_aarch64_cortex-a72.ipk
+Size: 44629
+SHA256sum: ee35c355b36a9dfc1303777f5ea80c4c71fae4f25fcdbb6bfd41dc5d75d08289
+Description:  shadowsocks-libev ss-tunnel
+
+Package: sing-box
+Version: 1.6.0-1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-tun
+License: GPL-3.0-or-later
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 9123594
+Filename: sing-box_1.6.0-1_aarch64_cortex-a72.ipk
+Size: 9095179
+SHA256sum: 8a0459be557972e0216022c9443eebb8584120b89ecef3b07cc69b475c78a25b
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Architecture: aarch64_cortex-a72
+Installed-Size: 116544
+Filename: unzip_6.0-8_aarch64_cortex-a72.ipk
+Size: 116912
+SHA256sum: fd437a4027bb81fd2ba8a900e9b52a45de0aa966fe29d0d1df190d2d8e75b701
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: xray-core
+Version: 1.8.4-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 8591484
+Filename: xray-core_1.8.4-1_aarch64_cortex-a72.ipk
+Size: 8563226
+SHA256sum: 0cbb511db8d0f95073240ede660e4dfa8167513b908917e199893c8896881dfb
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-example
+Version: 1.8.4-1
+Depends: libc, xray-core
+License: MPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 554
+Filename: xray-example_1.8.4-1_all.ipk
+Size: 1409
+SHA256sum: b2b69f74082b7c29043befbd2febd06cca2cd105785e09273992c0e410be4c44
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
 

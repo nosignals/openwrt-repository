@@ -1,3 +1,69 @@
+Package: luci-app-homeproxy
+Version: 240116.13005
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy
+Section: luci
+Architecture: all
+Installed-Size: 372911
+Filename: luci-app-homeproxy_240116.13005_all.ipk
+Size: 373898
+SHA256sum: 7441cd8fa5cf62bfde4e6470ed676e002c519f18773f4ae0bf8c7d518511babe
+Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+Package: luci-app-ipinfo
+Version: 2.0.1-20240110
+Depends: libc, curl
+Section: luci
+Architecture: all
+Installed-Size: 1627
+Filename: luci-app-ipinfo_2.0.1-20240110_all.ipk
+Size: 2476
+SHA256sum: 2f236ab48b02a225747dba226d71c76dcb2dcb73adb188d61b8b3eeaccff8d4d
+Description:  Displays IP address information in overview via ifconfig.co
+
+Package: luci-app-openclash
+Version: 0.45.157-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 5618016
+Filename: luci-app-openclash_0.45.157-beta_all.ipk
+Size: 5595123
+SHA256sum: c3fe26b9dd1680ecfb93d26773cb0c3478d839c96529e023d3bf55a9f2194e94
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall
+Version: 4.72-2
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, haproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, sing-box, trojan-plus, v2ray-plugin, xray-core, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 955078
+Filename: luci-app-passwall_4.72-2_all.ipk
+Size: 955914
+SHA256sum: 01113d7a70e6c5633bd82106b9fd091022d82bfb09c5c5601979e41c0a74a8af
+Description:  LuCI support for PassWall
+
+Package: luci-i18n-homeproxy-zh-cn
+Version: 240116.13005
+Depends: libc, luci-app-homeproxy
+Section: luci
+Architecture: all
+Installed-Size: 11100
+Filename: luci-i18n-homeproxy-zh-cn_240116.13005_all.ipk
+Size: 11928
+SHA256sum: 9dc6a09f31ade09ea40b52c3ec5c27df9e38e4cbd71bb7d8174db9e1a9dd804b
+Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-passwall-zh-cn
+Version: 240116.13005
+Depends: libc, luci-app-passwall
+Section: luci
+Architecture: all
+Installed-Size: 12588
+Filename: luci-i18n-passwall-zh-cn_240116.13005_all.ipk
+Size: 13372
+SHA256sum: e3de65683db5beebc5a8769f66dc64c0f35537dfd0809cef60d1f58639391d8e
+Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
+
 Package: luci-theme-alpha
 Version: 3.9.1-beta-9
 Depends: libc

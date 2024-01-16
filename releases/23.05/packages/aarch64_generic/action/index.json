@@ -1,1 +1,1 @@
-{"architecture": "aarch64_generic", "packages":{"luci-theme-alpha": "3.9.1-beta-9"}}
+{"architecture": "aarch64_generic", "packages":{"luci-app-homeproxy": "240116.13006", "luci-app-ipinfo": "2.0.1-20240110", "luci-app-openclash": "0.45.157-beta", "luci-app-passwall": "4.72-2", "luci-i18n-homeproxy-zh-cn": "240116.13006", "luci-i18n-passwall-zh-cn": "240116.13006", "luci-theme-alpha": "3.9.1-beta-9"}}
