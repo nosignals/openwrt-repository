@@ -53,7 +53,7 @@ jobs:
           fi
         }
         function mv_clone(){
-        mv -n $1/$1 ./; rm -rf $1/$1
+          mv -n $1/$1 ./; rm -rf $1/$1
         }
         # Tutor Singkat Nambahin App Dari Repo Lain
         # 1. Salin URL Repo yang mau di tambahkan
