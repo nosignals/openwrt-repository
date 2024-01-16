@@ -71,7 +71,7 @@ jobs:
           path: list_packages.txt
 
       - name: List Compiled Packages
-        run: echo "Compiled Packages | ${{ steps.list_package.outputs.content }}"
+        run: echo "Compiled Packages | ${{ steps.list_package.outputs.content }} ${{ inputs.compile_pkg }}"
         
       - name: Creating Directory
         run: mkdir artifacts
