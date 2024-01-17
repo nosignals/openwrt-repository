@@ -27,19 +27,3 @@ Custom Repository for OpenWRT
      ```
 3. Run ` opkg update ` at ` Terminal ` or ` Update List ` at LUCI Dashboard ` System > Software `
    
-
-### Package List
-| Packages | Description |
-| ---- | ---- |
-| [luci-app-ipinfo][] | Shows public ip information in Overview LuCI with ifconfig.co |
-| [luci-theme-alpha][] | Luci theme for Official Openwrt and Alpha OS build ,based on bootstrap and material luCi theme refferences |
-| [luci-app-openclash][] | Clash based Proxy |
-| [luci-app-passwall][] | v2ray, xray, hysteria Proxy |
-| [luci-app-homeproxy][] | singbox based Proxy |
-
-
-[luci-app-ipinfo]: https://github.com/animegasan/luci-app-ipinfo
-[luci-theme-alpha]: https://github.com/derisamedia/luci-theme-alpha
-[luci-app-openclash]: https://github.com/vernesong/OpenClash
-[luci-app-passwall]: https://github.com/xiaorouji/openwrt-passwall
-[luci-app-homeproxy]: https://github.com/douglarek/luci-app-homeproxy
