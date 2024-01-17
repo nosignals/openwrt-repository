@@ -39,7 +39,7 @@ jobs:
   build_ipk:
     permissions:
       contents: write
-    name: AutoCompiler OpenWrt Packages
+    name: AutoCompiler
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -120,8 +120,10 @@ jobs:
               vers=$(echo $vr | sed 's/..$//')
               for arc in ${archi[*]} 
                 do
+                  rm -rf releases/$vers/packages/$arc
                   mkdir -p releases/$vers/packages/$arc
                   cp -rf openwrt_$vr\_$arc/* releases/$vers/packages/$arc
+                  rm -rf releases/$vers/packages/$arc/routing releases/$vers/packages/$arc/telephony
                 done
             done
           
