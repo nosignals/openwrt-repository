@@ -14,7 +14,7 @@ SHA256sum: be8119247bb8b68ab6e6eb256e947c57c053d105ed31d53b8526c364268a2c8d
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-homeproxy
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Source: /feed/luci-app-homeproxy
 SourceName: luci-app-homeproxy
@@ -23,9 +23,9 @@ SourceDateEpoch: 1682627295
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 372917
-Filename: luci-app-homeproxy_240116.63435_all.ipk
-Size: 373906
-SHA256sum: 9f3d7c5de5951d2f7225563c6038dd575ec3ef096268c27c32fa1164898bb3f6
+Filename: luci-app-homeproxy_240117.09213_all.ipk
+Size: 373905
+SHA256sum: 2f591e8678f57929824e0e64e4a13616c0eae087b8c1799c71e66ebcf2e8c3df
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-ipinfo
@@ -119,7 +119,7 @@ SHA256sum: e7af830b61503cde42283bffe8fab82e6bccf0aeb5568e56f50170b2c78f02b6
 Description:  A Web based File Manager in PHP
 
 Package: luci-i18n-argon-config-es
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-argon-config
 Source: /feed/luci-app-argon-config
 SourceName: luci-i18n-argon-config-es
@@ -128,13 +128,13 @@ SourceDateEpoch: 1682627295
 Maintainer: jerrykuku <jerrykuku@qq.com>
 Architecture: all
 Installed-Size: 681
-Filename: luci-i18n-argon-config-es_240116.63435_all.ipk
-Size: 1500
-SHA256sum: b14dda66cb5f454c3be26ebee4a3ab7274d247da186a033008c01c6281ed8871
+Filename: luci-i18n-argon-config-es_240117.09213_all.ipk
+Size: 1498
+SHA256sum: a6eff96b0156ccc91e2693fd60bee648f7e9ba236aaf8050efa89413780c90a7
 Description:  Translation for luci-app-argon-config - Español (Spanish)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-argon-config
 Source: /feed/luci-app-argon-config
 SourceName: luci-i18n-argon-config-zh-cn
@@ -143,13 +143,13 @@ SourceDateEpoch: 1682627295
 Maintainer: jerrykuku <jerrykuku@qq.com>
 Architecture: all
 Installed-Size: 1447
-Filename: luci-i18n-argon-config-zh-cn_240116.63435_all.ipk
+Filename: luci-i18n-argon-config-zh-cn_240117.09213_all.ipk
 Size: 2304
-SHA256sum: 41131ead6420d18be3946b8d130d3633b0b76af34f6efb4926b59b6c2fb0c379
+SHA256sum: 57adf4340dbec8094640b68452ba52f7001ae5bcf3f5958554dd4b47ff45bcc8
 Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argon-config-zh-tw
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-argon-config
 Source: /feed/luci-app-argon-config
 SourceName: luci-i18n-argon-config-zh-tw
@@ -158,13 +158,13 @@ SourceDateEpoch: 1682627295
 Maintainer: jerrykuku <jerrykuku@qq.com>
 Architecture: all
 Installed-Size: 690
-Filename: luci-i18n-argon-config-zh-tw_240116.63435_all.ipk
-Size: 1533
-SHA256sum: 133f94f16157d55c4dcdad645ee5b383aebbf28e1da220476e85dc9574c3785d
+Filename: luci-i18n-argon-config-zh-tw_240117.09213_all.ipk
+Size: 1535
+SHA256sum: 0c9bb80cb27a2864cf13af349f55612791f07f81265618ac3be73155facaa9b1
 Description:  Translation for luci-app-argon-config - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-homeproxy
 Source: /feed/luci-app-homeproxy
 SourceName: luci-i18n-homeproxy-zh-cn
@@ -172,13 +172,13 @@ Section: luci
 SourceDateEpoch: 1682627295
 Architecture: all
 Installed-Size: 11094
-Filename: luci-i18n-homeproxy-zh-cn_240116.63435_all.ipk
-Size: 11932
-SHA256sum: 2e793fed8fbd78c11c88ff9616cbeb73be9950a9a00a28c9013018064c4d87e8
+Filename: luci-i18n-homeproxy-zh-cn_240117.09213_all.ipk
+Size: 11934
+SHA256sum: b76e3ff65bbb05c5234707589d758fce14cce8a4ab80d31ca1d97675ccea6047
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-passwall
 Source: /feed/luci-app-passwall
 SourceName: luci-i18n-passwall-zh-cn
@@ -186,13 +186,13 @@ Section: luci
 SourceDateEpoch: 1682627295
 Architecture: all
 Installed-Size: 12585
-Filename: luci-i18n-passwall-zh-cn_240116.63435_all.ipk
-Size: 13367
-SHA256sum: 9299fa37bdcdb20bd2e1df7ce3e66634bd261ac59d39cb05c724f4cd1dada397
+Filename: luci-i18n-passwall-zh-cn_240117.09213_all.ipk
+Size: 13371
+SHA256sum: 1acd58b7270906a9a531b0907a2f3ce237f74f7240ddf7cd26fe552d30b3d30a
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-passwall2
 Source: /feed/luci-app-passwall2
 SourceName: luci-i18n-passwall2-zh-cn
@@ -200,13 +200,13 @@ Section: luci
 SourceDateEpoch: 1682627295
 Architecture: all
 Installed-Size: 11977
-Filename: luci-i18n-passwall2-zh-cn_240116.63435_all.ipk
-Size: 12750
-SHA256sum: 4387ea4e4d1ea9845d97b77a8f4eff2c83627b58fdc386bee57f1dfc7cab0adb
+Filename: luci-i18n-passwall2-zh-cn_240117.09213_all.ipk
+Size: 12751
+SHA256sum: 1a008d6eafd21089e5d4d17790ffe4703492359260e326d051dc84af353da7d4
 Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tinyfilemanager-zh-cn
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-tinyfilemanager
 Source: /feed/luci-app-tinyfilemanager
 SourceName: luci-i18n-tinyfilemanager-zh-cn
@@ -214,13 +214,13 @@ Section: luci
 SourceDateEpoch: 1682627295
 Architecture: all
 Installed-Size: 1153
-Filename: luci-i18n-tinyfilemanager-zh-cn_240116.63435_all.ipk
-Size: 1974
-SHA256sum: 445a1ec83b770321283d0f487a7b8b397509064d5f8a7b1b831e6c695e26578f
+Filename: luci-i18n-tinyfilemanager-zh-cn_240117.09213_all.ipk
+Size: 1969
+SHA256sum: 0de03d4344a914cd675ad9e9f0ccbafed79b10b709ecf04081a85daf4f3ca3f1
 Description:  Translation for luci-app-tinyfilemanager - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tinyfilemanager-zh-tw
-Version: 240116.63435
+Version: 240117.09213
 Depends: libc, luci-app-tinyfilemanager
 Source: /feed/luci-app-tinyfilemanager
 SourceName: luci-i18n-tinyfilemanager-zh-tw
@@ -228,9 +228,9 @@ Section: luci
 SourceDateEpoch: 1682627295
 Architecture: all
 Installed-Size: 1164
-Filename: luci-i18n-tinyfilemanager-zh-tw_240116.63435_all.ipk
+Filename: luci-i18n-tinyfilemanager-zh-tw_240117.09213_all.ipk
 Size: 1986
-SHA256sum: 57e3cffe602ddcbbb236d9059b763e8d640a0e5981e1bd095710489d9720485a
+SHA256sum: d30086260067c84b316edf556b939a00c94bf6f3abb77e7807b79b4c430848d9
 Description:  Translation for luci-app-tinyfilemanager - 繁體中文 (Chinese Traditional)
 
 Package: luci-theme-alpha
