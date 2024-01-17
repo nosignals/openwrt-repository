@@ -82,6 +82,7 @@ jobs:
           ARCH: ${{ matrix.arch }}-${{ matrix.release }}
           ARTIFACTS_DIR: ${{ github.workspace }}/artifacts
           FEED_DIR: ${{ github.workspace }}/feeds
+          EXTRA_FEEDS: src-link|addon_packages|/feed/feeds/packages/ src-link|addon_luci|/feed/feeds/luci/
           PACKAGES: ${{ steps.list_package.outputs.content}} ${{ inputs.compile_pkg }}
           INDEX: 1
         
