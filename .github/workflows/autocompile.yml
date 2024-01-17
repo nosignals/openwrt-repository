@@ -24,6 +24,12 @@ on:
         default: ''
         type: string
         
+      verbose:
+        description: 'Verbose (default : 0)'
+        required: false
+        default: '0'
+        type: string
+        
       without_pages:
         description: 'Dont deploy pages'
         required: true
@@ -84,6 +90,7 @@ jobs:
           FEED_DIR: ${{ github.workspace }}/feeds
           PACKAGES: ${{ steps.list_package.outputs.content}} ${{ inputs.compile_pkg }}
           INDEX: 1
+          V: ${{ inputs.verbose }}
         
       - name: Delivering Package
         uses: actions/upload-artifact@v3
