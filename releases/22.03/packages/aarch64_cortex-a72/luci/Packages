@@ -36,6 +36,18 @@ Size: 8909
 SHA256sum: 6bdced0ce9fefb04ffd19f68ddc24c828cad57a56d5854f3d509888ab90bf01c
 Description:  LuCI HTTP utility library
 
+Package: luci-app-mwan3
+Version: git-23.093.40772-fa4dc75
+Depends: libc, mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 8555
+Filename: luci-app-mwan3_git-23.093.40772-fa4dc75_all.ipk
+Size: 9423
+SHA256sum: f96d9d8a906e456d4132c3b3c0a937a9a887bc73c26d378f59fe048958345332
+Description:  LuCI support for the MWAN3 MultiWAN Manager
+
 Package: luci-app-nlbwmon
 Version: git-23.013.73652-e29915d
 Depends: libc, luci-compat, nlbwmon
@@ -477,6 +489,402 @@ Filename: luci-i18n-base-zh-tw_git-23.093.43731-b672b90_all.ipk
 Size: 48180
 SHA256sum: d29083cb74604d34f98f35190c60dc5e5bd9672dd5e5ec58d152ff1cfbb738e0
 Description:  Translation for luci-base - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-mwan3-ar
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 944
+Filename: luci-i18n-mwan3-ar_git-23.093.43731-b672b90_all.ipk
+Size: 1811
+SHA256sum: f16f0011e6b7375aa7be694a8c48466a8bcc2e4f25fe1ac62954e75c6b8fd59d
+Description:  Translation for luci-app-mwan3 - العربية (Arabic)
+
+Package: luci-i18n-mwan3-bg
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 840
+Filename: luci-i18n-mwan3-bg_git-23.093.43731-b672b90_all.ipk
+Size: 1718
+SHA256sum: cce74b6ddff5b14f221a93c0d857c59b472ddfd903b0cbbf789b60f4c78c04c9
+Description:  Translation for luci-app-mwan3 - български (Bulgarian)
+
+Package: luci-i18n-mwan3-bn
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 761
+Filename: luci-i18n-mwan3-bn_git-23.093.43731-b672b90_all.ipk
+Size: 1626
+SHA256sum: b93ee446975035c80c96fbb65df0ba95f37afc12c538950ebea24bcbf583ab0f
+Description:  Translation for luci-app-mwan3 - বাংলা (Bengali)
+
+Package: luci-i18n-mwan3-ca
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 515
+Filename: luci-i18n-mwan3-ca_git-23.093.43731-b672b90_all.ipk
+Size: 1365
+SHA256sum: a5467db2d647f23e0961fb1cb4e60d0f5c39bb86f4d030a8f68e287652156be9
+Description:  Translation for luci-app-mwan3 - Català (Catalan)
+
+Package: luci-i18n-mwan3-cs
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 1149
+Filename: luci-i18n-mwan3-cs_git-23.093.43731-b672b90_all.ipk
+Size: 2006
+SHA256sum: e768231c41ebcb0170b7461cc016aa0b3aee689042ccca137c4e8587a5dc2cef
+Description:  Translation for luci-app-mwan3 - Čeština (Czech)
+
+Package: luci-i18n-mwan3-da
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 832
+Filename: luci-i18n-mwan3-da_git-23.093.43731-b672b90_all.ipk
+Size: 1690
+SHA256sum: 0f12d6e3ad0ad7aecb82ec13705c2e3c43a0da14d56a51c3b52b11b43c66f469
+Description:  Translation for luci-app-mwan3 - Dansk (Danish)
+
+Package: luci-i18n-mwan3-de
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4775
+Filename: luci-i18n-mwan3-de_git-23.093.43731-b672b90_all.ipk
+Size: 5604
+SHA256sum: 9deee76570e9b2536d586ecf979d8073578e095d18363d41c56e5240ad1e3dc8
+Description:  Translation for luci-app-mwan3 - Deutsch (German)
+
+Package: luci-i18n-mwan3-el
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 933
+Filename: luci-i18n-mwan3-el_git-23.093.43731-b672b90_all.ipk
+Size: 1802
+SHA256sum: ec04a52802c9b2799270486be5246c0f46504eeac57b639c7aca0e28e305d645
+Description:  Translation for luci-app-mwan3 - Ελληνικά (Greek)
+
+Package: luci-i18n-mwan3-en
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 351
+Filename: luci-i18n-mwan3-en_git-23.093.43731-b672b90_all.ipk
+Size: 1195
+SHA256sum: c41c3789bec1d727ba478cf5918d098b5fe4032173833bdf5390ac0e667eee87
+Description:  Translation for luci-app-mwan3 - English
+
+Package: luci-i18n-mwan3-es
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4861
+Filename: luci-i18n-mwan3-es_git-23.093.43731-b672b90_all.ipk
+Size: 5699
+SHA256sum: 97e7f110619999afa8341683e7a5c6d1edb063cc21f3334f87f4e66a9ce2a254
+Description:  Translation for luci-app-mwan3 - Español (Spanish)
+
+Package: luci-i18n-mwan3-fi
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 923
+Filename: luci-i18n-mwan3-fi_git-23.093.43731-b672b90_all.ipk
+Size: 1765
+SHA256sum: 7902b0271cee26ef5b1ae1fa8cbd9eb0e48081779b89115e40b3de2f6c577752
+Description:  Translation for luci-app-mwan3 - Suomi (Finnish)
+
+Package: luci-i18n-mwan3-fr
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 3039
+Filename: luci-i18n-mwan3-fr_git-23.093.43731-b672b90_all.ipk
+Size: 3857
+SHA256sum: abe0475f3c74b78a9fd9a906059dd584343af67db04aaff1357686ada7a6ee52
+Description:  Translation for luci-app-mwan3 - Français (French)
+
+Package: luci-i18n-mwan3-he
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 503
+Filename: luci-i18n-mwan3-he_git-23.093.43731-b672b90_all.ipk
+Size: 1374
+SHA256sum: 8a8e24dc450ddb697d4d6b6e425d739bab4d00ad7cf7fbfe24cd8b8ad67bec03
+Description:  Translation for luci-app-mwan3 - עִבְרִית (Hebrew)
+
+Package: luci-i18n-mwan3-hi
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 426
+Filename: luci-i18n-mwan3-hi_git-23.093.43731-b672b90_all.ipk
+Size: 1289
+SHA256sum: 200f5aa41ae45bf7c04de2dcd75ade6950c2d594a84cace1eecfbf4c4576720e
+Description:  Translation for luci-app-mwan3 - हिंदी (Hindi)
+
+Package: luci-i18n-mwan3-hu
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 3106
+Filename: luci-i18n-mwan3-hu_git-23.093.43731-b672b90_all.ipk
+Size: 3923
+SHA256sum: 8e6e6abd8dabd5c4778920eef5bd5161e3f0982d154b3bdc23a62bac716fc991
+Description:  Translation for luci-app-mwan3 - Magyar (Hungarian)
+
+Package: luci-i18n-mwan3-it
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 1047
+Filename: luci-i18n-mwan3-it_git-23.093.43731-b672b90_all.ipk
+Size: 1884
+SHA256sum: afa4711077c75a48e3ec95c5bb1ae26def2891ca779a66bfa7485529426c9068
+Description:  Translation for luci-app-mwan3 - Italiano (Italian)
+
+Package: luci-i18n-mwan3-ja
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 3246
+Filename: luci-i18n-mwan3-ja_git-23.093.43731-b672b90_all.ipk
+Size: 4086
+SHA256sum: 464d8550e820dca4054ba63bfb15d1954005cd6be1912748271eafe86a849261
+Description:  Translation for luci-app-mwan3 - 日本語 (Japanese)
+
+Package: luci-i18n-mwan3-ko
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 712
+Filename: luci-i18n-mwan3-ko_git-23.093.43731-b672b90_all.ipk
+Size: 1578
+SHA256sum: 866db749af298ac7e664082b414799fa3e0bc5599a52a728cf424e9b601f48c5
+Description:  Translation for luci-app-mwan3 - 한국어 (Korean)
+
+Package: luci-i18n-mwan3-mr
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 628
+Filename: luci-i18n-mwan3-mr_git-23.093.43731-b672b90_all.ipk
+Size: 1488
+SHA256sum: 6db73bc7c727f44ba58a6fe2a6e2631fb17f029c59964f44e280652306ae374e
+Description:  Translation for luci-app-mwan3 - Marāṭhī (Marathi)
+
+Package: luci-i18n-mwan3-ms
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 362
+Filename: luci-i18n-mwan3-ms_git-23.093.43731-b672b90_all.ipk
+Size: 1210
+SHA256sum: 995a53c85caac8c75a2418c437366cdb02049bb29b2f12d2de48435a3f242432
+Description:  Translation for luci-app-mwan3 - Bahasa Melayu (Malay)
+
+Package: luci-i18n-mwan3-no
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 612
+Filename: luci-i18n-mwan3-no_git-23.093.43731-b672b90_all.ipk
+Size: 1450
+SHA256sum: 2a09c88d2ccc400c5025f4b52e48151d97a228c8db968e9537fe85e4f7add956
+Description:  Translation for luci-app-mwan3 - Norsk (Norwegian)
+
+Package: luci-i18n-mwan3-pl
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 5055
+Filename: luci-i18n-mwan3-pl_git-23.093.43731-b672b90_all.ipk
+Size: 5884
+SHA256sum: 16a6341a68fc81655b05d1359edccd3b23d880c5594a906b74ba1d6989291aac
+Description:  Translation for luci-app-mwan3 - Polski (Polish)
+
+Package: luci-i18n-mwan3-pt-br
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4841
+Filename: luci-i18n-mwan3-pt-br_git-23.093.43731-b672b90_all.ipk
+Size: 5694
+SHA256sum: 52e7a226bbd5fa2597cde7b30c06008e01bb78f347917a1d2f9cbbc53d83975b
+Description:  Translation for luci-app-mwan3 - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-mwan3-pt
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4683
+Filename: luci-i18n-mwan3-pt_git-23.093.43731-b672b90_all.ipk
+Size: 5521
+SHA256sum: d4620989561d685ee35bf0179092a93af958afcc79372c581367564bbc7c60e3
+Description:  Translation for luci-app-mwan3 - Português (Portuguese)
+
+Package: luci-i18n-mwan3-ro
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4976
+Filename: luci-i18n-mwan3-ro_git-23.093.43731-b672b90_all.ipk
+Size: 5811
+SHA256sum: 2413af8ed29992e49ed667a32bf1f8222757026bab706d7c85ba31365728679a
+Description:  Translation for luci-app-mwan3 - Română (Romanian)
+
+Package: luci-i18n-mwan3-ru
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 5699
+Filename: luci-i18n-mwan3-ru_git-23.093.43731-b672b90_all.ipk
+Size: 6531
+SHA256sum: 72027de46ff8cc4e0abe14c8dbc2044e69f76cf54be2c3869680882a7de27229
+Description:  Translation for luci-app-mwan3 - Русский (Russian)
+
+Package: luci-i18n-mwan3-sk
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 853
+Filename: luci-i18n-mwan3-sk_git-23.093.43731-b672b90_all.ipk
+Size: 1714
+SHA256sum: cbb1fb9ef3fce448a59a82528670755bfaa9797d4289ac99c3cbc310bb39f180
+Description:  Translation for luci-app-mwan3 - Slovenčina (Slovak)
+
+Package: luci-i18n-mwan3-sv
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 880
+Filename: luci-i18n-mwan3-sv_git-23.093.43731-b672b90_all.ipk
+Size: 1729
+SHA256sum: db561d2491a4e98fd766845a047423fa3c67782efc9d9134854fd5a091f41e33
+Description:  Translation for luci-app-mwan3 - Svenska (Swedish)
+
+Package: luci-i18n-mwan3-tr
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4851
+Filename: luci-i18n-mwan3-tr_git-23.093.43731-b672b90_all.ipk
+Size: 5688
+SHA256sum: a1ca19024d1d464b16493067b7cd813229b2b44d2a060ee475b6d2b6eef624d6
+Description:  Translation for luci-app-mwan3 - Türkçe (Turkish)
+
+Package: luci-i18n-mwan3-uk
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 1153
+Filename: luci-i18n-mwan3-uk_git-23.093.43731-b672b90_all.ipk
+Size: 2033
+SHA256sum: 47020ecb3ec443f14cbd7b94cd9ae26da6730c811544989d09896b5145296096
+Description:  Translation for luci-app-mwan3 - Українська (Ukrainian)
+
+Package: luci-i18n-mwan3-vi
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 517
+Filename: luci-i18n-mwan3-vi_git-23.093.43731-b672b90_all.ipk
+Size: 1377
+SHA256sum: 68c362e7be8f2ebeb1d8e3a700b9f240d0a1b1441eecc3d518e2eae90891653c
+Description:  Translation for luci-app-mwan3 - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-mwan3-zh-cn
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4750
+Filename: luci-i18n-mwan3-zh-cn_git-23.093.43731-b672b90_all.ipk
+Size: 5601
+SHA256sum: 66bcc6d570c14d1199c37d28bc13f5c5d7f6a37a1967f53052c07b1c8d33bec2
+Description:  Translation for luci-app-mwan3 - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-mwan3-zh-tw
+Version: git-23.093.43731-b672b90
+Depends: libc, luci-app-mwan3
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 4822
+Filename: luci-i18n-mwan3-zh-tw_git-23.093.43731-b672b90_all.ipk
+Size: 5676
+SHA256sum: 0c43311e529fa0b6da264359782d170762c9cb83760bc2c0ee80445c53c85531
+Description:  Translation for luci-app-mwan3 - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-nlbwmon-ar
 Version: git-23.090.61754-f7f34d4

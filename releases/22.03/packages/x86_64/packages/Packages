@@ -1822,6 +1822,21 @@ Size: 59210
 SHA256sum: 2308f9eccebcad9ac856f21d8235c20ea8210e094bccd53a2cc59c06c6ec71fd
 Description:  A client-side URL transfer utility
 
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: x86_64
+Installed-Size: 5086
+Filename: etherwake_1.09-5_x86_64.ipk
+Size: 5980
+SHA256sum: 9866adb5de63edc505f10fb18aea2e06152a6b4ae80234fb5b3b59d4d6d495d8
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
 Package: gnutls-utils
 Version: 3.7.1-2
 Depends: libc, libgnutls, libgnutls-dane
@@ -2799,6 +2814,20 @@ Filename: libzip-openssl_1.8.0-4_x86_64.ipk
 Size: 45334
 SHA256sum: 2e8baf46b86db2ebc6c40f025f1f6e335309efcd5e213d4d13657b17b62ba48e
 Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: mwan3
+Version: 2.11.4-1
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 22202
+Filename: mwan3_2.11.4-1_all.ipk
+Size: 23213
+SHA256sum: bcf7b6d5638492d08f98abd56c42525cf5454f3db1ca5cdaceef5932c114e26e
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
 
 Package: nlbwmon
 Version: 2021-09-01-d82c910c-1

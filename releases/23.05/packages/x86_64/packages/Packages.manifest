@@ -2472,6 +2472,25 @@ Size: 66014
 SHA256sum: c786dea8677c3f70ff3952e647dd61c643d1f195943561fdd1fd1ed818a89f7a
 Description:  A client-side URL transfer utility
 
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+SourceDateEpoch: 1613865735
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: x86_64
+Installed-Size: 5053
+Filename: etherwake_1.09-5_x86_64.ipk
+Size: 5937
+SHA256sum: 886e540e2dadc8a637d4b0ab83cd92db2feba4e60d8b3e66f80a83429bdcd6ad
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
 Package: gnutls-utils
 Version: 3.8.0-3
 Depends: libc, libgnutls, libgnutls-dane
@@ -3729,6 +3748,24 @@ Size: 6354
 SHA256sum: e19492ab0e18db2d6ce53fb5fe7f6305248f0ef1915703eb177af4221e07afc1
 Description:  Low resource SOCKS5 proxy.
  Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mwan3
+Version: 2.11.8-1
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Source: feeds/packages/net/mwan3
+SourceName: mwan3
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1694527634
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 22117
+Filename: mwan3_2.11.8-1_all.ipk
+Size: 23131
+SHA256sum: cec4da64372e9ae5dc75bc92edcaf4e1f5ab2bfa56a19f58d41ac030c856a2d5
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
 
 Package: nlbwmon
 Version: 2021-09-01-d82c910c-1

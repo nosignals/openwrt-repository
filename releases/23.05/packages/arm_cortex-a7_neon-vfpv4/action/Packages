@@ -1,3 +1,27 @@
+Package: ddns-go
+Version: 1576b7bf-1
+Depends: libc, ca-bundle
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3447832
+Filename: ddns-go_1576b7bf-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3443455
+SHA256sum: 65193fb4c15668e8b015b3defb4b0a6dfab465c79a27fc721cc56883e94b922f
+Description:  ddns-go is a automatically obtain your public IPv4 or IPv6 address and resolve it to the corresponding domain name service,
+ support Alidns Dnspod Cloudflare Hicloud Callback Baiducloud porkbun GoDaddy Google Domains.
+
+Package: luci-app-advanced
+Version: 1.20-20220218
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 12576
+Filename: luci-app-advanced_1.20-20220218_all.ipk
+Size: 13269
+SHA256sum: 45ee5a0fa7732be1c7fff4ba7d61644785214b0e8dc5e54b949124dbcfb072ab
+Description:  LuCI Support for advanced and filebrowser
+
 Package: luci-app-argon-config
 Version: 1.0
 Depends: libc, luci-theme-argon
@@ -9,15 +33,37 @@ Size: 3966
 SHA256sum: 823048b14bd82df7fd0fdf7360f5b085f089805d846de5ae3656f08b0271959f
 Description:  LuCI app for Argon theme configuration
 
+Package: luci-app-cpufreq
+Version: 240117.30436
+Depends: libc, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 2998
+Filename: luci-app-cpufreq_240117.30436_all.ipk
+Size: 3803
+SHA256sum: f97b06b2b6f5e9e8b5a7bb45179edc3284fce35c9ca19620d4a8df2fc935f3ca
+Description:  LuCI for CPU Freq Setting
+
+Package: luci-app-ddns-go
+Version: 1.4.1
+Depends: libc, ddns-go, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 3289
+Filename: luci-app-ddns-go_1.4.1_all.ipk
+Size: 4152
+SHA256sum: 3fbd0b9bd09cb3eba5ccb29dc4b859b96df5df50ab8c708fc7191b22f0e661e6
+Description:  LuCI Support for Dynamic ddns-go Client
+
 Package: luci-app-homeproxy
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Section: luci
 Architecture: all
 Installed-Size: 372911
-Filename: luci-app-homeproxy_240117.09213_all.ipk
+Filename: luci-app-homeproxy_240117.30436_all.ipk
 Size: 373900
-SHA256sum: 8fba6bd03c26170489079519ed4205b278c32d97e5b62ea9ca2c144b9f649824
+SHA256sum: eecddee8cb4fe513a515717f3bc2793b859c3d51e8aceb01ae7697a051890d21
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-ipinfo
@@ -75,6 +121,17 @@ Size: 361163
 SHA256sum: 1085c59d96377d38118f14929cc5f10d6e4a13b62e3f09dc67fd1d02a3a00b0b
 Description:  LuCI support for Quickstart
 
+Package: luci-app-syncdial
+Version: 2.0
+Depends: libc, kmod-macvlan, luci-app-mwan3, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 5816
+Filename: luci-app-syncdial_2.0_all.ipk
+Size: 6638
+SHA256sum: 9c809ecd80a831ba2b390ad1e3bad44be48ce1cfc7f63713602ad8f9fc31efeb
+Description:  Virtual WAN config generator
+
 Package: luci-app-tinyfilemanager
 Version: 2.5.3-20231119
 Depends: libc, php8, php8-cgi, php8-fastcgi, php8-fpm, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, coreutils-stat, zoneinfo-asia, bash, curl, tar
@@ -86,93 +143,175 @@ Size: 1218293
 SHA256sum: 13f80d9b6b581e6103fc2249f802a633771ced980f6e4f5bf95e71e3e9287415
 Description:  A Web based File Manager in PHP
 
+Package: luci-app-wizard
+Version: 240117.30436
+Depends: libc
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 3814
+Filename: luci-app-wizard_240117.30436_all.ipk
+Size: 4660
+SHA256sum: 10d8726d303ca40748e8b80cf3ffaef68cf709f1ec5a50446bcd3c3161b18939
+Description:  LuCI Support for wizard
+
+Package: luci-app-wolplus
+Version: 1.0.2
+Depends: libc, etherwake, luci-lua-runtime
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 2167
+Filename: luci-app-wolplus_1.0.2_all.ipk
+Size: 3038
+SHA256sum: ce68f44989c6b2bd8e326a5551ed327a28314e626c1b547165562ecd0204c4f4
+Description:  LuCI support for Wakeup-On-Lan-plus
+
 Package: luci-i18n-argon-config-es
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 682
-Filename: luci-i18n-argon-config-es_240117.09213_all.ipk
+Filename: luci-i18n-argon-config-es_240117.30436_all.ipk
 Size: 1502
-SHA256sum: ee0cb05776f2725477a458619a1a55c748918bb47628395120039ef4bb01fbe4
+SHA256sum: d4aaa36d3e1b339613e7dcfb0c508b61d8cdaa90fe13fef3548b1e25fd666b06
 Description:  Translation for luci-app-argon-config - Español (Spanish)
 
 Package: luci-i18n-argon-config-zh-cn
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 1448
-Filename: luci-i18n-argon-config-zh-cn_240117.09213_all.ipk
-Size: 2306
-SHA256sum: 2cf10ae2b619fb2b58cd9fee0f8a857f4ae3b16030f238020568d017491e6515
+Filename: luci-i18n-argon-config-zh-cn_240117.30436_all.ipk
+Size: 2301
+SHA256sum: c22a9bb5c66942ceafefcfaea8ac03fb01c0ba05a5fb72cc9091a6ec1f0473ea
 Description:  Translation for luci-app-argon-config - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-argon-config-zh-tw
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-argon-config
 Section: luci
 Architecture: all
 Installed-Size: 692
-Filename: luci-i18n-argon-config-zh-tw_240117.09213_all.ipk
-Size: 1545
-SHA256sum: 457124aad3d907ede95e8538f8904f1780b9c67f301d0573ef6e52082198b77e
+Filename: luci-i18n-argon-config-zh-tw_240117.30436_all.ipk
+Size: 1540
+SHA256sum: bbf6fb0329bbbd27c824cc9448faddc0f692767b05ca4bf43b4e8c365f240947
 Description:  Translation for luci-app-argon-config - 繁體中文 (Chinese Traditional)
 
+Package: luci-i18n-cpufreq-zh-cn
+Version: 240117.30436
+Depends: libc, luci-app-cpufreq
+Section: luci
+Architecture: all
+Installed-Size: 821
+Filename: luci-i18n-cpufreq-zh-cn_240117.30436_all.ipk
+Size: 1647
+SHA256sum: a0d9159ba361a210773a0fa5dd8374702ac55b7c86049a64f6402e7edd7e43da
+Description:  Translation for luci-app-cpufreq - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ddns-go-zh-cn
+Version: 240117.30436
+Depends: libc, luci-app-ddns-go
+Section: luci
+Architecture: all
+Installed-Size: 847
+Filename: luci-i18n-ddns-go-zh-cn_240117.30436_all.ipk
+Size: 1678
+SHA256sum: 1046f08609752ad52575db6aa581c300514b3784754f0254f7692dccd5a1bd38
+Description:  Translation for luci-app-ddns-go - 简体中文 (Chinese Simplified)
+
 Package: luci-i18n-homeproxy-zh-cn
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-homeproxy
 Section: luci
 Architecture: all
 Installed-Size: 11100
-Filename: luci-i18n-homeproxy-zh-cn_240117.09213_all.ipk
-Size: 11925
-SHA256sum: b489913b36429df1ed5fb79ad5b82415f4a67ce22851483eecd7fbb113232236
+Filename: luci-i18n-homeproxy-zh-cn_240117.30436_all.ipk
+Size: 11928
+SHA256sum: 05b0833fc041aa25cd0c2ba27fce274c76a252c942cc402e4944e1ea5b989446
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
 Installed-Size: 12588
-Filename: luci-i18n-passwall-zh-cn_240117.09213_all.ipk
-Size: 13371
-SHA256sum: c2a78030a7c53b1607f522e127c4a04e65470c9ca591278002aa7c0ecb8aeaac
+Filename: luci-i18n-passwall-zh-cn_240117.30436_all.ipk
+Size: 13373
+SHA256sum: b1f481067b8030f4395f4bad3b7f972f41968670130cd43ab3a343fc883cfa4c
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-passwall2
 Section: luci
 Architecture: all
 Installed-Size: 11977
-Filename: luci-i18n-passwall2-zh-cn_240117.09213_all.ipk
-Size: 12762
-SHA256sum: 26f671aa3e49afa8e1b6b135d0c564fddd94abf0bbd423b5cef8dd6c635ae76a
+Filename: luci-i18n-passwall2-zh-cn_240117.30436_all.ipk
+Size: 12760
+SHA256sum: 622022ee012879a04a6ebb7fcbbc851170a5c43c66e51ced74a147ad6aad2298
 Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tinyfilemanager-zh-cn
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-tinyfilemanager
 Section: luci
 Architecture: all
 Installed-Size: 1153
-Filename: luci-i18n-tinyfilemanager-zh-cn_240117.09213_all.ipk
-Size: 1969
-SHA256sum: fa8e63288b33d25b12fadd852e72dcc8fa2d253821e9e0c76975302c16d38a64
+Filename: luci-i18n-tinyfilemanager-zh-cn_240117.30436_all.ipk
+Size: 1971
+SHA256sum: 80f8a4c733893772f4a2e2053f5e6b22c5e7b91cbf68a2b78199d4210a0bdda4
 Description:  Translation for luci-app-tinyfilemanager - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tinyfilemanager-zh-tw
-Version: 240117.09213
+Version: 240117.30436
 Depends: libc, luci-app-tinyfilemanager
 Section: luci
 Architecture: all
 Installed-Size: 1166
-Filename: luci-i18n-tinyfilemanager-zh-tw_240117.09213_all.ipk
-Size: 1990
-SHA256sum: b2cec58a9a117ea5831a74a7245729ccd4a508c31495316391678601c5f19427
+Filename: luci-i18n-tinyfilemanager-zh-tw_240117.30436_all.ipk
+Size: 1986
+SHA256sum: 822f8ce302b7b48cdfcb231121ff159f52ee507beef9305aab7f0878c937cbcc
 Description:  Translation for luci-app-tinyfilemanager - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-wizard-ru
+Version: 240117.30436
+Depends: libc, luci-app-wizard
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1030
+Filename: luci-i18n-wizard-ru_240117.30436_all.ipk
+Size: 1884
+SHA256sum: 495ceb8147a79ff658fb22336b01f92c707011d41fbd4fcf88ccaa245b1d898e
+Description:  Translation for luci-app-wizard - Русский (Russian)
+
+Package: luci-i18n-wizard-zh-cn
+Version: 240117.30436
+Depends: libc, luci-app-wizard
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1056
+Filename: luci-i18n-wizard-zh-cn_240117.30436_all.ipk
+Size: 1916
+SHA256sum: eb33d7d7c689841d6b618649dce43b55df700b7bbc84e6a2b78183cb4d3baf2e
+Description:  Translation for luci-app-wizard - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-wolplus-zh-cn
+Version: 240117.30436
+Depends: libc, luci-app-wolplus
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 634
+Filename: luci-i18n-wolplus-zh-cn_240117.30436_all.ipk
+Size: 1486
+SHA256sum: aafb4dfc26a416e22b0873ba246d059f76ccc23d3f73ebccf3e4999855a183aa
+Description:  Translation for luci-app-wolplus - 简体中文 (Chinese Simplified)
 
 Package: luci-theme-alpha
 Version: 3.9.1-beta-9

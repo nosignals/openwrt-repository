@@ -1822,6 +1822,21 @@ Size: 64750
 SHA256sum: 988c9aa86fbede14c80427b4c6a2b046b12317afc7c91b0cbeb6ca809353af20
 Description:  A client-side URL transfer utility
 
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5302
+Filename: etherwake_1.09-5_mipsel_24kc.ipk
+Size: 6062
+SHA256sum: 7c8f470ae8e1cd2680c323131de1c5aef3cc28aa16eea075dd32c933d71eba23
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
 Package: gnutls-utils
 Version: 3.8.0-3
 Depends: libc, libgnutls, libgnutls-dane
@@ -2714,6 +2729,20 @@ Size: 5847
 SHA256sum: 068cc61fe4c2cabfc483a31b26ed45ef4e877d0bacc6cf60651b68643f2562c6
 Description:  Low resource SOCKS5 proxy.
  Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mwan3
+Version: 2.11.8-1
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 21163
+Filename: mwan3_2.11.8-1_all.ipk
+Size: 22221
+SHA256sum: a67f04de536d1495b623a6cba859aad3b4004bdac4dadbde6631edb23fd9fd28
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
 
 Package: nlbwmon
 Version: 2021-09-01-d82c910c-1

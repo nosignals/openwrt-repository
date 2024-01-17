@@ -1822,6 +1822,21 @@ Size: 58386
 SHA256sum: 5c3f5460bb4925158f3c31f705f10064f1db1050fd14a65ca8a8e5056136d0f2
 Description:  A client-side URL transfer utility
 
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5063
+Filename: etherwake_1.09-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5979
+SHA256sum: 5bccac7886b8949a3d9d3cd581903f5c3399000376f3d6e24803da8919ba56ad
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
 Package: gnutls-utils
 Version: 3.7.1-2
 Depends: libc, libgnutls, libgnutls-dane
@@ -2799,6 +2814,20 @@ Filename: libzip-openssl_1.8.0-4_arm_cortex-a7_neon-vfpv4.ipk
 Size: 42499
 SHA256sum: bebb215d989375daf7d9bb460a6b344732bfff7c827f82e8406fdef818209138
 Description:  A C library for reading, creating, and modifying zip archives.
+
+Package: mwan3
+Version: 2.11.4-1
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 21614
+Filename: mwan3_2.11.4-1_all.ipk
+Size: 22661
+SHA256sum: d4772006b3461c27dd79f9789baba4462affd49514311d9a65e136ec8e93501d
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
 
 Package: nlbwmon
 Version: 2021-09-01-d82c910c-1

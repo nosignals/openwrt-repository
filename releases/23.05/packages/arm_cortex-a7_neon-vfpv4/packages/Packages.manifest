@@ -2472,6 +2472,25 @@ Size: 64597
 SHA256sum: 092551a8ad6dd2518d3371b9bf854ff1105d3bbb5c4cd811b586fb29fc18cd74
 Description:  A client-side URL transfer utility
 
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+SourceDateEpoch: 1613865735
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5088
+Filename: etherwake_1.09-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6012
+SHA256sum: 8591dece27917a10566b99178b6871ef90f247c38054277b7e68089313468cd9
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
 Package: gnutls-utils
 Version: 3.8.0-3
 Depends: libc, libgnutls, libgnutls-dane
@@ -3729,6 +3748,24 @@ Size: 6405
 SHA256sum: ba23cefb9cf91b0203d2c7c6e7031b9f81cc5ddc750c8e1a99d1a8a8689cd8ba
 Description:  Low resource SOCKS5 proxy.
  Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mwan3
+Version: 2.11.8-1
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Source: feeds/packages/net/mwan3
+SourceName: mwan3
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1694527634
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 21576
+Filename: mwan3_2.11.8-1_all.ipk
+Size: 22625
+SHA256sum: 44f7bad93c7a143a25903009d8b9a904f71b7e96038ebd89bc5f4089401d937b
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
 
 Package: nlbwmon
 Version: 2021-09-01-d82c910c-1
