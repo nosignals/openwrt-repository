@@ -33,6 +33,406 @@ Size: 27105
 SHA256sum: b6c9d0190b9e290a7a9cbcd7f2bff676371a7ca372c3b2bfd877b33ea0763294
 Description:  ar
 
+Package: atm-aread
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-aread
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2070
+Filename: atm-aread_2.5.2-7_aarch64_generic.ipk
+Size: 2777
+SHA256sum: 4dbc73cfc3d7351d97377cb6254e48d94407e7c328bbc4d9e3d824965a660bd4
+Description:  Linux ATM tool aread.
+
+Package: atm-atmaddr
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmaddr
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2281
+Filename: atm-atmaddr_2.5.2-7_aarch64_generic.ipk
+Size: 2991
+SHA256sum: 44140dc1ab3e06749b4bfc6da154478548b419cc89d754c0b208a5b5f0465216
+Description:  Linux ATM tool atmaddr.
+
+Package: atm-atmdiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmdiag
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 1863
+Filename: atm-atmdiag_2.5.2-7_aarch64_generic.ipk
+Size: 2613
+SHA256sum: b70aed31752e94306427414f28c5bd2e2e988d6f56edced215137a49f63fb485
+Description:  Linux ATM tool atmdiag.
+
+Package: atm-atmdump
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmdump
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2870
+Filename: atm-atmdump_2.5.2-7_aarch64_generic.ipk
+Size: 3588
+SHA256sum: 1099bd8c105932d3583c3f8ec58fbfde5ca944851117a0a1a97c38fd6f2c854d
+Description:  Linux ATM tool atmdump.
+
+Package: atm-atmloop
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmloop
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2508
+Filename: atm-atmloop_2.5.2-7_aarch64_generic.ipk
+Size: 3221
+SHA256sum: e35d0166fddeb5104ee0bca2d0b16ae360e0658116862bb67a21a5a22a990bef
+Description:  Linux ATM tool atmloop.
+
+Package: atm-atmsigd
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmsigd
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 78347
+Filename: atm-atmsigd_2.5.2-7_aarch64_generic.ipk
+Size: 78712
+SHA256sum: 4608ab6ff2b7a257b5f83416b1a4cc8e8e340a6117c61ebebf2d1de4e63b4341
+Description:  Linux ATM tool atmsigd.
+
+Package: atm-atmswitch
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmswitch
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2622
+Filename: atm-atmswitch_2.5.2-7_aarch64_generic.ipk
+Size: 3331
+SHA256sum: b72f3043c366d96b18626715d6ae0e09a9c3c066ac493d0963e35915977c710d
+Description:  Linux ATM tool atmswitch.
+
+Package: atm-atmtcp
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmtcp
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 8526
+Filename: atm-atmtcp_2.5.2-7_aarch64_generic.ipk
+Size: 9261
+SHA256sum: d387a959b0207f25d4f3bd72945ed95bb01f17881e122e807813398d43a40358
+Description:  Linux ATM tool atmtcp.
+
+Package: atm-awrite
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-awrite
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 1762
+Filename: atm-awrite_2.5.2-7_aarch64_generic.ipk
+Size: 2503
+SHA256sum: 4d7cc65c912037f3d9b269f3e46e0a71cbbae35d5d16eac4696a17914c1d2dbc
+Description:  Linux ATM tool awrite.
+
+Package: atm-bus
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-bus
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 20701
+Filename: atm-bus_2.5.2-7_aarch64_generic.ipk
+Size: 21444
+SHA256sum: 3c4c14a1678184ee4365d4af42ed2d663aac2d54e1238541acfe35437d0629df
+Description:  Linux ATM tool bus.
+
+Package: atm-debug-tools
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-debug-tools
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 253957
+Filename: atm-debug-tools_2.5.2-7_aarch64_generic.ipk
+Size: 253408
+SHA256sum: 6c7a11cd7724e892b51905b177fa8db7474da18a99b10c66fa2f6bc6213183d8
+Description:  This package contains the Linux ATM debugging tools.
+
+Package: atm-diagnostics
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-diagnostics
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 6149
+Filename: atm-diagnostics_2.5.2-7_aarch64_generic.ipk
+Size: 6919
+SHA256sum: 0530530319aa411a6ba14b9e81dcf350a7cbcdf4360ffa7b05af91b3f32d62d2
+Description:  This package contains the Linux ATM diagnostics.
+
+Package: atm-esi
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-esi
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2019
+Filename: atm-esi_2.5.2-7_aarch64_generic.ipk
+Size: 2726
+SHA256sum: e9c9f9d7c8cde46ee78ae832cd44053c44ca96e338ae017a5e411e0647918515
+Description:  Linux ATM tool esi.
+
+Package: atm-ilmid
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-ilmid
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 25399
+Filename: atm-ilmid_2.5.2-7_aarch64_generic.ipk
+Size: 26081
+SHA256sum: 138c3d44f02a5cf3bf34c7e038c18909b3e90e99a318e91e49d003097bc9b3f7
+Description:  Linux ATM tool ilmid.
+
+Package: atm-ilmidiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-ilmidiag
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2244
+Filename: atm-ilmidiag_2.5.2-7_aarch64_generic.ipk
+Size: 2958
+SHA256sum: 54dca254a53dffc65f9cf9cb094f3a119cbe1a7e1c5ce4d6c73e8ef2f740956d
+Description:  Linux ATM tool ilmidiag.
+
+Package: atm-lecs
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-lecs
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 11009
+Filename: atm-lecs_2.5.2-7_aarch64_generic.ipk
+Size: 11755
+SHA256sum: 65fb2990dd4cb692a81dd945741193a10314e59ae0e21707164fcf48f222ac95
+Description:  Linux ATM tool lecs.
+
+Package: atm-les
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-les
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 24529
+Filename: atm-les_2.5.2-7_aarch64_generic.ipk
+Size: 25239
+SHA256sum: b8e08339dbb6d42ee9f8c1b0816e8c493d43548aa7a1b41e66e19fdab77c5890
+Description:  Linux ATM tool les.
+
+Package: atm-mpcd
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-mpcd
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 15397
+Filename: atm-mpcd_2.5.2-7_aarch64_generic.ipk
+Size: 16086
+SHA256sum: 1bd308c2644ebdeac291a5182308520ac348856b9a8d5103f743ef4a5ba641cb
+Description:  Linux ATM tool mpcd.
+
+Package: atm-saaldump
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-saaldump
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 26589
+Filename: atm-saaldump_2.5.2-7_aarch64_generic.ipk
+Size: 27103
+SHA256sum: 3bf4b7b1c80c9f9fa3dfb59f22560f4b67e1f09fc238889659cab8feee07c788
+Description:  Linux ATM tool saaldump.
+
+Package: atm-sonetdiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-sonetdiag
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2377
+Filename: atm-sonetdiag_2.5.2-7_aarch64_generic.ipk
+Size: 3089
+SHA256sum: 15a02eca3b51b7b5d9b55d6843a6d3e12883875d9ee78b08e0225fb263506e66
+Description:  Linux ATM tool sonetdiag.
+
+Package: atm-svc_recv
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-svc_recv
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2447
+Filename: atm-svc_recv_2.5.2-7_aarch64_generic.ipk
+Size: 3165
+SHA256sum: 45c9255885c8d71ae40dbb958b7e7a045dbfaf08b11d089191a4eb5039e14d4f
+Description:  Linux ATM tool svc_recv.
+
+Package: atm-svc_send
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-svc_send
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 2146
+Filename: atm-svc_send_2.5.2-7_aarch64_generic.ipk
+Size: 2858
+SHA256sum: bf6d5ba5858ffcb2922126a2b18fced91a5a0799662e472f56ff46ca823c1b20
+Description:  Linux ATM tool svc_send.
+
+Package: atm-tools
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-tools
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 20291
+Filename: atm-tools_2.5.2-7_aarch64_generic.ipk
+Size: 20961
+SHA256sum: 9fe52be1a1f3a52e20942f602354ffefb7e4ed87d55883f8e09fd2eb2707485b
+Description:  This package contains the Linux ATM tools.
+
+Package: atm-ttcp_atm
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-ttcp_atm
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 7800
+Filename: atm-ttcp_atm_2.5.2-7_aarch64_generic.ipk
+Size: 8529
+SHA256sum: a9dfe6485d2de4425cc3a353fb7b2a0c6254aa8ac88c43066d484f80e416017e
+Description:  Linux ATM tool ttcp_atm.
+
+Package: atm-zeppelin
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-zeppelin
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 22227
+Filename: atm-zeppelin_2.5.2-7_aarch64_generic.ipk
+Size: 22956
+SHA256sum: a939369db88a9cc11703900a50f976c76efc82aed7115534a9e649e80ed703c4
+Description:  Linux ATM tool zeppelin.
+
 Package: badblocks
 Version: 1.46.5-2
 Depends: libc, e2fsprogs
@@ -160,6 +560,22 @@ Size: 162973
 SHA256sum: 3fbdf9b2a7b035878d9dd8d80c3868021cab0a00da4a90554df44a4c5090fffa
 Description:  A tool for inspection and simple manipulation of eBPF programs and maps.
 
+Package: br2684ctl
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: br2684ctl
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 5271
+Filename: br2684ctl_2.5.2-7_aarch64_generic.ipk
+Size: 6008
+SHA256sum: f0635d0872c74b310f7fa5d3c46071f601c489ce716403d2368d053892bcced8
+Description:  Support for AAL5 encapsulation (RFC-1483/RFC-2684) over ATM.
+
 Package: bzip2
 Version: 1.0.8-1
 Depends: libc, libbz2-1.0
@@ -242,6 +658,24 @@ Filename: cfdisk_2.37.4-1_aarch64_generic.ipk
 Size: 38789
 SHA256sum: 7ca37f24b937bdf476932ab2564e419379520b1d4eecdecf3fa86afff9f8843d
 Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: chat
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 9718
+Filename: chat_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 10537
+SHA256sum: 4e0b6e21aef04eb767ccc38764bdd583ce7568fbf56dc0ade80ed24a92d9ba22
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
 
 Package: chattr
 Version: 1.46.5-2
@@ -1758,6 +2192,26 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL shared libraries, needed by other programs.
 
+Package: libpcap1
+Version: 1.10.1-1
+Depends: libc
+Provides: libpcap
+Source: feeds/base/package/libs/libpcap
+SourceName: libpcap
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 1
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 115917
+Filename: libpcap1_1.10.1-1_aarch64_generic.ipk
+Size: 116718
+SHA256sum: b19192c7ee1df9085956dc9a9000d8cb8068fe9fbd49cdc21e033dc13a936afc
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
 Package: libpcre16
 Version: 8.45-1
 Depends: libc
@@ -2013,6 +2467,62 @@ Size: 76070
 SHA256sum: ed22c2c36578cba1b203832c5ec3d9f1271466b8849c89488b6d77453b9447a6
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
+Package: libustream-mbedtls20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libmbedtls12
+Conflicts: libustream-openssl, libustream-wolfssl
+Provides: libustream-mbedtls
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-mbedtls
+License: ISC
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 4703
+Filename: libustream-mbedtls20201210_2022-12-08-9217ab46-2_aarch64_generic.ipk
+Size: 5491
+SHA256sum: f1274dfdf151d48a5e3a51819d5fafe156cfcde601222ea2e41856900e6fecaf
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libopenssl1.1
+Provides: libustream-openssl
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-openssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 4904
+Filename: libustream-openssl20201210_2022-12-08-9217ab46-2_aarch64_generic.ipk
+Size: 5684
+SHA256sum: 8f9a9168f0d931cf2a3ab0ade68adf83dc7665f999c705b45c5bc9182f649d89
+Description:  ustream SSL Library (openssl)
+
+Package: libustream-wolfssl20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libwolfssl5.5.4.ee39414e
+Conflicts: libustream-openssl
+Provides: libustream-wolfssl
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-wolfssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 4399
+Filename: libustream-wolfssl20201210_2022-12-08-9217ab46-2_aarch64_generic.ipk
+Size: 5193
+SHA256sum: 6f1192518622d4dce43a2fb07996bd2d03c6727beac7320ce85b23c2780a5144
+Description:  ustream SSL Library (wolfssl)
+
 Package: libuuid1
 Version: 2.37.4-1
 Depends: libc, librt
@@ -2034,6 +2544,61 @@ Description:  The UUID library is used to generate unique identifiers for object
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libwolfssl-benchmark
+Version: 5.5.4-stable-1
+Depends: libc, libwolfssl5.5.4.ee39414e
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfssl-benchmark
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 19994
+Filename: libwolfssl-benchmark_5.5.4-stable-1_aarch64_generic.ipk
+Size: 20783
+SHA256sum: 679324b5c225a518b9c63d5670ccedd690d46361fb53dcf121cf84a060cd6bf0
+Description:  This is the wolfssl benchmark utility.
+
+Package: libwolfssl5.5.4.ee39414e
+Version: 5.5.4-stable-1
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl5.5.4.ee39414e
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfssl
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1682629523
+ABIVersion: 5.5.4.ee39414e
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 548595
+Filename: libwolfssl5.5.4.ee39414e_5.5.4-stable-1_aarch64_generic.ipk
+Size: 547330
+SHA256sum: 18e205525de23f5522705774b1863661efc8e5e15212585acc2a567e5b784f91
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: linux-atm
+Version: 2.5.2-7
+Depends: libc
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: linux-atm
+License: GPL-2.0+
+Section: libs
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_generic
+Installed-Size: 17402
+Filename: linux-atm_2.5.2-7_aarch64_generic.ipk
+Size: 18146
+SHA256sum: 7aa43d46b04fea389027182bd6fb967b2f9b00c2992d4140323f059725247a3e
+Description:  This package contains a library for accessing the Linux ATM subsystem.
 
 Package: logd
 Version: 2021-08-03-205defb5-2
@@ -2521,6 +3086,196 @@ Size: 51558
 SHA256sum: b6f3a5c856b1fb244e69a9fba36f757d250dcf3992956414a9ac79cfc3a72abd
 Description:  contains partx, addpart, delpart
 
+Package: ppp-mod-passwordfd
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-passwordfd
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 1587
+Filename: ppp-mod-passwordfd_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 2437
+SHA256sum: d45f12eab09ea8ebe7fd6d7dc54efce3ccc758bb594e9d0913d909bcd21ca48a
+Description:  This package allows to pass the PAP/CHAP secret from a filedescriptor.
+ Eliminates the need for a secrets file.
+
+Package: ppp-mod-pppoa
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, linux-atm, kmod-pppoa
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pppoa
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 7043
+Filename: ppp-mod-pppoa_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 7851
+SHA256sum: 73d7a1d39576cb2c0252eb75e1035ca5187b5e377cea8b9a17fc3f3cd2f6fdb9
+Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppoe
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pppoe
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 11188
+Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 12017
+SHA256sum: 7d81be66e6e58a19a70759a67e8a15cb0b3b3c119951acb9176781ac57df13e9
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp-mod-pppol2tp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppol2tp
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pppol2tp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 4821
+Filename: ppp-mod-pppol2tp_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 5618
+SHA256sum: 593e332d437fd027a512d156eb4d7f021dfbf49d1cc168b13719c6fec5d6a167
+Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
+
+Package: ppp-mod-pptp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pptp, kmod-mppe, resolveip
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pptp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 18501
+Filename: ppp-mod-pptp_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 19277
+SHA256sum: 17d4f7fe886dbaa880ed11ed1ae27f0b33b3befb696cebe6e1a73b752316d0cf
+Description:  This package contains a PPtP plugin for ppp.
+
+Package: ppp-mod-radius
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-radius
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 24521
+Filename: ppp-mod-radius_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 25367
+SHA256sum: 59845d109e06fff394ca79d312cae65fb77f4b817555d606274f63090a39d386
+Description:  This package contains a RADIUS (Remote Authentication Dial-In User Service)
+ plugin for ppp.
+
+Package: ppp-multilink
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-multilink
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 152467
+Filename: ppp-multilink_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 153009
+SHA256sum: 5aa09ed79c8da118ce00fb92b6ad14eaf56ab571943f57c0126bc79ad3fdbe7e
+Description:  PPP daemon (with multilink support)
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 137952
+Filename: ppp_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 138560
+SHA256sum: 30c7a6624d8ce81bcbe2a0faefdb3d75f99bf03bc3bc4ab6fe7b560370daa218
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: pppdump
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: pppdump
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 14077
+Filename: pppdump_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 14871
+SHA256sum: 07d2de158be614cfae2b45fbac1e1879f3793106c342a7c26e6ecdde130f3a6a
+Description:  This package contains an utility to read PPP record file.
+
+Package: pppoe-discovery
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, ppp-mod-pppoe
+Source: feeds/base/package/network/services/ppp
+SourceName: pppoe-discovery
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 7048
+Filename: pppoe-discovery_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 7935
+SHA256sum: c59eca0ce369d038e326455ecb0a760fee4c43ba00ebd07cce2d1dd8cadfbc13
+Description:  This tool performs the same discovery process as pppoe, but does
+ not initiate a session. Can be useful to debug pppoe.
+
+Package: pppstats
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: pppstats
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1682629523
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 4508
+Filename: pppstats_2.4.9.git-2021-01-04-3_aarch64_generic.ipk
+Size: 5280
+SHA256sum: f77886d573bfa1a500acbec6661248353118171e6f4e22965234486d6cd4c18d
+Description:  This package contains an utility to report PPP statistics.
+
 Package: prlimit
 Version: 2.37.4-1
 Depends: libc, libsmartcols1
@@ -2610,6 +3365,23 @@ Description:  This package contains the small resolveip utility which
  IP addresses. It supports IPv4 and IPv6 resolving and
  has a configurable timeout to guarantee a certain maximum
  runtime in case of slow or defunct DNS servers.
+
+Package: rpcapd
+Version: 1.10.1-1
+Depends: libc, libpcap1
+Source: feeds/base/package/libs/libpcap
+SourceName: rpcapd
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 123459
+Filename: rpcapd_1.10.1-1_aarch64_generic.ipk
+Size: 124219
+SHA256sum: 340a723e1e009f748126887c89e3b6392a50e634663dbea5a001c47023ebdfa7
+Description:  Capture daemon to be controlled by a remote libpcap application
 
 Package: rpcd-mod-file
 Version: 2022-12-15-7de4820c-1
@@ -3133,6 +3905,73 @@ SHA256sum: 4b315329612f15de8b50271f60d8ed89ef3dd62a8476b07440b3721252be9f9a
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: uhttpd-mod-lua
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, liblua5.1.5
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-lua
+License: ISC
+Section: net
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 3914
+Filename: uhttpd-mod-lua_2022-10-31-23977554-1_aarch64_generic.ipk
+Size: 4689
+SHA256sum: f5126120058cb00ae5d15a90d890f538b88dcf3ea772e06f761d7faa96ddd332
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd-mod-ubus
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-ubus
+License: ISC
+Section: net
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 8619
+Filename: uhttpd-mod-ubus_2022-10-31-23977554-1_aarch64_generic.ipk
+Size: 9474
+SHA256sum: 53d47ac344c4e352bea5f6f9288ba0074e3d35ac4bb254337086b937ae2d5288
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd-mod-ucode
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, libucode20220812
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-ucode
+License: ISC
+Section: net
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 4806
+Filename: uhttpd-mod-ucode_2022-10-31-23977554-1_aarch64_generic.ipk
+Size: 5589
+SHA256sum: 844b0f817a0576dd685ba4301c5abc53f33f1ef37cec044b3adddab29f2392fe
+Description:  The ucode plugin adds a CGI-like ucode runtime interface to uHTTPd.
+
+Package: uhttpd
+Version: 2022-10-31-23977554-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, libjson-script20220515, libjson-c5
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd
+License: ISC
+Section: net
+SourceDateEpoch: 1682629523
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_generic
+Installed-Size: 30967
+Filename: uhttpd_2022-10-31-23977554-1_aarch64_generic.ipk
+Size: 31900
+SHA256sum: 690d7b3e4151d5bf5a6bbebfe7ef28ebe895d63c88f88a0c3f287d70e1495343
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
 Package: unshare
 Version: 2.37.4-1
 Depends: libc, librt
@@ -3259,6 +4098,22 @@ SHA256sum: 38c7121d5cd1a158515217a157c0664f7e48266eb31288049586911d5a20346c
 Description:  wipefs can erase filesystem, raid or partition table signatures (magic
  strings) from the specified device to make the signature invisible for
  libblkid.
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+Source: feeds/base/package/network/utils/wwan
+SourceName: wwan
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1682629523
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: aarch64_generic
+Installed-Size: 9977
+Filename: wwan_2019-04-29-5_aarch64_generic.ipk
+Size: 9815
+SHA256sum: 649d9fb4a8d7df1f6e01ad4def0809e6966c05907ed79a4a13982d517e9f879d
+Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib-dev
 Version: 1.2.11-6

@@ -1295,6 +1295,54 @@ Size: 28703
 SHA256sum: 993cbfb40202680efc31f6ce9b822dd2b1a51f0c3a0284803afdfe79324a0797
 Description:  NIXIO POSIX library
 
+Package: luci-mod-admin-full
+Version: git-19.253.48496-3f93650
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 95
+Filename: luci-mod-admin-full_git-19.253.48496-3f93650_all.ipk
+Size: 960
+SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-23.093.42704-52965f4
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 51459
+Filename: luci-mod-network_git-23.093.42704-52965f4_all.ipk
+Size: 52418
+SHA256sum: 1bc46096de72c32d72c5367a368409ee0f54d41809a3507c7dddb6c784cb9702
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-23.093.42411-713f701
+Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
+License: Apache-2.0
+Section: luci
+Architecture: mipsel_24kc
+Installed-Size: 35073
+Filename: luci-mod-status_git-23.093.42411-713f701_mipsel_24kc.ipk
+Size: 35977
+SHA256sum: ff160ee5e873219aed6d10b086dd12fbf802eedc3e30eb908cd15121c74908fd
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-23.013.73113-588381e
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 18519
+Filename: luci-mod-system_git-23.013.73113-588381e_all.ipk
+Size: 19420
+SHA256sum: adb89c16d7730289eccbcba99bb79679cf570c49f066e2d1d1c4c047f21816c7
+Description:  LuCI Administration - Global System Settings
+
 Package: rpcd-mod-luci
 Version: 20210614
 Depends: libc, rpcd, libubox20220515, libubus20220601, libnl-tiny1

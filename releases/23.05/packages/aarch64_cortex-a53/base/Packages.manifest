@@ -16,6 +16,406 @@ SHA256sum: 3d4531e1eb356509d73bc8fb0aebbcb627fc16855097a4d80318d7dfe5803ec8
 Description:  agetty opens a tty port, prompts for a login name and invokes the
  /bin/login command
 
+Package: atm-aread
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-aread
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2244
+Filename: atm-aread_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 2865
+SHA256sum: 4939a5598b34de6b6846b279e49c8554500367fefee553e04511dc79c202368b
+Description:  Linux ATM tool aread.
+
+Package: atm-atmaddr
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmaddr
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2430
+Filename: atm-atmaddr_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 3059
+SHA256sum: d9b5e40a2ab60e560b45fe4c6c7567a18cbfd070f5031c9bf63785fc15207d60
+Description:  Linux ATM tool atmaddr.
+
+Package: atm-atmdiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmdiag
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2063
+Filename: atm-atmdiag_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 2689
+SHA256sum: 5081dd1908fe135f54dc7bccb987a4bc898621eddac5a2c8a24a6d1a60658d93
+Description:  Linux ATM tool atmdiag.
+
+Package: atm-atmdump
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmdump
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 3050
+Filename: atm-atmdump_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 3650
+SHA256sum: 73ff3aef52fe8d272070b1a250ebf55c334ed178db97760fb2f13f88f698bde9
+Description:  Linux ATM tool atmdump.
+
+Package: atm-atmloop
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmloop
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2611
+Filename: atm-atmloop_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 3211
+SHA256sum: de0bce8a0747b00b3d004e957393f085c369eb8714468abd19a097c0d7c3dc3b
+Description:  Linux ATM tool atmloop.
+
+Package: atm-atmsigd
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmsigd
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 77917
+Filename: atm-atmsigd_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 78207
+SHA256sum: 8bce1419dc1c0efa51496c9d1a358821830a655630bf9004e835609c8eb9ad4a
+Description:  Linux ATM tool atmsigd.
+
+Package: atm-atmswitch
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmswitch
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2769
+Filename: atm-atmswitch_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 3371
+SHA256sum: e780a0d2269d38f2f29fbf56148a274929617b9eb6e2beb41719d4200d90f6cb
+Description:  Linux ATM tool atmswitch.
+
+Package: atm-atmtcp
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-atmtcp
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 8682
+Filename: atm-atmtcp_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 9293
+SHA256sum: a1cc6d1d6f87aec6bd634ace50b8fce3d22a295cde70eeeb446e65b8a58cddba
+Description:  Linux ATM tool atmtcp.
+
+Package: atm-awrite
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-awrite
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 1966
+Filename: atm-awrite_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 2595
+SHA256sum: c84eea3dd7a2c3722f35996baae072bdf27e6014857d9bf7b37e11237d5734ca
+Description:  Linux ATM tool awrite.
+
+Package: atm-bus
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-bus
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 20631
+Filename: atm-bus_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 21253
+SHA256sum: d2b4d642d683c416c4e0e23f5b49563d63cc163147cc36b0bca6a1b2769f5a16
+Description:  Linux ATM tool bus.
+
+Package: atm-debug-tools
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-debug-tools
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 268301
+Filename: atm-debug-tools_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 264842
+SHA256sum: 9a2dee2fcd12e0448c458655fb9162971ff67685bd78c1ad444b67f0e5e9214e
+Description:  This package contains the Linux ATM debugging tools.
+
+Package: atm-diagnostics
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-diagnostics
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 8903
+Filename: atm-diagnostics_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 8977
+SHA256sum: baab79b1bda66fb1ddabc29edb303b307c4e848c62e8514ffcb073177b159e0a
+Description:  This package contains the Linux ATM diagnostics.
+
+Package: atm-esi
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-esi
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2142
+Filename: atm-esi_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 2770
+SHA256sum: 7fa2f85861c89861255f3779b829ad6b86c4c010a12059428f32b0cf7e317bb8
+Description:  Linux ATM tool esi.
+
+Package: atm-ilmid
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-ilmid
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 25777
+Filename: atm-ilmid_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 26429
+SHA256sum: 93007a77064b031c2385cd7dea82921a1da08ea5996be469eee688c1da92af29
+Description:  Linux ATM tool ilmid.
+
+Package: atm-ilmidiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-ilmidiag
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2390
+Filename: atm-ilmidiag_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 2996
+SHA256sum: 14d71821bbbe89aef9be3127340c0ea30a964e359615d7ffc0c7a2b54f665834
+Description:  Linux ATM tool ilmidiag.
+
+Package: atm-lecs
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-lecs
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 11205
+Filename: atm-lecs_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 11771
+SHA256sum: b94fb0a6211da352eb865486042de1a67cc6d2df7879f4433b91406924ecbeb7
+Description:  Linux ATM tool lecs.
+
+Package: atm-les
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-les
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 24431
+Filename: atm-les_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 25087
+SHA256sum: a5bfec39d64ca5810e4f804a534c9e691d5674bf8647f0d5b9a6d60127596a29
+Description:  Linux ATM tool les.
+
+Package: atm-mpcd
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-mpcd
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 15451
+Filename: atm-mpcd_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 16004
+SHA256sum: 3394ee0b8c9ea4d48a32ccba3c071dfd4d75a88a09513123f96e2ea0797cd9f4
+Description:  Linux ATM tool mpcd.
+
+Package: atm-saaldump
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-saaldump
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 26645
+Filename: atm-saaldump_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 27167
+SHA256sum: 0959456ae5949c9340cf8636893ee84e999a6f0ce42f7ad99e7f46ca4bb4b28f
+Description:  Linux ATM tool saaldump.
+
+Package: atm-sonetdiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-sonetdiag
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2526
+Filename: atm-sonetdiag_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 3122
+SHA256sum: 020d4e6fe941c5d555ad7986b49305ad2619befb99d19cddb91180ec53cbb21c
+Description:  Linux ATM tool sonetdiag.
+
+Package: atm-svc_recv
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-svc_recv
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2603
+Filename: atm-svc_recv_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 3208
+SHA256sum: d88cbb9810bc150a22b501a8ba8f74aed0b5fd7f86f24eeca029492aa57b2533
+Description:  Linux ATM tool svc_recv.
+
+Package: atm-svc_send
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-svc_send
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 2294
+Filename: atm-svc_send_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 2911
+SHA256sum: 28c4c0c223e041e016796ad7e552798c6e75132fd4d6b55ca9a6d70f6bcb6ab1
+Description:  Linux ATM tool svc_send.
+
+Package: atm-tools
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-tools
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 20909
+Filename: atm-tools_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 21264
+SHA256sum: 990bac6876cb13ac03cd2723d7538ec520a0582ea63992d8450dd760afef0ad3
+Description:  This package contains the Linux ATM tools.
+
+Package: atm-ttcp_atm
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-ttcp_atm
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 7953
+Filename: atm-ttcp_atm_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 8586
+SHA256sum: 0896524c52db3e0972d350a8abfac23b8f6c9c5786b8ecb065c4e7352a363987
+Description:  Linux ATM tool ttcp_atm.
+
+Package: atm-zeppelin
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: atm-zeppelin
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 22120
+Filename: atm-zeppelin_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 22742
+SHA256sum: 0c6c437e3241ef49de72924d5fdf510c88eebceb89f36fffae7fde19a653f5ea
+Description:  Linux ATM tool zeppelin.
+
 Package: badblocks
 Version: 1.47.0-2
 Depends: libc, e2fsprogs
@@ -86,6 +486,22 @@ Filename: blockdev_2.39-2_aarch64_cortex-a53.ipk
 Size: 33713
 SHA256sum: 4154b2122b7e2a9631def7ddebbe8f14116a9cfc988299874eaed66472475612
 Description:  The blockdev program is the command-line interface to call block device ioctls.
+
+Package: br2684ctl
+Version: 2.5.2-7
+Depends: libc, linux-atm
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: br2684ctl
+License: GPL-2.0+
+Section: net
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 5576
+Filename: br2684ctl_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 6161
+SHA256sum: b2be471d9eafda819d07abb5b25ae3ef2e61329a05a8918ce342e58995786f3f
+Description:  Support for AAL5 encapsulation (RFC-1483/RFC-2684) over ATM.
 
 Package: bzip2
 Version: 1.0.8-1
@@ -169,6 +585,24 @@ Filename: cfdisk_2.39-2_aarch64_cortex-a53.ipk
 Size: 39699
 SHA256sum: 2c497dd03e38a19a14adb2fc40849d0e14b2d8a90cc91f6cff9d4089293df0df
 Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: chat
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9923
+Filename: chat_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 10625
+SHA256sum: 577bc453365fea65b590b562258e528904b617eef6c2aba16cb5421cad2b8c3a
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
 
 Package: chattr
 Version: 1.47.0-2
@@ -1672,6 +2106,27 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL shared libraries, needed by other programs.
 
+Package: libpcap1
+Version: 1.10.4-1
+Depends: libc
+Provides: libpcap
+Source: feeds/base/package/libs/libpcap
+SourceName: libpcap
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1695847021
+ABIVersion: 1
+CPE-ID: cpe:/a:tcpdump:libpcap
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 118477
+Filename: libpcap1_1.10.4-1_aarch64_cortex-a53.ipk
+Size: 118991
+SHA256sum: 2f1e320edc70fda6be8bb42ddff21b59a6baaea95c9dfe2b5fceb689106c608e
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
 Package: libpcre2-16
 Version: 10.42-1
 Depends: libc
@@ -1927,6 +2382,62 @@ SHA256sum: 7bd1864bdf110ec642b8748d1e0e060f6a6f22f527d024abaf0e0f05752c7c00
 Description:  This library provides functions for manipulating Unicode strings
  and for manipulating C strings according to the Unicode standard.
 
+Package: libustream-mbedtls20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libmbedtls12
+Conflicts: libustream-openssl, libustream-wolfssl
+Provides: libustream-mbedtls
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-mbedtls
+License: ISC
+Section: libs
+SourceDateEpoch: 1677346646
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4910
+Filename: libustream-mbedtls20201210_2023-02-25-498f6e26-1_aarch64_cortex-a53.ipk
+Size: 5544
+SHA256sum: 3ab3288ab979918bd626223db745d64326afce7a2044df37e497a1de20539133
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libopenssl3
+Provides: libustream-openssl
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-openssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1677346646
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5038
+Filename: libustream-openssl20201210_2023-02-25-498f6e26-1_aarch64_cortex-a53.ipk
+Size: 5649
+SHA256sum: 902815fc3d3abbec477af865ec07625980244dcf337c9cddb1f4457da0e177ce
+Description:  ustream SSL Library (openssl)
+
+Package: libustream-wolfssl20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libwolfssl5.6.4.e624513f
+Conflicts: libustream-openssl
+Provides: libustream-wolfssl
+Source: feeds/base/package/libs/ustream-ssl
+SourceName: libustream-wolfssl
+License: ISC
+Section: libs
+SourceDateEpoch: 1677346646
+ABIVersion: 20201210
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4560
+Filename: libustream-wolfssl20201210_2023-02-25-498f6e26-1_aarch64_cortex-a53.ipk
+Size: 5197
+SHA256sum: 2b52c466178bb0dee9e188a269a58b3fc57eeaf63de1b5960cc6fefc657789ac
+Description:  ustream SSL Library (wolfssl)
+
 Package: libuuid1
 Version: 2.39-2
 Depends: libc, librt
@@ -1948,6 +2459,68 @@ Description:  The UUID library is used to generate unique identifiers for object
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libwolfssl-benchmark
+Version: 5.6.4-stable-1
+Depends: libc, libwolfssl5.6.4.e624513f
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfssl-benchmark
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1699723109
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20192
+Filename: libwolfssl-benchmark_5.6.4-stable-1_aarch64_cortex-a53.ipk
+Size: 20982
+SHA256sum: 7346cec5561f2eb6797c4cc86ee5eb1d8ab15958856b0aa3aa2f02ffdca23491
+Description:  This is the wolfssl benchmark utility.
+
+Package: libwolfssl5.6.4.e624513f
+Version: 5.6.4-stable-1
+Depends: libc
+Conflicts: libwolfsslcpu-crypto
+Provides: libcyassl, libwolfssl, libcyassl5.6.4.e624513f
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfssl
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1699723109
+ABIVersion: 5.6.4.e624513f
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 557143
+Filename: libwolfssl5.6.4.e624513f_5.6.4-stable-1_aarch64_cortex-a53.ipk
+Size: 555694
+SHA256sum: b8d592bc338648bec158966734de6fea5df657c2a1e99793c0ffd769e911e105
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: libwolfsslcpu-crypto5.6.4.e624513f
+Version: 5.6.4-stable-1
+Depends: libc
+Provides: libwolfssl, libcyassl, libwolfsslcpu-crypto, libwolfssl5.6.4.e624513f, libcyassl5.6.4.e624513f
+Source: feeds/base/package/libs/wolfssl
+SourceName: libwolfsslcpu-crypto
+License: GPL-2.0-or-later
+LicenseFiles: LICENSING COPYING
+Section: libs
+SourceDateEpoch: 1699723109
+ABIVersion: 5.6.4.e624513f
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 552461
+Filename: libwolfsslcpu-crypto5.6.4.e624513f_5.6.4-stable-1_aarch64_cortex-a53.ipk
+Size: 552181
+SHA256sum: c2fbc20b8d186ec6d19f706d1b66a9a844c4d51153ad64729e0710c2eb15f026
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+ This variant uses AES CPU instructions (Intel AESNI or ARMv8 Crypto Extension)
 
 Package: libxml2-dev
 Version: 2.11.4-1
@@ -2002,6 +2575,22 @@ Filename: libxml2_2.11.4-1_aarch64_cortex-a53.ipk
 Size: 504599
 SHA256sum: 3586d102a8dbc46c58eb8562e16ed7dd923de4748a0a07f09801a8e9e774eecb
 Description:  A library for manipulating XML and HTML resources.
+
+Package: linux-atm
+Version: 2.5.2-7
+Depends: libc
+Source: feeds/base/package/network/utils/linux-atm
+SourceName: linux-atm
+License: GPL-2.0+
+Section: libs
+SourceDateEpoch: 1586383966
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: aarch64_cortex-a53
+Installed-Size: 17711
+Filename: linux-atm_2.5.2-7_aarch64_cortex-a53.ipk
+Size: 18367
+SHA256sum: 7df31778112e52416111a6d77bd85929b5a1acdc020ae5fe5785003c6f2f34e4
+Description:  This package contains a library for accessing the Linux ATM subsystem.
 
 Package: logd
 Version: 2022-08-13-4c7b720b-2
@@ -2479,6 +3068,196 @@ Size: 66435
 SHA256sum: 5807e4f9fc9dfadb45751f8954e31547015dd27edf7a9ca11495adfb84becd3f
 Description:  contains partx, addpart, delpart
 
+Package: ppp-mod-passwordfd
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-passwordfd
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1734
+Filename: ppp-mod-passwordfd_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 2472
+SHA256sum: 6125b0dec588fa32fbacf56b0441787daf142b31a7d31d941913a247f0b02e0d
+Description:  This package allows to pass the PAP/CHAP secret from a filedescriptor.
+ Eliminates the need for a secrets file.
+
+Package: ppp-mod-pppoa
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, linux-atm, kmod-pppoa
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pppoa
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7047
+Filename: ppp-mod-pppoa_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 7807
+SHA256sum: b03ae8586a37a35c4cbb43f41f6d88f540aac04ccf0d60665851a2a1ab092a22
+Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-pppoe
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pppoe
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11351
+Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 12033
+SHA256sum: d82045fbdd657eb8ee37e66828b3e93a3b6d16321a967949f59439567ee5239a
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp-mod-pppol2tp
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-pppol2tp
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pppol2tp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5010
+Filename: ppp-mod-pppol2tp_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 5668
+SHA256sum: 8031f697ef586066b3d83cdcb5ef3b9174c7b40039427e2150405181bf9b6635
+Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
+
+Package: ppp-mod-pptp
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-pptp, kmod-mppe, resolveip
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-pptp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 18405
+Filename: ppp-mod-pptp_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 19095
+SHA256sum: ead668f1491ae8a7d6ffee25211d899b6aa6858a9b9cc2c1925eb609b709b3a7
+Description:  This package contains a PPtP plugin for ppp.
+
+Package: ppp-mod-radius
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-mod-radius
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 24396
+Filename: ppp-mod-radius_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 25186
+SHA256sum: 43b036ee77542566464b5081330a3936b7039ce4ec31de795ea97d4967e90ccd
+Description:  This package contains a RADIUS (Remote Authentication Dial-In User Service)
+ plugin for ppp.
+
+Package: ppp-multilink
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-ppp
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp-multilink
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 151569
+Filename: ppp-multilink_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 152003
+SHA256sum: dd3d57b0af4b4ab08e3a09f5e84bf2babbb9da4100ceab89f35180490c96dadd
+Description:  PPP daemon (with multilink support)
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-ppp
+Source: feeds/base/package/network/services/ppp
+SourceName: ppp
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 137098
+Filename: ppp_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 137533
+SHA256sum: cd871fb4086fa5bd85032bea0f2c6f05efb246d9eeb918835439a33443ffb69e
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: pppdump
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: pppdump
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 14318
+Filename: pppdump_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 14929
+SHA256sum: 320bbf7a5797a638621f1ef77f40e23aa8f72a37cdfef85138361d7dcab43cf5
+Description:  This package contains an utility to read PPP record file.
+
+Package: pppoe-discovery
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, ppp-mod-pppoe
+Source: feeds/base/package/network/services/ppp
+SourceName: pppoe-discovery
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7139
+Filename: pppoe-discovery_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 7932
+SHA256sum: 86994ffdf677118badff0a5e783831bb3a0531c980c2e78c5e220e93202434b9
+Description:  This tool performs the same discovery process as pppoe, but does
+ not initiate a session. Can be useful to debug pppoe.
+
+Package: pppstats
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc
+Source: feeds/base/package/network/services/ppp
+SourceName: pppstats
+License: BSD-4-Clause
+Section: net
+SourceDateEpoch: 1679419702
+CPE-ID: cpe:/a:samba:ppp
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4567
+Filename: pppstats_2.4.9.git-2021-01-04-4_aarch64_cortex-a53.ipk
+Size: 5202
+SHA256sum: 577f62bd2868f9c76d78abfe53acecdbfb6647c3df343acc4194457dc8d5cbea
+Description:  This package contains an utility to report PPP statistics.
+
 Package: prlimit
 Version: 2.39-2
 Depends: libc, libsmartcols1
@@ -2587,6 +3366,24 @@ SHA256sum: 44ea507bc47954d232ac2f2272a76153222209b60bc85d76cd00a21655cfb776
 Description:  rev utility copies the specified files to the standard output, reversing the
  order of characters in every line. If no files are specified, the standard
  input is read.
+
+Package: rpcapd
+Version: 1.10.4-1
+Depends: libc, libpcap1
+Source: feeds/base/package/libs/libpcap
+SourceName: rpcapd
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1695847021
+CPE-ID: cpe:/a:tcpdump:libpcap
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 125935
+Filename: rpcapd_1.10.4-1_aarch64_cortex-a53.ipk
+Size: 126477
+SHA256sum: 09d4bf4648ee0f1da3ef825e1353bcdad77f40f8fea84c56a0945902bb7c46b5
+Description:  Capture daemon to be controlled by a remote libpcap application
 
 Package: rpcd-mod-file
 Version: 2023-07-01-c07ab2f9-1
@@ -3141,6 +3938,73 @@ SHA256sum: e78408c12e86b5c93002309474a6d9bb4052daf24dd627a8bc7bd40bc0132ac8
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: uhttpd-mod-lua
+Version: 2023-06-25-34a8a74d-1
+Depends: libc, uhttpd, liblua5.1.5
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-lua
+License: ISC
+Section: net
+SourceDateEpoch: 1687726250
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4056
+Filename: uhttpd-mod-lua_2023-06-25-34a8a74d-1_aarch64_cortex-a53.ipk
+Size: 4698
+SHA256sum: cd85a79d25083b73edb5965f677011c28f7275aa02603ed46e208fedfd8a8670
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd-mod-ubus
+Version: 2023-06-25-34a8a74d-1
+Depends: libc, uhttpd, libubus20230605, libblobmsg-json20230523
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-ubus
+License: ISC
+Section: net
+SourceDateEpoch: 1687726250
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8690
+Filename: uhttpd-mod-ubus_2023-06-25-34a8a74d-1_aarch64_cortex-a53.ipk
+Size: 9435
+SHA256sum: 523ea3daa982cef164f43dafcc0497d202f73eedf7166c6b8121c8ae3c296e0c
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd-mod-ucode
+Version: 2023-06-25-34a8a74d-1
+Depends: libc, uhttpd, libucode20230711
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd-mod-ucode
+License: ISC
+Section: net
+SourceDateEpoch: 1687726250
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 5066
+Filename: uhttpd-mod-ucode_2023-06-25-34a8a74d-1_aarch64_cortex-a53.ipk
+Size: 5679
+SHA256sum: b2703135c9c7467901ca78514761982097ed7777ea5e80e30f5c70e10c921494
+Description:  The ucode plugin adds a CGI-like ucode runtime interface to uHTTPd.
+
+Package: uhttpd
+Version: 2023-06-25-34a8a74d-1
+Depends: libc, libubox20230523, libblobmsg-json20230523, libjson-script20230523, libjson-c5
+Source: feeds/base/package/network/services/uhttpd
+SourceName: uhttpd
+License: ISC
+Section: net
+SourceDateEpoch: 1687726250
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30799
+Filename: uhttpd_2023-06-25-34a8a74d-1_aarch64_cortex-a53.ipk
+Size: 31662
+SHA256sum: 81f70b1e6002b9bb1b0cae24955c51a685cf12753e330b2e98f3969ead37cd41
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
 Package: unshare
 Version: 2.39-2
 Depends: libc, librt
@@ -3267,6 +4131,22 @@ SHA256sum: 897554f5a5de7366383cacae51e895c11c8d6d872728d209c3f3d08bd3d95764
 Description:  wipefs can erase filesystem, raid or partition table signatures (magic
  strings) from the specified device to make the signature invisible for
  libblkid.
+
+Package: wwan
+Version: 2019-04-29-6
+Depends: libc
+Source: feeds/base/package/network/utils/wwan
+SourceName: wwan
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1684413124
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10025
+Filename: wwan_2019-04-29-6_aarch64_cortex-a53.ipk
+Size: 9855
+SHA256sum: e00a537ba24318d0aad119e62a96c03eccc1bac9c774a9dfd7b7eabdb62cec96
+Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib-dev
 Version: 1.2.13-1

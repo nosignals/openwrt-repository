@@ -1675,6 +1675,70 @@ Size: 34730
 SHA256sum: 94a3c2fde2f48e767e322b1a50422845a3c423def4e0bb94679beaea67bc9f15
 Description:  NIXIO POSIX library
 
+Package: luci-mod-admin-full
+Version: git-19.253.48496-3f93650
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+Source: feeds/luci/modules/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1568122096
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 95
+Filename: luci-mod-admin-full_git-19.253.48496-3f93650_all.ipk
+Size: 960
+SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-23.093.42704-52965f4
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+Source: feeds/luci/modules/luci-mod-network
+SourceName: luci-mod-network
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1680522704
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51459
+Filename: luci-mod-network_git-23.093.42704-52965f4_all.ipk
+Size: 52418
+SHA256sum: 1bc46096de72c32d72c5367a368409ee0f54d41809a3507c7dddb6c784cb9702
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-23.093.42411-713f701
+Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
+Source: feeds/luci/modules/luci-mod-status
+SourceName: luci-mod-status
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1680522411
+Maintainer: OpenWrt LuCI community
+Architecture: aarch64_generic
+Installed-Size: 35470
+Filename: luci-mod-status_git-23.093.42411-713f701_aarch64_generic.ipk
+Size: 36409
+SHA256sum: 59ba7c03d417c0d4a146963f3851ac71338aa0a257979942e83cc98eb364c748
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-23.013.73113-588381e
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-system
+SourceName: luci-mod-system
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1673641113
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 18519
+Filename: luci-mod-system_git-23.013.73113-588381e_all.ipk
+Size: 19420
+SHA256sum: adb89c16d7730289eccbcba99bb79679cf570c49f066e2d1d1c4c047f21816c7
+Description:  LuCI Administration - Global System Settings
+
 Package: rpcd-mod-luci
 Version: 20210614
 Depends: libc, rpcd, libubox20220515, libubus20220601, libnl-tiny1

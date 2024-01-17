@@ -25,6 +25,331 @@ Size: 25321
 SHA256sum: 5ed123668114b01f175ec00498032fad9f616bbbe41602d263927fd63f457797
 Description:  ar
 
+Package: atm-aread
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1792
+Filename: atm-aread_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2544
+SHA256sum: 82f60aae9c6a6c01c450b23f0365c6e19b2d8f9f4599f2f8891622f5b7d60299
+Description:  Linux ATM tool aread.
+
+Package: atm-atmaddr
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1996
+Filename: atm-atmaddr_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2747
+SHA256sum: b0a86cf37efa6ccaf8b9fbed52fbaf408502470fd7b2f70ed1dc792fbd81556f
+Description:  Linux ATM tool atmaddr.
+
+Package: atm-atmdiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1660
+Filename: atm-atmdiag_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2416
+SHA256sum: c7842421ff599f7a0c9b727343faf570fc3fc4af64d317dd68fb8d64a36e7ea2
+Description:  Linux ATM tool atmdiag.
+
+Package: atm-atmdump
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2724
+Filename: atm-atmdump_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3448
+SHA256sum: 2c3080887bcb12bdd0fc36c3dfca949ea11206ca457aed0942a8299b7a55e10e
+Description:  Linux ATM tool atmdump.
+
+Package: atm-atmloop
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2084
+Filename: atm-atmloop_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2845
+SHA256sum: 1f22820702e81fb14f08d57581659af4b046c6fac063260e854199434cdd07ff
+Description:  Linux ATM tool atmloop.
+
+Package: atm-atmsigd
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 71522
+Filename: atm-atmsigd_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 72032
+SHA256sum: be2669f0649174fdc9840defa282c86ddd590259b34baa898de07798e40f5597
+Description:  Linux ATM tool atmsigd.
+
+Package: atm-atmswitch
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2428
+Filename: atm-atmswitch_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3145
+SHA256sum: f8f231866261249762316dbc7ad128c015d6f1634e2655662036ebd9b2b904ad
+Description:  Linux ATM tool atmswitch.
+
+Package: atm-atmtcp
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7630
+Filename: atm-atmtcp_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8418
+SHA256sum: 9aa4dcec3a55fb0ffcc022b7f41b42f0724b66a076c904ae3bfb206d10c80c3f
+Description:  Linux ATM tool atmtcp.
+
+Package: atm-awrite
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1617
+Filename: atm-awrite_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2375
+SHA256sum: eba638e96bce03e7d704bf5f51e23195022f3248f23c45c47ca005add4bb48cf
+Description:  Linux ATM tool awrite.
+
+Package: atm-bus
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17775
+Filename: atm-bus_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18558
+SHA256sum: 0ddd4a933a4b9b48bb56cfb215c5beb205a79511515312c8c9d98742c768a084
+Description:  Linux ATM tool bus.
+
+Package: atm-debug-tools
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 226834
+Filename: atm-debug-tools_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 227058
+SHA256sum: e6863dc2bdd7c78e2a59c3714d337912454a9a6b6a22f92e07c9c870fd162174
+Description:  This package contains the Linux ATM debugging tools.
+
+Package: atm-diagnostics
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5646
+Filename: atm-diagnostics_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6386
+SHA256sum: 8b6ca18f150cd0caaa0498fcc6e613df6a9afc1028fdb4ccd29271ea047aa17f
+Description:  This package contains the Linux ATM diagnostics.
+
+Package: atm-esi
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1734
+Filename: atm-esi_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2492
+SHA256sum: edcc1794f2277edc1e8e2715bef5bc18e8fbe0274fbfe465846f833f5cb4cb5d
+Description:  Linux ATM tool esi.
+
+Package: atm-ilmid
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21044
+Filename: atm-ilmid_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21805
+SHA256sum: 577872b644c51e0f0efebd804ea4de923639bd6d19699d7a3449c2c3c9e3aeaf
+Description:  Linux ATM tool ilmid.
+
+Package: atm-ilmidiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1995
+Filename: atm-ilmidiag_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2750
+SHA256sum: 9f628b0508b39574b824124e2c9fbc1181a03b44fcd4052bbebb5dadff9f9802
+Description:  Linux ATM tool ilmidiag.
+
+Package: atm-lecs
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9767
+Filename: atm-lecs_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10473
+SHA256sum: 237dbd15b291ed2441e682faec4d996085b87684a4d87855f53e904257dbd30a
+Description:  Linux ATM tool lecs.
+
+Package: atm-les
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21192
+Filename: atm-les_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21938
+SHA256sum: c058d1dce46171b0c53039cf2c22623064862bfe32e55cd9d8176fa71dac46ff
+Description:  Linux ATM tool les.
+
+Package: atm-mpcd
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14149
+Filename: atm-mpcd_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14842
+SHA256sum: 1707ba7017d476c1a81da6a42193be11c308d177b3856fb7f20732a7760cec86
+Description:  Linux ATM tool mpcd.
+
+Package: atm-saaldump
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25311
+Filename: atm-saaldump_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25920
+SHA256sum: 0239b29aea28c1aaeb643b1835e6940afd8e7f44611a213323c19ee2173901eb
+Description:  Linux ATM tool saaldump.
+
+Package: atm-sonetdiag
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2091
+Filename: atm-sonetdiag_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2849
+SHA256sum: 587ef2e3b54ad6821e3799c0380b5fca2ed9b2524e76743d48e25d2d6a6c8f60
+Description:  Linux ATM tool sonetdiag.
+
+Package: atm-svc_recv
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2255
+Filename: atm-svc_recv_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3016
+SHA256sum: 4f91b82e46c569b5348bc5ab59948cae60bea2dcb7363c365ab8bdcaddb05b37
+Description:  Linux ATM tool svc_recv.
+
+Package: atm-svc_send
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1943
+Filename: atm-svc_send_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2697
+SHA256sum: 6b1d6823ca17c3c009359527d84f15499342cfe5c5a76540c7afae31b226eeb4
+Description:  Linux ATM tool svc_send.
+
+Package: atm-tools
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17818
+Filename: atm-tools_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18573
+SHA256sum: 60cdc1e47acd26f95da05f5326d81c758abe7f07bf59ce299a7eafba8eff29fe
+Description:  This package contains the Linux ATM tools.
+
+Package: atm-ttcp_atm
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7888
+Filename: atm-ttcp_atm_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8639
+SHA256sum: 0899a732230058fd1fff9d2364bc2b3226de83fb93165e88481c558972550c3c
+Description:  Linux ATM tool ttcp_atm.
+
+Package: atm-zeppelin
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20787
+Filename: atm-zeppelin_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21516
+SHA256sum: fcdcceba0523bda4bfa024ea7a43e8c34f336b69559d2f1d1d07d7a3ffe697ae
+Description:  Linux ATM tool zeppelin.
+
 Package: badblocks
 Version: 1.46.5-2
 Depends: libc, e2fsprogs
@@ -124,6 +449,19 @@ Size: 147126
 SHA256sum: e1f454e43344b786786602878aac497e140e511061070cd98dca280845167111
 Description:  A tool for inspection and simple manipulation of eBPF programs and maps.
 
+Package: br2684ctl
+Version: 2.5.2-7
+Depends: libc, linux-atm
+License: GPL-2.0+
+Section: net
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4907
+Filename: br2684ctl_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5691
+SHA256sum: 4f06b81b2c809ea94f5a3aa0a1e00505ddbdb5960ad61f768a500063e64cbf45
+Description:  Support for AAL5 encapsulation (RFC-1483/RFC-2684) over ATM.
+
 Package: bzip2
 Version: 1.0.8-1
 Depends: libc, libbz2-1.0
@@ -187,6 +525,20 @@ Filename: cfdisk_2.37.4-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 37315
 SHA256sum: 660376d716bfd50216a3b323e9d201c3249adcebcca4dcf498f0927f953f23d6
 Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8944
+Filename: chat_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9736
+SHA256sum: 890d0f1af86dc9a1a7bf28709f28ba8e0ddb01fb387c184b4bda9c87bf46c09d
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
 
 Package: chattr
 Version: 1.46.5-2
@@ -1373,6 +1725,21 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  general-purpose cryptography library.
  This package contains the OpenSSL shared libraries, needed by other programs.
 
+Package: libpcap1
+Version: 1.10.1-1
+Depends: libc
+Provides: libpcap
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 104889
+Filename: libpcap1_1.10.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 105578
+SHA256sum: 6c6fb4a0c0c7c44cd4f1a818d37146ec2b2c385648ac84847756f37bc0d680a1
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
 Package: libpcre16
 Version: 8.45-1
 Depends: libc
@@ -1568,6 +1935,50 @@ Size: 65389
 SHA256sum: 14d3c3d737a48c16ae8cfb1948cb8ff86e670b2c3a9295ce3feee1a5ea76529e
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
+Package: libustream-mbedtls20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libmbedtls12
+Conflicts: libustream-openssl, libustream-wolfssl
+Provides: libustream-mbedtls
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3677
+Filename: libustream-mbedtls20201210_2022-12-08-9217ab46-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4428
+SHA256sum: 0ef491f78ee55ef60556e70665912a07e7edebaa967a24bb5a02410b65b18d10
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libopenssl1.1
+Provides: libustream-openssl
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3897
+Filename: libustream-openssl20201210_2022-12-08-9217ab46-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4673
+SHA256sum: 5b65a81bd6bb1d29f477899854949802031f4a7d6baa3bfe223d8f947f453ae4
+Description:  ustream SSL Library (openssl)
+
+Package: libustream-wolfssl20201210
+Version: 2022-12-08-9217ab46-2
+Depends: libc, libubox20220515, libwolfssl5.5.4.ee39414e
+Conflicts: libustream-openssl
+Provides: libustream-wolfssl
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3489
+Filename: libustream-wolfssl20201210_2022-12-08-9217ab46-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4277
+SHA256sum: d027fe027f3a0a13957f09d1bc20b0e49458ccd41ee67e0be7fba232e553e1a3
+Description:  ustream SSL Library (wolfssl)
+
 Package: libuuid1
 Version: 2.37.4-1
 Depends: libc, librt
@@ -1585,6 +1996,48 @@ Description:  The UUID library is used to generate unique identifiers for object
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libwolfssl-benchmark
+Version: 5.5.4-stable-1
+Depends: libc, libwolfssl5.5.4.ee39414e
+License: GPL-2.0-or-later
+Section: libs
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19610
+Filename: libwolfssl-benchmark_5.5.4-stable-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20388
+SHA256sum: 179e0a93bf548014db3b8bbd779d5a6a4b98b33b2d971c376eae9f6424c98b30
+Description:  This is the wolfssl benchmark utility.
+
+Package: libwolfssl5.5.4.ee39414e
+Version: 5.5.4-stable-1
+Depends: libc
+Provides: libcyassl, libwolfssl, libcyassl5.5.4.ee39414e
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 5.5.4.ee39414e
+CPE-ID: cpe:/a:wolfssl:wolfssl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 479718
+Filename: libwolfssl5.5.4.ee39414e_5.5.4-stable-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 476639
+SHA256sum: a75626b77914f9407cee60dc4ad5624323f670afd73167b9a8777447d0fa6e59
+Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
+ footprint, both on disk and for memory use.
+
+Package: linux-atm
+Version: 2.5.2-7
+Depends: libc
+License: GPL-2.0+
+Section: libs
+CPE-ID: cpe:/a:linux-atm:linux-atm
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15444
+Filename: linux-atm_2.5.2-7_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16177
+SHA256sum: 8aeae63cc3f778b8dce28ecbd46303aa29883b4e7ad22f54b17b967d2e938971
+Description:  This package contains a library for accessing the Linux ATM subsystem.
 
 Package: logd
 Version: 2021-08-03-205defb5-2
@@ -1958,6 +2411,152 @@ Size: 48202
 SHA256sum: 0c0bad441e2c3ada4d7fa9021325e6a37b04db9ee409ec8c45b9b215c70b3f79
 Description:  contains partx, addpart, delpart
 
+Package: ppp-mod-passwordfd
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1377
+Filename: ppp-mod-passwordfd_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2230
+SHA256sum: c133d375e535efdcdaec9f710f203a7496c4f1ae944027125ddc8770d3d731ad
+Description:  This package allows to pass the PAP/CHAP secret from a filedescriptor.
+ Eliminates the need for a secrets file.
+
+Package: ppp-mod-pppoa
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, linux-atm, kmod-pppoa
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5960
+Filename: ppp-mod-pppoa_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6788
+SHA256sum: a149817ab02bbc6956e7b43b858de6fa7eeaa884ecfa57f161e6f8765aaae62e
+Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10303
+Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11120
+SHA256sum: cf5b7555baea80cda70805fb4b2ecb74380c329c4bf459bb624a0a7dc432e5cb
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp-mod-pppol2tp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pppol2tp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4536
+Filename: ppp-mod-pppol2tp_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5331
+SHA256sum: 5c93e0f060133bf9e90816351e3b6fa927b3d2a4172edd25efff42499bbc8a8a
+Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
+
+Package: ppp-mod-pptp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-pptp, kmod-mppe, resolveip
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 17252
+Filename: ppp-mod-pptp_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 18096
+SHA256sum: 8b20eedb3adcf3b5604a5e8572e63d9bdd7fd670c4b3bd4e277a4b5d6bcd869b
+Description:  This package contains a PPtP plugin for ppp.
+
+Package: ppp-mod-radius
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22326
+Filename: ppp-mod-radius_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23192
+SHA256sum: 348380aa20124c238196632f88952e3e4dade9eda32b13052ae13dd22aaa5741
+Description:  This package contains a RADIUS (Remote Authentication Dial-In User Service)
+ plugin for ppp.
+
+Package: ppp-multilink
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 136687
+Filename: ppp-multilink_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 136733
+SHA256sum: a5f3464211eca9ebc19743e72c8651db71c943642ad7d68e05619592033208b1
+Description:  PPP daemon (with multilink support)
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 123914
+Filename: ppp_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 124405
+SHA256sum: 93f7930da93346f9f004fd8295c51d0e37e0039f2903bbeb354a17243c8016ef
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: pppdump
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13220
+Filename: pppdump_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14024
+SHA256sum: 48c1389722c0eb6f1a838c34071e6a084a592e2e9c79349b53845c1dd7466cdc
+Description:  This package contains an utility to read PPP record file.
+
+Package: pppoe-discovery
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc, ppp-mod-pppoe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6451
+Filename: pppoe-discovery_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7336
+SHA256sum: 9c7a3a7b356008c6627655897906e19989a28d1031ed49f3e98de5aaf8a1bd4c
+Description:  This tool performs the same discovery process as pppoe, but does
+ not initiate a session. Can be useful to debug pppoe.
+
+Package: pppstats
+Version: 2.4.9.git-2021-01-04-3
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4463
+Filename: pppstats_2.4.9.git-2021-01-04-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5237
+SHA256sum: 1e12e7c9e4d2c5b69d55f59a72cb44258f2e6d185c5fee23869c8b7ea13a69e5
+Description:  This package contains an utility to report PPP statistics.
+
 Package: prlimit
 Version: 2.37.4-1
 Depends: libc, libsmartcols1
@@ -2027,6 +2626,18 @@ Description:  This package contains the small resolveip utility which
  IP addresses. It supports IPv4 and IPv6 resolving and
  has a configurable timeout to guarantee a certain maximum
  runtime in case of slow or defunct DNS servers.
+
+Package: rpcapd
+Version: 1.10.1-1
+Depends: libc, libpcap1
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 112422
+Filename: rpcapd_1.10.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 113081
+SHA256sum: 12e744998b328265d2907a30eff9b41190b7f1aa6b32ee07a9e1ede32363cfcb
+Description:  Capture daemon to be controlled by a remote libpcap application
 
 Package: rpcd-mod-file
 Version: 2022-12-15-7de4820c-1
@@ -2425,6 +3036,57 @@ SHA256sum: 4a5eef1b249f4a29a5462924e8e561b7b3b5b81ac3a359df1502d2c52c83b882
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
+Package: uhttpd-mod-lua
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, liblua5.1.5
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3382
+Filename: uhttpd-mod-lua_2022-10-31-23977554-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4148
+SHA256sum: a5fd05744a3b998b9fc6d1fc779d2caaa98488a1ffa91b55eabebf5def7aacc1
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd-mod-ubus
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7422
+Filename: uhttpd-mod-ubus_2022-10-31-23977554-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8277
+SHA256sum: 2b63e012fa0e69566cf10b3a1df0fdd887edd5bb9eceeb34592a45f7155395eb
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd-mod-ucode
+Version: 2022-10-31-23977554-1
+Depends: libc, uhttpd, libucode20220812
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4281
+Filename: uhttpd-mod-ucode_2022-10-31-23977554-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5062
+SHA256sum: d5da5ca2ff56508075c492437f89816091be847b4a002a4b6189ffda1ab22276
+Description:  The ucode plugin adds a CGI-like ucode runtime interface to uHTTPd.
+
+Package: uhttpd
+Version: 2022-10-31-23977554-1
+Depends: libc, libubox20220515, libblobmsg-json20220515, libjson-script20220515, libjson-c5
+License: ISC
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26270
+Filename: uhttpd_2022-10-31-23977554-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26999
+SHA256sum: 205df42ba3d7a83a78f1aa4905dde9aded8e711c15f2db8fcf5b967f949950aa
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
 Package: unshare
 Version: 2.37.4-1
 Depends: libc, librt
@@ -2523,6 +3185,18 @@ SHA256sum: 97c9ccf49e74b3cb43005b1bbe73ea0c5a00d83e8736e104c28b4eb3583ca688
 Description:  wipefs can erase filesystem, raid or partition table signatures (magic
  strings) from the specified device to make the signature invisible for
  libblkid.
+
+Package: wwan
+Version: 2019-04-29-5
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9977
+Filename: wwan_2019-04-29-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9828
+SHA256sum: 5ce84f23de5498e093fac4c4324d6ee52b8785dacfb7e33752a6dac8775e16b9
+Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib-dev
 Version: 1.2.11-6

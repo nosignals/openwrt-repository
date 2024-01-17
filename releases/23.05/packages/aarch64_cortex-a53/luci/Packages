@@ -1306,6 +1306,54 @@ Size: 31371
 SHA256sum: ea6179852f3e690294840bb357ff90a63f94bac937a79a215f855781bb3c28e3
 Description:  LuCI Lua runtime libraries
 
+Package: luci-mod-admin-full
+Version: git-19.253.48496-3f93650
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 95
+Filename: luci-mod-admin-full_git-19.253.48496-3f93650_all.ipk
+Size: 960
+SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-23.313.56166-6da284d
+Depends: libc, luci-base, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 52968
+Filename: luci-mod-network_git-23.313.56166-6da284d_all.ipk
+Size: 53938
+SHA256sum: 8ee926d9f4a416571440eb74873955ecef6435671fdcedbf8d82afa791eedfdb
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-23.306.52197-bdcd3e0
+Depends: libc, luci-base, libiwinfo20230701, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 37810
+Filename: luci-mod-status_git-23.306.52197-bdcd3e0_aarch64_cortex-a53.ipk
+Size: 38532
+SHA256sum: d4e53d861fcde02978892fe303d4bb30e9b050ce775332bb07b88c537fba904e
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-23.306.39416-7d3abf8
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 17626
+Filename: luci-mod-system_git-23.306.39416-7d3abf8_all.ipk
+Size: 18498
+SHA256sum: 62bbbb33da30f6922d0cfaed43a01e58194f482514d54b3d34bcec1f4be77492
+Description:  LuCI Administration - Global System Settings
+
 Package: rpcd-mod-luci
 Version: 20230123-1
 Depends: libc, rpcd, libubox20230523, libubus20230605, libnl-tiny1

@@ -3731,6 +3731,22 @@ Size: 48241
 SHA256sum: 2e4320594481c0939e9b3c88de22d16e8b9f096c2feb5663077532af4c296a2c
 Description:  A C library for reading, creating, and modifying zip archives.
 
+Package: luabitop
+Version: 1.0.2-1
+Depends: libc, liblua5.1.5
+Source: feeds/packages/lang/luabitop
+SourceName: luabitop
+License: MIT
+Section: lang
+SourceDateEpoch: 1504068074
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2481
+Filename: luabitop_1.0.2-1_aarch64_cortex-a53.ipk
+Size: 3138
+SHA256sum: b1b2c1a7e28d5b1f54b8da5561f918128fcff54356661ab430586b3177985862
+Description:  Lua BitOp is a C extension module for Lua 5.1/5.2 which adds bitwise operations on numbers.
+
 Package: microsocks
 Version: 1.0.3-1
 Depends: libc
@@ -3749,6 +3765,97 @@ SHA256sum: 3afc66bb34d5737938e74ac48a7534cb5debfc99a9f47eada3db60795f5cb0ca
 Description:  Low resource SOCKS5 proxy.
  Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
 
+Package: msmtp-mta
+Version: 1.8.24-1
+Depends: libc, msmtp
+Alternatives: 100:/usr/sbin/sendmail:/usr/bin/msmtp, 100:/usr/lib/sendmail:/usr/bin/msmtp
+Source: feeds/packages/mail/msmtp
+SourceName: msmtp-mta
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: mail
+SourceDateEpoch: 1695335290
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 147
+Filename: msmtp-mta_1.8.24-1_aarch64_cortex-a53.ipk
+Size: 1132
+SHA256sum: 02a283a5450549e330177b4c23b13c100f3753632ca8518d3198679c74ef5624
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package add a link from sendmail to msmtp
+ and is built with SSL support.
+
+Package: msmtp-nossl
+Version: 1.8.24-1
+Depends: libc
+Provides: msmtp
+Source: feeds/packages/mail/msmtp
+SourceName: msmtp-nossl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: mail
+SourceDateEpoch: 1695335290
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 46154
+Filename: msmtp-nossl_1.8.24-1_aarch64_cortex-a53.ipk
+Size: 46876
+SHA256sum: 00886259ffa8094799680aba9099d3cd576e564b2a676968dc76ce3c5e68a37c
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built without SSL support.
+
+Package: msmtp-queue
+Version: 1.8.24-1
+Depends: libc, bash, msmtp
+Source: feeds/packages/mail/msmtp
+SourceName: msmtp-queue
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: mail
+SourceDateEpoch: 1695335290
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 9191
+Filename: msmtp-queue_1.8.24-1_aarch64_cortex-a53.ipk
+Size: 10143
+SHA256sum: fd013938bbad9b75a257a7ff8156406b26e51b07053ef00749f156066bc6cf7a
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package contains the msmtp queue scripts.
+
+Package: msmtp
+Version: 1.8.24-1
+Depends: libc, libgnutls, ca-bundle
+Source: feeds/packages/mail/msmtp
+SourceName: msmtp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: mail
+SourceDateEpoch: 1695335290
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: aarch64_cortex-a53
+Installed-Size: 50799
+Filename: msmtp_1.8.24-1_aarch64_cortex-a53.ipk
+Size: 51592
+SHA256sum: 15371a331115d9fbd708ff6d2c8841e63e27f22459d602d6f2656c6d4cc3b80e
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
 Package: mwan3
 Version: 2.11.8-1
 Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
@@ -3766,6 +3873,25 @@ SHA256sum: 22915dcdbd0be6d1e58a842042a71a6eb94fb129e6bdd3a09fc2d3c86322a5df
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
  and manageable. With loadbalancing/failover support for up to 250 wan
  interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nail
+Version: 12.5-5
+Depends: libc, libopenssl3
+Source: feeds/packages/mail/nail
+SourceName: nail
+License: BSD-2-Clause
+Section: mail
+SourceDateEpoch: 1613865735
+Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
+Architecture: aarch64_cortex-a53
+Installed-Size: 157570
+Filename: nail_12.5-5_aarch64_cortex-a53.ipk
+Size: 158128
+SHA256sum: 115d765e38314f776afbaee25cc19707f3fbd2c0497fa851029396b2a2326176
+Description:  Heirloom mailx (formerly known as "nail") is intended provide
+ the functionality of the POSIX mailx command with additional
+ support for MIME messages, IMAP (including caching), POP3,
+ SMTP, S/MIME, message threading/sorting, scoring, and filtering
 
 Package: nlbwmon
 Version: 2021-09-01-d82c910c-1
@@ -7587,6 +7713,80 @@ SHA256sum: 9df91c324d2c00d6efd6896a7c7af06825bbc27c223b4a69908a64f179b81b1f
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
+Package: smartd-mail
+Version: 7.3-2
+Depends: libc, smartd, nail, msmtp-mta
+Source: feeds/packages/utils/smartmontools
+SourceName: smartd-mail
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: all
+Installed-Size: 2427
+Filename: smartd-mail_7.3-2_all.ipk
+Size: 3223
+SHA256sum: 1c1d5b4a3090f155cfdeb260a62d4839c53229490b41695ab859f6e8b5b1f4c8
+Description:  A script for mailing about SMART issues
+
+Package: smartd
+Version: 7.3-2
+Depends: libc, libstdcpp6
+Source: feeds/packages/utils/smartmontools
+SourceName: smartd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 145866
+Filename: smartd_7.3-2_aarch64_cortex-a53.ipk
+Size: 146649
+SHA256sum: 32d66d5be65c18b28924bdc88c61d6a9bfd39c9cab02ecd0aaa061a93759b924
+Description:  smartmontools contains utility programs (smartd) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: smartmontools-drivedb
+Version: 7.3-2
+Depends: libc
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools-drivedb
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: all
+Installed-Size: 54132
+Filename: smartmontools-drivedb_7.3-2_all.ipk
+Size: 54982
+SHA256sum: 900bc82f95b15cda1fb49987d751f66256b3e03993c29105ec360b2defc19a93
+Description:  Database of known drives and USB bridges for smartctl and smartd.
+
+Package: smartmontools
+Version: 7.3-2
+Depends: libc, libstdcpp6
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 230609
+Filename: smartmontools_7.3-2_aarch64_cortex-a53.ipk
+Size: 231411
+SHA256sum: 707b803d263113fc5b95abb1765d6f8910b9d5f8624ae4d93a456b71d18d38ff
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
 Package: snmp-mibs
 Version: 5.9.1-7
 Depends: libc
@@ -7684,6 +7884,29 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  IPv4 and IPv6.
  .
  This package contains the SNMP notification receiver.
+
+Package: socat
+Version: 1.7.4.4-1
+Depends: libc, libpthread, librt
+Source: feeds/packages/net/socat
+SourceName: socat
+License: GPL-2.0-or-later OpenSSL
+LicenseFiles: COPYING COPYING.OpenSSL
+Section: net
+SourceDateEpoch: 1673741423
+CPE-ID: cpe:/a:dest-unreach:socat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 107732
+Filename: socat_1.7.4.4-1_aarch64_cortex-a53.ipk
+Size: 108518
+SHA256sum: a2b2d8498f8d0b2817e4c301ab1aa2594bdf90084906c901fa7d09ff13e7a0e7
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
 
 Package: sqlite3-cli
 Version: 3410200-1
