@@ -125,7 +125,7 @@ end
 s = SimpleForm("openclash")
 s.reset = false
 s.submit = false
-s:section(SimpleSection).template  = "openclash/myip"
+-- s:section(SimpleSection).template  = "openclash/myip"
 
 local t = {
     {enable, disable}
@@ -156,7 +156,7 @@ o.write = function()
 end
 
 d = SimpleForm("openclash")
-d.title = translate("Credits")
+d.title = translate("")
 d.reset = false
 d.submit = false
 d:section(SimpleSection).template  = "openclash/developer"
