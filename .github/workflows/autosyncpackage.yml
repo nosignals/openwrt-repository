@@ -82,6 +82,13 @@ jobs:
         git_clone https://github.com/muink/luci-app-tinyfilemanager luci-app-tinyfilemanager
         git_clone https://github.com/rtaserver/luci-app-cloudflared luci-app-cloudflared
         )
+    
+    - name: Run Patch File
+      working-directory: ./.github/patch
+      run: |
+        echo "Patch OpenClash."
+        sh patch-oc.sh
+
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_options: '--no-verify --signoff'
