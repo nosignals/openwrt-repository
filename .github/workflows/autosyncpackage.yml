@@ -42,14 +42,14 @@ jobs:
             fi
             mv -n $2-new/* ./$2
             rm -fr $2-new
-            sed -i "/usign/ {/$2/! s/$/ $2/}" '../list_packages.txt'
+            sed -i "/usign/ {/$2/! s/$/ $2/}" '../../list_packages.txt'
           else
             git clone --depth 1 $1
           fi
         }
         function git_clone2() {
           git clone --depth 1 $1
-          sed -i "/usign/ {/$2/! s/$/ $2/}" '../list_packages.txt'
+          sed -i "/usign/ {/$2/! s/$/ $2/}" '../../list_packages.txt'
         }
 
         # Tutor Singkat Nambahin App Dari Repo Lain
