@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # patch openclash
-STATUS="../../feeds/luci-app-openclash/luasrc/view/openclash/status.htm"
-DEV="../../feeds/luci-app-openclash/luasrc/view/openclash/developer.htm"
-MYIP="../../feeds/luci-app-openclash/luasrc/view/openclash/myip.htm"
-IMG="../../feeds/luci-app-openclash/root/www//luci-static/resources/openclash/img"
-CLIENT="../../feeds/luci-app-openclash/luasrc/model/cbi/openclash/client.lua"
-CONT="../../feeds/luci-app-openclash/luasrc/controller/openclash.lua"
+STATUS="../../feeds/luci/luci-app-openclash/luasrc/view/openclash/status.htm"
+DEV="../../feeds/luci/luci-app-openclash/luasrc/view/openclash/developer.htm"
+MYIP="../../feeds/luci/luci-app-openclash/luasrc/view/openclash/myip.htm"
+IMG="../../feeds/luci/luci-app-openclash/root/www//luci-static/resources/openclash/img"
+CLIENT="../../feeds/luci/luci-app-openclash/luasrc/model/cbi/openclash/client.lua"
+CONT="../../feeds/luci/luci-app-openclash/luasrc/controller/openclash.lua"
 
 [ -f "/www/${IMG}/logo.png" ] && sed -i "s#https://ftp.jaist.ac.jp/pub/sourceforge.jp/storage/g/o/op/openclash/<%=RELEASE_BRANCH%>/img/logo.png#$IMG/logo.png#g" $STATUS
 [ -f "/www/${IMG}/meta.png" ] && sed -i "s#https://ftp.jaist.ac.jp/pub/sourceforge.jp/storage/g/o/op/openclash/<%=RELEASE_BRANCH%>/img/meta.png#$IMG/meta.png#g" $STATUS
